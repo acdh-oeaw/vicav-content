@@ -1,0 +1,3535 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>VICAV Paratexts</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <listPrefixDef>
+            <prefixDef ident="flashcards" matchPattern="(+),(.+),(.+)" replacementPattern="https://cs.acdh.oeaw.ac.at/modules/fcs-aggregator/switch.php?version=1.2&amp;operation=searchRetrieve&amp;query=unit=$1&amp;x-context=$2&amp;startRecord=1&amp;maximumRecords=1000&amp;x-format=$3&amp;x-dataview=kwic,title';"/>            
+        </listPrefixDef>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<div xml:id="vicavMission">
+  <head>Vienna Corpus of Arabic Varieties (VICAV)</head>
+
+  <p>VICAV is an international endeavour aiming at the collection of
+    digital language resources documenting varieties of spoken Arabic.
+    While in principle being open to any type of text, we currently focus
+    on bibliographical data, on so-called <hi rend="italic">language 
+    profiles</hi>, standardised <hi rend="italic">feature lists</hi> 
+    and <hi rend="italic">lexical data</hi>.</p>
+
+  <p>
+    <graphic url="images/tei_banner.jpg" rend="inParagraph"/>
+    VICAV has a strong methodological component focusing on the 
+    development of digital data and tools. A large part of these
+    efforts is concentrated on modelling data and providing documentation
+    for developmental and pedagogical purposes. VICAV is strongly committed 
+    to the <hi rend="italic">Text Encoding Initiative</hi> (TEI). We provide 
+    a <ref target="text:vicavDictionaryEncoding/DICTIONARY ENCODING">detailed 
+    documentation of our lexical data</ref>.   
+  </p>
+      
+  <p>VICAV has been started as a co-operation between the Department of
+    Oriental Studies of the University of Vienna and the Austrian Centre
+    for Digital Humanities of the Austrian Academy of Sciences (ACDH-OeAW).
+    The institutional frame of the project is defined by a repository for 
+    digital research data, a University and a national Academy, all of which 
+    is meant to ensure long-term availability of both data and the 
+    web-interface.</p>
+</div>
+
+<div xml:id="vicavContributors">
+  <head>Contributors</head>
+  <p>The project has been conducted as a co-operation between the
+    Department of Oriental Studies of the University of Vienna and the
+    Austrian Centre of Digital Humanities of the Austrian Academy of
+    Sciences (ACDH-OeAW). This group mof researchers are committed to work
+    in the spirit of Open Access and aim at making freely available for
+    research as many digital language recources as possible.</p>
+
+  <p>VICAV is a collaborative undertaking. We are aiming at serving the
+    community at large and want to be as inclusive as possible. Contact us
+    if you want to participate in our efforts.</p>
+
+  <p>So far the following researchers have contributed to the pool of
+    data.</p>
+
+  <div>
+    <head>Rima Aldoukhi</head>
+    <p>… is a first language speaker of Damascus Arabic and lecturer at
+      the University of Vienna. She has been working extensively on the
+      Damascus dictionary</p>
+  </div>
+
+  <div>
+    <head>Carmen Berlinches Ramos</head>
+    <p>… has a PhD in Arabic Studies from the Complutense University of
+      Madrid and is one of our Damascus specialists. She prepared many
+      entries of the Damascus dictionary.</p>
+  </div>
+
+  <div>
+    <head>Ines Dallaji</head>
+    <p>… is a specialist in Tunisian Arabic, was working on the Tunisian
+      dictionary and provided the language profile of Tunis.</p>
+  </div>
+  <div>
+    <head>Terlan Djavadova</head>
+    <p>… is currently a student assistent at the Institute of Oriental
+      Studies of the University of Vienna. She has been working on several
+      parts of the VICAV website so far, in particular the
+      bibliography.</p>
+  </div>
+
+  <div>
+    <head>Ines Gabsi</head>
+    <p>… is a specialist in Tunisian Arabic and was working on the
+      Tunisian dictionary.</p>
+  </div>
+
+  <div>
+    <head>Charly Mörth</head>
+    <p>… has prepared some of our Egyptian material. He takes a great
+      interest in the interface between linguistics and digital language
+      ressources doing research in the fields of virtual research
+      environments and language related standards.</p>
+  </div>
+
+  <div>
+    <head>Lea Müller-Funk</head>
+    <p>… has prepared most of our our MSA reference dictionary.</p>
+  </div>
+
+  <div>
+    <head>Stephan Procházka</head>
+    <p>… is professor of Arabic language at the University of Vienna and
+      the president of AIDA. Together with Charly Moerth he initiated the
+      VICAV project.</p>
+  </div>
+
+  <div>
+    <head>Veronika Ritt-Benmimoun</head>
+    <p>… is assistant professor of Arabic linguistics at the Institute of
+      Oriental Studies of the University of Vienna and a leading
+      specialist in Tunisian Bedouin dialects. She prepared the profile of
+      Douz.</p>
+  </div>
+
+  <div>
+
+    <head>Naima Sekiati</head>
+    <p>… is lecturer for Moroccan Arabic at the University of Vienna and
+      prepared the profile of Salé.</p>
+  </div>
+
+  <div>
+    <head>Omar Siam</head>
+    <p>… has been in charge of many text technological aspects of this
+      site.</p>
+  </div>
+  <div>
+    <head>Anna Telič</head>
+    <p>… is lecturer for Syrian Arabic at the University of Vienna and has
+      been responsible for the re-checking of the data in the Damascus
+      dictionary.</p>
+  </div>
+
+  <div>
+    <head>Other Contributors</head>
+    <p>A number of MA and PhD students in Arabic Studies at the University
+      of Vienna contributed profiles to this website. Among these are
+      Natanja Faschinger, Lea Bäumler, Faiz Alshehri and others. </p>
+  </div>
+</div>
+<!-- End of vicavContributors -->
+      
+<div xml:id="vicavLinguistics">
+    <head>Linguistics</head>
+    
+    <p>The VICAV Research Environment has been designed as a tool for the
+      presentation of digital material concerning Arabic dialectology. It
+      was intended as a means to promote the efficient exchange of ideas and
+      experiences in an active international community.</p>
+    
+    <p>VICAV serves as an interface between areal and corpus linguistics.
+      The aim is to gather varying digital language resources for a number
+      of different localities. The description of the different varieties
+      hinges on a particular type of text which we call ’language profiles’,
+      concise and standardised ‘form sheets’ that display uniformly arranged
+      information on research history, available literature, salient
+      grammatical features etc. The website will also make accessible
+      bibliographies, dictionaries, glossaries, and different types of
+      transcribed texts.</p>
+    
+    <p>The project proceeds from two basic assumptions: In Arabic
+      dialectology, information on new findings and current developments is
+      mainly exchanged at international conferences and in scientific
+      journals. Due to a steadily increasing number of projects which
+      produce digital data too there is an increasing need to make these
+      data quickly available to others in the field. There already exist a
+      couple of individual webpages which - due to the lack of resources -
+      often do not match professional standards. There is a big gap between
+      the linguistics communities and Arabic Studies in general and Arabic
+      dialectology in particular. Linguistic studies in Arabic dialects have
+      widely ignored the works of traditional, i.e. philologically based,
+      dialectology and vice versa. We are convinced that VICAV has the
+      potential to help to bridge this gap to the benefit of both
+      disciplines.</p>
+</div>
+<!-- End of vicavLinguistics -->
+        
+<div xml:id="vicavDictionaries">
+    <head>Dictionaries</head>
+    <div>
+      <head>Data</head>
+    
+      <p>All entries in the dictionaries which are not further indicated are
+        taken from data provided by the collaborator(s) cited on the front
+        page of each dictionary. Data extracted from other published sources
+        is indicated as such and includes the respective reference.</p>
+    </div>
+    
+    <div>
+      <head>Transcription</head>
+    
+      <p>The transcription follows a system which is widely accepted in
+        Arabic studies and also used in reference works such as the
+        Encyclopedia of Arabic Language and Linguistics (Leiden: Brill,
+        2006-2009).</p>
+    
+      <p>Following a widespread convention in Arabic dialectology, the data
+        is presented in in a broad phonological transcription that does not
+        indicate allophones.</p>
+    
+      <p>List of latin diacritic signs used</p>
+    
+      <table rend="tbQueryExamples">
+        <row role="label">
+          <cell rend="tdQuery">VICAV</cell>
+          <cell rend="tdQuery">IPA</cell>
+          <cell rend="tdQuery">arabic</cell>
+          <cell rend="tdQuery">DIN</cell>
+          <cell rend="tdQuery">chat</cell>
+          <cell rend="tdQuery">Sound Description</cell>
+          <cell rend="tdQuery">Unicode Character Name</cell>
+        </row>
+    
+        <row>
+          <cell rend="tdQuery">ʔ</cell>
+          <cell rend="tdQuery">ʔ</cell>
+          <cell rend="tdQuery">ء,أ,إ,آ,ئ,ؤ</cell>
+          <cell rend="tdQuery">ʾ</cell>
+          <cell rend="tdQuery">2</cell>
+          <cell rend="tdQuery">Glottal stop</cell>
+          <cell rend="tdQuery">LATIN LETTER GLOTTAL STOP</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">ā</cell>
+          <cell rend="tdQuery">aː</cell>
+          <cell rend="tdQuery">ا,ى</cell>
+          <cell rend="tdQuery">ā</cell>
+          <cell rend="tdQuery">a</cell>
+          <cell rend="tdQuery">Long vowel a</cell>
+          <cell rend="tdQuery">LATIN SMALL LETTER A WITH MACRON</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">ḅ</cell>
+          <cell rend="tdQuery">bˤ</cell>
+          <cell rend="tdQuery">ب</cell>
+          <cell rend="tdQuery">b</cell>
+          <cell rend="tdQuery">b</cell>
+          <cell rend="tdQuery">Pharyngealized voiced bilabial stop</cell>
+          <cell rend="tdQuery">LATIN SMALL LETTER B WITH DOT BELOW</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">ʕ</cell>
+          <cell rend="tdQuery">ʕ</cell>
+          <cell rend="tdQuery">ع</cell>
+          <cell rend="tdQuery">ʿ</cell>
+          <cell rend="tdQuery">3</cell>
+          <cell rend="tdQuery">Pharyngal voiced fricative</cell>
+          <cell rend="tdQuery">LATIN LETTER PHARYNGEAL VOICED FRICATIVE</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">ḏ̣</cell>
+          <cell rend="tdQuery">ðˤ</cell>
+          <cell rend="tdQuery">ض,ظ</cell>
+          <cell rend="tdQuery">ḍ,ẓ</cell>
+          <cell rend="tdQuery">dh,d,6,9</cell>
+          <cell rend="tdQuery">Pharyngealized voiced dental fricative</cell>
+          <cell rend="tdQuery">LATIN SMALL LETTER D WITH LINE BELOW + COMBINING DOT
+            BELOW</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">ḏ</cell>
+          <cell rend="tdQuery">ð</cell>
+          <cell rend="tdQuery">ذ</cell>
+          <cell rend="tdQuery">ḏ</cell>
+          <cell rend="tdQuery">dh</cell>
+          <cell rend="tdQuery">Voiced dental fricative</cell>
+          <cell rend="tdQuery">LATIN SMALL LETTER D WITH LINE BELOW</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">ē</cell>
+          <cell rend="tdQuery">eː</cell>
+          <cell rend="tdQuery">ي</cell>
+          <cell/>
+          <cell rend="tdQuery">e,é</cell>
+          <cell rend="tdQuery">Long vowel e</cell>
+          <cell rend="tdQuery">LATIN SMALL LETTER E WITH MACRON</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">ġ</cell>
+          <cell rend="tdQuery">ɣ</cell>
+          <cell rend="tdQuery">غ</cell>
+          <cell rend="tdQuery">ġ</cell>
+          <cell rend="tdQuery">gh,3</cell>
+          <cell rend="tdQuery">Voiced velar fricative</cell>
+          <cell rend="tdQuery">LATIN SMALL LETTER G WITH DOT ABOVE</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">ǧ</cell>
+          <cell rend="tdQuery">d͡ʒ</cell>
+          <cell rend="tdQuery">ج</cell>
+          <cell rend="tdQuery">ǧ</cell>
+          <cell rend="tdQuery">dj</cell>
+          <cell rend="tdQuery">Voiced palato-alveolar affricate</cell>
+          <cell rend="tdQuery">LATIN SMALL LETTER G WITH CARON</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">ḥ</cell>
+          <cell rend="tdQuery">ħ</cell>
+          <cell rend="tdQuery">ح</cell>
+          <cell rend="tdQuery">ḥ</cell>
+          <cell rend="tdQuery">7</cell>
+          <cell rend="tdQuery">Voiceless pharyngeal fricative</cell>
+          <cell rend="tdQuery">LATIN SMALL LETTER H WITH DOT BELOW</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">ī</cell>
+          <cell rend="tdQuery">iː</cell>
+          <cell rend="tdQuery">ي</cell>
+          <cell rend="tdQuery">ī</cell>
+          <cell rend="tdQuery">i,ee</cell>
+          <cell rend="tdQuery">Long vowel i</cell>
+          <cell rend="tdQuery">LATIN SMALL LETTER I WITH MACRON</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">ᴵ</cell>
+          <cell rend="tdQuery">ə</cell>
+          <cell/>
+          <cell/>
+          <cell/>
+          <cell rend="tdQuery">Short Schwa vowel</cell>
+          <cell rend="tdQuery">MODIFIER LETTER CAPITAL I</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">ə</cell>
+          <cell rend="tdQuery">ə</cell>
+          <cell/>
+          <cell rend="tdQuery">a,i,u</cell>
+          <cell/>
+          <cell rend="tdQuery">Schwa vowel</cell>
+          <cell rend="tdQuery">LATIN SMALL LETTER SCHWA</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">ᵊ</cell>
+          <cell rend="tdQuery">ə</cell>
+          <cell/>
+          <cell/>
+          <cell/>
+          <cell rend="tdQuery">Short Schwa vowel</cell>
+          <cell rend="tdQuery">MODIFIER LETTER SMALL SCHWA</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">ḷ</cell>
+          <cell rend="tdQuery">lˤ</cell>
+          <cell rend="tdQuery">ل</cell>
+          <cell rend="tdQuery">l</cell>
+          <cell rend="tdQuery">l</cell>
+          <cell rend="tdQuery">Pharyngealized alveolar lateral approximant</cell>
+          <cell rend="tdQuery">LATIN SMALL LETTER L WITH DOT BELOW</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">ṃ</cell>
+          <cell rend="tdQuery">mˤ</cell>
+          <cell rend="tdQuery">م</cell>
+          <cell rend="tdQuery">m</cell>
+          <cell rend="tdQuery">m</cell>
+          <cell rend="tdQuery">Pharyngealized bilabial nasal</cell>
+          <cell rend="tdQuery">LATIN SMALL LETTER M WITH DOT BELOW</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">ō</cell>
+          <cell rend="tdQuery">oː</cell>
+          <cell rend="tdQuery">و</cell>
+          <cell/>
+          <cell rend="tdQuery">o</cell>
+          <cell rend="tdQuery">Long vowel o</cell>
+          <cell rend="tdQuery">LATIN SMALL LETTER O WITH MACRON</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">ṛ</cell>
+          <cell rend="tdQuery">ʁˁ</cell>
+          <cell rend="tdQuery">ر</cell>
+          <cell rend="tdQuery">r</cell>
+          <cell rend="tdQuery">r</cell>
+          <cell rend="tdQuery">Pharyngealized voiced uvular fricative</cell>
+          <cell rend="tdQuery">LATIN SMALL LETTER R WITH DOT BELOW</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">ṣ</cell>
+          <cell rend="tdQuery">sˤ</cell>
+          <cell rend="tdQuery">ص</cell>
+          <cell rend="tdQuery">ṣ</cell>
+          <cell rend="tdQuery">9</cell>
+          <cell rend="tdQuery">Pharyngealized voiceless alveolar sibilant</cell>
+          <cell rend="tdQuery">LATIN SMALL LETTER S WITH DOT BELOW</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">š</cell>
+          <cell rend="tdQuery">ʃ</cell>
+          <cell rend="tdQuery">ش</cell>
+          <cell rend="tdQuery">š</cell>
+          <cell rend="tdQuery">sh,ch</cell>
+          <cell rend="tdQuery">Voiceless palato-alveolar sibilant</cell>
+          <cell rend="tdQuery">LATIN SMALL LETTER S WITH CARON</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">ṭ</cell>
+          <cell rend="tdQuery">tˤ</cell>
+          <cell rend="tdQuery">ش</cell>
+          <cell rend="tdQuery">ṭ</cell>
+          <cell rend="tdQuery">t,6</cell>
+          <cell rend="tdQuery">pharyngealized voiceless alveolar stop</cell>
+          <cell rend="tdQuery">LATIN SMALL LETTER T WITH DOT BELOW</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">ṯ</cell>
+          <cell rend="tdQuery">θ</cell>
+          <cell rend="tdQuery">ث</cell>
+          <cell rend="tdQuery">ṯ</cell>
+          <cell rend="tdQuery">th,s</cell>
+          <cell rend="tdQuery">Voiceless dental non-sibilant fricative</cell>
+          <cell rend="tdQuery">LATIN SMALL LETTER T WITH LINE BELOW</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">ū</cell>
+          <cell rend="tdQuery">uː</cell>
+          <cell rend="tdQuery">و</cell>
+          <cell rend="tdQuery">ū</cell>
+          <cell rend="tdQuery">oo,ou,u</cell>
+          <cell rend="tdQuery">Long vowel u</cell>
+          <cell rend="tdQuery">LATIN SMALL LETTER U WITH MACRON</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">ẓ</cell>
+          <cell rend="tdQuery">zˤ</cell>
+          <cell rend="tdQuery">ز,ظ</cell>
+          <cell rend="tdQuery">z,ẓ</cell>
+          <cell rend="tdQuery">z</cell>
+          <cell rend="tdQuery">Pharyngealized voiced alveolar sibilant</cell>
+          <cell rend="tdQuery">LATIN SMALL LETTER Z WITH DOT BELOW</cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">ž</cell>
+          <cell rend="tdQuery">ʒ</cell>
+          <cell rend="tdQuery">ج</cell>
+          <cell rend="tdQuery">ǧ</cell>
+          <cell rend="tdQuery">j</cell>
+          <cell rend="tdQuery">Voiced palato-alveolar sibilant</cell>
+          <cell rend="tdQuery">LATIN SMALL LETTER Z WITH CARON</cell>
+        </row>
+      </table>
+    
+    </div>
+    
+    <div>
+      <head>Arabic roots</head>
+    
+      <p>In order to facilitate cross-dialectal comparative search all word
+        roots are have to be taken as being strictly etymological, i.e. they
+        reflect the corresponding roots of Standard Arabic wherever
+        possible. The source of reference is the Dictionary of Modern
+        Written Arabic by Hans Wehr (English version edited by J. Milton
+        Cowell, Wiesbaden: Harrassowitz, 1979). For words which have entered
+        Arabic from other languages a (in many hypothetical) root consisting
+        of the mere consonantal structure of the word in question is
+        given.</p>
+    </div>
+    
+    <div>
+      <head>Part-of-speech</head>
+    
+      <p>As for verbs a subcategory indicating the so-called verbal form is
+        provided (using the traditional order labelled by Roman numerals
+        from I to X, in case of quadriliteral roots Iq and IIq).</p>
+    
+      <p>In many cases a clear distinction between adjective and active or
+        passive participle is not possible. If a given lemma is mainly used
+        in an adjectival sense it is labelled as such but with an additional
+        category that indicates the word is morphologically seen a
+        participle.</p>
+    
+      <p>The gender of Arabic nouns is not noted unless it is contradictory
+        to the rules of Arabic morphology (which is particularly the case
+        with unmarked feminine nouns).</p>
+    </div>
+</div>
+<!-- End of vicavDictionaries -->
+        
+<div xml:id="vicavTypesOfText">
+  <head>Types of Text/Data</head>
+
+  <p>Apart from its linguistic goals, the project has been pursuing strong
+    interests in various aspects of text technology. The output of the
+    work of the contributors is published in form of different types of
+    digital language ressources. Our research interests in this
+    respect have been related to issues of digital lexicography, visualisation
+    of digital language resources in a multilingual environment and the
+    application of standards and de-facto standards such as TEI, LMF
+    and/or MAF in the creation of digital language resources.</p>
+
+    <div>
+      <head>Language profiles</head>
+  
+      <p>At the heart of the website, there are what we have called language
+        profiles. This type of text consist in short sketches of varieties 
+        of spoken contemporary Arabic. The intention has been to work 
+        a complementary manner to similar endeavours (such as EALL). For the
+        time being, we do not plan to give detailed grammatical descriptions
+        but rather focus on general information, research histories and
+        available literature.</p>
+    </div>
+  
+    <div>
+      <head>Dictionaries</head>
+  
+      <p>We have been working on several digital dictionaries which have 
+        been created as part of different projects. We call them dictionaries 
+        (and not glosaries) as they are made up of self-contained entries which are
+        not only used as glosses. All of these have been created to be used
+        as part of language teaching activities.</p>
+    </div>
+  
+    <div>
+      <head>Bibliography</head>
+  
+      <p>The bibliography is an ongoing effort. Given the limitted
+        resources at our disposal, it can not be exhaustive. Here again, 
+        one of our intentions is to provide the community with readily reusable
+        standardised material.</p>
+    </div>
+  
+    <div>
+      <head>Standards</head>
+  
+      <p>An important part of our work is standards and de-facto standards.
+        The most important part of this toolbox are the 
+        <ref target="http://www.tei-c.org/Guidelines/P5/">Guidelines of the 
+        Text Encoding Initiative (P5)</ref>.</p>
+    </div>
+</div>
+<!-- End of vicavTypesOfText -->        
+      
+<div xml:id="vicavExplanationBibliography">
+    <head>Bibliography</head>
+
+    <p>The bibliography is an ongoing effort. Given our limitted resources
+    and the large number of relevant publications, it can not be
+    exhaustive. Much of the data has been extracted from other ressources.
+    We are working continually at improving and harmonising the data.</p>
+
+<p>The bibliography has been compiled in a ZOTERO group. We have
+  enriched the items in the database with geo-information which makes it
+  possible to visualise all items that were provided with geo-data on
+  the map.</p>
+
+<div>
+  <head>Places and Regions</head>
+  <p>An old problem in this kind of visualisations is how to deal with
+    regions and countries as they almost never coincide with the
+    linguistic phenomena we want to describe. We have not even attempted
+    to think about shapes. However, we simply put circles (instead of
+    blue needles) somewhere inside the region we want to descibe.</p>
+</div>
+
+<div>
+  <head>Maps and Text Queries</head>
+  <p>The bibliography can be searched in a dual mode: either by clicking
+    on locations in the map or <ref target="func:createNewQueryBiblioPanel()">by searching for
+      strings</ref>.</p>
+</div>
+
+<div>
+  <head>Examples</head>
+  <p>The following examples should give you a headstart with the simple
+    query language. Bear in mind that not all bibliographic records have been 
+    furnished with geo data. 
+  </p>
+
+  <table rend="tbQueryExamples">
+    <row>
+        <cell rend="tdQuery">
+                <hi rend="italic">historique</hi>
+              </cell>     
+        <cell rend="tdQuery">All entries with the string <hi rend="italic">historique</hi>.</cell>
+        <cell rend="tdQuery">
+            <ref target="bibl:historique">→Text</ref>
+              </cell>
+        <cell rend="tdQuery">
+            <ref target="mapMarkers:historique">→Map</ref>
+              </cell>
+    </row>
+    <row>
+      <cell rend="tdCommentSpan">
+        <p>To make use of the geo-tags the prefixes <hi rend="italic">geo:</hi> and <hi rend="italic">reg:</hi> are used.</p>
+      </cell>
+    </row>
+    <row>
+      <cell rend="tdQuery">
+        <hi rend="italic">reg:Egypt</hi>
+      </cell>
+      <cell rend="tdQuery">All entries that contain information about
+          <hi rend="italic">reg:Egypt</hi>.</cell>
+        <cell rend="tdQuery">
+            <ref target="bibl:reg:Egypt">→Text</ref>
+         </cell>
+        <cell rend="tdQuery"/>
+    </row>
+    <row>
+      <cell rend="tdQuery">
+        <hi rend="italic">geo:Cairo</hi>
+      </cell>
+      <cell rend="tdQuery">The prefix <hi rend="italic">geo:</hi> is
+        used for particular places.</cell>
+        <cell rend="tdQuery">
+           <ref target="bibl:geo:Cairo">→Text</ref>
+        </cell>      
+        <cell rend="tdQuery"/>      
+    </row>
+    <row>
+      <cell rend="tdCommentSpan">
+        <p>The prefix <hi rend="italic">vt:</hi> stands for <hi rend="italic">VICAV taxonomy</hi>. 
+          Try to combine it with theses expressions: <hi rend="italic">bedouin dialect</hi>,
+            <hi rend="italic">morphology</hi>, <hi rend="italic">phonology</hi>, 
+            <hi rend="italic">syntax</hi> or <hi rend="italic">urban dialect</hi>.</p>
+      </cell>
+    </row>
+    <row>
+      <cell rend="tdQuery">
+        <hi rend="italic">vt:bedouin dialect</hi>
+      </cell>
+      <cell rend="tdQuery"/>
+        <cell rend="tdQuery">
+            <ref target="bibl:vt:bedouin dialect">→Text</ref>
+        </cell>
+        <cell rend="tdQuery">
+            <ref target="mapMarkers:vt:bedouin dialect">→Map</ref>
+        </cell>
+    </row>
+    <row>
+      <cell rend="tdQuery">
+        <hi rend="italic">vt:dictionary</hi>
+      </cell>
+      <cell rend="tdQuery"/>
+        <cell rend="tdQuery">
+            <ref target="bibl:vt:dictionary">→Text</ref>
+              </cell>
+        <cell rend="tdQuery">
+            <ref target="mapMarkers:vt:dictionary">→Map</ref>
+              </cell>
+    </row>
+    <row>
+      <cell rend="tdQuery">
+        <hi rend="italic">vt:morphology</hi>
+      </cell>
+      <cell rend="tdQuery"/>
+        <cell rend="tdQuery">
+            <ref target="bibl:vt:morphology">→Text</ref>
+              </cell>
+        <cell rend="tdQuery">
+            <ref target="mapMarkers:vt:morphology">→Map</ref>
+              </cell>
+    </row>
+    <row>
+      <cell rend="tdQuery">
+        <hi rend="italic">vt:phonology</hi>
+      </cell>
+      <cell rend="tdQuery"/>
+        <cell rend="tdQuery">
+            <ref target="bibl:vt:phonology">→Text</ref>
+              </cell>
+        <cell rend="tdQuery">
+            <ref target="mapMarkers:vt:phonology">→Map</ref>
+              </cell>
+    </row>
+    <row>
+      <cell rend="tdCommentSpan">
+        <p>It is also possible to combine query terms.</p>
+      </cell>
+    </row>
+    <row>
+      <cell rend="tdQuery">
+        <hi rend="italic">vt:dictionary &amp; reg:Egypt</hi>
+      </cell>
+      <cell rend="tdQuery">This string finds all ZOTERO entries marked
+        up as a dictionary belonging into the area of Egypt.</cell>
+        <cell rend="tdQuery">
+            <ref target="bibl:vt:dictionary &amp; reg:Egypt">→Text</ref>
+              </cell>
+        <cell rend="tdQuery"/>
+    </row>
+
+  </table>
+
+</div>
+
+<div>
+  <head>Taxonomy I</head>
+  <p>We have started to apply a taxonomy to the bibliographic items in
+    our ZOTERO library. All of this is work in progress. In most cases
+    the keywords have only been applied to part of the data. The following 
+    list mereley serves as a starting point for discussion and as a technical
+    reference.</p>
+    
+  <p>You have to add the prefix <hi rend="italic">vt:</hi> when using
+    them in queries. Currently the bibliography contains the following
+    labels:</p>
+
+  <div>
+    <head>Ling. Subgroups</head>
+      
+    <table rend="tbQueryExamples">
+       <row>
+           <cell rend="tdQuery">
+                  <hi rend="italic">vt:creole</hi>
+                </cell>
+           <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:creole</hi>.</cell>
+           <cell rend="tdQuery">
+               <ref target="bibl:vt:creole">→Text</ref>
+                </cell>
+           <cell rend="tdQuery">
+               <ref target="mapMarkers:vt:creole">→Map</ref>
+                </cell>
+       </row>
+        <row>
+            <cell rend="tdQuery">
+                  <hi rend="italic">vt:bedouin dialect</hi>
+                </cell>
+            <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:bedouin dialect</hi>.</cell>
+            <cell rend="tdQuery">
+                <ref target="bibl:vt:bedouin dialect">→Text</ref>
+                </cell>
+            <cell rend="tdQuery">
+                <ref target="mapMarkers:vt:bedouin dialect">→Map</ref>
+                </cell>
+        </row>
+        <row>
+            <cell rend="tdQuery">
+                  <hi rend="italic">vt:sedentary dialect</hi>
+                </cell>
+            <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:sedentary dialect</hi>.</cell>
+            <cell rend="tdQuery">
+                <ref target="bibl:vt:sedentary dialect">→Text</ref>
+                </cell>
+            <cell rend="tdQuery">
+                <ref target="mapMarkers:vt:sedentary dialect">→Map</ref>
+                </cell>
+        </row>
+        <row>
+            <cell rend="tdQuery">
+                  <hi rend="italic">vt:urban dialect</hi>
+                </cell>
+            <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:urban dialect</hi>.</cell>
+            <cell rend="tdQuery">
+                <ref target="bibl:vt:urban dialect">→Text</ref>
+                </cell>
+            <cell rend="tdQuery">
+                <ref target="mapMarkers:vt:urban dialect">→Map</ref>
+                </cell>
+        </row>
+    </table>      
+  </div>
+
+  <div>
+    <head>Communal dialects</head>
+
+    <table rend="tbQueryExamples">
+        <row>
+          <cell rend="tdQuery">
+                  <hi rend="italic">vt:Jewish dialects</hi>
+                </cell>
+          <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:Jewish dialects</hi>.</cell>
+          <cell rend="tdQuery">
+              <ref target="bibl:vt:Jewish dialects">→Text</ref>
+                </cell>
+          <cell rend="tdQuery">
+              <ref target="mapMarkers:vt:Jewish dialects">→Map</ref>
+                </cell>
+        </row>
+        <row>
+          <cell rend="tdQuery">
+                  <hi rend="italic">vt:Christian dialects</hi>
+                </cell>
+          <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:Christian dialects</hi>.</cell>
+          <cell rend="tdQuery">
+                  <ref target="bibl:vt:Christian dialects">→Text</ref>
+                </cell>
+          <cell rend="tdQuery">
+                  <ref target="mapMarkers:vt:Christian dialects">→Map</ref>
+                </cell>
+        </row>
+      </table>      
+  </div>
+
+  <div>
+    <head>Disciplines</head>
+      
+    <table rend="tbQueryExamples">
+        <row>
+          <cell rend="tdQuery">
+                  <hi rend="italic">vt:vt:phonology</hi>
+                </cell>
+          <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:vt:phonology</hi>.</cell>
+          <cell rend="tdQuery">
+                  <ref target="bibl:vt:phonology">→Text</ref>
+                </cell>
+          <cell rend="tdQuery">
+                  <ref target="mapMarkers:vt:phonology">→Map</ref>
+                </cell>
+        </row>
+        <row>
+            <cell rend="tdQuery">
+                  <hi rend="italic">vt:morphology</hi>
+                </cell>
+            <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:morphology</hi>.</cell>
+            <cell rend="tdQuery">
+                  <ref target="bibl:vt:morphology">→Text</ref>
+                </cell>
+            <cell rend="tdQuery">
+                  <ref target="mapMarkers:vt:morphology">→Map</ref>
+                </cell>
+        </row>
+        <row>
+            <cell rend="tdQuery">
+                  <hi rend="italic">vt:syntax</hi>
+                </cell>
+            <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:syntax</hi>.</cell>
+            <cell rend="tdQuery">
+                  <ref target="bibl:vt:syntax">→Text</ref>
+                </cell>
+            <cell rend="tdQuery">
+                  <ref target="mapMarkers:vt:syntax">→Map</ref>
+                </cell>
+        </row>
+        <row>
+            <cell rend="tdQuery">
+                  <hi rend="italic">vt:lexicon</hi>
+                </cell>
+            <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:lexicon</hi>.</cell>
+            <cell rend="tdQuery">
+                  <ref target="bibl:vt:lexicon">→Text</ref>
+                </cell>
+            <cell rend="tdQuery">
+                  <ref target="mapMarkers:vt:lexicon">→Map</ref>
+                </cell>
+        </row>
+        <row>
+            <cell rend="tdQuery">
+                  <hi rend="italic">vt:sociolinguistics</hi>
+                </cell>
+            <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:sociolinguistics</hi>.</cell>
+            <cell rend="tdQuery">
+                  <ref target="bibl:vt:sociolinguistics">→Text</ref>
+                </cell>
+            <cell rend="tdQuery">
+                  <ref target="mapMarkers:vt:sociolinguistics">→Map</ref>
+                </cell>
+        </row>
+        <row>
+            <cell rend="tdQuery">
+                  <hi rend="italic">vt:anthropology</hi>
+                </cell>
+            <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:anthropology</hi>.</cell>
+            <cell rend="tdQuery">
+                  <ref target="bibl:vt:anthropology">→Text</ref>
+                </cell>
+            <cell rend="tdQuery">
+                  <ref target="mapMarkers:vt:anthropology">→Map</ref>
+                </cell>
+        </row>
+        <row>
+            <cell rend="tdQuery">
+                  <hi rend="italic">vt:linguistics/dialectology</hi>
+                </cell>
+            <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:linguistics/dialectology</hi>.</cell>
+            <cell rend="tdQuery">
+                  <ref target="bibl:vt:linguistics/dialectology">→Text</ref>
+                </cell>
+            <cell rend="tdQuery">
+                  <ref target="mapMarkers:vt:linguistics/dialectology">→Map</ref>
+                </cell>
+        </row>
+    </table>            
+  </div>
+
+  <div>
+    <head>Genre / Type of Text</head>
+      
+    <table rend="tbQueryExamples">
+      <row>
+          <cell rend="tdQuery">
+                  <hi rend="italic">vt:description of dialect</hi>
+                </cell>
+          <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:description of dialect</hi>.</cell>
+          <cell rend="tdQuery">
+                  <ref target="bibl:vt:description of dialect">→Text</ref>
+                </cell>
+          <cell rend="tdQuery">
+                  <ref target="mapMarkers:vt:description of dialect">→Map</ref>
+                </cell>
+      </row>
+      <row>
+          <cell rend="tdQuery">
+                  <hi rend="italic">vt:general/comparative study</hi>
+                </cell>
+          <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:general/comparative study</hi>.</cell>
+          <cell rend="tdQuery">
+                  <ref target="bibl:vt:general/comparative study">→Text</ref>
+                </cell>
+          <cell rend="tdQuery">
+                  <ref target="mapMarkers:vt:general/comparative study">→Map</ref>
+                </cell>
+      </row>
+        <row>
+            <cell rend="tdQuery">
+                  <hi rend="italic">vt:general/comparative study</hi>
+                </cell>
+            <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:general/comparative study</hi>.</cell>
+            <cell rend="tdQuery">
+                  <ref target="bibl:vt:general/comparative study">→Text</ref>
+                </cell>
+            <cell rend="tdQuery">
+                  <ref target="mapMarkers:vt:general/comparative study">→Map</ref>
+                </cell>
+        </row>
+        <row>
+            <cell rend="tdQuery">
+                  <hi rend="italic">vt:textbook</hi>
+                </cell>
+            <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:textbook</hi>.</cell>
+            <cell rend="tdQuery">
+                  <ref target="bibl:vt:textbook">→Text</ref>
+                </cell>
+            <cell rend="tdQuery">
+                  <ref target="mapMarkers:vt:textbook">→Map</ref>
+                </cell>
+        </row>
+        <row>
+            <cell rend="tdQuery">
+                  <hi rend="italic">vt:transcribed texts</hi>
+                </cell>
+            <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:transcribed texts</hi>.</cell>
+            <cell rend="tdQuery">
+                  <ref target="bibl:vt:transcribed texts">→Text</ref>
+                </cell>
+            <cell rend="tdQuery">
+                  <ref target="mapMarkers:vt:transcribed texts">→Map</ref>
+                </cell>
+        </row>
+        <row>
+            <cell rend="tdQuery">
+                  <hi rend="italic">vt:conversation/dialogue</hi>
+                </cell>
+            <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:conversation/dialogue</hi>.</cell>
+            <cell rend="tdQuery">
+                  <ref target="bibl:vt:conversation/dialogue">→Text</ref>
+                </cell>
+            <cell rend="tdQuery">
+                  <ref target="mapMarkers:vt:conversation/dialogue">→Map</ref>
+                </cell>
+        </row>
+        <row>
+            <cell rend="tdQuery">
+                  <hi rend="italic">vt:oral poetry</hi>
+                </cell>
+            <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:oral poetry</hi>.</cell>
+            <cell rend="tdQuery">
+                  <ref target="bibl:vt:oral poetrye">→Text</ref>
+                </cell>
+            <cell rend="tdQuery">
+                  <ref target="mapMarkers:vt:oral poetry">→Map</ref>
+                </cell>
+        </row>
+        <row>
+            <cell rend="tdQuery">
+                  <hi rend="italic">vt:oral narratives</hi>
+                </cell>
+            <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:oral narratives</hi>.</cell>
+            <cell rend="tdQuery">
+                  <ref target="bibl:vt:oral narratives">→Text</ref>
+                </cell>
+            <cell rend="tdQuery">
+                  <ref target="mapMarkers:vt:oral narratives">→Map</ref>
+                </cell>
+        </row>
+        <row>
+            <cell rend="tdQuery">
+                  <hi rend="italic">vt:songs</hi>
+                </cell>
+            <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:songs</hi>.</cell>
+            <cell rend="tdQuery">
+                  <ref target="bibl:vt:songs">→Text</ref>
+            </cell>
+            <cell rend="tdQuery">
+                  <ref target="mapMarkers:vt:songs">→Map</ref>
+            </cell>
+        </row>
+        <row>
+            <cell rend="tdQuery">
+                  <hi rend="italic">vt:proverbs</hi>
+                </cell>
+            <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:proverbs</hi>.</cell>
+            <cell rend="tdQuery">
+                  <ref target="bibl:vt:proverbs">→Text</ref>
+                </cell>
+            <cell rend="tdQuery">
+                  <ref target="mapMarkers:vt:proverbs">→Map</ref>
+                </cell>
+        </row>
+        <row>
+            <cell rend="tdQuery">
+                  <hi rend="italic">vt:ethnographic record</hi>
+                </cell>
+            <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:ethnographic record</hi>.</cell>
+            <cell rend="tdQuery">
+                  <ref target="bibl:vt:ethnographic record">→Text</ref>
+                </cell>
+            <cell rend="tdQuery">
+                  <ref target="mapMarkers:vt:ethnographic record">→Map</ref>
+                </cell>
+        </row>
+        <row>
+            <cell rend="tdQuery">
+                  <hi rend="italic">vt:dictionary</hi>
+                </cell>
+            <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:dictionary</hi>.</cell>
+            <cell rend="tdQuery">
+                  <ref target="bibl:vt:dictionary">→Text</ref>
+                </cell>
+            <cell rend="tdQuery">
+                  <ref target="mapMarkers:vt:dictionary">→Map</ref>
+                </cell>
+        </row>
+        <row>
+            <cell rend="tdQuery">
+                  <hi rend="italic">vt:glossary</hi>
+                </cell>
+            <cell rend="tdQuery">All entries with the tag <hi rend="italic">vt:glossary</hi>.</cell>
+            <cell rend="tdQuery">
+                  <ref target="bibl:vt:glossary">→Text</ref>
+                </cell>
+            <cell rend="tdQuery">
+                  <ref target="mapMarkers:vt:glossary">→Map</ref>
+                </cell>
+        </row>
+    </table>      
+  </div>
+</div>
+
+<div>
+  <head>Taxonomy II</head>
+  <p>There exists a second unstructured list of keywords (imported 
+    from Georg Böhm's bibliography) that can be used in the same 
+    manner. Not all of the items have actually been applied.</p>
+  <list>
+    <item>
+      <ref target="bibl:vt:anthropology">vt:anthropology</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:Arab World general">vt:Arab World general</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:Arabic as a minority language">vt:Arabic as a minority language</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:Aramaic">vt:Aramaic</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:Baby talk">vt:Baby talk</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:bedouin dialect">vt:bedouin dialect</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:berber languages">vt:berber languages</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:broadcasting">vt:broadcasting</ref>
+    </item>
+    <item>vt:cinema</item>
+    <item>
+      <ref target="bibl:vt:classical">vt:classical</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:contact linguistics">vt:contact linguistics</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:conversation/dialogue">vt:conversation/dialogue</ref>
+    </item>
+    <item>vt:corpora</item>
+    <item>
+      <ref target="bibl:vt:creole">vt:creole</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:culinary">vt:culinary</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:customs &amp; etiquette">vt:customs &amp; etiquette</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:description of dialect">vt:description of dialect</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:Diaspora">vt:Diaspora</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:dictionary">vt:dictionary</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:diglossia">vt:diglossia</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:Egypt-Sudan">vt:Egypt-Sudan</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:ethnic minorities">vt:ethnic minorities</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:ethnographic record">vt:ethnographic record</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:ethnography">vt:ethnography</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:etymology">vt:etymology</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:Eyptian">vt:Eyptian</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:folklore">vt:folklore</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:french language">vt:french language</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:gender aspects">vt:gender aspects</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:general/comparative study">vt:general/comparative study</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:glossary">vt:glossary</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:jargon">vt:jargon</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:Jewish dialects">vt:Jewish dialects</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:lexicon">vt:lexicon</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:linguistics-dialectology">vt:linguistics/dialectology</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:loanwords">vt:loanwords</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:Maghreb">vt:Maghreb</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:manuscripts">vt:manuscripts</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:morphology">vt:morphology</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:music">vt:music</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:newspaper &amp; journalism">vt:newspaper &amp; journalism</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:onomastics">vt:onomastics</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:oral literature">vt:oral literature</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:oral narratives">vt:oral narratives</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:oral poetry">vt:oral poetry</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:phonology">vt:phonology</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:phraseology">vt:phraseology</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:pragmatics">vt:pragmatics</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:prosody">vt:prosody</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:proverbs">vt:proverbs</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:sedentary dialect">vt:sedentary dialect</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:semantics">vt:semantics</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:sociolinguistics">vt:sociolinguistics</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:songs">vt:songs</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:syntax">vt:syntax</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:teaching materials">vt:teaching materials</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:textbook">vt:textbook</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:toponymy">vt:toponymy</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:transcribed texts">vt:transcribed texts</ref>
+    </item>
+    <item>
+      <ref target="bibl:vt:urban dialect">vt:urban
+        dialect</ref>
+    </item>
+  </list>
+</div>
+</div>
+        
+<div xml:id="vicavExplanationProfiles">
+    <head>Language profiles</head>
+    
+    <p>At the heart of the website, there are what we have called language
+      profiles. This type of text constitutes short sketches of varieties of
+      spoken contemporary Arabic. The intention is to work in a
+      complementary manner to similar endeavours (such as EALL). For the
+      time being, we do not plan to give detailed grammatical descriptions
+      but rather focus on general information, research histories and
+      available literature.</p>
+    
+    <p>As of May 2018 we provided profiles for these locations (in alphabetic
+      order): <list>
+        <item>
+            <ref target="profile:profile_abu_dhabi_01/Abu Dhabi">Abu Dhabi</ref>
+        </item>
+        <item>
+            <ref target="profile:profile_ahwaz_01/Ahwaz">Ahwas</ref>
+        </item>
+        <item>
+            <ref target="profile:profile_baghdad_01/Baghdad"> Baghdad</ref>
+        </item>
+        <item>
+            <ref target="profile:profile_benghazi_01/Benghazi"> Benghazi</ref>
+        </item>
+        <item>
+            <ref target="profile:profile_cairo_01/Cairo"> Cairo</ref>
+        </item>
+        <item>
+            <ref target="profile:profile_damascus_01/Damascus"> Damascus</ref>
+        </item>
+        <item>
+            <ref target="profile:profile_douz_01/Douz"> Douz</ref>
+        </item>
+        <item>
+            <ref target="profile:profile_khabura_01/al-Khabura"> al-Khabura</ref>
+        </item>
+        <item>
+            <ref target="profile:profile_sale_01/Rabat (Salé)"> Rabat (Salé)</ref>
+        </item>
+        <item>
+            <ref target="profile:profile_soukhne_01/Soukhne"> Soukhne</ref>
+        </item>
+        <item>
+            <ref target="profile:profile_sousse_001/Sousse"> Sousse</ref>
+        </item>
+        <item>
+            <ref target="profile:profile_taizz_01/Taizz"> Taizz</ref>
+        </item>
+        <item>
+            <ref target="profile:profile_tiberias_01/Tiberias"> Tiberias</ref>
+        </item>
+        <item>
+            <ref target="profile:profile_tozeur_01/Tozeur"> Tozeur</ref>
+        </item>
+        <item>
+            <ref target="profile:profile_tunis_01/Tunis"> Tunis</ref>
+        </item>
+        <item>
+            <ref target="profile:profile_urfa_01/Şanlıurfa"> Şanlıurfa</ref>
+        </item>
+      </list>
+    </p>
+</div>
+        
+<div xml:id="vicavExplanationFeatures">
+    <head>Features (Explanation)</head>
+
+    <p>The linguistic features consist in lists of sentence pairs in English
+      and Arabic that are meant to exemplify selected salient linguistic
+      features of the particular varieties. The list is regarded as work in
+      progress and serves as a basis for discussion. The system is designed
+      in an extensible manner, open for any amendments, refinements and
+      enhancements. Let us know what you think about it, what you would
+      add.</p>
+    
+    <p>Nomenclature should reflect the common practice in the community and
+      follow linguistically acknowledged standards. It is planned to enter
+      the chosen denominations as a draft in the ISOCat list.</p>
+    
+    <p>The list contains a number of repeated examples. We have tried to
+      avoid phenomena that are too elusive or difficult to ascertain such as
+      e.g. secondary emphasis. The focus has been put on morphology and
+      lexis.</p>
+    
+    <p>The lists have also been put together with a didactic purpose in
+      mind. They should allow students of Arabic dialectology to quickly get
+      a first impression of particular dialects.</p>
+
+    <p>As of May 2018 we provided linguistic feature lists for these 
+      locations (in alphabetic order): <list>
+      <item>
+          <ref target="feature:ling_features_baghdad/Baghdad">Baghdad</ref>
+      </item>
+      <item>
+          <ref target="feature:ling_features_baghdad/Cairo">Cairo</ref>
+      </item>
+      <item>
+          <ref target="feature:ling_features_damascus/Damascus">Damascus</ref>
+      </item>
+      <item>
+          <ref target="feature:ling_features_douz/Douz">Douz</ref>
+      </item>
+      <item>
+          <ref target="feature:ling_features_tunis/Tunis">Tunis</ref>
+      </item>
+      <item>
+          <ref target="feature:ling_features_tunis/Urfa">Urfa</ref>
+      </item>
+      </list>
+    </p>
+            
+</div>
+        
+<div xml:id="vicavExplanationSampleTexts">
+   <head>Sample Texts (Explanation)</head>
+    
+   <p>The sample texts are translations of the same 
+      <ref target="sample:msa_sample_01/Modern Standard Arabic">source text</ref>. They vary slightly with respect to regional
+      differences. However, they are homogeneous enough to allow students to
+      compare the numerous linguistic phenomena displayed in the texts.</p>
+
+    <p>Sofar we provide sample texts for six locations: <list>
+        <item>
+          <ref target="sample:baghdad_sample_01/Baghdad">Baghdad</ref>
+        </item>
+        <item>
+          <ref target="sample:cairo_sample_01/Cairo">Cairo</ref>
+        </item>
+        <item>
+          <ref target="sample:damascus_sample_01/Damascus">Damascus</ref>
+        </item>
+        <item>
+          <ref target="sample:douz_sample_01/Douz">Douz</ref>
+        </item>
+        <item>
+            <ref target="sample:urfa_sample_01/Şanlıurfa">Şanlıurfa</ref>
+        </item>
+        <item>
+            <ref target="sample:tunis_sample_01/Tunis">Tunis</ref>
+        </item>
+      </list>
+    </p>
+</div>
+        
+        
+<div xml:id="vicavExplanationCorpusTexts">
+    <head>Texts (Explanation and Overview)</head>
+
+    <p>The texts being displayed come from very different ressources. We
+      have tried to mould them in a homogeneous form, retaining structural
+      differences.</p>
+    
+    <div>
+      <head>Morocco</head>
+
+        <p>
+          <ref target="corpus:killing_jackal/Morocco">Den Schakal töten "Killing the
+          Jackal"</ref> by <hi rend="italics"> Georg Böhm</hi>
+      </p>
+    </div>
+    
+    <div>
+      <head>Tunis</head>
+
+        <p> The <ref target="https://tunico.acdh.oeaw.ac.at/about_corpus.html">TUNICO 
+          Corpus</ref> was put together as part of the project 
+          <hi rend="italic">Linguistic dynamics in the Greater Tunis Area: a
+          corpus-based approach </hi> which ran from August 2013 until July
+        2016. </p>
+    </div>
+    
+    <div>
+      <head>Anatolia</head>
+        
+      <p>
+        <ref target="corpus:cukurova_001/Cukurova">The 
+        Seven Brothers</ref>, contributed by <hi rend="italic">Stefan Procházka</hi>
+      </p>
+    </div>
+</div>
+        
+        
+<div xml:id="vicavContributionBibliography">
+    <head>Contributing</head>
+    
+    <p>If you want to help us enhance the bibliography there are different
+    possibilities to proceed. Either you start your own ZOTERO group and
+    grant us access or you write directly into the VICAV-Zotero-group.</p>
+    
+    <p>If you have data in Word documents, spread-sheets or whatever and
+    would like us to integrate it in VICAV, get in touch and we will find
+    a way to do it.</p>
+</div>
+
+<div xml:id="vicavContributeProfile">
+  <head>Contributing</head>
+  
+  <p>If you would like to contribute a profile, simply  download 
+    the <ref target="downloads/vicav_profiles_template__001.docx">template</ref>,
+    fill in the form and return the document to us.</p>
+</div>
+      
+<div xml:id="vicavContributeFeature">
+  <head>Contributing</head>
+  
+  <p>If you would like to contribute a feature list, simply download the
+      <ref target="downloads/vicav_features_template__001.docx">template</ref>, 
+    fill in the form and return the document to us.</p>
+</div>
+      
+<div xml:id="vicavContributeSampleText">
+  <head>Contributing</head>
+  
+  <p>If you would like to contribute a sample text, simply download the
+      <ref target="downloads/vicav_sampletext_template__001.docx">template</ref>, 
+    fill in the form and return the document to us.</p>
+</div>
+      
+<div xml:id="vicavContributeCorpusText">
+    <head>Contributing</head>
+    
+    <p>If you would like to contribute a corpus, get in touch with us.</p>
+</div>
+        
+<div xml:id="vicavContributeDictionary">
+  <head>Contributing</head>
+  
+  <p>If you would like to contribute a dictionary or a glossary, get in touch
+    with us. Tell us about the data you have and we will discuss how to
+    proceed best.</p>
+</div>
+      
+<div xml:id="dictFrontPage_Damascus">
+  <head type="headDamascus">
+        A Digital Dictionary of<lb/> Damascene Arabic</head>
+
+  <p>Compiled by <hi rend="italic">Carmen Berlinches Ramos</hi> and 
+    <hi rend="italic">Stephan Procházka</hi>
+          <lb/>
+    In collaboration with <hi rend="italic">Rima Aldoukhi</hi> and 
+    <hi rend="italic">Anna Telič</hi>
+  </p>
+
+  <p>To query the dictionary <ref target="func:openDict_Damascus()">click 
+      here</ref>.</p>
+  
+  <p>This dictionary has been prepared to support the Syrian Textbook 
+    prepared at the University of Vienna. We host some 
+      <ref target="text:vicavLearning_tb_damascus/ABC">audio material</ref> 
+      of this textbook. Also have a look at our 
+      <ref target="text:vicavLearning/LEARNING MATERIALS">other 
+      learning materials</ref>.</p>
+      
+  <!-- 
+  <p>
+          <graphic url="images/damascus_umayyadenmo-3-2008.JPG"/>
+        </p>
+   -->
+</div>
+      
+<div xml:id="dictFrontPage_Cairo">
+  <head>A Digital Dictionary of Cairo Arabic</head>
+
+  <p>Compiled by <hi rend="italic">Karlheinz Mörth</hi>
+          <lb/>
+  In collaboration with <hi rend="italic">Tarek Eltayeb</hi>
+  </p>
+
+  <p>This small dictionary was started as part of a course in Egyptian
+    Arabic at the University of Vienna.</p>
+
+  <p>
+    <ref target="func:openDict_Cairo()">QUERY</ref>
+  </p>
+    
+  <p>
+    <graphic url="images/766px-Cairo-citadel-1800s_green.jpg"/>
+   </p>
+</div>
+      
+<div xml:id="dictFrontPage_MSA">
+  <head>A Machine-readable Dictionary of Modern Standard Arabic</head>
+
+  <p>Compiled by <hi rend="italic">Stephan Procházka, Lea Müller-Funk,
+      Karlheinz Mörth</hi>
+  </p>
+
+  <p>
+    <ref target="func:openDict_MSA()">QUERY</ref>
+  </p>
+</div>
+      
+      
+<div xml:id="dictFrontPage_Tunis">
+  <head>The <hi rend="italic">TUNICO</hi> Dictionary</head>
+  
+  <p>Compiled by <hi rend="italic">Ines Dallaji, Ines Gabsi, Stephan
+      Procházka, Veronika Ritt-Benmimoun, Gisela Kitzler, Bettina Leitner,
+      Ines Ben-Brahim (Vienna 2016 )</hi>
+        </p>
+
+  <p>
+      <ref target="func:openDict_Tunis()">QUERY</ref>
+  </p>
+
+  <div>
+    <head>INTRODUCTION</head>
+
+    <p>The <hi rend="italic">TUNICO</hi> dictionary was not only built on
+      data from the corpus of spoken language that was compiled in the
+      same project, but also on a range of additional sources: data
+      elicited from complementary interviews with young Tunisians and
+      lexical material taken from various published historical sources
+      dating from the middle of the 20th century and earlier. The most
+      important of these is Hans-Rudolf Singer’s monumental grammar (1984;
+      almost 800 pages) of the Medina of Tunis. Singer’s data was
+      systematically evaluated and integrated into the dictionary, all the
+      material being indicated by reference to the book. Additionally,
+      other resources including (Nicolas 1911, Marçais/Guîga 1958-61,
+      Quéméneur 1962, Abdellatif 2010) were also consulted in order to
+      verify and to complete the contemporary data. The diachronic
+      dimension will help to better understand processes in the
+      development of the lexicon (for more details see Moerth, Prochazka,
+      &amp; Dallaji 2014).</p>
+
+    <p>The first layer of lexical data to be incorporated into the digital
+      lexicographical system was extracted from Veronika Ritt-Benmimoun’s
+      textbook titled Skriptum zu den Lehrveranstaltungen
+      Tunesisch-Arabisch Kurs A und B (Vienna, 2012/13). This data is
+      referenced in the dictionary as Ritt-Benmimoun 2014.</p>
+
+    <p>Please keep in mind that the dictionary will remain
+      work-in-progress. We do not claim any degree of completeness,
+      neither with respect to lemmas nor with respect to data relevant to
+      the entries’ microstructure. This holds particularly true for
+      etymologies and usage labels indicating regimen of verbs.</p>
+
+    <p>The project was embedded in the activities of the two large-scale
+      pan-European research infrastructure consortia in the humanities,
+      CLARIN (Common Language Resources and Technology Infrastructure) and
+      DARIAH (Digital Research Infrastructure for the Arts and Humanities)
+      (Budin, Moerth, &amp; Durco 2013).</p>
+  </div>
+
+  <div>
+    <head>HELP</head>
+
+    <p>Through the query interface, you can search for words or groups of
+      words in the dictionary. By simply entering a word such as ʕaṛbi and
+      pressing the ENTER button on your keyboard you will trigger the
+      query. Results matching your query will be displayed below the input
+      field.</p>
+
+    <p>Mind that all queries are case sensitive.</p>
+
+    <p>The transcription used in the dictionary is for the most part DMG.
+      If you need special characters such as <hi rend="italic">ā</hi>, 
+      <hi rend="italic">š</hi> or <hi rend="italic">ʕ</hi>, click on the
+      respective letters in the character table.</p>
+
+    <p>The preview option will show you a list of tokens that start with
+      the characters you entered so far.</p>
+
+    <p>It is possible to search in particular fields of the
+      dictionary.</p>
+
+    <table rend="tbQueryExamples">
+        <row>
+        <cell rend="tdQuery">ktb</cell>
+        <cell rend="tdQuery">Roots</cell>
+        <cell rend="tdQuery">All entries with the string <hi rend="italic">ktb</hi> in the root element.</cell>
+        <cell rend="tdQuery">
+          <ref target="func:autoDictQuery('_tunis', 'ktb', 'root')">Click</ref>
+        </cell>
+      </row>
+
+      <row>
+        <cell rend="tdQuery">book</cell>
+        <cell rend="tdQuery">Trans. (English)</cell>
+        <cell rend="tdQuery">All entries with an English sense <hi rend="italic">book</hi>
+        </cell>
+        <cell rend="tdQuery">
+          <ref target="func:autoDictQuery('_tunis', 'book', 'en')">Click</ref>
+        </cell>
+      </row>
+
+      <row>
+        <cell rend="tdQuery">diminutive</cell>
+        <cell rend="tdQuery">subc</cell>
+        <cell rend="tdQuery">All diminutives </cell>
+        <cell rend="tdQuery">
+          <ref target="func:autoDictQuery('_tunis', 'diminutive', 'subc')">Click</ref>
+        </cell>
+      </row>
+      <row>
+        <cell rend="tdQuery">VIII</cell>
+        <cell rend="tdQuery">subc</cell>
+        <cell rend="tdQuery">All form VIII verbs</cell>
+        <cell rend="tdQuery">
+          <ref target="func:autoDictQuery('_tunis', 'VIII', 'subc')">Click</ref>
+        </cell>
+      </row>
+      <row>
+        <cell rend="tdQuery">adverb</cell>
+        <cell rend="tdQuery">POS</cell>
+        <cell rend="tdQuery">All adverbs. This will take same
+          time!!!!</cell>
+        <cell rend="tdQuery">
+          <ref target="func:autoDictQuery('_tunis', 'adverb', 'pos')">Click</ref>
+        </cell>
+      </row>
+      <row>
+        <cell rend="tdCommentSpan">
+          <p>The interface also supports a simple query language.</p>
+        </cell>
+      </row>
+      <row>
+        <cell rend="tdQuery">root="ktb"</cell>
+        <cell rend="tdQuery"/>
+        <cell rend="tdQuery">All entries with the root <hi rend="italic">ktb</hi>
+        </cell>
+        <cell rend="tdQuery">
+          <ref target="func:autoDictQuery('_tunis', 'root=&quot;ktb&quot;', '')">Click</ref>
+        </cell>
+      </row>
+      <row>
+        <cell rend="tdQuery">lem="gōl"</cell>
+        <cell rend="tdQuery"/>
+        <cell rend="tdQuery">All entries with an Arabic token <hi rend="italic">gōl</hi>
+        </cell>
+        <cell rend="tdQuery">
+          <ref target="func:autoDictQuery('_tunis', 'lem=&quot;gōl&quot;', '')">Click</ref>
+        </cell>
+      </row>
+      <row>
+        <cell rend="tdQuery">etymLang="English"</cell>
+        <cell rend="tdQuery"/>
+        <cell rend="tdQuery">All entries with an English etymology</cell>
+        <cell rend="tdQuery">
+          <ref target="func:autoDictQuery('_tunis', 'etymLang=English', '')">Click</ref>
+        </cell>
+      </row>
+      <row>
+        <cell rend="tdCommentSpan">
+          <p>You can also combine two query terms.</p>
+        </cell>
+      </row>
+      <row>
+        <cell rend="tdQuery">root="ktb" &amp; pos="verb"</cell>
+        <cell rend="tdQuery"/>
+        <cell rend="tdQuery">All verbs with the root <hi rend="italic">ktb</hi>
+        </cell>
+        <cell rend="tdQuery">
+          <ref target="func:autoDictQuery('_tunis', 'root=&quot;ktb&quot; &amp; pos=&quot;verb&quot;', 'subc')">Click</ref>
+        </cell>
+      </row>
+      <row>
+        <cell rend="tdQuery">root="ktb" &amp; pos="noun"</cell>
+        <cell rend="tdQuery"/>
+        <cell rend="tdQuery">All nouns with the root <hi rend="italic">ktb</hi>
+        </cell>
+        <cell rend="tdQuery">
+          <ref target="func:autoDictQuery('_tunis', 'root=&quot;ktb&quot; &amp; pos=&quot;noun&quot;', 'subc')">Click</ref>
+        </cell>
+      </row>
+      <row>
+        <cell rend="tdQuery">root="ktb" &amp; pos="verb" &amp;
+          subc="I"</cell>
+        <cell rend="tdQuery"/>
+        <cell rend="tdQuery">All form I verbs with the root <hi rend="italic">ktb</hi>
+        </cell>
+        <cell rend="tdQuery">
+          <ref target="func:autoDictQuery('_tunis', 'root=&quot;ktb&quot; &amp; pos=&quot;verb&quot; &amp; subc=&quot;I&quot;', 'subc')">Click</ref>
+        </cell>
+      </row>
+      <row>
+        <cell rend="tdCommentSpan">
+          <p>You can make use of simple regular expressions. Wildcards are
+            applied on the token level. Try the following examples:</p>
+        </cell>
+      </row>
+      <row>
+        <cell rend="tdQuery">.*ūni</cell>
+        <cell rend="tdQuery"/>
+        <cell rend="tdQuery">All entries containing a string <hi rend="italic">ūni</hi>
+        </cell>
+        <cell rend="tdQuery">
+          <ref target="func:autoDictQuery('_tunis', '.*ūni', 'any')">Click</ref>
+        </cell>
+
+      </row>
+
+      <row>
+        <cell rend="tdQuery">bal.*</cell>
+        <cell rend="tdQuery">Arabic</cell>
+        <cell rend="tdQuery">All entries containing an Arabic lemma token
+          containing a string with <hi rend="italic">bal</hi>
+        </cell>
+        <cell rend="tdQuery"/>
+      </row>
+
+      <row>
+        <cell rend="tdQuery">kt.*</cell>
+        <cell rend="tdQuery">Roots</cell>
+        <cell rend="tdQuery">All entries with an Arabic root starting with
+            <hi rend="italic">kt</hi>
+        </cell>
+        <cell rend="tdQuery"/>
+      </row>
+
+      <row>
+        <cell rend="tdCommentSpan">
+          <p>To explicitly anchor a pattern at the head (=beginning) of a
+            token, make use of "^". "$" anchors the pattern at the tail
+            (=end).</p>
+        </cell>
+      </row>
+
+      <row>
+        <cell rend="tdQuery">^kt.*</cell>
+        <cell rend="tdQuery">Roots</cell>
+        <cell rend="tdQuery">
+          <hi rend="italic">kt</hi> at the beginning of a string followed
+          by zero or more characters</cell>
+        <cell rend="tdQuery"/>
+      </row>
+
+    </table>
+
+    <p>The interface makes use of the XQuery function matches whenever it
+      detects a regular expression. To get an overview of the options have
+      a look at <ref target="http://www.xqueryfunctions.com">www.xqueryfunctions.com</ref>.</p>
+  </div>
+</div>
+
+<div xml:id="dictFrontPage_TuniscrossDictQuery">
+    <head>
+          <hi rend="italic">VICAV</hi> Dictionaries Query</head>
+                       
+</div>
+        
+<div xml:id="vicavDictionaryEncoding">
+  <head>Dictionary Encoding</head>
+  
+  <p>Dictionaries are highly complex knowledge stores on the modelling of
+    which lots of efforts have been spent since we have started to compile
+    digital dicitionaries. The VICAV project has been dedicated to the use
+    of the guidelines of the Text Encoding Inititative in all of its
+    dictionaries. </p>
+  
+  <p>The team have documented their work in a document which exemplifies
+    the most important structures contained in these dictionaries. The
+    <ref target="https://clarin.oeaw.ac.at/lrp/dict-gate/vle_docu/vicav_dict_encoding__v003.html"> 
+    VICAV Dictionary Encoding Guidelines</ref> are meant to allow
+    researchers in similar projects to draw on the experiences of our
+    work.</p>
+</div>
+      
+<div xml:id="vicavVLE">
+  <head>Viennese Lexicographic Editor (VLR)</head>
+  
+  <p>VLE is a fairly new piece of software that first came into existence
+    as a by-product of an entirely different development activity: the
+    creation of an interactive online learning system for university
+    students. Thus, it was first used in a collaborative glossary editing
+    project carried out as part of university language courses at the
+    University of Vienna. As the tool proved to be flexible and adaptable
+    enough, it was also put to work in other projects. The interface is
+    built around an XML editor. The communication between the dictionary
+    client and the server has been implemented as a RESTful web
+    service.</p>
+
+  <p>The interface is built around an XML editor that allows to process
+    standard-based lexicographic and terminological data, basically any
+    XML-based format such as LMF, TBX, RDF, or TEI can be handled. The
+    program provides a number of useful functions to automate editing
+    procedures. It can check the structural integrity (well-formedness) of
+    input on the fly. Technologically, it draws not only on the XML core
+    specification but also on several cognate technologies. XSLT and XPath
+    play an important role both for visualizing and modifying existing
+    datasets. Lexicographers can insert elements on the basis of
+    predefined XML Schemas. Most of the functions can be applied both to
+    single and multiple lemmas. One of the most recent improvements is a
+    versioning system and an improved working mode that allows
+    lexicographers to work on the XML data without actually seeing the
+    tags. Furthermore, the editor also has a configurable interface
+    enabling lexicographers to access external corpora and to integrate
+    example sentences from them into dictionary entries. The communication
+    between the dictionary client and the server has been implemented as a
+    RESTful web service.</p>
+
+</div>
+
+<div xml:id="vicavLearning">
+    <head>Learning Materials</head>
+
+    <p>Some of the data on this website have been developed as part of 
+    teaching activities being used in university courses of the Institute 
+    of Oriental Studies of the University of Vienna.</p>
+    
+    <p>
+        <ref target="text:vicavLearningSmartphone/SMARTPHONES">Vocabularies on the Smartphone</ref>
+          <lb/>
+        <ref target="text:vicavLearningPrograms/PROGRAMS">Available Programs</ref>
+          <lb/>
+        <ref target="text:vicavLearningData/VOCABULARIES - DATA">Vocabularies - Data</ref>
+     </p>
+    
+    
+</div>
+
+<div xml:id="vicavLearningSmartphone">
+    <head>Vocabularies on the Smartphone</head>
+    
+    <p>One way to learn vocabularies is to use 
+        <ref target="https://en.wikipedia.org/wiki/Flashcard">flashcards</ref>. 
+        The ubiquitous smartphones make it possible to carry around 
+        thousands of vocabulary cards in your pocket. Before we started 
+        to cary around a computer in our pockets, the 
+        most common way to carry them around as paper flashcards. The problem 
+        with this approach is that they can take up quite some space if 
+        you want to repeat cards from say 20 units of some language course 
+        at least now and then. Now we only have to decide on what software to use. </p>
+</div>
+
+<div xml:id="vicavLearningPrograms">
+    <head>Available Programs</head>
+    
+    <p>There are several programs that help you repeat vocabularies on the 
+        smartphone. To get an overview of available tools have a look at 
+        <ref target="https://en.wikipedia.org/wiki/List_of_flashcard_software">Wikipedia</ref>. 
+        We provide some data for <hi rend="italic">ANKI</hi> and 
+        <hi rend="italic">Flashcards Deluxe</hi>. 
+    </p>
+    
+    <div>
+        <head>ANKI</head>
+        
+        <p>... is a spaced repetition flashcard program. "Anki" is Japanese 
+            for <hi rend="italic">memorization</hi>. You can find details about 
+            the program on <ref target="https://en.wikipedia.org/wiki/Anki_(software)">
+                Wikipedia</ref>.</p>
+        
+        <p>You can download the program from the <ref target="https://apps.ankiweb.net/">
+            AnkiWeb webiste</ref>. If you want to synch your learning progress over the 
+            internet you might consider registering with ankiweb.</p>
+        
+        <p>As a quick start we provide a template "deck" with all the required settings 
+          called <ref target="https://minerva.arz.oeaw.ac.at/static/anki/Empty_4_by_4.apkg">Empty 
+          4 by 4</ref>. By importing this template into Anki you get 
+            <list>
+                <item>the <hi rend="italic">andika 
+                    font</hi> installed (doesn't show on OS X though) and </item>
+                <item>a "note" design with 4 fields 
+                    on the front side and 4 on the back side of a card. </item>
+            </list> 
+          After the setup you can start importing vocabulary data.</p>
+        
+    </div>   
+    <div>
+        <head>Flashcards Deluxe</head>
+        
+        <p>The program for is available for iOS and for Android. 
+          <ref target="http://orangeorapple.com/Flashcards/">Their homepage</ref> has 
+          some advice on how to use the software in different scenarios.</p>
+        
+        <p>You can use Dropbox or Google Drive as a cloud storage to quickly up- 
+         and download new vocabularies and keep a copy of your learning progress 
+         on the internet.</p>
+            
+        <list>
+            <item>Open Flashcards Deluxe and touch the + sign on top of the screen.</item>
+            <item>Choose Dropbox or Google Drive and supply your respective user credentials.</item>
+            <item>Flashcards Deluxe creates a folder in either cloud storage that will 
+                contain the vocabulary data and your progress statistics.</item>
+        </list>
+            
+        <p>For iOS there fortunately is no need to do any further Setup. All characters 
+          are present in the fonts preinstalled on every iOS device. With the fonts installed 
+          on Android, you will usually not be able to see all the letters used in the 
+          VICAV or DMG transcriptions. However Flashcards deluxe can use a font provided by 
+          the user. A font that can be used is the <hi rend="italic">Andika</hi> font provided 
+            by <ref target="https://software.sil.org/andika/">SIL</ref>. </p>
+        
+        <list>
+            <item>Download and unzip it.</item>
+            <item>The file Andika-R.ttf should go into the following directory on 
+                your phone: <lb/>
+                <hi rend="italic">/Android/data/com.orangeorapple.flashcards/files/fonts</hi>
+            </item>
+            <item>If you only try the demo the folder is: <lb/>
+                <hi rend="italic">/Android/data//com.orangeorapple.flashcardslite/files/fonts</hi>
+            </item>
+            <item>If <hi rend="italic">Flashcards Deluxe</hi> is running you have to restart it.</item>
+        </list>
+                
+    </div>
+    
+</div>
+
+<div xml:id="vicavLearningData">
+    <head>Vocabularies (Data)</head>
+    <p>We provide some data in support of particular language courses 
+        being taught at the University of Vienna. For the time being, we 
+        only have flashcards for German.</p>
+    
+    <p>After you did the initial steps (refer to the Tools menu above 
+        if you haven't) you only have to download the dictionary data that 
+        corresponds to the vocabulary used in the different language 
+        courses of the Institut for Near Eastern Studies of the University 
+        of Vienna. We provide the data in formats suitable for importing 
+        and using it in Anki or Flashcards Deluxe. </p>
+    
+    <div>
+        <head>140037 UE Arabischer Dialekt - Kurs F: Konversation / Texte 2: Syrisch-Arabisch der Universität Wien</head>
+        
+        <p>These flashcards support the textbook of Syrian Arabic by Rima Aldoukhi, Stephan Procházka, Anna Telič und Narine Grigoryan:    
+            <hi rend="italic">Lehrbuch des Syrisch-Arabischen 1: Praxisnaher Einstieg in den Dialekt von Damaskus. – 1. Auflage, 2014 und 2. Auflage, 2016.</hi>
+            and 
+            <hi rend="italic">Lehrbuch des Syrisch-Arabischen 2: Damaszenisch für Fortgeschrittene. 1. Auflage, 2014.</hi>
+        </p>
+
+        <p>
+            ANKI: Lesson
+            <ref target="flashcards:apc_eng_002/1/csv-anki">1</ref>,
+            <ref target="flashcards:apc_eng_002/2/csv-anki">2</ref>,
+            <ref target="flashcards:apc_eng_002/3/csv-anki">3</ref>,
+            <ref target="flashcards:apc_eng_002/4/csv-anki">4</ref>,
+            <ref target="flashcards:apc_eng_002/5/csv-anki">5</ref>,
+            <ref target="flashcards:apc_eng_002/6/csv-anki">6</ref>,
+            <ref target="flashcards:apc_eng_002/7/csv-anki">7</ref>,
+            <ref target="flashcards:apc_eng_002/8/csv-anki">8</ref>,
+            <ref target="flashcards:apc_eng_002/9/csv-anki">9</ref>,
+            <ref target="flashcards:apc_eng_002/10/csv-anki">10</ref>,
+            <ref target="flashcards:apc_eng_002/11/csv-anki">11</ref>,
+            <ref target="flashcards:apc_eng_002/12/csv-anki">12</ref>,
+            <ref target="flashcards:apc_eng_002/13/csv-anki">13</ref>,
+            <ref target="flashcards:apc_eng_002/14/csv-anki">14</ref>,
+            <ref target="flashcards:apc_eng_002/15/csv-anki">15</ref>,
+            <ref target="flashcards:apc_eng_002/16/csv-anki">16</ref>,
+            <ref target="flashcards:apc_eng_002/17/csv-anki">17</ref>,
+            <ref target="flashcards:apc_eng_002/18/csv-anki">18</ref>,
+            <ref target="flashcards:apc_eng_002/19/csv-anki">19</ref>,
+            <ref target="flashcards:apc_eng_002/20/csv-anki">20</ref>,
+            <ref target="flashcards:apc_eng_002/21/csv-anki">21</ref>,
+            <ref target="flashcards:apc_eng_002/22/csv-anki">22</ref>,
+            <ref target="flashcards:apc_eng_002/23/csv-anki">23</ref>,
+            <ref target="flashcards:apc_eng_002/24/csv-anki">24</ref>,
+            <ref target="flashcards:apc_eng_002/25/csv-anki">25</ref>
+        </p>
+        
+        <p>
+            Flashcards Deluxe: Lesson 
+            <ref target="flashcards:apc_eng_002/1/csv-fcdeluxe">1</ref>,
+            <ref target="flashcards:apc_eng_002/2/csv-fcdeluxe">2</ref>,
+            <ref target="flashcards:apc_eng_002/3/csv-fcdeluxe">3</ref>,
+            <ref target="flashcards:apc_eng_002/4/csv-fcdeluxe">4</ref>,
+            <ref target="flashcards:apc_eng_002/5/csv-fcdeluxe">5</ref>,
+            <ref target="flashcards:apc_eng_002/6/csv-fcdeluxe">6</ref>,
+            <ref target="flashcards:apc_eng_002/7/csv-fcdeluxe">7</ref>,
+            <ref target="flashcards:apc_eng_002/8/csv-fcdeluxe">8</ref>,
+            <ref target="flashcards:apc_eng_002/9/csv-fcdeluxe">9</ref>,
+            <ref target="flashcards:apc_eng_002/10/csv-fcdeluxe">10</ref>,
+            <ref target="flashcards:apc_eng_002/11/csv-fcdeluxe">11</ref>,
+            <ref target="flashcards:apc_eng_002/12/csv-fcdeluxe">12</ref>,
+            <ref target="flashcards:apc_eng_002/13/csv-fcdeluxe">13</ref>,
+            <ref target="flashcards:apc_eng_002/14/csv-fcdeluxe">14</ref>,
+            <ref target="flashcards:apc_eng_002/15/csv-fcdeluxe">15</ref>,
+            <ref target="flashcards:apc_eng_002/16/csv-fcdeluxe">16</ref>,
+            <ref target="flashcards:apc_eng_002/17/csv-fcdeluxe">17</ref>,
+            <ref target="flashcards:apc_eng_002/18/csv-fcdeluxe">18</ref>,
+            <ref target="flashcards:apc_eng_002/19/csv-fcdeluxe">19</ref>,
+            <ref target="flashcards:apc_eng_002/20/csv-fcdeluxe">20</ref>,
+            <ref target="flashcards:apc_eng_002/21/csv-fcdeluxe">21</ref>,
+            <ref target="flashcards:apc_eng_002/22/csv-fcdeluxe">22</ref>,
+            <ref target="flashcards:apc_eng_002/23/csv-fcdeluxe">23</ref>,
+            <ref target="flashcards:apc_eng_002/24/csv-fcdeluxe">24</ref>,
+            <ref target="flashcards:apc_eng_002/25/csv-fcdeluxe">25</ref>
+        </p>
+    </div>
+    
+    <div>
+        <head>140292 VO Arabischer Dialekt - Kurs A: Tunesisch-Arabisch + 140029 UE Arabischer Dialekt - 
+            Kurs B: Tunesisch-Arabisch</head>
+        
+        <p>These flashcards support the teaching materials of Tunisian Arabic A and B, 
+            revised version 2014/15, by Veronika Ritt-Benmimoun in cooperation with 
+            Emna Labidi, Mabrouka Rayachi and Ines Dallaji.
+        </p>
+        
+        <p>
+            ANKI: Lesson 
+            <ref target="flashcards:aeb_eng_001__v001/1/csv-anki">1</ref>,
+            <ref target="flashcards:aeb_eng_001__v001/2/csv-anki">2</ref>,
+            <ref target="flashcards:aeb_eng_001__v001/3/csv-anki">3</ref>,
+            <ref target="flashcards:aeb_eng_001__v001/4/csv-anki">4</ref>,
+            <ref target="flashcards:aeb_eng_001__v001/5/csv-anki">5</ref>,
+            <ref target="flashcards:aeb_eng_001__v001/6/csv-anki">6</ref>,
+            <ref target="flashcards:aeb_eng_001__v001/7/csv-anki">7</ref>
+        </p>
+
+        <p>
+            Flashcards Deluxe: Lesson 
+            <ref target="flashcards:aeb_eng_001__v001/1/csv-fcdeluxe">1</ref>,
+            <ref target="flashcards:aeb_eng_001__v001/2/csv-fcdeluxe">2</ref>,
+            <ref target="flashcards:aeb_eng_001__v001/3/csv-fcdeluxe">3</ref>,
+            <ref target="flashcards:aeb_eng_001__v001/4/csv-fcdeluxe">4</ref>,
+            <ref target="flashcards:aeb_eng_001__v001/5/csv-fcdeluxe">5</ref>,
+            <ref target="flashcards:aeb_eng_001__v001/6/csv-fcdeluxe">6</ref>,
+            <ref target="flashcards:aeb_eng_001__v001/7/csv-fcdeluxe">7</ref>
+        </p>
+    </div>
+
+    <div>
+        <head>140028 VO Arabischer Dialekt - Kurs C: Tunesisch-Arabisch + 140029 UE Arabischer Dialekt - Kurs D: Tunesisch Arabisch</head>
+
+        <p>These flashcards support the teaching materials of Tunisian Arabic C and D, 
+            revised version 15, by Veronika Ritt-Benmimoun in cooperation with 
+            Emna Labidi, Mabrouka Rayachi and Ines Dallaji.
+        </p>
+        
+        <p>
+            ANKI: Lesson 
+            <ref target="flashcards:aeb_eng_001__v001/8/csv-anki">8</ref>,
+            <ref target="flashcards:aeb_eng_001__v001/9/csv-anki">9</ref>,
+            <ref target="flashcards:aeb_eng_001__v001/10/csv-anki">10</ref>,
+            <ref target="flashcards:aeb_eng_001__v001/11/csv-anki">11</ref>,
+            <ref target="flashcards:aeb_eng_001__v001/12/csv-anki">12</ref>
+            
+        </p>
+        
+        <p>
+            Flashcards Deluxe: Lesson 
+            <ref target="flashcards:aeb_eng_001__v001/8/csv-fcdeluxe">8</ref>,
+            <ref target="flashcards:aeb_eng_001__v001/9/csv-fcdeluxe">9</ref>,
+            <ref target="flashcards:aeb_eng_001__v001/10/csv-fcdeluxe">10</ref>,
+            <ref target="flashcards:aeb_eng_001__v001/11/csv-fcdeluxe">11</ref>,
+            <ref target="flashcards:aeb_eng_001__v001/12/csv-fcdeluxe">12</ref>
+        </p>        
+    </div>
+    
+    <div>
+        <head>140270 VO STEOP: OR2b/AR1 Einführung in das Arabische I</head>
+                
+        <p>
+            ANKI: Lesson 
+            <ref target="flashcards:ar_de__v001/1/csv-anki">1</ref>,
+            <ref target="flashcards:ar_de__v001/2/csv-anki">2</ref>,
+            <ref target="flashcards:ar_de__v001/3/csv-anki">3</ref>,
+            <ref target="flashcards:ar_de__v001/4/csv-anki">4</ref>,
+            <ref target="flashcards:ar_de__v001/5/csv-anki">5</ref>,
+            <ref target="flashcards:ar_de__v001/6/csv-anki">6</ref> 
+        </p>
+        
+        <p>
+            Flashcards Deluxe: Lesson 
+            <ref target="flashcards:ar_de__v001/1/csv-fcdeluxe">1</ref>,
+            <ref target="flashcards:ar_de__v001/2/csv-fcdeluxe">2</ref>,
+            <ref target="flashcards:ar_de__v001/3/csv-fcdeluxe">3</ref>,
+            <ref target="flashcards:ar_de__v001/4/csv-fcdeluxe">4</ref>,
+            <ref target="flashcards:ar_de__v001/5/csv-fcdeluxe">5</ref>,
+            <ref target="flashcards:ar_de__v001/6/csv-fcdeluxe">6</ref>  
+        </p>        
+    </div>
+    
+    <div>
+        <head>140426 VO+UE Arabisch B + 140027 UE Arabisch C (und Parallelversanstaltungen)</head>
+        
+        <p>
+            ANKI: Lesson 
+            <ref target="flashcards:ar_de__v001/7/csv-anki">7</ref>,
+            <ref target="flashcards:ar_de__v001/8/csv-anki">8</ref>,
+            <ref target="flashcards:ar_de__v001/9/csv-anki">9</ref>,
+            <ref target="flashcards:ar_de__v001/10/csv-anki">10</ref>,
+            <ref target="flashcards:ar_de__v001/11/csv-anki">11</ref>
+            
+        </p>
+        
+        <p>
+            Flashcards Deluxe: Lesson 
+            <ref target="flashcards:ar_de__v001/7/csv-fcdeluxe">7</ref>,
+            <ref target="flashcards:ar_de__v001/8/csv-fcdeluxe">8</ref>,
+            <ref target="flashcards:ar_de__v001/9/csv-fcdeluxe">9</ref>,
+            <ref target="flashcards:ar_de__v001/10/csv-fcdeluxe">10</ref>,
+            <ref target="flashcards:ar_de__v001/11/csv-fcdeluxe">11</ref>
+
+        </p>        
+    </div>
+    
+</div>
+
+<div xml:id="vicavKeyboards">
+    <head>Keyboard Layouts for our Transcription</head>
+    
+    <p>We have created installable keyboard layouts for Windows using 
+    the <ref target="http://go.microsoft.com/fwlink/?LinkId=82315&amp;clcid=0x409">
+    Microsoft Keyboard Layout Creator</ref>. We can offer them for 
+    German keyboards (y &lt;-&gt; z Position). They are inspired by DMG 
+    transcription. There is a Writer document in the archives that 
+    shows how it works. For Mac OSX we found SIL's 
+    <ref target="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;id=ukelele">
+    Ukulele</ref> very useful.</p>
+    
+    <p>
+       <ref target="https://minerva.arz.oeaw.ac.at/static/vicavarz.zip">Keyboard</ref> 
+       for transcribing Egyptian Arabic or Modern Standard Arabic in VICAV 
+       transcription (' -&gt; ʔ, ʿ -&gt; ʕ)</p>
+    
+    <p>
+       <ref target="https://minerva.arz.oeaw.ac.at/static/vicavapc.zip">Keyboard</ref> 
+       for transcribing Damascene Arabic (ž &lt;-&gt; ǧ)</p>
+    
+    <p>
+       <ref target="https://minerva.arz.oeaw.ac.at/static/victuerw.zip">Keyboard</ref> 
+        for transcribing Tunisian Arabic</p>
+</div>
+
+<div xml:id="vicavArabicTools">
+  <head>Arabic Research Tools</head>
+  
+  <p>The intention of this section of VICAV is to bring together the most
+    important tools needed by digitally working linguists in the field of
+    Arabic studies. In compiling this list, we have proceded from a very
+    wide understanding of the term "tool" considering a varied range of
+    digital applications that are typically used in doing linguistic
+    research. This comprises all relevant digital language resources as
+    well as pertaining documentation, standards and best practices.</p>
+
+  <p>While there have not been around many NLP tools to process Arabic
+    language data in the past, the situation has definitely changed in
+    recent years. The following list is a first attempt to create a list
+    of tools used by the VICAV crew and other relevant projects.</p>
+
+  <p>A very interesting overview of digital Arabic language ressources is
+    Wajdi Zaghouani's <ref target="https://arxiv.org/ftp/arxiv/papers/1702/1702.07835.pdf">
+    Critical Survey of the Freely Available Arabic Corpora</ref>. </p>
+
+  <p>We have put together some reference material which is not meant to be
+    exhaustive. The focus is on freely available resources. We do not list 
+    details from the many resources available through the  
+    <ref target="https://www.ldc.upenn.edu/">Linguistic Data Consortium 
+    (LDC)</ref> and the <ref target="http://www.elra.info/en/">European 
+    Language Resource Association (ELRA)</ref>. The material has been organised 
+    in the following groups: <list>
+      <item>
+        <ref target="text:vicavOverview_corpora_spoken/ARABIC TOOLS (Corpora - Spoken Varieties)"> Corpora (Spoken Varieties)</ref>
+      </item>
+      <item>
+        <ref target="text:vicavOverview_corpora_msa/Corpora (Modern Written Language)"> Corpora (Modern Written Language)</ref>
+      </item>
+      <item>
+        <ref target="text:vicavOverview_corpora_historical_varieties/Corpora (Historical Varieties))"> Corpora (Historical Varieties)</ref>
+      </item>
+        <item>
+            <ref target="text:vicavOverview_special_corpora/Special Corpora)"> Special Corpora</ref>
+        </item>
+        <item>
+        <ref target="text:vicavOverview_dictionaries/Dictionaries"> Dictionaries</ref>
+      </item>
+      <item>
+        <ref target="text:vicavOverview_nlp/Language Processing Tools"> Language Processing Tools</ref>
+      </item>
+      <item>
+        <ref target="text:vicavOverview_otherStuff/Other Websites &amp; Projects"> Other Websites &amp; Projects</ref>
+      </item>
+
+    </list>
+  </p>
+</div>
+
+<div xml:id="vicavOverview_corpora_spoken">  
+  <head>Corpora (Spoken Varieties)</head>
+  
+  <p>The number of digitally encoded Arabic language corpora has been on
+    the rise in recent years. The following list is an attempt at listing  
+    those that are relevant to linguistic research and is by no means meant 
+    to be exhaustive. Please let us know about missing items.</p>
+  
+  <div>
+    <head>CorpAfroAs</head>
+
+    <p>CorpAfroAs was an integrated pilot project that also produced Arabic
+      data. On the <ref target="http://corpafroas.huma-num.fr">project web
+        site</ref>, you can find extensive information on how to build
+      corpora of spoken language. The data is available.</p>
+  </div>
+  
+  <div>
+    <head>CORVAM Speech corpus of Maghrebi varieties</head>
+    <p>This very recent development is a tool for the study of Arabic and
+      Berber varieties in the Maghreb in terms of teaching and research
+      and for the preservation of language and culture in the Maghreb. The
+      corpus is a result of the research team <hi rend="italic">nhəḍṛu.
+        Dialectología y sociolingüística del Magreb</hi>, and has been
+      conducted at the University of Zaragoza with the participation of
+      members from other universities and research institutes both from
+      Spain and abroad. The project has been been developed under the lead 
+      of <ref target="bibl:Vicente">Ángeles Vicente
+      </ref> and the <ref target="http://corvam.unizar.es/en/">website</ref> 
+      is being hosted by the University of Zaragoza.</p>
+  </div>
+  
+  <div>
+    <head>TUNICO</head>
+    
+    <p>The <ref target="https://tunico.acdh.oeaw.ac.at/about_corpus.html">TUNICO 
+      Corpus</ref> was created as part of the project <hi rend="italic">
+      Linguistic dynamics in the Greater Tunis Area: a corpus-based 
+      approach</hi> which ran from August 2013 until July 2016. TUNICO grew 
+      as a satellite project out of the VICAV project.</p>
+  </div>
+
+  <div>
+    <head>Tunisian Arabic Corpus</head>
+
+    <p>This is a comparatively large corpus of Tunisian Arabic mainly
+      collected from the Internet. The corpus has a very nice 
+      <ref target="http://tunisiya.org">web interface</ref>.</p>
+  </div>
+  
+  <div>
+    <head>Corpus of Moroccan Arabic Writers of Short Stories and Literary
+      Reviews</head>
+
+    <p>Information on this corpus can be found 
+        <ref target="http://www.ugr.es/~dgb/corpus/">here</ref>.</p>
+  </div>
+  
+  <div>
+    <head>In their own voices, in their own words: A
+      sociolinguistically-informed corpus of Nigerian Arabic</head>
+    
+    <p>This <ref target="http://www.neu.uni-bayreuth.de/de/Uni_Bayreuth/Fakultaeten/4_Sprach_und_Literaturwissenschaft/islamwissenschaft/arabistik/en/Idiomaticity__lexical_realignment__and_semantic_change_in_spoken_arabic/Nigerian_Arabic/index.html"/>corpus which is hosted by the university of Bayreuth has been
+      created by <ref target="bibl:Owens">Jonathan Owens</ref> who has
+      also published extensively about <ref target="bibl:reg:Nigeria">Nigerian
+        Arabic</ref>.</p>
+  </div>
+  
+  <div>
+    <head>Gumar Corpus</head>
+
+    <p> The <ref target="https://camel.abudhabi.nyu.edu/gumar/">Gulf
+        Arabic Corpus</ref> (Gumar) was created as part of the
+      Computational Approaches to Modeling Languages CAMeL lab in New York
+      University Abu Dhabi NYUAD. The corpus contains a unique genre of
+      written material, anonymous publicly published long conversational
+      novels. A a huge collection of these novels was found online in one
+      place. 1,200 MS Word documents were automatically downloaded. </p>
+  </div>
+  
+  <div>
+      <head>Arabic Dialects Dataset</head>
+      
+      <p>This <ref target="http://www.lancaster.ac.uk/staff/elhaj/corpora.htm">collection</ref> 
+        is one of several corpora being provided by Mahmoud El-Haj 
+        (Lancaster Univesity). It consists in transcriptions of Arabic 
+        script of Gulf, Egypt, Levantine and Tunisian Arabic dialects in 
+        addition to MSA.</p>
+  </div>
+    
+  <div>
+    <head>Arabic Speech Corpus</head>
+    
+    <p>The <ref target="http://en.arabicspeechcorpus.com/">Arabic Speech
+      Corpus</ref> was developed by Nawar Halabi at the University of
+      Southampton. It was recorded in south Levantine Arabic (Damascian
+      accent) using a professional studio. Synthesized speech as an output
+      using this corpus has produced a high quality, natural voice. It is
+      released here under a non-commercial creative commons license.</p>
+  </div> 
+</div>
+      
+<div xml:id="vicavOverview_corpora_msa">
+    <head>Corpora (Modern Written Language)</head>
+
+    <p>The number of corpora of Modern Standard Arabic have been on the rise
+    over the past two decades. Still, the number of readily available 
+    material is rather limited.</p>
+    
+    <div>
+        <head>KALIMAT Multipurpose Arabic Corpus</head>
+        
+        <p>KALIMAT is an Arabic natural language resource that consists of 
+        Arabic articles collected from the Omani newspaper Alwatan. It was prepared 
+        by Mahmoud El-Haj (Lancaster University). Articles in the collection 
+        fall into six categories: culture, economy, local-news, international-news, 
+        religion, and sports. KALIMAT is freely available via 
+        <ref target="https://sourceforge.net/projects/kalimat/files/?source=navbar">sourceforge.net</ref>.</p>
+    </div>
+    
+    <div>
+      <head>International Corpus of Arabic (ICA)</head>
+        
+     <p>The <ref target="http://www.bibalex.org/ica/en/About.aspx">International 
+        Corpus of Arabic (ICA)</ref> is an ambitious attempt to
+        build a representative corpus of the Arabic language as it is used
+        all over the Arab world, with the aim of supporting research on such
+        language. The ICA is planned to contain 100 million words. Once
+        finished, the analyzed version will be the first analyzed Arabic
+        corpus available as a linguistic resource for researchers. It is
+        also the first systematic investigation of national varieties within
+        the Arabic speaking community, this should prove very useful for
+        linguists who believe that their theories and descriptions of
+        language should be based on real, rather than contrived, data."</p>
+    </div>
+    
+    <div>
+      <head>arabiCorpus</head>
+        
+      <p>
+        <ref target="http://arabicorpus.byu.edu/">This corpus</ref> is a
+        sizeable corpus (173,600,000 words) containing texts in five main
+        categories or genres: Newspapers, Modern Literature, Nonfiction,
+        Egyptian Colloquial, and Premodern. It has been maintained by Dil
+        Parkinson, professor of Arabic and allows users to find larger
+        structures and grammatical patterns through frequency analysis,
+        regular expression searching, and other interface features.</p>
+    </div>
+    
+    <div>
+      <head>Wortschatz Universität Leipzig</head>
+        
+      <p>This <ref target="http://wortschatz.uni-leipzig.de/de">website</ref> offers
+        access to large amounts of data crawled form the Internet. There is
+        also Arabic data available. The data is unstructured, search results
+        come with little metadata. However, the results are enriched with
+        cooccurrences which makes it a verz interesting tool both for
+        learners and lexicographers.</p>
+    </div>
+
+    <div>
+        <head>King Abdulaziz City for Science and Technology (KACST) Arabic corpus</head>
+        
+        <p>The KACST Arabic corpus is claimed to be a carefully sampled corpus the 
+         contents of which are classified based on time, region, medium, domain and 
+         topic. It comprises more than 700 million words from the pre-Islamic era 
+         to the present day (a period covering more than 1,500 years). However, most 
+         of the data belongs into the recent past which is why it is listed under MSA. 
+         It can be explored on the <ref target="http://corpus.kacst.edu.sa/">Internet</ref> using a variety of tools.</p>
+    </div>
+    
+    <div>        
+        <head>Sketch Engine Corpora</head>
+        
+        <p>Sketch Engine is a corpus manager and text analysis software that
+        has been developed by Lexical Computing Limited since 2003. It
+        allows to analyse large amounts of textual data and is primarily
+        used by lexicographers and linguists. Sketch Engine also provides
+        corpora in currently 90+ languages. There are several 
+        <ref target="https://www.sketchengine.co.uk/user-guide/user-manual/corpora/by-language/arabic-text-corpora/"> 
+        Arabic corpora</ref> available which come as part of the regular
+        payable subscription.</p>        
+    </div>
+    
+    <div>
+        <head>WebCorp Live</head>
+        
+        <p>The <ref target="http://www.webcorp.org.uk">website</ref> offers a suite of 
+         tools which allows direct access to the World Wide Web as a corpus.</p>
+    </div>
+    
+    <div>
+        <head>Leeds Arabic Corpora</head>
+        
+        <p>Serge Sharoff's <ref target="http://corpus.leeds.ac.uk/query-ar.html">interface</ref> 
+         allows to search several corpora. The list
+         contains an Arabic Internet corpus, Al-Hayat News corpus (1999-2001),
+         an Arabic Wikipedia from 2008, a Computer Science corpus and others.</p>
+    </div>
+    
+    <div>
+        <head>Arabic Concordancer</head>
+        
+        <p>AC is an <ref target="http://efolio.iium.edu.my/arabicconcordancer">interface</ref> 
+         to a corpus published by the International Islamic University 
+         of Malaysia. The corpus itself is not available. On the website 
+         it says that it contains 14 million Arabic words taken from various 
+         academic resources such as theses, journal articles, conferences 
+         papers etc.</p>
+    </div>
+</div>
+
+<div xml:id="vicavOverview_special_corpora">
+    <head>Special Corpora</head>
+
+    <div>
+      <head>Arabic Learner Corpus (ALC)</head>
+      <p>The <ref target="http://www.arabiclearnercorpus.com/">ALC</ref>
+        aims to provide a collection of written and spoken materials
+        produced by learners of Arabic in Saudi Arabia.</p>
+    </div>
+</div>
+
+<div xml:id="vicavOverview_corpora_historical_varieties">
+    <head>Corpora (Historical Varieties)</head>
+
+    <div>
+      <head>Sharing Ancient Wisdoms (SAWS)</head>
+      <p>The <ref target="http://www.ancientwisdoms.ac.uk/">SAWS Dynamic
+          Library</ref> contains five main groups of texts. Elvira Wakelnig
+        and colleagues in Vienna have made available two collections,
+        Gnomological Material in Arabic and in Arabic-Spanish transmission,
+        and Arabic Philosophical Compendia and Excerpts of Arabic and Latin
+        Philosophical Texts; these include, among others, transcriptions of
+        two abridgements of the Ṣiwān al-ḥikma, Ps.-ʿĀmirī’s Kitāb
+        al-Saʿāda, the first editions of three unpublished Arabic
+        compilations of philosophical material, together with further
+        excerpts from relevant texts, from Greek sources and from the
+        Spanish Bocados di Oro whch drew on this tradition. Apophthegmata et
+        gnomae secundum alphabetum comprises the first full edition of an
+        important tradition of Greek gnomologia, arranged in alphabetical
+        order, and edited from 16 manuscripts by Denis Searby and colleagues
+        in Uppsala. A collection of Greek florilegia: Pinakes, prepared by
+        Roueché and Searby, presents the tables of contents from three
+        previously published Greek gnomologia, to give a further sense of
+        the concerns characteristic of such assemblages. Kekaumenos,
+        Consilia et Narrationes, is a new edition, by Charlotte Roueché, of
+        an 11th century Greek text which is profoundly influenced by the
+        tradtion of gnomologia. See a map of the manuscripts which we are
+        publishing.</p>
+    </div>
+
+    <div>
+      <head>A Digital Corpus for Graeco-Arabic Studies</head>
+
+        <p>This <ref target="https://www.graeco-arabic-studies.org">digital
+          corpus</ref> assembles a wide range of Greek texts and their
+        Arabic counterparts. It also includes a number of Arabic
+        commentaries and important secondary sources. The texts in the
+        corpus can be consulted individually or side by side with their
+        translation. The majority of texts can also be downloaded for
+        further analysis. </p>
+    </div>
+    
+    <div>
+        <head>The Quranic Arabic Corpus</head>
+        
+        <p>This <ref target="http://corpus.quran.com">corpus</ref> is an 
+        annotated linguistic resource which shows the Arabic grammar, 
+        syntax and morphology for each word in the text of the Quran. 
+        The corpus provides three levels of analysis: morphological annotation, 
+        a syntactic treebank and a semantic ontology. The linguistic structure 
+        of verses is represented using dependency graphs. The corpus is 
+        available under the GNU public license.</p>
+    </div>
+    
+    <div>
+      <head>Digital Archive for the Study of pre-Islamic Arabian
+        Inscriptions (DASI)</head>
+    
+      <p>
+        <ref target="http://dasi.humnet.unipi.it">DASI</ref> seeks to gather
+        all known pre-Islamic Arabian epigraphic material into a
+        comprehensive online database, with the aim to make available to
+        specialists and to the broader public a wide array of documents
+        often underestimated because of their difficulty of access.</p>
+    
+      <p>By means of a digitization process through a hybrid data entry/xml
+        system developed by the Scuola Normale Superiore di Pisa according
+        to international encoding standards, DASI gives access at present to
+        more than 7,000 Ancient South Arabian inscriptions recorded by the
+        University of Pisa team under the direction of Alessandra Avanzini.
+        Thanks to the fruitful collaboration with other two major European
+        centres for the study of the epigraphic documentation of the Arabian
+        Peninsula, also sections of the two corpora of Ancient North Arabian
+        inscriptions (supervision by Michael C.A. Macdonald, University of
+        Oxford) and Aramaic inscriptions (supervision by Laila Nehmé, UMR
+        8167, CNRS-Paris) are being prepared for consultation.</p>
+    </div>
+    
+    <div>
+      <head>The Arabic Papyrology Database (APD)</head>
+
+      <p>
+        <ref target="http://www.apd.gwi.uni-muenchen.de:8080/apd/project.jsp">APD</ref> is a tool enabling you to access the editions of Arabic
+        documents written on different material such as papyrus, parchment
+        or paper. Those productive editions are an often unraised treasure
+        for almost every aspect of Islamic history up to the 16th c.
+        A.D.</p>
+    </div>
+    
+    <div>
+      <head>Analytical Database of Arabic Poetry</head>
+        
+      <p>The <ref target="https://arts.st-andrews.ac.uk/arsem/project/">
+        project</ref> aims at documenting the transmission of early
+        Arabic poetry. The database represents a contribution to European
+        research on the Arabic language and the Arabic philological
+        heritage, which so far lacks even such fundamental tools as an
+        etymological dictionary of the Arabic language or a complete
+        dictionary of Classical Arabic.</p>
+    </div>
+    
+    <div>
+      <head>The Princeton Geniza Project</head>
+        
+      <p>The <ref target="https://geniza.princeton.edu/pgp/">Princeton
+        Geniza Project</ref> is a searchable database of documentary
+        Geniza texts. The corpus currently consists of 4,320 transcriptions
+        in Judaeo-Arabic, Hebrew, Aramaic and Arabic. </p>
+    </div>
+    
+    <div>
+      <head>Perseus Digital Library</head>
+
+      <p>The Perseus Digital Library, the central hub for digital language
+        ressources in the Latin and Ancient Greek languages, also contains
+        historical <ref target="http://www.perseus.tufts.edu/hopper/collection?collection=Perseus:collection:Arabic">Arabic language documents</ref>.</p>
+    </div>
+    
+    <div>
+      <head>Islamic Law Materialized</head>
+        
+      <p>This <ref target="http://cald.irht.cnrs.fr/php/ilm.php">corpus</ref> 
+        contains primary sources for Islamic law and legal
+        practice in pre-modern Muslim societies. The online presentation is
+        the first ever collection of scattered editions of legal documents
+        from the 2nd/8th to the 9th/15th century, often with improved
+        readings compared to earlier print versions. Documents are presented
+        with the Arabic text in modern spelling and with full
+        bibliographical data.</p>
+    </div>
+    
+    <div>
+      <head>Thesaurus d'épigraphie islamique</head>
+        
+      <p>This <ref target="http://www.apd.gwi.uni-muenchen.de:8080/apd/links.jsp">website</ref> is accessible to registered users only.</p>
+    </div>
+</div>
+        
+<div xml:id="vicavOverview_dictionaries">
+    <head>Dictionaries</head>
+    
+    <p>Over the past few years, the number of online Arabic dictionaries has
+      soared rapidly. Many websites offering online access to dictionaries
+      pursue commercial interests capitalising on easily available data in
+      order to create revenues through commercials. Many of these are of
+      little use to serious research. Addresses often change which makes it
+      impossible to reference them in a persistent manner, the provenance of
+      data is in many cases not clear and the quality of information—at
+      best—dubious. The following list only contains a chosen few which have
+      been arpound for some time already and/or have grown out of research
+      projects.</p>
+    
+    <div>
+      <head>Verbes de l’arabe égyptien: Dictionnaire contextuel raisonné des
+        verbes du dialecte égyptien (parler du Caire)</head>
+        
+      <p>This specialised dictionary has been 
+        <ref target="http://www.ifao.egnet.net/bases/verbeseg/">online</ref> 
+        since 2012.</p>
+    </div>
+    
+    <div>
+      <head>Mawrid Reader: Arabic dictionary interface</head>
+      <p>This <ref target="http://ejtaal.net/mr/readme.html">website</ref>
+        offers reading access to a number of Arabic dictionaries.</p>
+    </div>
+    
+    <div>
+      <head>Glossarium Græco-Arabicum: A lexicon of the mediæval Arabic
+        translations from the Greek</head>
+        
+        <p>The <ref target="http://telota.bbaw.de/glossga/">website</ref> 
+          offers access to the files of a lexical project having studied
+          the lexicon of mediæval Arabic translations from the Greek.
+      </p>
+    </div>
+    
+    <div>
+      <head>Lughatuna: The Living Arabic Project</head>
+        
+      <p>This <ref target="http://www.livingarabic.com/about.html">website</ref> 
+        offers a dictionary interface. It appears to be the
+        work of an enthusiastic hobby lexicographer.</p>
+    </div>
+</div>
+        
+<div xml:id="vicavOverview_nlp">
+    <head>Language Processing Tools</head>
+    
+    <p>Meanwhile, there exist numerous tools for processing Arabic language
+      data. However, tools that are readily usable and freely available are
+      still scarce. </p>
+    
+    <div>
+      <head>Morphological Analyzers</head>
+        
+      <p>Morphlogial processors or taggers assign labels to tokens
+        (wordforms). They can isolate stems, identify word classes (POS=part
+        of speech) or add other morpho-syntactic data to the wordforms.</p>
+    
+      <div>
+        <head>Buckwalter Arabic morphological analyzer</head>
+          
+        <p>This has definitely been the most widely applied tool in the
+          field used by at least two generations of computational
+          linguists.</p>
+      </div>
+    
+      <div>
+        <head>JAVA Arabic Stemmer</head>
+          
+        <p>This programm, also known as <hi rend="italic">Khoja Arabic
+          Stemmer and Tagger</hi>, was written in JAVA and is available
+          from the <ref target="https://sourceforge.net/projects/arabicstemmer/files/">
+          sourceforge</ref> code repository.</p>
+      </div>
+    
+      <div>
+        <head>ADAM: Analyzer for Dialectal Arabic Morphology</head>
+          
+        <p>
+          <ref target="https://github.com/WaelSalloum/adam">ADAM</ref> is a
+          tool that builds on Buckwalter's analyzer.</p>
+      </div>
+    </div>
+    
+    <div>
+      <head>Parsers</head>
+      <p>A parser is a tool that performs an automatic analysis of the
+        syntactic structure of digital texts. </p>
+    
+      <div>    
+        <head>The Stanford Parser</head>
+    
+        <p>It is licensed under a GNU General Public License and comes with
+          extensive support for Arabic.</p>
+      </div>
+    </div>
+    
+    <div>
+      <head>Literature</head>
+        
+      <div>
+        <head>Introduction to Arabic Natural Language Processing (Synthesis 
+            Lectures on Human Language Technologies)</head>
+          
+        <p>To our knowldge, this book by Nizar Y. Habash (Morgan and Claypool 
+            2010) is the only monography exclusivly dealing with Arabic NLP. 
+            It also comprises a bibliography of relevant other pulications 
+            which meanwhile has been outdated by many more publications in 
+            the field.</p>
+      </div>
+        
+      <div>
+          <head>المدونات اللغوية ودورها في معالجة النصوص العربية</head>
+          
+          <p>"Corpora and their Role in Processing Arabic Texts" by 
+            <hi rend="italic">Ayman Eddakrouri</hi> was published in 
+            2018 and deals with a wide range of digital language ressources.</p>
+      </div>
+    </div>
+</div>
+        
+<div xml:id="vicavOverview_otherStuff">
+    <head>Other Websites &amp; Projects</head>
+      
+    <div>
+      <head>Database of Arabic Dialects (ضاد)</head>
+      <p>This database collects published and unpublished data on Arabic
+        dialects in a searchable electronic format. The 
+        <ref target="https://www.database-of-arabic-dialects.org">frontend</ref> 
+        allows to formulate quite complex queries. There is also a 
+        <ref target="https://www.youtube.com/watch?v=UIdGAvu8ZpA">YouTube 
+        presentation</ref> of the functionalities of this database.</p>
+    </div>
+    
+    <div>
+      <head>Arabic Concordance Sampler</head>
+        
+      <p>This is a <ref target="https://prokamus.wordpress.com/bibliography/english/">
+          website</ref> that brings together a lot of information
+        concerning digital language resources for teaching and research.</p>
+    </div>
+    <div>
+      <head>KITAB</head>
+        
+      <p>
+        <ref target="http://kitab-project.org">KITAB</ref> provides a
+        digital tool-box and a forum for discussions about Arabic texts. We
+        wish to empower users to explore Arabic texts in completely new ways
+        and to expand the frontiers of knowledge about one of the world’s
+        largest and most complex textual traditions.</p>
+    </div>
+      
+    <div>
+      <head>al-Raqmiyyāt </head>
+        
+      <p>
+        <ref target="https://maximromanov.github.io/">Website</ref>
+      </p>
+    </div>
+    
+    <div>
+      <head>Arabographic Optical Character Recognition (OCR) </head>
+      <p>
+        <ref target="https://maximromanov.github.io/2016/10-05.html">Website</ref>
+      </p>
+    </div>
+    
+    <div>
+      <head>Cambridge Digital Library: Islamic Manuscripts</head>
+      <p>
+        <ref target="https://cudl.lib.cam.ac.uk/collections/islamic/1">Website</ref>
+      </p>
+    </div>
+    
+    <div>
+      <head>British Library: Arabic Manuscripts</head>
+      <p>
+        <ref target="https://www.bl.uk/collection-guides/arabic-manuscripts">Website</ref>
+      </p>
+    </div>
+    
+    <div>
+      <head>Wellcome Arabic Manuscripts Online</head>
+      <p>The <ref target="http://wamcp.bibalex.org/">Arabic manuscripts
+          collection </ref> of the Wellcome Library (London) comprises
+        around 1000 manuscript books and fragments relating to the history
+        of medicine. For the first time this website enables a substantial
+        proportion of this collection to be consulted online via
+        high-quality digital images of entire manuscripts and associated
+        rich metadata. </p>
+    </div>
+    
+    </div>
+          
+    <div xml:id="vicavExplBar_dualApproach">
+      <head>Dual Approach</head>
+      
+      <p>The VICAV website is designed in a manner supposed to allow 
+        users to investigate the available ressources through various 
+        methods. The basic access mode is to launch a query by clicking 
+        on the symbols on the map.</p>
+      
+      <p>There are two distinct symbols: arrows and circles. The arrows 
+        indicate particular locations (towns, parts of towns, villages), 
+        the circles are used for regions which can but do not necessarily 
+        correlate with countries.</p>
+        
+      <p>
+          <graphic url="images/vicav_locations_regions.jpg"/>
+      </p>
+        
+      <p>Some queries can be triggered through clicking on a menu item or
+        by formulating explicit queries.</p>
+    </div>
+          
+          
+    <div xml:id="vicavExplBar_openParadigms">
+      <head>Open Source &amp; Open Access</head>
+      
+      <p>VICAV is all about sharing. You can reuse both the code and the
+        data used on this website under . We strongly believe that sharing 
+        digital tools and data is an efficient way to accelerate 
+        knowledge transfer in the field and to make many research 
+        processes more efficient.</p>
+      
+      <p>The code for the website can be found on 
+        <ref target="https://github.com/acdh-oeaw/vicav-app">GitHub</ref>.</p>
+      
+      <p>All the texts are made available through the 
+        <ref target="https://arche.acdh.oeaw.ac.at">ARCHE</ref> repository and 
+        are available under <ref target="https://creativecommons.org/licenses/by/4.0/">
+        CC BY-SA 4.0.</ref>
+      </p>
+      
+      <p>
+          <graphic url="images/attribution_icon_white_x2.png"/>
+      </p>
+</div>
+      
+<div xml:id="vicavExplBar_textTechnology">
+  <head>Digital Humaniteis &amp; Text Technology</head>
+  
+  <p>VICAV has been designed from the very beginning as a project bridging
+    the gap between traditional concepts in the humanities and innovative 
+    technological approaches. We have been building our work on the paradigms 
+    of the digital humanity community: digital tools and data, collaborative 
+    settings and open science are the basis of our work.</p>
+  
+  <p>By text technology we understand a broad spectrum of methods and tools 
+    being applied to a wide range of applications beyond the narrower field 
+    of computational linguistics with its focus on large corpora and mainly  
+    statistical approaches. </p>
+</div>
+
+<div xml:id="vicavExplBar_Contributions">
+  <head>Contributing</head>
+  
+  <p>VICAV is a group effort. Your support is highly welcome. Write a
+    <hi rend="italic">profile</hi>, write a <hi rend="italic">sample text</hi>, 
+    share your <hi rend="italic">lexical data</hi> or help us in
+    improving the <hi rend="italic">bibliography</hi>.</p>
+
+  <p>We highly value our cooperators and do our best to credit them. The 
+    author of a text is always mentioned in all the <hi rend="italic">profiles</hi>,
+    the <hi rend="italic">sample texts</hi>, <hi rend="italic">feature 
+    lists</hi> and <hi rend="italic">dictionary entries</hi>. Unfortunately, 
+    we did not find a way to preserve who did what in ZOTERO while transfering 
+    data not the VICAV database. However, your name will still be mentioned 
+    in the <ref target="text:vicavContributors/CONTRIBUTORS">list of contributors</ref>.</p>
+</div>
+      
+<div xml:id="vicavExplBar_DesignPrinciples">
+  <head>Design Principles</head>
+  
+  <p>Displaying complexly structured scholarly contents on screens has 
+    always been a design challenge. What has made the situation even more 
+    complicated is that these days web applications are supposed to run on 
+    any kind of device. VICAV is basically built on responsive technology. 
+    However, the website has not been optimised for use on smaller mobile 
+    devices yet.</p>
+  
+  <p>Research environments have to work on the Internet these days, which 
+     means they need to be implemented as web interfaces that run in browsers. 
+     By doing this, one forgoes the powerful possibilities of the windows 
+     based systems, on the other side you attaina higher degree of systemic 
+     interoperability, reusability and will definitely be able to address a much 
+     larger audience.</p>
+    
+  <p>One drawback of the browser approach has been, that it is usually not 
+     possible to have several tabs next to each other which hampers any 
+     processes aiming at comparing texts. Whenever you want to juxtapose 
+     data one has to find other approaches. One possibility to create a 
+     flexible solution to the issue of structuring data on a single surface  
+     has been "panelification", visualising data in smaller units that  
+     actually emulate forms or windows. We have been experimenting with 
+     several approaches. In previous versions of VICAV, the panels were 
+     freely movable on the screen which gave users a lot of flexibility 
+     to arrange the materials they were interested in on the screen. 
+     However, experience has shown that the screen tends to
+     get cluttered easily.</p>
+    
+   <p>The current approach strikes a balance between a structure where 
+     the user has full control over the psoition and size of panels and 
+     a static approach where particualr types of text have a fixed position 
+     on the screen. Most data on the VICAV website is now displayed in 
+     collapsible panels which have a fixed size and fixed positions. 
+     Users can open and close these panels, has some control over their 
+     size and has full control over the order in whcih he accesses 
+     particular contens. Like this, it is still possible to juxtapose 
+     particular items and compare them by open them in the right order.</p>
+    
+  <p>
+      <graphic url="images/vicav_panels__001.jpg"/>
+  </p>
+  
+  <p>'Overcrowding' of the screen is avoided by a simple mechanisms that  
+   collapses panels when there are more than three panels open. The collapsed 
+   panels still remain on the screen and can be reopened at any time.
+   Panels which trigger queries stay open as long as they serve this 
+   purpose.</p>
+    
+  <p>
+      <graphic url="images/vicav_panels__002.jpg"/>
+  </p>
+        
+  
+  <p>You can open and close any of these panels making use of the controls on the 
+    purple bar on the left side. The X in the circle closes the panel completely. 
+    The arrow-dash sign allows to open and close it.</p>
+  <p>
+      <graphic url="images/vicav_panel_collapse.jpg"/>
+  </p>
+  
+  <p>The relativley small display area of the panels can be enlarged by 
+    clicking on "Expand Panels over Map".</p>
+    
+  <p>
+      <graphic url="images/vicav_expand_panels__001.jpg"/>
+  </p>
+  
+  <p>To make space for new queries you can "Close All Panels".</p>
+    
+  <p>
+      <graphic url="images/vicav_close_all_panels__001.jpg"/>
+  </p>
+</div>
+
+<div xml:id="vicavLearning_tb_damascus">
+    <head>VIVAC Learning Materials: <hi rend="italic">Textbook Syrian Arabic (Sound files)</hi>
+        </head>
+
+    <p>Rima Aldoukhi, Stephan Procházka, Anna Telic.
+        Unter Mitarbeit von Narine Grigoryan
+        Harrassowitz 2014.
+        
+        Alle Rechte für die den Aufnahmen zugrunde liegenden Texte liegen beim Otto Harrassowitz Verlag, Wiesbaden.
+        Die Audioaufnahmen sind lizensiert als CC BY-NC-SA 3.0 AT. </p>
+    
+    <div>
+        <head>Lehrbuch des Syrisch-Arabischen 1</head>
+        
+        <table type="soundTable">
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 1, text 1</cell>
+              <cell>Begrüßung und Verabschiedung</cell>
+              <cell>əs-salām w-ǝl-wadāʕ</cell>
+              <cell>
+                <ptr type="sound" target="1_L01_T01.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 1, text 2</cell>
+              <cell>Sich vorstellen</cell>
+              <cell>ət-taʕarrof</cell>
+              <cell>
+                <ptr type="sound" target="1_L01_T02.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 1, text 3</cell>
+              <cell>Am Telefon</cell>
+              <cell>ʕa-t-talifōn</cell>
+              <cell>
+                <ptr type="sound" target="1_L01_T03.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 2, text 1</cell>
+              <cell>Wie heißt du?</cell>
+              <cell>šū ʔǝsmak?</cell>
+              <cell>
+                <ptr type="sound" target="1_L02_T01.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 2, text 2</cell>
+              <cell>Woher bist du?</cell>
+              <cell>mnēn ʔənti?</cell>
+              <cell>
+                <ptr type="sound" target="1_L02_T02.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 2, text 3</cell>
+              <cell>Wie geht’s?</cell>
+              <cell>šlōnak? kīfek?</cell>
+              <cell>
+                <ptr type="sound" target="1_L02_T03.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 2, text 4</cell>
+              <cell>Wo wohnt ihr?</cell>
+              <cell>wēn bētkon?</cell>
+              <cell>
+                <ptr type="sound" target="1_L02_T04.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 2, text 5</cell>
+              <cell>Wo ist …?</cell>
+              <cell>wēn …?</cell>
+              <cell>
+                <ptr type="sound" target="1_L02_T05.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 3, text 1</cell>
+              <cell>Im Kaffeehaus</cell>
+              <cell>b-ǝl-ʔahwe</cell>
+              <cell>
+                <ptr type="sound" target="1_L03_T01.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 3, text 2</cell>
+              <cell>Ich bin hungrig</cell>
+              <cell>ʔana žūʕāne</cell>
+              <cell>
+                <ptr type="sound" target="1_L03_T02.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 3, text 3</cell>
+              <cell>Studium oder Arbeit?</cell>
+              <cell>dirāse walla šǝġᵊl?</cell>
+              <cell>
+                <ptr type="sound" target="1_L03_T03.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 3, text 4</cell>
+              <cell>Wo ist das Hotel?</cell>
+              <cell>wēn ǝl-fǝndoʔ?</cell>
+              <cell>
+                <ptr type="sound" target="1_L03_T04.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 4, text 1</cell>
+              <cell>Damaszenisches Frühstück</cell>
+              <cell>fṭūr šāmi</cell>
+              <cell>
+                <ptr type="sound" target="1_L04_T01.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 4, text 3</cell>
+              <cell>Ein gewöhnlicher Tag</cell>
+              <cell>yōm ʕādi</cell>
+              <cell>
+                <ptr type="sound" target="1_L04_T03.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 5, text 1</cell>
+              <cell>Frühstück im Café</cell>
+              <cell>fṭūr b-ǝl-ʔahwe</cell>
+              <cell>
+                <ptr type="sound" target="1_L05_T01.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 5, text 3</cell>
+              <cell>Meine Familie</cell>
+              <cell>ʕēlti</cell>
+              <cell>
+                <ptr type="sound" target="1_L05_T03.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 6, text 1</cell>
+              <cell>Alis Tochter</cell>
+              <cell>bәnt ʕAli</cell>
+              <cell>
+                <ptr type="sound" target="1_L06_T01.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 6, text 2</cell>
+              <cell>In der Ḥalbūni-Straße</cell>
+              <cell>b-әl-ḥalbūni</cell>
+              <cell>
+                <ptr type="sound" target="1_L06_T02.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 6, text 3</cell>
+              <cell>Am ʕAṣrūniyye-Markt</cell>
+              <cell>b-әl-ʕaṣrūniyye</cell>
+              <cell>
+                <ptr type="sound" target="1_L06_T03.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 7, text 1</cell>
+              <cell>Die Stadt Damaskus</cell>
+              <cell>madīnet Dimašᵊq</cell>
+              <cell>
+                <ptr type="sound" target="1_L07_T01.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 7, text 3</cell>
+              <cell>Am Telefon 2</cell>
+              <cell>talifōn 2</cell>
+              <cell>
+                <ptr type="sound" target="1_L07_T03.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 7, text 4</cell>
+              <cell>Die Familie</cell>
+              <cell>әl-ʕēle</cell>
+              <cell>
+                <ptr type="sound" target="1_L07_T04.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 8, text 1</cell>
+              <cell>Wie ist der Weg …?</cell>
+              <cell>kīf əṭ-ṭarīʔ …?</cell>
+              <cell>
+                <ptr type="sound" target="1_L08_T01.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 8, text 2</cell>
+              <cell>Eine Wegbeschreibung</cell>
+              <cell>waṣᵊf ṭarīʔ</cell>
+              <cell>
+                <ptr type="sound" target="1_L08_T02.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 8, text 3</cell>
+              <cell>Wo gibt es eine Apotheke?</cell>
+              <cell>wēn fī ṣēdaliyye?</cell>
+              <cell>
+                <ptr type="sound" target="1_L08_T03.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 8, text 5</cell>
+              <cell>Verkehrsmittel in Damaskus</cell>
+              <cell>lǝ-mwāṣalāt b-əš-Šām</cell>
+              <cell>
+                <ptr type="sound" target="1_L08_T05.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 9, text 4</cell>
+              <cell>Im Handygeschäft</cell>
+              <cell>b-maḥall ǝl-mōbāylāt</cell>
+              <cell>
+                <ptr type="sound" target="1_L09_T04.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 10, text 1</cell>
+              <cell>In der Bibliothek</cell>
+              <cell>b-əl-maktabe</cell>
+              <cell>
+                <ptr type="sound" target="1_L10_T01.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 10, text 2</cell>
+              <cell>Im Kaffeehaus</cell>
+              <cell>b-ǝl-ʔahwe</cell>
+              <cell>
+                <ptr type="sound" target="1_L10_T02.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 11, text 1</cell>
+              <cell>Im Damenschuhgeschäft</cell>
+              <cell>b-maḥall əl-ʔaḥziye n-nəswāniyye</cell>
+              <cell>
+                <ptr type="sound" target="1_L11_T01.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 11, text 3</cell>
+              <cell>Umtausch</cell>
+              <cell>tabdīl</cell>
+              <cell>
+                <ptr type="sound" target="1_L11_T03.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 11, text 4</cell>
+              <cell>Am Kleidermarkt</cell>
+              <cell>b-sūʔ ǝl-malābes</cell>
+              <cell>
+                <ptr type="sound" target="1_L11_T04.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 12, text 2</cell>
+              <cell>Stadteile von Damaskus</cell>
+              <cell>manāṭeʔ ᵊmhǝmme b-ǝš-Šām</cell>
+              <cell>
+                <ptr type="sound" target="1_L12_T02.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 13, text 4</cell>
+              <cell>Syrisches Essen 2</cell>
+              <cell>ʔakᵊl Šāmi 2</cell>
+              <cell>
+                <ptr type="sound" target="1_L13_T04.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 14, text 2</cell>
+              <cell>Nochmals am Gemüsemarkt</cell>
+              <cell>marra tānye b-sūʔ ǝl-xǝḍra</cell>
+              <cell>
+                <ptr type="sound" target="1_L14_T02.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 14, text 3</cell>
+              <cell>In der Moschee</cell>
+              <cell>b-ǝž-žāmeʕ</cell>
+              <cell>
+                <ptr type="sound" target="1_L14_T03.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 14, text 4</cell>
+              <cell>Syrisches Essen 3: Maqlūbe</cell>
+              <cell>ʔakᵊl šāmi 3: maʔlūbe</cell>
+              <cell>
+                <ptr type="sound" target="1_L14_T04.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>Lesson 15, text 1</cell>
+              <cell>Im Internetcafé</cell>
+              <cell>b-ǝl-ʔǝntǝrnetkafē</cell>
+              <cell>
+                <ptr type="sound" target="1_L15_T01.m4a"/>
+              </cell>
+            </row>
+        </table>
+    </div>
+    
+    <div>
+        <head>Lehrbuch des Syrisch-Arabischen 1</head>
+        
+        <table type="soundTable">
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 1, text 1</cell>
+              <cell>Der Monat Ramadan</cell>
+              <cell>šahᵊr Ramaḍān</cell>
+              <cell>
+                <ptr type="sound" target="2_L01_T01_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 1, text 2</cell>
+              <cell>Der Termin</cell>
+              <cell>ǝl-mawʕed</cell>
+              <cell>
+                <ptr type="sound" target="2_L01_T02_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 1, text 3</cell>
+              <cell>Syrisches Essen 4: Gefülltes</cell>
+              <cell>ʔakᵊl Šāmi 4: ǝl-maḥāši</cell>
+              <cell>
+                <ptr type="sound" target="2_L01_T03_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 2, text 1</cell>
+              <cell>Die Syrisch-Arabische Republik</cell>
+              <cell>ǝž-žǝmhūriyye s-sūriyye</cell>
+              <cell>
+                <ptr type="sound" target="2_L02_T01_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 2, text 2</cell>
+              <cell>Es ist lange her</cell>
+              <cell>kān mǝn zamān</cell>
+              <cell>
+                <ptr type="sound" target="2_L02_T02_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 2, text 3</cell>
+              <cell>Am Stoffmarkt</cell>
+              <cell>b-sūʔ lǝ-ʔmāš</cell>
+              <cell>
+                <ptr type="sound" target="2_L02_T03_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 3, text 1</cell>
+              <cell>Mein heutiger Tag</cell>
+              <cell>nhāri</cell>
+              <cell>
+                <ptr type="sound" target="2_L03_T01_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 3, text 2</cell>
+              <cell>Die Jahreszeiten in Damaskus</cell>
+              <cell>lǝ-fṣūl b-ǝš-Šām</cell>
+              <cell>
+                <ptr type="sound" target="2_L03_T02_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 3, text 3</cell>
+              <cell>Handwerksbetriebe im Suq</cell>
+              <cell>kārāt əs-sūʔ</cell>
+              <cell>
+                <ptr type="sound" target="2_L03_T03_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 4, text 2</cell>
+              <cell>Die Zitadelle von Aleppo</cell>
+              <cell>ʔalʕet Ḥalab</cell>
+              <cell>
+                <ptr type="sound" target="2_L04_T02_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 5, text 1</cell>
+              <cell>Anna besucht Dāna zu Hause</cell>
+              <cell>zyāret ʔAnna bi-bēt Dāna</cell>
+              <cell>
+                <ptr type="sound" target="2_L05_T01_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 5, text 2</cell>
+              <cell>Im öffentlichen Bad</cell>
+              <cell>b-ḥammām əs-sūʔ</cell>
+              <cell>
+                <ptr type="sound" target="2_L05_T02_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 5, text 3</cell>
+              <cell>Rimas Geburtstag</cell>
+              <cell>ʕīd mīlād Rīma</cell>
+              <cell>
+                <ptr type="sound" target="2_L05_T03_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 6, text 4</cell>
+              <cell>Telefonnummern</cell>
+              <cell>ʔarʔām әt-talifōn</cell>
+              <cell>
+                <ptr type="sound" target="2_L06_T04_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 7, text 1a</cell>
+              <cell>Beim Arzt</cell>
+              <cell>ʕand әd-dәktōr</cell>
+              <cell>
+                <ptr type="sound" target="2_L07_T01a.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 7, text 1b</cell>
+              <cell>Beim Arzt</cell>
+              <cell>ʕand әd-dәktōr</cell>
+              <cell>
+                <ptr type="sound" target="2_L07_T01b.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 7, text 2</cell>
+              <cell>Visum verlängern</cell>
+              <cell>tamdīd ǝl-vīza</cell>
+              <cell>
+                <ptr type="sound" target="2_L07_T02_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 7, text 3</cell>
+              <cell>Islamische Feste</cell>
+              <cell>lə-ʕyād ǝl-ʔǝslāmiyye</cell>
+              <cell>
+                <ptr type="sound" target="2_L07_T03_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 7, text 4</cell>
+              <cell>Syrisches Essen 9: Süßigkeiten</cell>
+              <cell>ʔakᵊl Šāmi 9: ḥəlwiyyāt</cell>
+              <cell>
+                <ptr type="sound" target="2_L07_T04_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 8, text 2</cell>
+              <cell>Die Verlobung von Sāmi und Dāna</cell>
+              <cell>xəṭbet Sāmi w Dāna</cell>
+              <cell>
+                <ptr type="sound" target="2_L08_T02_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 8, text 3</cell>
+              <cell>Christliche Feste</cell>
+              <cell>lǝ-ʕyād ǝl-masīḥiyye</cell>
+              <cell>
+                <ptr type="sound" target="2_L08_T03_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 8, text 4</cell>
+              <cell>Ein paar syrische Witze</cell>
+              <cell>kam nǝkte šāmiyye</cell>
+              <cell>
+                <ptr type="sound" target="2_L08_T04_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 9, text 1</cell>
+              <cell>Die Hochzeit</cell>
+              <cell>əl-ʕərᵊs</cell>
+              <cell>
+                <ptr type="sound" target="2_L09_T01_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 9, text 3</cell>
+              <cell>Syrisches Essen 10: Muluchije</cell>
+              <cell>ʔakᵊl Šāmi 10: lǝ-mlūxiyye</cell>
+              <cell>
+                <ptr type="sound" target="2_L09_T03_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 9, text 4</cell>
+              <cell>Fußball</cell>
+              <cell>kuret əl-qadam</cell>
+              <cell>
+                <ptr type="sound" target="2_L09_T04_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 10, text 2</cell>
+              <cell>Das Wetter und die vier Jahreszeiten in Damaskus</cell>
+              <cell>әž-žaww w-ᵊfṣūl әs-sәne l-ʔarbʕa b-ǝš-Šām</cell>
+              <cell>
+                <ptr type="sound" target="2_L10_T02_.m4a"/>
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>Lesson 11, text 1</cell>
+              <cell>Revolution und Krieg</cell>
+              <cell>əs-sawra w-əl-ḥarᵊb</cell>
+              <cell>
+                <ptr type="sound" target="2_L11_T01_.m4a"/>
+              </cell>
+            </row>            
+        </table>
+    </div>
+</div>
+      
+    </body>
+  </text>
+</TEI>
