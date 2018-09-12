@@ -15,3 +15,14 @@ It consists of the following directories:
 ### Editing
 
 The TEI documents in this repository can be edited with any text editor at hand. For ease of use an Oxygen Project (`vicav.xpr`) is included.
+
+TODO: Deploying to the web application
+
+## Technical Tools
+### XSLT Scripts
+
+The XSLT scripts in `tools/082_scripts_xsl` are used for various data conversion steps in the editorial process.
+
+### TEI ODDs
+
+For each of the above meantioned text type (corpus, linguistic features, etc) there is a dedicated ODD which defines a TEI model dedicated to the text types's specific structure.
