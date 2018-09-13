@@ -25,14 +25,14 @@
     exclude-result-prefixes="#all"
     version="3.0">
     <xsl:preserve-space elements="w:t"/>
-    <xsl:output indent="yes"/>
+    <xsl:output indent="no"/>
     <xsl:function name="_:unzip-and-parse">
         <xsl:param name="filename"/>
         <xsl:variable name="text" select="archive:extract-text(file:read-binary($path-to-docx), $filename)"/>
         <xsl:sequence select="if (exists($text)) then parse-xml($text) else ()"/>
     </xsl:function>
     <xsl:key name="comment-by-id" match="w:comment" use="@w:id"/>
-    <xsl:param name="debug" as="xs:boolean" select="true()"/>
+    <xsl:param name="debug" as="xs:boolean" select="false()"/>
     <xsl:param name="path-to-docx" as="xs:string"/>
     <xsl:variable name="doc" select="_:unzip-and-parse('word/document.xml')"/>
     <xsl:variable name="comments" select="_:unzip-and-parse('word/comments.xml')"/>
