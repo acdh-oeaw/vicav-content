@@ -35,7 +35,9 @@
     
     <xsl:variable name="correctionMarksDoc" select="doc('correctionMarks.xml')"/>
     <xsl:variable name="correctionMarks" select="$correctionMarksDoc//tei:interp/xs:string(@xml:id)" as="xs:string+"/>
-    
+    <xsl:template match="xsl:stylesheet" mode="#all">
+        <!-- this to omit processor warnings of missing template rules matching the input document's namespace. -->
+    </xsl:template>
     <xsl:template match="/">
         <xsl:if test="$debug">
             <xsl:result-document href="debug/doc.xml">
