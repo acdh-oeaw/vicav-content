@@ -16,7 +16,9 @@ It consists of the following directories:
 
 The TEI documents in this repository can be edited with any text editor at hand. For ease of use an Oxygen Project (`vicav.xpr`) is included.
 
-TODO: Deploying to the web application
+### Converting contributions to TEI 
+
+See the README document in the `contributions` directory.
 
 ## Technical Tools
 ### XSLT Scripts
