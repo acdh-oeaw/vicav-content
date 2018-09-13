@@ -10,6 +10,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:o="urn:schemas-microsoft-com:office:office"
     xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+    xmlns:rs="http://schemas.openxmlformats.org/package/2006/relationships"
     xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math"
     xmlns:v="urn:schemas-microsoft-com:vml"
     xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing"
@@ -25,13 +26,17 @@
     version="3.0">
     <xsl:preserve-space elements="w:t"/>
     <xsl:output indent="yes"/>
+    <xsl:function name="_:unzip-and-parse">
+        <xsl:param name="filename"/>
+        <xsl:variable name="text" select="archive:extract-text(file:read-binary($path-to-docx), $filename)"/>
+        <xsl:sequence select="if (exists($text)) then parse-xml($text) else ()"/>
+    </xsl:function>
     <xsl:key name="comment-by-id" match="w:comment" use="@w:id"/>
-    <xsl:param name="debug" as="xs:boolean" select="false()"/>
+    <xsl:param name="debug" as="xs:boolean" select="true()"/>
     <xsl:param name="path-to-docx" as="xs:string"/>
-    <xsl:variable name="archive-entries" select="('word/document.xml', 'word/comments.xml')[. = archive:entries(file:read-binary($path-to-docx))]"/>
-    <xsl:variable name="unzipped" select="archive:extract-text(file:read-binary($path-to-docx),$archive-entries)"/>
-    <xsl:variable name="doc" select="if (exists($unzipped[1])) then parse-xml($unzipped[1]) else ()"/>
-    <xsl:variable name="comments" select="if (exists($unzipped[2])) then parse-xml($unzipped[2]) else ()"/>
+    <xsl:variable name="doc" select="_:unzip-and-parse('word/document.xml')"/>
+    <xsl:variable name="comments" select="_:unzip-and-parse('word/comments.xml')"/>
+    <xsl:variable name="document.xml.rels" select="_:unzip-and-parse('word/_rels/document.xml.rels')"/>
     
     <xsl:variable name="correctionMarksDoc" select="doc('correctionMarks.xml')"/>
     <xsl:variable name="correctionMarks" select="$correctionMarksDoc//tei:interp/xs:string(@xml:id)" as="xs:string+"/>
@@ -40,8 +45,14 @@
     </xsl:template>
     <xsl:template match="/">
         <xsl:if test="$debug">
+            <xsl:result-document href="debug/archive-entries.xml">
+                <xsl:sequence select="archive:entries(file:read-binary($path-to-docx))"/>
+            </xsl:result-document>
             <xsl:result-document href="debug/doc.xml">
                 <xsl:sequence select="$doc"/>
+            </xsl:result-document>
+            <xsl:result-document href="debug/document.xml.rels">
+                <xsl:sequence select="$document.xml.rels"/>
             </xsl:result-document>
         </xsl:if>
         
@@ -277,8 +288,8 @@
     </xsl:template>
     <xsl:template match="w:tcPr" mode="w2t"/>
     
-    <xsl:template match="w:hyperlink[w:r]" mode="w2t">
-        <xsl:apply-templates select="w:r" mode="#current"/>
+    <xsl:template match="w:hyperlink" mode="w2t">
+        <ref target="{$document.xml.rels//rs:Relationship[@Id = current()/@r:id]/@Target}"><xsl:apply-templates mode="#current"/></ref>
     </xsl:template>
     
     <xsl:template match="w:r" mode="w2t">
