@@ -10,6 +10,21 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>contributions/vicav_features_template__001.docx</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DOCX to TEI: Feature List</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>tools/082_scripts_xsl/produce_vicav_lingfeaturelist_v001.xsl</String>
                                 </field>
                                 <field name="scenarioIds">

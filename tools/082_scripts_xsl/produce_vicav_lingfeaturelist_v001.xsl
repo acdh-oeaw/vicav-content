@@ -8,19 +8,27 @@
         </xsl:copy>
     </xsl:template>
     -->
+    <xsl:strip-space elements="tei:cell"/>
+    
+    <xsl:variable name="id"     select="//tei:row[normalize-space(tei:cell[1]) = 'ID']/tei:cell[2]/normalize-space(.)"/>
+    <xsl:variable name="author" select="//tei:row[normalize-space(tei:cell[1]) = 'Author']/tei:cell[2]/normalize-space(.)"/>
+    <xsl:variable name="date" select="//tei:row[normalize-space(tei:cell[1]) = 'Date']/tei:cell[2]/normalize-space(.)"/>
+    <xsl:variable name="title" select="//tei:row[normalize-space(tei:cell[1]) = 'Title']/tei:cell[2]/normalize-space(.)"/>
+    
+    
     <xsl:template match="/">
         <TEI>
-            <xsl:attribute name="xml:id"><xsl:value-of select="//tei:table[1]/tei:row[tei:cell='ID']/tei:cell[2]"/></xsl:attribute>
+            <xsl:attribute name="xml:id"><xsl:value-of select="$id"/></xsl:attribute>
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title><xsl:value-of select="//tei:table[1]/tei:row[tei:cell='Title']/tei:cell[2]"/></title>
-                        <author><xsl:value-of select="//tei:table[1]/tei:row[tei:cell='Author']/tei:cell[2]"/></author>
+                        <title><xsl:value-of select="$title"/></title>
+                        <author><xsl:value-of select="$author"/></author>
                     </titleStmt>
                     <publicationStmt>
                         <publisher>ACDH-OeAW</publisher>
                         <pubPlace>Vienna</pubPlace>
-                        <date><xsl:value-of select="//tei:table[1]/tei:row[tei:cell='Date']/tei:cell[2]"/></date>
+                        <date><xsl:value-of select="$date"/></date>
                         <availability status="restricted">
                             <p><ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/></p>
                         </availability>
@@ -34,7 +42,9 @@
             <text><body><xsl:apply-templates/></body></text>            
         </TEI>
     </xsl:template>
-
+    
+    
+    
     <xsl:template match="tei:cell">
         <cell>
             <xsl:choose>
@@ -57,7 +67,11 @@
             <xsl:apply-templates/>
         </cell>
     </xsl:template>
-
+    
+    <xsl:template match="tei:cell[normalize-space(.) = 'METADATA']"/>
+        
+    
+    
     <xsl:template match="tei:hi">
         <hi>
             <xsl:attribute name="rend">
@@ -71,15 +85,11 @@
     </xsl:template>
 
     <xsl:template match="tei:row">
-        <row>
-            <xsl:apply-templates/>
-        </row>
+        <row><xsl:apply-templates/></row>
     </xsl:template>
 
     <xsl:template match="tei:table">
-        <table>
-            <xsl:apply-templates/>
-        </table>
+        <table><xsl:apply-templates/></table>
     </xsl:template>
 
     <xsl:template match="tei:teiHeader"/>
