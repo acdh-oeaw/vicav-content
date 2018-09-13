@@ -5,7 +5,8 @@
     xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
     xmlns:rl="http://schemas.openxmlformats.org/package/2006/relationships"
     xmlns:tei="http://www.tei-c.org/ns/1.0"
-    exclude-result-prefixes="xs"
+    xmlns="http://www.tei-c.org/ns/1.0"
+    exclude-result-prefixes="#all"
     version="2.0">
 
     <xsl:output method="xml" indent="yes"/>
@@ -170,7 +171,18 @@
             <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+    
 
+    <xsl:template match="tei:*" priority="-1">
+            <xsl:copy>
+                <xsl:apply-templates select="node() | @*"/>
+            </xsl:copy>
+    </xsl:template>
+    
+    <xsl:template match="tei:*/@*">
+        <xsl:copy-of select="."/>
+    </xsl:template>
+    
     <xsl:template match="w:hyperlink"><ref><xsl:attribute name="target"><xsl:value-of select="@r:id"/></xsl:attribute><xsl:apply-templates/></ref></xsl:template>
     
     <xsl:template match="text()">
