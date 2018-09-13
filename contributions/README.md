@@ -1,8 +1,9 @@
 # Converting external contributions to TEI-XML
 
 1. Add the docx document to this directory (called `contributions`).
-2. In Oxygen / *Project* View: Right click on the Word document and select `Transform > Transform with`.
-2. A dialog box opens where you can select which transformation scenario to run:    
+2. Open vicav.xpr with Oxygen.
+3. In Oxygen / *Project* View: Right click on the Word document and select `Transform > Transform with`.
+4. A dialog box opens where you can select which transformation scenario to run:    
 
    * For a linguistic feature list choose *DOCX to TEI: Feature List*.
    * For a profile document choose *DOCX to TEI: Profile*.
