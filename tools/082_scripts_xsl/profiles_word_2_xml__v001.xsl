@@ -11,6 +11,7 @@
 
     <xsl:output method="xml" indent="yes"/>
     <xsl:strip-space elements="p w:p w:r w:t"/>
+    <xsl:preserve-space elements="tei:p"/>
     
     <xsl:template match="/">
         
@@ -93,8 +94,8 @@
             <text>
                 <body>
                     <div>
-                        <p>PPP:<xsl:value-of select="base-uri()"/>
-                            <xsl:value-of select="document('document.xml.rels')/node()[2]"/></p>
+                        <xsl:comment>PPP:<xsl:value-of select="base-uri()"/>
+                            <xsl:value-of select="document('document.xml.rels')/node()[2]"/></xsl:comment>
                         <head>
                             <xsl:if test="string-length($image)&gt;0">
                                 <ref target="damaskus-moschee-hof-1985.jpg"><xsl:value-of select="$imageCopyright"/></ref>
@@ -185,7 +186,7 @@
     
     <xsl:template match="w:hyperlink"><ref><xsl:attribute name="target"><xsl:value-of select="@r:id"/></xsl:attribute><xsl:apply-templates/></ref></xsl:template>
     
-    <xsl:template match="text()">
+    <xsl:template match="text()[ancestor::w:*]">
         <xsl:choose>
             <xsl:when test="parent::w:t"><xsl:value-of select="."/></xsl:when>
             <xsl:otherwise><xsl:value-of select="normalize-space(.)"/></xsl:otherwise>
