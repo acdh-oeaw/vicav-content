@@ -18,7 +18,7 @@ The TEI documents in this repository can be edited with any text editor at hand.
 
 ### Converting contributions to TEI 
 
-See the README document in the `contributions` directory.
+See the Stephan README document in the `contributions` directory.
 
 ## Technical Tools
 ### XSLT Scripts
