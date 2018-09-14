@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_sousse_001">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>A machine-readable profile of Sousse-Arabic</title>
+          <author>Natanja Faschinger</author>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ACDH-OeAW</publisher>
+          <pubPlace>Vienna</pubPlace>
+          <date>2012</date>
+          <availability status="restricted">
+            <p>
+              <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+            </p>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <p>This is an original digital text</p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <head>
+            <figure>
+                <graphic url="Sousse-2007.JPG"/>
+            </figure>
+            <name xml:lang="eng">Sousse</name>
+            <name xml:lang="ara">سوسة</name>
+            <name xml:lang="ara-x-DMG">Sūsa</name>
+          </head>
+          <div type="positioning">
+            <p>
+              <geo>35.82, 10.64</geo>
+            </p>
+          </div>
+          <div type="typology">
+            <p>Dialect group: Maghreb, Tunisia</p>
+            <p>Urban sedentary dialect, Sāḥil group</p>
+          </div>
+
+          <div type="general">
+            <p>Sousse is an important coastal city in the west of Tunisia which
+              has been a regional trade centre for many centuries. Starting in
+              the 1960s Sousse has developed into one of the country’s main
+              Tourism destinations. This caused immense increase in population,
+              especially migration from rural areas all over Tunisia, which has
+              significantly influenced the original dialect.</p>
+          </div>
+
+          <div type="researchHistory">
+            <p>A detailed study on the dialect spoken within the medina is <ref target="bibl:talmoudi_1980_0000">Talmoudi 1980</ref>, a
+              collection of texts can be found in <ref target="bibl:talmoudi_1981_0001">Talmoudi 1981</ref>. An
+              analysis of verbs of Romance origin in Tunisian dialects,
+              including data from Sousse, is given in <ref target="bibl:talmoudi_1986_0000">Talmoudi 1986</ref>. 
+              <ref target="bibl:saada_1956_0000">Saada 1956</ref> is a study
+              about the dialect of the Jews of Sousse.</p>
+          </div>
+
+          <div type="bibliography">
+            <p>Get the full list of publications on the dialect of Sousse in our
+              database by <ref target="bibl:geo:Sousse">clicking here</ref>. </p>
+          </div>
+        </div>
+      </body>
+    </text>
+  </TEI>

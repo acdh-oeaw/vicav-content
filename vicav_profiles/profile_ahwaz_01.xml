@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_ahwaz_01">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>A machine-readable profile of Ahwaz/Ahvaz Arabic</title>
+          <author>Bettina Leitner</author>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ACDH-OeAW</publisher>
+          <pubPlace>Vienna</pubPlace>
+          <date>2018</date>
+          <availability status="restricted">
+            <p>
+              <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+            </p>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <p>This is an original digital text</p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <head>
+            <figure>
+              <graphic url="ahwaz_300px_pol_sefid_27.jpg"/>
+              <head type="imgCaption">Source: <ref target="https://upload.wikimedia.org/wikipedia/commons/9/9b/Pol_Sefid_27.JPG">Wikimedia</ref>
+              </head>
+            </figure>
+            <name xml:lang="eng">Ahwaz/Ahvaz</name>
+            <name xml:lang="ara">al-Ahwāz</name>
+            <name xml:lang="ara-x-DMG">al-Aḥwāz</name>
+            <name xml:lang="ajp">الأهواز</name>
+          </head>
+          <div type="positioning">
+            <p>
+              <geo>31.31, 48.68</geo>
+            </p>
+          </div>
+          <div type="typology">
+            <p>East › Mesopotamia › Iraq › South Iraq</p>
+            <p>Bedouin-type gələt dialect; mixed variety with urban and rural
+              features; strong Persian influence on the lexicon</p>
+          </div>
+          <div type="general">
+            <p>Ahwāz is the capital city of the southwestern Iranian province of
+              Khūzestān and situated alongside the river Kārūn. Of its 1.5
+              million inhabitants Arabs are the biggest ethnic group, the second
+              biggest group are Persians. There is also a small group of Sabeans
+              living in Aḥwāz. </p>
+            <p>The city was apparently flourishing in pre-Islamic times but
+              declined in the subsequent centuries to a village of about 10,000
+              inhabitants in the early 20th century. </p>
+            <p>Today many of the city’s inhabitants are working in the sugar
+              cane and oil industry. </p>
+            <p>With the discovery of oil in the vicinity of Aḥwāz (1908) and
+              during the time of the Iran-Iraq war, in which Aḥwāz was
+              considered one of province’s the safer cities, many Arab people
+              from the surrounding areas have moved to the capital city. This
+              resulted in the penetration of many rural features into the
+              originally urban dialect of Aḥwāz and thus reshaped its linguistic
+              profile. </p>
+          </div>
+          <div type="researchHistory">
+            <p>The first written document on the dialect of Aḥwāz is an
+              unpublished and undated manuscript by D. Lorimer, in which he
+              collected mainly lexical lists and verbal conjugation patterns.
+              Further linguistic information on the dialect of Aḥwāz and other
+              villages and cities in Khūzestān was gathered by Bruce Ingham, who
+              published two articles (<ref target="bibl:ingham_1973_0000">1973</ref>, 1976) on regional differences within Khūzestān
+              including short texts, and a short grammatical analysis in EALL
+              (2007). <ref target="bibl:ingham_1991_3237">Ingham (1991)</ref>
+              is a short study on sentence structure in Khuzestan Arabic. </p>
+          </div>
+          <div type="bibliography">
+            <p>To view a list of the important publications on Iranian Arabic
+                <ref target="bibl:reg:Iran">follow this link</ref>.</p>
+          </div>
+        </div>
+      </body>
+    </text>
+  </TEI>

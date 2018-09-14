@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_douz_01">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>A machine-readable language profile of Douz Arabic</title>
+          <author>Veronika Ritt-Benmimoun</author>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ACDH-OeAW</publisher>
+          <pubPlace>Vienna</pubPlace>
+          <date>2011</date>
+          <availability status="restricted">
+            <p>
+              <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+            </p>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <p>This is an original digital text</p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <head>
+            <figure>
+                <graphic url="Tunisia_10_12_064_Douz_and_the_Festival_of_the_Sahara_6609290791.jpg"/>
+                <head type="imgCaption">Source: <ref target="https://en.wikipedia.org/wiki/Douz#/media/File:Tunisia_10-12_-_064_-_Douz_and_the_Festival_of_the_Sahara_(6609290791).jpg">Wikimedia</ref>
+              </head>
+            </figure>
+            <name xml:lang="eng">Douz</name>
+            <name xml:lang="ara">دوز</name>
+            <name xml:lang="ara-x-DMG">Dūz</name>
+            <ref target="#xpath1(//author)"/>
+          </head>
+          <div type="positioning">
+            <p>
+              <geo>33.45, 9.01</geo>
+            </p>
+          </div>
+
+          <div type="typology">
+            <p>Western › Maghreb › Tunisia › Southern Tunisia</p>
+            <p>Bedouin type dialect, Sulaym group</p>
+          </div>
+
+          <div type="general">
+            <p>The town of Douz is one of the greatest oases in the so-called
+              Nifzāwa region situated south-east of the Šaṭṭ al-Ǧarīd (Chott
+              el-Jerid). Its dialect is more or less identical to the speech of
+              the formerly semi-nomadic Maṛāzīg tribe which numbers around
+              30,000 members. The Marzūgī dialect is an archaic variety of
+              Maghrebinian Bedouin Arabic and exhibits features such as gender
+              distinction with plural forms and internal passive voice (although
+              of restricted use) with verbs. As a Bedouin dialect it is
+              considered a low-variety by the speakers of sedentary dialects,
+              e.g. of the capital Tunis, but highly appreciated by the Bedouins
+              themselves. Only some young speakers show the tendency to
+              accommodate to urban sedentary speech. With its rich lexicon it is
+              the vehicle for popular poetry. As a representative of the Sulaym
+              Group of Maghrebi Bedouin dialects it is widely understood in
+              Libya and Eastern Algeria.</p>
+          </div>
+            
+          <div type="researchHistory">
+            <p>The only detailed grammatical description of the dialect of Douz
+              is Ritt-Benmimoun's <ref target="bibl:ritt_benmimoun_2014_0000">Grammatik des arabischen Beduinendialekts der Region Douz
+                (Südtunesien)</ref>. For many decades the research done by
+              Gilbert Boris was the only reliable source for the Marzūgī
+              dialect. Nearly all his main works were published after his death
+              (<ref target="bibl:boris_1951_0001">Boris 1951a</ref>, 
+              <ref target="bibl:boris_1951_0000">Boris 1951b</ref>, 
+              <ref target="bibl:boris_1958_0000">Boris 1958</ref>). Starting in
+              the early 2000s, Veronika Ritt-Benmimoun has begun to publish a
+              great number of articles dedicated to the language and culture of
+              the Maṛāzīg (see below). A voluminous monograph which includes
+              many ethnographical texts in the dialects of the Maṛāzīg and other
+              Bedouin tribes of the region is <ref target="bibl:ritt_benmimoun_2011_0001">Ritt-Benmimoun 2011
+                (554 pp.)</ref>. Hitherto, the Marzūgī dialect is the only
+              Tunisian Bedouin dialect for which rich linguistic data is
+              available.</p>
+          </div>
+            
+          <div type="bibliography">
+            <p>To see a list of relevant publications in our database 
+               <ref target="bibl:geo:Douz">click here</ref>.</p>
+          </div>
+            
+          <div type="dictionaries">
+            <p>
+              <ref target="bibl:boris_1958_0000">Boris 1958</ref> is a very
+              good and quite comprehensive Arabic-French dictionary (686 pp.).
+              Additional data is found in <ref target="bibl:bin_murad_1999_0000">Bin Murād 1999</ref>.</p>
+          </div>
+            
+          <div type="audioData">
+            <p>22 recordings found on the Semitic Sound Archiv. Follow 
+            <ref target="http://www.semarch.uni-hd.de/index.php43?LD_ID=16&amp;RG_ID=47&amp;ORT_ID=144&amp;lang=de">this link</ref>.</p>
+          </div>
+        </div>
+      </body>
+    </text>
+  </TEI>

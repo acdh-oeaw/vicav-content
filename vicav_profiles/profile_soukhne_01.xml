@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_soukhne_01">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>A machine-readable profile of Soukhne / Al-Sukhnah
+            Arabic</title>
+          <author>Julia Baumgartner</author>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ACDH-OeAW</publisher>
+          <pubPlace>Vienna</pubPlace>
+          <date>2018</date>
+          <availability status="restricted">
+            <p>
+              <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+            </p>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <p>This is an original digital text</p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <head>
+            <name xml:lang="eng">Soukhne / Al-Sukhnah</name>
+            <name xml:lang="ara">as-Suxna</name>
+            <name xml:lang="ara-x-DMG">Suxni</name>
+            <name xml:lang="ajp">السخنة</name>
+          </head>
+          <div type="positioning">
+            <p>
+              <geo>34.88, 38.87</geo>
+            </p>
+          </div>
+          <div type="typology">
+            <p>East (Mashriq) › Levant › Syria &gt; Oases and Steppe
+              Dialects</p>
+            <p>Sedentary dialect with many influences of the surrounding
+              bedouin-type dialects</p>
+          </div>
+          <div type="general">
+            <p>Soukhne is a town located in the Syrian Steppe close to the
+              eastern border of the province of Homs. The importance of the
+              former caravan city increased throughout the centuries, when the
+              town developed into a trade centre. Trade took place mostly
+              between Bedouin tribes, for example the tribal confederation of
+              ˁAnaza, and the local merchants. The town severely suffered from
+              the civil war in Syria, particularly between 2015 and 2017 when it
+              was under control of ISIS forces.</p>
+            <p>Soukhne is described as a town with a dynamic history. Local
+              merchants used to travel to various Syrian regions, but also to
+              Iraq and Turkey and therefore adopted different linguistic
+              elements that contributed to the shaping of the dialect of
+              Soukhne. <ref target="bibl:behnstedt_1994_0001">Behnstedt
+                1994</ref> describes the dialect as a mixture of bedouin and
+              sedentary elements.</p>
+          </div>
+          <div type="researchHistory">
+            <p>The first description of the dialect of this oasis is found in
+                <ref target="bibl:cantineau_1956_0000">Cantineau 1956</ref>.
+              The most comprehensive study on the dialect spoken in Soukhne is
+              undoubtedly <ref target="bibl:behnstedt_1994_0001">Behnstedt
+                1994</ref>. Consisting of three parts, this work includes a
+              broad variety of ethnographic texts in Part 1 as well as an
+              in-depth investigation of phonology, morphology and syntax in Part
+              2. </p>
+          </div>
+          <div type="dictionaries">
+            <p>A comprehensive glossary is found in <ref target="bibl:behnstedt_1994_0001">Behnstedt 1994</ref>, Part
+              3. It is based on the texts of Part 1 of the same book.</p>
+          </div>
+          <div type="textBooks">
+            <p/>
+          </div>
+          <div type="audioData">
+            <p>There are 113 audio-files of texts from Soukhne in SemArch -
+              Semitisches Tonarchiv: <ref target="http://www.semarch.uni-hd.de">http://www.semarch.uni-hd.de</ref>
+            </p>
+          </div>
+          <div type="bibliography">
+            <p>To view a list of the important publications on this variety 
+                <ref target="bibl:geo:Al-Sukhna">follow this link</ref>.</p>
+          </div>
+        </div>
+      </body>
+    </text>
+  </TEI>
