@@ -19,7 +19,7 @@ The TEI documents in this repository can be edited with any text editor at hand.
 ### Converting contributions to TEI 
 
 See the README document in the `contributions` directory.
-Änderung von Aleksandra
+Änderung von Aleksandra E.
 ## Technical Tools
 ### XSLT Scripts
 
