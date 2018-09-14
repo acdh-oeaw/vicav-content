@@ -1,5 +1,5 @@
 # VICAV Content
-
+Änderung von Daniel 
 This repository contains the content of the VICAV web application other than dictionaries (which are curated using VLE and its backend vle-curation.acdh.oeaw.ac.at).
 It consists of the following directories:
 
