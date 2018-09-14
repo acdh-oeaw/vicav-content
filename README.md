@@ -2,7 +2,7 @@
 
 This repository contains the content of the VICAV web application other than dictionaries (which are curated using VLE and its backend vle-curation.acdh.oeaw.ac.at).
 It consists of the following directories:
-
+bettina
 * *vicav_biblio:* The copy of the bibliographic data curated in the shared VICAV Zotero  library which is publicly accessible in the VICAV user interface.
 * *vicav_corpus:* The VICAV corpus of sample arabic dialect texts.
 * *vicav_lingfeatures:*
