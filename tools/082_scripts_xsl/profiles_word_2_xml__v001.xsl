@@ -113,46 +113,66 @@
                             </xsl:if>                                                        
                         </head>
                         
-                        <div type="positioning">
-                            <p><geo><xsl:value-of select="$geo"/></geo></p>
-                        </div>
+                        <xsl:if test="$geo">
+                            <div type="positioning">
+                                <p><geo><xsl:value-of select="$geo"/></geo></p>
+                            </div>
+                        </xsl:if>
                         
-                        <div type="typology">
-                            <p><xsl:value-of select="$typology"/></p>
-                            <p><xsl:value-of select="$typologyGen"/></p>
-                        </div>
+                        <xsl:if test="$typology or $typologyGen">
+                            <div type="typology">
+                                <p><xsl:value-of select="$typology"/></p>
+                                <p><xsl:value-of select="$typologyGen"/></p>
+                            </div>
+                        </xsl:if>
                         
-                        <div type="general">
-                            <xsl:apply-templates select="$general"/>
-                        </div>
+                        <xsl:if test="exists($general)">
+                            <div type="general">
+                                <xsl:apply-templates select="$general"/>
+                            </div>
+                        </xsl:if>
                         
-                        <div type="researchHistory">
-                            <xsl:apply-templates select="$researchHistory"/>
-                        </div>
+                        <xsl:if test="exists($researchHistory)">
+                            <div type="researchHistory">
+                                <xsl:apply-templates select="$researchHistory"/>
+                            </div>
+                        </xsl:if>
                         
-                        <div type="dictionaries">
-                            <xsl:apply-templates select="$dicts"/>
-                        </div>
+                        <xsl:if test="exists($dicts)">
+                            <div type="dictionaries">
+                                <xsl:apply-templates select="$dicts"/>
+                            </div>
+                        </xsl:if>
                         
-                        <div type="textBooks">
-                            <xsl:apply-templates select="$textbooks"/>
-                        </div>
+                        <xsl:if test="$textbooks">
+                            <div type="textBooks">
+                                <xsl:apply-templates select="$textbooks"/>
+                            </div>
+                        </xsl:if>
                         
-                        <div type="audioData">
-                            <xsl:apply-templates select="$audio"/>
-                        </div>
+                        <xsl:if test="$audio">
+                            <div type="audioData">
+                                <xsl:apply-templates select="$audio"/>
+                            </div>
+                        </xsl:if>
                         
-                        <div type="bibliography">
-                            <xsl:apply-templates select="$biblio"/>
-                        </div>
+                        <xsl:if test="$biblio">
+                            <div type="bibliography">
+                                <xsl:apply-templates select="$biblio"/>
+                            </div>
+                        </xsl:if>
                         
-                        <div type="sampleText">
-                            <xsl:apply-templates select="$sample"/>
-                        </div>
+                        <xsl:if test="$sample">
+                            <div type="sampleText">
+                                <xsl:apply-templates select="$sample"/>
+                            </div>
+                        </xsl:if>
                         
-                        <div type="lingFeatures">
-                            <xsl:apply-templates select="$lingfeatures"/>
-                        </div>
+                        <xsl:if test="$lingfeatures">
+                            <div type="lingFeatures">
+                                <xsl:apply-templates select="$lingfeatures"/>
+                            </div>
+                        </xsl:if>
                     </div>
                 </body>
             </text>
