@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_baghdad_01">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>A machine-readable language profile of Baghdad Arabic</title>
+          <author>Stephan Procházka</author>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ACDH-OeAW</publisher>
+          <pubPlace>Vienna</pubPlace>
+          <date>2011</date>
+          <availability status="restricted">
+            <p>
+              <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+            </p>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <p>This is an original digital text</p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <head>
+            <figure>
+              <graphic url="320px_Haifa_street_as_seen_from_the_medical_city_hospital_across_the_tigres.jpg"/>
+                <head type="imgCaption">Source: <ref target="https://commons.wikimedia.org/wiki/File:Haifa_street,_as_seen_from_the_medical_city_hospital_across_the_tigres.jpg">Wikimedia</ref>
+              </head>
+            </figure>
+            <name xml:lang="eng">Baghdad</name>
+            <name xml:lang="ara">بغداد</name>
+            <name xml:lang="ara-x-DMG">Baġdād</name>
+          </head>
+
+          <div type="positioning">
+            <p>
+              <geo>33.33, 44.38</geo>
+            </p>
+          </div>
+
+          <div type="typology">
+            <p>Eastern › Mesopotamian › Iraqi gǝlǝt (gilit)</p>
+            <p>Urban Bedouin dialect with significant sedentary substrate,
+              high-prestige variety</p>
+          </div>
+
+          <div type="researchHistory">
+            <p>The dialect of the Iraqi capital can be regarded as the prestige
+              variety of the whole country. It is frequently used in the media
+              and widely understood not only in Iraq, but also in the adjacent
+              Gulf region, in Eastern Syria, and in the Iranian province of
+              Khuzestan. The linguistic setting of Baghdad is special for its
+              so-called “communal dialects”. The current prestige variety
+              (described here) is actually the dialect which until fairly
+              recently was spoken solely by the Muslim population. The Christian
+              and Jewish (no longer in Iraq) inhabitants of Baghdad speak a very
+              different dialect of the so-called <hi rend="italic">qǝltu</hi>
+              type, which is much closer to Northern Iraq and not influenced by
+              Bedouin features.</p>
+            <p>The first comprehensive descriptions of the Arabic dialect of
+              Baghdad did not appear before the 1960s. Before that only some
+              very brief remarks (Jeannier 1888, Massignon 1912) and a few
+              textbooks and glossaries were published, particularly Van Ess 1917
+              (second edition 1938, many <ref target="bibl:van_ess_0000">reprints</ref> until 1989) and van Wagoner 1949, but both
+              contain a mixture of various Iraqi dialects and cannot be regarded
+              as dialectological descriptions. The first scholarly monographs
+              published were <ref target="bibl:malaika_1963">Malaika
+                1963</ref> and <ref target="bibl:erwin_1963_0001">Erwin
+                1963</ref>, shortly followed by <ref target="bibl:blanc_1964_0001">Blanc 1964</ref>. Blanc, who
+              coined the term “communal dialects”, presented a rather concise
+              but excellent description of Muslim, Christian, and Jewish
+              Baghdadi. <ref target="bibl:abu_haidar_1991_0001">Abu-Haider
+                1991 </ref> deals with the Christian variety. <ref target="bibl:palva_2009_001">Palva 2009</ref> convincingly
+              argues that the Bedouin (= gǝlǝt type) character of present-day
+              Muslim Baghdadi is mainly the result of a process of
+              bedouinization during the past 300 years. Thus, for a considerable
+              time after the Mongol sack of Baghdad in 1258, the dialect of
+              Baghdad had remained to be an urban Mesopotamian type dialect that
+              has only slowly changed due to immigration from the countryside.
+              In spite of its importance, Baghdad Arabic has not been
+              intensively studied (compared to, e.g., Cairo or Damascus) and
+              almost all reference works date back to the 1960s.</p>
+          </div>
+
+          <div type="bibliography">
+            <p>Our database contains <ref target="bibl:geo:Baghdad">a number of
+                publications </ref> that deal with Baghdad. To get a wider
+              picture look for <ref target="bibl:reg:Iraq">reg:Iraq</ref>.</p>
+          </div>
+
+          <div type="sampleText">
+            <p>VICAV provides a <ref target="sample:baghdad_sample_01/Baghdad">Sample Text of Baghdad </ref> of Baghdad Arabic. </p>
+          </div>
+
+          <div type="lingFeatures">
+            <p>There is also a <ref target="feature:ling_features_baghdad/Baghdad">list of linguistic features</ref> with example sentences.</p>
+          </div>
+
+        </div>
+      </body>
+    </text>
+  </TEI>

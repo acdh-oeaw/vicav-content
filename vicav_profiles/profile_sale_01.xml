@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_sale_01">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>A machine-readable profile of Damscus Arabic</title>
+          <author>Naima Sekiati</author>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ACDH-OeAW</publisher>
+          <pubPlace>Vienna</pubPlace>
+          <date>2011</date>
+          <availability status="restricted">
+            <p>
+              <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+            </p>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <p>This is an original digital text</p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <head>
+            <figure>
+                <graphic url="rabat_chellah_minaret_2.jpg"/>
+                <head type="imgCaption">Source: <ref target="https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B1%D8%A8%D8%A7%D8%B7#/media/File:Rabat,_Chellah_minaret_2.jpg">Wikimedia</ref>
+              </head>
+            </figure>
+            <name xml:lang="eng">Salé</name>
+            <name xml:lang="ara">سلا</name>
+            <name xml:lang="ara-x-DMG">Sala</name>
+            <name xml:lang="ary" type="araLoc">سلا</name>
+            <name xml:lang="ary-Latn" type="latLoc">Sla</name>
+          </head>
+          <div type="positioning">
+            <p>
+              <geo>34.02, -6.83</geo>
+            </p>
+          </div>
+          <div type="typology">
+            <p>Western › Maghreb › Morocco</p>
+            <p>Urban (prehilalien), sedentary dialect with bedouin influence</p>
+          </div>
+          <div type="general">
+            <p>Basically, the dialect of Salé is almost identical to that of
+              Rabat. The varieties of both cities were strongly influenced by
+              the impact of Bedouin infiltration mainly in the second half of
+              the past century and the large numbers of Berbers who settled in
+              the outskirts in the same period.</p>
+          </div>
+          <div type="researchHistory">
+            <p>By contrast to the old dialect of Rabat (<ref target="bibl:brunot_">L. Brunot 1920ff.</ref>), there exist no
+              in-depth studies of the dialect of the medina of Salé. It can be
+              assumed that the old dialect of Salé (as is stated for Rabat) had
+              similar basic features as Tanger and Tetouan speech. The
+              development from an „urban“ to a „mixed rural-urban“ dialect is
+              described by <ref target="bibl:messaoudi_2000_0000">Messaoudi
+                (2002)</ref>. Recent grammatical and lexical studies on
+              Rabat/Salé have been undertaken by <ref target="bibl:heath_2002_0001">Heath (2002)</ref> and Behnstedt
+              (2011/12).</p>
+          </div>
+        </div>
+      </body>
+    </text>
+  </TEI>

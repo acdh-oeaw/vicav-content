@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_taizz_01">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>A machine-readable profile of Taizz Arabic</title>
+          <author>Benjamin Suter</author>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ACDH-OeAW</publisher>
+          <pubPlace>Vienna</pubPlace>
+          <date>2018</date>
+          <availability status="restricted">
+            <p>
+              <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+            </p>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <p>This is an original digital text</p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <head>
+            <figure>
+              <graphic url="taizz_001.jpg"/>
+              <head type="imgCaption">Copyright Stephan Procházka 1990</head>
+            </figure>
+            <name xml:lang="eng">Taizz</name>
+            <name xml:lang="ara-Latn">Taˁizz</name>
+            <name xml:lang="ara">تعزّ</name>
+            <name xml:lang="ara-x-local">Taˁizz</name>
+          </head>
+          <div type="positioning">
+            <p>
+              <geo>13.57, 44.01</geo>
+            </p>
+          </div>
+          <div type="typology">
+            <p>East (Mashriq) › Arabia › Yemen › Western Highlands</p>
+            <p>Urban dialect of mixed character</p>
+          </div>
+          <div type="general">
+            <p>Taizz is located on the crossings of several main roads
+              connecting it directly with Sanaa in the north, Aden in the south,
+              and Mocha at the Red Sea. Hence, the local vernacular is strongly
+              exposed to influences from other Yemeni dialects. This makes it
+              difficult to identify a genuine Taˁizzī dialect. Basically, it
+              belongs to the “Western Highlands” dialect group whose hallmark is
+              the so-called k-perfect – i.e. the conjugation of the perfect of
+              the 1st singular and 2nd singular and plural with suffixes
+              containing /k/ where Standard Arabic and other varieties have /t/
+              (e.g. <hi rend="italic">katab-ku</hi> ‘I wrote’). This, however,
+              is now mostly avoided by urban speakers in favour of the forms
+              with a t and cannot be considered typical for Taˁizzī Arabic
+              nowadays.</p>
+          </div>
+          <div type="researchHistory">
+            <p>The dialect of Taizz has not yet been studied thoroughly. In
+              Werner Diem’s <hi rend="italic">Skizzen</hi>
+              <hi rend="italic"> </hi>
+              <hi rend="italic">jemenitischer</hi>
+              <hi rend="italic"> </hi>
+              <hi rend="italic">Dialekte</hi> (1973), a short description of
+              some morphological features of Taˁizzī Arabic can be found, based
+              on recordings from speakers living in Beirut (pp.102-109).
+              Theodore Prochazka (1974) briefly discusses the use and the
+              distribution of the k-perfect in the Arabic of Taizz. </p>
+            <p>Peter Behnstedt’s <hi rend="italic">Dialect Atlas of North Yemen
+                and Adjacent Areas</hi> (2017) allows for comparison of several
+              lexical and grammatical features of Taˁizzī Arabic with other
+              Yemeni dialects. </p>
+          </div>
+          <div type="dictionaries">
+            <p>Some dialectal vocabulary related to Taizz is found in Peter
+              Behnstedt’s <hi rend="italic">Glossar</hi> (1992-2006).</p>
+          </div>
+          <div type="bibliography">
+            <p>To view publications on this variety <ref target="bibl:geo:Taizz">follow this link</ref>.</p>
+          </div>
+        </div>
+      </body>
+    </text>
+  </TEI>
