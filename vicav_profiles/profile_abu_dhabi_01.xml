@@ -4,6 +4,7 @@
         <titleStmt>
           <title>A machine-readable profile of Abu Dhabi Arabic</title>
           <author>Stephanie </author>
+          <editor xml:id="charly" role="Technical_Editor">Karlheinz Moerth</editor>
         </titleStmt>
         <publicationStmt>
           <publisher>ACDH-OeAW</publisher>
@@ -20,7 +21,7 @@
         </sourceDesc>
       </fileDesc>
       <revisionDesc>
-          <change who="charly" when="2018-10-03" status="released"/>
+          <change who="#charly" when="2018-10-03" status="released"/>
       </revisionDesc>
     </teiHeader>
     <text>
