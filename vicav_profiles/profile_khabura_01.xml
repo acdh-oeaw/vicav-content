@@ -2,9 +2,9 @@
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>A machine-readable profile of the Arabic vernacular of
-            al-Khaburah</title>
+          <title>A machine-readable profile of the Arabic vernacular of al-Khaburah</title>
           <author>Stephan Procházka</author>
+            <editor xml:id="charly" role="Technical_Editor">Karlheinz Moerth</editor>
         </titleStmt>
         <publicationStmt>
           <publisher>ACDH-OeAW</publisher>
@@ -20,6 +20,9 @@
           <p>This is an original digital text</p>
         </sourceDesc>
       </fileDesc>
+        <revisionDesc>
+            <change who="#charly" when="2018-10-03" status="released"/>
+        </revisionDesc>
     </teiHeader>
     <text>
       <body>

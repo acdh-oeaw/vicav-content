@@ -5,6 +5,7 @@
             <titleStmt>
                 <title>A machine-readable profile of Qamishli Arabic</title>
                 <author>Maria El Fadel</author>
+                <editor xml:id="charly" role="Technical_Editor">Karlheinz Moerth</editor>
             </titleStmt>
             <publicationStmt>
                 <publisher>ACDH-OeAW</publisher>
@@ -20,6 +21,9 @@
                 <p>This is an original digital text</p>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change who="#charly" when="2018-10-03" status="released"/>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
