@@ -4,6 +4,7 @@
         <titleStmt>
           <title>A machine-readable profile of Sousse-Arabic</title>
           <author>Natanja Faschinger</author>
+            <editor xml:id="charly" role="Technical_Editor">Karlheinz Moerth</editor>
         </titleStmt>
         <publicationStmt>
           <publisher>ACDH-OeAW</publisher>
@@ -19,6 +20,9 @@
           <p>This is an original digital text</p>
         </sourceDesc>
       </fileDesc>
+        <revisionDesc>
+            <change who="#charly" when="2018-10-03" status="released"/>
+        </revisionDesc>
     </teiHeader>
     <text>
       <body>

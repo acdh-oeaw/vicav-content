@@ -1,90 +1,77 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_abu_dhabi_01">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_abu_dhabi_01">
     <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>A machine-readable profile of Abu Dhabi Arabic</title>
-          <author>Stephanie </author>
-          <editor xml:id="charly" role="Technical_Editor">Karlheinz Moerth</editor>
-        </titleStmt>
-        <publicationStmt>
-          <publisher>ACDH-OeAW</publisher>
-          <pubPlace>Vienna</pubPlace>
-          <date>2018</date>
-          <availability status="restricted">
-            <p>
-              <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
-            </p>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <p>This is an original digital text</p>
-        </sourceDesc>
-      </fileDesc>
-      <revisionDesc>
-          <change who="#charly" when="2018-10-03" status="released"/>
-      </revisionDesc>
+        <fileDesc>
+            <titleStmt>
+                <title>A machine-readable profile of Abu Dhabi Arabic</title>
+                <author>Stephanie </author>
+                <editor xml:id="charly" role="Technical_Editor">Karlheinz Moerth</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>ACDH-OeAW</publisher>
+                <pubPlace>Vienna</pubPlace>
+                <date>2018</date>
+                <availability status="restricted">
+                    <p>
+                        <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This is an original digital text</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="#charly" when="2018-10-03" status="released"/>
+        </revisionDesc>
     </teiHeader>
+
     <text>
-      <body>
-        <div>
-          <head>
-            <figure>
-              <graphic url="800px-ADIA_Tower_and_The_Landmark_in_Abu_Dhabi.jpg"/>
-              <head type="imgCaption">Source: <ref target="https://upload.wikimedia.org/wikipedia/en/d/d9/ADIA_Tower_and_The_Landmark_in_Abu_Dhabi.jpg">Wikimedia</ref>
-              </head>
-            </figure>
-            <name xml:lang="eng">Abu Dhabi</name>
-            <name xml:lang="ara">Abū Ẓaby</name>
-            <name xml:lang="ara-x-DMG">Abu Ḏ̣abi</name>
-            <name xml:lang="ajp">أبو ظبي</name>
-          </head>
-          <div type="positioning">
-            <p>
-              <geo>24.45, 54.37</geo>
-            </p>
-          </div>
-          <div type="typology">
-            <p>East (Mashriq) &gt; Arabia &gt; Northern group &gt; Central Najd
-              &gt; Gulf</p>
-            <p>Originally a bedouin-type dialect belonging to the ˁAnaza group;
-              during the last decades in a state of transition</p>
-          </div>
-          <div type="general">
-            <p>Abu Dhabi is the capital of the United Arab Emirates and its
-              second largest city. Until the mid-20th century Abu Dhabi was a
-              small town of less than 25,000 inhabitants, but has grown rapidly
-              in the following decades reaching one million in the early 2000s.
-              However, only a small proportion of its inhabitants are native
-              speakers of the local Arabic dialect. </p>
-          </div>
-          <div type="researchHistory">
-            <p>
-              <ref target="bibl:johnstone_1967_0000">Johnstone (1967)</ref>
-              presents an overview of the Eastern Arabian dialects in general,
-              but also contains several pages devoted to the dialect of Abu
-              Dhabi.</p>
-            <p>The sound change from /ǧ/ to /y/, which is typical for Gulf
-              Arabic, is described in <ref target="bibl:johnstone_1965_3209">Johnstone 1965</ref>. 
-               <ref target="bibl:qafisheh_1977_3210">Qafisheh 1977</ref> is based on the dialect of Abu Dhabi and
-              comprises in addition to phonology, morphology and syntax also
-              texts. </p>
-            <p>The focus of <ref target="bibl:al-rawi_1990_3236">Al-Rawi's
-                study (1990)</ref> is on phonology and nominal morphology; it
-              also contains a number of ethnographic texts. Some information on
-              Abu Dhabi is also found in <ref target="bibl:holes_1990_0000">Holes 1990</ref>.</p>
-          </div>
-          <div type="textBooks">
-            <p>Based on the speech of Abu Dhabi, Qatar and Bahrain, Hamdi A.
-              Qafisheh published three textbooks of Gulf Arabic. <ref target="bibl:qafisheh_1975_0000">Qafisheh 1975</ref> for
-              beginners, <ref target="bibl:qafisheh_1979_3235">Qafisheh
-                1979</ref> and <ref target="bibl:qafisheh_1997_0000">Qafisheh
-                1997</ref> for advanced students. Another textbook is <ref target="bibl:holes_1984_0001">Holes 1984</ref>.</p>
-          </div>
-          <div type="bibliography">
-            <p>To view a list of the important publications on varieties spoken
-              in the Gulf <ref target="bibl:reg:Gulf">follow this link</ref>.</p>
-          </div>
-        </div>
-      </body>
+        <body>
+            <div>
+                <head>
+                    <figure>
+                        <graphic url="800px-ADIA_Tower_and_The_Landmark_in_Abu_Dhabi.jpg"/>
+                        <head type="imgCaption">Source: <ref target="https://upload.wikimedia.org/wikipedia/en/d/d9/ADIA_Tower_and_The_Landmark_in_Abu_Dhabi.jpg">Wikimedia</ref>
+                        </head>
+                    </figure>
+                    <name xml:lang="eng">Abu Dhabi</name>
+                    <name xml:lang="ara">Abū Ẓaby</name>
+                    <name xml:lang="ara-x-DMG">Abu Ḏ̣abi</name>
+                    <name xml:lang="ajp">أبو ظبي</name>
+                </head>
+                <div type="positioning">
+                    <p>
+                        <geo>24.45, 54.37</geo>
+                    </p>
+                </div>
+                <div type="typology">
+                    <p>East (Mashriq) &gt; Arabia &gt; Northern group &gt; Central Najd &gt; Gulf</p>
+                    <p>Originally a bedouin-type dialect belonging to the ˁAnaza group; during the last decades in a state of transition</p>
+                </div>
+                <div type="general">
+                    <p>Abu Dhabi is the capital of the United Arab Emirates and its second largest city. Until the mid-20th century Abu Dhabi was a small town of less than 25,000 inhabitants, but has
+                        grown rapidly in the following decades reaching one million in the early 2000s. However, only a small proportion of its inhabitants are native speakers of the local Arabic
+                        dialect. </p>
+                </div>
+                <div type="researchHistory">
+                    <p>
+                        <ref target="bibl:johnstone_1967_0000">Johnstone (1967)</ref> presents an overview of the Eastern Arabian dialects in general, but also contains several pages devoted to the
+                        dialect of Abu Dhabi.</p>
+                    <p>The sound change from /ǧ/ to /y/, which is typical for Gulf Arabic, is described in <ref target="bibl:johnstone_1965_3209">Johnstone 1965</ref>. <ref
+                            target="bibl:qafisheh_1977_3210">Qafisheh 1977</ref> is based on the dialect of Abu Dhabi and comprises in addition to phonology, morphology and syntax also texts. </p>
+                    <p>The focus of <ref target="bibl:al-rawi_1990_3236">Al-Rawi's study (1990)</ref> is on phonology and nominal morphology; it also contains a number of ethnographic texts. Some
+                        information on Abu Dhabi is also found in <ref target="bibl:holes_1990_0000">Holes 1990</ref>.</p>
+                </div>
+                <div type="textBooks">
+                    <p>Based on the speech of Abu Dhabi, Qatar and Bahrain, Hamdi A. Qafisheh published three textbooks of Gulf Arabic. <ref target="bibl:qafisheh_1975_0000">Qafisheh 1975</ref> for
+                        beginners, <ref target="bibl:qafisheh_1979_3235">Qafisheh 1979</ref> and <ref target="bibl:qafisheh_1997_0000">Qafisheh 1997</ref> for advanced students. Another textbook is
+                            <ref target="bibl:holes_1984_0001">Holes 1984</ref>.</p>
+                </div>
+                <div type="bibliography">
+                    <p>To view a list of the important publications on varieties spoken in the Gulf <ref target="bibl:reg:Gulf">follow this link</ref>.</p>
+                </div>
+            </div>
+        </body>
     </text>
-  </TEI>
+</TEI>

@@ -3,7 +3,7 @@
       <fileDesc>
         <titleStmt>
           <title>A machine-readable profile of Damscus Arabic</title>
-          <author>Stephan Procházka</author>
+          <author xml:id="stephan">Stephan Procházka</author>
         </titleStmt>
         <publicationStmt>
           <publisher>ACDH-OeAW</publisher>
@@ -19,6 +19,9 @@
           <p>This is an original digital text</p>
         </sourceDesc>
       </fileDesc>
+        <revisionDesc>
+            <change who="#stephan" when="2018-10-03" status="released"/>
+        </revisionDesc>
     </teiHeader>
     <text>
       <body>

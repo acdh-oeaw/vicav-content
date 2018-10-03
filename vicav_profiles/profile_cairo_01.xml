@@ -3,7 +3,7 @@
       <fileDesc>
         <titleStmt>
           <title>A machine-readable language profile of Cairo Arabic</title>
-          <author>Charly Moerth</author>
+          <author xml:id="charly" >Charly Moerth</author>
         </titleStmt>
         <publicationStmt>
           <publisher>ACDH-OeAW</publisher>
@@ -19,6 +19,9 @@
           <p>This is an original digital text</p>
         </sourceDesc>
       </fileDesc>
+        <revisionDesc>
+            <change who="#charly" when="2018-10-03" status="released"/>
+        </revisionDesc>
     </teiHeader>
     <text>
       <body>
