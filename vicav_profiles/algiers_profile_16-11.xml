@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_algiers_01">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A machine-readable profile of Algiers Arabic</title>
+            <author>Aleksandra Ercegovčević </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>ACDH-OeAW</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date>2018</date>
+            <availability status="restricted">
+               <p>
+                  <ref type="license"
+                       target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This is an original digital text</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div><!--PPP:file:/C:/Users/KMoerth/ch_data/git/vicav_content/contributions/algiers_profile_16-11.docx_xslt_cascade-->
+            <head>
+               <name xml:lang="eng">Algiers</name>
+               <name xml:lang="ara">al-ǧazāʔir</name>
+               <name xml:lang="ara-x-DMG">Dzāyr</name>
+               <name xml:lang="ajp">الجزائر</name>
+            </head>
+            <div type="positioning">
+               <p>
+                  <geo>36.75,2.98</geo>
+               </p>
+            </div>
+            <div type="typology">
+               <p>West (Maghreb) › Algeria › Northern dialects </p>
+               <p>Urban sedentary pre-Hilālian-type dialect with strong influences of rural and Bedouin-type dialects</p>
+            </div>
+            <div type="general">
+               <p>Located in the centre of the Algerian coast, Algiers is the political, administrative, economic, and cultural capital of Algeria. Algiers has been and still is subject to large migratory movements of different geographical and social origins. This has resulted in the linguistic levelling which explains the rather heterogeneous character of the city's dialect.</p>
+            </div>
+            <div type="researchHistory">
+               <p>Mishkurov 1973 is a short article on the pronominalisation of the lexeme ši in the dialect of Algiers; and Mishkurov 1982 presents a concise grammatical description of the city's dialect, subdivided into phonetics, morphology, and syntax. Mairi 1981 is a study on the phonology and morphology of Algiers Arabic. Coletti 1985 is a 6-page text presenting a legend from Algiers with Italian translation and includes a grammatical sketch and short glossary. Boucherit 1994 discusses the vowel system of the dialect of Algiers.</p>
+               <p>The most comprehensive description on the contemporary dialect is Boucherit 2002 – a monograph study that also covers sociolinguistics. The first part of the study is a general introduction into the grammar of the dialect: topics like the variation of the phonological system are also addressed. The study includes a 100-page collection of texts with French translation, including vignettes of everyday life, poetry, and dialogues. The book is useful ethnographically, including many proverbs, women’s Būqālah poetry, and narratives. Hamdani Kadri 2006 investigates the semantics of temporality in the dialect of Algiers, focusing on the aspecto-temporal values of verb forms. Boucherit 2014 treats nominal determination. Souag 2016 is a short analysis of the determiner kaš in Algiers Arabic.</p>
+               <p>A concise grammatical sketch of the dialect is Aziza Boucherit’s “Algiers Arabic”, in EALL I, 58-66.</p>
+            </div>
+            <div type="dictionaries">
+               <p>The first studies on the dialect of Algiers date from the French conquest. Delaporte 1839 offered a phonological and morphological sketch of the dialect of Algiers, plus a narrative with French translation. Bellemare 1850, a description of the grammar of the dialect of Algiers, was written for the French army and civil servants. Ben Sedira 2001 (originally published in 1886) included a short grammatical sketch of the dialect of the city. Cohen 1912 is a study devoted to the Jewish dialect of Algiers, but provides information about the Muslim variety as well. Bencheneb 1942 is an article on the special phonological, morphological, and semantic features of the vernacular of Algiers. Bencheneb 1943 and Bencheneb 1944 present dialectal texts.</p>
+               <p>Ben Sedira 2001 (originally published in 1886) and Beaussier et al. 2006 (originally published in 1958) are dictionaries of the colloquial language in Algeria based on the dialect of Algiers. Darmaun 1963 has 30-page Arabic-French and 35-page French-Arabic glossaries. Tapiéro 1978 includes an Arabic-French as well as a French-Arabic glossary (around 20 pages each). Coletti 1985 includes a 10-page glossary.</p>
+            </div>
+            <div type="textBooks">
+               <p>Tapiéro 1978 is a French textbook on the dialect of Algiers consisting of 30 lessons, including 15 translated dialogues.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
