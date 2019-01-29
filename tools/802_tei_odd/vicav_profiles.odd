@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>VICAV profiles document ODD</title>
+        <author>Daniel Schopper</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ACDH-OeAW</publisher>
+        <pubPlace>Vienna</pubPlace>
+        <date>2019</date>
+        <availability status="restricted">
+          <p><ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>This is an original digital text.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <schemaSpec ident="vicav_profiles" start="TEI">
+        <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt availability rendition sourceDesc encodingDesc tagsDecl revisionDesc change"/>
+        <moduleRef key="core" include="address author bibl date desc graphic head hi item label listBibl name note p publisher pubPlace ref respStmt resp rs series title"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="namesdates" include="geo"/>
+        <moduleRef key="textstructure" include="body div TEI text"/>
+        <moduleRef key="figures" include="figure"/>
+        <elementSpec ident="p" mode="change" module="core">
+          <content>
+            <alternate minOccurs="1" maxOccurs="unbounded">
+              <textNode/>
+              <elementRef key="hi"/>
+              <elementRef key="rs"/>
+              <elementRef key="ref"/>
+              <elementRef key="geo"/>
+            </alternate>
+          </content>
+        </elementSpec>
+        <elementSpec ident="head" module="core" mode="change">
+          <content>
+            <!-- either allow one figure + 4 names with optional labels -->
+            <alternate minOccurs="1">
+              <sequence preserveOrder="true">
+                <elementRef key="figure" minOccurs="1" maxOccurs="1"/>
+                <elementRef key="label" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="name" minOccurs="1" maxOccurs="1"/>
+                <elementRef key="label" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="name" minOccurs="1" maxOccurs="1"/>
+                <elementRef key="label" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="name" minOccurs="1" maxOccurs="1"/>
+                <elementRef key="label" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="name" minOccurs="1" maxOccurs="1"/>
+              </sequence>
+              <!-- or just (non-empty) plain text -->
+              <textNode/>
+            </alternate>
+          </content>
+          <constraintSpec ident="head-labels" scheme="schematron">
+            <desc>Enforce that the profile head contains all required names.</desc>
+            <constraint>
+              <s:rule context="tei:head[parent::tei:div[parent::tei:body]]">
+                <s:assert test="tei:name[@xml:lang = 'eng']">An english version of the location name must be provided (name element with xml:lang 'eng').</s:assert>
+                <s:assert test="tei:name[@xml:lang = 'ara']">A Fuṣḥā transcription of the location name must be provided (name element with xml:lang 'ara').</s:assert>
+                <s:assert test="tei:name[@xml:lang = 'ara-x-DMG']">A transcription of the local name of location must be provided (name element with xml:lang 'ara-x-DMG').</s:assert>
+                <s:assert test="tei:name[@xml:lang = 'ajp']">A standard arabic name of the location must be provided (name element with xml:lang 'ajp').</s:assert>
+              </s:rule>
+            </constraint>
+          </constraintSpec>
+        </elementSpec>
+        <elementSpec ident="div" module="core" mode="change">
+          <attList>
+            <attDef ident="type" mode="replace">
+              <valList type="closed">
+                <valItem ident="dictionaries">
+                  <desc>lists dictionaries available for the variety described by the profile</desc>
+                </valItem>
+                <valItem ident="audioData">
+                  <desc>lists audia material available for the variety described by the profile</desc>
+                </valItem>
+                <valItem ident="sampleText">
+                  <desc>contains a sample text of the variety described by the profile</desc>
+                </valItem>
+                <valItem ident="lingFeatures">
+                  <desc>contains a formal description of the linguistic features of the variety described by the profile</desc>
+                </valItem>
+                <valItem ident="bibliography">
+                  <desc>contains a bibliography of the variety described by the profile</desc>
+                </valItem>
+                <valItem ident="researchHistory">
+                  <desc>describes the research history on the variety described by the profile</desc>
+                </valItem>
+                <valItem ident="typology">
+                  <desc>describes the typology of the variety described by the profile</desc>
+                </valItem>
+                <valItem ident="general">
+                  <desc>provides a general description of the variety described by the profile</desc>
+                </valItem>
+                <valItem ident="positioning">
+                  <desc>contains geographic coordinates of the variety described by the profile</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="rs" module="core" mode="change">
+          <constraintSpec ident="rs-zotero-id" scheme="schematron">
+            <desc>Enforce that the <att>ref</att> attribute points to a valid Zotero ID.</desc>
+            <constraint>
+              <s:ns uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#" prefix="rdf"/>
+              <s:rule context="tei:rs[@type = 'bibl']">
+                <s:let name="zotero-id" value="substring-after(@ref,'zotero:')"/>
+                <s:let name="zotero-ids" value="doc('../../../vicav_biblio/vicav_bibliography-zotero-ids.rdf')//@rdf:about"/>
+                <s:assert test="starts-with(@ref, 'zotero:')">ref must start with the 'zotero:' prefix</s:assert>
+                <s:assert test="$zotero-id = $zotero-ids"><s:value-of select="$zotero-id"/> is not a valid Zotero ID!</s:assert>
+              </s:rule>
+            </constraint>
+          </constraintSpec>
+        </elementSpec>
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>
