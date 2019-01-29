@@ -1,0 +1,35 @@
+@namespace oxy "http://www.oxygenxml.com/extensions/author";
+
+hi[rendition="#u"] {
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+hi[rendition="#i"] {
+    font-style: italic;
+    background-color: transparent;
+}
+
+hi[rendition="#b"] {
+    font-weight: bold;
+    background-color: transparent;
+}
+/*
+div[type]:before {
+    -oxy-prepend-content: oxy_concat("<h4>", oxy_xpath("@type"),"</h4>");
+}*/
+
+rs[type="bibl"] {
+    color: red;
+}
+
+oxy|comment {
+    color: green!important;
+    font-weight: bold;
+}
+
+rs[type="bibl"][ref]:after {
+  /* Keep just the first ID */
+  link: oxy_replace(attr(ref), "^zotero:(.+)$", "https://www.zotero.org/groups/2165756/vicav/items/itemKey/$1", true);
+  content: url(link.png);
+}

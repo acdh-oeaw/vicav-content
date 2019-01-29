@@ -1,0 +1,29 @@
+@namespace oxy "http://www.oxygenxml.com/extensions/author";
+@namespace rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
+@namespace bib "http://purl.org/net/biblio#";
+
+
+rdf|RDF > *[rdf|about] {
+    -oxy-foldable: true;
+    -oxy-folded: true;
+    -oxy-not-foldable-child: author, title;
+}
+
+/*rdf|RDF > *[rdf|about]:before {
+    content: oxy_xpath("concat(string-join(*:authors//*:surname,', '), ':', title)")
+}*/
+
+rdf|RDF > bib|Memo {
+    display: none!important;
+}
+
+rdf|RDF > *[rdf|about] > * {
+    display: none;
+}
+rdf|RDF > *[rdf|about] > title,
+rdf|RDF > *[rdf|about] authors Person,
+rdf|RDF > *[rdf|about] date
+
+{
+    display: block;
+}
