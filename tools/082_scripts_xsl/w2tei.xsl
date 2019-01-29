@@ -2,9 +2,14 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns="http://www.tei-c.org/ns/1.0"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
+    xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture"
     xmlns:_="urn:acdh"
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:archive="http://expath.org/ns/archive"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" 
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:arch="http://expath.org/ns/archive"
     xmlns:file="http://expath.org/ns/file"
     xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
@@ -21,23 +26,56 @@
     xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup"
     xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk"
     xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml"
+    xmlns:xprops="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties"
+    xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes"
     xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape"
+    xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties"
     exclude-result-prefixes="#all"
     version="3.0">
     <xsl:preserve-space elements="w:t"/>
     <xsl:output indent="no"/>
+    
     <xsl:function name="_:unzip-and-parse">
         <xsl:param name="filename"/>
         <xsl:variable name="text" select="archive:extract-text(file:read-binary($path-to-docx), $filename)"/>
         <xsl:sequence select="if (exists($text)) then parse-xml($text) else ()"/>
     </xsl:function>
+    <xsl:function name="_:unzip-and-store-binary">
+        <xsl:param name="internalFilepath" as="xs:string"/>
+        <xsl:message>Extracting and storing binary file '<xsl:value-of select="$internalFilepath"/>'</xsl:message>
+        <xsl:variable name="filename" select="tokenize($internalFilepath,'/')[last()]"/>
+        <xsl:variable name="output-filepath-relative" select="concat(replace($docx-filename,'\.docx$',''),'/',substring-after($internalFilepath,'word/'))"/>
+        <xsl:variable name="output-filepath-absolute" select="concat($docx-filepath,'/', $output-filepath-relative)"/>
+        <xsl:variable name="data" select="archive:extract-binary(file:read-binary($path-to-docx), $internalFilepath)"/>
+        <xsl:variable name="create-parent-dirs" select="file:create-dir(substring-before($output-filepath-absolute, $filename))"/>
+        <xsl:if test="not($create-parent-dirs)">
+            <xsl:message>Created directory structure of '<xsl:value-of select="$output-filepath-relative"/>'</xsl:message>
+        </xsl:if>
+        <xsl:variable name="store" select="file:write-binary($output-filepath-absolute, xs:base64Binary($data))"/>
+        <xsl:message>Storing media file <xsl:value-of select="$filename"/> to <xsl:value-of select="$output-filepath-absolute"/></xsl:message>
+        <xsl:value-of select="if (not($store)) then $output-filepath-relative else ()"/>
+    </xsl:function>
+    
     <xsl:key name="comment-by-id" match="w:comment" use="@w:id"/>
-    <xsl:param name="debug" as="xs:boolean" select="false()"/>
+    <xsl:key name="rel-by-id" match="rs:Relationship" use="@Id"/>
+    <xsl:param name="debug" as="xs:boolean" select="true()"/>
     <xsl:param name="path-to-docx" as="xs:string"/>
+    <xsl:variable name="docx-filename" select="tokenize($path-to-docx,'/')[last()]"/>
+    <xsl:variable name="docx-filepath" select="substring-before($path-to-docx, $docx-filename)"/>
+    <xsl:variable name="archive-entries" select="archive:entries(file:read-binary($path-to-docx))" as="element(arch:entry)*"/> 
+    
     <xsl:variable name="doc" select="_:unzip-and-parse('word/document.xml')"/>
     <xsl:variable name="comments" select="_:unzip-and-parse('word/comments.xml')"/>
     <xsl:variable name="document.xml.rels" select="_:unzip-and-parse('word/_rels/document.xml.rels')"/>
+    <xsl:variable name="docProps.core" select="_:unzip-and-parse('docProps/core.xml')"/>
+    <xsl:variable name="docProps.app" select="_:unzip-and-parse('docProps/app.xml')"/>
+    <xsl:variable name="media-files" select="$archive-entries[starts-with(.,'word/media')]"/>
     
+    <xsl:variable name="docProps.app.title" select="$docProps.app/xprops:HeadingPairs/vt:variant[1]/vt:lpstr/text()"/>
+    <xsl:variable name="docProps.core.creator" select="$docProps.core//dc:creator"/>
+    <xsl:variable name="docProps.core.lastModifiedBy" select="$docProps.core//dc:lastModifiedBy"/>
+    <xsl:variable name="docProps.core.creator.id" select="string-join(for $i in tokenize($docProps.core.creator,'\s+') return substring($i,1,1),'')"/>
+    <xsl:variable name="docProps.core.lastModifiedBy.id" select="string-join(for $i in tokenize($docProps.core.lastModifiedBy,'\s+') return substring($i,1,1),'')"/>
     <xsl:variable name="correctionMarksDoc" select="doc('correctionMarks.xml')"/>
     <xsl:variable name="correctionMarks" select="$correctionMarksDoc//tei:interp/xs:string(@xml:id)" as="xs:string+"/>
     <xsl:template match="xsl:stylesheet" mode="#all">
@@ -46,7 +84,12 @@
     <xsl:template match="/">
         <xsl:if test="$debug">
             <xsl:result-document href="debug/archive-entries.xml">
-                <xsl:sequence select="archive:entries(file:read-binary($path-to-docx))"/>
+                <entries>
+                    <xsl:sequence select="$archive-entries"/>
+                </entries>
+            </xsl:result-document>
+            <xsl:result-document href="debug/docProps/core.xml">
+                <xsl:sequence select="$docProps.core"/>
             </xsl:result-document>
             <xsl:result-document href="debug/doc.xml">
                 <xsl:sequence select="$doc"/>
@@ -115,7 +158,7 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="w:r[not(w:t) and not(w:commentReference)]" mode="simplify"/>
+    <xsl:template match="w:r[not(w:t) and not(w:commentReference) and not(w:drawing)]" mode="simplify"/>
     
     <xsl:template match="w:commentReference[not(exists(root()//w:commentRangeStart[@w:id = current()/@w:id]))][not(exists(root()//w:commentRangeEbd[@w:id = current()/@w:id]))]" mode="simplify">
         <seg rangeID="seg{@w:id}"/>
@@ -293,7 +336,16 @@
     </xsl:template>
     
     <xsl:template match="w:r" mode="w2t">
-        <xsl:apply-templates select="*" mode="#current"/>
+        <xsl:choose>
+            <xsl:when test="w:rPr[w:u|w:i|w:b]">
+                <hi rendition="{string-join(w:rPr/(w:u|w:i|w:b)/concat('#',local-name(.)), ' ')}">
+                    <xsl:apply-templates select="*" mode="#current"/>
+                </hi>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates select="*" mode="#current"/>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     
     <xsl:template match="w:rPr|w:commentRangeEnd|w:tab|w:commentReference|w:lastRenderedPageBreak" mode="w2t"/>
@@ -302,6 +354,23 @@
         <lb/>
     </xsl:template>
     
+    <xsl:template match="w:drawing" mode="w2t">
+        <figure>
+            <xsl:apply-templates select="descendant::a:graphic" mode="#current"/>
+        </figure>
+    </xsl:template>
+    
+    <xsl:template match="a:*" mode="w2t">
+        <xsl:apply-templates mode="#current"/>
+    </xsl:template>
+    
+    <xsl:template match="pic:pic" mode="w2t">
+        <xsl:variable name="pic-id" select="descendant::*/@r:embed" as="xs:string"/>
+        <xsl:variable name="rels" select="key('rel-by-id', $pic-id, $document.xml.rels)" as="element(rs:Relationship)"/>
+        <xsl:variable name="filepath" select="concat('word/',$rels/@Target)"/>
+        <xsl:variable name="output-path" select="_:unzip-and-store-binary($filepath)" as="xs:string"/>
+        <graphic url="{$output-path}"/>
+    </xsl:template>
     
     
     <xsl:template match="w:t" mode="w2t">
@@ -327,11 +396,13 @@
     
     <xsl:template match="w:document" mode="w2t">
         <TEI>
-            <xsl:comment select="current-dateTime()"/>
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title><xsl:value-of select="$doc//w:tbl[1]/w:tr[1]/w:tc[2]/normalize-space(.)"/></title>
+                        <title><xsl:value-of select="$docProps.app.title"/></title>
+                        <author>
+                            <name xml:id="{$docProps.core.creator.id}"><xsl:value-of select="$docProps.core.creator"/></name>
+                        </author>
                     </titleStmt>
                     <publicationStmt>
                         <p>Add publication stmt.</p>
@@ -340,6 +411,18 @@
                         <p>Automatically converted from DOCX source "<xsl:value-of select="$path-to-docx"/>" on <xsl:value-of select="current-dateTime()"/>.</p>
                     </sourceDesc>
                 </fileDesc>
+                <encodingDesc>
+                    <tagsDecl partial="true">
+                        <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+                        <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+                        <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+                    </tagsDecl>
+                </encodingDesc>
+                <revisionDesc>
+                    <xsl:apply-templates select="$docProps.core/cp:coreProperties/dcterms:created" mode="#current"/>
+                    <xsl:apply-templates select="$docProps.core/cp:coreProperties/dcterms:modified" mode="#current"/>
+                    <change status="draft" when="{current-dateTime()}">transformed to TEI-XML</change>
+                </revisionDesc>
             </teiHeader>
             <text>
                 <xsl:apply-templates mode="#current"/>
@@ -351,6 +434,14 @@
         <xsl:if test="w:pStyle/@w:val != ''">
             <xsl:attribute name="rend" select="w:pStyle/@w:val"/>
         </xsl:if>
+    </xsl:template>
+    
+    <xsl:template match="dcterms:created" mode="w2t">
+        <change status="created" when="{.}" who="#{$docProps.core.creator.id}">created</change>
+    </xsl:template>
+    
+    <xsl:template match="dcterms:modified" mode="w2t">
+        <change status="draft" when="{.}" who="#{$docProps.core.lastModifiedBy.id}">last modified (revision <xsl:value-of select="../cp:revision"/>)</change>
     </xsl:template>
     
 </xsl:stylesheet>
