@@ -57,6 +57,8 @@
               </sequence>
               <!-- or just (non-empty) plain text -->
               <textNode/>
+              <!-- or a hyperlink -->
+              <elementRef key="ref"/>
             </alternate>
           </content>
           <constraintSpec ident="head-labels" scheme="schematron">
