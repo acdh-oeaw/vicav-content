@@ -63,7 +63,12 @@
             <xsl:message>getting field value for key '<xsl:value-of select="$key"/>'</xsl:message>
         </xsl:if>
         <xsl:variable name="label" select="acdh:label-by-key($key)" as="element(field)"/>
-        <xsl:sequence select="acdh:cell-by-label($table, $label, 2)/*"/>
+        <xsl:variable name="cell" select="acdh:cell-by-label($table, $label, 2)/*"/>
+        <xsl:if test="$debug">
+            <xsl:message select="$label"/>
+            <xsl:message select="$cell"/>
+        </xsl:if>
+        <xsl:sequence select="$cell"/>
     </xsl:function>
     
     <xsl:function name="acdh:label-by-key">
