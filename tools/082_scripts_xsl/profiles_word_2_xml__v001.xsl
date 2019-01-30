@@ -280,7 +280,7 @@
             <head type="imgCaption">
                 <xsl:for-each select="$imageCopyright">
                     <xsl:choose>
-                        <xsl:when test="starts-with(.,'http:')">
+                        <xsl:when test="matches(.,'^https?:')">
                             <ref target="{.}"><xsl:value-of select="."/></ref>
                         </xsl:when>
                         <xsl:otherwise>
