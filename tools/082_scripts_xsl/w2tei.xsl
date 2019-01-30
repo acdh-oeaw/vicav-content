@@ -307,7 +307,7 @@
     
     
     <xsl:template match="w:p" mode="w2t">
-        <xsl:if test="w:r">
+        <xsl:if test="w:r|w:hyperlink">
             <p>
                 <xsl:apply-templates mode="#current"/>
             </p>
