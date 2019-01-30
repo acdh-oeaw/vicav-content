@@ -331,8 +331,11 @@
     </xsl:template>
     <xsl:template match="w:tcPr" mode="w2t"/>
     
-    <xsl:template match="w:hyperlink" mode="w2t">
+    <xsl:template match="w:hyperlink[@r:id]" mode="w2t">
         <ref target="{$document.xml.rels//rs:Relationship[@Id = current()/@r:id]/@Target}"><xsl:apply-templates mode="#current"/></ref>
+    </xsl:template>
+    <xsl:template match="w:hyperlink[not(exists(@r:id))]" mode="w2t">
+        <ref><xsl:apply-templates mode="#current"/></ref>
     </xsl:template>
     
     <xsl:template match="w:r" mode="w2t">
