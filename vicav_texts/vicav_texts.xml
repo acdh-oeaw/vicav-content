@@ -23,14 +23,14 @@
 <div xml:id="vicavMission">
   <head>Vienna Corpus of Arabic Varieties (VICAV)</head>
 
-  <p>VICAV is an international endeavour aiming at the collection of
+  <p xml:space="preserve">VICAV is an international endeavour aiming at the collection of
     digital language resources documenting varieties of spoken Arabic.
     While in principle being open to any type of text, we currently focus
     on bibliographical data, on so-called <hi rend="italic">language 
     profiles</hi>, standardised <hi rend="italic">feature lists</hi> 
     and <hi rend="italic">lexical data</hi>.</p>
 
-  <p>
+  <p xml:space="preserve">
     <graphic url="tei_banner.jpg" rend="inParagraph"/>
     VICAV has a strong methodological component focusing on the 
     development of digital data and tools. A large part of these
@@ -41,7 +41,7 @@
     documentation of our lexical data</ref>.   
   </p>
       
-  <p>VICAV has been started as a co-operation between the Department of
+  <p xml:space="preserve">VICAV has been started as a co-operation between the Department of
     Oriental Studies of the University of Vienna and the Austrian Centre
     for Digital Humanities of the Austrian Academy of Sciences (ACDH-OeAW).
     The institutional frame of the project is defined by a repository for 
@@ -52,42 +52,42 @@
 
 <div xml:id="vicavContributors">
   <head>Contributors</head>
-  <p>The project has been conducted as a co-operation between the
+  <p xml:space="preserve">The project has been conducted as a co-operation between the
     Department of Oriental Studies of the University of Vienna and the
     Austrian Centre of Digital Humanities of the Austrian Academy of
     Sciences (ACDH-OeAW). This group mof researchers are committed to work
     in the spirit of Open Access and aim at making freely available for
     research as many digital language recources as possible.</p>
 
-  <p>VICAV is a collaborative undertaking. We are aiming at serving the
+  <p xml:space="preserve">VICAV is a collaborative undertaking. We are aiming at serving the
     community at large and want to be as inclusive as possible. Contact us
     if you want to participate in our efforts.</p>
 
-  <p>So far the following researchers have contributed to the pool of
+  <p xml:space="preserve">So far the following researchers have contributed to the pool of
     data.</p>
 
   <div>
     <head>Rima Aldoukhi</head>
-    <p>… is a first language speaker of Damascus Arabic and lecturer at
+    <p xml:space="preserve">… is a first language speaker of Damascus Arabic and lecturer at
       the University of Vienna. She has been working extensively on the
       Damascus dictionary</p>
   </div>
 
   <div>
     <head>Carmen Berlinches Ramos</head>
-    <p>… has a PhD in Arabic Studies from the Complutense University of
+    <p xml:space="preserve">… has a PhD in Arabic Studies from the Complutense University of
       Madrid and is one of our Damascus specialists. She prepared many
       entries of the Damascus dictionary.</p>
   </div>
 
   <div>
     <head>Ines Dallaji</head>
-    <p>… is a specialist in Tunisian Arabic, was working on the Tunisian
+    <p xml:space="preserve">… is a specialist in Tunisian Arabic, was working on the Tunisian
       dictionary and provided the language profile of Tunis.</p>
   </div>
   <div>
     <head>Terlan Djavadova</head>
-    <p>… is currently a student assistent at the Institute of Oriental
+    <p xml:space="preserve">… is currently a student assistent at the Institute of Oriental
       Studies of the University of Vienna. She has been working on several
       parts of the VICAV website so far, in particular the
       bibliography.</p>
@@ -95,13 +95,13 @@
 
   <div>
     <head>Ines Gabsi</head>
-    <p>… is a specialist in Tunisian Arabic and was working on the
+    <p xml:space="preserve">… is a specialist in Tunisian Arabic and was working on the
       Tunisian dictionary.</p>
   </div>
 
   <div>
     <head>Charly Mörth</head>
-    <p>… has prepared some of our Egyptian material. He takes a great
+    <p xml:space="preserve">… has prepared some of our Egyptian material. He takes a great
       interest in the interface between linguistics and digital language
       ressources doing research in the fields of virtual research
       environments and language related standards.</p>
@@ -109,19 +109,19 @@
 
   <div>
     <head>Lea Müller-Funk</head>
-    <p>… has prepared most of our our MSA reference dictionary.</p>
+    <p xml:space="preserve">… has prepared most of our our MSA reference dictionary.</p>
   </div>
 
   <div>
     <head>Stephan Procházka</head>
-    <p>… is professor of Arabic language at the University of Vienna and
+    <p xml:space="preserve">… is professor of Arabic language at the University of Vienna and
       the president of AIDA. Together with Charly Moerth he initiated the
       VICAV project.</p>
   </div>
 
   <div>
     <head>Veronika Ritt-Benmimoun</head>
-    <p>… is assistant professor of Arabic linguistics at the Institute of
+    <p xml:space="preserve">… is assistant professor of Arabic linguistics at the Institute of
       Oriental Studies of the University of Vienna and a leading
       specialist in Tunisian Bedouin dialects. She prepared the profile of
       Douz.</p>
@@ -130,25 +130,25 @@
   <div>
 
     <head>Naima Sekiati</head>
-    <p>… is lecturer for Moroccan Arabic at the University of Vienna and
+    <p xml:space="preserve">… is lecturer for Moroccan Arabic at the University of Vienna and
       prepared the profile of Salé.</p>
   </div>
 
   <div>
     <head>Omar Siam</head>
-    <p>… has been in charge of many text technological aspects of this
+    <p xml:space="preserve">… has been in charge of many text technological aspects of this
       site.</p>
   </div>
   <div>
     <head>Anna Telič</head>
-    <p>… is lecturer for Syrian Arabic at the University of Vienna and has
+    <p xml:space="preserve">… is lecturer for Syrian Arabic at the University of Vienna and has
       been responsible for the re-checking of the data in the Damascus
       dictionary.</p>
   </div>
 
   <div>
     <head>Other Contributors</head>
-    <p>A number of MA and PhD students in Arabic Studies at the University
+    <p xml:space="preserve">A number of MA and PhD students in Arabic Studies at the University
       of Vienna contributed profiles to this website. Among these are
       Natanja Faschinger, Lea Bäumler, Faiz Alshehri and others. </p>
   </div>
@@ -158,12 +158,12 @@
 <div xml:id="vicavLinguistics">
     <head>Linguistics</head>
     
-    <p>The VICAV Research Environment has been designed as a tool for the
+    <p xml:space="preserve">The VICAV Research Environment has been designed as a tool for the
       presentation of digital material concerning Arabic dialectology. It
       was intended as a means to promote the efficient exchange of ideas and
       experiences in an active international community.</p>
     
-    <p>VICAV serves as an interface between areal and corpus linguistics.
+    <p xml:space="preserve">VICAV serves as an interface between areal and corpus linguistics.
       The aim is to gather varying digital language resources for a number
       of different localities. The description of the different varieties
       hinges on a particular type of text which we call ’language profiles’,
@@ -173,7 +173,7 @@
       bibliographies, dictionaries, glossaries, and different types of
       transcribed texts.</p>
     
-    <p>The project proceeds from two basic assumptions: In Arabic
+    <p xml:space="preserve">The project proceeds from two basic assumptions: In Arabic
       dialectology, information on new findings and current developments is
       mainly exchanged at international conferences and in scientific
       journals. Due to a steadily increasing number of projects which
@@ -195,7 +195,7 @@
     <div>
       <head>Data</head>
     
-      <p>All entries in the dictionaries which are not further indicated are
+      <p xml:space="preserve">All entries in the dictionaries which are not further indicated are
         taken from data provided by the collaborator(s) cited on the front
         page of each dictionary. Data extracted from other published sources
         is indicated as such and includes the respective reference.</p>
@@ -204,16 +204,16 @@
     <div>
       <head>Transcription</head>
     
-      <p>The transcription follows a system which is widely accepted in
+      <p xml:space="preserve">The transcription follows a system which is widely accepted in
         Arabic studies and also used in reference works such as the
         Encyclopedia of Arabic Language and Linguistics (Leiden: Brill,
         2006-2009).</p>
     
-      <p>Following a widespread convention in Arabic dialectology, the data
+      <p xml:space="preserve">Following a widespread convention in Arabic dialectology, the data
         is presented in in a broad phonological transcription that does not
         indicate allophones.</p>
     
-      <p>List of latin diacritic signs used</p>
+      <p xml:space="preserve">List of latin diacritic signs used</p>
     
       <table rend="tbQueryExamples">
         <row role="label">
@@ -459,7 +459,7 @@
     <div>
       <head>Arabic roots</head>
     
-      <p>In order to facilitate cross-dialectal comparative search all word
+      <p xml:space="preserve">In order to facilitate cross-dialectal comparative search all word
         roots are have to be taken as being strictly etymological, i.e. they
         reflect the corresponding roots of Standard Arabic wherever
         possible. The source of reference is the Dictionary of Modern
@@ -473,17 +473,17 @@
     <div>
       <head>Part-of-speech</head>
     
-      <p>As for verbs a subcategory indicating the so-called verbal form is
+      <p xml:space="preserve">As for verbs a subcategory indicating the so-called verbal form is
         provided (using the traditional order labelled by Roman numerals
         from I to X, in case of quadriliteral roots Iq and IIq).</p>
     
-      <p>In many cases a clear distinction between adjective and active or
+      <p xml:space="preserve">In many cases a clear distinction between adjective and active or
         passive participle is not possible. If a given lemma is mainly used
         in an adjectival sense it is labelled as such but with an additional
         category that indicates the word is morphologically seen a
         participle.</p>
     
-      <p>The gender of Arabic nouns is not noted unless it is contradictory
+      <p xml:space="preserve">The gender of Arabic nouns is not noted unless it is contradictory
         to the rules of Arabic morphology (which is particularly the case
         with unmarked feminine nouns).</p>
     </div>
@@ -493,7 +493,7 @@
 <div xml:id="vicavTypesOfText">
   <head>Types of Text/Data</head>
 
-  <p>Apart from its linguistic goals, the project has been pursuing strong
+  <p xml:space="preserve">Apart from its linguistic goals, the project has been pursuing strong
     interests in various aspects of text technology. The output of the
     work of the contributors is published in form of different types of
     digital language ressources. Our research interests in this
@@ -505,7 +505,7 @@
     <div>
       <head>Language profiles</head>
   
-      <p>At the heart of the website, there are what we have called language
+      <p xml:space="preserve">At the heart of the website, there are what we have called language
         profiles. This type of text consist in short sketches of varieties 
         of spoken contemporary Arabic. The intention has been to work 
         a complementary manner to similar endeavours (such as EALL). For the
@@ -517,7 +517,7 @@
     <div>
       <head>Dictionaries</head>
   
-      <p>We have been working on several digital dictionaries which have 
+      <p xml:space="preserve">We have been working on several digital dictionaries which have 
         been created as part of different projects. We call them dictionaries 
         (and not glosaries) as they are made up of self-contained entries which are
         not only used as glosses. All of these have been created to be used
@@ -527,7 +527,7 @@
     <div>
       <head>Bibliography</head>
   
-      <p>The bibliography is an ongoing effort. Given the limitted
+      <p xml:space="preserve">The bibliography is an ongoing effort. Given the limitted
         resources at our disposal, it can not be exhaustive. Here again, 
         one of our intentions is to provide the community with readily reusable
         standardised material.</p>
@@ -536,7 +536,7 @@
     <div>
       <head>Standards</head>
   
-      <p>An important part of our work is standards and de-facto standards.
+      <p xml:space="preserve">An important part of our work is standards and de-facto standards.
         The most important part of this toolbox are the 
         <ref target="http://www.tei-c.org/Guidelines/P5/">Guidelines of the 
         Text Encoding Initiative (P5)</ref>.</p>
@@ -547,19 +547,19 @@
 <div xml:id="vicavExplanationBibliography">
     <head>Bibliography</head>
 
-    <p>The bibliography is an ongoing effort. Given our limitted resources
+    <p xml:space="preserve">The bibliography is an ongoing effort. Given our limitted resources
     and the large number of relevant publications, it can not be
     exhaustive. Much of the data has been extracted from other ressources.
     We are working continually at improving and harmonising the data.</p>
 
-<p>The bibliography has been compiled in a ZOTERO group. We have
+<p xml:space="preserve">The bibliography has been compiled in a ZOTERO group. We have
   enriched the items in the database with geo-information which makes it
   possible to visualise all items that were provided with geo-data on
   the map.</p>
 
 <div>
   <head>Places and Regions</head>
-  <p>An old problem in this kind of visualisations is how to deal with
+  <p xml:space="preserve">An old problem in this kind of visualisations is how to deal with
     regions and countries as they almost never coincide with the
     linguistic phenomena we want to describe. We have not even attempted
     to think about shapes. However, we simply put circles (instead of
@@ -568,14 +568,14 @@
 
 <div>
   <head>Maps and Text Queries</head>
-  <p>The bibliography can be searched in a dual mode: either by clicking
+  <p xml:space="preserve">The bibliography can be searched in a dual mode: either by clicking
     on locations in the map or <ref target="func:createNewQueryBiblioPanel()">by searching for
       strings</ref>.</p>
 </div>
 
 <div>
   <head>Examples</head>
-  <p>The following examples should give you a headstart with the simple
+  <p xml:space="preserve">The following examples should give you a headstart with the simple
     query language. Bear in mind that not all bibliographic records have been 
     furnished with geo data. 
   </p>
@@ -595,7 +595,7 @@
     </row>
     <row>
       <cell rend="tdCommentSpan">
-        <p>To make use of the geo-tags the prefixes <hi rend="italic">geo:</hi> and <hi rend="italic">reg:</hi> are used.</p>
+        <p xml:space="preserve">To make use of the geo-tags the prefixes <hi rend="italic">geo:</hi> and <hi rend="italic">reg:</hi> are used.</p>
       </cell>
     </row>
     <row>
@@ -622,7 +622,7 @@
     </row>
     <row>
       <cell rend="tdCommentSpan">
-        <p>The prefix <hi rend="italic">vt:</hi> stands for <hi rend="italic">VICAV taxonomy</hi>. 
+        <p xml:space="preserve">The prefix <hi rend="italic">vt:</hi> stands for <hi rend="italic">VICAV taxonomy</hi>. 
           Try to combine it with theses expressions: <hi rend="italic">bedouin dialect</hi>,
             <hi rend="italic">morphology</hi>, <hi rend="italic">phonology</hi>, 
             <hi rend="italic">syntax</hi> or <hi rend="italic">urban dialect</hi>.</p>
@@ -678,7 +678,7 @@
     </row>
     <row>
       <cell rend="tdCommentSpan">
-        <p>It is also possible to combine query terms.</p>
+        <p xml:space="preserve">It is also possible to combine query terms.</p>
       </cell>
     </row>
     <row>
@@ -699,13 +699,13 @@
 
 <div>
   <head>Taxonomy I</head>
-  <p>We have started to apply a taxonomy to the bibliographic items in
+  <p xml:space="preserve">We have started to apply a taxonomy to the bibliographic items in
     our ZOTERO library. All of this is work in progress. In most cases
     the keywords have only been applied to part of the data. The following 
     list mereley serves as a starting point for discussion and as a technical
     reference.</p>
     
-  <p>You have to add the prefix <hi rend="italic">vt:</hi> when using
+  <p xml:space="preserve">You have to add the prefix <hi rend="italic">vt:</hi> when using
     them in queries. Currently the bibliography contains the following
     labels:</p>
 
@@ -1052,7 +1052,7 @@
 
 <div>
   <head>Taxonomy II</head>
-  <p>There exists a second unstructured list of keywords (imported 
+  <p xml:space="preserve">There exists a second unstructured list of keywords (imported 
     from Georg Böhm's bibliography) that can be used in the same 
     manner. Not all of the items have actually been applied.</p>
   <list>
@@ -1240,7 +1240,7 @@
 <div xml:id="vicavExplanationProfiles">
     <head>Language profiles</head>
     
-    <p>At the heart of the website, there are what we have called language
+    <p xml:space="preserve">At the heart of the website, there are what we have called language
       profiles. This type of text constitutes short sketches of varieties of
       spoken contemporary Arabic. The intention is to work in a
       complementary manner to similar endeavours (such as EALL). For the
@@ -1248,7 +1248,7 @@
       but rather focus on general information, research histories and
       available literature.</p>
     
-    <p>As of May 2018 we provided profiles for these locations (in alphabetic
+    <p xml:space="preserve">As of May 2018 we provided profiles for these locations (in alphabetic
       order): <list>
         <item>
             <ref target="profile:profile_abu_dhabi_01/Abu Dhabi">Abu Dhabi</ref>
@@ -1308,7 +1308,7 @@
 <div xml:id="vicavExplanationFeatures">
     <head>Features (Explanation)</head>
 
-    <p>The linguistic features consist in lists of sentence pairs in English
+    <p xml:space="preserve">The linguistic features consist in lists of sentence pairs in English
       and Arabic that are meant to exemplify selected salient linguistic
       features of the particular varieties. The list is regarded as work in
       progress and serves as a basis for discussion. The system is designed
@@ -1316,20 +1316,20 @@
       enhancements. Let us know what you think about it, what you would
       add.</p>
     
-    <p>Nomenclature should reflect the common practice in the community and
+    <p xml:space="preserve">Nomenclature should reflect the common practice in the community and
       follow linguistically acknowledged standards. It is planned to enter
       the chosen denominations as a draft in the ISOCat list.</p>
     
-    <p>The list contains a number of repeated examples. We have tried to
+    <p xml:space="preserve">The list contains a number of repeated examples. We have tried to
       avoid phenomena that are too elusive or difficult to ascertain such as
       e.g. secondary emphasis. The focus has been put on morphology and
       lexis.</p>
     
-    <p>The lists have also been put together with a didactic purpose in
+    <p xml:space="preserve">The lists have also been put together with a didactic purpose in
       mind. They should allow students of Arabic dialectology to quickly get
       a first impression of particular dialects.</p>
 
-    <p>As of May 2018 we provided linguistic feature lists for these 
+    <p xml:space="preserve">As of May 2018 we provided linguistic feature lists for these 
       locations (in alphabetic order): <list>
       <item>
           <ref target="feature:ling_features_baghdad/Baghdad">Baghdad</ref>
@@ -1357,12 +1357,12 @@
 <div xml:id="vicavExplanationSampleTexts">
    <head>Sample Texts (Explanation)</head>
     
-   <p>The sample texts are translations of the same 
+   <p xml:space="preserve">The sample texts are translations of the same 
       <ref target="sample:msa_sample_01/Modern Standard Arabic">source text</ref>. They vary slightly with respect to regional
       differences. However, they are homogeneous enough to allow students to
       compare the numerous linguistic phenomena displayed in the texts.</p>
 
-    <p>Sofar we provide sample texts for six locations: <list>
+    <p xml:space="preserve">Sofar we provide sample texts for six locations: <list>
         <item>
           <ref target="sample:baghdad_sample_01/Baghdad">Baghdad</ref>
         </item>
@@ -1389,14 +1389,14 @@
 <div xml:id="vicavExplanationCorpusTexts">
     <head>Texts (Explanation and Overview)</head>
 
-    <p>The texts being displayed come from very different ressources. We
+    <p xml:space="preserve">The texts being displayed come from very different ressources. We
       have tried to mould them in a homogeneous form, retaining structural
       differences.</p>
     
     <div>
       <head>Morocco</head>
 
-        <p>
+        <p xml:space="preserve">
           <ref target="corpus:killing_jackal/Morocco">Den Schakal töten "Killing the
           Jackal"</ref> by <hi rend="italics"> Georg Böhm</hi>
       </p>
@@ -1405,7 +1405,7 @@
     <div>
       <head>Tunis</head>
 
-        <p> The <ref target="https://tunico.acdh.oeaw.ac.at/about_corpus.html">TUNICO 
+        <p xml:space="preserve"> The <ref target="https://tunico.acdh.oeaw.ac.at/about_corpus.html">TUNICO 
           Corpus</ref> was put together as part of the project 
           <hi rend="italic">Linguistic dynamics in the Greater Tunis Area: a
           corpus-based approach </hi> which ran from August 2013 until July
@@ -1415,7 +1415,7 @@
     <div>
       <head>Anatolia</head>
         
-      <p>
+      <p xml:space="preserve">
         <ref target="corpus:cukurova_001/Cukurova">The 
         Seven Brothers</ref>, contributed by <hi rend="italic">Stefan Procházka</hi>
       </p>
@@ -1426,11 +1426,11 @@
 <div xml:id="vicavContributionBibliography">
     <head>Contributing</head>
     
-    <p>If you want to help us enhance the bibliography there are different
+    <p xml:space="preserve">If you want to help us enhance the bibliography there are different
     possibilities to proceed. Either you start your own ZOTERO group and
     grant us access or you write directly into the VICAV-Zotero-group.</p>
     
-    <p>If you have data in Word documents, spread-sheets or whatever and
+    <p xml:space="preserve">If you have data in Word documents, spread-sheets or whatever and
     would like us to integrate it in VICAV, get in touch and we will find
     a way to do it.</p>
 </div>
@@ -1438,7 +1438,7 @@
 <div xml:id="vicavContributeProfile">
   <head>Contributing</head>
   
-  <p>If you would like to contribute a profile, simply  download 
+  <p xml:space="preserve">If you would like to contribute a profile, simply  download 
     the <ref target="downloads/vicav_profiles_template__001.docx">template</ref>,
     fill in the form and return the document to us.</p>
 </div>
@@ -1446,7 +1446,7 @@
 <div xml:id="vicavContributeFeature">
   <head>Contributing</head>
   
-  <p>If you would like to contribute a feature list, simply download the
+  <p xml:space="preserve">If you would like to contribute a feature list, simply download the
       <ref target="downloads/vicav_features_template__001.docx">template</ref>, 
     fill in the form and return the document to us.</p>
 </div>
@@ -1454,7 +1454,7 @@
 <div xml:id="vicavContributeSampleText">
   <head>Contributing</head>
   
-  <p>If you would like to contribute a sample text, simply download the
+  <p xml:space="preserve">If you would like to contribute a sample text, simply download the
       <ref target="downloads/vicav_sampletext_template__001.docx">template</ref>, 
     fill in the form and return the document to us.</p>
 </div>
@@ -1462,13 +1462,13 @@
 <div xml:id="vicavContributeCorpusText">
     <head>Contributing</head>
     
-    <p>If you would like to contribute a corpus, get in touch with us.</p>
+    <p xml:space="preserve">If you would like to contribute a corpus, get in touch with us.</p>
 </div>
         
 <div xml:id="vicavContributeDictionary">
   <head>Contributing</head>
   
-  <p>If you would like to contribute a dictionary or a glossary, get in touch
+  <p xml:space="preserve">If you would like to contribute a dictionary or a glossary, get in touch
     with us. Tell us about the data you have and we will discuss how to
     proceed best.</p>
 </div>
@@ -1477,17 +1477,17 @@
   <head type="headDamascus">
         A Digital Dictionary of<lb/> Damascene Arabic</head>
 
-  <p>Compiled by <hi rend="italic">Carmen Berlinches Ramos</hi> and 
+  <p xml:space="preserve">Compiled by <hi rend="italic">Carmen Berlinches Ramos</hi> and 
     <hi rend="italic">Stephan Procházka</hi>
           <lb/>
     In collaboration with <hi rend="italic">Rima Aldoukhi</hi> and 
     <hi rend="italic">Anna Telič</hi>
   </p>
 
-  <p>To query the dictionary <ref target="func:openDict_Damascus()">click 
+  <p xml:space="preserve">To query the dictionary <ref target="func:openDict_Damascus()">click 
       here</ref>.</p>
   
-  <p>This dictionary has been prepared to support the Syrian Textbook 
+  <p xml:space="preserve">This dictionary has been prepared to support the Syrian Textbook 
     prepared at the University of Vienna. We host some 
       <ref target="text:vicavLearning_tb_damascus/ABC">audio material</ref> 
       of this textbook. Also have a look at our 
@@ -1495,7 +1495,7 @@
       learning materials</ref>.</p>
       
   <!-- 
-  <p>
+  <p xml:space="preserve">
           <graphic url="damascus_umayyadenmo-3-2008.JPG"/>
         </p>
    -->
@@ -1504,19 +1504,19 @@
 <div xml:id="dictFrontPage_Cairo">
   <head>A Digital Dictionary of Cairo Arabic</head>
 
-  <p>Compiled by <hi rend="italic">Karlheinz Mörth</hi>
+  <p xml:space="preserve">Compiled by <hi rend="italic">Karlheinz Mörth</hi>
           <lb/>
   In collaboration with <hi rend="italic">Tarek Eltayeb</hi>
   </p>
 
-  <p>This small dictionary was started as part of a course in Egyptian
+  <p xml:space="preserve">This small dictionary was started as part of a course in Egyptian
     Arabic at the University of Vienna.</p>
 
-  <p>
+  <p xml:space="preserve">
     <ref target="func:openDict_Cairo()">QUERY</ref>
   </p>
     
-  <p>
+  <p xml:space="preserve">
     <graphic url="766px-Cairo-citadel-1800s_green.jpg"/>
    </p>
 </div>
@@ -1524,11 +1524,11 @@
 <div xml:id="dictFrontPage_MSA">
   <head>A Machine-readable Dictionary of Modern Standard Arabic</head>
 
-  <p>Compiled by <hi rend="italic">Stephan Procházka, Lea Müller-Funk,
+  <p xml:space="preserve">Compiled by <hi rend="italic">Stephan Procházka, Lea Müller-Funk,
       Karlheinz Mörth</hi>
   </p>
 
-  <p>
+  <p xml:space="preserve">
     <ref target="func:openDict_MSA()">QUERY</ref>
   </p>
 </div>
@@ -1537,19 +1537,19 @@
 <div xml:id="dictFrontPage_Tunis">
   <head>The <hi rend="italic">TUNICO</hi> Dictionary</head>
   
-  <p>Compiled by <hi rend="italic">Ines Dallaji, Ines Gabsi, Stephan
+  <p xml:space="preserve">Compiled by <hi rend="italic">Ines Dallaji, Ines Gabsi, Stephan
       Procházka, Veronika Ritt-Benmimoun, Gisela Kitzler, Bettina Leitner,
       Ines Ben-Brahim (Vienna 2016 )</hi>
         </p>
 
-  <p>
+  <p xml:space="preserve">
       <ref target="func:openDict_Tunis()">QUERY</ref>
   </p>
 
   <div>
     <head>INTRODUCTION</head>
 
-    <p>The <hi rend="italic">TUNICO</hi> dictionary was not only built on
+    <p xml:space="preserve">The <hi rend="italic">TUNICO</hi> dictionary was not only built on
       data from the corpus of spoken language that was compiled in the
       same project, but also on a range of additional sources: data
       elicited from complementary interviews with young Tunisians and
@@ -1566,19 +1566,19 @@
       development of the lexicon (for more details see Moerth, Prochazka,
       &amp; Dallaji 2014).</p>
 
-    <p>The first layer of lexical data to be incorporated into the digital
+    <p xml:space="preserve">The first layer of lexical data to be incorporated into the digital
       lexicographical system was extracted from Veronika Ritt-Benmimoun’s
       textbook titled Skriptum zu den Lehrveranstaltungen
       Tunesisch-Arabisch Kurs A und B (Vienna, 2012/13). This data is
       referenced in the dictionary as Ritt-Benmimoun 2014.</p>
 
-    <p>Please keep in mind that the dictionary will remain
+    <p xml:space="preserve">Please keep in mind that the dictionary will remain
       work-in-progress. We do not claim any degree of completeness,
       neither with respect to lemmas nor with respect to data relevant to
       the entries’ microstructure. This holds particularly true for
       etymologies and usage labels indicating regimen of verbs.</p>
 
-    <p>The project was embedded in the activities of the two large-scale
+    <p xml:space="preserve">The project was embedded in the activities of the two large-scale
       pan-European research infrastructure consortia in the humanities,
       CLARIN (Common Language Resources and Technology Infrastructure) and
       DARIAH (Digital Research Infrastructure for the Arts and Humanities)
@@ -1588,23 +1588,23 @@
   <div>
     <head>HELP</head>
 
-    <p>Through the query interface, you can search for words or groups of
+    <p xml:space="preserve">Through the query interface, you can search for words or groups of
       words in the dictionary. By simply entering a word such as ʕaṛbi and
       pressing the ENTER button on your keyboard you will trigger the
       query. Results matching your query will be displayed below the input
       field.</p>
 
-    <p>Mind that all queries are case sensitive.</p>
+    <p xml:space="preserve">Mind that all queries are case sensitive.</p>
 
-    <p>The transcription used in the dictionary is for the most part DMG.
+    <p xml:space="preserve">The transcription used in the dictionary is for the most part DMG.
       If you need special characters such as <hi rend="italic">ā</hi>, 
       <hi rend="italic">š</hi> or <hi rend="italic">ʕ</hi>, click on the
       respective letters in the character table.</p>
 
-    <p>The preview option will show you a list of tokens that start with
+    <p xml:space="preserve">The preview option will show you a list of tokens that start with
       the characters you entered so far.</p>
 
-    <p>It is possible to search in particular fields of the
+    <p xml:space="preserve">It is possible to search in particular fields of the
       dictionary.</p>
 
     <table rend="tbQueryExamples">
@@ -1654,7 +1654,7 @@
       </row>
       <row>
         <cell rend="tdCommentSpan">
-          <p>The interface also supports a simple query language.</p>
+          <p xml:space="preserve">The interface also supports a simple query language.</p>
         </cell>
       </row>
       <row>
@@ -1685,7 +1685,7 @@
       </row>
       <row>
         <cell rend="tdCommentSpan">
-          <p>You can also combine two query terms.</p>
+          <p xml:space="preserve">You can also combine two query terms.</p>
         </cell>
       </row>
       <row>
@@ -1718,7 +1718,7 @@
       </row>
       <row>
         <cell rend="tdCommentSpan">
-          <p>You can make use of simple regular expressions. Wildcards are
+          <p xml:space="preserve">You can make use of simple regular expressions. Wildcards are
             applied on the token level. Try the following examples:</p>
         </cell>
       </row>
@@ -1753,7 +1753,7 @@
 
       <row>
         <cell rend="tdCommentSpan">
-          <p>To explicitly anchor a pattern at the head (=beginning) of a
+          <p xml:space="preserve">To explicitly anchor a pattern at the head (=beginning) of a
             token, make use of "^". "$" anchors the pattern at the tail
             (=end).</p>
         </cell>
@@ -1770,7 +1770,7 @@
 
     </table>
 
-    <p>The interface makes use of the XQuery function matches whenever it
+    <p xml:space="preserve">The interface makes use of the XQuery function matches whenever it
       detects a regular expression. To get an overview of the options have
       a look at <ref target="http://www.xqueryfunctions.com">www.xqueryfunctions.com</ref>.</p>
   </div>
@@ -1785,13 +1785,13 @@
 <div xml:id="vicavDictionaryEncoding">
   <head>Dictionary Encoding</head>
   
-  <p>Dictionaries are highly complex knowledge stores on the modelling of
+  <p xml:space="preserve">Dictionaries are highly complex knowledge stores on the modelling of
     which lots of efforts have been spent since we have started to compile
     digital dicitionaries. The VICAV project has been dedicated to the use
     of the guidelines of the Text Encoding Inititative in all of its
     dictionaries. </p>
   
-  <p>The team have documented their work in a document which exemplifies
+  <p xml:space="preserve">The team have documented their work in a document which exemplifies
     the most important structures contained in these dictionaries. The
     <ref target="https://clarin.oeaw.ac.at/lrp/dict-gate/vle_docu/vicav_dict_encoding__v003.html"> 
     VICAV Dictionary Encoding Guidelines</ref> are meant to allow
@@ -1802,7 +1802,7 @@
 <div xml:id="vicavVLE">
   <head>Viennese Lexicographic Editor (VLR)</head>
   
-  <p>VLE is a fairly new piece of software that first came into existence
+  <p xml:space="preserve">VLE is a fairly new piece of software that first came into existence
     as a by-product of an entirely different development activity: the
     creation of an interactive online learning system for university
     students. Thus, it was first used in a collaborative glossary editing
@@ -1813,7 +1813,7 @@
     client and the server has been implemented as a RESTful web
     service.</p>
 
-  <p>The interface is built around an XML editor that allows to process
+  <p xml:space="preserve">The interface is built around an XML editor that allows to process
     standard-based lexicographic and terminological data, basically any
     XML-based format such as LMF, TBX, RDF, or TEI can be handled. The
     program provides a number of useful functions to automate editing
@@ -1837,11 +1837,11 @@
 <div xml:id="vicavLearning">
     <head>Learning Materials</head>
 
-    <p>Some of the data on this website have been developed as part of 
+    <p xml:space="preserve">Some of the data on this website have been developed as part of 
     teaching activities being used in university courses of the Institute 
     of Oriental Studies of the University of Vienna.</p>
     
-    <p>
+    <p xml:space="preserve">
         <ref target="text:vicavLearningSmartphone/SMARTPHONES">Vocabularies on the Smartphone</ref>
           <lb/>
         <ref target="text:vicavLearningPrograms/PROGRAMS">Available Programs</ref>
@@ -1855,7 +1855,7 @@
 <div xml:id="vicavLearningSmartphone">
     <head>Vocabularies on the Smartphone</head>
     
-    <p>One way to learn vocabularies is to use 
+    <p xml:space="preserve">One way to learn vocabularies is to use 
         <ref target="https://en.wikipedia.org/wiki/Flashcard">flashcards</ref>. 
         The ubiquitous smartphones make it possible to carry around 
         thousands of vocabulary cards in your pocket. Before we started 
@@ -1869,7 +1869,7 @@
 <div xml:id="vicavLearningPrograms">
     <head>Available Programs</head>
     
-    <p>There are several programs that help you repeat vocabularies on the 
+    <p xml:space="preserve">There are several programs that help you repeat vocabularies on the 
         smartphone. To get an overview of available tools have a look at 
         <ref target="https://en.wikipedia.org/wiki/List_of_flashcard_software">Wikipedia</ref>. 
         We provide some data for <hi rend="italic">ANKI</hi> and 
@@ -1879,16 +1879,16 @@
     <div>
         <head>ANKI</head>
         
-        <p>... is a spaced repetition flashcard program. "Anki" is Japanese 
+        <p xml:space="preserve">... is a spaced repetition flashcard program. "Anki" is Japanese 
             for <hi rend="italic">memorization</hi>. You can find details about 
             the program on <ref target="https://en.wikipedia.org/wiki/Anki_(software)">
                 Wikipedia</ref>.</p>
         
-        <p>You can download the program from the <ref target="https://apps.ankiweb.net/">
+        <p xml:space="preserve">You can download the program from the <ref target="https://apps.ankiweb.net/">
             AnkiWeb webiste</ref>. If you want to synch your learning progress over the 
             internet you might consider registering with ankiweb.</p>
         
-        <p>As a quick start we provide a template "deck" with all the required settings 
+        <p xml:space="preserve">As a quick start we provide a template "deck" with all the required settings 
           called <ref target="https://minerva.arz.oeaw.ac.at/static/anki/Empty_4_by_4.apkg">Empty 
           4 by 4</ref>. By importing this template into Anki you get 
             <list>
@@ -1903,11 +1903,11 @@
     <div>
         <head>Flashcards Deluxe</head>
         
-        <p>The program for is available for iOS and for Android. 
+        <p xml:space="preserve">The program for is available for iOS and for Android. 
           <ref target="http://orangeorapple.com/Flashcards/">Their homepage</ref> has 
           some advice on how to use the software in different scenarios.</p>
         
-        <p>You can use Dropbox or Google Drive as a cloud storage to quickly up- 
+        <p xml:space="preserve">You can use Dropbox or Google Drive as a cloud storage to quickly up- 
          and download new vocabularies and keep a copy of your learning progress 
          on the internet.</p>
             
@@ -1918,7 +1918,7 @@
                 contain the vocabulary data and your progress statistics.</item>
         </list>
             
-        <p>For iOS there fortunately is no need to do any further Setup. All characters 
+        <p xml:space="preserve">For iOS there fortunately is no need to do any further Setup. All characters 
           are present in the fonts preinstalled on every iOS device. With the fonts installed 
           on Android, you will usually not be able to see all the letters used in the 
           VICAV or DMG transcriptions. However Flashcards deluxe can use a font provided by 
@@ -1943,11 +1943,11 @@
 
 <div xml:id="vicavLearningData">
     <head>Vocabularies (Data)</head>
-    <p>We provide some data in support of particular language courses 
+    <p xml:space="preserve">We provide some data in support of particular language courses 
         being taught at the University of Vienna. For the time being, we 
         only have flashcards for German.</p>
     
-    <p>After you did the initial steps (refer to the Tools menu above 
+    <p xml:space="preserve">After you did the initial steps (refer to the Tools menu above 
         if you haven't) you only have to download the dictionary data that 
         corresponds to the vocabulary used in the different language 
         courses of the Institut for Near Eastern Studies of the University 
@@ -1957,13 +1957,13 @@
     <div>
         <head>140037 UE Arabischer Dialekt - Kurs F: Konversation / Texte 2: Syrisch-Arabisch der Universität Wien</head>
         
-        <p>These flashcards support the textbook of Syrian Arabic by Rima Aldoukhi, Stephan Procházka, Anna Telič und Narine Grigoryan:    
+        <p xml:space="preserve">These flashcards support the textbook of Syrian Arabic by Rima Aldoukhi, Stephan Procházka, Anna Telič und Narine Grigoryan:    
             <hi rend="italic">Lehrbuch des Syrisch-Arabischen 1: Praxisnaher Einstieg in den Dialekt von Damaskus. – 1. Auflage, 2014 und 2. Auflage, 2016.</hi>
             and 
             <hi rend="italic">Lehrbuch des Syrisch-Arabischen 2: Damaszenisch für Fortgeschrittene. 1. Auflage, 2014.</hi>
         </p>
 
-        <p>
+        <p xml:space="preserve">
             ANKI: Lesson
             <ref target="flashcards:apc_eng_002/1/csv-anki">1</ref>,
             <ref target="flashcards:apc_eng_002/2/csv-anki">2</ref>,
@@ -1992,7 +1992,7 @@
             <ref target="flashcards:apc_eng_002/25/csv-anki">25</ref>
         </p>
         
-        <p>
+        <p xml:space="preserve">
             Flashcards Deluxe: Lesson 
             <ref target="flashcards:apc_eng_002/1/csv-fcdeluxe">1</ref>,
             <ref target="flashcards:apc_eng_002/2/csv-fcdeluxe">2</ref>,
@@ -2026,12 +2026,12 @@
         <head>140292 VO Arabischer Dialekt - Kurs A: Tunesisch-Arabisch + 140029 UE Arabischer Dialekt - 
             Kurs B: Tunesisch-Arabisch</head>
         
-        <p>These flashcards support the teaching materials of Tunisian Arabic A and B, 
+        <p xml:space="preserve">These flashcards support the teaching materials of Tunisian Arabic A and B, 
             revised version 2014/15, by Veronika Ritt-Benmimoun in cooperation with 
             Emna Labidi, Mabrouka Rayachi and Ines Dallaji.
         </p>
         
-        <p>
+        <p xml:space="preserve">
             ANKI: Lesson 
             <ref target="flashcards:aeb_eng_001__v001/1/csv-anki">1</ref>,
             <ref target="flashcards:aeb_eng_001__v001/2/csv-anki">2</ref>,
@@ -2042,7 +2042,7 @@
             <ref target="flashcards:aeb_eng_001__v001/7/csv-anki">7</ref>
         </p>
 
-        <p>
+        <p xml:space="preserve">
             Flashcards Deluxe: Lesson 
             <ref target="flashcards:aeb_eng_001__v001/1/csv-fcdeluxe">1</ref>,
             <ref target="flashcards:aeb_eng_001__v001/2/csv-fcdeluxe">2</ref>,
@@ -2057,12 +2057,12 @@
     <div>
         <head>140028 VO Arabischer Dialekt - Kurs C: Tunesisch-Arabisch + 140029 UE Arabischer Dialekt - Kurs D: Tunesisch Arabisch</head>
 
-        <p>These flashcards support the teaching materials of Tunisian Arabic C and D, 
+        <p xml:space="preserve">These flashcards support the teaching materials of Tunisian Arabic C and D, 
             revised version 15, by Veronika Ritt-Benmimoun in cooperation with 
             Emna Labidi, Mabrouka Rayachi and Ines Dallaji.
         </p>
         
-        <p>
+        <p xml:space="preserve">
             ANKI: Lesson 
             <ref target="flashcards:aeb_eng_001__v001/8/csv-anki">8</ref>,
             <ref target="flashcards:aeb_eng_001__v001/9/csv-anki">9</ref>,
@@ -2072,7 +2072,7 @@
             
         </p>
         
-        <p>
+        <p xml:space="preserve">
             Flashcards Deluxe: Lesson 
             <ref target="flashcards:aeb_eng_001__v001/8/csv-fcdeluxe">8</ref>,
             <ref target="flashcards:aeb_eng_001__v001/9/csv-fcdeluxe">9</ref>,
@@ -2085,7 +2085,7 @@
     <div>
         <head>140270 VO STEOP: OR2b/AR1 Einführung in das Arabische I</head>
                 
-        <p>
+        <p xml:space="preserve">
             ANKI: Lesson 
             <ref target="flashcards:ar_de__v001/1/csv-anki">1</ref>,
             <ref target="flashcards:ar_de__v001/2/csv-anki">2</ref>,
@@ -2095,7 +2095,7 @@
             <ref target="flashcards:ar_de__v001/6/csv-anki">6</ref> 
         </p>
         
-        <p>
+        <p xml:space="preserve">
             Flashcards Deluxe: Lesson 
             <ref target="flashcards:ar_de__v001/1/csv-fcdeluxe">1</ref>,
             <ref target="flashcards:ar_de__v001/2/csv-fcdeluxe">2</ref>,
@@ -2109,7 +2109,7 @@
     <div>
         <head>140426 VO+UE Arabisch B + 140027 UE Arabisch C (und Parallelversanstaltungen)</head>
         
-        <p>
+        <p xml:space="preserve">
             ANKI: Lesson 
             <ref target="flashcards:ar_de__v001/7/csv-anki">7</ref>,
             <ref target="flashcards:ar_de__v001/8/csv-anki">8</ref>,
@@ -2119,7 +2119,7 @@
             
         </p>
         
-        <p>
+        <p xml:space="preserve">
             Flashcards Deluxe: Lesson 
             <ref target="flashcards:ar_de__v001/7/csv-fcdeluxe">7</ref>,
             <ref target="flashcards:ar_de__v001/8/csv-fcdeluxe">8</ref>,
@@ -2135,7 +2135,7 @@
 <div xml:id="vicavKeyboards">
     <head>Keyboard Layouts for our Transcription</head>
     
-    <p>We have created installable keyboard layouts for Windows using 
+    <p xml:space="preserve">We have created installable keyboard layouts for Windows using 
     the <ref target="http://go.microsoft.com/fwlink/?LinkId=82315&amp;clcid=0x409">
     Microsoft Keyboard Layout Creator</ref>. We can offer them for 
     German keyboards (y &lt;-&gt; z Position). They are inspired by DMG 
@@ -2144,16 +2144,16 @@
     <ref target="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;id=ukelele">
     Ukulele</ref> very useful.</p>
     
-    <p>
+    <p xml:space="preserve">
        <ref target="https://minerva.arz.oeaw.ac.at/static/vicavarz.zip">Keyboard</ref> 
        for transcribing Egyptian Arabic or Modern Standard Arabic in VICAV 
        transcription (' -&gt; ʔ, ʿ -&gt; ʕ)</p>
     
-    <p>
+    <p xml:space="preserve">
        <ref target="https://minerva.arz.oeaw.ac.at/static/vicavapc.zip">Keyboard</ref> 
        for transcribing Damascene Arabic (ž &lt;-&gt; ǧ)</p>
     
-    <p>
+    <p xml:space="preserve">
        <ref target="https://minerva.arz.oeaw.ac.at/static/victuerw.zip">Keyboard</ref> 
         for transcribing Tunisian Arabic</p>
 </div>
@@ -2161,7 +2161,7 @@
 <div xml:id="vicavArabicTools">
   <head>Arabic Research Tools</head>
   
-  <p>The intention of this section of VICAV is to bring together the most
+  <p xml:space="preserve">The intention of this section of VICAV is to bring together the most
     important tools needed by digitally working linguists in the field of
     Arabic studies. In compiling this list, we have proceded from a very
     wide understanding of the term "tool" considering a varied range of
@@ -2169,16 +2169,16 @@
     research. This comprises all relevant digital language resources as
     well as pertaining documentation, standards and best practices.</p>
 
-  <p>While there have not been around many NLP tools to process Arabic
+  <p xml:space="preserve">While there have not been around many NLP tools to process Arabic
     language data in the past, the situation has definitely changed in
     recent years. The following list is a first attempt to create a list
     of tools used by the VICAV crew and other relevant projects.</p>
 
-  <p>A very interesting overview of digital Arabic language ressources is
+  <p xml:space="preserve">A very interesting overview of digital Arabic language ressources is
     Wajdi Zaghouani's <ref target="https://arxiv.org/ftp/arxiv/papers/1702/1702.07835.pdf">
     Critical Survey of the Freely Available Arabic Corpora</ref>. </p>
 
-  <p>We have put together some reference material which is not meant to be
+  <p xml:space="preserve">We have put together some reference material which is not meant to be
     exhaustive. The focus is on freely available resources. We do not list 
     details from the many resources available through the  
     <ref target="https://www.ldc.upenn.edu/">Linguistic Data Consortium 
@@ -2214,7 +2214,7 @@
 <div xml:id="vicavOverview_corpora_spoken">  
   <head>Corpora (Spoken Varieties)</head>
   
-  <p>The number of digitally encoded Arabic language corpora has been on
+  <p xml:space="preserve">The number of digitally encoded Arabic language corpora has been on
     the rise in recent years. The following list is an attempt at listing  
     those that are relevant to linguistic research and is by no means meant 
     to be exhaustive. Please let us know about missing items.</p>
@@ -2222,7 +2222,7 @@
   <div>
     <head>CorpAfroAs</head>
 
-    <p>CorpAfroAs was an integrated pilot project that also produced Arabic
+    <p xml:space="preserve">CorpAfroAs was an integrated pilot project that also produced Arabic
       data. On the <ref target="http://corpafroas.huma-num.fr">project web
         site</ref>, you can find extensive information on how to build
       corpora of spoken language. The data is available.</p>
@@ -2230,7 +2230,7 @@
   
   <div>
     <head>CORVAM Speech corpus of Maghrebi varieties</head>
-    <p>This very recent development is a tool for the study of Arabic and
+    <p xml:space="preserve">This very recent development is a tool for the study of Arabic and
       Berber varieties in the Maghreb in terms of teaching and research
       and for the preservation of language and culture in the Maghreb. The
       corpus is a result of the research team <hi rend="italic">nhəḍṛu.
@@ -2246,7 +2246,7 @@
   <div>
     <head>TUNICO</head>
     
-    <p>The <ref target="https://tunico.acdh.oeaw.ac.at/about_corpus.html">TUNICO 
+    <p xml:space="preserve">The <ref target="https://tunico.acdh.oeaw.ac.at/about_corpus.html">TUNICO 
       Corpus</ref> was created as part of the project <hi rend="italic">
       Linguistic dynamics in the Greater Tunis Area: a corpus-based 
       approach</hi> which ran from August 2013 until July 2016. TUNICO grew 
@@ -2256,7 +2256,7 @@
   <div>
     <head>Tunisian Arabic Corpus</head>
 
-    <p>This is a comparatively large corpus of Tunisian Arabic mainly
+    <p xml:space="preserve">This is a comparatively large corpus of Tunisian Arabic mainly
       collected from the Internet. The corpus has a very nice 
       <ref target="http://tunisiya.org">web interface</ref>.</p>
   </div>
@@ -2265,7 +2265,7 @@
     <head>Corpus of Moroccan Arabic Writers of Short Stories and Literary
       Reviews</head>
 
-    <p>Information on this corpus can be found 
+    <p xml:space="preserve">Information on this corpus can be found 
         <ref target="http://www.ugr.es/~dgb/corpus/">here</ref>.</p>
   </div>
   
@@ -2273,7 +2273,7 @@
     <head>In their own voices, in their own words: A
       sociolinguistically-informed corpus of Nigerian Arabic</head>
     
-    <p>This <ref target="http://www.neu.uni-bayreuth.de/de/Uni_Bayreuth/Fakultaeten/4_Sprach_und_Literaturwissenschaft/islamwissenschaft/arabistik/en/Idiomaticity__lexical_realignment__and_semantic_change_in_spoken_arabic/Nigerian_Arabic/index.html"/>corpus which is hosted by the university of Bayreuth has been
+    <p xml:space="preserve">This <ref target="http://www.neu.uni-bayreuth.de/de/Uni_Bayreuth/Fakultaeten/4_Sprach_und_Literaturwissenschaft/islamwissenschaft/arabistik/en/Idiomaticity__lexical_realignment__and_semantic_change_in_spoken_arabic/Nigerian_Arabic/index.html"/>corpus which is hosted by the university of Bayreuth has been
       created by <ref target="bibl:Owens">Jonathan Owens</ref> who has
       also published extensively about <ref target="bibl:reg:Nigeria">Nigerian
         Arabic</ref>.</p>
@@ -2282,7 +2282,7 @@
   <div>
     <head>Gumar Corpus</head>
 
-    <p> The <ref target="https://camel.abudhabi.nyu.edu/gumar/">Gulf
+    <p xml:space="preserve"> The <ref target="https://camel.abudhabi.nyu.edu/gumar/">Gulf
         Arabic Corpus</ref> (Gumar) was created as part of the
       Computational Approaches to Modeling Languages CAMeL lab in New York
       University Abu Dhabi NYUAD. The corpus contains a unique genre of
@@ -2294,7 +2294,7 @@
   <div>
       <head>Arabic Dialects Dataset</head>
       
-      <p>This <ref target="http://www.lancaster.ac.uk/staff/elhaj/corpora.htm">collection</ref> 
+      <p xml:space="preserve">This <ref target="http://www.lancaster.ac.uk/staff/elhaj/corpora.htm">collection</ref> 
         is one of several corpora being provided by Mahmoud El-Haj 
         (Lancaster Univesity). It consists in transcriptions of Arabic 
         script of Gulf, Egypt, Levantine and Tunisian Arabic dialects in 
@@ -2304,7 +2304,7 @@
   <div>
     <head>Arabic Speech Corpus</head>
     
-    <p>The <ref target="http://en.arabicspeechcorpus.com/">Arabic Speech
+    <p xml:space="preserve">The <ref target="http://en.arabicspeechcorpus.com/">Arabic Speech
       Corpus</ref> was developed by Nawar Halabi at the University of
       Southampton. It was recorded in south Levantine Arabic (Damascian
       accent) using a professional studio. Synthesized speech as an output
@@ -2316,14 +2316,14 @@
 <div xml:id="vicavOverview_corpora_msa">
     <head>Corpora (Modern Written Language)</head>
 
-    <p>The number of corpora of Modern Standard Arabic have been on the rise
+    <p xml:space="preserve">The number of corpora of Modern Standard Arabic have been on the rise
     over the past two decades. Still, the number of readily available 
     material is rather limited.</p>
     
     <div>
         <head>KALIMAT Multipurpose Arabic Corpus</head>
         
-        <p>KALIMAT is an Arabic natural language resource that consists of 
+        <p xml:space="preserve">KALIMAT is an Arabic natural language resource that consists of 
         Arabic articles collected from the Omani newspaper Alwatan. It was prepared 
         by Mahmoud El-Haj (Lancaster University). Articles in the collection 
         fall into six categories: culture, economy, local-news, international-news, 
@@ -2334,7 +2334,7 @@
     <div>
       <head>International Corpus of Arabic (ICA)</head>
         
-     <p>The <ref target="http://www.bibalex.org/ica/en/About.aspx">International 
+     <p xml:space="preserve">The <ref target="http://www.bibalex.org/ica/en/About.aspx">International 
         Corpus of Arabic (ICA)</ref> is an ambitious attempt to
         build a representative corpus of the Arabic language as it is used
         all over the Arab world, with the aim of supporting research on such
@@ -2350,7 +2350,7 @@
     <div>
       <head>arabiCorpus</head>
         
-      <p>
+      <p xml:space="preserve">
         <ref target="http://arabicorpus.byu.edu/">This corpus</ref> is a
         sizeable corpus (173,600,000 words) containing texts in five main
         categories or genres: Newspapers, Modern Literature, Nonfiction,
@@ -2363,7 +2363,7 @@
     <div>
       <head>Wortschatz Universität Leipzig</head>
         
-      <p>This <ref target="http://wortschatz.uni-leipzig.de/de">website</ref> offers
+      <p xml:space="preserve">This <ref target="http://wortschatz.uni-leipzig.de/de">website</ref> offers
         access to large amounts of data crawled form the Internet. There is
         also Arabic data available. The data is unstructured, search results
         come with little metadata. However, the results are enriched with
@@ -2374,7 +2374,7 @@
     <div>
         <head>King Abdulaziz City for Science and Technology (KACST) Arabic corpus</head>
         
-        <p>The KACST Arabic corpus is claimed to be a carefully sampled corpus the 
+        <p xml:space="preserve">The KACST Arabic corpus is claimed to be a carefully sampled corpus the 
          contents of which are classified based on time, region, medium, domain and 
          topic. It comprises more than 700 million words from the pre-Islamic era 
          to the present day (a period covering more than 1,500 years). However, most 
@@ -2385,7 +2385,7 @@
     <div>        
         <head>Sketch Engine Corpora</head>
         
-        <p>Sketch Engine is a corpus manager and text analysis software that
+        <p xml:space="preserve">Sketch Engine is a corpus manager and text analysis software that
         has been developed by Lexical Computing Limited since 2003. It
         allows to analyse large amounts of textual data and is primarily
         used by lexicographers and linguists. Sketch Engine also provides
@@ -2398,14 +2398,14 @@
     <div>
         <head>WebCorp Live</head>
         
-        <p>The <ref target="http://www.webcorp.org.uk">website</ref> offers a suite of 
+        <p xml:space="preserve">The <ref target="http://www.webcorp.org.uk">website</ref> offers a suite of 
          tools which allows direct access to the World Wide Web as a corpus.</p>
     </div>
     
     <div>
         <head>Leeds Arabic Corpora</head>
         
-        <p>Serge Sharoff's <ref target="http://corpus.leeds.ac.uk/query-ar.html">interface</ref> 
+        <p xml:space="preserve">Serge Sharoff's <ref target="http://corpus.leeds.ac.uk/query-ar.html">interface</ref> 
          allows to search several corpora. The list
          contains an Arabic Internet corpus, Al-Hayat News corpus (1999-2001),
          an Arabic Wikipedia from 2008, a Computer Science corpus and others.</p>
@@ -2414,7 +2414,7 @@
     <div>
         <head>Arabic Concordancer</head>
         
-        <p>AC is an <ref target="http://efolio.iium.edu.my/arabicconcordancer">interface</ref> 
+        <p xml:space="preserve">AC is an <ref target="http://efolio.iium.edu.my/arabicconcordancer">interface</ref> 
          to a corpus published by the International Islamic University 
          of Malaysia. The corpus itself is not available. On the website 
          it says that it contains 14 million Arabic words taken from various 
@@ -2428,7 +2428,7 @@
 
     <div>
       <head>Arabic Learner Corpus (ALC)</head>
-      <p>The <ref target="http://www.arabiclearnercorpus.com/">ALC</ref>
+      <p xml:space="preserve">The <ref target="http://www.arabiclearnercorpus.com/">ALC</ref>
         aims to provide a collection of written and spoken materials
         produced by learners of Arabic in Saudi Arabia.</p>
     </div>
@@ -2439,7 +2439,7 @@
 
     <div>
       <head>Sharing Ancient Wisdoms (SAWS)</head>
-      <p>The <ref target="http://www.ancientwisdoms.ac.uk/">SAWS Dynamic
+      <p xml:space="preserve">The <ref target="http://www.ancientwisdoms.ac.uk/">SAWS Dynamic
           Library</ref> contains five main groups of texts. Elvira Wakelnig
         and colleagues in Vienna have made available two collections,
         Gnomological Material in Arabic and in Arabic-Spanish transmission,
@@ -2466,7 +2466,7 @@
     <div>
       <head>A Digital Corpus for Graeco-Arabic Studies</head>
 
-        <p>This <ref target="https://www.graeco-arabic-studies.org">digital
+        <p xml:space="preserve">This <ref target="https://www.graeco-arabic-studies.org">digital
           corpus</ref> assembles a wide range of Greek texts and their
         Arabic counterparts. It also includes a number of Arabic
         commentaries and important secondary sources. The texts in the
@@ -2478,7 +2478,7 @@
     <div>
         <head>The Quranic Arabic Corpus</head>
         
-        <p>This <ref target="http://corpus.quran.com">corpus</ref> is an 
+        <p xml:space="preserve">This <ref target="http://corpus.quran.com">corpus</ref> is an 
         annotated linguistic resource which shows the Arabic grammar, 
         syntax and morphology for each word in the text of the Quran. 
         The corpus provides three levels of analysis: morphological annotation, 
@@ -2491,14 +2491,14 @@
       <head>Digital Archive for the Study of pre-Islamic Arabian
         Inscriptions (DASI)</head>
     
-      <p>
+      <p xml:space="preserve">
         <ref target="http://dasi.humnet.unipi.it">DASI</ref> seeks to gather
         all known pre-Islamic Arabian epigraphic material into a
         comprehensive online database, with the aim to make available to
         specialists and to the broader public a wide array of documents
         often underestimated because of their difficulty of access.</p>
     
-      <p>By means of a digitization process through a hybrid data entry/xml
+      <p xml:space="preserve">By means of a digitization process through a hybrid data entry/xml
         system developed by the Scuola Normale Superiore di Pisa according
         to international encoding standards, DASI gives access at present to
         more than 7,000 Ancient South Arabian inscriptions recorded by the
@@ -2514,7 +2514,7 @@
     <div>
       <head>The Arabic Papyrology Database (APD)</head>
 
-      <p>
+      <p xml:space="preserve">
         <ref target="http://www.apd.gwi.uni-muenchen.de:8080/apd/project.jsp">APD</ref> is a tool enabling you to access the editions of Arabic
         documents written on different material such as papyrus, parchment
         or paper. Those productive editions are an often unraised treasure
@@ -2525,7 +2525,7 @@
     <div>
       <head>Analytical Database of Arabic Poetry</head>
         
-      <p>The <ref target="https://arts.st-andrews.ac.uk/arsem/project/">
+      <p xml:space="preserve">The <ref target="https://arts.st-andrews.ac.uk/arsem/project/">
         project</ref> aims at documenting the transmission of early
         Arabic poetry. The database represents a contribution to European
         research on the Arabic language and the Arabic philological
@@ -2537,7 +2537,7 @@
     <div>
       <head>The Princeton Geniza Project</head>
         
-      <p>The <ref target="https://geniza.princeton.edu/pgp/">Princeton
+      <p xml:space="preserve">The <ref target="https://geniza.princeton.edu/pgp/">Princeton
         Geniza Project</ref> is a searchable database of documentary
         Geniza texts. The corpus currently consists of 4,320 transcriptions
         in Judaeo-Arabic, Hebrew, Aramaic and Arabic. </p>
@@ -2546,7 +2546,7 @@
     <div>
       <head>Perseus Digital Library</head>
 
-      <p>The Perseus Digital Library, the central hub for digital language
+      <p xml:space="preserve">The Perseus Digital Library, the central hub for digital language
         ressources in the Latin and Ancient Greek languages, also contains
         historical <ref target="http://www.perseus.tufts.edu/hopper/collection?collection=Perseus:collection:Arabic">Arabic language documents</ref>.</p>
     </div>
@@ -2554,7 +2554,7 @@
     <div>
       <head>Islamic Law Materialized</head>
         
-      <p>This <ref target="http://cald.irht.cnrs.fr/php/ilm.php">corpus</ref> 
+      <p xml:space="preserve">This <ref target="http://cald.irht.cnrs.fr/php/ilm.php">corpus</ref> 
         contains primary sources for Islamic law and legal
         practice in pre-modern Muslim societies. The online presentation is
         the first ever collection of scattered editions of legal documents
@@ -2567,14 +2567,14 @@
     <div>
       <head>Thesaurus d'épigraphie islamique</head>
         
-      <p>This <ref target="http://www.apd.gwi.uni-muenchen.de:8080/apd/links.jsp">website</ref> is accessible to registered users only.</p>
+      <p xml:space="preserve">This <ref target="http://www.apd.gwi.uni-muenchen.de:8080/apd/links.jsp">website</ref> is accessible to registered users only.</p>
     </div>
 </div>
         
 <div xml:id="vicavOverview_dictionaries">
     <head>Dictionaries</head>
     
-    <p>Over the past few years, the number of online Arabic dictionaries has
+    <p xml:space="preserve">Over the past few years, the number of online Arabic dictionaries has
       soared rapidly. Many websites offering online access to dictionaries
       pursue commercial interests capitalising on easily available data in
       order to create revenues through commercials. Many of these are of
@@ -2589,14 +2589,14 @@
       <head>Verbes de l’arabe égyptien: Dictionnaire contextuel raisonné des
         verbes du dialecte égyptien (parler du Caire)</head>
         
-      <p>This specialised dictionary has been 
+      <p xml:space="preserve">This specialised dictionary has been 
         <ref target="http://www.ifao.egnet.net/bases/verbeseg/">online</ref> 
         since 2012.</p>
     </div>
     
     <div>
       <head>Mawrid Reader: Arabic dictionary interface</head>
-      <p>This <ref target="http://ejtaal.net/mr/readme.html">website</ref>
+      <p xml:space="preserve">This <ref target="http://ejtaal.net/mr/readme.html">website</ref>
         offers reading access to a number of Arabic dictionaries.</p>
     </div>
     
@@ -2604,7 +2604,7 @@
       <head>Glossarium Græco-Arabicum: A lexicon of the mediæval Arabic
         translations from the Greek</head>
         
-        <p>The <ref target="http://telota.bbaw.de/glossga/">website</ref> 
+        <p xml:space="preserve">The <ref target="http://telota.bbaw.de/glossga/">website</ref> 
           offers access to the files of a lexical project having studied
           the lexicon of mediæval Arabic translations from the Greek.
       </p>
@@ -2613,7 +2613,7 @@
     <div>
       <head>Lughatuna: The Living Arabic Project</head>
         
-      <p>This <ref target="http://www.livingarabic.com/about.html">website</ref> 
+      <p xml:space="preserve">This <ref target="http://www.livingarabic.com/about.html">website</ref> 
         offers a dictionary interface. It appears to be the
         work of an enthusiastic hobby lexicographer.</p>
     </div>
@@ -2622,21 +2622,21 @@
 <div xml:id="vicavOverview_nlp">
     <head>Language Processing Tools</head>
     
-    <p>Meanwhile, there exist numerous tools for processing Arabic language
+    <p xml:space="preserve">Meanwhile, there exist numerous tools for processing Arabic language
       data. However, tools that are readily usable and freely available are
       still scarce. </p>
     
     <div>
       <head>Morphological Analyzers</head>
         
-      <p>Morphlogial processors or taggers assign labels to tokens
+      <p xml:space="preserve">Morphlogial processors or taggers assign labels to tokens
         (wordforms). They can isolate stems, identify word classes (POS=part
         of speech) or add other morpho-syntactic data to the wordforms.</p>
     
       <div>
         <head>Buckwalter Arabic morphological analyzer</head>
           
-        <p>This has definitely been the most widely applied tool in the
+        <p xml:space="preserve">This has definitely been the most widely applied tool in the
           field used by at least two generations of computational
           linguists.</p>
       </div>
@@ -2644,7 +2644,7 @@
       <div>
         <head>JAVA Arabic Stemmer</head>
           
-        <p>This programm, also known as <hi rend="italic">Khoja Arabic
+        <p xml:space="preserve">This programm, also known as <hi rend="italic">Khoja Arabic
           Stemmer and Tagger</hi>, was written in JAVA and is available
           from the <ref target="https://sourceforge.net/projects/arabicstemmer/files/">
           sourceforge</ref> code repository.</p>
@@ -2653,7 +2653,7 @@
       <div>
         <head>ADAM: Analyzer for Dialectal Arabic Morphology</head>
           
-        <p>
+        <p xml:space="preserve">
           <ref target="https://github.com/WaelSalloum/adam">ADAM</ref> is a
           tool that builds on Buckwalter's analyzer.</p>
       </div>
@@ -2661,13 +2661,13 @@
     
     <div>
       <head>Parsers</head>
-      <p>A parser is a tool that performs an automatic analysis of the
+      <p xml:space="preserve">A parser is a tool that performs an automatic analysis of the
         syntactic structure of digital texts. </p>
     
       <div>    
         <head>The Stanford Parser</head>
     
-        <p>It is licensed under a GNU General Public License and comes with
+        <p xml:space="preserve">It is licensed under a GNU General Public License and comes with
           extensive support for Arabic.</p>
       </div>
     </div>
@@ -2679,7 +2679,7 @@
         <head>Introduction to Arabic Natural Language Processing (Synthesis 
             Lectures on Human Language Technologies)</head>
           
-        <p>To our knowldge, this book by Nizar Y. Habash (Morgan and Claypool 
+        <p xml:space="preserve">To our knowldge, this book by Nizar Y. Habash (Morgan and Claypool 
             2010) is the only monography exclusivly dealing with Arabic NLP. 
             It also comprises a bibliography of relevant other pulications 
             which meanwhile has been outdated by many more publications in 
@@ -2689,7 +2689,7 @@
       <div>
           <head>المدونات اللغوية ودورها في معالجة النصوص العربية</head>
           
-          <p>"Corpora and their Role in Processing Arabic Texts" by 
+          <p xml:space="preserve">"Corpora and their Role in Processing Arabic Texts" by 
             <hi rend="italic">Ayman Eddakrouri</hi> was published in 
             2018 and deals with a wide range of digital language ressources.</p>
       </div>
@@ -2701,7 +2701,7 @@
       
     <div>
       <head>Database of Arabic Dialects (ضاد)</head>
-      <p>This database collects published and unpublished data on Arabic
+      <p xml:space="preserve">This database collects published and unpublished data on Arabic
         dialects in a searchable electronic format. The 
         <ref target="https://www.database-of-arabic-dialects.org">frontend</ref> 
         allows to formulate quite complex queries. There is also a 
@@ -2712,14 +2712,14 @@
     <div>
       <head>Arabic Concordance Sampler</head>
         
-      <p>This is a <ref target="https://prokamus.wordpress.com/bibliography/english/">
+      <p xml:space="preserve">This is a <ref target="https://prokamus.wordpress.com/bibliography/english/">
           website</ref> that brings together a lot of information
         concerning digital language resources for teaching and research.</p>
     </div>
     <div>
       <head>KITAB</head>
         
-      <p>
+      <p xml:space="preserve">
         <ref target="http://kitab-project.org">KITAB</ref> provides a
         digital tool-box and a forum for discussions about Arabic texts. We
         wish to empower users to explore Arabic texts in completely new ways
@@ -2730,35 +2730,35 @@
     <div>
       <head>al-Raqmiyyāt </head>
         
-      <p>
+      <p xml:space="preserve">
         <ref target="https://maximromanov.github.io/">Website</ref>
       </p>
     </div>
     
     <div>
       <head>Arabographic Optical Character Recognition (OCR) </head>
-      <p>
+      <p xml:space="preserve">
         <ref target="https://maximromanov.github.io/2016/10-05.html">Website</ref>
       </p>
     </div>
     
     <div>
       <head>Cambridge Digital Library: Islamic Manuscripts</head>
-      <p>
+      <p xml:space="preserve">
         <ref target="https://cudl.lib.cam.ac.uk/collections/islamic/1">Website</ref>
       </p>
     </div>
     
     <div>
       <head>British Library: Arabic Manuscripts</head>
-      <p>
+      <p xml:space="preserve">
         <ref target="https://www.bl.uk/collection-guides/arabic-manuscripts">Website</ref>
       </p>
     </div>
     
     <div>
       <head>Wellcome Arabic Manuscripts Online</head>
-      <p>The <ref target="http://wamcp.bibalex.org/">Arabic manuscripts
+      <p xml:space="preserve">The <ref target="http://wamcp.bibalex.org/">Arabic manuscripts
           collection </ref> of the Wellcome Library (London) comprises
         around 1000 manuscript books and fragments relating to the history
         of medicine. For the first time this website enables a substantial
@@ -2772,21 +2772,21 @@
     <div xml:id="vicavExplBar_dualApproach">
       <head>Dual Approach</head>
       
-      <p>The VICAV website is designed in a manner supposed to allow 
+      <p xml:space="preserve">The VICAV website is designed in a manner supposed to allow 
         users to investigate the available ressources through various 
         methods. The basic access mode is to launch a query by clicking 
         on the symbols on the map.</p>
       
-      <p>There are two distinct symbols: arrows and circles. The arrows 
+      <p xml:space="preserve">There are two distinct symbols: arrows and circles. The arrows 
         indicate particular locations (towns, parts of towns, villages), 
         the circles are used for regions which can but do not necessarily 
         correlate with countries.</p>
         
-      <p>
+      <p xml:space="preserve">
           <graphic url="vicav_locations_regions.jpg"/>
       </p>
         
-      <p>Some queries can be triggered through clicking on a menu item or
+      <p xml:space="preserve">Some queries can be triggered through clicking on a menu item or
         by formulating explicit queries.</p>
     </div>
           
@@ -2794,22 +2794,22 @@
     <div xml:id="vicavExplBar_openParadigms">
       <head>Open Source &amp; Open Access</head>
       
-      <p>VICAV is all about sharing. You can reuse both the code and the
+      <p xml:space="preserve">VICAV is all about sharing. You can reuse both the code and the
         data used on this website under . We strongly believe that sharing 
         digital tools and data is an efficient way to accelerate 
         knowledge transfer in the field and to make many research 
         processes more efficient.</p>
       
-      <p>The code for the website can be found on 
+      <p xml:space="preserve">The code for the website can be found on 
         <ref target="https://github.com/acdh-oeaw/vicav-app">GitHub</ref>.</p>
       
-      <p>All the texts are made available through the 
+      <p xml:space="preserve">All the texts are made available through the 
         <ref target="https://arche.acdh.oeaw.ac.at">ARCHE</ref> repository and 
         are available under <ref target="https://creativecommons.org/licenses/by/4.0/">
         CC BY-SA 4.0.</ref>
       </p>
       
-      <p>
+      <p xml:space="preserve">
           <graphic url="attribution_icon_white_x2.png"/>
       </p>
 </div>
@@ -2817,13 +2817,13 @@
 <div xml:id="vicavExplBar_textTechnology">
   <head>Digital Humaniteis &amp; Text Technology</head>
   
-  <p>VICAV has been designed from the very beginning as a project bridging
+  <p xml:space="preserve">VICAV has been designed from the very beginning as a project bridging
     the gap between traditional concepts in the humanities and innovative 
     technological approaches. We have been building our work on the paradigms 
     of the digital humanity community: digital tools and data, collaborative 
     settings and open science are the basis of our work.</p>
   
-  <p>By text technology we understand a broad spectrum of methods and tools 
+  <p xml:space="preserve">By text technology we understand a broad spectrum of methods and tools 
     being applied to a wide range of applications beyond the narrower field 
     of computational linguistics with its focus on large corpora and mainly  
     statistical approaches. </p>
@@ -2832,12 +2832,12 @@
 <div xml:id="vicavExplBar_Contributions">
   <head>Contributing</head>
   
-  <p>VICAV is a group effort. Your support is highly welcome. Write a
+  <p xml:space="preserve">VICAV is a group effort. Your support is highly welcome. Write a
     <hi rend="italic">profile</hi>, write a <hi rend="italic">sample text</hi>, 
     share your <hi rend="italic">lexical data</hi> or help us in
     improving the <hi rend="italic">bibliography</hi>.</p>
 
-  <p>We highly value our cooperators and do our best to credit them. The 
+  <p xml:space="preserve">We highly value our cooperators and do our best to credit them. The 
     author of a text is always mentioned in all the <hi rend="italic">profiles</hi>,
     the <hi rend="italic">sample texts</hi>, <hi rend="italic">feature 
     lists</hi> and <hi rend="italic">dictionary entries</hi>. Unfortunately, 
@@ -2849,21 +2849,21 @@
 <div xml:id="vicavExplBar_DesignPrinciples">
   <head>Design Principles</head>
   
-  <p>Displaying complexly structured scholarly contents on screens has 
+  <p xml:space="preserve">Displaying complexly structured scholarly contents on screens has 
     always been a design challenge. What has made the situation even more 
     complicated is that these days web applications are supposed to run on 
     any kind of device. VICAV is basically built on responsive technology. 
     However, the website has not been optimised for use on smaller mobile 
     devices yet.</p>
   
-  <p>Research environments have to work on the Internet these days, which 
+  <p xml:space="preserve">Research environments have to work on the Internet these days, which 
      means they need to be implemented as web interfaces that run in browsers. 
      By doing this, one forgoes the powerful possibilities of the windows 
      based systems, on the other side you attaina higher degree of systemic 
      interoperability, reusability and will definitely be able to address a much 
      larger audience.</p>
     
-  <p>One drawback of the browser approach has been, that it is usually not 
+  <p xml:space="preserve">One drawback of the browser approach has been, that it is usually not 
      possible to have several tabs next to each other which hampers any 
      processes aiming at comparing texts. Whenever you want to juxtapose 
      data one has to find other approaches. One possibility to create a 
@@ -2876,7 +2876,7 @@
      However, experience has shown that the screen tends to
      get cluttered easily.</p>
     
-   <p>The current approach strikes a balance between a structure where 
+   <p xml:space="preserve">The current approach strikes a balance between a structure where 
      the user has full control over the psoition and size of panels and 
      a static approach where particualr types of text have a fixed position 
      on the screen. Most data on the VICAV website is now displayed in 
@@ -2886,38 +2886,38 @@
      particular contens. Like this, it is still possible to juxtapose 
      particular items and compare them by open them in the right order.</p>
     
-  <p>
+  <p xml:space="preserve">
       <graphic url="vicav_panels__001.jpg"/>
   </p>
   
-  <p>'Overcrowding' of the screen is avoided by a simple mechanisms that  
+  <p xml:space="preserve">'Overcrowding' of the screen is avoided by a simple mechanisms that  
    collapses panels when there are more than three panels open. The collapsed 
    panels still remain on the screen and can be reopened at any time.
    Panels which trigger queries stay open as long as they serve this 
    purpose.</p>
     
-  <p>
+  <p xml:space="preserve">
       <graphic url="vicav_panels__002.jpg"/>
   </p>
         
   
-  <p>You can open and close any of these panels making use of the controls on the 
+  <p xml:space="preserve">You can open and close any of these panels making use of the controls on the 
     purple bar on the left side. The X in the circle closes the panel completely. 
     The arrow-dash sign allows to open and close it.</p>
-  <p>
+  <p xml:space="preserve">
       <graphic url="vicav_panel_collapse.jpg"/>
   </p>
   
-  <p>The relativley small display area of the panels can be enlarged by 
+  <p xml:space="preserve">The relativley small display area of the panels can be enlarged by 
     clicking on "Expand Panels over Map".</p>
     
-  <p>
+  <p xml:space="preserve">
       <graphic url="vicav_expand_panels__001.jpg"/>
   </p>
   
-  <p>To make space for new queries you can "Close All Panels".</p>
+  <p xml:space="preserve">To make space for new queries you can "Close All Panels".</p>
     
-  <p>
+  <p xml:space="preserve">
       <graphic url="vicav_close_all_panels__001.jpg"/>
   </p>
 </div>
@@ -2926,7 +2926,7 @@
     <head>VIVAC Learning Materials: <hi rend="italic">Textbook Syrian Arabic (Sound files)</hi>
         </head>
 
-    <p>Rima Aldoukhi, Stephan Procházka, Anna Telic.
+    <p xml:space="preserve">Rima Aldoukhi, Stephan Procházka, Anna Telic.
         Unter Mitarbeit von Narine Grigoryan
         Harrassowitz 2014.
         
