@@ -6676,19 +6676,19 @@ ${caret}</String>
                                                                             <serializableOrderedMap>
                                                                                 <entry>
                                                                                     <String>URL</String>
-                                                                                    <String>${pdu}/vicav_biblio/csv.xml</String>
+                                                                                    <String>${pdu}/vicav_biblio/vicav_biblio_tei__2019_02_12.xml</String>
                                                                                 </entry>
                                                                                 <entry>
                                                                                     <String>element</String>
-                                                                                    <String>"&lt;rs type='bibl' ref='zotero:" + @id + "' xmlns='http://www.tei-c.org/ns/1.0'>&lt;/rs>"</String>
+                                                                                    <String>"&lt;rs type='bibl' ref='" + @corresp + "' xmlns='http://www.tei-c.org/ns/1.0'>&lt;/rs>"</String>
                                                                                 </entry>
                                                                                 <entry>
                                                                                     <String>expression</String>
-                                                                                    <String>/author + ": „" + /title + "“ (" + /year + ")" </String>
+                                                                                    <String>@n</String>
                                                                                 </entry>
                                                                                 <entry>
                                                                                     <String>node</String>
-                                                                                    <String>//entry</String>
+                                                                                    <String>//*[local-name()="biblStruct"]</String>
                                                                                 </entry>
                                                                             </serializableOrderedMap>
                                                                         </field>
@@ -10772,11 +10772,26 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>vicav_biblio/vicav_biblio_tei__2019_02_12.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Bibliography: Post-process TEI Export</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>vicav_biblio/vicav_bibliography.rdf</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Bibliography: Add Zotero-URLs</String>
+                                        <String>Bibliography: Post-process TEI Export</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -10791,7 +10806,7 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Bibliography: Add Zotero-URLs</String>
+                                        <String>Bibliography: Post-process TEI Export</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -10855,7 +10870,7 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>Bibliography: Add Zotero-URLs</String>
+                                    <String>Bibliography: Post-process TEI Export</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
@@ -10873,7 +10888,7 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/tools/082_scripts_xsl/add-zotero-ids-on-rdf-export.xsl</String>
+                                    <String>${pdu}/tools/082_scripts_xsl/bibl-tei-export-postprocess.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>
@@ -10894,10 +10909,10 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>${cfn}-zotero-ids.rdf</File>
+                                    <File>${cfne}</File>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${cfn}-zotero-ids.rdf</String>
+                                    <String>${cfne}</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -11200,7 +11215,7 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                 </paramDescriptor>
                                             </field>
                                             <field name="value">
-                                                <String>${pdu}/vicav_biblio/vicav_bibliography-zotero-ids.rdf</String>
+                                                <String>${pdu}/vicav_biblio/vicav_biblio_tei.xml</String>
                                             </field>
                                             <field name="hasXPathValue">
                                                 <Boolean>false</Boolean>
