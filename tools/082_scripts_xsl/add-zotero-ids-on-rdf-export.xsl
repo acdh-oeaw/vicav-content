@@ -120,7 +120,7 @@
             </xsl:if>
         </xsl:variable>
         <xsl:variable name="year" as="xs:string*">
-            <xsl:analyze-string select="dc:date" regex="\d{{4,4}}">
+            <xsl:analyze-string select="(dc:date,'0000')[1]" regex="\d{{4,4}}">
                 <xsl:matching-substring>
                     <xsl:value-of select="."/>
                 </xsl:matching-substring>
