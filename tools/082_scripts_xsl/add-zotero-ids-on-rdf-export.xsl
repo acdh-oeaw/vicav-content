@@ -79,6 +79,7 @@
         <xsl:variable name="title" select="$title-param"/>
         <xsl:variable name="year">
             <xsl:choose>
+                <xsl:when test="not($year-param)">0000</xsl:when>
                 <xsl:when test="$year-param instance of xs:string">
                     <xsl:value-of select="$year-param"/>
                 </xsl:when>
