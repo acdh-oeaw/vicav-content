@@ -28,29 +28,22 @@
                    <xsl:copy-of select="@corresp"/>
                </xsl:otherwise>
            </xsl:choose>
-           <xsl:choose>
-               <xsl:when test="not(@n)">
-                   <xsl:attribute name="n">
-                       <xsl:variable name="authors" select="(descendant::tei:author|descendant::tei:editor)" as="item()*"/>
-                       <xsl:choose>
-                           <xsl:when test="count($authors) gt 2">
-                               <xsl:value-of select="concat($authors[1]/tei:surname, ' et al.')"/>
-                           </xsl:when>
-                           <xsl:otherwise>
-                               <xsl:value-of select="string-join($authors/tei:surname,', ')"/>
-                           </xsl:otherwise>
-                       </xsl:choose>
-                       <xsl:text>: „</xsl:text>
-                       <xsl:value-of select="descendant::tei:title/substring(., 1, 25)"/>
-                       <xsl:text>...“ (</xsl:text>
-                       <xsl:value-of select="descendant::tei:date"/>
-                       <xsl:text>)</xsl:text>
-                   </xsl:attribute>
-               </xsl:when>
-               <xsl:otherwise>
-                   <xsl:copy-of select="@n"/>
-               </xsl:otherwise>
-           </xsl:choose>
+           <xsl:attribute name="n">
+               <xsl:variable name="authors" select="(descendant::tei:author|descendant::tei:editor)" as="item()*"/>
+               <xsl:choose>
+                   <xsl:when test="count($authors) gt 2">
+                       <xsl:value-of select="concat($authors[1]/(tei:surname, tei:name)[1], ' et al.')"/>
+                   </xsl:when>
+                   <xsl:otherwise>
+                       <xsl:value-of select="string-join($authors/(tei:surname, tei:name)[1],', ')"/>
+                   </xsl:otherwise>
+               </xsl:choose>
+               <xsl:text>: „</xsl:text>
+               <xsl:value-of select="descendant::tei:title/substring(., 1, 25)"/>
+               <xsl:text>...“ (</xsl:text>
+               <xsl:value-of select="descendant::tei:date"/>
+               <xsl:text>)</xsl:text>
+           </xsl:attribute>
            <xsl:copy-of select="@* except (@corresp|@n)|node()"/>
            <xsl:apply-templates/>
        </xsl:copy>

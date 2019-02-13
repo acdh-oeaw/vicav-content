@@ -10772,6 +10772,21 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>vicav_biblio/vicav_biblio_tei.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Bibliography: Post-process TEI Export</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>vicav_biblio/vicav_biblio_tei__2019_02_12.xml</String>
                                 </field>
                                 <field name="scenarioIds">
