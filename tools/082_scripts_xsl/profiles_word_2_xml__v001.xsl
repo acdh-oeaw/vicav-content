@@ -204,7 +204,7 @@
                             <xsl:if test="$typology or $typologyGen">
                                 <div type="typology">
                                     <head><xsl:value-of select="acdh:label-by-key('typology')"/></head>
-                                    <p><xsl:value-of select="$typology"/></p>
+                                    <xsl:sequence select="$typology"/>
                                     <p><xsl:value-of select="$typologyGen"/></p>
                                 </div>
                             </xsl:if>
