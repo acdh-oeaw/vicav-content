@@ -3,6 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
     xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+    xmlns:z="http://www.zotero.org/namespaces/export#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:rl="http://schemas.openxmlformats.org/package/2006/relationships"
     xmlns:tei="http://www.tei-c.org/ns/1.0"
@@ -24,35 +25,55 @@
     
     <xsl:param name="debug" as="xs:boolean" select="false()"/>
     <xsl:param name="path-to-zotero-rdf"/>
-    <xsl:variable name="zotero-rdf" select="doc($path-to-zotero-rdf)"/>
-    
-    <xsl:variable name="bibl-entry-keys" as="element()*">
+    <xsl:variable name="zotero-rdf" select="doc($path-to-zotero-rdf)" as="document-node()"/>
+    <xsl:variable name="bibl-entry-keys" as="element()">
         <bibl-keys xmlns="">
-            <xsl:for-each select="$zotero-rdf/rdf:RDF/*">
+            <xsl:for-each select="$zotero-rdf/rdf:RDF/*|$zotero-rdf//tei:biblStruct">
                 <xsl:variable name="key" select="acdh:bibl-key(.)"/>
                 <xsl:if test="normalize-space($key) != ''">
-                    <key about="{@rdf:about}"><xsl:value-of select="$key"/></key>
+                    <key about="{(@rdf:about,@corresp/tokenize(.,'/')[last()])[1]}"><xsl:value-of select="$key"/></key>
                 </xsl:if>
             </xsl:for-each>
         </bibl-keys>
     </xsl:variable>
     
-    <xsl:variable name="bibl-entry-keys-regex" select="concat('(',string-join($bibl-entry-keys//key/functx:escape-for-regex(.),'|'),')')"/>
+    <xsl:variable name="bibl-entry-keys-regex" select="concat('(',string-join($bibl-entry-keys//key/text(),'|'),')')"/>
     
     <xsl:function name="acdh:bibl-key">
         <xsl:param name="entry" as="element()"/>
-        <xsl:variable name="authors" as="xs:string">
+        <xsl:variable name="authors" as="xs:string?">
             <xsl:choose>
-                <xsl:when test="count($entry/bib:authors//foaf:Person) gt 2">
-                    <xsl:value-of select="concat(subsequence($entry/bib:authors//foaf:Person,1,1)/foaf:surname,' et al.')"/>
+                <xsl:when test="$entry instance of element(z:Attachment)"/>
+                <xsl:when test="$entry instance of element(tei:biblStruct)">
+                    <xsl:variable name="authors" select="$entry/descendant::tei:author|$entry/descendant::tei:editor" as="item()*"/>
+                    <xsl:choose>
+                        <xsl:when test="count($authors) gt 2">
+                            <xsl:value-of select="concat(subsequence($authors,1,1)/tei:surname/functx:escape-for-regex(.),' et al.')"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="string-join($authors/tei:surname/functx:escape-for-regex(.),'\s?[,&amp;] ')"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:when>
+                <xsl:when test="$entry/self::bib:* or $entry/self::rdf:*">
+                    <xsl:choose>
+                        <xsl:when test="count($entry/bib:authors//foaf:Person) gt 2">
+                            <xsl:value-of select="concat(subsequence($entry/bib:authors//foaf:Person,1,1)/foaf:surname/functx:escape-for-regex(.),' et al.')"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="string-join($entry/bib:authors//foaf:surname/functx:escape-for-regex(.),'\s?[,&amp;] ')"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:value-of select="string-join($entry/bib:authors//foaf:surname,', ')"/>
+                    <xsl:message select="$entry"/>
+                    <xsl:message terminate="yes">Unexpected format of bibliographic entry</xsl:message>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
+        <xsl:variable name="date" select="($entry/dc:date,$entry/descendant::tei:date)[1]"/>
         <xsl:if test="$authors != ''">
-            <xsl:value-of select="$entry/concat($authors,' ', dc:date)"/>
+            <xsl:value-of select="$entry/concat($authors,' ', $date)"/>
         </xsl:if>
     </xsl:function>
     
@@ -302,7 +323,7 @@
         <xsl:analyze-string select="." regex="{$bibl-entry-keys-regex}">
             <xsl:matching-substring>
                 <xsl:variable name="string" select="."/>
-                <xsl:variable name="biblid" select="$bibl-entry-keys//key[text() = $string]/@about"/>
+                <xsl:variable name="biblid" select="$bibl-entry-keys//key[matches($string,.)]/@about"/>
                 <xsl:if test="count($biblid) gt 1">
                     
                 </xsl:if>
