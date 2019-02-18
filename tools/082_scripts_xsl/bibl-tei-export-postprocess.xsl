@@ -44,7 +44,7 @@
                <xsl:value-of select="descendant::tei:date"/>
                <xsl:text>)</xsl:text>
            </xsl:attribute>
-           <xsl:copy-of select="@* except (@corresp|@n)|node()"/>
+           <xsl:copy-of select="@* except (@corresp|@n)"/>
            <xsl:apply-templates/>
        </xsl:copy>
     </xsl:template>
