@@ -1,0 +1,104 @@
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_abu_dhabi_01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A machine-readable profile of Abu Dhabi Arabic</title>
+                <author>Stephanie </author>
+                <editor xml:id="charly" role="Technical_Editor">Karlheinz Moerth</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>ACDH-OeAW</publisher>
+                <pubPlace>Vienna</pubPlace>
+                <date>2018</date>
+                <availability status="restricted">
+                    <p>
+                        <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This is an original digital text</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl partial="true">
+                <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+                <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+                <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change status="created" when="2019-02-17" who="#AE">created</change>
+            <change status="draft" when="2019-02-17" who="#">last modified (revision 4)</change>
+            <change status="draft" when="2019-02-17">transformed to TEI-XML</change>
+            <change when="2019-02-17" status="draft"/>
+            <change who="#charly" when="2018-10-03" status="released"/>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div>
+                <head>
+                    <figure>
+                        <graphic url="800px-ADIA_Tower_and_The_Landmark_in_Abu_Dhabi.jpg"/>
+                        <head type="imgCaption" xml:space="preserve">Source: <ref target="https://upload.wikimedia.org/wikipedia/en/d/d9/ADIA_Tower_and_The_Landmark_in_Abu_Dhabi.jpg">Wikimedia</ref>
+                        </head>
+                    </figure>
+                    
+                    <label>Name (English)</label>
+                    <name xml:lang="eng">Abu Dhabi</name>
+                    
+                    <label>MSA name</label>
+                    <name xml:lang="ara">أبو ظبي</name>
+                    
+                    <label>MSA name (trans.)</label>
+                    <name xml:lang="ara-x-DMG">Abū Ẓaby</name>
+                    
+                    <label>Local name (trans.)</label>
+                    <name xml:lang="ajp" type="latLoc">Abu Ḏ̣abi</name>
+                </head>
+                
+                <div type="positioning">
+                    <p xml:space="preserve"><geo>24°45′N 54°37′E</geo></p>
+                </div>
+                
+                <div type="typology">
+                    <p xml:space="preserve">East (Mashriq) › Arabia › Northern group › Central Najd › Gulf</p>
+                    <p xml:space="preserve">Originally a bedouin-type dialect belonging to the ˁAnaza group; during the last decades in a state of transition</p>
+                </div>
+                
+                <div type="general">
+                    <p xml:space="preserve">Abu Dhabi is the capital of the United Arab Emirates and its second largest city. Until the mid-20th century Abu Dhabi was a small town of less than 25,000 inhabitants, but has
+                        grown rapidly in the following decades reaching one million in the early 2000s. However, only a small proportion of its inhabitants are native speakers of the local Arabic
+                        dialect. </p>
+                </div>
+                
+                <div type="researchHistory">
+                    <p xml:space="preserve">
+                        <rs type="bibl" ref="zotero:RE9KNUIV">Johnstone (1967)</rs> presents an overview of the 
+                        Eastern Arabian dialects in general, but also contains several pages devoted to the dialect of Abu Dhabi.</p>
+                    
+                    <p xml:space="preserve">The sound change from /ǧ/ to /y/, which is typical for Gulf Arabic, is described 
+                    in <rs type="bibl" ref="zotero:H4D9KLUG">Johnstone 1965</rs>. <rs type="bibl" ref="zotero:U9KMF94N">Qafisheh 1977</rs> is 
+                    based on the dialect of Abu Dhabi and comprises in addition to phonology, morphology and syntax also texts. </p>
+                    
+                    <p xml:space="preserve">The focus of <rs type="bibl" ref="zotero:A2AR25ZM">Al-Rawi’s study (1990)</rs> is on 
+                    phonology and nominal morphology; it also contains a number of ethnographic texts. Some
+                        information on Abu Dhabi is also found in <rs type="bibl" ref="zotero:EPAECQG8">Holes 1990</rs>.</p>
+                </div>
+                
+                <div type="textBooks">
+                    <p xml:space="preserve">Based on the speech of Abu Dhabi, Qatar and Bahrain, Hamdi A. Qafisheh published 
+                    three textbooks of Gulf Arabic. <rs type="bibl" ref="zotero:CCPFJ3DC">Qafisheh 1975</rs> for
+                        beginners, <rs type="bibl" ref="8WA2ARXH">Qafisheh 1979</rs> and <rs type="bibl" ref="zotero:6UA6WSXM">Qafisheh 1997</rs> for 
+                        advanced students. Another textbook is <rs type="bibl" ref="zotero:7DMUS8ZC">Holes 1984</rs>.</p>
+                </div>
+                
+                <div type="bibliography">
+                    <p xml:space="preserve">To view a list of the important publications on varieties spoken in the Gulf <rs type="bibl" ref="bibl:reg:Gulf">follow this link</rs>.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

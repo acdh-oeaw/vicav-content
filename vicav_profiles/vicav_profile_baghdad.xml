@@ -1,0 +1,113 @@
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_baghdad_01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A machine-readable language profile of Baghdad Arabic</title>
+                <author xml:id="stephan">Stephan Procházka</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>ACDH-OeAW</publisher>
+                <pubPlace>Vienna</pubPlace>
+                <date>2011</date>
+                <availability status="restricted">
+                    <p>
+                        <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This is an original digital text</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+          <tagsDecl partial="true">
+             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+             <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+          </tagsDecl>
+        </encodingDesc>
+        <revisionDesc>
+           <change status="created" when="2019-02-18" who="#stephan">created</change>
+           <change status="draft" when="2019-02-18" who="#stephan">last modified (revision 4)</change>
+           <change status="draft" when="2019-02-18">transformed to TEI-XML</change>
+           <change who="#stephan" when="2018-10-03" status="released"/>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <head>
+                    <figure>
+                        <graphic url="320px_Haifa_street_as_seen_from_the_medical_city_hospital_across_the_tigres.jpg"/>
+                        <head type="imgCaption" xml:space="preserve">Source: <ref target="https://commons.wikimedia.org/wiki/File:Haifa_street,_as_seen_from_the_medical_city_hospital_across_the_tigres.jpg">Wikimedia</ref>
+                        </head>
+                    </figure>
+                    <label>Name (English)</label>
+                    <name xml:lang="eng">Baghdad</name>
+
+                    <label>MSA name</label>
+                    <name xml:lang="ara">بغداد</name>
+
+                    <label>MSA name (trans.)</label>
+                    <name xml:lang="ara-x-DMG">Baġdād</name>
+                </head>
+
+                <div type="positioning">
+                    <p xml:space="preserve">
+                        <geo>33°33′N 44°38′E</geo>
+                    </p>
+                </div>
+
+                <div type="typology">
+                    <p xml:space="preserve">Eastern › Mesopotamian › Iraqi gǝlǝt (gilit)</p>
+                    <p xml:space="preserve">Urban Bedouin dialect with significant sedentary substrate, high-prestige variety</p>
+                </div>
+
+                <div type="researchHistory">
+                    <p xml:space="preserve">The dialect of the Iraqi capital can be regarded as the prestige variety of 
+                        the whole country. It is frequently used in the media and widely understood not only in Iraq, but
+                        also in the adjacent Gulf region, in Eastern Syria, and in the Iranian province of Khuzestan. The 
+                        linguistic setting of Baghdad is special for its so-called “communal
+                        dialects”. The current prestige variety (described here) is actually the dialect which until 
+                        fairly recently was spoken solely by the Muslim population. The Christian and
+                        Jewish (no longer in Iraq) inhabitants of Baghdad speak a very different dialect of 
+                        the so-called <hi rendition="#i">qǝltu</hi> type, which is much closer to Northern Iraq and
+                        not influenced by Bedouin features.</p>
+                        
+                    <p xml:space="preserve">The first comprehensive descriptions of the Arabic dialect of Baghdad did 
+                        not appear before the 1960s. Before that only some very brief remarks (<rs type="bibl" ref="zotero:PPUJCX35">Jeannier 1888</rs>, 
+                        <rs type="bibl" ref="zotero:EG67QXCT">Massignon 1912</rs>) and a few textbooks and glossaries 
+                        were published, particularly Van Ess 1917 (second edition 1938, many <rs type="bibl" ref="zotero:BKRGRGZL">reprints</rs> until 1989) and van
+                        Wagoner 1949, but both contain a mixture of various Iraqi dialects and cannot be 
+                        regarded as dialectological descriptions. The first scholarly monographs published 
+                        were <rs type="bibl" ref="zotero:Z9QMK224">Malaika 1963</rs> and <rs type="bibl" ref="zotero:BMI8BKRI">Erwin 1963</rs>, 
+                        shortly followed by <rs type="bibl" ref="zotero:DJXKPUNA">Blanc 1964</rs>. Blanc, who coined the term “communal dialects”, 
+                        presented a rather concise but excellent description of Muslim, Christian, and 
+                        Jewish Baghdadi. <rs type="bibl" ref="zotero:7HXLWVN3">Abu-Haider 1991 </rs> deals 
+                        with the Christian variety. <rs type="bibl" ref="zotero:K5KFYH5L">Palva 2009</rs> convincingly 
+                        argues that the Bedouin (= <hi rendition="#i">gǝlǝt</hi> type) character of present-day Muslim 
+                        Baghdadi is mainly the result of a process of bedouinization during the past 300 years. Thus, 
+                        for a considerable time after the Mongol sack of Baghdad in 1258, the dialect of Baghdad had 
+                        remained to be an urban Mesopotamian type dialect that has only slowly changed due to immigration from the
+                        countryside. In spite of its importance, Baghdad Arabic has not been intensively studied (compared 
+                        to, e.g., Cairo or Damascus) and almost all reference works date back to the 1960s.</p>
+                </div>
+
+                <div type="bibliography">
+                    <p xml:space="preserve">Our database contains <rs type="bibl" ref="bibl:geo:Baghdad">a number of publications </rs> 
+                    that deal with Baghdad. To get a wider picture look in the bibliography by clicking <rs type="bibl" ref="bibl:reg:Iraq">here</rs>.</p>
+                </div>
+
+                <div type="sampleText">
+                    <p xml:space="preserve">VICAV provides a <rs ref="sample:baghdad_sample_01/Baghdad">Sample Text of Baghdad </rs> of Baghdad Arabic. </p>
+                </div>
+
+                <div type="lingFeatures">
+                    <p xml:space="preserve">There is also a <rs ref="feature:ling_features_baghdad/Baghdad">list of linguistic features</rs> with example sentences.</p>
+                </div>
+
+            </div>
+        </body>
+    </text>
+</TEI>
