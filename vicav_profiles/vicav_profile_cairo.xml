@@ -30,7 +30,6 @@
            <change status="created" when="2019-02-17" who="#AE">created</change>
            <change status="draft" when="2019-02-17" who="#">last modified (revision 4)</change>
            <change status="draft" when="2019-02-17">transformed to TEI-XML</change>
-           <change when="2019-02-17" status="draft"/>
            <change who="#charly" when="2018-10-03" status="released"/>
         </revisionDesc>
     </teiHeader>
@@ -136,7 +135,7 @@
 
             <p xml:space="preserve">VICAV also provides a small digital dictionary of Cairo Arabic.
               It primarily serves didactic purposes. You can access it 
-              <rs ref="text:dictFrontPage_Cairo/CAIRO DICTIONARY">here</rs>. </p>
+              <rs ref="text:dictFrontPage_Cairo/CAIRO DICTIONARY">here</rs>.</p>
           </div>
 
           <div type="textBooks">

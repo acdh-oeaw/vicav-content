@@ -48,7 +48,6 @@
                   </head>
                </figure>
                
-               
                <label>Name (English)</label>
                <name xml:lang="eng">Tétouan</name>
              
@@ -58,8 +57,8 @@
                <label>Name (MSA, trans.)</label>
                <name xml:lang="ara-x-DMG">Tiṭwān</name>
                
-               <label>Name (local variety (trans.)</label>             
-               <name xml:lang="ara-x-DMG">țǝṭwān</name>
+               <label>Local name (trans.)</label>             
+               <name xml:lang="ary-x-DMG" type="latLoc">țǝṭwān</name>
                
             </head>
             <div type="positioning">
@@ -100,8 +99,9 @@
             
             <div type="bibliography">
                <head>Bibliography</head>
-               <p xml:space="preserve">To see a list of relevant publications in our bibliography click <rs type="bibl" ref="bibl:geo:Tétouan">here</rs>.</p>
-            </div>
+               <p xml:space="preserve">To see a list of relevant publications concerning Tétouan click <rs type="bibl" ref="bibl:geo:Tétouan">here</rs>.
+               For a list of publications relating to Morocco in general click <rs type="bibl" ref="bibl:reg:Morocco">here</rs>.</p>
+          </div>
          </div>
       </body>
    </text>
