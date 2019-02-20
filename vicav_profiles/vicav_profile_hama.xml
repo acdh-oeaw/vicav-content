@@ -1,0 +1,94 @@
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_hama_01">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A machine-readable profile of Hama Arabic</title>
+            <respStmt>
+               <resp>document preparation</resp>
+               <name xml:id="charly">Karlheinz Moerth</name>
+            </respStmt>
+            <author xml:id="stephan">Stephan Procházka</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>ACDH-OeAW</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date>2019</date>
+            <availability status="restricted">
+               <p>
+                  <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This is an original digital text</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change status="created" when="2018-12-01T18:27:00Z" who="#stephan">created</change>
+         <change status="draft" when="2018-12-29T13:49:00Z" who="#stephan">last modified (revision 4)</change>
+         <change status="draft" when="2019-02-19T23:29:26.587+01:00">transformed to TEI-XML</change>
+         <change when="2019-02-19T23:29:27.551+01:00" status="draft"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>
+               <figure>
+                  <graphic url="hama.jpg"/>
+                  <head type="imgCaption" xml:space="preserve">Stephan Procházka 1985</head>
+               </figure>
+               
+               <label>Name (English)</label>
+               <name xml:lang="eng">Hama</name>
+
+               <label>MSA name</label>
+               <name xml:lang="ara">حماة</name>
+
+               <label>MSA name (trans.)</label>
+               <name xml:lang="ara-x-DMG">Ḥamāh</name>
+
+               <label>Local name (trans.)</label>
+               <name xml:lang="ara-Lat" type="latLoc"> Ḥama</name>
+            </head>
+            <div type="positioning">
+               <head>Geo location</head>
+               <p xml:space="preserve">
+                  <geo>35°12′N 36°75′E</geo>
+               </p>
+            </div>
+            <div type="typology">
+               <head>Typology (Local)</head>
+               <p rend="typology" xml:space="preserve">East (Mashreq) › Levant › Syria › Centre</p>
+               <p xml:space="preserve">Urban sedentary dialect </p>
+            </div>
+            
+            <div type="general">               
+               <p xml:space="preserve">Hama is a major city in central Syria on the banks of the Orontes River and famous for its many water wheels (<hi rendition="#i">nawā</hi><hi rendition="#i">ʕ</hi><hi rendition="#i">īr</hi>), which were used for irrigation until the late 1980s. Most of Hama's inhabitants are Sunni Muslims, but there is also a Christian minority.</p>
+            </div>
+            
+            <div type="researchHistory">               
+               <p xml:space="preserve">In spite of Hama’s size and importance, its dialect has been insufficiently 
+               investigated. <rs type="bibl" ref="zotero:TPTWN7PF">Lewin 1966</rs> contains sixteen texts with German 
+               translation and a short sketch of the dialect's phonology, morphology, and syntax. <rs type="bibl" ref="zotero:Y5WWYMLB">Behnstedt's 1997</rs> Linguistic 
+               Atlas of Syria also provides some data on Hama.</p>
+            </div>
+
+            <div type="dictionaries">              
+               <p xml:space="preserve"><rs type="bibl" ref="zotero:TPTWN7PF">Lewin 1966</rs> contains a 30-page glossary.</p>
+            </div>
+
+            <div type="bibliography">
+               <p xml:space="preserve">For a list of publications concerning Arabic in Syria click <rs ref="bibl:reg:Syria">here</rs>.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

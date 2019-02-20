@@ -1,0 +1,94 @@
+<?xml version="1.0"?><?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_baskinta_01">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A machine-readable profile of Baskinta Arabic</title>
+            <respStmt>
+               <resp>document preparation</resp>
+               <name xml:id="AE">Aleksandra Ercegovcevic</name>
+            </respStmt>
+            <author xml:id="aleksandra">Aleksandra Ercegovčević</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>ACDH-OeAW</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date>2019</date>
+            <availability status="restricted">
+               <p>
+                  <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This is an original digital text</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change status="created" when="2019-01-03T11:22:00Z" who="#AE">created</change>
+         <change status="draft" when="2019-01-03T11:27:00Z" who="#AE">last modified (revision 7)</change>
+         <change status="draft" when="2019-02-19T22:13:06.395+01:00">transformed to TEI-XML</change>
+         <change when="2019-02-19T22:13:07.778+01:00" status="draft"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>
+               <figure>
+                  <graphic url="baskinta_profile.jpg"/>
+                  <head type="imgCaption" xml:space="preserve">Source: 
+                     <ref target="https://en.wikipedia.org/wiki/Baskinta#/media/File:Baskinta_village.jpg">Wikimedia</ref>
+                  </head>
+               </figure>
+               <label>Name (English)</label>
+               <name xml:lang="eng">Baskinta</name>
+
+               <label>MSA name</label>
+               <name xml:lang="ara">بسكنتا</name>
+
+               <label>MSA name (trans.)</label>
+               <name xml:lang="ara">Baskintā</name>
+               
+               <label>Local name (trans.)</label>
+               <name xml:lang="ara-x-DMG">Baskinta</name>
+            </head>
+            <div type="positioning">
+               <head>Geo location</head>
+               <p xml:space="preserve">
+                  <geo>33°94′N 35°78′E</geo>
+               </p>
+            </div>
+            <div type="typology">
+               <head>Typology (Local)</head>
+               <p rend="typology" xml:space="preserve">East (Mashreq) › Levant › Lebanon › Central-north group</p>
+               <p xml:space="preserve">Rural dialect</p>
+            </div>
+            
+            <div type="general">               
+               <p xml:space="preserve">Baskinta is one of the highest villages of Lebanon, laying at the foot 
+               of Mount Ṣannīn 43 kilometers northeast of Beirut. The inhabitants are Christians, 70% Maronite and 30% Greek Orthodox.</p>
+            </div>
+            
+            <div type="researchHistory">               
+               <p xml:space="preserve"><rs type="bibl" ref="zotero:4L7WKRNK">Abu-Haidar 1979</rs> is still the only description 
+               of the dialect of Baskinta. The study is divided into three major sections on phonology, morphology, and syntax. 
+               The section on syntax is relatively detailed in comparison to other dialectological studies of that era.</p>
+               
+               <p xml:space="preserve">The study also includes 12 texts with translation, a collection of 30 sayings, five 
+               folk-songs, and notes. The appendices include paradigms of the conjugation of verbs as well as notes on non-Arabic loan words, especially those of Aramaic origin.</p>
+            </div>
+            
+            <div type="bibliography">              
+               <p xml:space="preserve">To get all items related Lebanon, click <rs type="bibl" ref="bibl:reg:Lebanon">here</rs>.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
