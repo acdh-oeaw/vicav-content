@@ -1,4 +1,5 @@
-<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_urfa_01">
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_urfa_01">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -12,7 +13,8 @@
                 <date>2011</date>
                 <availability status="restricted">
                     <p>
-                        <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+                        <ref type="license"
+                            target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
                     </p>
                 </availability>
             </publicationStmt>
@@ -21,17 +23,18 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-          <tagsDecl partial="true">
-             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
-             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
-             <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
-          </tagsDecl>
+            <tagsDecl partial="true">
+                <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+                <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+                <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            </tagsDecl>
         </encodingDesc>
         <revisionDesc>
-           <change status="created" when="2019-02-18" who="#stephan">created</change>
-           <change status="draft" when="2019-02-18" who="#stephan">last modified (revision 4)</change>
-           <change status="draft" who="#charly" when="2019-02-18">transformed to TEI-XML</change>
-           <change who="#charly" when="2018-10-03" status="released"/>
+            <change status="created" when="2019-02-18" who="#stephan">created</change>
+            <change status="draft" when="2019-02-18" who="#stephan"
+                >last modified (revision 4)</change>
+            <change status="draft" who="#charly" when="2019-02-18">transformed to TEI-XML</change>
+            <change who="#charly" when="2018-10-03" status="released"/>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -43,13 +46,10 @@
                     </figure>
                     <label>Name (English)</label>
                     <name xml:lang="eng">Şanlıurfa</name>
-                    
                     <label>MSA Name</label>
                     <name xml:lang="ara">الرها</name>
-                    
                     <label>MSA Name (trans.)</label>
                     <name xml:lang="ara-x-DMG">ar-Ruhā (no longer in use)</name>
-                    
                     <label>Local name (trans.)</label>
                     <name xml:lang="ara-Latn" type="latLoc">urfa ~ al-midīne</name>
                 </head>

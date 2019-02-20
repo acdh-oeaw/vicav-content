@@ -1,4 +1,5 @@
-<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_baghdad_01">
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_baghdad_01">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -11,7 +12,8 @@
                 <date>2011</date>
                 <availability status="restricted">
                     <p>
-                        <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+                        <ref type="license"
+                            target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
                     </p>
                 </availability>
             </publicationStmt>
@@ -20,17 +22,18 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-          <tagsDecl partial="true">
-             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
-             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
-             <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
-          </tagsDecl>
+            <tagsDecl partial="true">
+                <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+                <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+                <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            </tagsDecl>
         </encodingDesc>
         <revisionDesc>
-           <change status="created" when="2019-02-18" who="#stephan">created</change>
-           <change status="draft" when="2019-02-18" who="#stephan">last modified (revision 4)</change>
-           <change status="draft" when="2019-02-18">transformed to TEI-XML</change>
-           <change who="#stephan" when="2018-10-03" status="released"/>
+            <change status="created" when="2019-02-18" who="#stephan">created</change>
+            <change status="draft" when="2019-02-18" who="#stephan"
+                >last modified (revision 4)</change>
+            <change status="draft" when="2019-02-18">transformed to TEI-XML</change>
+            <change who="#stephan" when="2018-10-03" status="released"/>
         </revisionDesc>
     </teiHeader>
 
@@ -39,16 +42,15 @@
             <div>
                 <head>
                     <figure>
-                        <graphic url="320px_Haifa_street_as_seen_from_the_medical_city_hospital_across_the_tigres.jpg"/>
+                        <graphic
+                            url="320px_Haifa_street_as_seen_from_the_medical_city_hospital_across_the_tigres.jpg"/>
                         <head type="imgCaption" xml:space="preserve">Source: <ref target="https://commons.wikimedia.org/wiki/File:Haifa_street,_as_seen_from_the_medical_city_hospital_across_the_tigres.jpg">Wikimedia</ref>
                         </head>
                     </figure>
                     <label>Name (English)</label>
                     <name xml:lang="eng">Baghdad</name>
-
                     <label>MSA name</label>
                     <name xml:lang="ara">بغداد</name>
-
                     <label>MSA name (trans.)</label>
                     <name xml:lang="ara-x-DMG">Baġdād</name>
                 </head>
@@ -74,7 +76,7 @@
                         Jewish (no longer in Iraq) inhabitants of Baghdad speak a very different dialect of 
                         the so-called <hi rendition="#i">qǝltu</hi> type, which is much closer to Northern Iraq and
                         not influenced by Bedouin features.</p>
-                        
+
                     <p xml:space="preserve">The first comprehensive descriptions of the Arabic dialect of Baghdad did 
                         not appear before the 1960s. Before that only some very brief remarks (<rs type="bibl" ref="zotero:PPUJCX35">Jeannier 1888</rs>, 
                         <rs type="bibl" ref="zotero:EG67QXCT">Massignon 1912</rs>) and a few textbooks and glossaries 

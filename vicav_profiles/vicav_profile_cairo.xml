@@ -1,90 +1,86 @@
-<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_cairo_01">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>A machine-readable language profile of Cairo Arabic</title>
-          <author xml:id="charly">Charly Moerth</author>
-        </titleStmt>
-        <publicationStmt>
-          <publisher>ACDH-OeAW</publisher>
-          <pubPlace>Vienna</pubPlace>
-          <date>2014</date>
-          <availability status="restricted">
-            <p>
-              <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
-            </p>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <p>This is an original digital text</p>
-        </sourceDesc>
-      </fileDesc>
-        <encodingDesc>
-          <tagsDecl partial="true">
-             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
-             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
-             <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
-          </tagsDecl>
-        </encodingDesc>
-        <revisionDesc>
-           <change status="created" when="2019-02-17" who="#AE">created</change>
-           <change status="draft" when="2019-02-17" who="#">last modified (revision 4)</change>
-           <change status="draft" when="2019-02-17">transformed to TEI-XML</change>
-           <change who="#charly" when="2018-10-03" status="released"/>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-      <body>
-        <div>
-          <head>
-            <figure>
-                <graphic url="320px-Kairo_BW_2.jpg"/>
-                <head type="imgCaption" xml:space="preserve">Source: <ref target="https://commons.wikimedia.org/wiki/File:Kairo_BW_2.jpg">Wikimedia</ref>
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_cairo_01">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>A machine-readable language profile of Cairo Arabic</title>
+        <author xml:id="charly">Charly Moerth</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ACDH-OeAW</publisher>
+        <pubPlace>Vienna</pubPlace>
+        <date>2014</date>
+        <availability status="restricted">
+          <p>
+            <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>This is an original digital text</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <tagsDecl partial="true">
+        <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+        <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+        <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change status="created" when="2019-02-17" who="#AE">created</change>
+      <change status="draft" when="2019-02-17" who="#">last modified (revision 4)</change>
+      <change status="draft" when="2019-02-17">transformed to TEI-XML</change>
+      <change who="#charly" when="2018-10-03" status="released"/>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>
+          <figure>
+            <graphic url="320px-Kairo_BW_2.jpg"/>
+            <head type="imgCaption" xml:space="preserve">Source: <ref target="https://commons.wikimedia.org/wiki/File:Kairo_BW_2.jpg">Wikimedia</ref>
               </head>
-            </figure>
-            
-            <label>Name (English)</label>
-            <name xml:lang="eng">Cairo</name>
-            
-            <label>Name (MSA)</label>
-            <name xml:lang="ara">القاهیرة</name>
-            
-            <label>Name (MSA, trans.)</label>
-            <name xml:lang="ara-x-DMG">ʔal-Qāhira</name>
-            
-            <label>Local name</label>
-            <name xml:lang="arz" type="araLoc">مصر</name>
-            
-            <label>Local name (trans.)</label>
-            <name xml:lang="arz-Latn" type="latLoc">Maṣr</name>
-          </head>
+          </figure>
+          <label>Name (English)</label>
+          <name xml:lang="eng">Cairo</name>
+          <label>Name (MSA)</label>
+          <name xml:lang="ara">القاهیرة</name>
+          <label>Name (MSA, trans.)</label>
+          <name xml:lang="ara-x-DMG">ʔal-Qāhira</name>
+          <label>Local name</label>
+          <name xml:lang="arz" type="araLoc">مصر</name>
+          <label>Local name (trans.)</label>
+          <name xml:lang="arz-Latn" type="latLoc">Maṣr</name>
+        </head>
 
-          <div type="positioning">
-            <p xml:space="preserve">
+        <div type="positioning">
+          <p xml:space="preserve">
               <geo>30°05′N 31°23′E</geo>
             </p>
-          </div>
+        </div>
 
-          <div type="typology">
-            <p xml:space="preserve">Eastern › Egyptian › Central Delta</p>
-            <p xml:space="preserve">Urban, sedentary, high prestige variety</p>
-          </div>
+        <div type="typology">
+          <p xml:space="preserve">Eastern › Egyptian › Central Delta</p>
+          <p xml:space="preserve">Urban, sedentary, high prestige variety</p>
+        </div>
 
-          <div type="general">
-            <p xml:space="preserve">The Egyptian varieties of Arabic form a quite diversified
+        <div type="general">
+          <p xml:space="preserve">The Egyptian varieties of Arabic form a quite diversified
               linguistic group. They are usually subdivided into four major
               subgroups: the dialects of Upper Egypt, Middle Egypt, Lower Egypt
               and those spoken in the Oases. The dialect of the capital belongs
               to the northern group.</p>
 
-            <p xml:space="preserve">By contrast to most other varieties of vernacular Arabic, the
+          <p xml:space="preserve">By contrast to most other varieties of vernacular Arabic, the
               dialect of Cairo has been reduced to writing as well. There exists
               quite a significant amount of literary output, in particular stage
               plays.</p>
-          </div>
+        </div>
 
-          <div type="researchHistory">
-            <p xml:space="preserve">The first serious reliable descriptions of Egyptian Arabic were
+        <div type="researchHistory">
+          <p xml:space="preserve">The first serious reliable descriptions of Egyptian Arabic were
               written in the 19th century: Wilhelm Spitta published his 
               <rs type="bibl" ref="zotero:G3NGRC2E">grammar</rs> in 1880
               (which can be <ref target="https://archive.org/details/grammatikdesara00spitgoog">read 
@@ -99,7 +95,7 @@
               text at the <ref target="https://archive.org/details/cu31924026887152">Internet
                 Archive</ref>).</p>
 
-            <p xml:space="preserve">The great bulk of publications was written after World War II.
+          <p xml:space="preserve">The great bulk of publications was written after World War II.
               Interesting information was provided by <rs type="bibl" ref="zotero:DLFC8LUQ">Mitchell 
               (1956)</rs>, <rs type="bibl" ref="zotero:Z592GTRW">Tomiche (1962)</rs> and 
               <rs type="bibl" ref="zotero:QEEWK83P">Salib (1981)</rs>. Most studies
@@ -109,37 +105,37 @@
               socio-linguistic study on <rs type="bibl" ref="zotero:HAB8VRQG">terms 
               of address in Egyptian Arabic (1985)</rs>.</p>
 
-            <p xml:space="preserve">The most substantial scholarly contributions to our knowledge of
+          <p xml:space="preserve">The most substantial scholarly contributions to our knowledge of
               the Egyptian dialects were made by the German dialectologists Behnstedt 
               and Woidich. Most of their work was done in the 80’s and 90’s of 
               the 20th century. Woidich’s <rs type="bibl" ref="zotero:3QNH63BL">grammar 
               (2006) of Cairo Arabic </rs>is the so far most comprehensive in-depth study of this
               variety.</p>
-          </div>
+        </div>
 
-          <div type="dictionaries">
-            <p xml:space="preserve">There exist several dictionaries for those who want to study
+        <div type="dictionaries">
+          <p xml:space="preserve">There exist several dictionaries for those who want to study
               Egyptian Arabic. The hitherto most comprehensive one is 
               <rs type="bibl" ref="zotero:VSM7I4KA">Hinds/Badawi
                 (Arabic-English)</rs>. It was published in 1986. </p>
 
-            <p xml:space="preserve">
+          <p xml:space="preserve">
               <rs type="bibl" ref="zotero:UJJGAZQR">Socrates Spiro’s dictionary
               (1895)</rs> is pretty old. As there is not much available in
               digital form, it is still worth looking at. To access an online
               reading interface made up of digital images 
               <ref target="http://archive.org/details/anarabicenglish00spirgoog">click here</ref>. </p>
 
-            <p xml:space="preserve">To obtain a list of Egyptian dictionaries contained in our
+          <p xml:space="preserve">To obtain a list of Egyptian dictionaries contained in our
               database <rs type="bibl" ref="bibl:vt:dictionary+bibl:reg:Egypt">click here</rs>. </p>
 
-            <p xml:space="preserve">VICAV also provides a small digital dictionary of Cairo Arabic.
+          <p xml:space="preserve">VICAV also provides a small digital dictionary of Cairo Arabic.
               It primarily serves didactic purposes. You can access it 
               <rs ref="text:dictFrontPage_Cairo/CAIRO DICTIONARY">here</rs>.</p>
-          </div>
+        </div>
 
-          <div type="textBooks">
-            <p xml:space="preserve">For generations of learners of spoken Egyptian the course
+        <div type="textBooks">
+          <p xml:space="preserve">For generations of learners of spoken Egyptian the course
               material compiled by <rs type="bibl" ref="zotero:IEMVQUR6 zotero:XB97YPPN zotero:LGYKDLM3 zotero:26MPUVYC">Abdel-Massih 
               (1978-9)</rs> was the main guidance. A more
               up-to-date textbook is Woidich/Heinen’s 
@@ -150,42 +146,42 @@
               in the Arabic script. In addition, they come with high quality
               CDs.</p>
 
-            <p xml:space="preserve">Two German textbooks should also be highlighted: Woidich’s 
+          <p xml:space="preserve">Two German textbooks should also be highlighted: Woidich’s 
               <rs type="bibl" ref="zotero:N556I5K6">Ahlan wa Sahlan (2002)</rs>
               actually predates his Kullu tamām!. The sesond one is Ahmed’s 
               <rs type="bibl" ref="zotero:NBIIXEN3">Lehrbuch des
               Ägyptisch-Arabischen (1981)</rs> which unfortunately contains
               countless typos. Nevertheless, the texts collected there are very
               helpful, especially for advanced learners.</p>
-          </div>
+        </div>
 
-          <div type="audioData">
-            <p xml:space="preserve">The Semitic Sound Archive provides several recordings. 
+        <div type="audioData">
+          <p xml:space="preserve">The Semitic Sound Archive provides several recordings. 
               <ref target="http://www.semarch.uni-hd.de">Follow this link</ref>.</p>
-            <p xml:space="preserve"/>
-          </div>
+          <p xml:space="preserve"/>
+        </div>
 
-          <div type="bibliography">
-            <p xml:space="preserve">Until the late twentieth century, the language of the Egyptian
+        <div type="bibliography">
+          <p xml:space="preserve">Until the late twentieth century, the language of the Egyptian
               capital remained poorly documented. Meanwhile, a number of
               valuable descriptions have been published. The amount of 
               <rs type="bibl" ref="bibl:geo:Cairo">publications dealing with the variety of
                 Cairo</rs> is quite considerable. To get a more general list
               for Egypt click <rs type="bibl" ref="bibl:reg:Egypt">here</rs>. </p>
-          </div>
-
-          <div type="sampleText">
-
-            <p xml:space="preserve">VICAV provides a <rs ref="sample:cairo_sample_01/CAIRO">Sample 
-              Text of Cairo Arabic</rs>. </p>
-          </div>
-
-          <div type="lingFeatures">
-              <p xml:space="preserve">There is also a <rs ref="feature:ling_features_cairo/Cairo">list 
-                of linguistic features</rs> with example sentences.</p>
-          </div>
-
         </div>
-      </body>
-    </text>
-  </TEI>
+
+        <div type="sampleText">
+
+          <p xml:space="preserve">VICAV provides a <rs ref="sample:cairo_sample_01/CAIRO">Sample 
+              Text of Cairo Arabic</rs>. </p>
+        </div>
+
+        <div type="lingFeatures">
+          <p xml:space="preserve">There is also a <rs ref="feature:ling_features_cairo/Cairo">list 
+                of linguistic features</rs> with example sentences.</p>
+        </div>
+
+      </div>
+    </body>
+  </text>
+</TEI>

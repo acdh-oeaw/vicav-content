@@ -1,77 +1,76 @@
-<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_benghazi_01">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>A machine-readable profile of Benghazi Arabic</title>
-          <author xml:id="sherin">Sherin</author>
-          <editor xml:id="charly" role="Technical_Editor">Karlheinz Moerth</editor>
-        </titleStmt>
-        <publicationStmt>
-          <publisher>ACDH-OeAW</publisher>
-          <pubPlace>Vienna</pubPlace>
-          <date>2018</date>
-          <availability status="restricted">
-            <p>
-              <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
-            </p>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <p>This is an original digital text</p>
-        </sourceDesc>
-      </fileDesc>
-        <encodingDesc>
-          <tagsDecl partial="true">
-             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
-             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
-             <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
-          </tagsDecl>
-        </encodingDesc>
-        <revisionDesc>
-           <change status="created" when="2019-02-18" who="#sherin">created</change>
-           <change status="draft" when="2019-02-18" who="#sherin">last modified (revision 4)</change>
-           <change status="draft" who="#charly" when="2019-02-18">transformed to TEI-XML</change>
-           <change who="#charly" when="2018-10-03" status="released"/>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-      <body>
-        <div>
-          <head>
-            <figure>
-              <graphic url="benghazi_01.jpg"/>
-              <head type="imgCaption" xml:space="preserve">Source: <ref target="https://upload.wikimedia.org/wikipedia/commons/f/f4/Bengasi_visto_dall%27Hotel_Tibesti_-_panoramio.jpg">Wikimedia</ref>
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_benghazi_01">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>A machine-readable profile of Benghazi Arabic</title>
+        <author xml:id="sherin">Sherin</author>
+        <editor xml:id="charly" role="Technical_Editor">Karlheinz Moerth</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ACDH-OeAW</publisher>
+        <pubPlace>Vienna</pubPlace>
+        <date>2018</date>
+        <availability status="restricted">
+          <p>
+            <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>This is an original digital text</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <tagsDecl partial="true">
+        <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+        <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+        <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change status="created" when="2019-02-18" who="#sherin">created</change>
+      <change status="draft" when="2019-02-18" who="#sherin">last modified (revision 4)</change>
+      <change status="draft" who="#charly" when="2019-02-18">transformed to TEI-XML</change>
+      <change who="#charly" when="2018-10-03" status="released"/>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>
+          <figure>
+            <graphic url="benghazi_01.jpg"/>
+            <head type="imgCaption" xml:space="preserve">Source: <ref target="https://upload.wikimedia.org/wikipedia/commons/f/f4/Bengasi_visto_dall%27Hotel_Tibesti_-_panoramio.jpg">Wikimedia</ref>
               </head>
-            </figure>
-            <label>Name (English)</label>
-            <name xml:lang="eng">Benghazi</name>
+          </figure>
+          <label>Name (English)</label>
+          <name xml:lang="eng">Benghazi</name>
+          <label>Name (MSA)</label>
+          <name xml:lang="ara">بنغازي</name>
+          <label>Name (MSA, trans.)</label>
+          <name xml:lang="ara-x-DMG">Banġāzī</name>
+        </head>
 
-            <label>Name (MSA)</label>
-            <name xml:lang="ara">بنغازي</name>
-
-            <label>Name (MSA, trans.)</label>
-            <name xml:lang="ara-x-DMG">Banġāzī</name>
-          </head>
-
-          <div type="positioning">
-            <p xml:space="preserve">
+        <div type="positioning">
+          <p xml:space="preserve">
               <geo>32°11′N 20°08′E′E′E</geo>
             </p>
-          </div>
+        </div>
 
-          <div type="typology">
-            <p xml:space="preserve">West (Maghreb) › Libya › North Eastern Libya</p>
-            <p xml:space="preserve">Bedouin-type dialect</p>
-          </div>
+        <div type="typology">
+          <p xml:space="preserve">West (Maghreb) › Libya › North Eastern Libya</p>
+          <p xml:space="preserve">Bedouin-type dialect</p>
+        </div>
 
-          <div type="general">
-            <p xml:space="preserve">Benghazi is the most important city of the Cyrenaica region and
+        <div type="general">
+          <p xml:space="preserve">Benghazi is the most important city of the Cyrenaica region and
               Libyas’s second largest city. The Arabic dialect of Benghazi has
               an estimated half million speakers (Benkato 2014).</p>
-          </div>
+        </div>
 
-          <div type="researchHistory">
-            <p xml:space="preserve">Important data about the dialect comes from the Italian scholar
+        <div type="researchHistory">
+          <p xml:space="preserve">Important data about the dialect comes from the Italian scholar
               Ester Panetta, who published extensively on the spoken language of
               Benghazi: Her 2-volume monograph <rs type="bibl" ref="zotero:IMX442XU">
                 L’arabo parlato a Bengasi 1943</rs> provides texts and describes the 
@@ -80,15 +79,15 @@
               she published phrases and words in a dictionary-like form
               including words beginning with the letters A, B, C, D and E in
               different journals and books.</p>
-              
-            <p xml:space="preserve">The British linguist T.F. Mitchell dedicated two articles to the
+
+          <p xml:space="preserve">The British linguist T.F. Mitchell dedicated two articles to the
               dialect of the Cyrenaica in which he also mentioned features of
               the dialect of Benghazi: <rs type="bibl" ref="zotero:HJNEDDMP">
                 The active participle in an Arabic Dialect of
                   the Cyrenaica 1952</rs> and <rs type="bibl" ref="zotero:9BSCDMRB">
                 The language of buying and selling in
                   Cyrenaica 1957</rs>.</p>
-            <p xml:space="preserve">Jonathan Owens also contributed immensely to the knowledge about
+          <p xml:space="preserve">Jonathan Owens also contributed immensely to the knowledge about
               Benghazi dialect with his book <rs type="bibl" ref="zotero:3LA5N2KZ">
                 A short reference grammar of Eastern Libyan
                   Arabic 1984</rs>, in which he offers a full
@@ -97,24 +96,24 @@
               <rs type="bibl" ref="zotero:YW6SSFFZ">2005</rs> articles,
               Jacques Gand’Henry provides texts in transcription, translation,
               and a short linguistic analysis.</p>
-              
-            <p xml:space="preserve">The most recent publications on Benghazi Arabic are by Adam
+
+          <p xml:space="preserve">The most recent publications on Benghazi Arabic are by Adam
               Benkato <rs type="bibl" ref="zotero:UA6DZMMK">2014</rs> and
               2017 and Luca D’Anna 2016: The 2014 article by Benkato provides
               a historical overview of the region and describes the linguistic
               features of Benghazi Arabic, including changes between the early
               studies and his own observations during his fieldwork in 2010 and
               2011. </p>
-          </div>
+        </div>
 
-          <div type="bibliography">
-            <p xml:space="preserve">An up-to-date annotated bibliography of Benghazi and Eastern
+        <div type="bibliography">
+          <p xml:space="preserve">An up-to-date annotated bibliography of Benghazi and Eastern
               Libyan dialects can be found in Benkato and Pereira 2016.</p>
 
-            <p xml:space="preserve">To view a list of the important publications relevant to 
+          <p xml:space="preserve">To view a list of the important publications relevant to 
               this variety <rs type="bibl" ref="bibl:geo:Benghazi">follow this link</rs>.</p>
-          </div>
         </div>
-      </body>
-    </text>
-  </TEI>
+      </div>
+    </body>
+  </text>
+</TEI>

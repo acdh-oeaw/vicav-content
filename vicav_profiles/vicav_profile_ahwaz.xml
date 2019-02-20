@@ -1,4 +1,5 @@
-<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_ahwaz_01">
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_ahwaz_01">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -12,7 +13,8 @@
                 <date>2018</date>
                 <availability status="restricted">
                     <p>
-                        <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+                        <ref type="license"
+                            target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
                     </p>
                 </availability>
             </publicationStmt>
@@ -21,20 +23,21 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-          <tagsDecl partial="true">
-             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
-             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
-             <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
-          </tagsDecl>
+            <tagsDecl partial="true">
+                <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+                <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+                <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            </tagsDecl>
         </encodingDesc>
         <revisionDesc>
-           <change status="created" when="2019-02-18" who="#bettina">created</change>
-           <change status="draft" when="2019-02-18" who="#bettina">last modified (revision 4)</change>
-           <change status="draft" when="2019-02-18">transformed to TEI-XML</change>
+            <change status="created" when="2019-02-18" who="#bettina">created</change>
+            <change status="draft" when="2019-02-18" who="#bettina"
+                >last modified (revision 4)</change>
+            <change status="draft" when="2019-02-18">transformed to TEI-XML</change>
             <change who="#charly" when="2018-10-03" status="released"/>
         </revisionDesc>
     </teiHeader>
-    
+
     <text>
         <body>
             <div>
@@ -46,33 +49,29 @@
                     </figure>
                     <label>Name (English)</label>
                     <name xml:lang="eng">Ahwaz/Ahvaz</name>
-                    
                     <label>MSA name</label>
                     <name xml:lang="ara">الأهواز</name>
-
                     <label>MSA name (trans.)</label>
                     <name xml:lang="ara-x-DMG">al-Ahwāz</name>
-                    
                     <label>Local name (trans.)</label>
                     <name xml:lang="ajp-x-DMG" type="latLoc">al-Aḥwāz</name>
-                    
                 </head>
                 <div type="positioning">
                     <p xml:space="preserve">
                         <geo>31°31′N 48°68′E</geo>
                     </p>
                 </div>
-                
+
                 <div type="typology">
                     <p xml:space="preserve">East › Mesopotamia › Iraq › South Iraq</p>
                     <p xml:space="preserve">Bedouin-type gələt dialect; mixed variety with urban and rural features; strong Persian influence on the lexicon</p>
                 </div>
-                
+
                 <div type="general">
                     <p xml:space="preserve">Ahwāz is the capital city of the southwestern Iranian province of Khūzestān 
                     and situated alongside the river Kārūn. Of its 1.5 million inhabitants Arabs are 
                         the largest  ethnic group, the second biggest group are Persians. There is also a small group of Sabeans living in Aḥwāz. </p>
-                    
+
                     <p xml:space="preserve">The city was apparently flourishing in pre-Islamic times but declined in the subsequent centuries to a village of about 10,000 
                         inhabitants in the early 20th century. </p>
                     <p xml:space="preserve">Today many of the city’s inhabitants are working in the sugar cane and oil industry. </p>

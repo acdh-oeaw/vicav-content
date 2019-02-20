@@ -38,58 +38,54 @@
          <change when="2019-02-13T16:16:22.041+01:00" status="draft"/>
       </revisionDesc>
    </teiHeader>
-    
+
    <text>
       <body>
          <div>
             <head>
                <figure>
-                   <graphic url="Imam_Ali_Mosque_in_Basra.jpg"/>
-                   <head xml:space="preserve" type="imgCaption">Source: <ref target="https://en.wikipedia.org/wiki/Basra#/media/File:Imam_Ali_Mosque_in_Basra.jpg"> Wikimedia</ref>
+                  <graphic url="Imam_Ali_Mosque_in_Basra.jpg"/>
+                  <head xml:space="preserve" type="imgCaption">Source: <ref target="https://en.wikipedia.org/wiki/Basra#/media/File:Imam_Ali_Mosque_in_Basra.jpg"> Wikimedia</ref>
                   </head>
                </figure>
-               
                <label>Name (English)</label>
                <name xml:lang="eng">Basra</name>
-                
+               
                <label>MSA name</label>
                <name xml:lang="ara">البصرة</name>
                
                <label>MSA name (trans.)</label>
                <name xml:lang="ara-x-DMG">al-Baṣra</name>
-                
+               
                <label>Local name (trans.)</label>
                <name xml:lang="ajp-x-DMG" type="latLoc">Baṣra</name>
-                
             </head>
-             
+
             <div type="positioning">
                <head>Geo location</head>
                <p>
                   <geo>30°30′N 47°49′E</geo>
                </p>
             </div>
-             
+
             <div type="typology">
                <head>Typology (Local)</head>
                <p rend="typology">East (Mashreq) › Mesopotamia › Iraq (<hi rendition="#i">gilit</hi>) › South</p>
                <p>urban-Bedouin</p>
             </div>
-             
+
             <div type="general">
-               <head>General</head>
                <p xml:space="preserve">Basra, Iraq’s major port city, is a Shiite Arab town of more than two 
                million located in the south of Iraq on the Shatt al-Arab. The city was founded as a military 
                camp by the Arab army between 634 and 644. It played a major role in the early days of Islam 
                and subsequently developed into a cosmopolitan centre with a flourishing intellectual life, 
                reaching its zenith in the 8th and 9th centuries.</p>
-               
+
                <p xml:space="preserve">Today Basra is the heart of Iraq’s oil industry. The city’s infrastructure 
                was severely damaged during the war with Iran (1980–88), the First Gulf War in 1991, and the 2003 US-led invasion of Iraq.</p>
             </div>
             <div type="researchHistory">
-               <head>Research history</head>
-               <p xml:space="preserve">Hitherto the only description of the dialect of Basra is an unpublished 
+               <p xml:space="preserve">Hitherto, the only description of the dialect of Basra is an unpublished 
                dissertation by <rs type="bibl" ref="zotero:MJG2UI9C">Qasim R. Mahdi 1985</rs> on the dialect's 
                phonology, morphology, and syntax. <rs type="bibl" ref="zotero:WRXYJDMQ">Denz &amp; Edzard 1966</rs> published 
                four texts in the dialect of Basra with English translation.</p>

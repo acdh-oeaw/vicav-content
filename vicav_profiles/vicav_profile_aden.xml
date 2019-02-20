@@ -1,4 +1,5 @@
-<?xml version="1.0"?><?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_{location}_01profile_aden_01">
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_aden_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -32,7 +33,8 @@
       </encodingDesc>
       <revisionDesc>
          <change status="created" when="2019-01-03T11:44:00Z" who="#aleksandra">created</change>
-         <change status="draft" when="2019-01-03T11:47:00Z" who="#aleksandra">last modified (revision 4)</change>
+         <change status="draft" when="2019-01-03T11:47:00Z" who="#aleksandra"
+            >last modified (revision 4)</change>
          <change status="draft" when="2019-02-13T17:22:51.359+01:00">transformed to TEI-XML</change>
          <change when="2019-02-13T17:22:52.959+01:00" status="draft"/>
       </revisionDesc>
@@ -43,34 +45,36 @@
             <head>
                <figure>
                   <graphic url="aden_profile.jpg"/>
-                  <head type="imgCaption">
-                     <ref target="https://en.wikipedia.org/wiki/Aden#/media/File:Aden._Steamer_Point._Aug_2013_(9727325813).jpg">https://en.wikipedia.org/wiki/Aden#/media/File:Aden._Steamer_Point._Aug_2013_(9727325813).jpg</ref>
+                  <head type="imgCaption" xml:space="preserve">Source: 
+                     <ref target="https://en.wikipedia.org/wiki/Aden#/media/File:Aden._Steamer_Point._Aug_2013_(9727325813).jpg">Wikimedia</ref>
                   </head>
                </figure>
                <label>Name (English)</label>
                <name xml:lang="eng">Aden</name>
-               
+
                <label>MSA name</label>
                <name xml:lang="ara">عدن</name>
 
                <label>MSA name (trans.)</label>
                <name xml:lang="ara-x-DMG">ʕAdan</name>
-               
+
                <label>Local name (trans.)</label>
                <name xml:lang="ara-Lat" type="latLoc">ʕAdan</name>
             </head>
-            
+
             <div type="positioning">
                <head>Geo location</head>
                <p>
-                  <geo>12.77 N, 45.01 E</geo>
+                  <geo>12.77′N 45.01′E</geo>
                </p>
             </div>
+            
             <div type="typology">
                <head>Typology (Local)</head>
                <p>East (Mashreq) › Arabia › Yemen › Aden</p>
                <p>Urban dialect with many phonological peculiarities</p>
             </div>
+            
             <div type="general">
                <head>General</head>
                <p xml:space="preserve">Aden is the most important port in Yemen with a long history and a population of 
@@ -81,8 +85,10 @@
                and coaling station for trade between Europe and British India and the Far East. The commercial and 
                strategic importance of Aden increased considerably when the Suez Canal opened in 1869. From then until 
                the 1960s, the Port of Aden was one of the busiest ship-bunkering, duty-free shopping, and trading ports 
-               in the world. The city was the capital of the People's Democratic Republic of Yemen until that country's unification with the Yemen Arab Republic in 1990.</p>
+               in the world. The city was the capital of the People's Democratic Republic of Yemen until that country's 
+               unification with the Yemen Arab Republic in 1990.</p>
             </div>
+            
             <div type="researchHistory">
                <head>Research history</head>
                <p xml:space="preserve">The first studies on the dialect of Aden date back to the middle of the 20th 
@@ -98,11 +104,13 @@
                with English translation in the second part of the monograph. <rs type="bibl" ref="XD43GWJ4">Al 
                Yaari et al. 2012</rs> is a concise article treating vowel deletion in various Yemeni dialects, including that of Aden.</p>
             </div>
+            
             <div type="dictionaries">
                <head>Dictionaries</head>
                <p xml:space="preserve"><rs type="bibl" ref="BXUJU3FC">Stace 1893</rs> is an English-Arabic dictionary 
                of the dialect of Aden. <rs type="bibl" ref="6LIL2PG6">Ghanem 1958</rs> includes an Arabic-English/English-Arabic glossary.</p>
             </div>
+            
             <div type="textBooks">
                <head>Text books</head>
                <p xml:space="preserve"><rs type="bibl" ref="6LIL2PG6">Ghanem 1958</rs> is an 18-lesson textbook of Aden Arabic. 
