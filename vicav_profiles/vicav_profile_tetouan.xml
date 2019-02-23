@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_tetouan_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_tetouan_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -33,12 +32,12 @@
       </encodingDesc>
       <revisionDesc>
          <change status="created" when="2019-01-08T09:37:00Z" who="#BL">created</change>
-         <change status="draft" when="2019-01-08T09:51:00Z" who="#"
-            >last modified (revision 5)</change>
+         <change status="draft" when="2019-01-08T09:51:00Z" who="#">last modified (revision 5)</change>
          <change status="draft" when="2019-02-18T10:20:04.1+01:00">transformed to TEI-XML</change>
          <change when="2019-02-18T10:20:05.62+01:00" status="draft"/>
       </revisionDesc>
    </teiHeader>
+   
    <text>
       <body>
          <div>
@@ -49,6 +48,7 @@
                      <ref target="https://commons.wikimedia.org/wiki/File:Tetouan_Jbel_Bo3nan.jpg">Wikimedia</ref>
                   </head>
                </figure>
+               
                <label>Name (English)</label>
                <name xml:lang="eng">Tétouan</name>
 
@@ -61,6 +61,7 @@
                <label>Local name (trans.)</label>
                <name xml:lang="ary-x-DMG" type="latLoc">țǝṭwān</name>
             </head>
+            
             <div type="positioning">
                <head>Geo location</head>
                <p xml:space="preserve">
@@ -69,13 +70,11 @@
             </div>
 
             <div type="typology">
-               <head>Typology (Local)</head>
                <p rend="typologyGen" xml:space="preserve">West (Maghreb) › Morocco › Northern type</p>
                <p xml:space="preserve">Urban; pre-Hilalian-type</p>
             </div>
 
             <div type="general">
-               <head>General</head>
                <p xml:space="preserve">Tetouan is situated on the Mediterranean coast of northern Morocco on the flank of the Rīf Mountains. Its name is of Berber origin and means “the Springs”.</p>
                <p xml:space="preserve">A Roman <hi rendition="#i">oppidum</hi>, Tamuda, was near the modern town; but the town itself is not mentioned until 828, specifically regarding its military and strategic function. The fortress (<hi rendition="#i">qaṣaba</hi>) of Tétouan was founded in 1286 by the Marīnid Sultan Yūsuf b. Yaʕqūb al-Nāṣir. In the 16th century, the town played an important role in raids against the Portuguese.</p>
                <p xml:space="preserve">In the 17th and 18th centuries, Tétouan became a major and prosperous commercial centre producing and trading goods such as linen, cotton, silk, and pottery.</p>
@@ -85,7 +84,6 @@
             </div>
 
             <div type="researchHistory">
-               <head>Research history</head>
                <p xml:space="preserve"><rs type="bibl" ref="zotero:SLF9IKE4">Singer 1958a</rs> presents a short description of the nominal and 
                verbal morphology of Tetouan Arabic; and <rs type="bibl" ref="zotero:9W2NZJ9F">Singer 1958b</rs> provides several texts in 
                Tetouan Arabic with German translation.</p>
@@ -98,7 +96,6 @@
             </div>
 
             <div type="bibliography">
-               <head>Bibliography</head>
                <p xml:space="preserve">To see a list of relevant publications concerning Tétouan click <rs type="bibl" ref="bibl:geo:Tétouan">here</rs>.
                For a list of publications relating to Morocco in general click <rs type="bibl" ref="bibl:reg:Morocco">here</rs>.</p>
             </div>

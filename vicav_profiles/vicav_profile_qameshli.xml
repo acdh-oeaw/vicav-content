@@ -34,6 +34,7 @@
             <change who="#charly" when="2018-10-03" status="released"/>
         </revisionDesc>
     </teiHeader>
+    
     <text>
         <body>
             <div>
@@ -43,20 +44,26 @@
                         <head type="imgCaption" xml:space="preserve">Source: <ref target="https://upload.wikimedia.org/wikipedia/commons/b/b8/Kamishly_view.jpg">Wikimedia</ref>
                         </head>
                     </figure>
+                
                     <label>Name (English)</label>
                     <name xml:lang="eng">Qamishli</name>
+                
                     <label>MSA name</label>
                     <name xml:lang="ara">القامشلي</name>
+                
                     <label>MSA name (trans.)</label>
                     <name xml:lang="ara-x-DMG">al-Qāmišlī</name>
+                
                     <label>Local name (trans.)</label>
                     <name xml:lang="ara-Latn" type="latLoc">Qāməšli</name>
                 </head>
+                
                 <div type="positioning">
                     <p xml:space="preserve">
                         <geo>37°05′N 41°22′E</geo>
                     </p>
                 </div>
+                
                 <div type="typology">
                     <p xml:space="preserve">East (Mashriq) › Mesopotamia › Anatolia</p>
                     <p xml:space="preserve">Mixed dialect with many features of Anatolian qəltu-type sedentary dialects</p>
@@ -78,8 +85,14 @@
                         three texts, <rs type="bibl" ref="zotero:URW6JSAW">Lahdo 2000</rs> a short grammatical analysis. Sketches of the
                         phonology and morphology of similar dialects of the region are found in <rs type="bibl" ref="zotero:LGITZJAB">Behnstedt 1992</rs>.</p>
                 </div>
+                
                 <div type="dictionaries">
                     <p xml:space="preserve">In <rs type="bibl" ref="zotero:HNNMR2PR">Lahdo 1999</rs> a five-page glossary is found.</p>
+                </div>
+            
+                <div type="bibliography">
+                   <p xml:space="preserve">To view publications concerning Syria click <rs ref="bibl:reg:Syria">here</rs>. For a list of publications 
+                   concerning Arabic in Turkey click <rs ref="bibl:reg:Turkey">here</rs>.</p>
                 </div>
             </div>
         </body>
