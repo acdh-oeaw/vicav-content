@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_urfa_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_urfa_01">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,8 +12,7 @@
                 <date>2011</date>
                 <availability status="restricted">
                     <p>
-                        <ref type="license"
-                            target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+                        <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
                     </p>
                 </availability>
             </publicationStmt>
@@ -31,8 +29,7 @@
         </encodingDesc>
         <revisionDesc>
             <change status="created" when="2019-02-18" who="#stephan">created</change>
-            <change status="draft" when="2019-02-18" who="#stephan"
-                >last modified (revision 4)</change>
+            <change status="draft" when="2019-02-18" who="#stephan">last modified (revision 4)</change>
             <change status="draft" who="#charly" when="2019-02-18">transformed to TEI-XML</change>
             <change who="#charly" when="2018-10-03" status="released"/>
         </revisionDesc>
@@ -82,7 +79,10 @@
                 <div type="sampleText">
                     <p xml:space="preserve">VICAV provides a <rs ref="sample:urfa_sample_01/Şanlıurfa">Sample Text </rs> of this variety. </p>
                 </div>
-
+                 
+                <div type="bibliography">               
+                   <p xml:space="preserve">For a list of publications concerning Arabic in Turkey click <rs ref="bibl:reg:Turkey">here</rs>.</p>
+                </div>
             </div>
         </body>
     </text>

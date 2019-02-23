@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_adana_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_adana_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -33,19 +32,19 @@
       </encodingDesc>
       <revisionDesc>
          <change status="created" when="2018-12-02T09:37:00Z" who="#stephan">created</change>
-         <change status="draft" when="2019-01-25T11:15:00Z" who="#stephan"
-            >last modified (revision 6)</change>
+         <change status="draft" when="2019-01-25T11:15:00Z" who="#stephan">last modified (revision 6)</change>
          <change status="draft" when="2019-02-19T14:53:47.527+01:00">transformed to TEI-XML</change>
          <change when="2019-02-19T14:53:48.851+01:00" status="draft"/>
       </revisionDesc>
    </teiHeader>
+
    <text>
       <body>
          <div>
             <head>
                <figure>
                   <graphic url="profile_adana.jpg"/>
-                  <head type="imgCaption" xml:space="preserve">Source: Stephan Procházka 1993</head>
+                  <head type="imgCaption" xml:space="preserve">Stephan Procházka 1993</head>
                </figure>
                <label>Name (English)</label>
                <name xml:lang="eng">Adana</name>
@@ -97,6 +96,9 @@
                <p xml:space="preserve">There are numerous audio-file texts from Adana and of other Cilician dialects in <ref target="http://semarch.ub.uni-heidelberg.de">SemArch - Semitisches Tonarchiv</ref>.</p>
             </div>
 
+            <div type="bibliography">               
+               <p xml:space="preserve">For a list of publications concerning Arabic in Turkey click <rs ref="bibl:reg:Turkey">here</rs>.</p>
+           </div>
          </div>
       </body>
    </text>

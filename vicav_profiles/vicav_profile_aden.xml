@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_aden_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_aden_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -33,8 +32,7 @@
       </encodingDesc>
       <revisionDesc>
          <change status="created" when="2019-01-03T11:44:00Z" who="#aleksandra">created</change>
-         <change status="draft" when="2019-01-03T11:47:00Z" who="#aleksandra"
-            >last modified (revision 4)</change>
+         <change status="draft" when="2019-01-03T11:47:00Z" who="#aleksandra">last modified (revision 4)</change>
          <change status="draft" when="2019-02-13T17:22:51.359+01:00">transformed to TEI-XML</change>
          <change when="2019-02-13T17:22:52.959+01:00" status="draft"/>
       </revisionDesc>
@@ -115,6 +113,10 @@
                <head>Text books</head>
                <p xml:space="preserve"><rs type="bibl" ref="6LIL2PG6">Ghanem 1958</rs> is an 18-lesson textbook of Aden Arabic. 
                Each lesson includes a dialogue, notes on grammar and idioms, a grammar chapter, a vocabulary list, and exercises.</p>
+            </div>
+            
+            <div type="bibliography">               
+               <p xml:space="preserve">To view publications on Yemen click <rs type="bibl" ref="bibl:reg:Yemen">here</rs>.</p>
             </div>
          </div>
       </body>

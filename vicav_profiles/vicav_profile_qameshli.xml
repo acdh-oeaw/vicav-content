@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_qameshli_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_qameshli_01">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,8 +12,7 @@
                 <date>2018</date>
                 <availability status="restricted">
                     <p>
-                        <ref type="license"
-                            target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+                        <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
                     </p>
                 </availability>
             </publicationStmt>
@@ -31,8 +29,7 @@
         </encodingDesc>
         <revisionDesc>
             <change status="created" when="2019-02-18" who="#maria">created</change>
-            <change status="draft" when="2019-02-18" who="#maria"
-                >last modified (revision 4)</change>
+            <change status="draft" when="2019-02-18" who="#maria">last modified (revision 4)</change>
             <change status="draft" who="#charly" when="2019-02-18">transformed to TEI-XML</change>
             <change who="#charly" when="2018-10-03" status="released"/>
         </revisionDesc>
