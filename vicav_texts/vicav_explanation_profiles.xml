@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="vicavExplanationProfiles">
+                <head>Language profiles</head>
+
+                <p xml:space="preserve">At the heart of this website, there are what we call <hi rendition="#i">language
+                profiles</hi>. This type of text consists in short sketches of varieties of
+                spoken contemporary Arabic. The intention is to work in a
+                complementary manner to similar endeavours (such as EALL). For the
+                time being, we do not plan to give detailed grammatical descriptions
+                but rather focus on general information, research histories and available literature.</p>
+                
+                <div xml:id="profiles_algeria">
+                    <head>Algeria</head>
+                    <list>
+                        <item><rs ref="profile:profile_algiers_01/Algiers">Algiers</rs></item>
+                        <item><rs ref="profile:profile_cherchell_01/Cherchell">Cherchell</rs></item>
+                        <item><rs ref="profile:profile_constantine_01/Constatine">Constatine</rs></item>
+                        <item><rs ref="profile:profile_jijel_01/Jijel">Jijel</rs></item>                
+                        <item><rs ref="profile:profile_mazouna_01/Mazouna">Mazouna</rs></item>                                        
+                        <item><rs ref="profile:profile_mzab_01/Mzab">Mzab</rs></item>
+                        <item><rs ref="profile:profile_ouled_brahim_01/Ouled Brahim (Saïda)">Ouled Brahim (Saïda)</rs></item>
+                        <item><rs ref="profile:profile_oran_01/Oran">Oran</rs></item>   
+                        <item><rs ref="profile:profile_saoura_01/Saoura">Saoura</rs></item>   
+                        <item><rs ref="profile:profile_sid_bel_abbes_01/Sidi Bel Abbès">Sidi Bel Abbès</rs></item>                         
+                        <item><rs ref="profile:profile_tlemcen_01/Tlemcen">Tlemcen</rs></item>   
+                    </list>
+                </div>
+                
+                <div xml:id="profiles_egypt">
+                    <head>Egypt</head>
+                    <list>
+                        <item><rs ref="profile:profile_alexandria_01/Cairo">Alexandria</rs></item>
+                        <item><rs ref="profile:profile_cairo_01/Cairo">Cairo</rs></item>
+                    </list>
+                </div>
+                
+                <div>
+                    <head>Iran</head>
+                    <list>
+                        <item><rs ref="profile:profile_ahwaz_01/Ahwaz">Ahwas</rs></item>
+                    </list>
+                </div>
+
+                <div>
+                    <head>Iraq</head>
+                    <list>
+                        <item><rs ref="profile:profile_baghdad_01/Baghdad">Baghdad</rs></item>
+                        <item><rs ref="profile:profile_basra_01/Basra">Basra</rs></item>
+                        <item><rs ref="profile:profile_mosul_01/Mosul">Mosul</rs></item>
+                        <item><rs ref="profile:profile_shirqat_01/Shirqat">Shirqat</rs></item>                        
+                    </list>
+                </div>
+
+                <div>
+                    <head>Israel</head>
+                    <list>
+                        <item><rs ref="profile:profile_haifa_01/Haifa">Haifa</rs></item>
+                        <item><rs ref="profile:profile_tiberias_01/Tiberias">Tiberias</rs></item>
+                    </list>
+                </div>
+
+                <div>
+                    <head>Jemen</head>
+                    <list>
+                        <item><rs ref="profile:profile_aden_01/Aden">Aden</rs></item>
+                        <item><rs ref="profile:profile_sacda_01/Sa'dah">Sa'dah</rs></item>                        
+                        <item><rs ref="profile:profile_taizz_01/Taizz">Taizz</rs></item>                        
+                    </list>
+                </div>
+                
+                <div>
+                    <head>Kuwait</head>
+                    <list>
+                        <item><rs ref="profile:profile_kuwait_01/Kuwait">Kuwait</rs></item>
+                    </list>
+                </div>
+                
+                <div>
+                    <head>Lebanon</head>
+                    <list>
+                        <item><rs ref="profile:profile_baskinta_01/Baskinta">Baskinta</rs></item>
+                        <item><rs ref="profile:profile_tripoli_leb_01/Tripoli">Tripoli</rs></item>
+                        
+                    </list>
+                </div>
+                
+                <div>
+                    <head>Libya</head>
+                    <list>
+                        <item><rs ref="profile:profile_benghazi_01/Benghazi">Benghazi</rs></item>
+                    </list>
+                </div>
+                
+                <div>
+                    <head>Morocco</head>
+                    <list>                        
+                        <item><rs ref="profile:profile_chefchaouen_01/Chefchaouen">Chefchaouen</rs></item>
+                        <item><rs ref="profile:profile_larache_01/Larache">Larache</rs></item>
+                        <item><rs ref="profile:profile_sale_01/Rabat (Salé)">Rabat (Salé)</rs></item>
+                        <item><rs ref="profile:profile_taza_01/Taza">Taza</rs></item>
+                        <item><rs ref="profile:profile_tetouan_01/Tétouan">Tétouan</rs></item>                       
+                    </list>
+                </div>
+
+                <div>
+                    <head>Oman</head>
+                    <list>
+                        <item><rs ref="profile:profile_khabura_01/al-Khabura">al-Khabura</rs></item>
+                    </list>
+                </div>
+
+
+                <div>
+                    <head>Saudi Arabia</head>
+                    <list>
+                        <item><rs ref="profile:profile_al_qatif_01/al-Qatif">al-Qatif</rs></item>
+                    </list>
+                </div>
+                
+                <div>
+                    <head>Sudan</head>
+                    <list>
+                        <item><rs ref="profile:profile_khartoum_01/Khartoum">Khartoum</rs></item>
+                        <item><rs ref="profile:profile_shukriyya_01/Shukriyya">Shukriyya</rs></item>                        
+                    </list>
+                </div>
+                
+                <div>
+                    <head>Syria</head>
+                    <list>
+                        <item><rs ref="profile:profile_arwad_01/Arwad">Arwad</rs></item>
+                        <item><rs ref="profile:profile_damascus_01/Damascus">Damascus</rs></item>
+                        <item><rs ref="profile:profile_derizzor_01/Deir ez-Zor">Deir ez-Zor</rs></item>
+                        <item><rs ref="profile:profile_hama_01/Hama">Hama</rs></item>
+                        <item><rs ref="profile:profile_hawran_01/Hawran">Hawran</rs></item>
+                        <item><rs ref="profile:profile_mharde_01/Mhardeh">Mhardeh</rs></item>
+                        <item><rs ref="profile:profile_palmyra_01/Palmyra">Palmyra</rs></item>
+                        <item><rs ref="profile:profile_qameshli_01/Qamishli">Qamishli</rs></item>
+                        <item><rs ref="profile:profile_soukhne_01/Soukhne">Soukhne</rs></item>
+                    </list>
+                </div>
+
+                <div>
+                    <head>Tunesia</head>
+                    <list>
+                        <item><rs ref="profile:profile_douz_01/Douz">Douz</rs></item>
+                        <item><rs ref="profile:profile_sousse_001/Sousse">Sousse</rs></item>
+                        <item><rs ref="profile:profile_tozeur_01/Tozeur">Tozeur</rs></item>
+                        <item><rs ref="profile:profile_tunis_01/Tunis">Tunis</rs></item>
+                    </list>
+                </div>
+
+                <div>
+                    <head>Turkey</head>
+                    <list>
+                        <item><rs ref="profile:profile_adana_01/Adana">Adana</rs></item>
+                        <item><rs ref="profile:profile_daragozu_01/Daragözü">Daragözü</rs></item>
+                        <item><rs ref="profile:profile_hasankeyf_01/Hasankeyf">Hasankeyf</rs></item>
+                        <item><rs ref="profile:profile_haskoey_01/Hasköy">Hasköy</rs></item>
+                        <item><rs ref="profile:profile_mardin_01/Mardin">Mardin</rs></item>
+                        <item><rs ref="profile:profile_qameshli_01/Qamishli">Qamishli</rs></item>
+                        <item><rs ref="profile:profile_urfa_01/Şanlıurfa">Şanlıurfa</rs></item>
+                                                
+                    </list>
+                </div>
+
+                <div>
+                    <head>UAE</head>
+                    <list>
+                        <item><rs ref="profile:profile_abu_dhabi_01/Abu Dhabi">Abu Dhabi</rs></item>
+                    </list>
+                </div>
+
+                <div>
+                    <head>Yemen</head>
+                    <list>
+                        <item><rs ref="profile:profile_taizz_01/Taizz">Taizz</rs></item>
+                    </list>
+                </div>
+
+            </div>
+        </body>
+    </text>
+</TEI>

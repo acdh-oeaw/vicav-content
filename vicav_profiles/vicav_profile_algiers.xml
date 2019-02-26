@@ -1,4 +1,5 @@
-<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_algiers_01">
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_algiers_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -32,12 +33,13 @@
       </encodingDesc>
       <revisionDesc>
          <change status="created" when="2018-12-07T10:43:00Z" who="#aleksandra">created</change>
-         <change status="draft" when="2018-12-07T10:43:00Z" who="#aleksandra">last modified (revision 2)</change>
+         <change status="draft" when="2018-12-07T10:43:00Z" who="#aleksandra"
+            >last modified (revision 2)</change>
          <change status="draft" when="2019-02-18T23:06:11.704+01:00">transformed to TEI-XML</change>
          <change when="2019-02-18T23:06:13.432+01:00" status="draft"/>
       </revisionDesc>
    </teiHeader>
-   
+
    <text>
       <body>
          <div>
@@ -118,7 +120,7 @@
                consisting of 30 lessons, including 15 translated dialogues.</p>
             </div>
 
-            <div type="bibliography">               
+            <div type="bibliography">
                <p xml:space="preserve">For a list of publications concerning Algeria click <rs ref="bibl:reg:Algeria">here</rs>.</p>
             </div>
          </div>

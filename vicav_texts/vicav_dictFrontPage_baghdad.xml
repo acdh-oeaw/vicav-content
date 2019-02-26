@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICAV  MSA Dictionary Start Page</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div xml:id="dictFrontPage_Baghdad">
+            <head>A Machine-readable Dictionary of Baghdad Arabic</head>
+            
+            <p xml:space="preserve">Compiled by <hi rend="italic">Stephan Procházka</hi></p>            
+            <p xml:space="preserve"><ref target="func:openDict_Baghdad()">QUERY</ref></p>
+         </div>
+         
+      </body>
+  </text>
+</TEI>

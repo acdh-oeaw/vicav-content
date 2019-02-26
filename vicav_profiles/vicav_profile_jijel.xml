@@ -1,4 +1,5 @@
-<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_jijel_01">
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_jijel_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -32,12 +33,13 @@
       </encodingDesc>
       <revisionDesc>
          <change status="created" when="2019-01-31T10:27:00Z" who="#aleksandra">created</change>
-         <change status="draft" when="2019-01-31T10:29:00Z" who="#aleksandra">last modified (revision 3)</change>
+         <change status="draft" when="2019-01-31T10:29:00Z" who="#aleksandra"
+            >last modified (revision 3)</change>
          <change status="draft" when="2019-02-19T23:29:38.292+01:00">transformed to TEI-XML</change>
          <change when="2019-02-19T23:29:39.476+01:00" status="draft"/>
       </revisionDesc>
    </teiHeader>
-   
+
    <text>
       <body>
          <div>
@@ -47,38 +49,34 @@
                   <head type="imgCaption" xml:space="preserve">Source: <ref target="https://en.wikipedia.org/wiki/Jijel#/media/File:Vue_G%C3%A9n%C3%A9rale_sur_la_Ville_de_Jijel_(Alg%C3%A9rie).JPG">Wikimedia</ref>
                   </head>
                </figure>
-               
                <label>Name (English)</label>
                <name xml:lang="eng">Jijel (formerly Djidjelli)</name>
-
                <label>MSA name</label>
                <name xml:lang="ara">جيجل</name>
-
                <label>MSA name (trans.)</label>
                <name xml:lang="ara-x-DMG">Ğīǧal</name>
-               
                <label>Local name (trans.)</label>
                <name xml:lang="ara-Latn" type="latLoc">Žīžəl</name>
             </head>
-            
+
             <div type="positioning">
                <head>Geo location</head>
                <p xml:space="preserve">
                   <geo>36°80′N 5°77′E</geo>
                </p>
             </div>
-            
+
             <div type="typology">
                <head>Typology (Local)</head>
                <p rend="typology" xml:space="preserve">West (Maghreb) › Algeria</p>
                <p xml:space="preserve">Archaic urban dialect of the pre-Hilalian type</p>
             </div>
-            
-            <div type="general">               
+
+            <div type="general">
                <p xml:space="preserve">Jijel is a northeastern Algerian coastal city situated in the region of Corniche Jjilienne. Due to the rugged landscape, it is rather isolated. Although today the majority speak Arabic, Jijel’s population is of Berber descent – mainly of the Kutama tribe. Therefore the dialect of Jijel shows certain influences of a Berber substratum.  </p>
             </div>
-            
-            <div type="researchHistory">               
+
+            <div type="researchHistory">
                <p xml:space="preserve"><rs type="bibl" ref="zotID:QDYKKRHC">Marçais 1945-1948</rs> is a short article on plural agreement in the 
                Jijel dialect of some usually singular nouns. Marçais 1954 is a collection of texts, including five on everyday life, six folk 
                narratives, and twelve songs in the dialect of Jijel. Marçais 1956 is a comprehensive study of the dialect of Jijel, 
@@ -86,12 +84,12 @@
                verb, the noun, pronouns, and particles. The chapter on syntax, however, consists of only ten pages focusing on topics 
                like affirmation and negation. In the conclusion, the author discusses the Jijel dialect's Berber substratum and its innovative features.</p>
             </div>
-            
-            <div type="dictionaries">               
+
+            <div type="dictionaries">
                <p xml:space="preserve"><rs type="bibl" ref="zotID:Y37XX42R">Marçais 1954</rs> includes a glossary of about 40 pages. 
                <rs type="bibl" ref="zotID:VN6XFWA6">Marçais 1956</rs> contains significant lexicographical information.</p>
             </div>
-            
+
             <div type="bibliography">
                <p xml:space="preserve">For a list of publications concerning Algeria click <rs ref="bibl:reg:Algeria">here</rs>.</p>
             </div>

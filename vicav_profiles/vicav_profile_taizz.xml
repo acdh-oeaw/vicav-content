@@ -1,10 +1,12 @@
-<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_taizz_01">
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_taizz_01">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>A machine-readable profile of Taizz Arabic</title>
         <author xml:id="Benjamin">Benjamin Suter</author>
-        <editor xml:id="charly" role="Technical_Editor">Karlheinz Moerth</editor>
+        <editor xml:id="charly" role="Technical_Editor"
+          >Karlheinz Moerth</editor>
       </titleStmt>
       <publicationStmt>
         <publisher>ACDH-OeAW</publisher>
@@ -12,7 +14,8 @@
         <date>2018</date>
         <availability status="restricted">
           <p>
-            <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+            <ref type="license"
+              target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
           </p>
         </availability>
       </publicationStmt>
@@ -23,13 +26,16 @@
     <encodingDesc>
       <tagsDecl partial="true">
         <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
-        <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+        <rendition xml:id="u" scheme="css"
+          >text-decoration:underline;</rendition>
         <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
       </tagsDecl>
     </encodingDesc>
     <revisionDesc>
-      <change status="created" when="2019-02-18" who="#Benjamin">created</change>
-      <change status="draft" when="2019-02-18" who="#Benjamin">last modified (revision 4)</change>
+      <change status="created" when="2019-02-18" who="#Benjamin"
+        >created</change>
+      <change status="draft" when="2019-02-18" who="#Benjamin"
+        >last modified (revision 4)</change>
       <change status="draft" when="2019-02-18">transformed to TEI-XML</change>
       <change who="#charly" when="2018-10-03" status="released"/>
     </revisionDesc>
@@ -44,25 +50,23 @@
           </figure>
           <label>Name (English)</label>
           <name xml:lang="eng">Taizz</name>
-          
           <label>MSA name</label>
           <name xml:lang="ara">تعزّ</name>
-          
           <label>MSA name (trans.)</label>
           <name xml:lang="ara-x-DMG">Taˁizz</name>
         </head>
-        
+
         <div type="positioning">
           <p xml:space="preserve">
               <geo>13°57′N 44°01′E</geo>
             </p>
         </div>
-        
+
         <div type="typology">
           <p xml:space="preserve">East (Mashriq) › Arabia › Yemen › Western Highlands</p>
           <p xml:space="preserve">Urban dialect of mixed character</p>
         </div>
-        
+
         <div type="general">
           <p xml:space="preserve">Taizz is located on the crossings of several main roads
               connecting it directly with Sanaa in the north, Aden in the south,
@@ -78,7 +82,7 @@
               with a t and cannot be considered typical for Taˁizzī Arabic
               nowadays.</p>
         </div>
-        
+
         <div type="researchHistory">
           <p xml:space="preserve">The dialect of Taizz has not yet been studied thoroughly. In
               <rs type="bibl" ref="zotID:SPGEW23P">Werner Diem’s Skizzen jemenitischer Dialekte 1973</rs>, a short description of
@@ -91,12 +95,12 @@
               lexical and grammatical features of Taˁizzī Arabic with other
               Yemeni dialects. </p>
         </div>
-        
+
         <div type="dictionaries">
           <p xml:space="preserve">Some dialectal vocabulary related to Taizz is 
             found in <rs type="bibl" ref="zotID:WMBPXL55">Peter Behnstedt’s Glossar 1992-2006</rs>.</p>
         </div>
-        
+
         <div type="bibliography">
           <p xml:space="preserve">To view publications on this variety <rs type="bibl" ref="bibl:geo:Taizz">follow this link</rs>. 
           To view publications on Yemen click <rs type="bibl" ref="bibl:reg:Yemen">here</rs>.</p>

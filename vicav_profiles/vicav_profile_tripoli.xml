@@ -1,4 +1,5 @@
-<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_tripoli_leb__01">
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_tripoli_leb_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -32,7 +33,8 @@
       </encodingDesc>
       <revisionDesc>
          <change status="created" when="2018-11-20T11:35:00Z" who="#aleksandra">created</change>
-         <change status="draft" when="2018-11-20T11:37:00Z" who="#aleksandra">last modified (revision 4)</change>
+         <change status="draft" when="2018-11-20T11:37:00Z" who="#aleksandra"
+            >last modified (revision 4)</change>
          <change status="draft" when="2019-02-19T23:31:18.658+01:00">transformed to TEI-XML</change>
          <change when="2019-02-19T23:31:19.63+01:00" status="draft"/>
       </revisionDesc>
@@ -46,36 +48,32 @@
                   <head type="imgCaption" xml:space="preserve">Source: <ref target="https://de.wikipedia.org/wiki/Tripoli_(Libanon)#/media/File:OldTripoli.jpg">Wikimedia</ref>
                   </head>
                </figure>
-               
-               <label>Name (English)</label>               
+               <label>Name (English)</label>
                <name xml:lang="eng">Tripoli</name>
-               
                <label>MSA name</label>
                <name xml:lang="ara">طرابلس</name>
-
                <label>MSA name (trans.)</label>
                <name xml:lang="ara-x-DMG">Ṭarābulus</name>
-               
             </head>
-            
+
             <div type="positioning">
                <head>Geo location</head>
                <p xml:space="preserve">
                   <geo>34°43′N 35°83′E</geo>
                </p>
             </div>
-            
+
             <div type="typology">
                <head>Typology (Local)</head>
                <p rend="typology" xml:space="preserve">East (Mashreq) › Levant › Lebanon › Northern group</p>
                <p xml:space="preserve">Urban sedentary dialect</p>
             </div>
-            
-            <div type="general">               
+
+            <div type="general">
                <p xml:space="preserve">Tripoli is the second largest city of Lebanon and the largest city in the north of the country. Its Crusader fortress is the largest in Lebanon. Tripoli’s population has a large majority of Arab Sunni Muslims. Lebanon’s small Alawite community also mainly lives in Tripoli and its surroundings.</p>
             </div>
-            
-            <div type="researchHistory">               
+
+            <div type="researchHistory">
                <p xml:space="preserve">The dialect of Tripoli represents a neglected area of Lebanease dialect studies; 
                only <rs type="bibl" ref="zotID:AREUTHYM">El-Hajjé 1954</rs>, the author himself a native-speaker of 
                the dialect, covers the area. That work offers an overview of the phonology and morphology of the 
@@ -83,11 +81,11 @@
                of the city. The study also includes a map of Tripoli and a chart, based on data from the 1950s, of the 
                transition from <hi rendition="#i">q</hi> to <hi rendition="#i">ʔ</hi>.</p>
             </div>
-            
-            <div type="bibliography">               
+
+            <div type="bibliography">
                <p xml:space="preserve">To get all our bibliographical records related to Lebanon, click <rs type="bibl" ref="bibl:reg:Lebanon">here</rs>.</p>
             </div>
-            
+
          </div>
       </body>
    </text>

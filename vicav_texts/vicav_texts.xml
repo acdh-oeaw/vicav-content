@@ -22,72 +22,6 @@
   <text>
     <body>
 
-      <div xml:id="vicavMission">
-        <head>Vienna Corpus of Arabic Varieties (VICAV)</head>
-
-        <p xml:space="preserve">VICAV is an international endeavour aiming at the collection of
-    digital language resources documenting varieties of spoken Arabic.
-    While in principle being open to any type of text, we currently focus
-    on bibliographical data, on so-called <hi rend="italic">language 
-    profiles</hi>, standardised <hi rend="italic">feature lists</hi> 
-    and <hi rend="italic">lexical data</hi>.</p>
-
-        <p xml:space="preserve">
-    <graphic url="tei_banner.jpg" rend="inParagraph"/>
-    VICAV has a strong methodological component focusing on the 
-    development of digital data and tools. A large part of these
-    efforts is concentrated on modelling data and providing documentation
-    for developmental and pedagogical purposes. VICAV is strongly committed 
-    to the <hi rend="italic">Text Encoding Initiative</hi> (TEI). We provide 
-    a <ref target="text:vicavDictionaryEncoding/DICTIONARY ENCODING">detailed 
-    documentation of our lexical data</ref>.   
-  </p>
-
-        <p xml:space="preserve">VICAV has been started as a co-operation between the Department of
-    Oriental Studies of the University of Vienna and the Austrian Centre
-    for Digital Humanities of the Austrian Academy of Sciences (ACDH-OeAW).
-    The institutional frame of the project is defined by a repository for 
-    digital research data, a University and a national Academy, all of which 
-    is meant to ensure long-term availability of both data and the 
-    web-interface.</p>
-      </div>
-
-
-      <div xml:id="vicavLinguistics">
-        <head>Linguistics</head>
-
-        <p xml:space="preserve">The VICAV Research Environment has been designed as a tool for the
-      presentation of digital material concerning Arabic dialectology. It
-      was intended as a means to promote the efficient exchange of ideas and
-      experiences in an active international community.</p>
-
-        <p xml:space="preserve">VICAV serves as an interface between areal and corpus linguistics.
-      The aim is to gather varying digital language resources for a number
-      of different localities. The description of the different varieties
-      hinges on a particular type of text which we call ’language profiles’,
-      concise and standardised ‘form sheets’ that display uniformly arranged
-      information on research history, available literature, salient
-      grammatical features etc. The website will also make accessible
-      bibliographies, dictionaries, glossaries, and different types of
-      transcribed texts.</p>
-
-        <p xml:space="preserve">The project proceeds from two basic assumptions: In Arabic
-      dialectology, information on new findings and current developments is
-      mainly exchanged at international conferences and in scientific
-      journals. Due to a steadily increasing number of projects which
-      produce digital data too there is an increasing need to make these
-      data quickly available to others in the field. There already exist a
-      couple of individual webpages which - due to the lack of resources -
-      often do not match professional standards. There is a big gap between
-      the linguistics communities and Arabic Studies in general and Arabic
-      dialectology in particular. Linguistic studies in Arabic dialects have
-      widely ignored the works of traditional, i.e. philologically based,
-      dialectology and vice versa. We are convinced that VICAV has the
-      potential to help to bridge this gap to the benefit of both
-      disciplines.</p>
-      </div>
-      <!-- End of vicavLinguistics -->
-
       <div xml:id="vicavDictionaries">
         <head>Dictionaries</head>
         <div>
@@ -586,37 +520,6 @@
    -->
       </div>
 
-      <div xml:id="dictFrontPage_Cairo">
-        <head>A Digital Dictionary of Cairo Arabic</head>
-
-        <p xml:space="preserve">Compiled by <hi rend="italic">Karlheinz Mörth</hi>
-          <lb/>
-  In collaboration with <hi rend="italic">Tarek Eltayeb</hi>
-  </p>
-
-        <p xml:space="preserve">This small dictionary was started as part of a course in Egyptian
-    Arabic at the University of Vienna.</p>
-
-        <p xml:space="preserve">
-    <ref target="func:openDict_Cairo()">QUERY</ref>
-  </p>
-
-        <p xml:space="preserve">
-    <graphic url="766px-Cairo-citadel-1800s_green.jpg"/>
-   </p>
-      </div>
-
-      <div xml:id="dictFrontPage_MSA">
-        <head>A Machine-readable Dictionary of Modern Standard Arabic</head>
-
-        <p xml:space="preserve">Compiled by <hi rend="italic">Stephan Procházka, Lea Müller-Funk,
-      Karlheinz Mörth</hi>
-  </p>
-
-        <p xml:space="preserve">
-    <ref target="func:openDict_MSA()">QUERY</ref>
-  </p>
-      </div>
 
 
       <div xml:id="dictFrontPage_Tunis">

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vicav Contributors</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="vicavContributors">
+            <head>Contributors</head>
+            <p xml:space="preserve">The project has been conducted as a co-operation between the
+    Department of Oriental Studies of the University of Vienna and the
+    Austrian Centre of Digital Humanities of the Austrian Academy of
+    Sciences (ACDH-OeAW). This group of researchers is committed to work
+    in the spirit of Open Access and aim at making freely available for
+    research as many digital language recources as possible.</p>
+
+            <p xml:space="preserve">VICAV is a collaborative undertaking. We are aiming at serving the
+    community at large and want to be as inclusive as possible. Contact us
+    if you want to participate in our efforts.</p>
+
+            <p xml:space="preserve">So far the following researchers have contributed to the pool of
+    data.</p>
+
+            <div type="dvContributor">
+               <head>Rima Aldoukhi</head>
+               <p xml:space="preserve"><graphic url="dummy_f.png"/>… is a first language speaker of Damascus Arabic and lecturer at
+      the University of Vienna. She has been working extensively on the
+      Damascus dictionary.</p>
+            </div>
+
+            <div type="dvContributor">
+               <head>Carmen Berlinches Ramos</head>
+               <p xml:space="preserve"><graphic url="carmenB.jpg"/>… has a PhD in Arabic Studies from the Complutense University of
+      Madrid and is one of our Damascus specialists. She prepared many
+      entries of the Damascus dictionary.</p>
+            </div>
+
+            <div type="dvContributor">
+               <head>Asil Çetin</head>
+               <p xml:space="preserve"><graphic url="asilC.png"/>… is our web-design specialist.</p>
+            </div>
+
+            <div type="dvContributor">
+               <head>Ines Dallaji</head>
+               <p xml:space="preserve"><graphic url="inesD.jpg"/>… is a specialist in Tunisian Arabic, was working on the Tunisian
+      dictionary and provided the language profile of Tunis.</p>
+            </div>
+
+            <div type="dvContributor">
+               <head>Terlan Djavadova</head>
+
+               <p xml:space="preserve"><graphic url="dummy_f.png"/>… is currently a student assistent at the Institute of Oriental
+      Studies of the University of Vienna. She has been working on several
+      parts of the VICAV website so far, in particular the
+      bibliography.</p>
+            </div>
+
+            <div type="dvContributor">
+               <head>Aleksandra Ercegovčević</head>
+               <p xml:space="preserve"><graphic url="alexandraE.jpg"/>… is a student assistent at the University of Vienna and prepared many of the language profiles.</p>
+            </div>
+
+            <div type="dvContributor">
+               <head>Ines Gabsi</head>
+               <p xml:space="preserve"><graphic url="inesG.jpg"/>… is a specialist in Tunisian Arabic and was working on the
+      Tunisian dictionary.</p>
+            </div>
+
+            <div type="dvContributor">
+               <head>Charly Mörth</head>
+               <p xml:space="preserve"><graphic url="charlyM.png"/>… has prepared some of our Egyptian material. He takes a great
+      interest in the interface between linguistics and digital language
+      ressources doing research in the fields of virtual research
+      environments and language related standards.</p>
+            </div>
+
+            <div type="dvContributor">
+               <head>Lea Müller-Funk</head>
+               <p xml:space="preserve"><graphic url="dummy_f.png"/>… contributed to our MSA reference dictionary.</p>
+            </div>
+
+            <div type="dvContributor">
+               <head>Stephan Procházka</head>
+               <p xml:space="preserve">
+                  <graphic url="stephan.jpg"/>… is professor of Arabic language at the University of Vienna. Between 2004 - 2015, he served 
+      as president of the <ref target="https://en.wikipedia.org/wiki/International_Association_of_Arabic_Dialectology">International Association of Arabic Dialectology (AIDA)</ref>. Together with Charly Moerth he initiated the
+      VICAV project.</p>
+            </div>
+
+            <div type="dvContributor">
+               <head>Veronika Ritt-Benmimoun</head>
+               <p xml:space="preserve"><graphic url="dummy_f.png"/>… is assistant professor of Arabic linguistics at the Institute of
+      Oriental Studies of the University of Vienna and a leading
+      specialist in Tunisian Bedouin dialects.</p>
+            </div>
+
+            <div type="dvContributor">
+               <head>Daniel Schopper</head>
+               <p xml:space="preserve"><graphic url="danielS.png"/>… has been behind most of the technical developments in VICAV, both assisting setting up the application, working on workflows, designing the TEI model of large parts of the infrastructure.</p>
+            </div>
+
+            <div type="dvContributor">
+               <head>Naima Sekiati</head>
+               <p xml:space="preserve"><graphic url="dummy_f.png"/>… is lecturer for Moroccan Arabic at the University of Vienna and
+      prepared the profile of Salé.</p>
+            </div>
+
+            <div type="dvContributor">
+               <head>Omar Siam</head>
+               <p xml:space="preserve"><graphic url="omarS.png"/>… has been in charge of many text technological aspects of this
+      site.</p>
+            </div>
+
+            <div type="dvContributor">
+               <head>Anna Telič</head>
+               <p xml:space="preserve"><graphic url="annaT.jpg"/>… was lecturer for Syrian Arabic at the University of Vienna and has
+      been responsible for the re-checking of the data in the Damascus
+      dictionary.</p>
+            </div>
+
+            <div type="dvContributor">
+               <head>Other Contributors</head>
+               <p xml:space="preserve">A number of MA and PhD students in Arabic Studies at the University
+      of Vienna contributed profiles to this website. Among these are
+      Natanja Faschinger, Lea Bäumler, Faiz Alshehri and others. </p>
+            </div>
+         </div>
+         <!-- End of vicavContributors -->
+      </body>
+   </text>
+</TEI>

@@ -1,4 +1,5 @@
-<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="proprofile_{location}_01 file_haifa_01">
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_haifa_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -32,7 +33,8 @@
       </encodingDesc>
       <revisionDesc>
          <change status="created" when="2018-12-02T12:45:00Z" who="#stephan">created</change>
-         <change status="draft" when="2018-12-29T13:47:00Z" who="#stephan">last modified (revision 6)</change>
+         <change status="draft" when="2018-12-29T13:47:00Z" who="#stephan"
+            >last modified (revision 6)</change>
          <change status="draft" when="2019-02-19T23:29:23.225+01:00">transformed to TEI-XML</change>
          <change when="2019-02-19T23:29:24.311+01:00" status="draft"/>
       </revisionDesc>
@@ -45,18 +47,14 @@
                   <graphic url="haifa.jpg"/>
                   <head type="imgCaption" xml:space="preserve">Stephan Procházka 2003</head>
                </figure>
-               
                <label>Name (English)</label>
                <name xml:lang="eng">Haifa</name>
-               
                <label>MSA name</label>
                <name xml:lang="ara">حيفا</name>
-               
                <label>MSA name (trans.)</label>
                <name xml:lang="ara-x-DMG">Ḥayfā</name>
-               
                <label>Local name (trans.)</label>
-               <name xml:lang="ara-Latn" type="latLoc">Ḥēfa</name>                              
+               <name xml:lang="ara-Latn" type="latLoc">Ḥēfa</name>
             </head>
             <div type="positioning">
                <head>Geo location</head>
@@ -64,33 +62,33 @@
                   <geo>32°82′N 34°98′E</geo>
                </p>
             </div>
-            
+
             <div type="typology">
                <head>Typology (Local)</head>
                <p rend="typology" xml:space="preserve">East (Mashreq) › Levant › Palestine › Galilee</p>
                <p xml:space="preserve">Originally an urban sedentary dialect, today a mixture of urban and rural dialects.</p>
             </div>
-            
-            <div type="general">               
+
+            <div type="general">
                <p xml:space="preserve">Presently only about 10 per cent of the inhabitants of Israel’s third-largest city 
                are Arabs. According to Geva-Kleinberger 2004 the original urban dialect was spoken by Muslims, Christians, 
                and Jews. It has been preserved only in the speech of very old people. Because of migration from the 
                countryside the contemporary dialect is a mixture of different, particularly North Palestinian, varieties.</p>
             </div>
-            
-            <div type="researchHistory">               
+
+            <div type="researchHistory">
                <p xml:space="preserve">Some data on Haifa can be found in Bergsträsser’s linguistic atlas of Syria and 
                Palestine (<rs type="bibl" ref="zotID:S2N4A7KD">Bergsträsser 1915</rs>, no. 30 on the maps). The only 
                comprehensive study on the original dialect is <rs type="bibl" ref="zotID:5BT83454">Geva-Kleinberger 2004</rs>, 
                which provides a complete description of the phonology and morphology plus 34 texts in transcription and German 
                translation from Christian, Jewish, and Muslim speakers.</p>
             </div>
-            
-            <div type="dictionaries">               
+
+            <div type="dictionaries">
                <p xml:space="preserve"><rs type="bibl" ref="zotID:5BT83454">Geva-Kleinberger 2004</rs> contains a 75-page 
                glossary and lists of loanwords from Aramaic, German, English, Ottoman-Turkish etc.</p>
             </div>
-            
+
             <div type="bibliography">
                <p xml:space="preserve">For a list of publications concerning Arabic in 
                  the area of Israel click <rs ref="bibl:reg:Israel">here</rs>, for Palestine click <rs ref="bibl:reg:Palestine">here</rs></p>
