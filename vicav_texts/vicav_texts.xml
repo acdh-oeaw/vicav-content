@@ -158,8 +158,7 @@
               <cell rend="tdQuery">ʿ</cell>
               <cell rend="tdQuery">3</cell>
               <cell rend="tdQuery">Pharyngal voiced fricative</cell>
-              <cell rend="tdQuery"
-                >LATIN LETTER PHARYNGEAL VOICED FRICATIVE</cell>
+              <cell rend="tdQuery">LATIN LETTER PHARYNGEAL VOICED FRICATIVE</cell>
             </row>
             <row>
               <cell rend="tdQuery">ḏ̣</cell>
@@ -259,8 +258,7 @@
               <cell rend="tdQuery">ل</cell>
               <cell rend="tdQuery">l</cell>
               <cell rend="tdQuery">l</cell>
-              <cell rend="tdQuery"
-                >Pharyngealized alveolar lateral approximant</cell>
+              <cell rend="tdQuery">Pharyngealized alveolar lateral approximant</cell>
               <cell rend="tdQuery">LATIN SMALL LETTER L WITH DOT BELOW</cell>
             </row>
             <row>
@@ -296,8 +294,7 @@
               <cell rend="tdQuery">ص</cell>
               <cell rend="tdQuery">ṣ</cell>
               <cell rend="tdQuery">9</cell>
-              <cell rend="tdQuery"
-                >Pharyngealized voiceless alveolar sibilant</cell>
+              <cell rend="tdQuery">Pharyngealized voiceless alveolar sibilant</cell>
               <cell rend="tdQuery">LATIN SMALL LETTER S WITH DOT BELOW</cell>
             </row>
             <row>
@@ -324,8 +321,7 @@
               <cell rend="tdQuery">ث</cell>
               <cell rend="tdQuery">ṯ</cell>
               <cell rend="tdQuery">th,s</cell>
-              <cell rend="tdQuery"
-                >Voiceless dental non-sibilant fricative</cell>
+              <cell rend="tdQuery">Voiceless dental non-sibilant fricative</cell>
               <cell rend="tdQuery">LATIN SMALL LETTER T WITH LINE BELOW</cell>
             </row>
             <row>
@@ -343,8 +339,7 @@
               <cell rend="tdQuery">ز,ظ</cell>
               <cell rend="tdQuery">z,ẓ</cell>
               <cell rend="tdQuery">z</cell>
-              <cell rend="tdQuery"
-                >Pharyngealized voiced alveolar sibilant</cell>
+              <cell rend="tdQuery">Pharyngealized voiced alveolar sibilant</cell>
               <cell rend="tdQuery">LATIN SMALL LETTER Z WITH DOT BELOW</cell>
             </row>
             <row>
@@ -394,797 +389,6 @@
       </div>
       <!-- End of vicavDictionaries -->
 
-      <div xml:id="vicavTypesOfText">
-        <head>Types of Text/Data</head>
-
-        <p xml:space="preserve">Apart from its linguistic goals, the project has been pursuing strong
-    interests in various aspects of text technology. The output of the
-    work of the contributors is published in form of different types of
-    digital language ressources. Our research interests in this
-    respect have been related to issues of digital lexicography, visualisation
-    of digital language resources in a multilingual environment and the
-    application of standards and de-facto standards such as TEI, LMF
-    and/or MAF in the creation of digital language resources.</p>
-
-        <div>
-          <head>Language profiles</head>
-
-          <p xml:space="preserve">At the heart of the website, there are what we have called language
-        profiles. This type of text consist in short sketches of varieties 
-        of spoken contemporary Arabic. The intention has been to work 
-        a complementary manner to similar endeavours (such as EALL). For the
-        time being, we do not plan to give detailed grammatical descriptions
-        but rather focus on general information, research histories and
-        available literature.</p>
-        </div>
-
-        <div>
-          <head>Dictionaries</head>
-
-          <p xml:space="preserve">We have been working on several digital dictionaries which have 
-        been created as part of different projects. We call them dictionaries 
-        (and not glosaries) as they are made up of self-contained entries which are
-        not only used as glosses. All of these have been created to be used
-        as part of language teaching activities.</p>
-        </div>
-
-        <div>
-          <head>Bibliography</head>
-
-          <p xml:space="preserve">The bibliography is an ongoing effort. Given the limitted
-        resources at our disposal, it can not be exhaustive. Here again, 
-        one of our intentions is to provide the community with readily reusable
-        standardised material.</p>
-        </div>
-
-        <div>
-          <head>Standards</head>
-
-          <p xml:space="preserve">An important part of our work is standards and de-facto standards.
-        The most important part of this toolbox are the 
-        <ref target="http://www.tei-c.org/Guidelines/P5/">Guidelines of the 
-        Text Encoding Initiative (P5)</ref>.</p>
-        </div>
-      </div>
-      <!-- End of vicavTypesOfText -->
-
-      <div xml:id="vicavExplanationBibliography">
-        <head>Bibliography</head>
-
-        <p xml:space="preserve">The bibliography is an ongoing effort. Given our limitted resources
-    and the large number of relevant publications, it can not be
-    exhaustive. Much of the data has been extracted from other ressources.
-    We are working continually at improving and harmonising the data.</p>
-
-        <p xml:space="preserve">The bibliography has been compiled in a ZOTERO group. We have
-  enriched the items in the database with geo-information which makes it
-  possible to visualise all items that were provided with geo-data on
-  the map.</p>
-
-        <div>
-          <head>Places and Regions</head>
-          <p xml:space="preserve">An old problem in this kind of visualisations is how to deal with
-    regions and countries as they almost never coincide with the
-    linguistic phenomena we want to describe. We have not even attempted
-    to think about shapes. However, we simply put circles (instead of
-    blue needles) somewhere inside the region we want to descibe.</p>
-        </div>
-
-        <div>
-          <head>Maps and Text Queries</head>
-          <p xml:space="preserve">The bibliography can be searched in a dual mode: either by clicking
-    on locations in the map or <ref target="func:createNewQueryBiblioPanel()">by searching for
-      strings</ref>.</p>
-        </div>
-
-        <div>
-          <head>Examples</head>
-          <p xml:space="preserve">The following examples should give you a headstart with the simple
-    query language. Bear in mind that not all bibliographic records have been 
-    furnished with geo data. 
-  </p>
-
-          <table rend="tbQueryExamples">
-            <row>
-              <cell rend="tdQuery">
-                <hi rend="italic">historique</hi>
-              </cell>
-              <cell rend="tdQuery">All entries with the string <hi rend="italic"
-                  >historique</hi>.</cell>
-              <cell rend="tdQuery">
-                <ref target="bibl:historique">→Text</ref>
-              </cell>
-              <cell rend="tdQuery">
-                <ref target="mapMarkers:historique">→Map</ref>
-              </cell>
-            </row>
-            <row>
-              <cell rend="tdCommentSpan">
-                <p xml:space="preserve">To make use of the geo-tags the prefixes <hi rend="italic">geo:</hi> and <hi rend="italic">reg:</hi> are used.</p>
-              </cell>
-            </row>
-            <row>
-              <cell rend="tdQuery">
-                <hi rend="italic">reg:Egypt</hi>
-              </cell>
-              <cell rend="tdQuery"
-                  >All entries that contain information about
-          <hi
-                  rend="italic">reg:Egypt</hi>.</cell>
-              <cell rend="tdQuery">
-                <ref target="bibl:reg:Egypt">→Text</ref>
-              </cell>
-              <cell rend="tdQuery"/>
-            </row>
-            <row>
-              <cell rend="tdQuery">
-                <hi rend="italic">geo:Cairo</hi>
-              </cell>
-              <cell rend="tdQuery">The prefix <hi rend="italic"
-                >geo:</hi> is
-        used for particular places.</cell>
-              <cell rend="tdQuery">
-                <ref target="bibl:geo:Cairo">→Text</ref>
-              </cell>
-              <cell rend="tdQuery"/>
-            </row>
-            <row>
-              <cell rend="tdCommentSpan">
-                <p xml:space="preserve">The prefix <hi rend="italic">vt:</hi> stands for <hi rend="italic">VICAV taxonomy</hi>. 
-          Try to combine it with theses expressions: <hi rend="italic">bedouin dialect</hi>,
-            <hi rend="italic">morphology</hi>, <hi rend="italic">phonology</hi>, 
-            <hi rend="italic">syntax</hi> or <hi rend="italic">urban dialect</hi>.</p>
-              </cell>
-            </row>
-            <row>
-              <cell rend="tdQuery">
-                <hi rend="italic">vt:bedouin dialect</hi>
-              </cell>
-              <cell rend="tdQuery"/>
-              <cell rend="tdQuery">
-                <ref target="bibl:vt:bedouin dialect">→Text</ref>
-              </cell>
-              <cell rend="tdQuery">
-                <ref target="mapMarkers:vt:bedouin dialect">→Map</ref>
-              </cell>
-            </row>
-            <row>
-              <cell rend="tdQuery">
-                <hi rend="italic">vt:dictionary</hi>
-              </cell>
-              <cell rend="tdQuery"/>
-              <cell rend="tdQuery">
-                <ref target="bibl:vt:dictionary">→Text</ref>
-              </cell>
-              <cell rend="tdQuery">
-                <ref target="mapMarkers:vt:dictionary">→Map</ref>
-              </cell>
-            </row>
-            <row>
-              <cell rend="tdQuery">
-                <hi rend="italic">vt:morphology</hi>
-              </cell>
-              <cell rend="tdQuery"/>
-              <cell rend="tdQuery">
-                <ref target="bibl:vt:morphology">→Text</ref>
-              </cell>
-              <cell rend="tdQuery">
-                <ref target="mapMarkers:vt:morphology">→Map</ref>
-              </cell>
-            </row>
-            <row>
-              <cell rend="tdQuery">
-                <hi rend="italic">vt:phonology</hi>
-              </cell>
-              <cell rend="tdQuery"/>
-              <cell rend="tdQuery">
-                <ref target="bibl:vt:phonology">→Text</ref>
-              </cell>
-              <cell rend="tdQuery">
-                <ref target="mapMarkers:vt:phonology">→Map</ref>
-              </cell>
-            </row>
-            <row>
-              <cell rend="tdCommentSpan">
-                <p xml:space="preserve">It is also possible to combine query terms.</p>
-              </cell>
-            </row>
-            <row>
-              <cell rend="tdQuery">
-                <hi rend="italic">vt:dictionary &amp; reg:Egypt</hi>
-              </cell>
-              <cell rend="tdQuery"
-                >This string finds all ZOTERO entries marked
-        up as a dictionary belonging into the area of Egypt.</cell>
-              <cell rend="tdQuery">
-                <ref target="bibl:vt:dictionary &amp; reg:Egypt">→Text</ref>
-              </cell>
-              <cell rend="tdQuery"/>
-            </row>
-
-          </table>
-
-        </div>
-
-        <div>
-          <head>Taxonomy I</head>
-          <p xml:space="preserve">We have started to apply a taxonomy to the bibliographic items in
-    our ZOTERO library. All of this is work in progress. In most cases
-    the keywords have only been applied to part of the data. The following 
-    list mereley serves as a starting point for discussion and as a technical
-    reference.</p>
-
-          <p xml:space="preserve">You have to add the prefix <hi rend="italic">vt:</hi> when using
-    them in queries. Currently the bibliography contains the following
-    labels:</p>
-
-          <div>
-            <head>Ling. Subgroups</head>
-
-            <table rend="tbQueryExamples">
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:creole</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:creole</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:creole">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:creole">→Map</ref>
-                </cell>
-              </row>
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:bedouin dialect</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:bedouin dialect</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:bedouin dialect">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:bedouin dialect">→Map</ref>
-                </cell>
-              </row>
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:sedentary dialect</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:sedentary dialect</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:sedentary dialect">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:sedentary dialect">→Map</ref>
-                </cell>
-              </row>
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:urban dialect</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:urban dialect</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:urban dialect">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:urban dialect">→Map</ref>
-                </cell>
-              </row>
-            </table>
-          </div>
-
-          <div>
-            <head>Communal dialects</head>
-
-            <table rend="tbQueryExamples">
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:Jewish dialects</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:Jewish dialects</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:Jewish dialects">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:Jewish dialects">→Map</ref>
-                </cell>
-              </row>
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:Christian dialects</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:Christian dialects</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:Christian dialects">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:Christian dialects">→Map</ref>
-                </cell>
-              </row>
-            </table>
-          </div>
-
-          <div>
-            <head>Disciplines</head>
-
-            <table rend="tbQueryExamples">
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:vt:phonology</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:vt:phonology</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:phonology">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:phonology">→Map</ref>
-                </cell>
-              </row>
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:morphology</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:morphology</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:morphology">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:morphology">→Map</ref>
-                </cell>
-              </row>
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:syntax</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:syntax</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:syntax">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:syntax">→Map</ref>
-                </cell>
-              </row>
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:lexicon</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:lexicon</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:lexicon">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:lexicon">→Map</ref>
-                </cell>
-              </row>
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:sociolinguistics</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:sociolinguistics</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:sociolinguistics">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:sociolinguistics">→Map</ref>
-                </cell>
-              </row>
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:anthropology</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:anthropology</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:anthropology">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:anthropology">→Map</ref>
-                </cell>
-              </row>
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:linguistics/dialectology</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:linguistics/dialectology</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:linguistics/dialectology">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:linguistics/dialectology"
-                    >→Map</ref>
-                </cell>
-              </row>
-            </table>
-          </div>
-
-          <div>
-            <head>Genre / Type of Text</head>
-
-            <table rend="tbQueryExamples">
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:description of dialect</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:description of dialect</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:description of dialect">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:description of dialect">→Map</ref>
-                </cell>
-              </row>
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:general/comparative study</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:general/comparative study</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:general/comparative study">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:general/comparative study"
-                    >→Map</ref>
-                </cell>
-              </row>
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:general/comparative study</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:general/comparative study</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:general/comparative study">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:general/comparative study"
-                    >→Map</ref>
-                </cell>
-              </row>
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:textbook</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:textbook</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:textbook">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:textbook">→Map</ref>
-                </cell>
-              </row>
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:transcribed texts</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:transcribed texts</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:transcribed texts">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:transcribed texts">→Map</ref>
-                </cell>
-              </row>
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:conversation/dialogue</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:conversation/dialogue</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:conversation/dialogue">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:conversation/dialogue">→Map</ref>
-                </cell>
-              </row>
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:oral poetry</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:oral poetry</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:oral poetrye">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:oral poetry">→Map</ref>
-                </cell>
-              </row>
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:oral narratives</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:oral narratives</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:oral narratives">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:oral narratives">→Map</ref>
-                </cell>
-              </row>
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:songs</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:songs</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:songs">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:songs">→Map</ref>
-                </cell>
-              </row>
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:proverbs</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:proverbs</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:proverbs">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:proverbs">→Map</ref>
-                </cell>
-              </row>
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:ethnographic record</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:ethnographic record</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:ethnographic record">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:ethnographic record">→Map</ref>
-                </cell>
-              </row>
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:dictionary</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:dictionary</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:dictionary">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:dictionary">→Map</ref>
-                </cell>
-              </row>
-              <row>
-                <cell rend="tdQuery">
-                  <hi rend="italic">vt:glossary</hi>
-                </cell>
-                <cell rend="tdQuery">All entries with the tag <hi rend="italic"
-                    >vt:glossary</hi>.</cell>
-                <cell rend="tdQuery">
-                  <ref target="bibl:vt:glossary">→Text</ref>
-                </cell>
-                <cell rend="tdQuery">
-                  <ref target="mapMarkers:vt:glossary">→Map</ref>
-                </cell>
-              </row>
-            </table>
-          </div>
-        </div>
-
-        <div>
-          <head>Taxonomy II</head>
-          <p xml:space="preserve">There exists a second unstructured list of keywords (imported 
-    from Georg Böhm's bibliography) that can be used in the same 
-    manner. Not all of the items have actually been applied.</p>
-          <list>
-            <item>
-              <ref target="bibl:vt:anthropology">vt:anthropology</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:Arab World general"
-                >vt:Arab World general</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:Arabic as a minority language"
-                >vt:Arabic as a minority language</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:Aramaic">vt:Aramaic</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:Baby talk">vt:Baby talk</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:bedouin dialect">vt:bedouin dialect</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:berber languages">vt:berber languages</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:broadcasting">vt:broadcasting</ref>
-            </item>
-            <item>vt:cinema</item>
-            <item>
-              <ref target="bibl:vt:classical">vt:classical</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:contact linguistics"
-                >vt:contact linguistics</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:conversation/dialogue"
-                >vt:conversation/dialogue</ref>
-            </item>
-            <item>vt:corpora</item>
-            <item>
-              <ref target="bibl:vt:creole">vt:creole</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:culinary">vt:culinary</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:customs &amp; etiquette"
-                >vt:customs &amp; etiquette</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:description of dialect"
-                >vt:description of dialect</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:Diaspora">vt:Diaspora</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:dictionary">vt:dictionary</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:diglossia">vt:diglossia</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:Egypt-Sudan">vt:Egypt-Sudan</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:ethnic minorities">vt:ethnic minorities</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:ethnographic record"
-                >vt:ethnographic record</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:ethnography">vt:ethnography</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:etymology">vt:etymology</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:Eyptian">vt:Eyptian</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:folklore">vt:folklore</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:french language">vt:french language</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:gender aspects">vt:gender aspects</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:general/comparative study"
-                >vt:general/comparative study</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:glossary">vt:glossary</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:jargon">vt:jargon</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:Jewish dialects">vt:Jewish dialects</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:lexicon">vt:lexicon</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:linguistics-dialectology"
-                >vt:linguistics/dialectology</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:loanwords">vt:loanwords</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:Maghreb">vt:Maghreb</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:manuscripts">vt:manuscripts</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:morphology">vt:morphology</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:music">vt:music</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:newspaper &amp; journalism"
-                >vt:newspaper &amp; journalism</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:onomastics">vt:onomastics</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:oral literature">vt:oral literature</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:oral narratives">vt:oral narratives</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:oral poetry">vt:oral poetry</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:phonology">vt:phonology</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:phraseology">vt:phraseology</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:pragmatics">vt:pragmatics</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:prosody">vt:prosody</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:proverbs">vt:proverbs</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:sedentary dialect">vt:sedentary dialect</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:semantics">vt:semantics</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:sociolinguistics">vt:sociolinguistics</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:songs">vt:songs</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:syntax">vt:syntax</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:teaching materials"
-                >vt:teaching materials</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:textbook">vt:textbook</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:toponymy">vt:toponymy</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:transcribed texts">vt:transcribed texts</ref>
-            </item>
-            <item>
-              <ref target="bibl:vt:urban dialect">vt:urban
-        dialect</ref>
-            </item>
-          </list>
-        </div>
-      </div>
 
       <div xml:id="vicavExplanationFeatures">
         <head>Features (Explanation)</head>
@@ -1355,8 +559,7 @@
       </div>
 
       <div xml:id="dictFrontPage_Damascus">
-        <head type="headDamascus"
-          >
+        <head type="headDamascus">
         A Digital Dictionary of<lb/> Damascene Arabic</head>
 
         <p xml:space="preserve">Compiled by <hi rend="italic">Carmen Berlinches Ramos</hi> and 
@@ -1494,22 +697,19 @@
               <cell rend="tdQuery">ktb</cell>
               <cell rend="tdQuery">Roots</cell>
               <cell rend="tdQuery">All entries with the string <hi rend="italic"
-                  >ktb</hi> in the root element.</cell>
+                >ktb</hi> in the root element.</cell>
               <cell rend="tdQuery">
-                <ref target="func:autoDictQuery('_tunis', 'ktb', 'root')"
-                  >Click</ref>
+                <ref target="func:autoDictQuery('_tunis', 'ktb', 'root')">Click</ref>
               </cell>
             </row>
 
             <row>
               <cell rend="tdQuery">book</cell>
               <cell rend="tdQuery">Trans. (English)</cell>
-              <cell rend="tdQuery">All entries with an English sense <hi
-                  rend="italic">book</hi>
+              <cell rend="tdQuery">All entries with an English sense <hi rend="italic">book</hi>
               </cell>
               <cell rend="tdQuery">
-                <ref target="func:autoDictQuery('_tunis', 'book', 'en')"
-                  >Click</ref>
+                <ref target="func:autoDictQuery('_tunis', 'book', 'en')">Click</ref>
               </cell>
             </row>
 
@@ -1518,8 +718,7 @@
               <cell rend="tdQuery">subc</cell>
               <cell rend="tdQuery">All diminutives </cell>
               <cell rend="tdQuery">
-                <ref target="func:autoDictQuery('_tunis', 'diminutive', 'subc')"
-                  >Click</ref>
+                <ref target="func:autoDictQuery('_tunis', 'diminutive', 'subc')">Click</ref>
               </cell>
             </row>
             <row>
@@ -1527,19 +726,16 @@
               <cell rend="tdQuery">subc</cell>
               <cell rend="tdQuery">All form VIII verbs</cell>
               <cell rend="tdQuery">
-                <ref target="func:autoDictQuery('_tunis', 'VIII', 'subc')"
-                  >Click</ref>
+                <ref target="func:autoDictQuery('_tunis', 'VIII', 'subc')">Click</ref>
               </cell>
             </row>
             <row>
               <cell rend="tdQuery">adverb</cell>
               <cell rend="tdQuery">POS</cell>
-              <cell rend="tdQuery"
-                >All adverbs. This will take same
+              <cell rend="tdQuery">All adverbs. This will take same
           time!!!!</cell>
               <cell rend="tdQuery">
-                <ref target="func:autoDictQuery('_tunis', 'adverb', 'pos')"
-                  >Click</ref>
+                <ref target="func:autoDictQuery('_tunis', 'adverb', 'pos')">Click</ref>
               </cell>
             </row>
             <row>
@@ -1550,25 +746,19 @@
             <row>
               <cell rend="tdQuery">root="ktb"</cell>
               <cell rend="tdQuery"/>
-              <cell rend="tdQuery">All entries with the root <hi rend="italic"
-                  >ktb</hi>
+              <cell rend="tdQuery">All entries with the root <hi rend="italic">ktb</hi>
               </cell>
               <cell rend="tdQuery">
-                <ref
-                  target="func:autoDictQuery('_tunis', 'root=&quot;ktb&quot;', '')"
-                  >Click</ref>
+                <ref target="func:autoDictQuery('_tunis', 'root=&quot;ktb&quot;', '')">Click</ref>
               </cell>
             </row>
             <row>
               <cell rend="tdQuery">lem="gōl"</cell>
               <cell rend="tdQuery"/>
-              <cell rend="tdQuery">All entries with an Arabic token <hi
-                  rend="italic">gōl</hi>
+              <cell rend="tdQuery">All entries with an Arabic token <hi rend="italic">gōl</hi>
               </cell>
               <cell rend="tdQuery">
-                <ref
-                  target="func:autoDictQuery('_tunis', 'lem=&quot;gōl&quot;', '')"
-                  >Click</ref>
+                <ref target="func:autoDictQuery('_tunis', 'lem=&quot;gōl&quot;', '')">Click</ref>
               </cell>
             </row>
             <row>
@@ -1576,9 +766,7 @@
               <cell rend="tdQuery"/>
               <cell rend="tdQuery">All entries with an English etymology</cell>
               <cell rend="tdQuery">
-                <ref
-                  target="func:autoDictQuery('_tunis', 'etymLang=English', '')"
-                  >Click</ref>
+                <ref target="func:autoDictQuery('_tunis', 'etymLang=English', '')">Click</ref>
               </cell>
             </row>
             <row>
@@ -1589,8 +777,7 @@
             <row>
               <cell rend="tdQuery">root="ktb" &amp; pos="verb"</cell>
               <cell rend="tdQuery"/>
-              <cell rend="tdQuery">All verbs with the root <hi rend="italic"
-                  >ktb</hi>
+              <cell rend="tdQuery">All verbs with the root <hi rend="italic">ktb</hi>
               </cell>
               <cell rend="tdQuery">
                 <ref
@@ -1601,8 +788,7 @@
             <row>
               <cell rend="tdQuery">root="ktb" &amp; pos="noun"</cell>
               <cell rend="tdQuery"/>
-              <cell rend="tdQuery">All nouns with the root <hi rend="italic"
-                  >ktb</hi>
+              <cell rend="tdQuery">All nouns with the root <hi rend="italic">ktb</hi>
               </cell>
               <cell rend="tdQuery">
                 <ref
@@ -1611,12 +797,10 @@
               </cell>
             </row>
             <row>
-              <cell rend="tdQuery"
-                >root="ktb" &amp; pos="verb" &amp;
+              <cell rend="tdQuery">root="ktb" &amp; pos="verb" &amp;
           subc="I"</cell>
               <cell rend="tdQuery"/>
-              <cell rend="tdQuery">All form I verbs with the root <hi
-                  rend="italic">ktb</hi>
+              <cell rend="tdQuery">All form I verbs with the root <hi rend="italic">ktb</hi>
               </cell>
               <cell rend="tdQuery">
                 <ref
@@ -1633,12 +817,10 @@
             <row>
               <cell rend="tdQuery">.*ūni</cell>
               <cell rend="tdQuery"/>
-              <cell rend="tdQuery">All entries containing a string <hi
-                  rend="italic">ūni</hi>
+              <cell rend="tdQuery">All entries containing a string <hi rend="italic">ūni</hi>
               </cell>
               <cell rend="tdQuery">
-                <ref target="func:autoDictQuery('_tunis', '.*ūni', 'any')"
-                  >Click</ref>
+                <ref target="func:autoDictQuery('_tunis', '.*ūni', 'any')">Click</ref>
               </cell>
 
             </row>
@@ -1657,8 +839,7 @@
             <row>
               <cell rend="tdQuery">kt.*</cell>
               <cell rend="tdQuery">Roots</cell>
-              <cell rend="tdQuery"
-                  >All entries with an Arabic root starting with
+              <cell rend="tdQuery">All entries with an Arabic root starting with
             <hi
                   rend="italic">kt</hi>
               </cell>
@@ -1844,12 +1025,10 @@
             <item>Download and unzip it.</item>
             <item>The file Andika-R.ttf should go into the following directory on 
                 your phone: <lb/>
-              <hi rend="italic"
-                >/Android/data/com.orangeorapple.flashcards/files/fonts</hi>
+              <hi rend="italic">/Android/data/com.orangeorapple.flashcards/files/fonts</hi>
             </item>
             <item>If you only try the demo the folder is: <lb/>
-              <hi rend="italic"
-                >/Android/data//com.orangeorapple.flashcardslite/files/fonts</hi>
+              <hi rend="italic">/Android/data//com.orangeorapple.flashcardslite/files/fonts</hi>
             </item>
             <item>If <hi rend="italic"
               >Flashcards Deluxe</hi> is running you have to restart it.</item>
@@ -2841,8 +2020,7 @@
       </div>
 
       <div xml:id="vicavLearning_tb_damascus">
-        <head>VIVAC Learning Materials: <hi rend="italic"
-            >Textbook Syrian Arabic (Sound files)</hi>
+        <head>VIVAC Learning Materials: <hi rend="italic">Textbook Syrian Arabic (Sound files)</hi>
         </head>
 
         <p xml:space="preserve">Rima Aldoukhi, Stephan Procházka, Anna Telic.
