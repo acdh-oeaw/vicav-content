@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="ling_features_cairo">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="ling_features_cairo">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,36 +29,7 @@
             <div>
                 <table>
                     <row>
-                        <cell rend="tdLeft">Title</cell>
-                        <cell rend="tdCom">
-                            <hi rend="background(white)">A machine-readable list of linguistic features
-                                of Cairo Arabic</hi>
-                        </cell>
-                    </row>
-                    <row>
-                        <cell rend="tdLeft">Author</cell>
-                        <cell rend="tdCom">
-                            <hi rend="background(white)">Karlheinz Moerth</hi>
-                        </cell>
-                    </row>
-                    <row>
-                        <cell rend="tdLeft">Date</cell>
-                        <cell rend="tdCom">
-                            <hi rend="background(white)">2018</hi>
-                        </cell>
-                    </row>
-                    <row>
-                        <cell rend="tdLeft">ID</cell>
-                        <cell rend="tdCom">
-                            <hi rend="background(white)">ling_features_cairo</hi>
-                        </cell>
-                    </row>
-                </table>
-                <table>
-                    <row>
-                        <cell rend="tdLeft">
-                            <hi rend="bold">Interrogatives</hi>
-                        </cell>
+                        <cell rend="tdLeft"><hi rend="bold">Interrogatives</hi></cell>
                         <cell rend="tdCom"/>
                         <cell rend="tdCentre"/>
                         <cell rend="tdRight"/>
@@ -69,7 +40,9 @@
                         <cell rend="tdCom">Most commonly dialects show reflexes of CA <hi rend="italic">man</hi>.</cell>
                         <cell rend="tdCentre">Who is this man? – He is my friend</cell>
                         <cell rend="tdRight">
-                            <hi rend="red">mīn</hi> iṛ-ṛāgil da? – da ṣaḥbi. (huwwa ṣaḥbi)</cell>
+                            <hi rend="red"><w ana="#vf_lex_who">mīn</w></hi> 
+                            <w ana="#vf_mor_art_ass">iṛ</w>-<w ana="#vf_lex_man">ṛāgil</w> 
+                            da? – da ṣaḥbi. (huwwa ṣaḥbi)</cell>
                         <cell rend="tdID"/>
                     </row>
                     <row>
