@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICAV Dictionaries</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+    
+  <text>
+      <body>
+          <div xml:id="vicavDictionaries" xml:space="preserve">
+              <head>Dictionaries</head>
+              <div>
+                  <head>Data</head>
+                  
+                  <p xml:space="preserve">All entries in the dictionaries which are not further indicated are
+        taken from data provided by the collaborator(s) cited on the front
+        page of each dictionary. Data extracted from other published sources
+        is indicated as such and includes the respective reference.</p>
+              </div>
+              
+              <div>
+                  <head>Transcription</head>
+                  
+                  <p xml:space="preserve">The transcription follows a system which is widely accepted in
+        Arabic studies and also used in reference works such as the
+        Encyclopedia of Arabic Language and Linguistics (Leiden: Brill,
+        2006-2009).</p>
+                  
+                  <p xml:space="preserve">Following a widespread convention in Arabic dialectology, the data
+        is presented in in a broad phonological transcription that does not
+        indicate allophones.</p>
+                  
+                  <p xml:space="preserve">List of latin diacritic signs used</p>
+                  
+                  <table rend="tbQueryExamples">
+                      <row role="label">
+                          <cell rend="tdQuery">VICAV</cell>
+                          <cell rend="tdQuery">IPA</cell>
+                          <cell rend="tdQuery">arabic</cell>
+                          <cell rend="tdQuery">DIN</cell>
+                          <cell rend="tdQuery">chat</cell>
+                          <cell rend="tdQuery">Sound Description</cell>
+                          <cell rend="tdQuery">Unicode Character Name</cell>
+                      </row>
+                      
+                      <row>
+                          <cell rend="tdQuery">ʔ</cell>
+                          <cell rend="tdQuery">ʔ</cell>
+                          <cell rend="tdQuery">ء,أ,إ,آ,ئ,ؤ</cell>
+                          <cell rend="tdQuery">ʾ</cell>
+                          <cell rend="tdQuery">2</cell>
+                          <cell rend="tdQuery">Glottal stop</cell>
+                          <cell rend="tdQuery">LATIN LETTER GLOTTAL STOP</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">ā</cell>
+                          <cell rend="tdQuery">aː</cell>
+                          <cell rend="tdQuery">ا,ى</cell>
+                          <cell rend="tdQuery">ā</cell>
+                          <cell rend="tdQuery">a</cell>
+                          <cell rend="tdQuery">Long vowel a</cell>
+                          <cell rend="tdQuery">LATIN SMALL LETTER A WITH MACRON</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">ḅ</cell>
+                          <cell rend="tdQuery">bˤ</cell>
+                          <cell rend="tdQuery">ب</cell>
+                          <cell rend="tdQuery">b</cell>
+                          <cell rend="tdQuery">b</cell>
+                          <cell rend="tdQuery">Pharyngealized voiced bilabial stop</cell>
+                          <cell rend="tdQuery">LATIN SMALL LETTER B WITH DOT BELOW</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">ʕ</cell>
+                          <cell rend="tdQuery">ʕ</cell>
+                          <cell rend="tdQuery">ع</cell>
+                          <cell rend="tdQuery">ʿ</cell>
+                          <cell rend="tdQuery">3</cell>
+                          <cell rend="tdQuery">Pharyngal voiced fricative</cell>
+                          <cell rend="tdQuery">LATIN LETTER PHARYNGEAL VOICED FRICATIVE</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">ḏ̣</cell>
+                          <cell rend="tdQuery">ðˤ</cell>
+                          <cell rend="tdQuery">ض,ظ</cell>
+                          <cell rend="tdQuery">ḍ,ẓ</cell>
+                          <cell rend="tdQuery">dh,d,6,9</cell>
+                          <cell rend="tdQuery">Pharyngealized voiced dental fricative</cell>
+                          <cell rend="tdQuery"
+                              >LATIN SMALL LETTER D WITH LINE BELOW + COMBINING DOT
+                              BELOW</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">ḏ</cell>
+                          <cell rend="tdQuery">ð</cell>
+                          <cell rend="tdQuery">ذ</cell>
+                          <cell rend="tdQuery">ḏ</cell>
+                          <cell rend="tdQuery">dh</cell>
+                          <cell rend="tdQuery">Voiced dental fricative</cell>
+                          <cell rend="tdQuery">LATIN SMALL LETTER D WITH LINE BELOW</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">ē</cell>
+                          <cell rend="tdQuery">eː</cell>
+                          <cell rend="tdQuery">ي</cell>
+                          <cell/>
+                          <cell rend="tdQuery">e,é</cell>
+                          <cell rend="tdQuery">Long vowel e</cell>
+                          <cell rend="tdQuery">LATIN SMALL LETTER E WITH MACRON</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">ġ</cell>
+                          <cell rend="tdQuery">ɣ</cell>
+                          <cell rend="tdQuery">غ</cell>
+                          <cell rend="tdQuery">ġ</cell>
+                          <cell rend="tdQuery">gh,3</cell>
+                          <cell rend="tdQuery">Voiced velar fricative</cell>
+                          <cell rend="tdQuery">LATIN SMALL LETTER G WITH DOT ABOVE</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">ǧ</cell>
+                          <cell rend="tdQuery">d͡ʒ</cell>
+                          <cell rend="tdQuery">ج</cell>
+                          <cell rend="tdQuery">ǧ</cell>
+                          <cell rend="tdQuery">dj</cell>
+                          <cell rend="tdQuery">Voiced palato-alveolar affricate</cell>
+                          <cell rend="tdQuery">LATIN SMALL LETTER G WITH CARON</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">ḥ</cell>
+                          <cell rend="tdQuery">ħ</cell>
+                          <cell rend="tdQuery">ح</cell>
+                          <cell rend="tdQuery">ḥ</cell>
+                          <cell rend="tdQuery">7</cell>
+                          <cell rend="tdQuery">Voiceless pharyngeal fricative</cell>
+                          <cell rend="tdQuery">LATIN SMALL LETTER H WITH DOT BELOW</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">ī</cell>
+                          <cell rend="tdQuery">iː</cell>
+                          <cell rend="tdQuery">ي</cell>
+                          <cell rend="tdQuery">ī</cell>
+                          <cell rend="tdQuery">i,ee</cell>
+                          <cell rend="tdQuery">Long vowel i</cell>
+                          <cell rend="tdQuery">LATIN SMALL LETTER I WITH MACRON</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">ᴵ</cell>
+                          <cell rend="tdQuery">ə</cell>
+                          <cell/>
+                          <cell/>
+                          <cell/>
+                          <cell rend="tdQuery">Short Schwa vowel</cell>
+                          <cell rend="tdQuery">MODIFIER LETTER CAPITAL I</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">ə</cell>
+                          <cell rend="tdQuery">ə</cell>
+                          <cell/>
+                          <cell rend="tdQuery">a,i,u</cell>
+                          <cell/>
+                          <cell rend="tdQuery">Schwa vowel</cell>
+                          <cell rend="tdQuery">LATIN SMALL LETTER SCHWA</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">ᵊ</cell>
+                          <cell rend="tdQuery">ə</cell>
+                          <cell/>
+                          <cell/>
+                          <cell/>
+                          <cell rend="tdQuery">Short Schwa vowel</cell>
+                          <cell rend="tdQuery">MODIFIER LETTER SMALL SCHWA</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">ḷ</cell>
+                          <cell rend="tdQuery">lˤ</cell>
+                          <cell rend="tdQuery">ل</cell>
+                          <cell rend="tdQuery">l</cell>
+                          <cell rend="tdQuery">l</cell>
+                          <cell rend="tdQuery">Pharyngealized alveolar lateral approximant</cell>
+                          <cell rend="tdQuery">LATIN SMALL LETTER L WITH DOT BELOW</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">ṃ</cell>
+                          <cell rend="tdQuery">mˤ</cell>
+                          <cell rend="tdQuery">م</cell>
+                          <cell rend="tdQuery">m</cell>
+                          <cell rend="tdQuery">m</cell>
+                          <cell rend="tdQuery">Pharyngealized bilabial nasal</cell>
+                          <cell rend="tdQuery">LATIN SMALL LETTER M WITH DOT BELOW</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">ō</cell>
+                          <cell rend="tdQuery">oː</cell>
+                          <cell rend="tdQuery">و</cell>
+                          <cell/>
+                          <cell rend="tdQuery">o</cell>
+                          <cell rend="tdQuery">Long vowel o</cell>
+                          <cell rend="tdQuery">LATIN SMALL LETTER O WITH MACRON</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">ṛ</cell>
+                          <cell rend="tdQuery">ʁˁ</cell>
+                          <cell rend="tdQuery">ر</cell>
+                          <cell rend="tdQuery">r</cell>
+                          <cell rend="tdQuery">r</cell>
+                          <cell rend="tdQuery">Pharyngealized voiced uvular fricative</cell>
+                          <cell rend="tdQuery">LATIN SMALL LETTER R WITH DOT BELOW</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">ṣ</cell>
+                          <cell rend="tdQuery">sˤ</cell>
+                          <cell rend="tdQuery">ص</cell>
+                          <cell rend="tdQuery">ṣ</cell>
+                          <cell rend="tdQuery">9</cell>
+                          <cell rend="tdQuery">Pharyngealized voiceless alveolar sibilant</cell>
+                          <cell rend="tdQuery">LATIN SMALL LETTER S WITH DOT BELOW</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">š</cell>
+                          <cell rend="tdQuery">ʃ</cell>
+                          <cell rend="tdQuery">ش</cell>
+                          <cell rend="tdQuery">š</cell>
+                          <cell rend="tdQuery">sh,ch</cell>
+                          <cell rend="tdQuery">Voiceless palato-alveolar sibilant</cell>
+                          <cell rend="tdQuery">LATIN SMALL LETTER S WITH CARON</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">ṭ</cell>
+                          <cell rend="tdQuery">tˤ</cell>
+                          <cell rend="tdQuery">ش</cell>
+                          <cell rend="tdQuery">ṭ</cell>
+                          <cell rend="tdQuery">t,6</cell>
+                          <cell rend="tdQuery">pharyngealized voiceless alveolar stop</cell>
+                          <cell rend="tdQuery">LATIN SMALL LETTER T WITH DOT BELOW</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">ṯ</cell>
+                          <cell rend="tdQuery">θ</cell>
+                          <cell rend="tdQuery">ث</cell>
+                          <cell rend="tdQuery">ṯ</cell>
+                          <cell rend="tdQuery">th,s</cell>
+                          <cell rend="tdQuery">Voiceless dental non-sibilant fricative</cell>
+                          <cell rend="tdQuery">LATIN SMALL LETTER T WITH LINE BELOW</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">ū</cell>
+                          <cell rend="tdQuery">uː</cell>
+                          <cell rend="tdQuery">و</cell>
+                          <cell rend="tdQuery">ū</cell>
+                          <cell rend="tdQuery">oo,ou,u</cell>
+                          <cell rend="tdQuery">Long vowel u</cell>
+                          <cell rend="tdQuery">LATIN SMALL LETTER U WITH MACRON</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">ẓ</cell>
+                          <cell rend="tdQuery">zˤ</cell>
+                          <cell rend="tdQuery">ز,ظ</cell>
+                          <cell rend="tdQuery">z,ẓ</cell>
+                          <cell rend="tdQuery">z</cell>
+                          <cell rend="tdQuery">Pharyngealized voiced alveolar sibilant</cell>
+                          <cell rend="tdQuery">LATIN SMALL LETTER Z WITH DOT BELOW</cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">ž</cell>
+                          <cell rend="tdQuery">ʒ</cell>
+                          <cell rend="tdQuery">ج</cell>
+                          <cell rend="tdQuery">ǧ</cell>
+                          <cell rend="tdQuery">j</cell>
+                          <cell rend="tdQuery">Voiced palato-alveolar sibilant</cell>
+                          <cell rend="tdQuery">LATIN SMALL LETTER Z WITH CARON</cell>
+                      </row>
+                  </table>
+                  
+              </div>
+              
+              <div>
+                  <head>Arabic roots</head>
+                  
+                  <p xml:space="preserve">In order to facilitate cross-dialectal comparative search all word
+        roots are have to be taken as being strictly etymological, i.e. they
+        reflect the corresponding roots of Standard Arabic wherever
+        possible. The source of reference is the Dictionary of Modern
+        Written Arabic by Hans Wehr (English version edited by J. Milton
+        Cowell, Wiesbaden: Harrassowitz, 1979). For words which have entered
+        Arabic from other languages a (in many hypothetical) root consisting
+        of the mere consonantal structure of the word in question is
+        given.</p>
+              </div>
+              
+              <div>
+                  <head>Part-of-speech</head>
+                  
+                  <p xml:space="preserve">As for verbs a subcategory indicating the so-called verbal form is
+        provided (using the traditional order labelled by Roman numerals
+        from I to X, in case of quadriliteral roots Iq and IIq).</p>
+                  
+                  <p xml:space="preserve">In many cases a clear distinction between adjective and active or
+        passive participle is not possible. If a given lemma is mainly used
+        in an adjectival sense it is labelled as such but with an additional
+        category that indicates the word is morphologically seen a
+        participle.</p>
+                  
+                  <p xml:space="preserve">The gender of Arabic nouns is not noted unless it is contradictory
+        to the rules of Arabic morphology (which is particularly the case
+        with unmarked feminine nouns).</p>
+              </div>
+          </div>
+          <!-- End of vicavDictionaries -->
+      </body>
+  </text>
+</TEI>

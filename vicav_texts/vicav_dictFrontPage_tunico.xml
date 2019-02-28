@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TUNICO Dict Frontpage</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>                    
+          <div xml:id="dictFrontPage_Tunis">
+              <head>The <hi rend="italic">TUNICO</hi> Dictionary</head>
+              
+              <p xml:space="preserve">Compiled by <hi rend="italic">Ines Dallaji, Ines Gabsi, Stephan
+      Procházka, Veronika Ritt-Benmimoun, Gisela Kitzler, Bettina Leitner,
+      Ines Ben-Brahim (Vienna 2016 )</hi>
+        </p>
+             
+              <p xml:space="preserve"><ref target="func:openDict_Tunis()">QUERY</ref></p>
+              
+              <div>
+                  <head>INTRODUCTION</head>
+                  
+                  <p xml:space="preserve">The <hi rend="italic">TUNICO</hi> dictionary was not only built on
+      data from the corpus of spoken language that was compiled in the
+      same project, but also on a range of additional sources: data
+      elicited from complementary interviews with young Tunisians and
+      lexical material taken from various published historical sources
+      dating from the middle of the 20th century and earlier. The most
+      important of these is Hans-Rudolf Singer’s monumental grammar (1984;
+      almost 800 pages) of the Medina of Tunis. Singer’s data was
+      systematically evaluated and integrated into the dictionary, all the
+      material being indicated by reference to the book. Additionally,
+      other resources including (Nicolas 1911, Marçais/Guîga 1958-61,
+      Quéméneur 1962, Abdellatif 2010) were also consulted in order to
+      verify and to complete the contemporary data. The diachronic
+      dimension will help to better understand processes in the
+      development of the lexicon (for more details see Moerth, Prochazka,
+      &amp; Dallaji 2014).</p>
+                  
+                  <p xml:space="preserve">The first layer of lexical data to be incorporated into the digital
+      lexicographical system was extracted from Veronika Ritt-Benmimoun’s
+      textbook titled Skriptum zu den Lehrveranstaltungen
+      Tunesisch-Arabisch Kurs A und B (Vienna, 2012/13). This data is
+      referenced in the dictionary as Ritt-Benmimoun 2014.</p>
+                  
+                  <p xml:space="preserve">Please keep in mind that the dictionary will remain
+      work-in-progress. We do not claim any degree of completeness,
+      neither with respect to lemmas nor with respect to data relevant to
+      the entries’ microstructure. This holds particularly true for
+      etymologies and usage labels indicating regimen of verbs.</p>
+                  
+                  <p xml:space="preserve">The project was embedded in the activities of the two large-scale
+      pan-European research infrastructure consortia in the humanities,
+      CLARIN (Common Language Resources and Technology Infrastructure) and
+      DARIAH (Digital Research Infrastructure for the Arts and Humanities)
+      (Budin, Moerth, &amp; Durco 2013).</p>
+              </div>
+              
+              <div>
+                  <head>HELP</head>
+                  
+                  <p xml:space="preserve">Through the query interface, you can search for words or groups of
+      words in the dictionary. By simply entering a word such as ʕaṛbi and
+      pressing the ENTER button on your keyboard you will trigger the
+      query. Results matching your query will be displayed below the input
+      field.</p>
+                  
+                  <p xml:space="preserve">Mind that all queries are case sensitive.</p>
+                  
+                  <p xml:space="preserve">The transcription used in the dictionary is for the most part DMG.
+      If you need special characters such as <hi rend="italic">ā</hi>, 
+      <hi rend="italic">š</hi> or <hi rend="italic">ʕ</hi>, click on the
+      respective letters in the character table.</p>
+                  
+                  <p xml:space="preserve">The preview option will show you a list of tokens that start with
+      the characters you entered so far.</p>
+                  
+                  <p xml:space="preserve">It is possible to search in particular fields of the
+      dictionary.</p>
+                  
+                  <table rend="tbQueryExamples">
+                      <row>
+                          <cell rend="tdQuery">ktb</cell>
+                          <cell rend="tdQuery">Roots</cell>
+                          <cell rend="tdQuery">All entries with the string <hi rend="italic"
+                              >ktb</hi> in the root element.</cell>
+                          <cell rend="tdQuery">
+                              <ref target="func:autoDictQuery('_tunis', 'ktb', 'root')">Click</ref>
+                          </cell>
+                      </row>
+                      
+                      <row>
+                          <cell rend="tdQuery">book</cell>
+                          <cell rend="tdQuery">Trans. (English)</cell>
+                          <cell rend="tdQuery">All entries with an English sense <hi rend="italic">book</hi>
+                          </cell>
+                          <cell rend="tdQuery">
+                              <ref target="func:autoDictQuery('_tunis', 'book', 'en')">Click</ref>
+                          </cell>
+                      </row>
+                      
+                      <row>
+                          <cell rend="tdQuery">diminutive</cell>
+                          <cell rend="tdQuery">subc</cell>
+                          <cell rend="tdQuery">All diminutives </cell>
+                          <cell rend="tdQuery">
+                              <ref target="func:autoDictQuery('_tunis', 'diminutive', 'subc')">Click</ref>
+                          </cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">VIII</cell>
+                          <cell rend="tdQuery">subc</cell>
+                          <cell rend="tdQuery">All form VIII verbs</cell>
+                          <cell rend="tdQuery">
+                              <ref target="func:autoDictQuery('_tunis', 'VIII', 'subc')">Click</ref>
+                          </cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">adverb</cell>
+                          <cell rend="tdQuery">POS</cell>
+                          <cell rend="tdQuery">All adverbs. This will take same
+                              time!!!!</cell>
+                          <cell rend="tdQuery">
+                              <ref target="func:autoDictQuery('_tunis', 'adverb', 'pos')">Click</ref>
+                          </cell>
+                      </row>
+                      <row>
+                          <cell rend="tdCommentSpan">
+                              <p xml:space="preserve">The interface also supports a simple query language.</p>
+                          </cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">root="ktb"</cell>
+                          <cell rend="tdQuery"/>
+                          <cell rend="tdQuery">All entries with the root <hi rend="italic">ktb</hi>
+                          </cell>
+                          <cell rend="tdQuery">
+                              <ref target="func:autoDictQuery('_tunis', 'root=&quot;ktb&quot;', '')">Click</ref>
+                          </cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">lem="gōl"</cell>
+                          <cell rend="tdQuery"/>
+                          <cell rend="tdQuery">All entries with an Arabic token <hi rend="italic">gōl</hi>
+                          </cell>
+                          <cell rend="tdQuery">
+                              <ref target="func:autoDictQuery('_tunis', 'lem=&quot;gōl&quot;', '')">Click</ref>
+                          </cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">etymLang="English"</cell>
+                          <cell rend="tdQuery"/>
+                          <cell rend="tdQuery">All entries with an English etymology</cell>
+                          <cell rend="tdQuery">
+                              <ref target="func:autoDictQuery('_tunis', 'etymLang=English', '')">Click</ref>
+                          </cell>
+                      </row>
+                      <row>
+                          <cell rend="tdCommentSpan">
+                              <p xml:space="preserve">You can also combine two query terms.</p>
+                          </cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">root="ktb" &amp; pos="verb"</cell>
+                          <cell rend="tdQuery"/>
+                          <cell rend="tdQuery">All verbs with the root <hi rend="italic">ktb</hi>
+                          </cell>
+                          <cell rend="tdQuery">
+                              <ref
+                                  target="func:autoDictQuery('_tunis', 'root=&quot;ktb&quot; &amp; pos=&quot;verb&quot;', 'subc')"
+                                  >Click</ref>
+                          </cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">root="ktb" &amp; pos="noun"</cell>
+                          <cell rend="tdQuery"/>
+                          <cell rend="tdQuery">All nouns with the root <hi rend="italic">ktb</hi>
+                          </cell>
+                          <cell rend="tdQuery">
+                              <ref
+                                  target="func:autoDictQuery('_tunis', 'root=&quot;ktb&quot; &amp; pos=&quot;noun&quot;', 'subc')"
+                                  >Click</ref>
+                          </cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">root="ktb" &amp; pos="verb" &amp;
+                              subc="I"</cell>
+                          <cell rend="tdQuery"/>
+                          <cell rend="tdQuery">All form I verbs with the root <hi rend="italic">ktb</hi>
+                          </cell>
+                          <cell rend="tdQuery">
+                              <ref
+                                  target="func:autoDictQuery('_tunis', 'root=&quot;ktb&quot; &amp; pos=&quot;verb&quot; &amp; subc=&quot;I&quot;', 'subc')"
+                                  >Click</ref>
+                          </cell>
+                      </row>
+                      <row>
+                          <cell rend="tdCommentSpan">
+                              <p xml:space="preserve">You can make use of simple regular expressions. Wildcards are
+            applied on the token level. Try the following examples:</p>
+                          </cell>
+                      </row>
+                      <row>
+                          <cell rend="tdQuery">.*ūni</cell>
+                          <cell rend="tdQuery"/>
+                          <cell rend="tdQuery">All entries containing a string <hi rend="italic">ūni</hi>
+                          </cell>
+                          <cell rend="tdQuery">
+                              <ref target="func:autoDictQuery('_tunis', '.*ūni', 'any')">Click</ref>
+                          </cell>
+                          
+                      </row>
+                      
+                      <row>
+                          <cell rend="tdQuery">bal.*</cell>
+                          <cell rend="tdQuery">Arabic</cell>
+                          <cell rend="tdQuery"
+                              >All entries containing an Arabic lemma token
+                              containing a string with <hi
+                                  rend="italic">bal</hi>
+                          </cell>
+                          <cell rend="tdQuery"/>
+                      </row>
+                      
+                      <row>
+                          <cell rend="tdQuery">kt.*</cell>
+                          <cell rend="tdQuery">Roots</cell>
+                          <cell rend="tdQuery">All entries with an Arabic root starting with
+                              <hi
+                                  rend="italic">kt</hi>
+                          </cell>
+                          <cell rend="tdQuery"/>
+                      </row>
+                      
+                      <row>
+                          <cell rend="tdCommentSpan">
+                              <p xml:space="preserve">To explicitly anchor a pattern at the head (=beginning) of a
+            token, make use of "^". "$" anchors the pattern at the tail
+            (=end).</p>
+                          </cell>
+                      </row>
+                      
+                      <row>
+                          <cell rend="tdQuery">^kt.*</cell>
+                          <cell rend="tdQuery">Roots</cell>
+                          <cell rend="tdQuery">
+                              <hi rend="italic"
+                                  >kt</hi> at the beginning of a string followed
+                              by zero or more characters</cell>
+                          <cell rend="tdQuery"/>
+                      </row>
+                      
+                  </table>
+                  
+                  <p xml:space="preserve">The interface makes use of the XQuery function matches whenever it
+      detects a regular expression. To get an overview of the options have
+      a look at <ref target="http://www.xqueryfunctions.com">www.xqueryfunctions.com</ref>.</p>
+              </div>
+          </div>
+          
+      </body>
+  </text>
+</TEI>
