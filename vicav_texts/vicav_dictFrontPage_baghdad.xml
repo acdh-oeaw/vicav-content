@@ -13,15 +13,27 @@
          </sourceDesc>
       </fileDesc>
   </teiHeader>
+    
   <text>
       <body>
-         <div xml:id="dictFrontPage_Baghdad">
+          <div xml:id="dictFrontPage_Baghdad" n="BAGHDAD DICTIONARY">
             <head>A Machine-readable Dictionary of Baghdad Arabic</head>
             
-            <p xml:space="preserve">Compiled by <hi rend="italic">Stephan Procházka</hi></p>            
-            <p xml:space="preserve"><ref target="func:openDict_Baghdad()">QUERY</ref></p>
-         </div>
-         
+            <p xml:space="preserve">Compiled by <hi rend="italic">Stephan Procházka</hi> 
+                and <hi rend="italic">Fady Yousuf</hi></p>
+              
+            <p>The current version contains 424 entries and examples.</p>
+            <p xml:space="preserve">To query the dictionary click <ref target="func:openDict_Baghdad()">here</ref>.</p>
+            <p>For details as to how to formulate meaningful dictionary queries consult the 
+                <rs ref="text:dictFrontPage_Tunis">examples of the TUNICO dictionary</rs>.</p>
+              
+            <p>
+               <figure>
+                  <graphic url="Market-Place_of_Bagdad_green.jpg"/> 
+                  <p>Source: <ref target="https://en.wikipedia.org/wiki/Baghdad#/media/File:Market-Place_of_Bagdad.jpeg">Wikimedia</ref></p>
+               </figure>
+             </p>
+         </div>         
       </body>
   </text>
 </TEI>

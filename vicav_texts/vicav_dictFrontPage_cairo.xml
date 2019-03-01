@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -18,21 +18,17 @@
          <div xml:id="dictFrontPage_Cairo">
             <head>A Digital Dictionary of Cairo Arabic</head>
             
-            <p xml:space="preserve">Compiled by <hi rend="italic">Karlheinz Mörth</hi>
-          <lb/>
-  In collaboration with <hi rend="italic">Tarek Eltayeb</hi>
-  </p>
+            <p>Compiled by <hi rend="italic">Karlheinz Mörth</hi>
+          <lb/>In collaboration with <hi rend="italic">Tarek Eltayeb</hi></p>
             
-            <p xml:space="preserve">This small dictionary was started as part of a course in Egyptian
+            <p>This small dictionary was started as part of a course in Egyptian
     Arabic at the University of Vienna.</p>
             
-            <p xml:space="preserve">
-    <ref target="func:openDict_Cairo()">QUERY</ref>
-  </p>
+            <p>To query the dictionary click <ref target="func:openDict_Cairo()">here</ref>.</p>
+            <p>For details as to how to formulate meaningful dictionary queries consult the 
+                <rs ref="text:dictFrontPage_Tunis">examples of the TUNICO dictionary</rs>.</p>
             
-            <p xml:space="preserve">
-    <graphic url="766px-Cairo-citadel-1800s_green.jpg"/>
-   </p>
+            <p><graphic url="766px-Cairo-citadel-1800s_green.jpg"/></p>
          </div>
       </body>
   </text>

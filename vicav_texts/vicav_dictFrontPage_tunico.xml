@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -13,17 +13,18 @@
          </sourceDesc>
       </fileDesc>
   </teiHeader>
+    
   <text>
       <body>                    
           <div xml:id="dictFrontPage_Tunis">
               <head>The <hi rend="italic">TUNICO</hi> Dictionary</head>
               
-              <p xml:space="preserve">Compiled by <hi rend="italic">Ines Dallaji, Ines Gabsi, Stephan
+              <p>Compiled by <hi rend="italic">Ines Dallaji, Ines Gabsi, Stephan
       Procházka, Veronika Ritt-Benmimoun, Gisela Kitzler, Bettina Leitner,
       Ines Ben-Brahim (Vienna 2016 )</hi>
         </p>
              
-              <p xml:space="preserve"><ref target="func:openDict_Tunis()">QUERY</ref></p>
+            <p xml:space="preserve">To query the dictionary click <ref target="func:openDict_Tunis()">here</ref>.</p>
               
               <div>
                   <head>INTRODUCTION</head>

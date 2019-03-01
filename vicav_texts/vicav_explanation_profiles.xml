@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Title</title>
+                <title>Language profiles (Explanation)</title>
+                <title type="shortTitle">PROFILES</title>
             </titleStmt>
             <publicationStmt>
                 <p>Publication Information</p>
@@ -18,7 +16,7 @@
     </teiHeader>
     <text>
         <body>
-            <div xml:id="vicavExplanationProfiles">
+            <div xml:id="vicavExplanationProfiles" n="PROFILE">
                 <head>Language profiles</head>
 
                 <p xml:space="preserve">At the heart of this website, there are what we call <hi rendition="#i">language

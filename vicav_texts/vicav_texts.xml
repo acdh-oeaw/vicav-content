@@ -22,38 +22,6 @@
   <text>
     <body>
 
-      <div xml:id="vicavExplanationSampleTexts">
-        <head>Sample Texts (Explanation)</head>
-
-        <p xml:space="preserve">The sample texts are translations of the same 
-      <ref target="sample:msa_sample_01/Modern Standard Arabic">source text</ref>. They vary slightly with respect to regional
-      differences. However, they are homogeneous enough to allow students to
-      compare the numerous linguistic phenomena displayed in the texts.</p>
-
-        <p xml:space="preserve">Sofar we provide sample texts for six locations: <list>
-        <item>
-          <ref target="sample:baghdad_sample_01/Baghdad">Baghdad</ref>
-        </item>
-        <item>
-          <ref target="sample:cairo_sample_01/Cairo">Cairo</ref>
-        </item>
-        <item>
-          <ref target="sample:damascus_sample_01/Damascus">Damascus</ref>
-        </item>
-        <item>
-          <ref target="sample:douz_sample_01/Douz">Douz</ref>
-        </item>
-        <item>
-            <ref target="sample:urfa_sample_01/Şanlıurfa">Şanlıurfa</ref>
-        </item>
-        <item>
-            <ref target="sample:tunis_sample_01/Tunis">Tunis</ref>
-        </item>
-      </list>
-    </p>
-      </div>
-
-
       <div xml:id="vicavExplanationCorpusTexts">
         <head>Texts (Explanation and Overview)</head>
 
