@@ -67,7 +67,8 @@
 
             <div type="dvContributor">
                <head>Aleksandra Ercegovčević</head>
-               <p xml:space="preserve"><graphic url="alexandraE.jpg"/>… is a student assistent at the University of Vienna and prepared many of the language profiles.</p>
+               <p xml:space="preserve"><graphic url="alexandraE.jpg"/>… is a student assistent at the University of Vienna and 
+                   prepared many of the language profiles (<rs ref="profile:profile_larache_01/Larache">Larache</rs>).</p>
             </div>
 
             <div type="dvContributor">
@@ -76,7 +77,14 @@
       Tunisian dictionary.</p>
             </div>
 
-            <div type="dvContributor">
+             <div type="dvContributor">
+                 <head>Bettina Leitner</head>
+                 <p xml:space="preserve"><graphic url="dummy_f.png"/>… is working on Khuzistan and has provided the profiles of
+                     Ahwaz, Basra, <rs ref="profile:profile_chefchaouen_01/Chefchaouen">Chefchaouen</rs>, 
+                     Kuweit and <rs ref="profile:profile_tetouan_01/Tétouan">Tétouan</rs>.</p>
+             </div>
+             
+             <div type="dvContributor">
                <head>Charly Mörth</head>
                <p xml:space="preserve"><graphic url="charlyM.png"/>… has prepared some of our Egyptian material. He takes a great
       interest in the interface between linguistics and digital language
@@ -112,7 +120,7 @@
             <div type="dvContributor">
                <head>Naima Sekiati</head>
                <p xml:space="preserve"><graphic url="dummy_f.png"/>… is lecturer for Moroccan Arabic at the University of Vienna and
-      prepared the profile of Salé.</p>
+      prepared the <rs ref="profile:profile_sale_01/Rabat (Salé)">profile of Salé</rs>.</p>
             </div>
 
             <div type="dvContributor">
@@ -121,13 +129,17 @@
       site.</p>
             </div>
 
-            <div type="dvContributor">
-               <head>Anna Telič</head>
-               <p xml:space="preserve"><graphic url="annaT.jpg"/>… was lecturer for Syrian Arabic at the University of Vienna and has
+             <div type="dvContributor">
+                 <head>Anna Telič</head>
+                 <p xml:space="preserve"><graphic url="annaT.jpg"/>… was lecturer for Syrian Arabic at the University of Vienna and has
       been responsible for the re-checking of the data in the Damascus
       dictionary.</p>
-            </div>
-
+             </div>
+             <div type="dvContributor">
+                 <head>Fady Yousuf</head>
+                 <p xml:space="preserve"><graphic url="dummy_m.png"/>… has been working on the Baghdad dictionary.</p>
+             </div>
+             
             <div type="dvContributor">
                <head>Other Contributors</head>
                <p xml:space="preserve">A number of MA and PhD students in Arabic Studies at the University
