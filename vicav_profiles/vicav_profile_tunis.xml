@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_tunis_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_tunis_01">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -80,9 +79,11 @@
               detailed description of Tunis Arabic so far is <rs type="bibl" ref="zotID:84SAGIDU">Singer 1984</rs>, a monumental
               grammar of the dialect spoken in the Medina of Tunis in the early
               1960s. Aspects of the syntax are investigated by <rs type="bibl" ref="zotID:F9X7DRUP">Jemni 2011</rs>, important
-              sociolinguistic studies are <rs type="bibl" ref="zotID:39IVLDK8">Gibson 1998</rs> and Gibson 2012.</p>
+              sociolinguistic studies are <rs type="bibl" ref="zotID:39IVLDK8">Gibson 1998</rs> and 
+              <rs type="bibl" ref="zotID:CHHDIHRD">Gibson 2012</rs>.</p>
+              
           <p xml:space="preserve">A concise grammatical sketch of the Arabic dialect of Tunis is
-              Maik Gibson’s “Tunis Arabic” in EALL IV, 563-571.</p>
+              Maik Gibson’s “Tunis Arabic” in <rs type="bibl" ref="zotID:MX9LYWP3">EALL IV, 563-571</rs>.</p>
         </div>
 
         <div type="dictionaries">
@@ -91,7 +92,7 @@
           <p xml:space="preserve">
               <rs type="bibl" ref="zotID:MHWWVQZ6">Nicolas 1911</rs> is
               outdated and does not provide an appropriate transcription.</p>
-          <p xml:space="preserve">Beaussier/Lentin 2006 contains words from the whole Maghreb
+          <p xml:space="preserve"><rs type="bibl" ref="zotID:6FM6L2I5">Beaussier/Lentin 2006</rs> contains words from the whole Maghreb
               including data on Tunis.</p>
           <p xml:space="preserve">Abdellatif's Dictionnaire «le Karmous» du Tunisien (2010) is a
               rather useful amateur glossary and can currently be downloaded

@@ -12,6 +12,11 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+          <projectDesc>
+              <ab>The links for the profiles were assembled by scriptor.exe--&lt;createListOfVICAVProfiles</ab>
+          </projectDesc>
+      </encodingDesc>
    </teiHeader>
    <text>
       <body>
@@ -53,7 +58,7 @@
             <div type="dvContributor">
                <head>Ines Dallaji</head>
                <p xml:space="preserve"><graphic url="inesD.jpg"/>… is a specialist in Tunisian Arabic, was working on the Tunisian
-      dictionary and provided the language profile of Tunis.</p>
+      dictionary and provided the language profile of <rs ref="profile:profile_tunis_01/Tunis">Tunis</rs>.</p>
             </div>
 
             <div type="dvContributor">
@@ -68,7 +73,22 @@
             <div type="dvContributor">
                <head>Aleksandra Ercegovčević</head>
                <p xml:space="preserve"><graphic url="alexandraE.jpg"/>… is a student assistent at the University of Vienna and 
-                   prepared many of the language profiles (<rs ref="profile:profile_larache_01/Larache">Larache</rs>).</p>
+                   prepared many of the language profiles (<rs ref="profile:profile_larache_01/Larache">Larache</rs>, 
+                   <rs ref="profile:profile_aden_01/Aden">Aden</rs>, <rs ref="profile:profile_alexandria_01/Alexandria">Alexandria</rs>, 
+                   <rs ref="profile:profile_al_qatif_01/al-Qatif">al-Qatif</rs>, <rs ref="profile:profile_shirqat_01/Al-Shirqat">Al-Shirqat</rs>, 
+                   <rs ref="profile:profile_baskinta_01/Baskinta">Baskinta</rs>, <rs ref="profile:profile_cherchell_01/Cherchell">Cherchell</rs>, 
+                   <rs ref="profile:profile_daragozu_01/Daragözü (today Danagözü)">Daragözü (today: Danagözü) </rs>, 
+                   <rs ref="profile:profile_derizzor_01/Deir ez-Zor">Deir ez-Zor</rs>, <rs ref="profile:profile_hawran_01/Hauran">Hauran</rs>, 
+                   <rs ref="profile:profile_jijel_01/Jijel (formerly Djidjelli)">Jijel (formerly Djidjelli)</rs>, 
+                   <rs ref="profile:profile_khartoum_01/Khartoum">Khartoum</rs>, <rs ref="profile:profile_larache_01/Larache">Larache</rs>, 
+                   <rs ref="profile:profile_mardin_01/Mardin">Mardin</rs>, <rs ref="profile:profile_mazouna_01/Mazouna">Mazouna</rs>, 
+                   <rs ref="profile:profile_mzab_01/Mzab">Mzab</rs>, <rs ref="profile:profile_oran_01/Oran">Oran</rs>, 
+                   <rs ref="profile:profile_ouled_brahim_01/Ouled Brahim (Saïda)">Ouled Brahim (Saïda)</rs>, 
+                   <rs ref="profile:profile_palmyra_01/Palmyra">Palmyra</rs>, <rs ref="profile:profile_saoura_01/Saoura">Saoura</rs>, 
+                   <rs ref="profile:profile_sid_bel_abbes_01/Sidi Bel Abbès">Sidi Bel Abbès</rs>, <rs ref="profile:profile_taza_01/Taza">Taza</rs>, 
+                   <rs ref="profile:profile_tlemcen_01/Tlemcen">Tlemcen</rs>, <rs ref="profile:profile_tripoli_leb_01/Tripoli">Tripoli</rs>, 
+                   <rs ref="profile:profile_algiers_01/Algiers">Algiers</rs>, <rs ref="profile:profile_constantine_01/Constantine">Constantine</rs>).               
+               </p>
             </div>
 
             <div type="dvContributor">
@@ -79,9 +99,13 @@
 
              <div type="dvContributor">
                  <head>Bettina Leitner</head>
-                 <p xml:space="preserve"><graphic url="dummy_f.png"/>… is working on Khuzistan and has provided the profiles of
-                     Ahwaz, Basra, <rs ref="profile:profile_chefchaouen_01/Chefchaouen">Chefchaouen</rs>, 
-                     Kuweit and <rs ref="profile:profile_tetouan_01/Tétouan">Tétouan</rs>.</p>
+                 <p xml:space="preserve"><graphic url="dummy_f.png"/>… is working on Khuzistan and has provided the profiles of                     
+                     <rs ref="profile:profile_ahwaz_01/Ahwaz/Ahvaz">Ahwaz/Ahvaz</rs>, <rs ref="profile:profile_basra_01/Basra">Basra</rs>, 
+                     <rs ref="profile:profile_chefchaouen_01/Chefchaouen, Chaouen">Chefchaouen, Chaouen</rs>, 
+                     <rs ref="profile:profile_hasankeyf_01/Hasankeyf">Hasankeyf</rs>, <rs ref="profile:profile_haskoey_01/Hasköy">Hasköy</rs>, 
+                     <rs ref="profile:profile_kuwait_01/Kuwait">Kuwait</rs>, <rs ref="profile:profile_shukriyya_01/Shukria tribe">Shukria tribe</rs> and  
+                     <rs ref="profile:profile_tetouan_01/Tétouan">Tétouan</rs>.                 
+                 </p>
              </div>
              
              <div type="dvContributor">
@@ -101,15 +125,22 @@
                <head>Stephan Procházka</head>
                <p xml:space="preserve">
                   <graphic url="stephan.jpg"/>… is professor of Arabic language at the University of Vienna. Between 2004 - 2015, he served 
-      as president of the <ref target="https://en.wikipedia.org/wiki/International_Association_of_Arabic_Dialectology">International Association of Arabic Dialectology (AIDA)</ref>. Together with Charly Moerth he initiated the
-      VICAV project.</p>
+                  as president of the <ref target="https://en.wikipedia.org/wiki/International_Association_of_Arabic_Dialectology">International 
+                  Association of Arabic Dialectology (AIDA)</ref>. Together with Charly Moerth he initiated the VICAV project. 
+                  Stephan has also provided the profiles of <rs ref="profile:profile_adana_01/Adana">Adana</rs>, 
+                   <rs ref="profile:profile_khabura_01/al-Khaburah">al-Khaburah</rs>, <rs ref="profile:profile_arwad_01/Arwad">Arwad</rs>, 
+                   <rs ref="profile:profile_baghdad_01/Baghdad">Baghdad</rs>, <rs ref="profile:profile_damascus_01/Damascus">Damascus</rs>, 
+                   <rs ref="profile:profile_haifa_01/Haifa">Haifa</rs>, <rs ref="profile:profile_hama_01/Hama">Hama</rs>, 
+                   <rs ref="profile:profile_mharde_01/Mhardeh">Mhardeh</rs>, <rs ref="profile:profile_sacda_01/Sa'dah">Sa'dah</rs> and 
+                   <rs ref="profile:profile_urfa_01/Şanlıurfa">Şanlıurfa</rs>.
+                </p>
             </div>
 
             <div type="dvContributor">
                <head>Veronika Ritt-Benmimoun</head>
                <p xml:space="preserve"><graphic url="dummy_f.png"/>… is assistant professor of Arabic linguistics at the Institute of
       Oriental Studies of the University of Vienna and a leading
-      specialist in Tunisian Bedouin dialects.</p>
+      specialist in Tunisian Bedouin dialects. She has compiled the profile on <rs ref="profile:profile_douz_01/Douz">Douz</rs>.</p>
             </div>
 
             <div type="dvContributor">
@@ -125,8 +156,8 @@
 
             <div type="dvContributor">
                <head>Omar Siam</head>
-               <p xml:space="preserve"><graphic url="omarS.png"/>… has been in charge of many text technological aspects of this
-      site.</p>
+               <p xml:space="preserve"><graphic url="omarS.png"/>… was the chief developer of the first VICAV website and has been in charge of 
+                   the XQuery component of the new website.</p>
             </div>
 
              <div type="dvContributor">
@@ -143,11 +174,25 @@
             <div type="dvContributor">
                <head>Other Contributors</head>
                <p xml:space="preserve">A number of MA and PhD students in Arabic Studies at the University
-      of Vienna contributed profiles to this website. Among these are
-      Natanja Faschinger, Lea Bäumler, Faiz Alshehri and others. </p>
+               of Vienna contributed profiles to this website. Among these are
+                   Julia Baumgartner (<rs ref="profile:profile_soukhne_01/Soukhne / Al-Sukhnah">Soukhne / Al-Sukhnah</rs>),
+                   Natanja Faschinger <rs ref="profile:profile_sousse_001/Sousse">Sousse</rs>, 
+                   Lea Bäumler <rs ref="profile:profile_mosul_01/Mosul">Mosul</rs>,
+                   Marlene Holzmann, <rs ref="profile:profile_tozeur_01/Tozeur">Tozeur</rs>
+                   Maria El Fadel <rs ref="profile:profile_qameshli_01/Qamishli">Qamishli</rs>,
+                   Karoline Köster, <rs ref="profile:profile_tiberias_01/Tiberias">Tiberias</rs>,
+                   Sherin <rs ref="profile:profile_benghazi_01/Benghazi">Benghazi</rs>,
+                   Stephanie <rs ref="profile:profile_abu_dhabi_01/Abu Dhabi">Abu Dhabi</rs> and 
+                   Benjamin Suter <rs ref="profile:profile_taizz_01/Taizz">Taizz</rs>.</p>
             </div>
          </div>
          <!-- End of vicavContributors -->
       </body>
    </text>
+    
 </TEI>
+
+
+
+
+
