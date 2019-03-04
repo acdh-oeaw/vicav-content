@@ -99,7 +99,7 @@
 
              <div type="dvContributor">
                  <head>Bettina Leitner</head>
-                 <p xml:space="preserve"><graphic url="dummy_f.png"/>… is working on Khuzistan and has provided the profiles of                     
+                 <p xml:space="preserve"><graphic url="dummy_f.png"/>… is working on Khuzistan and provided the profiles of                     
                      <rs ref="profile:profile_ahwaz_01/Ahwaz/Ahvaz">Ahwaz/Ahvaz</rs>, <rs ref="profile:profile_basra_01/Basra">Basra</rs>, 
                      <rs ref="profile:profile_chefchaouen_01/Chefchaouen, Chaouen">Chefchaouen, Chaouen</rs>, 
                      <rs ref="profile:profile_hasankeyf_01/Hasankeyf">Hasankeyf</rs>, <rs ref="profile:profile_haskoey_01/Hasköy">Hasköy</rs>, 
@@ -110,10 +110,10 @@
              
              <div type="dvContributor">
                <head>Charly Mörth</head>
-               <p xml:space="preserve"><graphic url="charlyM.png"/>… has prepared some of our Egyptian material. He takes a great
-      interest in the interface between linguistics and digital language
-      ressources doing research in the fields of virtual research
-      environments and language related standards.</p>
+               <p xml:space="preserve"><graphic url="charlyM.png"/>… prepared some of our Egyptian material. He takes a great
+               interest in the interface between linguistics and digital language
+               ressources doing research in the fields of virtual research
+               environments and language related standards.</p>
             </div>
 
             <div type="dvContributor">
@@ -127,7 +127,7 @@
                   <graphic url="stephan.jpg"/>… is professor of Arabic language at the University of Vienna. Between 2004 - 2015, he served 
                   as president of the <ref target="https://en.wikipedia.org/wiki/International_Association_of_Arabic_Dialectology">International 
                   Association of Arabic Dialectology (AIDA)</ref>. Together with Charly Moerth he initiated the VICAV project. 
-                  Stephan has also provided the profiles of <rs ref="profile:profile_adana_01/Adana">Adana</rs>, 
+                  Stephan also provided the profiles of <rs ref="profile:profile_adana_01/Adana">Adana</rs>, 
                    <rs ref="profile:profile_khabura_01/al-Khaburah">al-Khaburah</rs>, <rs ref="profile:profile_arwad_01/Arwad">Arwad</rs>, 
                    <rs ref="profile:profile_baghdad_01/Baghdad">Baghdad</rs>, <rs ref="profile:profile_damascus_01/Damascus">Damascus</rs>, 
                    <rs ref="profile:profile_haifa_01/Haifa">Haifa</rs>, <rs ref="profile:profile_hama_01/Hama">Hama</rs>, 
@@ -145,7 +145,9 @@
 
             <div type="dvContributor">
                <head>Daniel Schopper</head>
-               <p xml:space="preserve"><graphic url="danielS.png"/>… has been behind most of the technical developments in VICAV, both assisting setting up the application, working on workflows, designing the TEI model of large parts of the infrastructure.</p>
+               <p xml:space="preserve"><graphic url="danielS.png"/>… has been behind most of the technical developments in 
+                   VICAV, both assisting setting up the application, working on workflows, designing the TEI model of 
+                   large parts of the infrastructure.</p>
             </div>
 
             <div type="dvContributor">
@@ -156,7 +158,8 @@
 
             <div type="dvContributor">
                <head>Omar Siam</head>
-               <p xml:space="preserve"><graphic url="omarS.png"/>… was the chief developer of the first VICAV website and has been in charge of 
+               <p xml:space="preserve"><graphic url="omarS.png"/>… was the chief developer of the first VICAV website and 
+                   has been in charge of 
                    the XQuery component of the new website.</p>
             </div>
 
