@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_damascus_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_damascus_01">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -61,12 +60,12 @@
         </div>
 
         <div type="typology">
-          <p xml:space="preserve">Eastern › Syro-Palestinian › Central Syrian</p>
-          <p xml:space="preserve">Urban, sedentary dialect, high-prestige variety</p>
+          <p>Eastern › Syro-Palestinian › Central Syrian</p>
+          <p>Urban, sedentary dialect, high-prestige variety</p>
         </div>
 
         <div type="general">
-          <p xml:space="preserve">The dialect of the capital of Syria is regarded as a very
+          <p>The dialect of the capital of Syria is regarded as a very
               “elegant” variety of Arabic and has a very high prestige. It is
               frequently used in the media and increasingly also in films.
               Hence, Damascus Arabic is widely understood in whole Syria, in
@@ -74,7 +73,7 @@
         </div>
 
         <div type="researchHistory">
-          <p xml:space="preserve">Descriptions of the Arabic dialect of Damascus go back as far as
+          <p>Descriptions of the Arabic dialect of Damascus go back as far as
               the 18th century when the German orientalist and theologian Johann
               Heinrich Callenberg published his description of Damascus Arabic
               in Latin (<rs type="bibl" ref="zotID:GG6XYXC6">Callenberg 
@@ -92,35 +91,34 @@
               Today Damascus Arabic is certainly among the Arabic dialects which are best
               described.</p>
 
-          <p xml:space="preserve">A concise grammatical sketch of the dialect is Jérôme Lentin’s
+          <p>A concise grammatical sketch of the dialect is Jérôme Lentin’s
               “Damascus Arabic”, in <rs type="bibl" ref="zotID:JM4EGMCH">EALL I, 546-555</rs>.</p>
         </div>
 
         <div type="dictionaries">
-          <p xml:space="preserve">
+          <p>
               <rs type="bibl" ref="zotID:6XVCYDUK">Barthélemy
                 1935-54</rs> is still unmatched as the dictionary for Syrian
               Arabic, but it is mainly based on the dialect of Aleppo.
               Nevertheless it is extremely useful for Damascus Arabic too, as is
                 <rs type="bibl" ref="zotID:TZMIRC4K">Denizeau 1960</rs>.</p>
 
-          <p xml:space="preserve">Very promising is the online-dictionary titled Dictionnaire
-              d’arabe dialectal syrien (parler de Damas) by Claude Salamé &amp;
-              Jérôme Lentin, although until now only the letter B has been
-              published.</p>
+          <p>Very promising is the Dictionnaire d’arabe dialectal syrien (parler de Damas) by 
+              Claude Salamé &amp; Jérôme Lentin, although until now only the letter B has been
+              published. It is available as a <ref target="https://halshs.archives-ouvertes.fr/halshs-00504180/">free pdf</ref> from the HAL-Server.</p>
 
-          <p xml:space="preserve">To obtain a list of dictionaries on Syrian varieties contained in
+          <p>To obtain a list of dictionaries on Syrian varieties contained in
               our database <rs type="bibl" ref="bibl:vt:dictionary+bibl:reg:Syria">click
                 here</rs>. </p>
 
-          <p xml:space="preserve">VICAV also hosts a small digital dictionary of Damascus Arabic.
+          <p>VICAV also hosts a small digital dictionary of Damascus Arabic.
               It was created in connection with the Viennese textbooks and
               primarily serves didactic purposes. You can access it 
               <rs ref="text:dictFrontPage_Damascus/DAMASCUS DICTIONARY">here</rs>. </p>
         </div>
 
         <div type="textBooks">
-          <p xml:space="preserve">The earliest evidence of a textbook in our database is
+          <p>The earliest evidence of a textbook in our database is
               Cantineau/Helbaoui's <rs type="bibl" ref="zotID:UBW33YBT">Manuel 
               élémentaire d’arabe oriental (parler de Damas)</rs> 1953. Others to be
               mentioned are Ferguson's <rs type="bibl" ref="zotID:LSI6JDAS">Damascus 
@@ -129,31 +127,31 @@
               <rs type="bibl" ref="zotID:BZBT97SH">Syrian colloquial Arabic: 
                a functional course (1999)</rs>.</p>
 
-          <p xml:space="preserve">The Viennese textbook <rs type="bibl" ref="zotID:8NKI26ZJ">Lehrbuch 
+          <p>The Viennese textbook <rs type="bibl" ref="zotID:8NKI26ZJ">Lehrbuch 
               des Syrisch-Arabischen</rs> in two volumes by Aldoukhi, Procházka 
               and Telič is the most recent introduction to the dialect of Damascus.</p>
 
-          <p xml:space="preserve">To obtain a list of textbooks contained in our database 
+          <p>To obtain a list of textbooks contained in our database 
                 <rs type="bibl" ref="bibl:vt:textbook+bibl:reg:Syria">click here</rs>. </p>
         </div>
 
         <div type="audioData">
-          <p xml:space="preserve">Songs in Damascus Arabic are abundantly found on YouTube, look for 
+          <p>Songs in Damascus Arabic are abundantly found on YouTube, look for 
             instance for the well-known band 
             <ref target="http://www.youtube.com/results?search_query=kulna sawa">Kulna Sawa</ref>.</p>
         </div>
 
         <div type="bibliography">
-          <p xml:space="preserve">To see some important publications on this variety 
+          <p>To see some important publications on this variety 
                 <rs type="bibl" ref="bibl:geo:Damascus">follow this link</rs>.</p>
         </div>
 
         <div type="sampleText">
-          <p xml:space="preserve">A short sample text is provided <rs ref="sample:damascus_sample_01/Damascus">here</rs>.</p>
+          <p>A short sample text is provided <rs ref="sample:damascus_sample_01/Damascus">here</rs>.</p>
         </div>
 
         <div type="lingFeatures">
-          <p xml:space="preserve">There is a <rs ref="feature:ling_features_damascus/Damascus">list 
+          <p>There is a <rs ref="feature:ling_features_damascus/Damascus">list 
                 of linguistic features</rs> with example sentences.</p>
 
         </div>

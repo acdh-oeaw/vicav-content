@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="ling_features_urfa">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="ling_features_urfa_old">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,7 +22,10 @@
     
     <text>
         <body>
-            <head><name xml:lang="eng">Şanlıurfa</name></head>
+          <head>
+              <name xml:lang="eng" type="city">Şanlıurfa</name>
+              <name xml:lang="eng" type="country">Turkey</name>
+          </head>
             <div type="positioning">
                 <p><geo>37.15, 38.79</geo></p>
             </div>

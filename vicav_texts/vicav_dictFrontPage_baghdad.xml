@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -24,8 +24,8 @@
               
             <p>The current version contains 424 entries and examples.</p>
             <p xml:space="preserve">To query the dictionary click <ref target="func:openDict_Baghdad()">here</ref>.</p>
-            <p>For details as to how to formulate meaningful dictionary queries consult the 
-                <rs ref="text:dictFrontPage_Tunis">examples of the TUNICO dictionary</rs>.</p>
+            <p>For details as to how to formulate meaningful dictionary queries consult 
+                the <rs ref="text:dictFrontPage_Tunis"> examples of the TUNICO dictionary</rs>.</p>
               
             <p>
                <figure>

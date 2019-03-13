@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_khabura_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_khabura_01">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -35,13 +34,14 @@
       <change who="#charly" when="2018-10-03" status="released"/>
     </revisionDesc>
   </teiHeader>
+    
   <text>
     <body>
       <div>
         <head>
           <figure>
             <graphic url="khabura-2012.JPG"/>
-            <head type="imgCaption" xml:space="preserve">Source: Wikimedia</head>
+            <head type="imgCaption">Photo: Stephan Procházka 2012</head>
           </figure>
           <label>Name (English)</label>
           <name xml:lang="eng">al-Khaburah</name>
@@ -52,18 +52,18 @@
         </head>
 
         <div type="positioning">
-          <p xml:space="preserve">
+          <p>
               <geo>23°96′N 57°09′E</geo>
             </p>
         </div>
         <div type="typology">
-          <p xml:space="preserve">Eastern › Arabian Peninsula › Oman</p>
-          <p xml:space="preserve">Coastal dialect characterized by a juxtaposition of both Bedouin
+          <p>East (Mashriq) › Arabia › Oman</p>
+          <p>Coastal dialect characterized by a juxtaposition of both Bedouin
               and sedentary type features</p>
         </div>
 
         <div type="general">
-          <p xml:space="preserve">Al-Khaburah is one of the main settlements on the Bāṭinah coast
+          <p>Al-Khaburah is one of the main settlements on the Bāṭinah coast
               of north-eastern Oman. There are significant differences between
               the speech of the people living at the coast proper and the
               inlanders who immigrated in great numbers to the coast bringing
@@ -71,7 +71,7 @@
         </div>
 
         <div type="researchHistory">
-          <p xml:space="preserve">Hitherto the only description of the dialect of the town and its
+          <p>Hitherto the only description of the dialect of the town and its
               surroundings is <rs type="bibl" ref="zotID:G5BL9R3B">Brockett
                 1985</rs>. This book is based on fieldwork carried out in the
               late 1970s/early 1980s. It offers a short introduction into

@@ -5,7 +5,7 @@ The zotero library export we use contains nearly all needed data. In order to in
 1. Export the VICAV Group Library as TEI and store it to
         vicav_content\vicav_bibl\vicav_biblio_tei_zotero.xml
 2. Open it with oXygen, format and save it. 
-3. Run Zotoscope.exe, tabsheet Geolocator and open:
+3. Run vicolo.exe, tabsheet Geolocator and open:
     TEI Biblio.: vicav_content\vicav_biblio\vicav_biblio_tei_zotero.xml
     Geonames: vicav_content\vicav_biblio\vicav_geo_data.xml 
 4. Push the button "Clear Geodata and Reassign"

@@ -1,4 +1,4 @@
-<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_urfa_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_urfa_01">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -34,6 +34,7 @@
             <change who="#charly" when="2018-10-03" status="released"/>
         </revisionDesc>
     </teiHeader>
+    
     <text>
         <body>
             <div>
@@ -72,12 +73,13 @@
 
                 <div type="researchHistory">
                     <p xml:space="preserve">Although the existence of Arabic speaking groups in the region has been known since at least the 19th century, the dialect is still poorly documented. A very short grammatical
-                        sketch is <rs type="bibl" ref="zotID:XSU2EIDE">Procházka 2003</rs>, three texts with English translation are found in Procházka 2013, and a comparison of Urfa
+                        sketch is <rs type="bibl" ref="zotID:XSU2EIDE">Procházka 2003</rs>, three texts with English 
+                        translation are found in <rs type="bibl" ref="zotID:PJE83QX4">Procházka 2013</rs>, and a comparison of Urfa
                         Arabic with other peripheral dialects of the region is <rs type="bibl" ref="zotID:Q5YRBN39">Procházka 2006</rs>.</p>
                 </div>
 
                 <div type="sampleText">
-                    <p xml:space="preserve">VICAV provides a <rs ref="sample:urfa_sample_01/Şanlıurfa">Sample Text </rs> of this variety. </p>
+                    <p xml:space="preserve">VICAV provides a <rs ref="sample:urfa_sample_01/Şanlıurfa">Sample Text</rs> of this variety. </p>
                 </div>
                  
                 <div type="bibliography">               

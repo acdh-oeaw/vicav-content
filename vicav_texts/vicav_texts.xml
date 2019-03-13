@@ -547,7 +547,7 @@
       </div>
 
       <div xml:id="vicavOverview_corpora_spoken">
-        <head>Corpora (Spoken Varieties)</head>
+        <head>Resources for Spoken Varieties</head>
 
         <p xml:space="preserve">The number of digitally encoded Arabic language corpora has been on
     the rise in recent years. The following list is an attempt at listing  
@@ -600,7 +600,7 @@
       Reviews</head>
 
           <p xml:space="preserve">Information on this corpus can be found 
-        <ref target="http://www.ugr.es/~dgb/corpus/">here</ref>.</p>
+          <ref target="http://www.ugr.es/~dgb/corpus/">here</ref>.</p>
         </div>
 
         <div>
@@ -624,13 +624,24 @@
       novels. A a huge collection of these novels was found online in one
       place. 1,200 MS Word documents were automatically downloaded. </p>
         </div>
+          
+          <div>
+              <head>Database of Arabic Dialects</head>
+              <p xml:space="preserve">The <ref target="http://www.arabic.humanities.manchester.ac.uk/database-of-arabic-dialects/">Database of Arabic Dialects</ref> was created through interviews conducted with informants 
+                  from Algeria, Egypt, Iran, Iraq, Jordan, Kuwait, 
+                  Lebanon, Morocco, Oman, Palestine, Saudi Arabia, Sudan and Syria. On the basis
+                  of a quite exhaustive questionnaire, the website allows to explore linguistic 
+                  phenomena and to compare a wide range of dialects. The project was set up and organised 
+                  by <ref target="https://en.wikipedia.org/wiki/Yaron_Matras">Yaron Matras</ref> at the University of Manchester.  
+              </p>
+          </div>
 
         <div>
           <head>Arabic Dialects Dataset</head>
 
           <p xml:space="preserve">This <ref target="http://www.lancaster.ac.uk/staff/elhaj/corpora.htm">collection</ref> 
         is one of several corpora being provided by Mahmoud El-Haj 
-        (Lancaster Univesity). It consists in transcriptions of Arabic 
+        (Lancaster University). It consists in transcriptions of Arabic 
         script of Gulf, Egypt, Levantine and Tunisian Arabic dialects in 
         addition to MSA.</p>
         </div>

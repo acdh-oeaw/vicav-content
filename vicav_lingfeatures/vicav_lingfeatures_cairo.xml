@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="ling_features_cairo">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="ling_features_cairo_old">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -40,9 +39,7 @@
                         <cell rend="tdCom">Most commonly dialects show reflexes of CA <hi rend="italic">man</hi>.</cell>
                         <cell rend="tdCentre">Who is this man? – He is my friend</cell>
                         <cell rend="tdRight">
-                            <hi rend="red"><w ana="#vf_lex_who">mīn</w></hi> 
-                            <w ana="#vf_mor_art_ass">iṛ</w>-<w ana="#vf_lex_man">ṛāgil</w> 
-                            da? – da ṣaḥbi. (huwwa ṣaḥbi)</cell>
+                            <hi rend="red">mīn</hi> iṛ-ṛāgil da? – da ṣaḥbi. (huwwa ṣaḥbi)</cell>
                         <cell rend="tdID"/>
                     </row>
                     <row>
@@ -620,6 +617,3 @@
         </body>
     </text>
 </TEI>
- 
-  
-  

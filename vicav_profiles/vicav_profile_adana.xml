@@ -1,4 +1,4 @@
-<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_adana_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_adana_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,7 +44,7 @@
             <head>
                <figure>
                   <graphic url="profile_adana.jpg"/>
-                  <head type="imgCaption" xml:space="preserve">Stephan Procházka 1993</head>
+                  <head type="imgCaption">Stephan Procházka 1993</head>
                </figure>
                <label>Name (English)</label>
                <name xml:lang="eng">Adana</name>
@@ -58,46 +58,47 @@
 
             <div type="positioning">
                <head>Geo location</head>
-               <p xml:space="preserve">
+               <p>
                   <geo>36°98′N 35°32′E</geo>
                </p>
             </div>
 
             <div type="typology">
                <head>Typology (Local)</head>
-               <p rend="typology" xml:space="preserve">East (Mashreq) › Levant › Turkey › Cilicia (Çukurova)</p>
-               <p xml:space="preserve">Sedentary dialect with a significant influence of Turkish, particularly on the lexicon</p>
+               <p rend="typology">East (Mashreq) › Levant › Turkey › Cilicia (Çukurova)</p>
+               <p>Sedentary dialect with a significant influence of Turkish, particularly on the lexicon</p>
             </div>
 
             <div type="general">
-               <p xml:space="preserve">Adana is the largest city of the fertile Cilician Plain, called Çukurova in Turkish. Similar varieties of Arabic are spoken in many villages and some smaller towns (e.g. Bahçe and Karataş) situated between Adana and the coast. Cilician Arabic is linguistically very close to the dialects of the Turkish province of Hatay and the Syrian coastal dialects. The local Arabic dialect is an endangered minority language since Turkish, as the only official language, is gaining more and more ground among most people under age 50. </p>
+               <p>Adana is the largest city of the fertile Cilician Plain, called Çukurova in Turkish. Similar varieties of Arabic are spoken in many villages and some smaller towns (e.g. Bahçe and Karataş) situated between Adana and the coast. Cilician Arabic is linguistically very close to the dialects of the Turkish province of Hatay and the Syrian coastal dialects. The local Arabic dialect is an endangered minority language since Turkish, as the only official language, is gaining more and more ground among most people under age 50. </p>
             </div>
 
             <div type="researchHistory">
-               <p xml:space="preserve">The first, rather short, description of the dialect of Adana was <rs type="bibl" ref="zotID:45UH6R6I">Jastrow 
+               <p>The first, rather short, description of the dialect of Adana was <rs type="bibl" ref="zotID:45UH6R6I">Jastrow 
                1983</rs>. <rs type="bibl" ref="zotID:HKMCP9UC">Procházka 2002</rs> is a complete grammar that includes chapters 
                on phonology, morphology, and syntax, plus an analysis of the influence of Turkish. Questions of code-switching 
                between Arabic and Turkish are addressed in <rs type="bibl" ref="zotID:I3QQ4ENH">Procházka 2002b</rs>. Transcribed 
                texts with German or English translations can be found in <rs type="bibl" ref="zotID:I3QQ4ENH">Procházka 2002a</rs>, 
                <rs type="bibl" ref="zotID:HKMCP9UC">Procházka 2002c</rs>, <rs type="bibl" ref="zotID:VGPEYJA5">Crossen &amp; Procházka 2007</rs>, 
-               and Procházka 2016. The reasons for the rapid disappearance of Arabic among the younger generations are discussed 
+               and <rs type="bibl" ref="zotID:IG8P5QXY">Procházka 2016</rs>. The reasons for the rapid disappearance of Arabic among the younger generations are discussed 
                in <rs type="bibl" ref="zotID:WQ3RBQBP">Procházka 1999</rs>. A comparison of Cilician Arabic with other peripheral 
-               dialects of the region is provided in Procházka 2006.</p>
-               <p xml:space="preserve">A concise grammatical sketch of the dialect is Stephan Procházka’s “Cilician Arabic” 
+               dialects of the region is provided in <rs type="bibl" ref="zotID:Q5YRBN39">Procházka 2006</rs>.</p>
+               
+               <p>A concise grammatical sketch of the dialect is Stephan Procházka’s “Cilician Arabic” 
                in <rs type="bibl" ref="zotID:Z8G4VXNC">EALL I, 388-397</rs>.</p>
             </div>
 
             <div type="dictionaries">
-               <p xml:space="preserve"><rs type="bibl" ref="zotID:HKMCP9UC">Procházka 2002</rs> contains a 20-page glossary of words 
+               <p><rs type="bibl" ref="zotID:HKMCP9UC">Procházka 2002</rs> contains a 20-page glossary of words 
                that are typical for the dialect.</p>
             </div>
 
             <div type="audioData">
-               <p xml:space="preserve">There are numerous audio-file texts from Adana and of other Cilician dialects in <ref target="http://semarch.ub.uni-heidelberg.de">SemArch - Semitisches Tonarchiv</ref>.</p>
+               <p>There are numerous audio-file texts from Adana and of other Cilician dialects in <ref target="http://semarch.ub.uni-heidelberg.de">SemArch - Semitisches Tonarchiv</ref>.</p>
             </div>
 
             <div type="bibliography">               
-               <p xml:space="preserve">For a list of publications concerning Arabic in Turkey click <rs ref="bibl:reg:Turkey">here</rs>.</p>
+               <p>For a list of publications concerning Arabic in Turkey click <rs ref="bibl:reg:Turkey">here</rs>.</p>
            </div>
          </div>
       </body>
