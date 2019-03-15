@@ -1,0 +1,1717 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ling_features_damascus">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A List of Linguistic Features of Damascus Arabic</title>
+            <author>Stephan Procházka</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>ACDH-OeAW</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date>2018</date>
+            <availability status="restricted">
+               <p xml:id="id_p_12"><ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/></p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p xml:id="id_p_16">This is an original digital text</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+          <head>
+              <name xml:lang="eng" type="city">Damascus</name>
+              <name xml:lang="eng" type="country">Syria</name>
+          </head>
+          <div type="positioning">
+            <p xml:id="id_p_24"><geo>33.51, 36.29</geo></p>
+         </div>
+
+         <div>
+            <table>
+               <row>
+                  <cell rend="tdLeft">
+                     <hi rend="bold">Interrogatives</hi>
+                  </cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre"/>
+                  <cell rend="tdRight"/>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">who?</cell>
+                  <cell xml:space="preserve" rend="tdCom">Most commonly dialects show reflexes of CA <hi rend="italic">man</hi>.</cell>
+                  <cell rend="tdCentre">Who is this man? – He is my friend</cell>
+                  <cell rend="tdRight">
+                     <hi rend="red">
+                        <w ana="#vt_lex_who1" xml:id="wid_00000">mīn</w>
+                        </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00001_a">hāda</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_46"> </seg>
+                     <w xml:id="wid_00002">z</w>
+                     <pc type="ws" xml:id="id_pc_48">-</pc>
+                     <w xml:id="wid_00003">zalame</w>
+                     <pc type="ws" xml:id="id_pc_50">?</pc>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <pc type="ws" xml:id="wid_00003_a">–</pc>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00004">hāda</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_53"> </seg>
+                     <w xml:id="wid_00005">rfīʔi</w>
+                     <pc type="ws" xml:id="id_pc_55">.</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_56"> </seg>
+                     <pc type="ws" xml:id="id_pc_57">(</pc>
+                     <w xml:id="wid_00006">huwwe</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_59"> </seg>
+                     <w xml:id="wid_00007">rfīʔi</w>
+                     <pc type="ws" xml:id="id_pc_61">)</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">whose?</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Whose car is this? – This is our car. It’s small but it’s
+                     good.</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00008">hayy</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_71"> </seg>
+                     <w xml:id="wid_00009">sayyāret</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                     <w ana="#vt_lex_whose" xml:id="wid_00009_a">mīn</w>
+                     </hi>
+                     <pc type="ws" xml:id="id_pc_74">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_75"> </seg>
+                     <w xml:id="wid_00011">hayy</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_77"> </seg>
+                     <w xml:id="wid_00012">sayyārətna</w>
+                     <pc type="ws" xml:id="id_pc_79">.</pc>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00013">Hiyye</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_82"> </seg>
+                     <w xml:id="wid_00014">ẓġīre</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_84"> </seg>
+                     <w xml:id="wid_00015">bass</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_86"> </seg>
+                     <w xml:id="wid_00016">mnīḥa</w>
+                     <pc type="ws" xml:id="id_pc_88">.</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_89"> </seg>
+                     <pc type="ws" xml:id="id_pc_90">(</pc>
+                     <w xml:id="wid_00017">ẓarīfe</w>
+                     <pc type="ws" xml:id="id_pc_92">)</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">what?</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Fatima, what are you doing now? – I’m watching TV.</cell>
+                  <cell rend="tdRight">
+                     <hi rend="red">
+                     <w ana="#vt_lex_what" xml:id="wid_00018">šū</w>
+                        </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00019_a">ʕam</w>
+                     <pc type="ws" xml:id="id_pc_103">-</pc>
+                     <w xml:id="wid_00020">tsāwi</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_105"> </seg>
+                     <w xml:id="wid_00021">hallaʔ</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_107"> </seg>
+                     <w xml:id="wid_00022">yā</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_109"> </seg>
+                     <w xml:id="wid_00023">Fāṭme</w>
+                     <pc type="ws" xml:id="id_pc_111">.</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_112"> </seg>
+                     <w xml:id="wid_00024">–</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_114"> </seg>
+                     <w xml:id="wid_00025">ʿam</w>
+                     <pc type="ws" xml:id="id_pc_116">-</pc>
+                     <w xml:id="wid_00026">ətfarraž</w>
+
+                     <w xml:id="wid_00027">ʕa</w>
+                     <pc type="ws" xml:id="id_pc_120">-</pc>
+                     <w xml:id="wid_00028">t</w>
+                     <pc type="ws" xml:id="id_pc_122">-</pc>
+                     <w xml:id="wid_00029">tǝlfəzyōn</w>
+                     <pc type="ws" xml:id="id_pc_124">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">why?</cell>
+                  <cell xml:space="preserve" rend="tdCom">Often reflexes reflexes of CA <hi rend="italic">li + ’ayy
+                     </hi>or <hi rend="italic">li + ’ayy + šay’</hi>
+                  </cell>
+                  <cell rend="tdCentre">Why didn’t he come? – I don’t know. </cell>
+                  <cell rend="tdRight">
+                     <hi rend="red">
+                        <w ana="#vt_lex_why" xml:id="wid_00030">lēš</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00031_a">mā</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_137"> </seg>
+                     <w xml:id="wid_00032">ʔəža</w>
+                     <pc type="ws" xml:id="id_pc_139">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_140"> </seg>
+                     <w xml:id="wid_00033">mā</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_142"> </seg>
+                     <w xml:id="wid_00034">baʕref</w>
+                     <pc type="ws" xml:id="id_pc_144">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">where?</cell>
+                  <cell xml:space="preserve" rend="tdCom">Often reflexes of CA <hi rend="italic">fī + ’ayna</hi>
+                  </cell>
+                  <cell rend="tdCentre">Where is my mobile (phone)? – Here it is!</cell>
+                  <cell rend="tdRight">
+                     <hi rend="red">
+                     <w ana="#vt_lex_where1" xml:id="wid_00035">wēn</w>
+                        </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00036">əl</w>
+                     <pc type="ws" xml:id="id_pc_156">-</pc>
+                     <w xml:id="wid_00037">mōbāyl</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_158"> </seg>
+                     <w xml:id="wid_00038">tabaʕi</w>
+                     <pc type="ws" xml:id="id_pc_160">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_161"> </seg>
+                     <w xml:id="wid_00039">–</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_163"> </seg>
+                     <w xml:id="wid_00040">lēko</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_165"> </seg>
+                     <w xml:id="wid_00041">l</w>
+                     <pc type="ws" xml:id="id_pc_167">-</pc>
+                     <w xml:id="wid_00042">mōbāyl</w>
+                     <pc type="ws" xml:id="id_pc_169">!</pc> 
+                     </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">where to?</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Where are you (m./f.) going? – I am going home.</cell>
+                  <cell rend="tdRight">
+                     <hi rend="red">
+                     <phr ana="#vt_lex_where_to">
+                        <w xml:id="wid_00043">la</w>
+                        <pc type="ws" xml:id="id_pc_179">-</pc>
+                        <w xml:id="wid_00044">wēn</w>
+                        </phr>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00045_a">rāyeḥ/rāyḥa</w>
+                     <pc type="ws" xml:id="id_pc_182">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_183"> </seg>
+                     <w xml:id="wid_00046">–</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_185"> </seg>
+                     <w xml:id="wid_00047">ʕal</w>
+                     <pc type="ws" xml:id="id_pc_187">-</pc>
+                     <w xml:id="wid_00048">bēt</w>
+                     <pc type="ws" xml:id="id_pc_189">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">where from?</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Where are you (m./f.; sg./pl.) from? – I am/ We are from
+                     Aleppo.</cell>
+                  <cell rend="tdRight">
+                     <hi rend="red">
+                        <w ana="#vt_lex_where_from" xml:id="wid_00049">mnēn</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w ana="#vt_morph_perspron_2_sg_m" xml:id="wid_00050_a">ʔənte</w>
+                     <pc type="ws" xml:space="preserve">/</pc>
+                     <w ana="#vt_morph_perspron_2_sg_f" xml:id="wid_00050_a_a_a">ʔǝnti</w>
+                     <pc type="ws" xml:space="preserve">/</pc>
+                     <w ana="#vt_morph_perspron_2_pl" xml:id="wid_00050_a_a_a_a_a">ʔǝntu</w>
+                     <pc type="ws" xml:space="preserve">?</pc>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00051">–</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w ana="#vt_morph_perspron_1_sg" xml:id="wid_00052">ʔana</w>
+                     <pc type="ws" xml:space="preserve">/</pc>
+                     <w ana="#vt_morph_perspron_1_pl" xml:id="wid_00052_a_a">nǝḥna</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="id_pc_207">(</w>
+                     <w xml:id="wid_00053">naḥna</w>
+                     <w xml:id="id_pc_209">)</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00054">mǝn</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00055">Ḥalab</w>
+                     <pc type="ws" xml:space="preserve">.</pc>
+                     </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">when?</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Fatima, when did you see Muhammad? – I saw him yesterday. </cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00056">yā</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_223"> </seg>
+                     <w xml:id="wid_00057">Fāṭme</w>
+                     <pc type="ws" xml:space="preserve">,</pc>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w ana="#vt_lex_when" xml:id="wid_00058">ʔēmta</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00059_a">šǝfti</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_228"> </seg>
+                     <w xml:id="wid_00060">Mḥammad</w>
+                     <pc type="ws" xml:id="id_pc_230">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_231"> </seg>
+                     <w xml:id="wid_00061">–</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_233"> </seg>
+                     <w xml:id="wid_00062">šǝfto</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00063">mbāreḥ</w>
+                     <pc type="ws" xml:id="id_pc_237">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">how?</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">How are you (m./f.)? – I’m fine.</cell>
+                  <cell rend="tdRight">
+                     <hi rend="red">
+                     <w ana="#vt_lex_how1" xml:id="wid_00064">šlōn</w>
+                     <w xml:id="wid_00064_a">ak</w>
+                     </hi>
+                     <pc type="ws" xml:id="id_pc_247">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_248"> </seg>
+                     <w xml:id="wid_00065">–</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_250"> </seg>
+                     <w xml:id="wid_00066">ʔana</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_252"> </seg>
+                     <w xml:id="wid_00067">mnīḥ</w>
+                     <pc type="ws" xml:space="preserve">.</pc>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                     <w xml:id="wid_00067_a">šlōnek</w>
+                     </hi>
+                     <pc type="ws" xml:id="id_pc_256">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_257"> </seg>
+                     <w xml:id="wid_00069">–</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_259"> </seg>
+                     <w xml:id="wid_00070">ʔana</w>
+
+                     <w xml:id="wid_00071">mnīḥa</w>
+                     <pc type="ws" xml:id="id_pc_263">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">how much?</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">How much is half a kilo of lemons? – It’s 10 Lira. </cell>
+                  <cell rend="tdRight">
+                     <hi rend="red">
+                        <w ana="#vt_lex_how_much" xml:id="wid_00072">ʔaddēš</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00073_a">nǝṣṣ</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_274"> </seg>
+                     <w xml:id="wid_00074">kīlo</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_276"> </seg>
+                     <w xml:id="wid_00075">l</w>
+                     <pc type="ws" xml:id="id_pc_278">-</pc>
+                     <w xml:id="wid_00076">lēmūn</w>
+                     <pc type="ws" xml:id="id_pc_280">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_281"> </seg>
+                     <w xml:id="wid_00077">–</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_283"> </seg>
+                     <w xml:id="wid_00078">b</w>
+                     <pc type="ws" xml:id="id_pc_285">-</pc>
+                     <w xml:id="wid_00079">ʕǝšrīn</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_287"> </seg>
+                     <w xml:id="wid_00080">lēra</w>
+                     <pc type="ws" xml:id="id_pc_289">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">how many?</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">How many children do you (f.) have? – I have
+                     two daughters
+                     and three sons.</cell>
+                  <cell rend="tdRight">
+                     <hi rend="red">
+                        <w ana="#vt_lex_how_many" xml:id="wid_00081">kam</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00082_a">walad</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_302"> </seg>
+                     <w xml:id="wid_00083">ʕandek</w>
+                     <pc type="ws" xml:id="id_pc_304">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_305"> </seg>
+                     <pc type="ws" xml:id="id_pc_306">-</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_307"> </seg>
+                     <w xml:id="wid_00084">ʕandi</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_309"> </seg>
+                     <w xml:id="wid_00085">bǝntēn</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_311"> </seg>
+                     <w xml:id="wid_00086">w</w>
+                     <pc type="ws" xml:id="id_pc_313">-</pc>
+                     <w xml:id="wid_00087">tlǝt</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_315"> </seg>
+                     <w xml:id="wid_00088">ǝwlād</w>
+                     <pc type="ws" xml:id="id_pc_317">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">which?</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">In which neighbourhood do you live? – We live in Abu
+                     Rammana. </cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00089">b</w>
+                     <pc type="ws" xml:id="id_pc_327">-</pc>
+                     <hi rend="red">
+                        <w ana="#vt_lex_which" xml:id="wid_00090">ʔani</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00091_a">manṭʔa</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_330"> </seg>
+                     <w xml:id="wid_00092">sāknīn</w>
+                     <pc type="ws" xml:id="id_pc_332">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_333"> </seg>
+                     <w xml:id="wid_00093">–</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_335"> </seg>
+                     <w xml:id="wid_00094">nǝḥna</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_337"> </seg>
+                     <w xml:id="wid_00095">sāknīn</w>
+
+                     <w xml:id="wid_00096">ǝb</w>
+                     <pc type="ws" xml:id="id_pc_341">-</pc>
+                     <w xml:id="wid_00097">ʔAbu</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_343"> </seg>
+                     <w xml:id="wid_00098">Rǝmmāne</w>
+                     <pc type="ws" xml:id="id_pc_345">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">
+                     <hi rend="bold">Demonstratives</hi>
+                  </cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre"/>
+                  <cell rend="tdRight"/>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">this</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Who is this man? – He is my friend.</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00099">mīn</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w ana="#vt_morph_dempron_prox_m_sg" xml:id="wid_00100">hāda</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00101_a">z</w>
+                     <pc type="ws" xml:id="id_pc_365">-</pc>
+                     <w xml:id="wid_00102">zalame</w>
+                     <pc type="ws" xml:id="id_pc_367">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_368"> </seg>
+                     <w xml:id="wid_00103">hāda</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_370"> </seg>
+                     <w xml:id="wid_00104">rfīʔi</w>
+                     <pc type="ws" xml:id="id_pc_372">.</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_373"> </seg>
+                     <pc type="ws" xml:id="id_pc_374">(</pc>
+                     <w xml:id="wid_00105">huwwe</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00106">rfīʔi</w>
+                     <pc type="ws" xml:id="id_pc_378">)</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">
+                     <hi rend="bold">Pronouns</hi>
+                  </cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre"/>
+                  <cell rend="tdRight"/>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">I</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">I am a teacher.</cell>
+                  <cell rend="tdRight">
+                     <pc type="ws" xml:id="id_pc_395">(</pc>
+                     <pc type="ws" xml:id="id_pc_396">?</pc>
+                     <pc type="ws" xml:id="id_pc_397">?</pc>
+                     <pc type="ws" xml:id="id_pc_398">?</pc>
+                     <pc type="ws" xml:id="id_pc_399">)</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">
+                     <hi rend="bold">Presentatives</hi>
+                  </cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre"/>
+                  <cell rend="tdRight"/>
+                  <cell rend="tdID">
+                     <pc type="ws" xml:id="id_pc_410">(</pc>
+                     <pc type="ws" xml:id="id_pc_411">?</pc>
+                     <pc type="ws" xml:id="id_pc_412">?</pc>
+                     <pc type="ws" xml:id="id_pc_413">?</pc>
+                     <pc type="ws" xml:id="id_pc_414">)</pc>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="tdLeft">here is … (m.)</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Where is my mobile? – Here is the phone!</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00107">wēn</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_422"> </seg>
+                     <w xml:id="wid_00108">əl</w>
+                     <pc type="ws" xml:id="id_pc_424">-</pc>
+                     <w xml:id="wid_00109">mōbāyl</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_426"> </seg>
+                     <w xml:id="wid_00110">tabaʕi</w>
+                     <pc type="ws" xml:id="id_pc_428">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_429"> </seg>
+                     <w xml:id="wid_00111">–</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w ana="#vt_morph_pres_m_sg" xml:id="wid_00112">lēko</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00113_a">l</w>
+                     <pc type="ws" xml:id="id_pc_433">-</pc>
+                     <w xml:id="wid_00114">mōbāyl</w>
+                     <pc type="ws" xml:id="id_pc_435">!</pc> 
+                     </cell>
+                  <cell rend="tdID">
+                     <pc type="ws" xml:id="id_pc_437">(</pc>
+                     <pc type="ws" xml:id="id_pc_438">?</pc>
+                     <pc type="ws" xml:id="id_pc_439">?</pc>
+                     <pc type="ws" xml:id="id_pc_440">?</pc>
+                     <pc type="ws" xml:id="id_pc_441">;</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_442"> </seg>
+                     <w xml:id="wid_00115">Kann</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_444"> </seg>
+                     <w xml:id="wid_00116">man</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_446"> </seg>
+                     <w xml:id="wid_00117">mōbāyl</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_448"> </seg>
+                     <w xml:id="wid_00118">weglassen</w>
+                     <pc type="ws" xml:id="id_pc_450">)</pc>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="tdLeft">here is … (f.)</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Where is the car? – Here it is!</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00119">wēn</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_458"> </seg>
+                     <w xml:id="wid_00120">ǝs</w>
+                     <pc type="ws" xml:id="id_pc_460">-</pc>
+                     <w xml:id="wid_00121">sayyāra</w>
+                     <pc type="ws" xml:id="id_pc_462">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_463"> </seg>
+                     <w xml:id="wid_00122">–</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w ana="#vt_morph_pres_f_sg" xml:id="wid_00123">lēka</w>
+                     </hi>
+                     <pc type="ws" xml:id="id_pc_466">.</pc>
+                  </cell>
+                  <cell rend="tdID">
+                     <pc type="ws" xml:id="id_pc_468">(</pc>
+                     <pc type="ws" xml:id="id_pc_469">?</pc>
+                     <pc type="ws" xml:id="id_pc_470">?</pc>
+                     <pc type="ws" xml:id="id_pc_471">?</pc>
+                     <pc type="ws" xml:id="id_pc_472">)</pc>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="tdLeft">
+                     <hi rend="bold">Adverbs</hi>
+                  </cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre"/>
+                  <cell rend="tdRight"/>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">here</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">We have been here for 8 years.</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00124">ṣar</w>
+                     <pc type="ws" xml:id="id_pc_489">-</pc>
+                     <w xml:id="wid_00125">ǝlna</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w ana="#vt_lex_here" xml:id="wid_00126">hōn</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00127_a">tmǝn</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_493"> </seg>
+                     <w xml:id="wid_00128">ǝsnīn</w>
+                     <pc type="ws" xml:id="id_pc_495">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">now</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Fatima, what are you doing now? – I’m watching TV. </cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00129">šū</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_504"> </seg>
+                     <w xml:id="wid_00130">ʕam</w>
+                     <pc type="ws" xml:id="id_pc_506">-</pc>
+                     <w xml:id="wid_00131">tsāwi</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w ana="#vt_lex_now" xml:id="wid_00132">hallaʔ</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00133_a">yā</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_510"> </seg>
+                     <w xml:id="wid_00134">Fāṭme</w>
+                     <pc type="ws" xml:id="id_pc_512">.</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_513"> </seg>
+                     <w xml:id="wid_00135">–</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00136">ʕam</w>
+                     <pc type="ws" xml:id="id_pc_517">-</pc>
+                     <w xml:id="wid_00137">ətfarraž</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_519"> </seg>
+                     <w xml:id="wid_00138">ʕa</w>
+                     <pc type="ws" xml:id="id_pc_521">-</pc>
+                     <w xml:id="wid_00139">t</w>
+                     <pc type="ws" xml:id="id_pc_523">-</pc>
+                     <w xml:id="wid_00140">tǝlfəzyōn</w>
+                     <pc type="ws" xml:id="id_pc_525">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">today</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">It’s very hot today.</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00141">ǝž</w>
+                     <pc type="ws" xml:id="id_pc_534">-</pc>
+                     <w xml:id="wid_00142">žaww</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_536"> </seg>
+                     <w xml:id="wid_00143">šōb</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                     <phr ana="#vt_lex_today">
+                        <w xml:id="wid_00144">ǝl</w>
+                        <pc type="ws" xml:id="id_pc_539">-</pc>
+                        <w xml:id="wid_00145">yōm</w>
+                        </phr>
+                     </hi>
+                     <pc type="ws" xml:id="id_pc_541">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">yesterday</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Yesterday it rained.</cell>
+                  <cell rend="tdRight">
+                     <hi rend="red">
+                        <w ana="#vt_lex_yesterday" xml:id="wid_00146">ǝmbāreḥ</w> 
+                        </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00147_a">kānet</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_552"> </seg>
+                     <w xml:id="wid_00148">ʕam</w>
+                     <pc type="ws" xml:id="id_pc_554">-</pc>
+                     <w xml:id="wid_00149">tmaṭṭer</w>
+                     <pc type="ws" xml:id="id_pc_556">.</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_557"> </seg>
+                     <pc type="ws" xml:id="id_pc_558">(</pc>
+                     <w xml:id="wid_00150">kānet</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_560"> </seg>
+                     <w xml:id="wid_00151">tǝnzel</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00152">ǝl</w>
+                     <pc type="ws" xml:id="id_pc_564">-</pc>
+                     <w xml:id="wid_00153">maṭar</w>
+                     <pc type="ws" xml:id="id_pc_566">)</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">tomorrow</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Hey kids, tomorrow you have to study.</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00154">yā</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_575"> </seg>
+                     <w xml:id="wid_00155">wlād</w>
+                     <pc type="ws" xml:space="preserve">,</pc>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w ana="#vt_lex_tomorrow" xml:id="wid_00156">bukra</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00157_a">lāzem</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_580"> </seg>
+                     <w xml:id="wid_00158">tǝdǝrsu</w>
+                     <pc type="ws" xml:id="id_pc_582">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">last year</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Last year we had many problems.</cell>
+                  <cell rend="tdRight">
+                     <hi rend="red">
+                        <w ana="#vt_lex_last_year" xml:id="wid_00159">ʕamnawwal</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00160_a"> kān</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_593"> </seg>
+                     <w xml:id="wid_00161">ʕanna</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_595"> </seg>
+                     <w xml:id="wid_00162">ktīr</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_597"> </seg>
+                     <w xml:id="wid_00163">mašākel</w>
+                     <pc type="ws" xml:id="id_pc_599">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">
+                     <hi rend="bold">Numerals</hi>
+                  </cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre"/>
+                  <cell rend="tdRight"/>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">eight</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">We have been here for 8 years. </cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00164">ṣar</w>
+                     <pc type="ws" xml:id="id_pc_617">-</pc>
+                     <w xml:id="wid_00165">ǝlna</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_619"> </seg>
+                     <w xml:id="wid_00166">hōn</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w ana="#vt_lex_eight1" xml:id="wid_00167">tmǝn</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00168_a">ǝsnīn</w>
+                     <pc type="ws" xml:id="id_pc_623">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">eleven</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">What’s the time? It’s 11 o’clock.</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00169">ʔaddēš</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_632"> </seg>
+                     <w xml:id="wid_00170">ǝs</w>
+                     <pc type="ws" xml:id="id_pc_634">-</pc>
+                     <w xml:id="wid_00171">sāʕa</w>
+                     <pc type="ws" xml:id="id_pc_636">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_637"> </seg>
+                     <pc type="ws" xml:id="id_pc_638">-</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_639"> </seg>
+                     <w xml:id="wid_00172">ǝs</w>
+                     <pc type="ws" xml:id="id_pc_641">-</pc>
+                     <w xml:id="wid_00173">sāʿa</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w ana="#vt_lex_eleven" xml:id="wid_00174">ʔidaʕǝš</w>
+                     </hi>
+                     <pc type="ws" xml:id="id_pc_644">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">twelve</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">They have 12 goats and 2 cows.</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00175">ʕandon</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w ana="#vt_lex_twelve" xml:id="wid_00176">ǝṭnaʕšar</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00177_a">mǝʕzāye</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00178">w</w>
+                     <pc type="ws" xml:id="id_pc_657">-</pc>
+                     <w xml:id="wid_00179">baʔǝrtēn</w>
+                     <pc type="ws" xml:id="id_pc_659">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">eighteen</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">There are 18 new students in our class.</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00180">b</w>
+                     <pc type="ws" xml:id="id_pc_668">-</pc>
+                     <w xml:id="wid_00181">ṣaffna</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_670"> </seg>
+                     <w xml:id="wid_00182">fī</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w ana="#vt_lex_eighteen" xml:id="wid_00183">tmǝnṭaʕšar</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00184_a">ṭāleb</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00185">ǝždīd</w>
+                     <pc type="ws" xml:id="id_pc_676">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">
+                     <hi rend="bold">Adjectives</hi>
+                  </cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre"/>
+                  <cell rend="tdRight"/>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">good</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">How are you (m./f.)? – I’m fine.</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00186">šlōnak</w>
+                     <pc type="ws" xml:id="id_pc_694">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_695"> </seg>
+                     <w xml:id="wid_00187">–</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_697"> </seg>
+                     <w xml:id="wid_00188">ʔana</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w ana="#vt_lex_good" xml:id="wid_00189">mnīḥ</w>
+                     </hi>
+                     <pc type="ws" xml:id="id_pc_700">.</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_701"> </seg>
+                     <w xml:id="wid_00190">šlōnek</w>
+                     <pc type="ws" xml:id="id_pc_703">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_704"> </seg>
+                     <w xml:id="wid_00191">–</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_706"> </seg>
+                     <w xml:id="wid_00192">ʔana</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w xml:id="wid_00193">mnīḥa</w>
+                     </hi>
+                     <pc type="ws" xml:id="id_pc_709">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">
+                     <hi rend="bold">Colours</hi>
+                  </cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre"/>
+                  <cell rend="tdRight"/>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">white</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">My husband wears a white shirt. We have a white
+                     car.</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00194">žōzi</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_728"> </seg>
+                     <w xml:id="wid_00195">lābes</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_730"> </seg>
+                     <w xml:id="wid_00196">ʔamīṣ</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w ana="#vt_lex_white" xml:id="wid_00197">ʔabyaḍ</w>
+                     </hi>
+                     <pc type="ws" xml:id="id_pc_733">.</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_734"> </seg>
+                     <w xml:id="wid_00198">ʕanna</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_736"> </seg>
+                     <w xml:id="wid_00199">sayyāra</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w xml:id="wid_00200">bēḍa</w>
+                     </hi>
+                     <pc type="ws" xml:id="id_pc_740">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">black</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">I don’t like this black shirt. /car</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00201">mā</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_749"> </seg>
+                     <w xml:id="wid_00202">bḥǝbb</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_751"> </seg>
+                     <pc type="ws" xml:id="id_pc_752">(</pc>
+                     <w xml:id="wid_00203">mā</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_754"> </seg>
+                     <w xml:id="wid_00204">byǝʕžǝbni</w>
+                     <pc type="ws" xml:id="id_pc_756">)</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_757"> </seg>
+                     <w xml:id="wid_00205">ha</w>
+                     <pc type="ws" xml:id="id_pc_759">-</pc>
+                     <w xml:id="wid_00206">l</w>
+                     <pc type="ws" xml:id="id_pc_761">-</pc>
+                     <w xml:id="wid_00207">ʔamīṣ</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w xml:id="wid_00208">ǝl</w>
+                        <pc type="ws" xml:id="id_pc_764">-</pc>
+                        <w ana="#vt_lex_black" xml:id="wid_00209">ʔaswad</w>
+                     </hi>
+                     <pc type="ws" xml:id="id_pc_766">.</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_767"> </seg>
+                     <w xml:id="wid_00210">/</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_769"> </seg>
+                     <w xml:id="wid_00211">mā</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_771"> </seg>
+                     <w xml:id="wid_00212">bḥǝbb</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_773"> </seg>
+                     <pc type="ws" xml:id="id_pc_774">(</pc>
+                     <w xml:id="wid_00213">mā</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_776"> </seg>
+                     <w xml:id="wid_00214">btǝʕžǝbni</w>
+                     <pc type="ws" xml:id="id_pc_778">)</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_779"> </seg>
+                     <w xml:id="wid_00215">ha</w>
+                     <pc type="ws" xml:id="id_pc_781">-</pc>
+                     <w xml:id="wid_00216">s</w>
+                     <pc type="ws" xml:id="id_pc_783">-</pc>
+                     <w xml:id="wid_00217">sayyāra</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w xml:id="wid_00218">s</w>
+                        <pc type="ws" xml:id="id_pc_786">-</pc>
+                        <w xml:id="wid_00219">sōda</w>
+                     </hi>
+                     <pc type="ws" xml:id="id_pc_788">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">pink</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">My wife bought a pink shirt / bag.</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00220">marti</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_797"> </seg>
+                     <w xml:id="wid_00221">štaret</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_799"> </seg>
+                     <w xml:id="wid_00222">ʔamīṣ</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w ana="#vt_lex_pink" xml:id="wid_00223">wardi</w>
+                     </hi>
+                     <w xml:id="wid_00224">/</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_803"> </seg>
+                     <w xml:id="wid_00225">šantāye</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w xml:id="wid_00226">wardīye</w>
+                     </hi>
+                     <pc type="ws" xml:id="id_pc_806">.</pc>
+                  </cell>
+                  <cell rend="tdID">
+                     <w xml:id="wid_00227">šanta</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_809"> </seg>
+                     <w xml:id="wid_00228">or</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_811"> </seg>
+                     <w xml:id="wid_00229">šanṭa</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_813"> </seg>
+                     <pc type="ws" xml:id="id_pc_814">?</pc>
+                     <pc type="ws" xml:id="id_pc_815">?</pc>
+                     <pc type="ws" xml:id="id_pc_816">?</pc>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="tdLeft">grey</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">a grey wall/a grey bag</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00230">ḥēṭ</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w ana="#vt_lex_grey" xml:id="wid_00231">ǝrmādi</w>
+                     </hi>
+                     <w xml:id="wid_00232">/</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_826"> </seg>
+                     <w xml:id="wid_00233">šantāye</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w xml:id="wid_00234">rmādīye</w>
+                     </hi>
+                  </cell>
+                  <cell rend="tdID">
+                     <w xml:id="wid_00235">šanta</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_832"> </seg>
+                     <w xml:id="wid_00236">or</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_834"> </seg>
+                     <w xml:id="wid_00237">šanṭa</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_836"> </seg>
+                     <pc type="ws" xml:id="id_pc_837">?</pc>
+                     <pc type="ws" xml:id="id_pc_838">?</pc>
+                     <pc type="ws" xml:id="id_pc_839">?</pc>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="tdLeft">orange</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">an orange shirt/car</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00238">ʔamīṣ</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w ana="#vt_lex_orange" xml:id="wid_00239">bǝrdʔāni</w>
+                     </hi>
+                     <w xml:id="wid_00240">/</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_849"> </seg>
+                     <w xml:id="wid_00241">sayyāra</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w xml:id="wid_00242">bǝrdʔānīye</w>
+                     </hi>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">
+                     <hi rend="bold">Prepositions</hi>
+                  </cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre"/>
+                  <cell rend="tdRight"/>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">
+                     <hi rend="italic">fi</hi> vs. <hi rend="italic">bi</hi>
+                  </cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">There are 18 new students in our class.</cell>
+                  <cell rend="tdRight">
+                     <w ana="#vt_lex_in" xml:id="wid_00243">b</w>
+                     <pc type="ws" xml:id="id_pc_872">-</pc>
+                     <w xml:id="wid_00244">ṣaffna</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w xml:id="wid_00245">fī</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00246_a">tmǝnṭaʕšar</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_876"> </seg>
+                     <w xml:id="wid_00247">ṭāleb</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00248">ǝždīd</w>
+                     <pc type="ws" xml:id="id_pc_880">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">
+                     <hi rend="bold">Important verbs</hi>
+                  </cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre"/>
+                  <cell rend="tdRight"/>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">to do</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Fatima, what are you doing now? – I’m watching TV.</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00249">šū</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_898"> </seg>
+                     <w xml:id="wid_00250">ʕam</w>
+                     <pc type="ws" xml:id="id_pc_900">-</pc>
+                     <hi rend="red">
+                        <w ana="#vt_lex_to_do" xml:id="wid_00251">tsāwi</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00252_a">hallaʔ</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_903"> </seg>
+                     <w xml:id="wid_00253">yā</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_905"> </seg>
+                     <w xml:id="wid_00254">Fāṭme</w>
+                     <pc type="ws" xml:id="id_pc_907">.</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_908"> </seg>
+                     <w xml:id="wid_00255">–</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00256">ʕam</w>
+                     <pc type="ws" xml:id="id_pc_912">-</pc>
+                     <w xml:id="wid_00257">ətfarraž</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_914"> </seg>
+                     <w xml:id="wid_00258">ʕa</w>
+                     <pc type="ws" xml:id="id_pc_916">-</pc>
+                     <w xml:id="wid_00259">t</w>
+                     <pc type="ws" xml:id="id_pc_918">-</pc>
+                     <w xml:id="wid_00260">tǝlfəzyōn</w>
+                     <pc type="ws" xml:id="id_pc_920">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">to stay</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Stay a bit longer! – No, I don’t have time.</cell>
+                  <cell rend="tdRight">
+                     <hi rend="red">
+                        <w ana="#vt_lex_to_stay" xml:id="wid_00261">ḍall</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00262_a">ǝšwayy</w>
+                     <pc type="ws" xml:id="id_pc_931">!</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_932"> </seg>
+                     <w xml:id="wid_00263">–</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_934"> </seg>
+                     <w xml:id="wid_00264">lāʔ</w>
+                     <pc type="ws" xml:id="id_pc_936">,</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_937"> </seg>
+                     <w xml:id="wid_00265">mā</w>
+                     <pc type="ws" xml:id="id_pc_939">-</pc>
+                     <w xml:id="wid_00266">ʕandi</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_941"> </seg>
+                     <w xml:id="wid_00267">waʔǝt</w>
+                     <pc type="ws" xml:id="id_pc_943">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">to speak</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Do you speak Arabic? – Just, a little.</cell>
+                  <cell rend="tdRight">
+                     <hi rend="red">
+                        <w ana="#vt_lex_to_speak" xml:id="wid_00268">btǝḥki</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00269_a">ʕarabi</w>
+                     <pc type="ws" xml:id="id_pc_954">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_955"> </seg>
+                     <w xml:id="wid_00270">–</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_957"> </seg>
+                     <w xml:id="wid_00271">bass</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_959"> </seg>
+                     <w xml:id="wid_00272">ǝšwayy</w>
+                     <pc type="ws" xml:id="id_pc_961">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">to rain</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Yesterday it rained.</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00273">ǝmbāreḥ</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_970"> </seg>
+                     <w xml:id="wid_00274">kānet</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_972"> </seg>
+                     <hi rend="red">
+                     <phr ana="#vt_lex_to_rain">
+                     <w xml:id="wid_00275">ʕam</w>
+                     <pc type="ws" xml:id="id_pc_974">-</pc>
+                        <w xml:id="wid_00276">tmaṭṭer</w>
+                     </phr>
+                     </hi>
+                     <pc type="ws" xml:id="id_pc_976">.</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_977"> </seg>
+                     <pc type="ws" xml:id="id_pc_978">(</pc>
+                     <w xml:id="wid_00277">kānet</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w xml:id="wid_00278">tǝnzel</w>
+                        <seg type="ws" xml:space="preserve" xml:id="id_seg_981"> </seg>
+                        <w xml:id="wid_00279">ǝl</w>
+                        <pc type="ws" xml:id="id_pc_983">-</pc>
+                        <w xml:id="wid_00280">maṭar</w>
+                     </hi>
+                     <pc type="ws" xml:id="id_pc_985">)</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">to open</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Open the window!</cell>
+                  <cell rend="tdRight">
+                     <hi rend="red">
+                        <w ana="#vt_lex_to_open" xml:id="wid_00281">ftāḥ</w> 
+                        </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00282_a">ǝš</w>
+                     <pc type="ws" xml:id="id_pc_996">-</pc>
+                     <w xml:id="wid_00283">šǝbbāk</w>
+                     <pc type="ws" xml:id="id_pc_998">!</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">to close</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Close the doors!</cell>
+                  <cell rend="tdRight">
+                     <hi rend="red">
+                        <w ana="#vt_lex_to_close" xml:id="wid_00284">sakker</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00285_a">lǝ</w>
+                     <pc type="ws" xml:id="id_pc_1009">-</pc>
+                     <w xml:id="wid_00286">bwāb</w>
+                     <pc type="ws" xml:id="id_pc_1011">!</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">to take</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">What did you take? – Nothing.</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00287">šū</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w ana="#vt_lex_to_take" xml:id="wid_00288">ʔaxadǝt</w>
+                     </hi>
+                     <pc type="ws" xml:id="id_pc_1021">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1022"> </seg>
+                     <w xml:id="wid_00289">–</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1024"> </seg>
+                     <w xml:id="wid_00290">mā</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w xml:id="wid_00291">ʔaxadǝt</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00292_a">wala</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1028"> </seg>
+                     <w xml:id="wid_00293">šī</w>
+                     <pc type="ws" xml:id="id_pc_1030">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">to give</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Did you give the letter to Ahmad? – Yes, I gave it to
+                     him.</cell>
+                  <cell rend="tdRight">
+                     <hi rend="red">
+                        <w ana="#vt_lex_to_give" xml:id="wid_00294">ʕaṭēt</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00295_a">ǝl</w>
+                     <pc type="ws" xml:id="id_pc_1042">-</pc>
+                     <w xml:id="wid_00296">maktūb</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1044"> </seg>
+                     <w xml:id="wid_00297">la</w>
+                     <pc type="ws" xml:id="id_pc_1046">-</pc>
+                     <w xml:id="wid_00298">ʔAḥmad</w>
+                     <pc type="ws" xml:id="id_pc_1048">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1049"> </seg>
+                     <pc type="ws" xml:id="id_pc_1050">-</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1051"> </seg>
+                     <w xml:id="wid_00299">ʔē</w>
+                     <pc type="ws" xml:space="preserve">,</pc>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w xml:id="wid_00300">ʕaṭēt</w>
+                     </hi>
+                     <w xml:id="wid_00301">o</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1056"> </seg>
+                     <w xml:id="wid_00302">yā</w>
+                     <pc type="ws" xml:id="id_pc_1058">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">to see</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">The children saw a beggar behind our house.</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00303">lǝ</w>
+                     <pc type="ws" xml:id="id_pc_1067">-</pc>
+                     <w xml:id="wid_00304">wlād</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w ana="#vt_lex_to_see" xml:id="wid_00305">šāfu</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00306_a">šaḥḥād</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1071"> </seg>
+                     <w xml:id="wid_00307">wara</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1073"> </seg>
+                     <w xml:id="wid_00308">bētna</w>
+                     <pc type="ws" xml:id="id_pc_1075">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">to want</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Do you (f.) want to drink tea or coffee? – Tea
+                     please.</cell>
+                  <cell rend="tdRight">
+                     <hi rend="red">
+                     <w ana="#vt_lex_to_want" xml:id="wid_00309">bǝdd</w>
+                     </hi>
+                     <w xml:id="wid_00309_a">ek</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00310_a">tǝšrabi</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1087"> </seg>
+                     <w xml:id="wid_00311">šāy</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1089"> </seg>
+                     <w xml:id="wid_00312">walla</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1091"> </seg>
+                     <w xml:id="wid_00313">ʔahwe</w>
+                     <pc type="ws" xml:id="id_pc_1093">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1094"> </seg>
+                     <w xml:id="wid_00314">–</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1096"> </seg>
+                     <w xml:id="wid_00315">šāy</w>
+                     <pc type="ws" xml:id="id_pc_1098">,</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1099"> </seg>
+                     <w xml:id="wid_00316">ʔǝza</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00317">bǝtrīd</w>
+                     <pc type="ws" xml:id="id_pc_1103">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">to bring</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Bring me the big bottle, please! – I'm right with
+                     you.</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00318">ʔǝza</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1113"> </seg>
+                     <w xml:id="wid_00319">bǝtrīd</w>
+                     <pc type="ws" xml:space="preserve">,</pc>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w ana="#vt_lex_to_bring" xml:id="wid_00320">žǝb</w>
+                     </hi>
+                     <pc type="ws" xml:id="id_pc_1117">-</pc>
+                     <w xml:id="wid_00321">li</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1119"> </seg>
+                     <w xml:id="wid_00322">l</w>
+                     <pc type="ws" xml:id="id_pc_1121">-</pc>
+                     <w xml:id="wid_00323">ʔanīne</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1123"> </seg>
+                     <w xml:id="wid_00324">lǝ</w>
+                     <pc type="ws" xml:id="id_pc_1125">-</pc>
+                     <w xml:id="wid_00325">kbīre</w>
+                     <pc type="ws" xml:id="id_pc_1127">!</pc>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00326">–</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1130"> </seg>
+                     <w xml:id="wid_00327">ʕala</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1132"> </seg>
+                     <w xml:id="wid_00328">rāṣi</w>
+                     <pc type="ws" xml:id="id_pc_1134">.</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1135"> </seg>
+                     <pc type="ws" xml:id="id_pc_1136">(</pc>
+                     <w xml:id="wid_00329">ʕala</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1138"> </seg>
+                     <w xml:id="wid_00330">ʕēni</w>
+                     <pc type="ws" xml:id="id_pc_1140">)</pc> 
+                     </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">to have</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">They have a lot of money, but they are bad people.</cell>
+                  <cell rend="tdRight">
+                     <hi rend="red">
+                        <w ana="#vt_lex_to_have" xml:id="wid_00331">ʕandon</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00332_a">maṣāri</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1151"> </seg>
+                     <w xml:id="wid_00333">ktīre</w>
+                     <pc type="ws" xml:id="id_pc_1153">,</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1154"> </seg>
+                     <w xml:id="wid_00334">bass</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1156"> </seg>
+                     <w xml:id="wid_00335">hǝnne</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1158"> </seg>
+                     <w xml:id="wid_00336">nās</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1160"> </seg>
+                     <w xml:id="wid_00337">ʕāṭlīn</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1162"> </seg>
+                     <pc type="ws" xml:id="id_pc_1163">(</pc>
+                     <w xml:id="wid_00338">mū</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00339">mnāḥ</w>
+                     <pc type="ws" xml:id="id_pc_1167">)</pc>
+                     <pc type="ws" xml:id="id_pc_1168">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">
+                     <hi rend="bold">Phrasemes</hi>
+                  </cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre"/>
+                  <cell rend="tdRight"/>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">since/for</cell>
+                  <cell xml:space="preserve" rend="tdCom">Many Arabic dialects
+                     use periphrastic constructions to render
+                     English ‛since’.</cell>
+                  <cell rend="tdCentre">We have been here for 8 years.</cell>
+                  <cell rend="tdRight">
+                     <hi rend="red">
+                     <phr ana="#vt_lex_since_for">
+                        <w xml:id="wid_00340">ṣar</w>
+                        <pc type="ws" xml:id="id_pc_1189">-</pc>
+                        <w xml:id="wid_00341">ǝl</w>
+                        </phr>
+                     </hi>
+                     <w xml:id="wid_00342">na</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1192"> </seg>
+                     <w xml:id="wid_00343">hōn</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1194"> </seg>
+                     <w xml:id="wid_00344">tmǝn</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1196"> </seg>
+                     <w xml:id="wid_00345">ǝsnīn</w>
+                     <pc type="ws" xml:id="id_pc_1198">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">
+                     <hi rend="bold">Nouns</hi>
+                  </cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre"/>
+                  <cell rend="tdRight"/>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">women</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">What are those women doing there? –
+                     They are baking bread.</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00346">šū</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1217"> </seg>
+                     <w xml:id="wid_00347">ʕam</w>
+                     <pc type="ws" xml:id="id_pc_1219">-</pc>
+                     <w xml:id="wid_00348">ysāwu</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1221"> </seg>
+                     <w xml:id="wid_00349">hadǝnk</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1223"> </seg>
+                     <w xml:id="wid_00350">ǝn</w>
+                     <pc type="ws" xml:id="id_pc_1225">-</pc>
+                     <hi rend="red">
+                        <w ana="#vt_lex_women" xml:id="wid_00351">nǝswān</w>
+                     </hi>
+                     <pc type="ws" xml:id="id_pc_1227">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1228"> </seg>
+                     <w xml:id="wid_00352">–</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00353">ʕam</w>
+                     <pc type="ws" xml:id="id_pc_1232">-</pc>
+                     <w xml:id="wid_00354">yǝxǝbzu</w>
+                     <pc type="ws" xml:id="id_pc_1234">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">husband</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">My husband wears a white shirt. We have a white
+                     car.</cell>
+                  <cell rend="tdRight">
+                     <hi rend="red">
+                        <w ana="#vt_lex_husband" xml:id="wid_00355">žōz</w>
+                     </hi>
+                     <w xml:id="wid_00356">i</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1246"> </seg>
+                     <w xml:id="wid_00357">lābes</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1248"> </seg>
+                     <w xml:id="wid_00358">ʔamīṣ</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1250"> </seg>
+                     <w xml:id="wid_00359">ʔabyaḍ</w>
+                     <pc type="ws" xml:id="id_pc_1252">.</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1253"> </seg>
+                     <w xml:id="wid_00360">ʕanna</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1255"> </seg>
+                     <w xml:id="wid_00361">sayyāra</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1257"> </seg>
+                     <w xml:id="wid_00362">bēḍa</w>
+                     <pc type="ws" xml:id="id_pc_1259">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">friend</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Who is this man? – He is my friend</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00363">mīn</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1268"> </seg>
+                     <w xml:id="wid_00364">hāda</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1270"> </seg>
+                     <w xml:id="wid_00365">z</w>
+                     <pc type="ws" xml:id="id_pc_1272">-</pc>
+                     <w xml:id="wid_00366">zalame</w>
+                     <pc type="ws" xml:id="id_pc_1274">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1275"> </seg>
+                     <w xml:id="wid_00367">hāda</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w ana="#vt_lex_friend" xml:id="wid_00368">rfīʔ</w>
+                     </hi>
+                     <w xml:id="wid_00369">i</w>
+                     <pc type="ws" xml:id="id_pc_1279">.</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1280"> </seg>
+                     <pc type="ws" xml:id="id_pc_1281">(</pc>
+                     <w ana="#vt_morph_perspron_3_sg_m" xml:id="wid_00370">huwwe</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w xml:id="wid_00371">rfīʔ</w>
+                     </hi>
+                     <w xml:id="wid_00372">i</w>
+                     <pc type="ws" xml:id="id_pc_1286">)</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">
+                     <hi rend="bold">Neologisms</hi>
+                  </cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre"/>
+                  <cell rend="tdRight"/>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">mobile vs. cellphone</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Where is my mobile (phone)? – Here it is!</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00373">wēn</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1304"> </seg>
+                     <w xml:id="wid_00374">əl</w>
+                     <pc type="ws" xml:id="id_pc_1306">-</pc>
+                     <hi rend="red">
+                        <w ana="#vt_lex_mobile" xml:id="wid_00375">mōbāyl</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00376_a">tabaʕi</w>
+                     <pc type="ws" xml:id="id_pc_1309">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1310"> </seg>
+                     <w xml:id="wid_00377">–</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1312"> </seg>
+                     <w xml:id="wid_00378">lēko</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1314"> </seg>
+                     <w xml:id="wid_00379">l</w>
+                     <pc type="ws" xml:id="id_pc_1316">-</pc>
+                     <w xml:id="wid_00380">mōbāyl</w>
+                     <pc type="ws" xml:id="id_pc_1318">!</pc> 
+                     </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">
+                     <hi rend="bold">Modality</hi>
+                  </cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre"/>
+                  <cell rend="tdRight"/>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">being unable</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">We cannot pay the rent.</cell>
+                  <cell rend="tdRight">
+                     <hi rend="red">
+                     <phr ana="#vt_lex_being_unable">
+                        <w xml:id="wid_00381">mā</w>
+                        <seg type="ws" xml:space="preserve" xml:id="id_seg_1337"> </seg>
+                        <w xml:id="wid_00382">fīna</w>
+                        </phr>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00383_a">nǝdfaʕ</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1340"> </seg>
+                     <w xml:id="wid_00384">ǝl</w>
+                     <pc type="ws" xml:id="id_pc_1342">-</pc>
+                     <w xml:id="wid_00385">ʔažār</w>
+                     <pc type="ws" xml:id="id_pc_1344">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">ability</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Can you (~do you know how to) play barsīs? – Yes.</cell>
+                  <cell rend="tdRight">
+                     <hi rend="red">
+                     <phr ana="#vt_lex_ability">
+                     <w xml:id="wid_00386">fī</w>  
+                     <w xml:id="wid_00386_a">k</w>
+                     </phr>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00387_a">tǝlʕab</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1355"> </seg>
+                     <w xml:id="wid_00388">barsīs</w>
+                     <pc type="ws" xml:id="id_pc_1357">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1358"> </seg>
+                     <pc type="ws" xml:id="id_pc_1359">(</pc>
+                     <w xml:id="wid_00389">baržīs</w>
+                     <pc type="ws" xml:id="id_pc_1361">)</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1362"> </seg>
+                     <w xml:id="wid_00390">–</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1364"> </seg>
+                     <w xml:id="wid_00391">ʾē</w>
+                     <pc type="ws" xml:id="id_pc_1366">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">possibility</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Can you come tomorrow?</cell>
+                  <cell rend="tdRight">
+                     <pc type="ws" xml:id="id_pc_1374">(</pc>
+                     <pc type="ws" xml:id="id_pc_1375">?</pc>
+                     <pc type="ws" xml:id="id_pc_1376">?</pc>
+                     <pc type="ws" xml:id="id_pc_1377">?</pc>
+                     <pc type="ws" xml:id="id_pc_1378">)</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">
+                     <hi rend="bold">Other items</hi>
+                  </cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre"/>
+                  <cell rend="tdRight"/>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">a little</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Do you speak Arabic? – Just, a little.</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00392">bititkallim</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1396"> </seg>
+                     <w xml:id="wid_00393">ʕaṛabi</w>
+                     <pc type="ws" xml:id="id_pc_1398">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1399"> </seg>
+                     <w xml:id="wid_00394">–</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w ana="#vt_lex_a_little" xml:id="wid_00395">šwayya</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00396">bass</w>
+                     <pc type="ws" xml:id="id_pc_1404">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">existential (there is, there are)</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">There are 18 new students in our class.</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00397">b</w>
+                     <pc type="ws" xml:id="id_pc_1413">-</pc>
+                     <w xml:id="wid_00398">ṣaffna</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w ana="#vt_lex_existential" xml:id="wid_00399">fī</w>
+                     </hi>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="wid_00400_a">tmǝnṭaʕšar</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1417"> </seg>
+                     <w xml:id="wid_00401">ṭāleb</w>
+
+                     <w xml:id="wid_00402">ǝždīd</w>
+                     <pc type="ws" xml:id="id_pc_1421">.</pc>
+                  </cell>
+                  <cell rend="tdID"/>
+               </row>
+               <row>
+                  <cell rend="tdLeft">Genitive explicative</cell>
+                  <cell xml:space="preserve" rend="tdCom"/>
+                  <cell rend="tdCentre">Where is my mobile? – Here it is!</cell>
+                  <cell rend="tdRight">
+                     <w xml:id="wid_00403">wēn</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1430"> </seg>
+                     <w xml:id="wid_00404">əl</w>
+                     <pc type="ws" xml:id="id_pc_1432">-</pc>
+                     <w xml:id="wid_00405">mōbāyl</w>
+                     <seg type="ws" xml:space="preserve"> </seg>
+                     <hi rend="red">
+                        <w ana="#vt_lex_gen_explicative" xml:id="wid_00406">tabaʕ</w>
+                     </hi>
+                     <w xml:id="wid_00407">i</w>
+                     <pc type="ws" xml:id="id_pc_1436">?</pc>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1437"> </seg>
+                     <w xml:id="wid_00408">–</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1439"> </seg>
+                     <w xml:id="wid_00409">lēko</w>
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_1441"> </seg>
+                     <w xml:id="wid_00410">l</w>
+                     <pc type="ws" xml:id="id_pc_1443">-</pc>
+                     <w xml:id="wid_00411">mōbāyl</w>
+                     <pc type="ws" xml:id="id_pc_1445">!</pc> 
+                     </cell>
+                  <cell rend="tdID"/>
+               </row>
+            </table>
+         </div>
+      </body>
+   </text>
+</TEI>
