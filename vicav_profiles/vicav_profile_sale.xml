@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_sale_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_sale_01">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -35,17 +34,18 @@
       <change who="#charly" when="2018-10-03" status="released"/>
     </revisionDesc>
   </teiHeader>
+  
   <text>
     <body>
       <div>
         <head>
           <figure>
             <graphic url="rabat_chellah_minaret_2.jpg"/>
-            <head type="imgCaption" xml:space="preserve">Source: <ref target="https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B1%D8%A8%D8%A7%D8%B7#/media/File:Rabat,_Chellah_minaret_2.jpg">Wikimedia</ref>
+            <head type="imgCaption">Source: <ref target="https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B1%D8%A8%D8%A7%D8%B7#/media/File:Rabat,_Chellah_minaret_2.jpg">Wikimedia</ref>
               </head>
           </figure>
           <label>Name (English)</label>
-          <name xml:lang="eng">Salé</name>
+          <name xml:lang="eng">Rabat-Salé</name>
           <label>Name (MSA)</label>
           <name xml:lang="ara">سلا</name>
           <label>Name (MSA, trans.)</label>
@@ -56,17 +56,17 @@
           <name xml:lang="ary-Latn" type="latLoc">Sla</name>
         </head>
         <div type="positioning">
-          <p xml:space="preserve">
+          <p>
               <geo>34°02′N 6°83′W</geo>
             </p>
         </div>
 
         <div type="typology">
-          <p xml:space="preserve">Western › Maghreb › Morocco</p>
-          <p xml:space="preserve">Urban (prehilalien), sedentary dialect with bedouin influence</p>
+          <p>Western › Maghreb › Morocco</p>
+          <p>Urban (prehilalien), sedentary dialect with bedouin influence</p>
         </div>
         <div type="general">
-          <p xml:space="preserve">Basically, the dialect of Salé is almost identical to that of
+          <p>Basically, the dialect of Salé is almost identical to that of
               Rabat. The varieties of both cities were strongly influenced by
               the impact of Bedouin infiltration mainly in the second half of
               the past century and the large numbers of Berbers who settled in
@@ -74,23 +74,23 @@
         </div>
 
         <div type="researchHistory">
-          <p xml:space="preserve">By contrast to the old dialect of 
+          <p>By contrast to the old dialect of 
             Rabat (<rs type="bibl" ref="zotID:24WAIPFC zotID:YJK7X5S7 zotID:A3CUIZYB zotID:WT49QNB4 zotID:LKHVEAT5 zotID:Z67HNHBG">L. Brunot 1918ff.</rs>), 
             there exist no in-depth studies of the dialect of the medina of Salé. It can be
               assumed that the old dialect of Salé (as is stated for Rabat) had
               similar basic features as Tanger and Tetouan speech. The
               development from an „urban“ to a „mixed rural-urban“ dialect is
               described by <rs type="bibl" ref="zotID:QEG433QR">Messaoudi 2002</rs>. Recent grammatical and lexical studies on
-              Rabat/Salé have been undertaken by <rs type="bibl" ref="zotID:LMDE3E4E">Heath 2002</rs> and Behnstedt
-              2011/12.</p>
+              Rabat/Salé have been undertaken by <rs type="bibl" ref="zotID:LMDE3E4E">Heath 2002</rs> and 
+              <rs type="bibl" ref="zotID:CG324JCW">Behnstedt 2011-14</rs>.</p>
         </div>
 
         <div type="bibliography">
-          <p xml:space="preserve">To get a list of publications relating to Morocco click <rs type="bibl" ref="bibl:reg:Morocco">here</rs>.</p>
+          <p>To get a list of publications relating to Morocco click <rs type="bibl" ref="bibl:reg:Morocco">here</rs>.</p>
         </div>
 
         <div type="dictionaries">
-          <p xml:space="preserve">To get a more general list of dictionaries for the study
+          <p>To get a more general list of dictionaries for the study
               of Moroccan Arabic click <rs type="bibl" ref="bibl:reg:Morocco+bibl:vt:dictionary">here</rs>.</p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_sacda_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_sacda_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,7 +44,7 @@
             <head>
                <figure>
                   <graphic url="saada.jpg"/>
-                  <head type="imgCaption" xml:space="preserve">Stephan Procházka 1990</head>
+                  <head type="imgCaption">Stephan Procházka 1990</head>
                </figure>
                
                <label>Name (English)</label>
@@ -61,33 +61,34 @@
             </head>
             <div type="positioning">
                <head>Geo location</head>
-               <p xml:space="preserve">
+               <p>
                   <geo>16°93′N 43°75′E</geo>
                </p>
             </div>
             <div type="typology">
                <head>Typology (Local)</head>
-               <p rend="typology" xml:space="preserve">East (Mashreq) › Arabia › Yemen › Sa’da region</p>
-               <p xml:space="preserve">Sedentary dialect </p>
+               <p rend="typology">East (Mashreq) › Arabia › Yemen › Sa’da region</p>
+               <p>Sedentary dialect </p>
             </div>
             
             <div type="general">               
-               <p xml:space="preserve">Sa’da is the largest town in the north of Yemen and famous for having been the main seat of the Zaidi Imamate. The dialect of Sa’da and its surroundings is less archaic than other dialects in the region.</p>
+               <p>Sa’da is the largest town in the north of Yemen and famous for having been the main seat of the Zaidi Imamate. The dialect of Sa’da and its surroundings is less archaic than other dialects in the region.</p>
             </div>
             
             <div type="researchHistory">               
-               <p xml:space="preserve">The most important study is Part A in <rs type="bibl" ref="zotID:U746XQCV">Behnstedt 1987</rs>, 
+               <p>The most important study is Part A in <rs type="bibl" ref="zotID:U746XQCV">Behnstedt 1987</rs>, 
                which contains a detailed description of the dialect's phonology and morphology and some remarks on its lexicon. 
                The <hi rendition="#i">Dialect Atlas of North Yemen and Adjacent Areas</hi> <rs type="bibl" ref="zotID:BPWSNIY2">Behnstedt 2016</rs>, 
                no. 237 on the maps) also has abundant data on the dialect.</p>
             </div>
             
             <div type="dictionaries">               
-               <p xml:space="preserve">The comprehensive glossary on Yemeni Arabic in Behnstedt 1992-2006 contains lexical data from Sa’da.</p>
+               <p>The comprehensive glossary on Yemeni Arabic in <rs type="bibl" ref="zotID:WMBPXL55">Behnstedt 1992-2006</rs> contains 
+               lexical data from Sa’da.</p>
             </div>
             
             <div type="bibliography">               
-               <p xml:space="preserve">To view publications on Yemen click <rs type="bibl" ref="bibl:reg:Yemen">here</rs>.</p>
+               <p>To view publications on Yemen click <rs type="bibl" ref="bibl:reg:Yemen">here</rs>.</p>
             </div>
          </div>
       </body>

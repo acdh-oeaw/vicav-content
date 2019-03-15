@@ -1,4 +1,4 @@
-<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_palmyra_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_palmyra_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +41,7 @@
             <head>
                <figure>
                   <graphic url="palmyra.jpg"/>
-                  <head type="imgCaption" xml:space="preserve">Source: <ref target="https://en.wikipedia.org/wiki/Palmyra_(modern)#/media/File:City_of_Tadmor,_Syria.jpg">Wikimedia</ref>
+                  <head type="imgCaption">Source: <ref target="https://en.wikipedia.org/wiki/Palmyra_(modern)#/media/File:City_of_Tadmor,_Syria.jpg">Wikimedia</ref>
                   </head>
                </figure>
                
@@ -60,41 +60,41 @@
             </head>
             <div type="positioning">
                <head>Geo location</head>
-               <p xml:space="preserve">
+               <p>
                   <geo>34°64′N 38°26′E</geo>
                </p>
             </div>
             
             <div type="typology">
                <head>Typology (Local)</head>
-               <p rend="typology" xml:space="preserve">East (Mashreq) › Levant › Syria › Oases and Steppe Dialects</p>
-               <p xml:space="preserve">Sedentary dialect with relatively few Bedouin influences</p>
+               <p rend="typology">East (Mashreq) › Levant › Syria › Oases and Steppe Dialects</p>
+               <p>Sedentary dialect with relatively few Bedouin influences</p>
             </div>
             
             <div type="general">   
-               <p xml:space="preserve">Palmyra is an oasis in the northern part of the Syrian Desert. The ruins of ancient Palmyra are situated about 500 metres southwest of the modern town centre. Ancient Palmyra was a famous commercial city dating back to the Neolithic period.</p>
-               <p xml:space="preserve">In 1921, during the French Mandate for Syria and Lebanon, a garrison fort was erected in the village because Palmyra had become key to French efforts to pacify the Syrian Desert. In 1929 the villagers were enduced to move to a new, French-built village next to the site.</p>
-               <p xml:space="preserve">Palmyra serves as a centre for Syria’s phosphate mining and natural gas industries. The town has severely suffered from the civil war in Syria, particularly between 2015 and 2017 when it was under the control of ISIS.</p>
+               <p>Palmyra is an oasis in the northern part of the Syrian Desert. The ruins of ancient Palmyra are situated about 500 metres southwest of the modern town centre. Ancient Palmyra was a famous commercial city dating back to the Neolithic period.</p>
+               <p>In 1921, during the French Mandate for Syria and Lebanon, a garrison fort was erected in the village because Palmyra had become key to French efforts to pacify the Syrian Desert. In 1929 the villagers were enduced to move to a new, French-built village next to the site.</p>
+               <p>Palmyra serves as a centre for Syria’s phosphate mining and natural gas industries. The town has severely suffered from the civil war in Syria, particularly between 2015 and 2017 when it was under the control of ISIS.</p>
             </div>
             
             <div type="researchHistory">               
-               <p xml:space="preserve"><rs type="bibl" ref="zotID:T9A5XABK">Cantineau 1934a</rs> and <rs type="bibl" ref="zotID:BQ82V9MN">1934b</rs> are 
+               <p><rs type="bibl" ref="zotID:T9A5XABK">Cantineau 1934a</rs> and <rs type="bibl" ref="zotID:BQ82V9MN">1934b</rs> are 
                still the most comprehensive studies of the dialect of Palmyra: the former covers the grammar and includes extensive descriptions of the 
                phonology, morphology, and syntax of the dialect; the latter offers vocabulary and texts, starting with a short glossary on topics like 
                body parts and verbs, followed by 41 texts describing marriage, building construction, agriculture, and similar subjects. The article 
                also includes illustrations of several agricultural tools.</p>
                
-               <p xml:space="preserve"><rs type="bibl" ref="zotID:MZI8DJ3B">Cantineau 1956</rs> is a short article with notes about the 
-               dialects of the Syrian oases Qaritēn, Palmyra, and Soukhne. Behnstedt 2002 offers a collection of texts in dialect, including 
+               <p><rs type="bibl" ref="zotID:MZI8DJ3B">Cantineau 1956</rs> is a short article with notes about the 
+               dialects of the Syrian oases Qaritēn, Palmyra, and Soukhne. <rs type="bibl" ref="zotID:6E64PF2M">Behnstedt 2000</rs> offers a collection of texts in dialect, including 
                topics like everyday life, tribes, sheep breeding, and five cooking recipes.</p>
             </div>
             
             <div type="dictionaries">               
-               <p xml:space="preserve">A modest glossary is found in <rs type="bibl" ref="zotID:BQ82V9MN">Cantineau 1934b</rs>.</p>
+               <p>A modest glossary is found in <rs type="bibl" ref="zotID:BQ82V9MN">Cantineau 1934b</rs>.</p>
             </div>
 
             <div type="bibliography">
-               <p xml:space="preserve">To view publications concerning Syria click <rs ref="bibl:reg:Syria">here</rs>.</p>
+               <p>To view publications concerning Syria click <rs ref="bibl:reg:Syria">here</rs>.</p>
             </div>
 
          </div>
