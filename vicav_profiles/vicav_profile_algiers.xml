@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_algiers_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_algiers_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -33,8 +32,7 @@
       </encodingDesc>
       <revisionDesc>
          <change status="created" when="2018-12-07T10:43:00Z" who="#aleksandra">created</change>
-         <change status="draft" when="2018-12-07T10:43:00Z" who="#aleksandra"
-            >last modified (revision 2)</change>
+         <change status="draft" when="2018-12-07T10:43:00Z" who="#aleksandra">last modified (revision 2)</change>
          <change status="draft" when="2019-02-18T23:06:11.704+01:00">transformed to TEI-XML</change>
          <change when="2019-02-18T23:06:13.432+01:00" status="draft"/>
       </revisionDesc>
@@ -91,9 +89,9 @@
                <p xml:space="preserve"><rs type="bibl" ref="zotID:U4TCK28X">Mishkurov 1973</rs> is a short article on 
                the pronominalisation of the lexeme <hi rendition="#i">ši</hi> in the dialect of Algiers; 
                and <rs type="bibl" ref="zotID:ICWCTVTF">Mishkurov 1982</rs> presents a concise grammatical description of 
-               the city's dialect, subdivided into phonetics, morphology, and syntax. Mairi 1981 is a study on the phonology 
-               and morphology of Algiers Arabic. Coletti 1985 is a 6-page text presenting a legend from Algiers with 
-               Italian translation and includes a grammatical sketch and short glossary. <rs type="bibl" ref="zotID:ZSFD4NH2">Boucherit 1994</rs> discusses 
+               the city's dialect, subdivided into phonetics, morphology, and syntax. <rs type="bibl" ref="zotID:CEL929KK">Mairi 1981</rs> is 
+               a study on the phonology and morphology of Algiers Arabic. <rs type="bibl" ref="zotID:Q849692P">Coletti 1985</rs> is 
+               a 6-page text presenting a legend from Algiers with Italian translation and includes a grammatical sketch and short glossary. <rs type="bibl" ref="zotID:ZSFD4NH2">Boucherit 1994</rs> discusses 
                the vowel system of the dialect of Algiers.</p>
 
                <p xml:space="preserve">The most comprehensive description on the contemporary dialect is <rs type="bibl" ref="zotID:R6FR9VZL">Boucherit 2002</rs> – 

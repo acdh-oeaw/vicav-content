@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_ouled_brahim_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_ouled_brahim_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -30,8 +29,7 @@
       </encodingDesc>
       <revisionDesc>
          <change status="created" when="2018-11-20T11:50:00Z" who="#aleksandra">created</change>
-         <change status="draft" when="2019-01-03T11:08:00Z" who="#aleksandra"
-            >last modified (revision 5)</change>
+         <change status="draft" when="2019-01-03T11:08:00Z" who="#aleksandra">last modified (revision 5)</change>
          <change status="draft" when="2019-02-19T23:30:29.239+01:00">transformed to TEI-XML</change>
          <change when="2019-02-19T23:30:30.197+01:00" status="draft"/>
       </revisionDesc>
@@ -50,7 +48,7 @@
                <label>Name (English)</label>
                <name xml:lang="eng">Ouled Brahim (Saïda)</name>
                <label>MSA name</label>
-               <name xml:lang="ara">أولاد براهيم (سعيدة(</name>
+               <name xml:lang="ara">أولاد براهيم (سعيدة)</name>
                <label>MSA name (trans.)</label>
                <name xml:lang="ara-x-DMG">Awlād Brāhīm (Saʕīda)</name>
                <label>Local name (trans.)</label>
