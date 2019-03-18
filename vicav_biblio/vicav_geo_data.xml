@@ -14,7 +14,6 @@
 ???? geo:Khorasan
 ???? geo:Korba
 ???? geo:Mahalat Qaraqush
-geo:Maiduguri [11.86,13.16]
 ???? geo:Muhradah
 ???? geo:Nigeria
 ???? geo:Peqiin
@@ -29,12 +28,12 @@ geo:Maiduguri [11.86,13.16]
 ???? reg:Egypt-Sudan
 ???? reg:Senegal
 ???? reg:South Sudan
-geo:Abéché [13.83, 20.84]
-geo:Abu Dhabi
+geo:Abéché [13.83, 20.84] {245785}
+geo:Abu Dhabi [24.47, 54.37] {292968}
 geo:Abu Shusha [31.86, 35.25]
 geo:Abu Snan [32.96, 35.17]
-geo:Adana [36.99, 35.33]
-geo:Aden [12.78, 45.01]
+geo:Adana [37.00, 35.33] {325363}
+geo:Aden [12.78, 45.04] {415189}
 geo:Afak [32.06, 45.23]
 geo:Agadir [30.42, -9.59]
 geo:Akko [32.93, 35.08]
@@ -194,6 +193,7 @@ geo:Lod [31.95, 34.88]
 geo:Madaba [31.57, 35.64]
 geo:Madaba [31.71, 35.79]
 geo:Mahdia [35.50, 11.04]
+geo:Maiduguri [11.86,13.16]
 geo:Majdal al-Shams [33.27, 35.77]
 geo:Manakhah [15.07, 43.74]
 geo:Mardin [37.31, 40.73]
