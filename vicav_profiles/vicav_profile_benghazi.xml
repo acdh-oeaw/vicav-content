@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_benghazi_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_benghazi_01">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>A machine-readable profile of Benghazi Arabic</title>
-        <author xml:id="sherin">Sherin</author>
+        <author xml:id="sherin">Sherin Elkaffas</author>
         <editor xml:id="charly" role="Technical_Editor">Karlheinz Moerth</editor>
       </titleStmt>
       <publicationStmt>

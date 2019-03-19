@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_abu_dhabi_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_abu_dhabi_01">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>A machine-readable profile of Abu Dhabi Arabic</title>
-                <author>Stephanie </author>
+                <author>Stephanie Sarg</author>
                 <editor xml:id="charly" role="Technical_Editor">Karlheinz Moerth</editor>
             </titleStmt>
             <publicationStmt>
@@ -13,8 +12,7 @@
                 <date>2018</date>
                 <availability status="restricted">
                     <p>
-                        <ref type="license"
-                            target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+                        <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
                     </p>
                 </availability>
             </publicationStmt>
