@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_tripoli_leb_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_tripoli_leb_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -33,8 +32,7 @@
       </encodingDesc>
       <revisionDesc>
          <change status="created" when="2018-11-20T11:35:00Z" who="#aleksandra">created</change>
-         <change status="draft" when="2018-11-20T11:37:00Z" who="#aleksandra"
-            >last modified (revision 4)</change>
+         <change status="draft" when="2018-11-20T11:37:00Z" who="#aleksandra">last modified (revision 4)</change>
          <change status="draft" when="2019-02-19T23:31:18.658+01:00">transformed to TEI-XML</change>
          <change when="2019-02-19T23:31:19.63+01:00" status="draft"/>
       </revisionDesc>
@@ -45,7 +43,7 @@
             <head>
                <figure>
                   <graphic url="tripoli.jpg"/>
-                  <head type="imgCaption" xml:space="preserve">Source: <ref target="https://de.wikipedia.org/wiki/Tripoli_(Libanon)#/media/File:OldTripoli.jpg">Wikimedia</ref>
+                  <head type="imgCaption" xml:space="preserve"><ref target="https://de.wikipedia.org/wiki/Tripoli_(Libanon)#/media/File:OldTripoli.jpg">Wikimedia</ref>
                   </head>
                </figure>
                <label>Name (English)</label>

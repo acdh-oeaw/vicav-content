@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_sid_bel_abbes_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_sid_bel_abbes_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,8 +28,7 @@
       </encodingDesc>
       <revisionDesc>
          <change status="created" when="2018-11-20T11:44:00Z" who="#aleksandra">created</change>
-         <change status="draft" when="2018-11-20T11:45:00Z" who="#aleksandra"
-            >last modified (revision 3)</change>
+         <change status="draft" when="2018-11-20T11:45:00Z" who="#aleksandra">last modified (revision 3)</change>
          <change status="draft" when="2019-02-19T23:31:07.026+01:00">transformed to TEI-XML</change>
          <change when="2019-02-19T23:31:08.109+01:00" status="draft"/>
       </revisionDesc>
@@ -41,7 +39,7 @@
             <head>
                <figure>
                   <graphic url="sidi_bel_abbes.jpg"/>
-                  <head type="imgCaption" xml:space="preserve">Source: 
+                  <head type="imgCaption" xml:space="preserve"> 
                   <ref target="https://ar.wikipedia.org/wiki/%D8%B3%D9%8A%D8%AF%D9%8A_%D8%A8%D9%84%D8%B9%D8%A8%D8%A7%D8%B3#/media/File:Aerial_view_of_Sidi_Bel_Abb%C3%A8s_(Alg%C3%A9rie).jpg">Wikimedia</ref>
                   </head>
                </figure>

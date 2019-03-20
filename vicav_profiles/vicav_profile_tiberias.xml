@@ -1,12 +1,10 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_tiberias_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_tiberias_01">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>A machine-readable profile of Tiberias Arabic</title>
         <author xml:id="karoline">Karoline Köster</author>
-        <editor xml:id="charly" role="Technical_Editor"
-          >Karlheinz Moerth</editor>
+        <editor xml:id="charly" role="Technical_Editor">Karlheinz Moerth</editor>
       </titleStmt>
       <publicationStmt>
         <publisher>ACDH-OeAW</publisher>
@@ -14,8 +12,7 @@
         <date>2018</date>
         <availability status="restricted">
           <p>
-            <ref type="license"
-              target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+            <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
           </p>
         </availability>
       </publicationStmt>
@@ -26,18 +23,14 @@
     <encodingDesc>
       <tagsDecl partial="true">
         <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
-        <rendition xml:id="u" scheme="css"
-          >text-decoration:underline;</rendition>
+        <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
         <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
       </tagsDecl>
     </encodingDesc>
     <revisionDesc>
-      <change status="created" when="2019-02-18" who="#karoline"
-        >created</change>
-      <change status="draft" when="2019-02-18" who="#karoline"
-        >last modified (revision 4)</change>
-      <change status="draft" who="#charly" when="2019-02-18"
-        >transformed to TEI-XML</change>
+      <change status="created" when="2019-02-18" who="#karoline">created</change>
+      <change status="draft" when="2019-02-18" who="#karoline">last modified (revision 4)</change>
+      <change status="draft" who="#charly" when="2019-02-18">transformed to TEI-XML</change>
       <change who="#charly" when="2018-10-03" status="released"/>
     </revisionDesc>
   </teiHeader>
@@ -47,7 +40,7 @@
         <head>
           <figure>
             <graphic url="tiberias_001.jpg"/>
-            <head type="imgCaption" xml:space="preserve">Source: <ref target="https://upload.wikimedia.org/wikipedia/commons/6/65/%D7%94%D7%9E%D7%A1%D7%92%D7%93_%D7%91%D7%98%D7%91%D7%A8%D7%99%D7%94_02.jpg">Wikimedia</ref>
+            <head type="imgCaption" xml:space="preserve"><ref target="https://upload.wikimedia.org/wikipedia/commons/6/65/%D7%94%D7%9E%D7%A1%D7%92%D7%93_%D7%91%D7%98%D7%91%D7%A8%D7%99%D7%94_02.jpg">Wikimedia</ref>
               </head>
           </figure>
           <label>Name (English)</label>

@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_shukriyya_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_shukriyya_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -30,8 +29,7 @@
       </encodingDesc>
       <revisionDesc>
          <change status="created" when="2019-01-08T09:49:00Z" who="#bettina">created</change>
-         <change status="draft" when="2019-01-08T09:54:00Z" who="#bettina"
-            >last modified (revision 4)</change>
+         <change status="draft" when="2019-01-08T09:54:00Z" who="#bettina">last modified (revision 4)</change>
          <change status="draft" when="2019-02-19T23:31:03.845+01:00">transformed to TEI-XML</change>
          <change when="2019-02-19T23:31:04.943+01:00" status="draft"/>
       </revisionDesc>
@@ -43,7 +41,7 @@
             <head>
                <figure>
                   <graphic url="butana_steppe.jpg"/>
-                  <head type="imgCaption" xml:space="preserve">Source: 
+                  <head type="imgCaption" xml:space="preserve"> 
                      <ref target="https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D9%86%D8%A9#/media/File:Butana_steppe.jpg">Wikimedia</ref>
                   </head>
                </figure>

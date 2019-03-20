@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_tozeur_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_tozeur_01">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -41,7 +40,7 @@
         <head>
           <figure>
             <graphic url="tozeur_001.jpg"/>
-            <head type="imgCaption" xml:space="preserve">Source: <ref target="https://upload.wikimedia.org/wikipedia/commons/6/61/Tozeur_Avenue_Habib_Bourguiba.JPG">Wikimedia</ref>
+            <head type="imgCaption" xml:space="preserve"><ref target="https://upload.wikimedia.org/wikipedia/commons/6/61/Tozeur_Avenue_Habib_Bourguiba.JPG">Wikimedia</ref>
               </head>
           </figure>
           <label>Name (English)</label>

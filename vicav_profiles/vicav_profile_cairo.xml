@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_cairo_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_cairo_01">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -40,7 +39,7 @@
         <head>
           <figure>
             <graphic url="320px-Kairo_BW_2.jpg"/>
-            <head type="imgCaption" xml:space="preserve">Source: <ref target="https://commons.wikimedia.org/wiki/File:Kairo_BW_2.jpg">Wikimedia</ref>
+            <head type="imgCaption" xml:space="preserve"><ref target="https://commons.wikimedia.org/wiki/File:Kairo_BW_2.jpg">Wikimedia</ref>
               </head>
           </figure>
           <label>Name (English)</label>

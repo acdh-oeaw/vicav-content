@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_ahwaz_01">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_ahwaz_01">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,8 +12,7 @@
                 <date>2018</date>
                 <availability status="restricted">
                     <p>
-                        <ref type="license"
-                            target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+                        <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
                     </p>
                 </availability>
             </publicationStmt>
@@ -31,8 +29,7 @@
         </encodingDesc>
         <revisionDesc>
             <change status="created" when="2019-02-18" who="#bettina">created</change>
-            <change status="draft" when="2019-02-18" who="#bettina"
-                >last modified (revision 4)</change>
+            <change status="draft" when="2019-02-18" who="#bettina">last modified (revision 4)</change>
             <change status="draft" when="2019-02-18">transformed to TEI-XML</change>
             <change who="#charly" when="2018-10-03" status="released"/>
         </revisionDesc>
@@ -44,7 +41,8 @@
                 <head>
                     <figure>
                         <graphic url="ahwaz_300px_pol_sefid_27.jpg"/>
-                        <head type="imgCaption" xml:space="preserve">Source: <ref target="https://upload.wikimedia.org/wikipedia/commons/9/9b/Pol_Sefid_27.JPG">Wikimedia</ref>
+                        <head type="imgCaption" xml:space="preserve">
+                        <ref target="https://upload.wikimedia.org/wikipedia/commons/9/9b/Pol_Sefid_27.JPG">Wikimedia</ref>
                         </head>
                     </figure>
                     <label>Name (English)</label>
