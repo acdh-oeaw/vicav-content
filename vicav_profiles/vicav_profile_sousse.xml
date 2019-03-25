@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_sousse_001">
+<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_sousse_001">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -41,6 +40,8 @@
         <head>
           <figure>
             <graphic url="Sousse-2007.JPG"/>
+           <head type="imgCaption" xml:space="preserve">Courtesy by Stephan Procházka, 2007</head>
+
           </figure>
           <label>Name (English)</label>
           <name xml:lang="eng">Sousse</name>
