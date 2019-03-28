@@ -45,14 +45,14 @@
                   <cell rend="tdCentre">Who is this man? – He is my friend</cell>
                   <cell rend="tdRight">
                      <hi rend="red">
-                        <w ana="#vt_lex_who1" xml:id="wid_00000">mīn</w>
+                        <w ana="#vt_lex_who" xml:id="wid_00000">mīn</w>
                         </hi>
                      <seg type="ws" xml:space="preserve"> </seg>
                      <w xml:id="wid_00001_a">hāda</w>
                      <seg type="ws" xml:space="preserve" xml:id="id_seg_46"> </seg>
                      <w xml:id="wid_00002">z</w>
                      <pc type="ws" xml:id="id_pc_48">-</pc>
-                     <w xml:id="wid_00003">zalame</w>
+                     <w ana="#vt_lex_man" xml:id="wid_00003">zalame</w>
                      <pc type="ws" xml:id="id_pc_50">?</pc>
                      <seg type="ws" xml:space="preserve"> </seg>
                      <pc type="ws" xml:id="wid_00003_a">–</pc>
@@ -76,9 +76,9 @@
                   <cell rend="tdCentre">Whose car is this? – This is our car. It’s small but it’s
                      good.</cell>
                   <cell rend="tdRight">
-                     <w xml:id="wid_00008">hayy</w>
+                     <w ana="#vt_morph_dempron_prox_f_sg" xml:id="wid_00008">hayy</w>
                      <seg type="ws" xml:space="preserve" xml:id="id_seg_71"> </seg>
-                     <w xml:id="wid_00009">sayyāret</w>
+                     <w ana="#vt_lex_car" xml:id="wid_00009">sayyāret</w>
                      <seg type="ws" xml:space="preserve"> </seg>
                      <hi rend="red">
                      <w ana="#vt_lex_whose" xml:id="wid_00009_a">mīn</w>
@@ -130,12 +130,12 @@
                      <w xml:id="wid_00025">ʿam</w>
                      <pc type="ws" xml:id="id_pc_116">-</pc>
                      <w xml:id="wid_00026">ətfarraž</w>
-
+                     <seg type="ws" xml:space="preserve" xml:id="id_seg_0"> </seg>
                      <w xml:id="wid_00027">ʕa</w>
                      <pc type="ws" xml:id="id_pc_120">-</pc>
                      <w xml:id="wid_00028">t</w>
                      <pc type="ws" xml:id="id_pc_122">-</pc>
-                     <w xml:id="wid_00029">tǝlfəzyōn</w>
+                     <w ana="#vt_lex_TV" xml:id="wid_00029">tǝlfəzyōn</w>
                      <pc type="ws" xml:id="id_pc_124">.</pc>
                   </cell>
                   <cell rend="tdID"/>
@@ -170,7 +170,7 @@
                   <cell rend="tdCentre">Where is my mobile (phone)? – Here it is!</cell>
                   <cell rend="tdRight">
                      <hi rend="red">
-                     <w ana="#vt_lex_where1" xml:id="wid_00035">wēn</w>
+                     <w ana="#vt_lex_where" xml:id="wid_00035">wēn</w>
                         </hi>
                      <seg type="ws" xml:space="preserve"> </seg>
                      <w xml:id="wid_00036">əl</w>
@@ -284,7 +284,7 @@
                   <cell rend="tdCentre">How are you (m./f.)? – I’m fine.</cell>
                   <cell rend="tdRight">
                      <hi rend="red">
-                     <w ana="#vt_lex_how1" xml:id="wid_00064">šlōn</w>
+                     <w ana="#vt_lex_how" xml:id="wid_00064">šlōn</w>
                      <w xml:id="wid_00064_a">ak</w>
                      </hi>
                      <pc type="ws" xml:id="id_pc_247">?</pc>
@@ -325,7 +325,7 @@
                      <seg type="ws" xml:space="preserve" xml:id="id_seg_276"> </seg>
                      <w xml:id="wid_00075">l</w>
                      <pc type="ws" xml:id="id_pc_278">-</pc>
-                     <w xml:id="wid_00076">lēmūn</w>
+                     <w ana="#vt_lex_lemon" xml:id="wid_00076">lēmūn</w>
                      <pc type="ws" xml:id="id_pc_280">?</pc>
                      <seg type="ws" xml:space="preserve" xml:id="id_seg_281"> </seg>
                      <w xml:id="wid_00077">–</w>
@@ -363,7 +363,7 @@
                      <seg type="ws" xml:space="preserve" xml:id="id_seg_311"> </seg>
                      <w xml:id="wid_00086">w</w>
                      <pc type="ws" xml:id="id_pc_313">-</pc>
-                     <w xml:id="wid_00087">tlǝt</w>
+                     <w ana="#vt_phon_CA_th #vt_lex_three" xml:id="wid_00087">tlǝt</w>
                      <seg type="ws" xml:space="preserve" xml:id="id_seg_315"> </seg>
                      <w xml:id="wid_00088">ǝwlād</w>
                      <pc type="ws" xml:id="id_pc_317">.</pc>
@@ -722,7 +722,7 @@
                      <w xml:id="wid_00166">hōn</w>
                      <seg type="ws" xml:space="preserve"> </seg>
                      <hi rend="red">
-                        <w ana="#vt_lex_eight1" xml:id="wid_00167">tmǝn</w>
+                        <w ana="#vt_lex_eight" xml:id="wid_00167">tmǝn</w>
                      </hi>
                      <seg type="ws" xml:space="preserve"> </seg>
                      <w xml:id="wid_00168_a">ǝsnīn</w>
@@ -770,7 +770,7 @@
                      <seg type="ws" xml:space="preserve"> </seg>
                      <w xml:id="wid_00178">w</w>
                      <pc type="ws" xml:id="id_pc_657">-</pc>
-                     <w xml:id="wid_00179">baʔǝrtēn</w>
+                     <w ana="" xml:id="wid_00179">baʔǝrtēn</w>
                      <pc type="ws" xml:id="id_pc_659">.</pc>
                   </cell>
                   <cell rend="tdID"/>
@@ -856,7 +856,7 @@
                      <seg type="ws" xml:space="preserve" xml:id="id_seg_728"> </seg>
                      <w xml:id="wid_00195">lābes</w>
                      <seg type="ws" xml:space="preserve" xml:id="id_seg_730"> </seg>
-                     <w xml:id="wid_00196">ʔamīṣ</w>
+                     <w ana="#vt_lex_shirt" xml:id="wid_00196">ʔamīṣ</w>
                      <seg type="ws" xml:space="preserve"> </seg>
                      <hi rend="red">
                         <w ana="#vt_lex_white" xml:id="wid_00197">ʔabyaḍ</w>
@@ -1181,7 +1181,7 @@
                      <seg type="ws" xml:space="preserve"> </seg>
                      <w xml:id="wid_00282_a">ǝš</w>
                      <pc type="ws" xml:id="id_pc_996">-</pc>
-                     <w xml:id="wid_00283">šǝbbāk</w>
+                     <w ana="#vt_lex_window" xml:id="wid_00283">šǝbbāk</w>
                      <pc type="ws" xml:id="id_pc_998">!</pc>
                   </cell>
                   <cell rend="tdID"/>
@@ -1241,7 +1241,7 @@
                      <seg type="ws" xml:space="preserve"> </seg>
                      <w xml:id="wid_00295_a">ǝl</w>
                      <pc type="ws" xml:id="id_pc_1042">-</pc>
-                     <w xml:id="wid_00296">maktūb</w>
+                     <w ana="#vt_lex_letter" xml:id="wid_00296">maktūb</w>
                      <seg type="ws" xml:space="preserve" xml:id="id_seg_1044"> </seg>
                      <w xml:id="wid_00297">la</w>
                      <pc type="ws" xml:id="id_pc_1046">-</pc>
@@ -1270,7 +1270,7 @@
                   <cell rend="tdRight">
                      <w xml:id="wid_00303">lǝ</w>
                      <pc type="ws" xml:id="id_pc_1067">-</pc>
-                     <w xml:id="wid_00304">wlād</w>
+                     <w ana="#vt_lex_children" xml:id="wid_00304">wlād</w>
                      <seg type="ws" xml:space="preserve"> </seg>
                      <hi rend="red">
                         <w ana="#vt_lex_to_see" xml:id="wid_00305">šāfu</w>
@@ -1280,7 +1280,8 @@
                      <seg type="ws" xml:space="preserve" xml:id="id_seg_1071"> </seg>
                      <w xml:id="wid_00307">wara</w>
                      <seg type="ws" xml:space="preserve" xml:id="id_seg_1073"> </seg>
-                     <w xml:id="wid_00308">bētna</w>
+                     <w ana="#vt_lex_house" xml:id="wid_00308">bēt</w>
+                     <w xml:id="wid_00308a">na</w>
                      <pc type="ws" xml:id="id_pc_1075">.</pc>
                   </cell>
                   <cell rend="tdID"/>
@@ -1288,7 +1289,7 @@
                <row>
                   <cell rend="tdLeft">to want</cell>
                   <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Do you (f.) want to drink tea or coffee? – Tea
+                  <cell rend="tdCentre">Do you (f.) want to drink tea or coffee? – Tea 
                      please.</cell>
                   <cell rend="tdRight">
                      <hi rend="red">
@@ -1298,11 +1299,11 @@
                      <seg type="ws" xml:space="preserve"> </seg>
                      <w xml:id="wid_00310_a">tǝšrabi</w>
                      <seg type="ws" xml:space="preserve" xml:id="id_seg_1087"> </seg>
-                     <w xml:id="wid_00311">šāy</w>
+                     <w ana="#vt_lex_tea" xml:id="wid_00311">šāy</w>
                      <seg type="ws" xml:space="preserve" xml:id="id_seg_1089"> </seg>
                      <w xml:id="wid_00312">walla</w>
                      <seg type="ws" xml:space="preserve" xml:id="id_seg_1091"> </seg>
-                     <w xml:id="wid_00313">ʔahwe</w>
+                     <w ana="#vt_lex_coffee #vt_phon_CA_q" xml:id="wid_00313">ʔahwe</w>
                      <pc type="ws" xml:id="id_pc_1093">?</pc>
                      <seg type="ws" xml:space="preserve" xml:id="id_seg_1094"> </seg>
                      <w xml:id="wid_00314">–</w>
@@ -1310,9 +1311,11 @@
                      <w xml:id="wid_00315">šāy</w>
                      <pc type="ws" xml:id="id_pc_1098">,</pc>
                      <seg type="ws" xml:space="preserve" xml:id="id_seg_1099"> </seg>
+                     <phr ana="#vt_lex_please">
                      <w xml:id="wid_00316">ʔǝza</w>
                      <seg type="ws" xml:space="preserve"> </seg>
                      <w xml:id="wid_00317">bǝtrīd</w>
+                     </phr>
                      <pc type="ws" xml:id="id_pc_1103">.</pc>
                   </cell>
                   <cell rend="tdID"/>
@@ -1367,9 +1370,9 @@
                         <w ana="#vt_lex_to_have" xml:id="wid_00331">ʕandon</w>
                      </hi>
                      <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="wid_00332_a">maṣāri</w>
+                     <w ana="#vt_lex_money" xml:id="wid_00332_a">maṣāri</w>
                      <seg type="ws" xml:space="preserve" xml:id="id_seg_1151"> </seg>
-                     <w xml:id="wid_00333">ktīre</w>
+                     <w ana="#vt_lex_much" xml:id="wid_00333">ktīre</w>
                      <pc type="ws" xml:id="id_pc_1153">,</pc>
                      <seg type="ws" xml:space="preserve" xml:id="id_seg_1154"> </seg>
                      <w xml:id="wid_00334">bass</w>

@@ -21,21 +21,30 @@
               <p>The following list allows you to explore the particular phenomena across the available lists.</p>
               
               <div>
+                  <head>Phonology</head>                  
+                  <p>
+                      <rs ref="func:showLingFeatures('#vt_phon_CA_th','Reflexes of voiceless dental fricative')">Reflexes of voiceless dental fricative</rs> <lb/> 
+                      <rs ref="func:showLingFeatures('#vt_phon_CA_q','Reflexes of CA q')">Reflexes of CA <hi rend="#i">q</hi></rs> <lb/> 
+                      <rs ref="func:showLingFeatures('#vt_phon_CA_dj','Reflexes of CA ǧīm')">Reflexes of CA <hi rend="#i">ǧīm</hi></rs> <lb/> 
+                  </p>
+              </div>
+              
+              <div>
                   <head>Interrogatives</head>
                   
                   <p xml:space="preserve">
-                      <rs ref="func:showLingFeatures('#vt_lex_who1','who')">who</rs> <lb/> 
-                      <rs ref="func:showLingFeatures('#vt_lex_whose','whose')">whose</rs> <lb/>
-                      <rs ref="func:showLingFeatures('#vt_lex_what','what')">what</rs> <lb/> 
-                      <rs ref="func:showLingFeatures('#vt_lex_why','why')">why</rs> <lb/>
-                      <rs ref="func:showLingFeatures('#vt_lex_where1','where')">where</rs> <lb/> 
-                      <rs ref="func:showLingFeatures('#vt_lex_where_to','where to')">where to</rs> <lb/>
-                      <rs ref="func:showLingFeatures('#vt_lex_where_from','where from')">where from</rs> <lb/> 
-                      <rs ref="func:showLingFeatures('#vt_lex_when','when')">when</rs> <lb/>
-                      <rs ref="func:showLingFeatures('#vt_lex_how1','how')">how</rs> <lb/>
-                      <rs ref="func:showLingFeatures('#vt_lex_how_much','how much')">how much</rs> <lb/>
-                      <rs ref="func:showLingFeatures('#vt_lex_how_many','how many')">how many</rs> <lb/>
-                      <rs ref="func:showLingFeatures('#vt_lex_which','which')">which</rs>
+                      <rs ref="func:showLingFeatures('#vt_lex_who','who')">who?</rs> <lb/> 
+                      <rs ref="func:showLingFeatures('#vt_lex_whose','whose')">whose?</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_what','what')">what?</rs> <lb/> 
+                      <rs ref="func:showLingFeatures('#vt_lex_why','why')">why?</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_where','where')">where?</rs> <lb/> 
+                      <rs ref="func:showLingFeatures('#vt_lex_where_to','where to')">where to?</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_where_from','where from')">where from?</rs> <lb/> 
+                      <rs ref="func:showLingFeatures('#vt_lex_when','when')">when?</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_how','how')">how?</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_how_much','how much')">how much?</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_how_many','how many')">how many?</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_which','which')">which?</rs>
                    </p>                                    
               </div>
               
@@ -87,7 +96,8 @@
                   <head>Numerals</head>
                   <p>
                       <!-- <rs ref="func:showLingFeatures('#vt_lex_two','two')">two</rs> <lb/> -->
-                      <rs ref="func:showLingFeatures('#vt_lex_eight1','eight')">eight</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_three','three')">three</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_eight','eight')">eight</rs> <lb/>
                       <rs ref="func:showLingFeatures('#vt_lex_eleven','eleven')">eleven</rs> <lb/>
                       <rs ref="func:showLingFeatures('#vt_lex_twelve','twelve')">twelve</rs> <lb/>
                       <rs ref="func:showLingFeatures('#vt_lex_eighteen','eighteen')">eighteen</rs> <lb/>
@@ -98,6 +108,7 @@
                   <head>Adjectives</head>
                   <p>
                       <rs ref="func:showLingFeatures('#vt_lex_good','good')">good</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_much','much')">much</rs> <lb/>
                   </p>
               </div>
               
@@ -138,26 +149,29 @@
               </div>
               
               <div>
-                  <head>Phrasemes</head>
-                  <p>
-                      <rs ref="func:showLingFeatures('#vt_lex_since_for','since/for')">since/for</rs> <lb/>
-                  </p>
-              </div>
-              
-              <div>
                   <head>Nouns</head>
                   <p>
-                      <rs ref="func:showLingFeatures('#vt_lex_since_women','women')">women</rs> <lb/>
-                      <rs ref="func:showLingFeatures('#vt_lex_husband','husband')">husband</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_children','children')">children</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_coffee','coffee')">coffee</rs> <lb/>
                       <rs ref="func:showLingFeatures('#vt_lex_friend','friend')">friend</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_house','house')">house</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_husband','husband')">husband</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_lemon','lemon')">lemon</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_letter','letter')">letter</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_man','man')">man</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_money','money')">money</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_tea','tea')">tea</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_window','window')">window</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_women','women')">women</rs> <lb/>
                   </p>
               </div>
               
               <div>
                   <head>Neologisms</head>
                   <p>
-                      <rs ref="func:showLingFeatures('#vt_lex_mobile','women')">mobile vs. cellphone</rs> <lb/>
                       <rs ref="func:showLingFeatures('#vt_lex_car','car')">car</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_mobile','mobile')">mobile vs. cellphone</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_TV','television')">television</rs> <lb/>
                   </p>
               </div>
               
@@ -176,6 +190,8 @@
                       <rs ref="func:showLingFeatures('#vt_lex_a_little','a little')">a little</rs> <lb/>
                       <rs ref="func:showLingFeatures('#vt_lex_existential','existential (there is, there are)')">existential (there is, there are)</rs> <lb/>
                       <rs ref="func:showLingFeatures('#vt_lex_gen_explicative','Genitive explicative')">Genitive explicative</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_please','please')">please</rs> <lb/>
+                      <rs ref="func:showLingFeatures('#vt_lex_since_for','since/for')">since/for</rs> <lb/>
                       
                   </p>
               </div>
