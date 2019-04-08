@@ -48,10 +48,10 @@
                   <cell rend="tdCentre">Who is this man? – He is my friend</cell>
                   <cell rend="tdRight">
                      <hi rend="red">
-                        <w xml:id="wid_00000">mǝnu</w>
+                         <w ana="#vt_lex_who" xml:id="wid_00000">mǝnu</w>
                      </hi>
                      <seg type="ws" xml:space="preserve" xml:id="id_seg_48"> </seg>
-                     <w ana="#vt_lex_who" xml:id="wid_00001">hāḏa</w>
+                     <w xml:id="wid_00001">hāḏa</w>
                      <seg type="ws" xml:space="preserve" xml:id="id_seg_50"> </seg>
                      <w xml:id="wid_00002">r</w>
                      <pc type="ws" xml:id="id_pc_52">-</pc>
