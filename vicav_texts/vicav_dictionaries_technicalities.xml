@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICAV Dictionaries</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+    
+  <text>
+      <body>
+          <div xml:id="vicavDictionariesTechnicalities" xml:space="preserve">
+              <head>Dictionaries</head>
+              <div>
+                  <head>Data</head>
+                  
+                  <p xml:space="preserve">All entries in the dictionaries which are not further indicated are
+        taken from data provided by the collaborator(s) cited on the front
+        page of each dictionary. Data extracted from other published sources
+        is indicated as such and includes the respective reference.</p>
+              </div>
+          
+          <div>
+             <head>Encoding</head>
+                  
+             <p xml:space="preserve">For a detailed desciption of the encoding applied on this website <ref target="text:vicavDictionaryEncoding">click here</ref>.</p>
+          </div>
+              
+              
+          <div>
+                  <head>Arabic roots</head>
+                  
+                  <p xml:space="preserve">In order to facilitate cross-dialectal comparative search all word
+        roots are have to be taken as being strictly etymological, i.e. they
+        reflect the corresponding roots of Standard Arabic wherever
+        possible. The source of reference is the Dictionary of Modern
+        Written Arabic by Hans Wehr (English version edited by J. Milton
+        Cowell, Wiesbaden: Harrassowitz, 1979). For words which have entered
+        Arabic from other languages a (in many hypothetical) root consisting
+        of the mere consonantal structure of the word in question is
+        given.</p>
+              </div>
+              
+              <div>
+                  <head>Part-of-speech</head>
+                  
+                  <p xml:space="preserve">As for verbs a subcategory indicating the so-called verbal form is
+        provided (using the traditional order labelled by Roman numerals
+        from I to X, in case of quadriliteral roots Iq and IIq).</p>
+                  
+                  <p xml:space="preserve">In many cases a clear distinction between adjective and active or
+        passive participle is not possible. If a given lemma is mainly used
+        in an adjectival sense it is labelled as such but with an additional
+        category that indicates the word is morphologically seen a
+        participle.</p>
+                  
+                  <p xml:space="preserve">The gender of Arabic nouns is not noted unless it is contradictory
+        to the rules of Arabic morphology (which is particularly the case
+        with unmarked feminine nouns).</p>
+              </div>
+          </div>
+          <!-- End of vicavDictionaries -->
+      </body>
+  </text>
+</TEI>

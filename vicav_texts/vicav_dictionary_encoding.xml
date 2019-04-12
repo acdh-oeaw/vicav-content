@@ -1,0 +1,35 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICAV Dictionary Encoding</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+          <div xml:id="vicavDictionaryEncoding">
+              <head>Dictionary Encoding</head>
+              
+              <p xml:space="preserve">Dictionaries are highly complex knowledge stores on the modelling of
+    which lots of efforts have been spent since we have started to compile
+    digital dicitionaries. The VICAV project has been dedicated to the use
+    of the guidelines of the Text Encoding Inititative in all of its
+    dictionaries. </p>
+              
+              <p xml:space="preserve">The team have documented their work in a document which exemplifies
+    the most important structures contained in these dictionaries. The
+    <ref target="docs/vicav_dict_encoding__v003.html"> 
+    VICAV Dictionary Encoding Guidelines</ref> are meant to allow
+    researchers in similar projects to draw on the experiences of our
+    work.</p>
+          </div>
+      </body>
+   </text>
+</TEI>
