@@ -692,27 +692,6 @@
 
       </div>
 
-      <div xml:id="vicavExplBar_dualApproach">
-        <head>Dual Approach</head>
-
-        <p xml:space="preserve">The VICAV website is designed in a manner supposed to allow 
-        users to investigate the available ressources through various 
-        methods. The basic access mode is to launch a query by clicking 
-        on the symbols on the map.</p>
-
-        <p xml:space="preserve">There are two distinct symbols: arrows and circles. The arrows 
-        indicate particular locations (towns, parts of towns, villages), 
-        the circles are used for regions which can but do not necessarily 
-        correlate with countries.</p>
-
-        <p xml:space="preserve">
-          <graphic url="vicav_locations_regions.jpg"/>
-      </p>
-
-        <p xml:space="preserve">Some queries can be triggered through clicking on a menu item or
-        by formulating explicit queries.</p>
-      </div>
-
 
       <div xml:id="vicavExplBar_openParadigms">
         <head>Open Source &amp; Open Access</head>
