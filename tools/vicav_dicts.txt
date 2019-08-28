@@ -1,0 +1,30 @@
+# This files list those BaseX database names
+# which should be exported in order to create
+# stand-alone-versions of the VICAV dictionaries.
+
+
+.*dc_acm_baghdad_eng_001_[0-9]+.*\.zip
+.*dc_acm_baghdad_eng_001__skel.*\.zip
+
+# Tunis arabic
+#.*dc_aeb_eng_001_[0-9]+.*\.zip
+#.*dc_aeb_eng_001__skel.*\.zip
+
+# Damascus
+#.*dc_apc_eng_005_[0-9]+.*\.zip
+#.*dc_apc_eng_005__skel.*\.zip
+
+# ar
+#.*dc_ar_en_001-.*\.zip
+#.*dc_ar_en__skel.*\.zip
+
+# Rabat
+#.*dc_ary_eng_006_[0-9]+.*\.zip
+#.*dc_ary_eng_006__skel.*\.zip
+
+# Cairo
+#.*dc_arz_eng_007_[0-9]+.*\.zip
+#.*dc_arz_eng_007__skel.*\.zip
+
+#.*dc_douz_eng_000-.*\.zip
+#.*dc_douz_eng__skel.*\.zip
