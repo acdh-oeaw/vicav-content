@@ -1,0 +1,2198 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+   <teiHeader>
+      <fileDesc>
+
+         <titleStmt>
+            <title>VICAV Dictionary Encoding Guidelines</title>
+            <author>Charly Moerth</author>
+            <author>Stephan Procházka</author>
+         </titleStmt>
+
+         <editionStmt>
+                <edition>1.0 (Alpha)</edition>
+            </editionStmt>
+
+         <publicationStmt>
+            <distributor>Karlheinz Moerth</distributor>
+            <pubPlace>Vienna</pubPlace>
+            <date>2017 - 2019</date>
+            <availability status="restricted">
+               <p>
+                  <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+               </p>
+            </availability>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl xml:id="egyptDict">A Machine-readable Dictionary of Egyptian Arabic</bibl>
+            <bibl xml:id="rabatDict">A Machine-readable Dictionary of Rabat Arabic </bibl>
+            <bibl xml:id="tunisDict">A Digital Dictionary of Tunis Arabic</bibl>
+            <bibl xml:id="damascDict">A Digital Dictionary of Damascus Arabic</bibl>
+            <bibl xml:id="msaDict">A Machine-readable Dictionary of Modern Standard Arabic</bibl>
+         </sourceDesc>
+      </fileDesc>
+      
+   </teiHeader>
+
+   <text>
+      <body>
+         <div>
+            <head>VICAV Dictionary Encoding Guidelines</head>
+
+            <div xml:id="generalities">
+               <head>Introduction</head>
+               <p>Most of the examples in the following guidelines are taken from dictionaries that are being produced 
+               as part of the VICAV programme. These are 
+               <hi rend="italic">A Machine-readable Dictionary of Egyptian Arabic</hi>, 
+               <hi rend="italic">A Machine-readable Dictionary of Rabat Arabic</hi>,
+               <hi rend="italic">A Digital Dictionary of Tunis Arabic</hi>,
+               <hi rend="italic">A Digital Dictionary of Damascus Arabic</hi> and
+               <hi rend="italic">A Machine-readable Dictionary of Modern Standard Arabic</hi>. Some examples are also taken from the <hi rend="italic">Dictionary of Modern Persian</hi>.</p>
+            </div>
+
+            <div xml:id="basicStructure">
+               <head>Basic dictionary structure</head>
+               <p>The VICAV dictionaries are encoded according to the Guidelines of the 
+               Text Encoding Initiative (P5). They are conceptualised as a specific 
+               type of text and are therefore encoded with <code>text</code> elements. 
+               Each dictionary starts with a <code>teiHeader</code> element which contains 
+               the metadata of the dictionary.</p>
+
+               <p>The lexicographic data are placed in typed 
+               <code>div</code> elements. Thus, our TEI dictionaries basically look like this:</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+<TEI version="5.0">
+   <teiHeader>
+   ...
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entries">
+            <entry>...</entry>
+            <entry>...</entry>
+            <entry>...</entry>
+            ...
+            ...
+            ...
+         </div>
+      </body>
+   </text>
+</TEI>
+                    </egXML>
+               <p>The <code>body</code> of the VICAV dictionaries can not only contain simple entries 
+               but also examples which are encoded in <code>cit/quote</code> constructs. The rationale 
+               behind keeping example sentences outside the entries is to be able to 
+               reuse them in different parts of the dictionary (See below: Examples 
+               and Creating examples).</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+      <body>
+         <div type="entries">
+            <entry>...</entry>
+            <entry>...</entry>
+            <entry>...</entry>
+            ...
+            ...
+            ...
+         </div>
+         <div type="examples">
+            <cit type="example">...</cit>
+            <cit type="example">...</cit>
+            <cit type="example">...</cit>
+            ...
+            ...
+            ...
+         </div>
+      </body>
+                    </egXML>
+            </div>
+
+            <div xml:id="characterEncoding">
+               <head>Character encoding and Transcription</head>
+               <p>Character encoding is based on Unicode (UTF-8). The transcription follows 
+                   a system which is widely applied in Arabic studies and also used in reference works such as the
+                   Encyclopedia of Arabic Language and Linguistics (Leiden: Brill, 2006-2009).</p>
+                    
+               <p xml:space="preserve">Following a widespread convention in Arabic dialectology, the data
+                   is presented in in a broad phonological transcription that does not indicate allophones. The following 
+                   list represents most of the signs used in this application.</p>
+                    
+                    <table rend="tbQueryExamples">
+                        <row role="label">
+                            <cell rend="tdQuery">VICAV</cell>
+                            <cell rend="tdQuery">IPA</cell>
+                            <cell rend="tdQuery">arabic</cell>
+                            <cell rend="tdQuery">DIN</cell>
+                            <cell rend="tdQuery">chat</cell>
+                            <cell rend="tdQuery">Sound Description</cell>
+                            <cell rend="tdQuery">Unicode Character Name</cell>
+                        </row>
+                        
+                        <row>
+                            <cell rend="tdQuery">ʔ</cell>
+                            <cell rend="tdQuery">ʔ</cell>
+                            <cell rend="tdQuery">ء,أ,إ,آ,ئ,ؤ</cell>
+                            <cell rend="tdQuery">ʾ</cell>
+                            <cell rend="tdQuery">2</cell>
+                            <cell rend="tdQuery">Glottal stop</cell>
+                            <cell rend="tdQuery">LATIN LETTER GLOTTAL STOP</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">ā</cell>
+                            <cell rend="tdQuery">aː</cell>
+                            <cell rend="tdQuery">ا,ى</cell>
+                            <cell rend="tdQuery">ā</cell>
+                            <cell rend="tdQuery">a</cell>
+                            <cell rend="tdQuery">Long vowel a</cell>
+                            <cell rend="tdQuery">LATIN SMALL LETTER A WITH MACRON</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">ḅ</cell>
+                            <cell rend="tdQuery">bˤ</cell>
+                            <cell rend="tdQuery">ب</cell>
+                            <cell rend="tdQuery">b</cell>
+                            <cell rend="tdQuery">b</cell>
+                            <cell rend="tdQuery">Pharyngealized voiced bilabial stop</cell>
+                            <cell rend="tdQuery">LATIN SMALL LETTER B WITH DOT BELOW</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">ʕ</cell>
+                            <cell rend="tdQuery">ʕ</cell>
+                            <cell rend="tdQuery">ع</cell>
+                            <cell rend="tdQuery">ʿ</cell>
+                            <cell rend="tdQuery">3</cell>
+                            <cell rend="tdQuery">Pharyngal voiced fricative</cell>
+                            <cell rend="tdQuery">LATIN LETTER PHARYNGEAL VOICED FRICATIVE</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">ḏ̣</cell>
+                            <cell rend="tdQuery">ðˤ</cell>
+                            <cell rend="tdQuery">ض,ظ</cell>
+                            <cell rend="tdQuery">ḍ,ẓ</cell>
+                            <cell rend="tdQuery">dh,d,6,9</cell>
+                            <cell rend="tdQuery">Pharyngealized voiced dental fricative</cell>
+                            <cell rend="tdQuery">LATIN SMALL LETTER D WITH LINE BELOW + COMBINING DOT BELOW</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">ḏ</cell>
+                            <cell rend="tdQuery">ð</cell>
+                            <cell rend="tdQuery">ذ</cell>
+                            <cell rend="tdQuery">ḏ</cell>
+                            <cell rend="tdQuery">dh</cell>
+                            <cell rend="tdQuery">Voiced dental fricative</cell>
+                            <cell rend="tdQuery">LATIN SMALL LETTER D WITH LINE BELOW</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">ē</cell>
+                            <cell rend="tdQuery">eː</cell>
+                            <cell rend="tdQuery">ي</cell>
+                            <cell/>
+                            <cell rend="tdQuery">e,é</cell>
+                            <cell rend="tdQuery">Long vowel e</cell>
+                            <cell rend="tdQuery">LATIN SMALL LETTER E WITH MACRON</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">ġ</cell>
+                            <cell rend="tdQuery">ɣ</cell>
+                            <cell rend="tdQuery">غ</cell>
+                            <cell rend="tdQuery">ġ</cell>
+                            <cell rend="tdQuery">gh,3</cell>
+                            <cell rend="tdQuery">Voiced velar fricative</cell>
+                            <cell rend="tdQuery">LATIN SMALL LETTER G WITH DOT ABOVE</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">ǧ</cell>
+                            <cell rend="tdQuery">d͡ʒ</cell>
+                            <cell rend="tdQuery">ج</cell>
+                            <cell rend="tdQuery">ǧ</cell>
+                            <cell rend="tdQuery">dj</cell>
+                            <cell rend="tdQuery">Voiced palato-alveolar affricate</cell>
+                            <cell rend="tdQuery">LATIN SMALL LETTER G WITH CARON</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">ḥ</cell>
+                            <cell rend="tdQuery">ħ</cell>
+                            <cell rend="tdQuery">ح</cell>
+                            <cell rend="tdQuery">ḥ</cell>
+                            <cell rend="tdQuery">7</cell>
+                            <cell rend="tdQuery">Voiceless pharyngeal fricative</cell>
+                            <cell rend="tdQuery">LATIN SMALL LETTER H WITH DOT BELOW</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">ī</cell>
+                            <cell rend="tdQuery">iː</cell>
+                            <cell rend="tdQuery">ي</cell>
+                            <cell rend="tdQuery">ī</cell>
+                            <cell rend="tdQuery">i,ee</cell>
+                            <cell rend="tdQuery">Long vowel i</cell>
+                            <cell rend="tdQuery">LATIN SMALL LETTER I WITH MACRON</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">ᴵ</cell>
+                            <cell rend="tdQuery">ə</cell>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                            <cell rend="tdQuery">Short Schwa vowel</cell>
+                            <cell rend="tdQuery">MODIFIER LETTER CAPITAL I</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">ə</cell>
+                            <cell rend="tdQuery">ə</cell>
+                            <cell rend="tdQuery"/>
+                            <cell rend="tdQuery"/>
+                            <cell rend="tdQuery"/>
+                            <cell rend="tdQuery">Schwa vowel</cell>
+                            <cell rend="tdQuery">LATIN SMALL LETTER SCHWA</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">ᵊ</cell>
+                            <cell rend="tdQuery">ə</cell>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                            <cell rend="tdQuery">Short Schwa vowel</cell>
+                            <cell rend="tdQuery">MODIFIER LETTER SMALL SCHWA</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">ḷ</cell>
+                            <cell rend="tdQuery">lˤ</cell>
+                            <cell rend="tdQuery">ل</cell>
+                            <cell rend="tdQuery">l</cell>
+                            <cell rend="tdQuery">l</cell>
+                            <cell rend="tdQuery">Pharyngealized alveolar lateral approximant</cell>
+                            <cell rend="tdQuery">LATIN SMALL LETTER L WITH DOT BELOW</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">ṃ</cell>
+                            <cell rend="tdQuery">mˤ</cell>
+                            <cell rend="tdQuery">م</cell>
+                            <cell rend="tdQuery">m</cell>
+                            <cell rend="tdQuery">m</cell>
+                            <cell rend="tdQuery">Pharyngealized bilabial nasal</cell>
+                            <cell rend="tdQuery">LATIN SMALL LETTER M WITH DOT BELOW</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">ō</cell>
+                            <cell rend="tdQuery">oː</cell>
+                            <cell rend="tdQuery">و</cell>
+                            <cell/>
+                            <cell rend="tdQuery">o</cell>
+                            <cell rend="tdQuery">Long vowel o</cell>
+                            <cell rend="tdQuery">LATIN SMALL LETTER O WITH MACRON</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">ṛ</cell>
+                            <cell rend="tdQuery">ʁˁ</cell>
+                            <cell rend="tdQuery">ر</cell>
+                            <cell rend="tdQuery">r</cell>
+                            <cell rend="tdQuery">r</cell>
+                            <cell rend="tdQuery">Pharyngealized voiced uvular fricative</cell>
+                            <cell rend="tdQuery">LATIN SMALL LETTER R WITH DOT BELOW</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">ṣ</cell>
+                            <cell rend="tdQuery">sˤ</cell>
+                            <cell rend="tdQuery">ص</cell>
+                            <cell rend="tdQuery">ṣ</cell>
+                            <cell rend="tdQuery">9</cell>
+                            <cell rend="tdQuery">Pharyngealized voiceless alveolar sibilant</cell>
+                            <cell rend="tdQuery">LATIN SMALL LETTER S WITH DOT BELOW</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">š</cell>
+                            <cell rend="tdQuery">ʃ</cell>
+                            <cell rend="tdQuery">ش</cell>
+                            <cell rend="tdQuery">š</cell>
+                            <cell rend="tdQuery">sh,ch</cell>
+                            <cell rend="tdQuery">Voiceless palato-alveolar sibilant</cell>
+                            <cell rend="tdQuery">LATIN SMALL LETTER S WITH CARON</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">ṭ</cell>
+                            <cell rend="tdQuery">tˤ</cell>
+                            <cell rend="tdQuery">ش</cell>
+                            <cell rend="tdQuery">ṭ</cell>
+                            <cell rend="tdQuery">t,6</cell>
+                            <cell rend="tdQuery">pharyngealized voiceless alveolar stop</cell>
+                            <cell rend="tdQuery">LATIN SMALL LETTER T WITH DOT BELOW</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">ṯ</cell>
+                            <cell rend="tdQuery">θ</cell>
+                            <cell rend="tdQuery">ث</cell>
+                            <cell rend="tdQuery">ṯ</cell>
+                            <cell rend="tdQuery">th,s</cell>
+                            <cell rend="tdQuery">Voiceless dental non-sibilant fricative</cell>
+                            <cell rend="tdQuery">LATIN SMALL LETTER T WITH LINE BELOW</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">ū</cell>
+                            <cell rend="tdQuery">uː</cell>
+                            <cell rend="tdQuery">و</cell>
+                            <cell rend="tdQuery">ū</cell>
+                            <cell rend="tdQuery">oo,ou,u</cell>
+                            <cell rend="tdQuery">Long vowel u</cell>
+                            <cell rend="tdQuery">LATIN SMALL LETTER U WITH MACRON</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">ẓ</cell>
+                            <cell rend="tdQuery">zˤ</cell>
+                            <cell rend="tdQuery">ز,ظ</cell>
+                            <cell rend="tdQuery">z,ẓ</cell>
+                            <cell rend="tdQuery">z</cell>
+                            <cell rend="tdQuery">Pharyngealized voiced alveolar sibilant</cell>
+                            <cell rend="tdQuery">LATIN SMALL LETTER Z WITH DOT BELOW</cell>
+                        </row>
+                        <row>
+                            <cell rend="tdQuery">ž</cell>
+                            <cell rend="tdQuery">ʒ</cell>
+                            <cell rend="tdQuery">ج</cell>
+                            <cell rend="tdQuery">ǧ</cell>
+                            <cell rend="tdQuery">j</cell>
+                            <cell rend="tdQuery">Voiced palato-alveolar sibilant</cell>
+                            <cell rend="tdQuery">LATIN SMALL LETTER Z WITH CARON</cell>
+                        </row>
+                    </table>
+                    
+                
+            </div>
+
+            <div xml:id="dictEntries">
+               <head>Dictionary entries</head>
+                  <p>There are three types of entries: <hi rend="italic">lemmas</hi>, <hi rend="italic">multi-word units (MWUs)</hi> and <hi rend="italic">illustrative sentences (examples)</hi>.</p>
+
+               <div xml:id="entryTypes">
+                  <head>Lemmas and MWUs</head>
+                  <p>Lemmas and MWUs basically have the same structure.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+<entry xml:id="kitaab_001">
+   <form type="lemma">
+      <orth xml:lang="ar-arz-x-cairo-vicav">kitāb</orth>
+   </form>
+   ...
+</entry>
+                        </egXML>
+
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+<entry xml:id="fi_0">
+   <form type="multiWordUnit">
+      <orth xml:lang="ar-arz-x-cairo-vicav">fi baḥr</orth>
+   </form>
+   ...
+</entry>
+                        </egXML>
+               </div>
+
+                <div xml:id="examples">
+                    <head>Illustrative sentences (Examples)</head>
+                    <p>In TEI (P5) illustrative sentences are encoded making use of a <code>cit/quote</code> construction.</p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+<cit xml:id="yibqa_ustaz_001" type="example">
+    <quote xml:lang="ar-arz-x-cairo-vicav">ḥayibʔa ustāz in šāʔ allāh.</quote>
+    ...
+</cit>
+                    </egXML>
+                    <p>Ideally, examples should consist in complete sentences. Examples 
+                        should be concise, but can also contain several sentences. If dialogical models 
+                        are involved, sentences are to be separated by a dash.</p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+<quote xml:lang="ar-arz-x-cairo-vicav">tislam idēki. - ʔaḷḷāh yisallimak.</quote>
+...
+                    </egXML>
+                </div>
+                
+                <div xml:id="proverbs">
+                    <head>Proverbs</head>
+                    <p>Proverbs are a subtype of example.</p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+                        <cit xml:id="il_cagala_min_ish_shitaan_001" type="example" subtype="proverb">
+                            <quote xml:lang="ar-arz-x-cairo-vicav">il-ʕagala min iš-šiṭān.</quote>
+                            
+                            <cit type="translation" xml:lang="en">
+                                <quote>Haste makes waste.</quote>
+                            </cit>
+                        </cit>
+                    </egXML>
+                </div>
+             <div xml:id="ids">
+                  <head>Identifiers (IDs)</head>
+                  <p>As can be seen in the examples above, entries are assigned a unique identifier. 
+                  In the VICAV dictionaries, these are made up of characters that are restricted 
+                  to letters in the ASCII range. Usually, the IDs are created by pressing 
+                  <hi rend="italic">Ctrl + I</hi>. If VLE (the editor tool) creates an ID already 
+                  existing in the database, the entry can not be saved. In such cases, the user 
+                  has to modify the ID manually by e.g. increasing the number at the end of 
+                  the ID.</p>
+               </div>
+               
+            </div>
+             
+             
+
+            <div xml:id="wordForms">
+               <head>Word forms</head>
+               <p>There are two types of <code>form</code> elements: <hi rend="italic">lemmas</hi> and <hi rend="italic">wordforms</hi>. 
+               Nominals are usually furnished with plural forms, verbs with the third person singular present tense.</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+<entry xml:id="balad_0">
+   <form type="lemma">
+      <orth xml:lang="ar-arz-x-cairo-vicav">balad</orth>
+   </form>
+   
+   ...
+   
+   <form type="inflected" ana="#n_pl">
+      <orth xml:lang="ar-arz-x-cairo-vicav">bilād</orth>
+   </form>
+   ...
+</entry>
+                    </egXML>
+               <div xml:id="morphoAnots">
+                  <head>Morphosyntactic annotations</head>
+                  <p>The different morphological forms are encoded through labels in the <code>ana</code> “analytic” attribute. 
+                  Examples of frequent labels are:</p>
+                  <table>
+                     <row>
+                                <cell>
+                                    <hi rend="bold">Value</hi>
+                                </cell>
+                                <cell>
+                                    <hi rend="bold">Meaning</hi>
+                                </cell>
+                            </row>
+                     <row>
+                                <cell>#adj_f</cell>
+                                <cell>feminine form of an adjective</cell>
+                            </row>
+                     <row>
+                                <cell>#adj_pl</cell>
+                                <cell>plural of an adjective</cell>
+                            </row>
+                     <row>
+                                <cell>#n_constructState</cell>
+                                <cell>construct state of a noun</cell>
+                            </row>
+                     <row>
+                                <cell>#n_pl</cell>
+                                <cell>plural of a noun</cell>
+                            </row>
+                     <row>
+                                <cell>#n_unit</cell>
+                                <cell>nomen unitatis</cell>
+                            </row>
+                     <row>
+                                <cell>#v_pres_sg_p3</cell>
+                                <cell>3rd person singular present tense</cell>
+                            </row>
+                     <row>
+                                <cell>#v_vn</cell>
+                                <cell>verbal noun</cell>
+                            </row>
+                  </table>
+
+                  <p>An example with a verb:</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#damascDict">
+...
+<form type="inflected" ana="#v_pres_sg_p3">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">yǝnšor</orth>
+</form>
+...</egXML>
+
+                  <p>The <hi rend="italic">status constructus </hi> of a noun can be registered like this:</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-arz-x-cairo-vicav">mara</orth>
+</form>
+
+<gramGrp>
+   <gram type="pos">noun</gram>
+   <gram type="root" xml:lang="ar-arz-x-cairo-vicav">mrʔ</gram>
+</gramGrp>
+
+<form type="inflected" ana="#n_constructState">
+   <orth xml:lang="ar-arz-x-cairo-vicav">mirāt</orth>
+</form>
+...</egXML>
+               </div>
+  
+               <div xml:id="variants">
+                  <head>Variants</head>
+                  <p>Only headwords are marked up as <hi rend="italic">variants</hi>.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#damascDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">tžawwaz</orth>
+</form>
+
+<form type="lemmaVariant">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">dzawwaž‎</orth>
+</form>
+...</egXML>
+                  <p>This is the only position where the <code>form</code> element may have the 
+                  <code>type="lemmaVariant"</code> attribute. All other variants are simply listed but 
+                  not classified. In the following example two competing morphological forms 
+                  are listed.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#damascDict">
+...
+<form type="inflected" ana="#v_pres_sg_p3">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">yǝṣal</orth>
+</form>
+
+<form type="inflected" ana="#v_pres_sg_p3">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">yūṣal</orth>
+</form>
+...</egXML>
+                  <p>The next example shows alternative plural forms.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#damascDict">
+...
+<form type="inflected" ana="#n_pl">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">kǝnaz</orth>
+</form>
+
+<form type="inflected" ana="#n_pl">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">kanzāt</orth>
+</form>
+...</egXML>
+                  <p>Variants can be assigned usage labels indicating e.g. a particular register.
+                  The more frequent variant should precede less frequent ones.</p>
+               </div>
+
+            </div>
+
+            <div xml:id="transEquivs">
+               <head>Translation equivalents</head>
+               <div xml:id="transEquivsLemmasMWUs">
+                  <head>Translating lemmas and multi-word units</head>
+                  <p>Translations of lemmas and MWUs are given in <code>sense</code> elements.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+<entry xml:id="bard_0">
+   <form type="lemma">
+      <orth xml:lang="ar-arz-x-cairo-vicav">bard</orth>
+   </form>
+   ...
+   <sense>
+      <cit type="translation" xml:lang="en">
+         <quote>coldness</quote>
+      </cit>
+      <cit type="translation" xml:lang="de">
+         <quote>Kälte</quote>
+      </cit>
+   </sense>
+   ...
+</entry>
+                        </egXML>
+
+                  <p>Semantically unrelated homophones or items with clearly differing semantics 
+                  have to be documented with several <code>sense</code> elements. In the following 
+                  example, the Egyptian lemma <hi rend="italic">balad</hi> is represented with 
+                  two senses.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+<sense>
+   <cit type="translation" xml:lang="en">
+      <quote>country</quote>
+   </cit>
+   <cit type="translation" xml:lang="en">
+      <quote>land</quote>
+   </cit>
+   ...
+</sense>
+
+<sense>
+   <cit type="translation" xml:lang="en">
+      <quote>city</quote>
+   </cit>
+   <cit type="translation" xml:lang="en">
+      <quote>town</quote>
+   </cit>
+   ...
+</sense>
+...</egXML>
+
+                  <p>Another example is <hi rend="italic">rās</hi>:</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+<sense>
+   <cit type="translation" xml:lang="de">
+      <quote>Kopf</quote>
+   </cit>
+</sense>
+
+<sense>
+   <cit type="translation" xml:lang="de">
+      <quote>Anfang</quote>
+   </cit>
+</sense>
+...</egXML>
+               </div>
+
+               <div xml:id="selectionRestrictions">
+                  <head>Selection restrictions</head>
+                  <p>Ambiguous translations are often made explicit by additional information narrowing down the semantic scope of the particular item.</p>
+                  
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-arz-x-cairo-vcvTrans">kibīr</orth>
+</form>
+
+<sense>
+   <cit type="translation" xml:lang="en">
+      <quote>big</quote>
+   </cit>
+</sense>
+
+<sense>
+   <cit type="translation" xml:lang="en">
+      <quote>old
+         <seg type="hint">of persons</seg>
+      </quote>
+   </cit>
+</sense>
+...</egXML>
+               </div>
+
+               <div xml:id="translatingExamples">
+                  <head>Translating examples</head>
+                  <p>Translation equivalents of examples are indicated in <code>cit/quote</code> constructions.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+<cit xml:id="tislam_ideeki__001" type="example">
+   <quote xml:lang="ar-arz-x-cairo-vicav">tislam idēki! - ʔaḷḷāh yisallimak.</quote>
+
+   <cit type="translation" xml:lang="en">
+      <quote>Thank you! - Not at all.</quote>
+   </cit>
+
+</cit>
+                        </egXML>
+
+                  <p>Sometimes it is necessary to add literal translations. This is handled in 
+                  analogous manner.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+<cit xml:id="tislam_ideeki__001" type="example">
+   <quote xml:lang="ar-arz-x-cairo-vicav">tislam idēki! - ʔaḷḷāh yisallimak.</quote>
+
+   <cit type="translation" xml:lang="en">
+      <quote>Thank you! - Not at all.</quote>
+   </cit>
+   <cit type="literalTranslation" xml:lang="en">
+      <quote>May your hands be healthy! - May God keep you healthy.</quote>
+   </cit>
+
+</cit>
+                        </egXML>
+               </div>
+
+               <div xml:id="transEquivsExplanations">
+                  <head>Definitions</head>
+                  <p>When the translation of a term is not very common or easily understandable 
+                  in the target language, it is common practise to explain the item instead of or 
+                  in addition to the translation. Explanations can be understood as same language 
+                  ‛translations’. In TEI, the <code>def</code> “definition” element is used to encode 
+                  this part of a dictionary entry.</p> 
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+<sense>
+   <def xml:lang="en">a sweet dessert made of semolina, butter, sugar and rosewater</def>
+   <def xml:lang="de">Süßigkeit aus Gries, Butter, Zucker und Rosenwasser</def>
+
+   <cit type="translation" xml:lang="en">
+      <quote>Basbusa</quote>
+   </cit>
+</sense>
+...</egXML>
+
+                  <p>Very often lexical items are particular to the culture of the source language and 
+                  do not have adequate equivalents in a target language. In such cases, it is important not to enter 
+                  definitions or explanations in the <code>cit/quote</code> element. Wherever possible, 
+                  we have tried to furnish translations (very often transliterations) even though 
+                  they might not be very common in the target language. Explanations have to 
+                  go into the <code>def</code> element.</p>
+
+                  <p>The above example shows such a case. In principle, <code>def</code> can 
+                  be used to encode any information related to ‛meaning’ that does not qualify 
+                  as a translation in the narrower sense. In the following example 
+                  the <code>def</code> element simply explains what the place name stands for.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+<sense>
+   <def xml:lang="en">the southernmost of Egypt’s western oases</def>
+
+   <cit type="translation" xml:lang="en">
+      <quote>Kharga</quote>
+   </cit>
+   ...
+</sense>
+...</egXML>
+
+               </div>
+
+               <div xml:id="names">
+                  <head>Names</head>
+                  <p>How to write/transliterate place names and person names is an age-old problem. When several 
+                  graphematic variants exist, we attempt to choose the most common one.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-arz-x-cairo-vicav">šubra</orth>
+</form>
+...
+<sense>
+   <def xml:lang="en">a residential area in Cairo</def>
+ 
+   <cit type="translation" xml:lang="en">
+     <quote>Shubra</quote>
+   </cit>
+
+   <cit type="translation" xml:lang="de">
+     <quote>Schubra</quote>
+   </cit>
+</sense>
+...</egXML>
+               </div>
+
+               <div xml:id="synonyms">
+                  <head>Synonyms</head>
+                  <p>Synonyms are encoded as pointers to other entries in the dictionary. They have always to 
+                  be encoded inside <code>sense</code> elements.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-arz-x-cairo-vicav">ʔaṣl-an</orth>
+</form>
+...
+<sense>
+   <xr type="syn">
+      <ref xml:lang="ar-arz-x-cairo-vicav">fi l-ʔaṣl</ref>
+   </xr>
+
+   <cit type="translation" xml:lang="en">
+      <quote>initially</quote>
+   </cit>
+   <cit type="translation" xml:lang="en">
+      <quote>originally</quote>
+   </cit>
+</sense>
+...</egXML>
+               </div>
+            </div>
+
+            <div xml:id="gramInf">
+               <head>Grammatical information</head>
+               <p>The <code>gramGrp</code> element can accomodate a wide range of 
+               grammatical information such as word class (=pos: part-of-speech), the 
+               consonantal root and/or the verb class.</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+<entry xml:id="badal_001">
+   <form type="lemma">
+      <orth xml:lang="ar-arz-x-cairo-vicav">badal</orth>
+   </form>
+   
+   <gramGrp>
+      <gram type="pos">verb</gram>
+      <gram type="root">bdl</gram>
+      <gram type="derivedVerbClass">III</gram>
+   </gramGrp>
+
+   ...
+</entry>
+                    </egXML>
+
+               <p>The <code>gramGrp</code> element can appear in two places: when the information 
+               refers to the lemma it is put after the <code>form[@type=lemma]</code> element. 
+               In many cases, the grammatical information only refers to particular senses. 
+               It is then placed inside the <code>sense</code> element as the first item. For the second 
+               case have a look at chapters <hi rend="italic">Arguments</hi> and <hi rend="italic">Constructions</hi>.</p>
+
+               <div xml:id="wordClass">
+                  <head>Word class information</head>
+                  <p>The most common POS labels are listed in the following table. Most of them are self-explanatory.</p>
+                  <table>
+                     <row>
+                                <cell>
+                                    <hi rend="bold">Label</hi>
+                                </cell>
+                                <cell>
+                                    <hi rend="bold">explanation</hi>
+                                </cell>
+                            </row>
+                     <row>
+                                <cell>adjective</cell>
+                                <cell>Adjective</cell>
+                            </row>
+                     <row>
+                                <cell>noun</cell>
+                                <cell>Noun</cell>
+                            </row>
+                     <row>
+                                <cell>ordinal</cell>
+                                <cell>Ordinal number</cell>
+                            </row>
+                     <row>
+                                <cell>particle</cell>
+                                <cell>verb</cell>
+                            </row>
+                     <row>
+                                <cell>pluralNoun</cell>
+                        <cell>A plural noun that has an entry of its own. This does not necessarily mean that the singular does not exist, but that the plural displays semantic particularities.</cell>
+                            </row>
+                     <row>
+                                <cell>verb</cell>
+                                <cell>verb</cell>
+                            </row>
+                  </table>
+
+                  <p>The labels ideally correspond to ISOcat concepts. However, there are exceptions:</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#damascDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">ʕarabi</orth>
+</form>
+
+<gramGrp>
+   <gram type="pos">glottonym</gram>
+   <gram type="root" xml:lang="ar-apc-x-damascus-vicTrans">ʕrb</gram>
+</gramGrp>
+
+...</egXML>
+
+               </div>
+
+               <div xml:id="roots">
+                  <head>Roots</head>
+                  <p>Roots are indicated in accordance with etymology. The root of the Arabic 
+                  equivalent of ‘to yawn’ is encoded like this:</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-arz-x-cairo-vicav">ʔittāwib</orth>
+</form>
+
+<gramGrp>
+   <gram type="pos">verb</gram>
+   <gram type="derivedVerbClass">I-t</gram>
+   <gram type="root" xml:lang="ar-arz-x-cairo-vicav">ṯʔb</gram>
+</gramGrp>
+...</egXML>
+                  <p>Loans of the structure CāC(a) are invariably assigned CʔC.</p>
+                  <table>
+                     <row>
+                                <cell>
+                                    <hi rend="bold">Word</hi>
+                                </cell>
+                                <cell>
+                                    <hi rend="bold">Root</hi>
+                                </cell>
+                            </row>
+                     <row>
+                                <cell>bāṣ</cell>
+                                <cell>bʔṣ</cell>
+                            </row>
+                     <row>
+                                <cell>ḍāma</cell>
+                                <cell>ḍʔm </cell>
+                            </row>
+                     <row>
+                                <cell>kār</cell>
+                                <cell>kʔr</cell>
+                            </row>
+                  </table>
+
+                  <p>Other loans are reduced to their consonantal skeleton.</p>
+                  <p>In multi-word units the single items are separated by blanks.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#damascDict">
+...
+<form type="multiWordUnit">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">rās ǝž-žabal</orth>
+</form>
+
+<gramGrp>
+   <gram type="root" xml:lang="ar-apc-x-damascus-vicTrans">rʔs ǧbl</gram>
+</gramGrp>
+...</egXML>
+                  <p>The following table contains a list of special cases.</p>
+                  <table>
+                     <row>
+                                <cell>
+                                    <hi rend="bold">Word</hi>
+                                </cell>
+                                <cell>
+                                    <hi rend="bold">Root</hi>
+                                </cell>
+                            </row>
+                     <row>
+                                <cell>mayy, mayye, māyya, mā ...</cell>
+                                <cell>mwh</cell>
+                            </row>
+                     <row>
+                                <cell>sana ‘year’</cell>
+                                <cell>sn</cell>
+                            </row>
+                     <row>
+                                <cell>istanna</cell>
+                                <cell>ʔny</cell>
+                            </row>
+                     <row>
+                                <cell>kam</cell>
+                                <cell>km</cell>
+                            </row>
+                     <row>
+                                <cell>qaddēš, ʔaddēš, ...</cell>
+                                <cell>qdr</cell>
+                            </row>
+                     <row>
+                                <cell>ʔayn, wēn, fēn, ...</cell>
+                                <cell>ʔyn</cell>
+                            </row>
+                     <row>
+                                <cell>ʔēmta, ʔimta, ...</cell>
+                                <cell>mty</cell>
+                            </row>
+                     <row>
+                                <cell>šī, šuwayy ...</cell>
+                                <cell>šyʔ</cell>
+                            </row>
+                     <row>
+                                <cell>walla ‘or’</cell>
+                                <cell>w ʔly</cell>
+                            </row>
+                     <row>
+                                <cell>ʔillā</cell>
+                                <cell>ʔly</cell>
+                            </row>
+                  </table>
+
+                  <p>Prepositions are dealt with in the following manner:</p>
+                  <table>
+                     <row>
+                                <cell>
+                                    <hi rend="bold">Word</hi>
+                                </cell>
+                                <cell>
+                                    <hi rend="bold">Root</hi>
+                                </cell>
+                            </row>
+                     <row>
+                                <cell>bi</cell>
+                                <cell>b</cell>
+                            </row>
+                     <row>
+                                <cell>li</cell>
+                                <cell>l</cell>
+                            </row>
+                     <row>
+                                <cell>ʔilā</cell>
+                                <cell>ʔly</cell>
+                            </row>
+                     <row>
+                                <cell>ʕalā</cell>
+                                <cell>ʕly</cell>
+                            </row>
+                     <row>
+                                <cell>maʕa</cell>
+                                <cell>mʕ</cell>
+                            </row>
+                     <row>
+                                <cell>fī</cell>
+                                <cell>fy</cell>
+                            </row>
+                  </table>
+               </div>
+
+               <div xml:id="gender">
+                  <head>Grammatical gender</head>
+                  <p>Gender is only indicated with morphologically unmarked feminine common and proper nouns.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#damascDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">šamᵊs</orth>
+</form>
+
+<gramGrp>
+   <gram type="pos">noun</gram>
+   <gram type="gender">feminine</gram>
+   <gram type="root" xml:lang="ar-apc-x-damascus-vicTrans">šms</gram>
+</gramGrp>
+...</egXML>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#damascDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-arz-x-cairo-vicav">zēnab</orth>
+</form>
+
+<gramGrp>
+   <gram type="pos">properNoun</gram>
+   <gram type="gender">female</gram>
+   <gram type="root" xml:lang="ar-arz-x-cairo-vicav">zynb</gram>
+</gramGrp>
+...
+</egXML>
+               </div>
+
+               <div xml:id="voice">
+                  <head>Voice</head>
+                  <p>When verbs display special developments in the passive voice they 
+                  can be treated as lemmata in their own right.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#damascDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-x-DMG">šufiya</orth>
+   <orth xml:lang="ar">شفي</orth>
+</form>
+
+<gramGrp>
+   <gram type="pos">verb</gram>
+   <gram type="derivedVerbClass">I</gram>
+   <gram type="voice">passive</gram>
+   <gram type="root" xml:lang="ar">شفي</gram>
+   <gram type="root" xml:lang="ar-x-DMG">šfy</gram>
+</gramGrp>
+...</egXML>
+               </div>
+
+
+               <div xml:id="derivedVerbClasses">
+                  <head>Derived verb classes</head>
+                  <p>In the VICAV dictionaries, we apply a mixed system of indicators 
+                  mainly making use of the labels traditionally used in Arabic linguistics. 
+                  In cases not covered by this system, we use labels analogous 
+                  to Woidich 2006 (Das Kairenisch-Arabische). </p>
+                  <table>
+                     <row>
+                                <cell>
+                                    <hi rend="bold">Traditional</hi>
+                                </cell>
+                                <cell>
+                                    <hi rend="bold">Woidich</hi>
+                                </cell>
+                                <cell>
+                                    <hi rend="bold">Example</hi>
+                                </cell>
+                            </row>
+                     <row>
+                                <cell>I</cell>
+                                <cell/>
+                                <cell>katab</cell>
+                            </row>
+                     <row>
+                                <cell>II</cell>
+                                <cell/>
+                                <cell>darris</cell>
+                            </row>
+                     <row>
+                                <cell>III</cell>
+                                <cell/>
+                                <cell>zākir</cell>
+                            </row>
+                     <row>
+                                <cell>IV</cell>
+                                <cell/>
+                                <cell>ʔalqa</cell>
+                            </row>
+                     <row>
+                                <cell/>
+                                <cell>t-I</cell>
+                                <cell>ʔitkatab</cell>
+                            </row>
+                     <row>
+                                <cell>V</cell>
+                                <cell/>
+                                <cell>ʔitdarris</cell>
+                            </row>
+                     <row>
+                                <cell>VI</cell>
+                                <cell/>
+                                <cell>ʔitdāra</cell>
+                            </row>
+                     <row>
+                        <cell>VIw</cell>
+                        <cell/>
+                        <cell>tlūṣiq</cell>
+                     </row>
+                     <row>
+                                <cell>VII</cell>
+                                <cell/>
+                                <cell>ʔinṣaṛaf</cell>
+                            </row>
+                     <row>
+                                <cell>VIII</cell>
+                                <cell/>
+                                <cell>ʔintaẓaṛ</cell>
+                            </row>
+                     <row>
+                                <cell>IX</cell>
+                                <cell/>
+                                <cell>ʔiḥmaṛṛ</cell>
+                            </row>
+                     <row>
+                                <cell>X</cell>
+                                <cell>ista-I  <lb/>  ista-II <lb/> ista-III</cell>
+                        <cell>ʔistaxdim <lb/>ʔistirayyaḥ <lb/>ʔistabārik</cell>
+                            </row>
+                  </table>
+                  <p>Quadriliteral verbs are assigned the values <code>Iq</code> (=CaCCaC) and <code>IIq</code> (=taCaCCaC).</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#damascDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">tbahdal</orth>
+</form>
+
+<gramGrp>
+   <gram type="pos">verb</gram>
+   <gram type="derivedVerbClass">IIq</gram>
+   <gram type="root" xml:lang="ar-apc-x-damascus-vicTrans">bhdl</gram>
+</gramGrp>
+...</egXML>
+               </div>
+
+               <div xml:id="pluralNouns">
+                  <head>Plural nouns</head>
+                  <p>Nouns which are only used in the plural form are encoded as <code>pluralNoun</code>s.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#damascDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">ḥǝlwīyāt</orth>
+</form>
+
+<gramGrp>
+   <gram type="pos">pluralNoun</gram>
+   <gram type="root" xml:lang="ar-apc-x-damascus-vicTrans">ḥlw</gram>
+</gramGrp>
+...</egXML>
+               </div>
+
+               <div xml:id="collectiveNouns">
+                  <head>Collective nouns</head>
+                  <p>Collective nouns are usually registered with their respective singulative and the 
+                  plural forms.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-arz-x-cairo-vicav">baṣal</orth>
+</form>
+
+<gramGrp>
+   <gram type="pos">collectiveNoun</gram>
+   <gram type="root" xml:lang="ar-arz-x-cairo-vicav">bṣl</gram>
+</gramGrp>
+
+<form type="inflected" ana="#n_unit">
+   <orth xml:lang="ar-arz-x-cairo-vicav">baṣala</orth>
+</form>
+
+<form type="inflected" ana="#n_pl">
+   <orth xml:lang="ar-arz-x-cairo-vicav">baṣalāt</orth>
+</form>
+...</egXML>
+
+                  <p>If a collective noun has no singulative this is recorded in the following manner:</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#tunisDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-aeb-x-tunis-vicav">sfinnārya</orth>
+</form>
+   
+<gramGrp>
+   <gram type="pos">collectiveNoun</gram>
+   <gram type="usg">has no unit noun</gram>
+   <colloc type="countNoun" lang="ar-aeb-x-tunis-vicav">kaʕba</colloc>
+   <gram type="root" xml:lang="ar-aeb-x-tunis-vicav">sfnry</gram>
+</gramGrp>
+   
+<sense>
+   <cit type="translation" xml:lang="en">
+      <quote>carrots</quote>
+   </cit>
+   ...
+   </sense>
+...</egXML>
+               </div>
+
+               <div xml:id="elative">
+                  <head>Elatives</head>
+                  <p>Elatives should be registered under the respective positive forms.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-arz-x-cairo-vicav">kuwayyis</orth>
+</form>
+
+<form type="inflected" ana="#adj_sg_f">
+   <orth xml:lang="ar-arz-x-cairo-vicav">kuwayyisa</orth>
+</form>
+
+<form type="inflected" ana="#adj_pl">
+   <orth xml:lang="ar-arz-x-cairo-vicav">kuwayyisīn</orth>
+</form>
+
+<form type="inflected" ana="#adj_elative">
+   <orth xml:lang="ar-arz-x-cairo-vicav">ʔaḥsan</orth>
+</form>
+...</egXML>
+
+                  <p>In some cases it may make sense to treat a particular elative 
+                  as a lexeme in its own right.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-arz-x-cairo-vicav">ʔaḥsan</orth>
+</form>
+
+<gramGrp>
+   <gram type="pos">elative</gram>
+   <gram type="root" xml:lang="ar-arz-x-cairo-vicav">ḥsn</gram>
+</gramGrp>
+
+<sense>
+   <cit type="translation" xml:lang="en">
+      <quote>better</quote>
+   </cit>
+
+   <ptr type="example" target="izzayyi_abuuk__001"/>
+   <ptr type="example" target="ahsan_min_balaash_001"/>
+   <ptr type="example" target="bukra_tib_a_ahsan_001"/>
+   <ptr type="example" target="ahsan_haaga_taaxud_taaks_001"/>
+</sense>
+...</egXML>
+               </div>
+
+               <div xml:id="countNoun">
+                  <head>Count nouns</head>
+                  <p>Many languages have special words that are placed between a 
+                  numeral and a counted noun. This word class, which is also referred to as classifier, 
+                  also exists in spoken Arabic varieties, albeit it is not as pervasive as 
+                  in other languages such as many eastern Indo-European languages or the 
+                  languages of East Asia (Chinese, Korean, Japanese).</p>
+                  <p>If a noun is used with a count noun before numerals this is indicated in a <code>colloc</code> element.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#tunisDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-aeb-x-tunis-vicav">brīk</orth>
+   <bibl>Ritt-Benmimoun 2014</bibl>
+   <bibl>Singer 1984, p.67</bibl>
+</form>
+
+<gramGrp>
+   <gram type="pos">collectiveNoun</gram>
+   <gram type="root" xml:lang="ar-aeb-x-tunis-vicav">brk</gram>
+   <colloc type="countNoun" xml:lang="ar-aeb-x-tunis-vicav">kaʕba</colloc>
+</gramGrp>
+...</egXML>
+
+
+                  <p>An analogous example is this:</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#tunisDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-aeb-x-tunis-vicav">bṣal</orth>
+   <bibl>Ritt-Benmimoun 2014</bibl>
+</form>
+  
+<gramGrp>
+   <gram type="pos">collectiveNoun</gram>
+   <gram type="root" xml:lang="ar-aeb-x-tunis-vicav">bṣl</gram>
+   <colloc type="countNoun" xml:lang="ar-aeb-x-tunis-vicav">ṛāṣ</colloc>
+</gramGrp>
+...</egXML>
+
+               </div>
+
+               <div xml:id="invariableAdjectives">
+                  <head>Invariable nouns and adjectives</head>
+                  <p>Many Arabic dialects have nominals which do not display feminine 
+                  or plural forms. These are identified with a <code>gram</code> element and
+                  a <code>morphType</code> attribute.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#smaDict">
+...
+<gramGrp>
+   <gram type="pos">adjective</gram>
+   <gram type="morphType">invariable</gram>
+</gramGrp>
+...</egXML>
+
+               </div>
+
+               <div xml:id="partAdjectives">
+                  <head>Participles</head>
+                  <p>Adjectives or nouns which are participles derived from verbal forms are
+                  furnished with an additional <code>type="morph"</code> attribute.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+<entry xml:id="mashhur_001">
+   <form type="lemma">
+      <orth xml:lang="ar-arz-x-cairo-vicav">mašhūr</orth>
+   </form>
+
+   <gramGrp>
+      <gram type="pos">adjective</gram>
+      <gram type="morph">passiveParticiple</gram>
+      <gram type="root" xml:lang="ar-arz-x-cairo-vicav">šhr</gram>
+   </gramGrp>
+   ...
+</entry>
+                        </egXML>
+
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#damascDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">mǝtʕāwen</orth>
+</form>
+
+<gramGrp>
+   <gram type="pos">noun</gram>
+   <gram type="morph">activeParticiple</gram>
+   <gram type="root" xml:lang="ar-apc-x-damascus-vicTrans">ʕwn</gram>
+</gramGrp>
+...</egXML>
+               </div>
+
+               <div xml:id="pragmatics">
+                  <head>Pragmatics</head>
+                  <p>In many cases it is necessary to furnish information about contexts, situations 
+                  in which lexical items are being used. Such information is typically to be 
+                  found in <code>sense</code> elements.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-arz-x-cairo-vicav">ʔafandim</orth>
+</form>
+
+<sense>
+   <usg type="prag" xml:lang="en">respectful form of address to a man or a woman</usg>
+   <usg type="prag" xml:lang="de">höfliche Anrede an einen Mann oder eine Frau</usg>
+   ...
+</sense>
+...</egXML>
+
+                  <p>When not sure whether to apply a <code>usg</code> or <code>def</code> element, ask 
+                  yourself if it possible to formulate the information saying <hi rend="italic">used as</hi> 
+                  or <hi rend="italic">used in</hi>. In the <hi rend="italic">afandim</hi> example above 
+                  one might consider reformulating the usage label as <hi rend="italic">used as a 
+                  respectful form of address ...</hi>.</p>
+
+                  <p>Another example:</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+<sense>
+   <usg type="prag" xml:lang="en">to attract the evil eye by talking about something</usg>
+
+   <cit type="translation" xml:lang="en">
+     <quote>to jinx</quote>
+   </cit>
+</sense>
+...</egXML>
+                  <p>The following code snipped furnishes a good example of a quite 
+                  complex situation. The noun has two morphological forms which 
+                  are mutually exclusive. The grammatical 
+                  information in both senses is corroborated by examples.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-arz-x-cairo-vicav">maṛa</orth>
+</form>
+...
+<sense>
+   <usg type="prag" xml:lang="en">often derogatory</usg>
+   <usg xml:lang="en">absolute state only</usg>
+
+   <cit type="translation" xml:lang="en">
+      <quote>woman</quote>
+   </cit>
+   <ptr type="example" target="inti_ya_mara_tacaali_001"/>
+</sense>
+   
+<sense>
+   <usg xml:lang="en">construct state only</usg>
+
+   <cit type="translation" xml:lang="en">
+      <quote>wife</quote>
+   </cit>
+   <ptr type="example" target="miraatu_ga_lha_walad_001"/>
+</sense>
+...</egXML>
+                  
+                  <p>Mind that the <code>usg</code> element can also be applied in sample sentences.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+<cit xml:id="sharraftuuna_allaah_yisharraf_mi_daarak_001" type="example">
+   <quote xml:lang="ar-arz-x-cairo-vicav">šaṛṛaftūna. - ʔaḷḷāh yišaṛṛaf miʔdāṛak.</quote>
+   <usg type="prag" xml:lang="en">This phrase is used upon leaving.</usg>
+
+   <cit type="literalTranslation" xml:lang="en">
+      <quote>You have honoured us (i.e. visiting us). - God may honour your worth.</quote>
+   </cit>
+</cit>
+...</egXML>
+
+               </div>
+
+               <div xml:id="functionalConstraints">
+                  <head>Functional constraints</head>
+                  <p>Another option are usage labels which can be used to indicate 
+                  functional constraints.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#damascDict">
+...
+<form>
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">la-ḥāl-</orth>
+</form>
+
+<gramGrp>
+   <gram type="usg">only with pronominal suffixes</gram>
+   <gram type="root" xml:lang="ar-apc-x-damascus-vicTrans">l ḥwl</gram>
+</gramGrp>
+...</egXML>
+               </div>
+            </div>
+
+            <div xml:id="langIdentifiers">
+               <head>Language identifiers</head>
+               <p>The values in the <code>xml:lang</code> attributes have been designed 
+               in compliance with Best Current Practice 47 (BCP 47) which in turn refers 
+               to and aggregates a number of ISO standards (639-1, 639-2, ISO 15924, ISO 3166-1). 
+               The labels used as values in the <code>xml:lang</code> attributes reflect a hybrid 
+               system that indicates both linguistic variety and writing system. Examples of such language tags are:</p>
+               <table>
+                  <row>
+                            <cell>
+                                <hi rend="bold">Value</hi>
+                            </cell>
+                            <cell>
+                                <hi rend="bold">Explanation</hi>
+                            </cell>
+                            <cell>
+                                <hi rend="bold">Used in dictionary</hi>
+                            </cell>
+                        </row>
+                  <row>
+                            <cell>de</cell>
+                            <cell>German</cell>
+                            <cell/>
+                        </row>
+                  <row>
+                            <cell>en</cell>
+                            <cell>English</cell>
+                            <cell/>
+                        </row>
+                  <row>
+                            <cell>ar-aeb-x-tunis-vicav</cell>
+                            <cell>Tunis Arabic, VICAV transcription</cell>
+                            <cell>aeb_eng_001__v001</cell>
+                        </row>
+                  <row>
+                            <cell>ar-arz-x-cairo-vicav</cell>
+                            <cell>Cairo Arabic, VICAV transcription</cell>
+                            <cell>arz_eng_006</cell>
+                        </row>
+                  <row>
+                            <cell>ar-arz-x-cairo-arabic</cell>
+                            <cell>Cairo Arabic, Arabic script</cell>
+                            <cell>arz_eng_006</cell>
+                        </row>
+                  <row>
+                            <cell>ar-apc-x-damascus-vicTrans</cell>
+                            <cell>Damascus Arabic, VICAV transcription</cell>
+                            <cell>apc_eng_002</cell>
+                        </row>
+                  <row>
+                            <cell>ar-ary-x-sale-vicTrans</cell>
+                            <cell>Sale Arabic, VICAV transcription</cell>
+                            <cell>ary_s_rabat_eng_002</cell>
+                        </row>
+                  <row>
+                            <cell>ar-ary-x-vicTrans</cell>
+                            <cell>Moroccan Arabic, VICAV transcription</cell>
+                            <cell>ary_eng_001</cell>
+                        </row>
+               </table>
+                
+                <p>Let us analyse one example in detail. The language identifiers used for Egyptian Arabic are <hi rend="italic">ar-arz-x-cairo-vicav</hi> and <hi rend="italic">ar-arz-x-cairo-arabic</hi>.</p>
+                <table>
+                    <row>
+                        <cell>
+                            <hi rend="bold">Component</hi>
+                        </cell>
+                        <cell>
+                            <hi rend="bold">System</hi>
+                        </cell>
+                        <cell>
+                            <hi rend="bold">Meaning</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>ar</cell>
+                        <cell><ref target="https://www.loc.gov/standards/iso639-2/php/langcodes_name.php?iso_639_1=ar">ISO 639-1</ref></cell>
+                        <cell>Arabic</cell>
+                    </row>
+                    <row>
+                        <cell>arz</cell>
+                        <cell><ref target="https://iso639-3.sil.org/code/arz">ISO 639-3</ref></cell>
+                        <cell>Egyptian Arabic</cell>
+                    </row>
+                    <row>
+                        <cell>x</cell>
+                        <cell><ref target="https://tools.ietf.org/html/bcp47">BCP 47</ref></cell>
+                        <cell>Begin of private use area</cell>
+                    </row>
+                    <row>
+                        <cell>cairo</cell>
+                        <cell></cell>
+                        <cell>Location</cell>
+                    </row>
+                    <row>
+                        <cell>vicav</cell>
+                        <cell></cell>
+                        <cell>Transcription system of the VICAV Project</cell>
+                    </row>
+                </table>
+            </div>
+
+            <div xml:id="etymologies">
+               <head>Etymologies</head>
+               <p>Etymologies are encoded by means of the <code>etym</code> element. According to 
+               our schema, these also have to be top-level elements which are placed after the 
+               <code>gramGrp</code> element.</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#damascDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">ʔaṣanṣēr</orth>
+</form>
+
+<gramGrp>...</gramGrp>
+
+<etym>loanword<lang>French</lang>
+                            <mentioned>ascenseur</mentioned>
+                        </etym>
+...</egXML>
+            </div>
+
+            <div xml:id="advancedIssues">
+               <head>Advanced issues</head>
+
+               <div xml:id="oneOrTwo">
+                  <head>One entry or two entries?</head>
+                  <p>The applied system is supposed to retain flat hierarchies.</p>
+
+                  <div xml:id="femNouns">
+                     <head>Feminine derivations</head>
+                     <p>Feminine forms of substantives are encoded as separate entries.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+<entry xml:id="gaar_001">
+   <form type="lemma">
+      <orth xml:lang="ar-arz-x-cairo-vicav">gāṛ</orth>
+   </form>
+   ...
+   <sense>
+      <cit type="translation" xml:lang="en">
+         <quote>neighbour</quote>
+      </cit>
+   </sense>
+</entry>
+
+<entry xml:id="gaara_001">
+   <form type="lemma">
+      <orth xml:lang="ar-arz-x-cairo-vicav">gāṛa</orth>
+   </form>
+   ...
+   <sense>
+      <cit type="translation" xml:lang="en">
+         <quote>neighbour (female)</quote>
+      </cit>
+   </sense>
+</entry>
+                            </egXML>
+                  </div>
+
+                  <div xml:id="homonyms">
+                     <head>Homonyms</head>
+                     <p>Homonyms with diverging morphological forms are also encoded 
+                     as separate entries.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+<entry xml:id="beet_000">
+   <form type="lemma">
+      <orth xml:lang="ar-arz-x-cairo-vicav">bēt</orth>
+   </form>
+
+   <gramGrp>
+      <gram type="pos">noun</gram>
+      <gram type="root" xml:lang="ar-arz-x-cairo-vicav">byt</gram>
+   </gramGrp>
+
+   <form type="inflected" ana="#n_pl">
+      <orth xml:lang="ar-arz-x-cairo-vicav">biyūt</orth>
+   </form>
+
+   <sense>
+      <cit type="translation" xml:lang="en">
+         <quote>house, home</quote>
+      </cit>
+   </sense>
+</entry>
+
+<entry xml:id="beet_001">
+   <form type="lemma">
+      <orth xml:lang="ar-arz-x-cairo-vicav">bēt</orth>
+   </form>
+   ...
+   <form type="inflected" ana="#n_pl">
+      <orth xml:lang="ar-arz-x-cairo-vicav">ʔabyāt</orth>
+   </form>
+
+   <sense>
+      <cit type="translation" xml:lang="en">
+         <quote>verse (in poem)</quote>
+      </cit>
+   </sense>
+</entry>
+                            </egXML>
+                  </div>
+
+                  <div xml:id="nisbas">
+                     <head>Nominals ending in <hi rend="italic">-i</hi>
+                            </head>
+                     <p>In Arabic, there is often no clear delineation between nouns and adjectives. 
+                     The issue is particularly tricky with nominals derived by means of the 
+                     <hi rend="italic">Nisba</hi> suffix. In the VICAV dictionaries, these 
+                     are treated in four categories: adjectives, masculine nouns, 
+                     feminine nouns and the special case of glottonyms. By adjectives, we understand 
+                     nominals that are mostly used attributively and usually display masculine and feminine 
+                     forms:</p>
+                     <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#damascDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">sūri</orth>
+</form>
+
+<gramGrp>
+   <gram type="pos">adjective</gram>
+   <gram type="root" xml:lang="ar-apc-x-damascus-vicTrans">swr</gram>
+</gramGrp>
+
+<form type="inflected" ana="#n_f">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">sūriyye</orth>
+</form>
+
+<form type="inflected" ana="#n_pl">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">sūriyyīn</orth>
+</form>
+
+<sense>
+   <cit type="translation" xml:lang="en">
+      <quote>Syrian</quote>
+   </cit>
+   ...
+</sense>
+...</egXML>
+
+                     <p>Cases such as the following are categorised as nouns:</p>
+                     <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#damascDict">
+<form type="lemma">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">šāmi</orth>
+</form>
+   
+<gramGrp>
+   <gram type="pos">noun</gram>
+   <gram type="root" xml:lang="ar-apc-x-damascus-vicTrans">šʔm</gram>
+</gramGrp>
+
+<form type="inflected" ana="#n_pl">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">šwām</orth>
+</form>
+
+<sense>
+   <cit type="translation" xml:lang="en">
+      <quote>Damascene</quote>
+   </cit>
+
+   <cit type="translation" xml:lang="de">
+     <quote>Damaszener</quote>
+   </cit>
+
+   <cit type="translation" xml:lang="es">
+     <quote>damasceno, de Damasco</quote>
+   </cit>
+</sense>
+...</egXML>
+
+                     <p>The respective feminine form looks like this:</p>
+                     <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#damascDict">
+<form type="lemma">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">šāmiyye</orth>
+</form>
+   
+<gramGrp>
+   <gram type="pos">noun</gram>
+   <gram type="root" xml:lang="ar-apc-x-damascus-vicTrans">šʔm</gram>
+</gramGrp>
+
+<form type="inflected" ana="#n_pl">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">šāmiyyāt</orth>
+</form>
+
+<sense>
+   <cit type="translation" xml:lang="en">
+      <quote>Damascene woman</quote>
+   </cit>
+
+   <cit type="translation" xml:lang="de">
+     <quote>Damaszenerin</quote>
+   </cit>
+
+   <cit type="translation" xml:lang="es">
+     <quote>damascena, de Damasco</quote>
+   </cit>
+</sense>
+...</egXML>
+                     <p>Ethnonyms, demonyms and similar proper nouns are also placed in separate 
+                     entries:</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#damascDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">ʕarabi</orth>
+</form>
+
+<gramGrp>
+   <gram type="pos">glottonym</gram>
+   <gram type="root" xml:lang="ar-apc-x-damascus-vicTrans">ʕrb</gram>
+</gramGrp>
+
+<sense>
+   <usg type="dom">linguistics</usg>
+
+   <cit type="translation" xml:lang="en">
+      <quote>Arabic</quote>
+   </cit>
+</sense>
+...</egXML>
+                  </div>
+               </div>
+
+               <div xml:id="diptosy">
+                  <head>Diptosy</head>
+                  <p>This phenomenon is related to the MSA dictionary only. Diptosy is indicated either on the lemma form or plural forms. 
+                  In the first case the information is stored in the <code>gramGrp</code> element.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#msaDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-x-DMG">ˀazraq</orth>
+   <orth xml:lang="ar">ازرق</orth>
+</form>
+
+<gramGrp>
+   <gram type="pos">adjective</gram>
+   <gram type="morphType">diptotic</gram>
+   ...
+</gramGrp>
+...</egXML>
+
+                  <p>For plural forms, we make use of a special <code>n_diptPl</code> value.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#msaDict">
+...
+<form type="inflected" ana="#n_diptPl">
+   <orth xml:lang="ar-x-DMG">rasāˀil</orth>
+   <orth xml:lang="ar">رسائل</orth>
+</form>
+...</egXML>
+               </div>
+
+               <div xml:id="arguments">
+                  <head>Arguments</head>
+                  <p>The relation between a lexical item and its dependents is also 
+                  encoded making use of the <code>gramGrp</code> element. 
+                  By contrast to the cases dealt with before this <code>gramGrp</code> 
+                  element is not placed on the top-level of the <code>entry</code> but inside 
+                  <code>sense</code> elements.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#damascDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">dawwaṛ</orth>
+</form>
+
+<sense>
+   <gramGrp>
+      <gram type="arguments" xml:lang="ar-apc-x-damascus-vicTrans">ʕala</gram>
+   </gramGrp>
+
+   <cit type="translation" xml:lang="en">
+      <quote>to look for, to search</quote>
+   </cit>
+</sense>
+...</egXML>
+               </div>
+
+               <div xml:id="constructions">
+                  <head>Constructions</head>
+                  <p>Multi-word units on the level of independent dictionary entries have to be 
+                  distinguished from constructions that correlate with particular senses. 
+                  These are encoded in <code>form</code> elements. Consider the following example:</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+<sense>
+   <form type="construction">
+      <orth xml:lang="ar-arz-x-cairo-vicav">baʔa + li- + 
+         <seg type="constrPart">pronSuffix | noun</seg> + 
+         <seg type="constrPart">timeExpression</seg> </orth>
+   </form>
+   ...
+</sense>
+...</egXML>
+
+                  <p>Information regarding the translation of the particular construction is represented as in other senses:</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+<sense>
+   <form type="construction">
+      <orth xml:lang="ar-arz-x-cairo-vicav">baʔa + li- + 
+         <seg type="constrPart">pronSuffix | noun</seg> + 
+         <seg type="constrPart">timeExpression</seg> </orth>
+   </form>
+
+   <cit type="translation" xml:lang="en">
+      <quote>since, for</quote>
+   </cit>
+</sense>
+...</egXML>
+
+                  <p>One sense can have several instantiations of a construction.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#damascDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">ʔal‎ᵊ‎b</orth>
+</form>
+...
+<sense>
+   <cit type="translation" xml:lang="en">
+      <quote>heart</quote>
+   </cit>
+   ...
+</sense>
+ 
+<sense>
+   <form type="construction">
+      <orth xml:lang="ar-apc-x-damascus-vicTrans">ʔalb +
+         <seg type="constrPart">pronSuffix</seg> + ṭayyeb
+      </orth>
+   </form>
+ 
+   <form type="construction">
+      <orth xml:lang="ar-apc-x-damascus-vicTrans">ʔlūb +
+         <seg type="constrPart">pronSuffix</seg> + ṭayybīn
+      </orth>
+   </form>
+   
+   <cit type="translation" xml:lang="en">
+      <quote>to be kind-hearted</quote>
+   </cit>
+   ...
+</sense>
+...</egXML>
+
+                  <p>An anologous case is the following one:</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+   <form type="lemma">
+      <orth xml:lang="ar-arz-x-cairo-vicav">ʕand</orth>
+   </form>
+   ...
+   <sense>
+      <cit type="translation" xml:lang="en">
+         <quote>with, by, next to</quote>
+      </cit>
+   </sense>
+   
+   <sense>
+      <form type="construction">
+         <orth xml:lang="ar-arz-x-cairo-vicav">ʕand + 
+            <seg type="constrPart">pronSuffix</seg>
+                                    </orth>
+      </form>
+      
+      <cit type="translation" xml:lang="en">
+         <quote>to have</quote>
+      </cit>
+   </sense>
+...</egXML>
+                    </div>
+
+
+               <div xml:id="constVsMWs">
+                  <head>Constructions vs. sample sentences</head>
+                  <p>It is not always easy to decide whether to put information into a construction or a 
+                  sample sentence. By construction, we understand strings of words with variable elements. 
+                  They can be conceived as patterns with particular slots holding variables. 
+                  Sample sentences would then be particular instantiations of such a pattern.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#rabatDict">
+<entry xml:id="tbaarek_001">
+   <form type="lemma">
+      <orth xml:lang="ar-ary-x-sale-vicTrans">tbāṛek</orth>
+      <orth xml:lang="ar-ary-x-sale-vicTrans">تبارك</orth>
+   </form>
+
+   <gramGrp>
+      <gram type="root" xml:lang="ar-ary-x-sale-vicTrans">brk</gram>
+   </gramGrp>
+
+   <sense>
+      <form type="construction">
+         <orth xml:lang="ar-ary-x-sale-vicTrans">tbāṛek + aḷḷāh + ʕla + 
+            <seg type="constrPart">pronSuffix | noun</seg> </orth>
+      </form>
+      <cit type="translation" xml:lang="en">
+         <quote>how nice is ...! how wonderful ...!</quote>
+      </cit>
+
+      <cit type="translation" xml:lang="de">
+         <quote>-</quote>
+      </cit>
+   </sense>
+</entry>
+                        </egXML>
+                  
+               </div>
+
+               <div xml:id="register">
+                  <head>Register</head>
+                  <p>Information concerning the level of formality is tagged using the <code>usg</code> 
+                  element with a <code>type="reg"</code> attribute. This may occur in three 
+                  positions of an entry.</p>
+                  <table>
+                     <row>
+                                <cell>
+                                    <hi rend="bold">Information qualifies ...</hi>
+                                </cell>
+                                <cell>
+                                    <hi rend="bold">Tag is placed in ...</hi>
+                                </cell>
+                                <cell/>
+                            </row>
+                     <row>
+                                <cell>lemma</cell>
+                                <cell>
+                                    <code>gramGrp</code>
+                                </cell>
+                                <cell>The information refers to the lexical item as a whole.</cell>
+                            </row>
+                     <row>
+                                <cell>other word forms</cell>
+                                <cell>
+                                    <code>form</code>
+                                </cell>
+                                <cell>The information refers to a particular form only.</cell>
+                            </row>
+                     <row>
+                                <cell>sense</cell>
+                                <cell>
+                                    <code>sense</code>
+                                </cell>
+                                <cell>The information refers to a particular sense only.</cell>
+                            </row>
+                  </table>
+
+                  <p>Some words are usually used in formal occasions.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-arz-x-cairo-arabic">ثقافة</orth>
+</form>
+
+<gramGrp>
+   <gram type="pos">noun</gram>
+   <gram type="root" xml:lang="ar-arz-x-cairo-vicav">ṯqf</gram>
+   <usg type="reg">formal</usg>
+</gramGrp>
+...</egXML>
+
+                  <p>Many nouns have several plural forms. This apparent overabundance 
+                  can often be explained by varying degrees of formality.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+<form type="inflected" ana="#v_pp_m">
+   <usg type="reg">informal</usg>
+   <orth xml:lang="ar-arz-x-cairo-vicav">mittihim</orth>
+</form>
+
+<form type="inflected" ana="#v_pp_m">
+   <usg type="reg">formal</usg>
+   <orth xml:lang="ar-arz-x-cairo-vicav">muttaham</orth>
+</form>
+...</egXML>
+               </div>
+
+               <div xml:id="semanticLabels">
+                  <head>Semantic classifications</head>
+                  <p>Basic semantic classifications are stored in ‘domain’ labels which are 
+                  placed inside <code>sense</code> elements. They are put right at the 
+                  beginning of the <code>sense</code> elements. Senses can be assigned 
+                  multiple such labels.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#damascDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-apc-x-damascus-vicTrans">fūl</orth>
+</form>
+...
+<sense>
+   <usg type="dom">food</usg>
+   <usg type="dom">plants</usg>
+
+   <cit type="translation" xml:lang="en">
+      <quote>beans</quote>
+   </cit>
+</sense>
+...</egXML>
+               </div>
+            </div>
+
+            <div xml:id="creatingExamples">
+               <head>Creating usage examples</head>
+               <p>As we have seen before, examples are separate records. They are 
+               not encoded with the lemmas. Examples are always linked to particular 
+               senses. They are referenced through <code>ptr</code> “pointer” elements 
+               which are put at the end of the respective sense element.</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+<sense>
+   <cit type="translation" xml:lang="en">
+      <quote>to be, to become</quote>
+   </cit>
+   ...
+   <ptr type="example" target="yibqa_ustaz_001"/>
+</sense>
+...</egXML>
+
+               <p>The example referrenced in the above <code>ptr</code> element 
+               looks like this:</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+<cit xml:id="yibqa_ustaz_001" type="example">
+   <quote xml:lang="ar-arz-x-cairo-vicav">ḥayibʔa ustāz in šāʔ allāh.</quote>
+
+   <cit type="translation" xml:lang="en">
+      <quote>He will become a professor (hopefully).</quote>
+   </cit>
+</cit>
+                    </egXML>
+
+               <p>To add such a link follow these steps:</p>
+               <table>
+                  <row>
+                            <cell>1.</cell>
+                            <cell>Go to the example entry.</cell>
+                            <cell>The focus has to be in the editor.</cell>
+                        </row>
+                  <row>
+                            <cell>2.</cell>
+                            <cell>Copy the ID to the clipboard</cell>
+                            <cell>... by pushing F11. Make sure that this key is defined in your list of key assignments.</cell>
+                        </row>
+                  <row>
+                            <cell>3.</cell>
+                            <cell>Go to the entry into which you want to insert the link.</cell>
+                            <cell/>
+                        </row>
+                  <row>
+                            <cell>4.</cell>
+                            <cell>Move to the insert position in the appropriate <code>sense</code> element.</cell>
+                            <cell>
+                                <code>ptr</code> should be at the end of a <code>sense</code> element.</cell>
+                        </row>
+                  <row>
+                            <cell>5.</cell>
+                            <cell>Insert the pointer</cell>
+                            <cell>... by pushing Ctrl + V.</cell>
+                        </row>
+               </table>
+            </div>
+            
+            <div xml:id="sourcesResponsibilities">
+               <head>Sources and responsibilities</head>
+               <p>Some of our dictionaries contain bibliographic references concerning the 
+               source of particular entry components. This type of information is 
+               typically encoded in <code>bibl</code> elements.</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#tunisDict">
+...
+<bibl>
+   <author>Ritt-Benmimoun</author>
+   <date>2012/2013</date>
+</bibl>
+...
+<bibl>
+   <author>Singer</author>
+   <date>1958</date>
+   <biblScope unit="page">56</biblScope> 
+</bibl>
+...</egXML>
+               <p>In production stage, abbreviated versions are permissible.</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#tunisDict">
+...
+<bibl>Singer 1958, p.56</bibl>
+...</egXML>
+
+               <p>Ideally, the sources should be resolved in the header.</p>
+
+               <div xml:id="sourceOfForms">
+                  <head>... of <code>form</code>s</head>
+
+                  <p>
+                            <code>bibl</code> may be embedded in <code>form</code> elements. 
+                  A <code>form</code> element can contain several <code>bibl</code> elements.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#tunisDict">
+...
+<form type="lemma">
+   <orth xml:lang="ar-aeb-x-tunis-vicav">markaz</orth>
+   <bibl>Ritt-Benmimoun 2014</bibl>
+   <bibl>Singer 1958, p.34</bibl>
+</form>
+...</egXML>
+               </div>
+
+               <div xml:id="sourceOfExamples">
+                  <head>... of examples</head>
+                  <p>Furthermore, the <code>bibl</code> element can be placed inside <code>cit</code> elements which are 
+                  used to encode usage examples.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+<cit xml:id="limcit_cineeh_001" type="example">
+   <quote xml:lang="ar-arz-x-cairo-vicav">limʕit ʕinēh.</quote>
+   ...
+   <bibl>4/82</bibl>
+</cit>
+                        </egXML>
+               </div>
+
+               <div xml:id="sourceOfSenses">
+                  <head>... of senses</head>
+                  <p>The third option are <code>sense</code>s. As <code>bibl</code> can not directly be 
+                  put in <code>sense</code>, <code>xr</code> has to be wrapped around:</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#egyptDict">
+...
+<sense>
+   <cit type="translation" xml:lang="en">
+      <quote>to call to prayer</quote>
+   </cit>
+
+   <cit type="translation" xml:lang="de">
+      <quote>zum Gebet rufen</quote>
+   </cit>
+   <xr>
+                                    <bibl>8/10</bibl>
+                                </xr>
+   <xr>
+                                    <bibl>19/205</bibl>
+                                </xr>
+</sense>
+...</egXML>
+
+                  <p>By convention, all <code>bibl</code> elements are placed at the end of the 
+                     containing element.</p>
+               </div>
+            </div>
+
+            <div xml:id="biblio">
+               <head>References</head>
+               <p>The Guidelines of the Text Encoding Initiative are currently available in eight languages. 
+                  <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html">Go</ref>
+                    </p>
+            </div>
+
+      </div>
+   </body>
+   </text>
+</TEI>
