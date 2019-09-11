@@ -24,7 +24,7 @@
     <body>
       <schemaSpec ident="vicav_profiles" start="TEI">
         <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt availability rendition sourceDesc encodingDesc tagsDecl revisionDesc change"/>
-        <moduleRef key="core" include="address author bibl date desc graphic head hi item label listBibl name note p publisher pubPlace ref respStmt resp rs series title"/>
+        <moduleRef key="core" include="address author bibl date editor desc graphic head hi label listBibl name note p publisher pubPlace ref respStmt resp rs series title"/>
         <moduleRef key="tei"/>
         <moduleRef key="namesdates" include="geo"/>
         <moduleRef key="textstructure" include="body div TEI text"/>
@@ -44,16 +44,22 @@
           <content>
             <!-- either allow one figure + 4 names with optional labels -->
             <alternate minOccurs="1">
-              <sequence preserveOrder="true">
+              <sequence preserveOrder="true" minOccurs="1" maxOccurs="1">
                 <elementRef key="figure" minOccurs="1" maxOccurs="1"/>
+                <sequence preserveOrder="true" minOccurs="1" maxOccurs="6">
+                  <elementRef key="label" minOccurs="0" maxOccurs="1"/>
+                  <elementRef key="name" minOccurs="1" maxOccurs="1"/>
+                </sequence>
+                <!--
                 <elementRef key="label" minOccurs="0" maxOccurs="1"/>
+                
                 <elementRef key="name" minOccurs="1" maxOccurs="1"/>
                 <elementRef key="label" minOccurs="0" maxOccurs="1"/>
                 <elementRef key="name" minOccurs="1" maxOccurs="1"/>
                 <elementRef key="label" minOccurs="0" maxOccurs="1"/>
                 <elementRef key="name" minOccurs="1" maxOccurs="1"/>
                 <elementRef key="label" minOccurs="0" maxOccurs="1"/>
-                <elementRef key="name" minOccurs="1" maxOccurs="1"/>
+                <elementRef key="name" minOccurs="1" maxOccurs="1"/>-->
               </sequence>
               <!-- or just (non-empty) plain text -->
               <textNode/>
@@ -98,6 +104,9 @@
                 <valItem ident="typology">
                   <desc>describes the typology of the variety described by the profile</desc>
                 </valItem>
+                <valItem ident="textBooks">
+                  <desc>lists text books available for the variety described by the profile</desc>
+                </valItem>
                 <valItem ident="general">
                   <desc>provides a general description of the variety described by the profile</desc>
                 </valItem>
@@ -114,10 +123,11 @@
             <constraint>
               <s:ns uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#" prefix="rdf"/>
               <s:rule context="tei:rs[@type = 'bibl']">
-                <s:let name="zotero-id" value="substring-after(@ref,'zotero:')"/>
-                <s:let name="zotero-ids" value="doc('../../../vicav_biblio/vicav_bibliography-zotero-ids.rdf')//@rdf:about"/>
-                <s:assert test="starts-with(@ref, 'zotero:')">ref must start with the 'zotero:' prefix</s:assert>
-                <s:assert test="$zotero-id = $zotero-ids"><s:value-of select="$zotero-id"/> is not a valid Zotero ID!</s:assert>
+                <s:let name="zotero-prefix" value="'zotID:'"/>
+                <s:let name="zotero-id" value="substring-after(@ref,$zotero-prefix)"/>
+                <s:let name="zotero-entry" value="doc('../../../vicav_biblio/VICAV.xml')//tei:biblStruct[ends-with(@corresp,$zotero-id)]"/>
+                <s:assert test="starts-with(@ref, $zotero-prefix)">ref must start with the Zotero prefix '<s:value-of select="$zotero-prefix"/>' prefix</s:assert>
+                <s:assert test="exists($zotero-entry)"><s:value-of select="$zotero-id"/> is not a valid Zotero ID!</s:assert>
               </s:rule>
             </constraint>
           </constraintSpec>

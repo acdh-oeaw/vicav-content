@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICAV feature-value library</title>
+            <author>Charly Mörth</author>
+            <respStmt>
+               <resp>TEI encoding</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished working draft</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This is a born digital document.</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+            <head>Introduction</head>
+            <p>This document contains the feature value library used in all VICAV dictionaries.</p>
+            <p>For more information how these are used, please refer to the <ref target="https://clarin.oeaw.ac.at/lrp/dict-gate/vle_docu/vicav_dict_encoding__v003.html">VICAV Dictionary Encoding Guidelines</ref>.</p>
+
+            <fvLib n="verbal forms">
+               <fs xml:id="v_pres_ind_sg_p1" feats="#pos.verb #tns.pres #mood.ind #num.sg #pers.1"/>
+               <fs xml:id="v_pres_ind_sg_p2" feats="#pos.verb #tns.pres #mood.ind #num.sg #pers.2"/>
+               <fs xml:id="v_pres_ind_sg_p3" feats="#pos.verb #tns.pres #mood.ind #num.sg #pers.3"/>
+               <fs xml:id="v_pres_ind_pl_p1" feats="#pos.verb #tns.pres #mood.ind #num.pl #pers.1"/>
+               <fs xml:id="v_pres_ind_pl_p2" feats="#pos.verb #tns.pres #mood.ind #num.pl #pers.2"/>
+               <fs xml:id="v_pres_ind_pl_p3" feats="#pos.verb #tns.pres #mood.ind #num.pl #pers.3"/>
+               
+               
+               <!-- WATCHME mood? -->
+               <fs xml:id="v_pres_pl_p3" feats="#pos.verb #tns.pres #num.pl #pers.3"/>
+               <fs xml:id="v_pres_sg_p3" feats="#pos.verb #tns.pres #mood.ind #num.sg #pers.3"/>
+               <!-- WATCHME v + gender ? -->
+               <fs xml:id="v_pres_sg_p3_f" feats="#pos.verb #tns.pres #num.sg #gender.f #pers.3"/>
+               
+               <!-- verbal noun -->
+               <fs xml:id="v_vn" feats="#pos.verb #pos.vn"/>
+               
+               <fs xml:id="v_past_sg_p1" feats="#pos.verb #tns.past #mood.ind #num.sg #pers.1"/>
+               <fs xml:id="v_past_sg_p2" feats="#pos.verb #tns.past #mood.ind #num.sg #pers.2"/>
+               <fs xml:id="v_past_sg_p3" feats="#pos.verb #tns.past #mood.ind #num.sg #pers.3"/>
+               <fs xml:id="v_past_pl_p1" feats="#pos.verb #tns.past #mood.ind #num.pl #pers.1"/>
+               <fs xml:id="v_past_pl_p2" feats="#pos.verb #tns.past #mood.ind #num.pl #pers.2"/>
+               <fs xml:id="v_past_pl_p3" feats="#pos.verb #tns.past #mood.ind #num.pl #pers.3"/>
+
+               <fs xml:id="v_perf_f" feats="#pos.verb #tns.perfect #gender.f"/>
+               <!-- no pers? -->
+               <fs xml:id="v_perf_pl" feats="#pos.verb #tns.perfect #num.pl"/>
+               
+               <fs xml:id="v_pp" feats="#pos.verb #pos.pp"/>
+               <fs xml:id="v_pp_f" feats="#pos.verb #pos.pp #gender.f"/>
+               <fs xml:id="v_pp_m" feats="#pos.verb #pos.pp #gender.m"/>
+                              
+               <fs xml:id="v_future_ind_sg_p1" feats="#pos.verb #tns.future #mood.ind #num.sg #pers.1"/>
+               <fs xml:id="v_future_ind_sg_p2" feats="#pos.verb #tns.future #mood.ind #num.sg #pers.2"/>
+               <fs xml:id="v_future_ind_sg_p3" feats="#pos.verb #tns.future #mood.ind #num.sg #pers.3"/>
+               <fs xml:id="v_future_ind_pl_p1" feats="#pos.verb #tns.future #mood.ind #num.pl #pers.1"/>
+               <fs xml:id="v_future_ind_pl_p2" feats="#pos.verb #tns.future #mood.ind #num.pl #pers.2"/>
+               <fs xml:id="v_future_ind_pl_p3" feats="#pos.verb #tns.future #mood.ind #num.pl #pers.3"/>
+               
+               
+            </fvLib>
+            
+            <fvLib n="noun forms">
+               <!-- construct state of a noun -->
+               <fs xml:id="n_constructState" feats="#pos.n #pos.constructedState"/>
+               
+               
+               <fs xml:id="n_sg_f" feats="#pos.n #num.sg #gender.f"/>
+               
+               <!-- plural of a noun -->
+               <fs xml:id="n_pl" feats="#pos.n #num.pl"/>
+               <fs xml:id="n_pl_f" feats="#pos.n #num.pl #gender.f"/>
+               
+               <!-- dual of a noun -->
+               <fs xml:id="n_dual" feats="#pos.n #num.dual"/>
+               
+               <!-- WATCHME no num? -->
+               <fs xml:id="n_f" feats="#pos.n #gender.f"/>
+               
+               
+               
+               
+               <!-- countPlural ? -->
+               <fs xml:id="n_countPlural" feats="#pos.n"/>
+               <fs xml:id="n_diminutive" feats="#pos.n #pos.dim"/>
+               <!-- countdiptPl ? -->
+               <fs xml:id="n_diptPl" feats="#pos.n"/>
+               
+               
+               <fs xml:id="n_nu" feats="#pos.n"/>
+               
+               <!-- What is "inst" ? -->
+               <fs xml:id="n_inst" feats="#pos.n"/>
+               <fs xml:id="n_inst_pl" feats="#pos.n #num.pl"/>
+               
+               <!-- what is "_l_" ? -->
+               <fs xml:id="n_l_pl" feats="#pos.n #num.pl"/>
+               
+               
+                             
+               <!-- SHOULDN’T BE THIS "c2_sg" instead of "2sg" (i.e. case as a separate feature?) 
+                  BTW "2sg" is not a valid xml:id -->
+               <fs xml:id="n_sg_suf_2sg_m" feats="#pos.n #num.sg #gender.m"/>
+               <fs xml:id="n_sg_suf_3sg_m" feats="#pos.n #num.sg #gender.m"/>
+               
+               <!-- nomina unitatis -->
+               <fs xml:id="n_unit" feats="#pos.n #pos.unit"/>
+               <fs xml:id="n_unit_dual" feats="#pos.n #pos.unit #num.dual"/>
+               <fs xml:id="n_unit_pl" feats="#pos.n #pos.unit #num.pl"/>
+               
+               <fs xml:id="n_vicis" feats="#pos.n #pos.vicis"/>
+               <fs xml:id="n_vicis_pl" feats="#pos.n #pos.vicis #num.pl"/>
+               
+            </fvLib>
+            
+            <fvLib n="adjective forms">
+               <!--feminine form of an adjective-->
+               <fs xml:id="adj_f" feats="#pos.adj #gen.f"/>
+               <fs xml:id="adj_pl" feats="#pos.adj #num.pl"/>
+            </fvLib>
+            
+            
+            
+            <fLib n="pos">
+               <f xml:id="pos.verb" name="v"><symbol value="verb"/></f>
+               <f xml:id="pos.adj" name="adj"><symbol value="adjective"/></f>
+               <f xml:id="pos.adv" name="adv"><symbol value="adverb"/></f>
+               <f xml:id="pos.num" name="pos"><symbol value="num"/></f>
+               <f xml:id="pos.ord" name="pos"><symbol value="ord"/></f>
+               <f xml:id="pos.prep" name="prep"><symbol value="preposition"/></f>
+               <f xml:id="pos.pron" name="pron"><symbol value="pronoun"/></f>
+               <f xml:id="pos.np" name="np"><symbol value="pluralNoun"/></f>
+               <f xml:id="pos.n" name="n"><symbol value="noun"/></f>
+               <f xml:id="pos.pp" name="pp"><symbol value="pastParticiple"/></f>
+               
+               <!-- CHECKME – should these be here? -->
+               <f xml:id="pos.unit" name="unit"><symbol value="nomenUnitatis"/></f>
+               <f xml:id="pos.vn" name="vn"><symbol value="verbalNoun"/></f>
+               <f xml:id="pos.constructedState" name="constructedState"><symbol value="constructedState"/></f>
+               <f xml:id="pos.vicis" name="vicis"><symbol value="nomenVicis"/></f>
+               <f xml:id="pos.dim" name="diminutive"><symbol value="diminutive"/></f>
+               
+            </fLib>
+            
+            <fLib n="derivedVerbClass">
+               <f name="vc.I" n="I"><symbol value="derivedVerbClass1"/></f>
+               <f name="vc.Iq" n="Iq"><symbol value="derivedVerbClass1_quadriliteralVerb"/></f>
+               <f name="vc.II" n="II"><symbol value="derivedVerbClass2"/></f>
+               <f name="vc.IIq" n="IIq"><symbol value="derivedVerbClass2_quadriliteralVerb"/></f>
+               <f name="vc.III" n="III"><symbol value="derivedVerbClass3"/></f>
+               <f name="vc.IV" n="IV"><symbol value="derivedVerbClass4"/></f>
+               <f name="vc.V" n="V"><symbol value="derivedVerbClass5"/></f>
+               <f name="vc.VI" n="VI"><symbol value="derivedVerbClass6"/></f>
+               <f name="vc.VIw" n="VIw"><symbol value="derivedVerbClass6w"/></f>
+               <f name="vc.VII" n="VII"><symbol value="derivedVerbClass7"/></f>
+               <f name="vc.VIII" n="VIII"><symbol value="derivedVerbClass8"/></f>
+               <f name="vc.IX" n="IX"><symbol value="derivedVerbClass9"/></f>
+               <f name="vc.X" n="X"><symbol value="derivedVerbClass10"/></f>
+            </fLib>
+            
+            <fLib n="tns">
+               <f xml:id="tns.pres" name="presentTense"><symbol value="present"/></f>
+               <f xml:id="tns.past" name="tense"><symbol value="past"/></f>
+               <f xml:id="tns.pp" name="tense"><symbol value="presentperfect"/></f>
+               <f xml:id="tns.future" name="tense"><symbol value="future"/></f>
+               
+            </fLib>
+            
+            <fLib n="mood">   
+               <f xml:id="mood.ind" name="mood"><symbol value="indicative"/></f>
+               <f xml:id="mood.imp" name="imperative"><symbol value="imperative"/></f>               
+               <f xml:id="mood.indef" name="imperative"><symbol value="imperative"/></f>               
+            </fLib>
+            
+            <fLib n="number">
+               <f xml:id="num.sg" name="number"><symbol value="singular"/></f>
+               <f xml:id="num.pl" name="number"><symbol value="plural"/></f>
+               <f xml:id="num.dual" name="number"><symbol value="dual"/></f>
+            </fLib>
+            
+            <fLib n="gender">
+               <f xml:id="gender.m" name="male"><symbol value="male"/></f>
+               <f xml:id="gender.f" name="female"><symbol value="female"/></f>
+               <f xml:id="gender.n" name="neutral"><symbol value="neutral"/></f>
+            </fLib>
+            
+            <fLib n="person">   
+               <f xml:id="pers.1" name="person"><symbol value="1st"/></f>
+               <f xml:id="pers.2" name="person"><symbol value="2nd"/></f>
+               <f xml:id="pers.3" name="person"><symbol value="3rd"/></f>
+           </fLib>
+               
+            
+         </div>
+      </body>
+  </text>
+</TEI>

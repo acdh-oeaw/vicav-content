@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>VICAV dictionaries ODD</title>
+        <author>Daniel Schopper</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ACDH-OeAW</publisher>
+        <pubPlace>Vienna</pubPlace>
+        <date>2019</date>
+        <availability status="restricted">
+          <p><ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>This is an original digital text.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Part 1: Encoder Documentation</head>
+        <div>
+          <head>Introduction</head>
+        </div>
+        <div>
+          <head>Basic Dictionary Structure</head>
+          <p>The VICAV dictionaries are encoded according to the Guidelines of the Text Encoding Initiative (P5). They are conceptualised as a specific type of text and are therefore encoded with <gi>text</gi> elements. Each dictionary starts with a <gi>teiHeader</gi> element which contains the metadata of the dictionary.</p>
+          
+          <p>The lexicographic data are placed in typed <gi>div</gi> elements. Thus, our TEI dictionaries basically look like this:</p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="feasible">
+            <TEI version="5.0">
+              <teiHeader>
+                ...
+              </teiHeader>
+              <text>
+                <body>
+                  <div type="entries">
+                    <entry>...</entry>
+                    <entry>...</entry>
+                    <entry>...</entry>
+                  </div>
+                </body>
+              </text>
+            </TEI>
+          </egXML>
+          <p>The <gi>body</gi> of the VICAV dictionaries can not only contain simple entries but also examples which are encoded in <gi>cit</gi>/<gi>quote</gi> constructs. The rationale behind keeping example sentences outside the entries is to be able to reuse them in different parts of the dictionary (See below: <ref target="#examples">Examples and Creating examples</ref>).</p>
+          
+          <elementSpec ident="div" module="core" mode="change">
+            <constraintSpec ident="div-example-children" scheme="schematron">
+              <desc>assert content of top-level divisions</desc>
+              <constraint>
+              <s:rule context="tei:div[@type = 'examples']">
+                <s:assert test="every $e in * satisfies $e/self::tei:cit[@type = 'example']">div type="examples"may only contain cit type="example"</s:assert>
+              </s:rule>
+              <s:rule context="tei:div[@type = 'entries']">
+                <s:assert test="every $e in * satisfies $e/self::tei:entry">div type="entries"may only contain entry elements</s:assert>
+              </s:rule>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="type" mode="replace">
+                <valList type="closed">
+                  <valItem ident="entries">
+                    <desc>contains all entries in a dictionary</desc>
+                  </valItem>
+                  <valItem ident="examples">
+                    <desc>contains examples used in the dictionary</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+        </div>
+      </div>
+      <div>
+        <head>Part 2: Technical Implementation</head>
+        <schemaSpec ident="vicav_dicts" start="TEI">
+        <moduleRef key="header" include="teiHeader distributor pubPlace edition editionStmt fileDesc titleStmt publicationStmt availability rendition sourceDesc encodingDesc revisionDesc change"/>
+        <moduleRef key="core" include="author bibl cit monogr date desc editor head item list imprint measure mentioned name note p ptr publisher pubPlace quote ref resp respStmt series title media listBibl biblStruct"/>
+        
+        <moduleRef key="tei"/>
+        <moduleRef key="analysis" include="w"/>
+        <moduleRef key="linking" include="seg"/>
+        
+        <moduleRef key="namesdates" include="persName forename surname"/>
+        <moduleRef key="gaiji" include="charDecl char charProp unicodeName value localName mapping"/>
+        
+        
+        
+        
+        <moduleRef key="textstructure" include="body div TEI text"/>
+        <moduleRef key="iso-fs" include="fs f symbol"/>
+        <moduleRef key="dictionaries" include="entry def form gram gramGrp orth usg sense xr etym lang colloc"/>
+
+
+          <elementSpec ident="ptr" mode="change" module="core">
+            <constraintSpec ident="example-target" scheme="schematron">
+              <desc>assert referenced dictionary example exists</desc>
+              <constraint>
+                <s:rule context="tei:ptr[@type = 'example']">
+                  <s:assert test="root()//tei:cit[@type = 'example'][@xml:id = current()/@target]">unknown example with id "<s:value-of select="current()/@target"/>"</s:assert>
+                </s:rule>
+              </constraint>
+            </constraintSpec>
+          </elementSpec>
+          
+          <elementSpec ident="seg" mode="change" module="linking">
+            <constraintSpec ident="seg-context" scheme="schematron">
+              <desc>assert correct context of seg</desc>
+              <constraint>
+                <s:rule context="tei:seg[@type = 'hint']">
+                  <s:assert test="parent::tei:quote[parent::tei:cit[@type = 'translation']]">a hint segment must be inside a translation equivalent</s:assert>
+                </s:rule>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="type" mode="replace" usage="req">
+                <valList type="closed">
+                  <valItem ident="hint">
+                    <desc>a hint in a translation to narrow down the semantic scope of the particular item.</desc>  
+                  </valItem>
+                  <valItem ident="constrPart">
+                    <desc>TODO add description ???</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+        
+        <elementSpec ident="gram" mode="change" module="dictionaries">
+          <attList>
+            <attDef ident="type" mode="replace" usage="req">
+              <valList type="closed">
+                <valItem ident="arguments">
+                  <desc>arguments</desc>
+                </valItem>
+                <valItem ident="constr">
+                  <desc>constr</desc>
+                </valItem>
+                <valItem ident="derivedVerbClass">
+                  <desc>derivedVerbClass</desc>
+                </valItem>
+                <valItem ident="gender">
+                  <desc>gender</desc>
+                </valItem>
+                <valItem ident="keys">
+                  <desc>keys</desc>
+                </valItem>
+                <valItem ident="mood">
+                  <desc>mood</desc>
+                </valItem>
+                <valItem ident="morph">
+                  <desc>morph</desc>
+                </valItem>
+                <valItem ident="morphType">
+                  <desc>morphType</desc>
+                </valItem>
+                <valItem ident="number">
+                  <desc>number</desc>
+                </valItem>
+                <valItem ident="pos">
+                  <desc>pos</desc>
+                </valItem>
+                <valItem ident="reg">
+                  <desc>reg</desc>
+                </valItem>
+                <valItem ident="root">
+                  <desc>root</desc>
+                </valItem>
+                <valItem ident="roots">
+                  <desc>roots</desc>
+                </valItem>
+                <valItem ident="semCat">
+                  <desc>semCat</desc>
+                </valItem>
+                <valItem ident="subc">
+                  <desc>subc</desc>
+                </valItem>
+                <valItem ident="usg">
+                  <desc>hint on usage</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="ana" mode="change" module="analysis">
+          <constraintSpec ident="ana-on-form" scheme="schematron">
+            <desc>assert value of @ana attribute on form elements</desc>
+            <constraint>
+              <s:let name="fvlibs" select="doc('fLib.xml')//tei:fvLib/tei:fs"/> 
+              <s:rule context="tei:form/@ana">
+                <s:assert test="every $t in tokenize(current(),' ') satisfies $t = $fvlibs">@ana must be the id of a defined fs element in fvLib.</s:assert>
+              </s:rule>
+            </constraint>
+          </constraintSpec>
+        </elementSpec>
+          
+        <elementSpec ident="cit" mode="change" module="core">
+          <content>
+            <alternate minOccurs="1" maxOccurs="unbounded">
+              <!-- both examples or translations have their textual content enclosed in quote elements -->
+              <elementRef key="quote" minOccurs="1" maxOccurs="1"/>
+              <!-- example entries may have 1–n nested translations -->
+              <elementRef key="cit" minOccurs="0" maxOccurs="unbounded"/>
+              <!-- change history of example entries  -->
+              <elementRef key="fs"/>
+              <!-- only  -->
+              <elementRef key="bibl"/>
+              <elementRef key="note"/>
+              <elementRef key="sense"/>
+              <elementRef key="usg"/>
+              <elementRef key="xr"/>
+              <elementRef key="def"/>
+              <elementRef key="ptr"/>
+              <elementRef key="ref"/>
+              <elementRef key="gramGrp"/>
+            </alternate>
+          </content>
+          <constraintSpec ident="cit-context" scheme="schematron">
+            <desc>assert correct context of cit types</desc>
+            <constraint>
+              <s:rule context="tei:cit[@type = 'translation']">
+                <s:report test="* except (tei:quote|tei:usg[@type = 'hint'])">a translation equivalent must only contain of the translated text in a single quote element</s:report>
+              </s:rule>
+              <s:rule context="tei:entry//tei:cit[@type = 'translation']">
+                <s:assert test="parent::tei:sense">a translation equivalent in a headword or MWU entry must be a direct child of a sense element</s:assert>
+              </s:rule>
+              <s:rule context="tei:cit[@subtype = 'proverb']">
+                <s:assert test="@type = 'example'">unexpected value "<s:value-of select="current()/@type"/>" in @type – a proverb must be encoded as cit type="example" subtype="proverb"</s:assert>
+              </s:rule>
+            </constraint>
+          </constraintSpec>
+          <attList>
+            <attDef ident="type" mode="replace" usage="req">
+              <valList type="closed">
+                <valItem ident="example">
+                  <desc>A dictionary example. Ideally, examples should consist in complete sentences. Examples should be concise, but can also contain several sentences. If dialogical models are involved, sentences are to be separated by a dash.</desc>
+                </valItem>
+                <valItem ident="translation">
+                  <desc>A translation equivalent.</desc>
+                </valItem>
+                <valItem ident="literalTranslation">
+                  <!-- IS THIS THE SAME AS cit type="translation" subtype="verbatim" in dc_arz_eng_007 ? -->
+                  <desc>TODO add difference to translation – or would’t that be a subtype="literal"? </desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="subtype" mode="replace" usage="opt">
+              <valList type="closed">
+                <valItem ident="proverb">
+                  <desc>Proverbs are a subtype of example.</desc>
+                </valItem>
+                <valItem ident="verbatim">
+                  <desc>Proverbs are a subtype of example.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+          
+        <elementSpec ident="form" mode="change" module="dictionaries">
+          <constraintSpec ident="form-type" scheme="schematron">
+            <desc>assert content of correct context of @type values</desc>
+            <constraint>
+              <s:rule context="tei:form[@type = 'variant']">
+                <s:assert test="parent::tei:form[@type = ('lemma','multiWordUnit', 'inflected')]">a variant must be a direct child of the main form (type = "lemma", "multiWordUnit" or "inflected").</s:assert>
+              </s:rule>
+              <s:rule context="tei:form[@type = 'lemma']">
+                <s:assert test="parent::tei:entry">a headword must be a direct child of an entry element. </s:assert>
+              </s:rule>
+            </constraint>
+          </constraintSpec>
+          <attList>
+            <attDef ident="type" mode="replace" usage="req">
+              <valList type="closed">
+                <valItem ident="lemma">
+                    <desc>the headword of a lemma entry</desc>
+                </valItem>
+                <valItem ident="multiWordUnit">
+                  <desc>the headword of a MWU entry</desc>
+                </valItem>
+                
+                <valItem ident="inflected">
+                    <desc>inflected form</desc>
+                </valItem>
+                <!-- WHAT IS @type='infl' ? 
+                    121 in baghdad dict, many empty orth elements
+                    112 in apc
+                -->
+                <!--<valItem ident="infl">
+                    <desc>????</desc>
+                </valItem>-->
+                
+                
+                <!-- WHEN IS THIS USED ? 16 instances in damascus dict  -->
+                <valItem ident="example">
+                    <desc>???</desc>
+                </valItem>
+                
+                <valItem ident="variant">
+                  <desc>A variant form of the lemma. Only headwords may have variants. All other variants – e.g. competing morphological forms – are simply listed but not classified. Variants can be assigned usage labels indicating e.g. a particular register. The more frequent variant should precede less frequent ones. </desc>
+                </valItem>
+                
+                <!-- in how far is @type = "lemmaVariant" different from @type = 'variant'? -->
+                <valItem ident="lemmaVariant">
+                  <desc></desc>
+                </valItem>
+                
+                <!-- WHEN IS THIS USED ?? -->
+                <valItem ident="construction">
+                    <desc></desc>
+                </valItem>
+                          
+                
+                <valItem ident="VN">
+                    <desc></desc>
+                </valItem>
+                
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+       
+      </schemaSpec>
+  </div>
+    </body>
+  </text>
+</TEI>
