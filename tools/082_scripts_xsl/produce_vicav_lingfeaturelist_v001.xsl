@@ -39,7 +39,7 @@
                 </fileDesc>
             </teiHeader>
             
-            <text><body><xsl:apply-templates/></body></text>            
+            <text><body><div><xsl:apply-templates/></div></body></text>            
         </TEI>
     </xsl:template>
     
@@ -62,6 +62,9 @@
                 </xsl:when>
                 <xsl:when test="count(preceding-sibling::tei:cell) = 4">
                     <xsl:attribute name="rend">tdID</xsl:attribute>
+                </xsl:when>
+                <xsl:when test="count(preceding-sibling::tei:cell) = 5">
+                    <xsl:attribute name="rend">tdRight</xsl:attribute>
                 </xsl:when>
             </xsl:choose>
             <xsl:apply-templates/>
