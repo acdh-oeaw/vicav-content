@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                       rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects">
+      <dct:title xmlns:dct="http://purl.org/dc/terms/">Taxonomy of VICAV dialects</dct:title>
+      <dct:author xmlns:dct="http://purl.org/dc/terms/">Charly Mörth</dct:author>
+      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322458"/>
+      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322488"/>
+      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322520"/>
+      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322664"/>
+      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322946"/>
+      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322976"/>
+      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323029"/>
+      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323493"/>
+  </skos:ConceptScheme>
+  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                 rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322458">
+      <skos:prefLabel xml:lang="en">East (Mashriq)</skos:prefLabel>
+      <skos:narrower>
+         <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322473">
+            <skos:prefLabel xml:lang="en">Arabia</skos:prefLabel>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322476">
+                  <skos:prefLabel xml:lang="en">Oman</skos:prefLabel>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322473"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323197">
+                  <skos:prefLabel xml:lang="en">Northern group</skos:prefLabel>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323200">
+                        <skos:prefLabel xml:lang="en">Central Najd</skos:prefLabel>
+                        <skos:narrower>
+                           <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323203">
+                              <skos:prefLabel xml:lang="en">Gulf</skos:prefLabel>
+                              <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323200"/>
+                           </skos:Concept>
+                        </skos:narrower>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323197"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322473"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324211">
+                  <skos:prefLabel xml:lang="en">Yemen</skos:prefLabel>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324214">
+                        <skos:prefLabel xml:lang="en">Western Highlands</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324211"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322473"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324569">
+                  <skos:prefLabel xml:lang="en">Gulf</skos:prefLabel>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322473"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322458"/>
+         </skos:Concept>
+      </skos:narrower>
+      <skos:narrower>
+         <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322854">
+            <skos:prefLabel xml:lang="en">Mesopotamia</skos:prefLabel>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322857">
+                  <skos:prefLabel xml:lang="en">Iraq</skos:prefLabel>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322854"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324013">
+                  <skos:prefLabel xml:lang="en">Anatolia</skos:prefLabel>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322854"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322458"/>
+         </skos:Concept>
+      </skos:narrower>
+      <skos:narrower>
+         <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323713">
+            <skos:prefLabel xml:lang="en">Levant</skos:prefLabel>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323716">
+                  <skos:prefLabel xml:lang="en">Syria</skos:prefLabel>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323719">
+                        <skos:prefLabel xml:lang="en">Oases and Steppe Dialects</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323716"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323713"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324459">
+                  <skos:prefLabel xml:lang="en">Palestine</skos:prefLabel>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324462">
+                        <skos:prefLabel xml:lang="en">Galilee</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324459"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323713"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322458"/>
+         </skos:Concept>
+      </skos:narrower>
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+  </skos:Concept>
+  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                 rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322488">
+      <skos:prefLabel xml:lang="en">West (Maghreb)</skos:prefLabel>
+      <skos:narrower>
+         <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322503">
+            <skos:prefLabel xml:lang="en">Algeria</skos:prefLabel>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322506">
+                  <skos:prefLabel xml:lang="en">Western dialects</skos:prefLabel>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322503"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322650">
+                  <skos:prefLabel xml:lang="en">Northern dialects</skos:prefLabel>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322503"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323059">
+                  <skos:prefLabel xml:lang="en">Sahara dialects</skos:prefLabel>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322503"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323357">
+                  <skos:prefLabel xml:lang="en">Saharan dialects</skos:prefLabel>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322503"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324539">
+                  <skos:prefLabel xml:lang="en">Eastern dialects</skos:prefLabel>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322503"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322488"/>
+         </skos:Concept>
+      </skos:narrower>
+      <skos:narrower>
+         <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322884">
+            <skos:prefLabel xml:lang="en">Morocco</skos:prefLabel>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322887">
+                  <skos:prefLabel xml:lang="en">Northern type</skos:prefLabel>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322884"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322488"/>
+         </skos:Concept>
+      </skos:narrower>
+      <skos:narrower>
+         <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324164">
+            <skos:prefLabel xml:lang="en">Libya</skos:prefLabel>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324167">
+                  <skos:prefLabel xml:lang="en">North Eastern Libya</skos:prefLabel>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324164"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322488"/>
+         </skos:Concept>
+      </skos:narrower>
+      <skos:narrower>
+         <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324318">
+            <skos:prefLabel xml:lang="en">Tunisia</skos:prefLabel>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324321">
+                  <skos:prefLabel xml:lang="en">Southwestern Tunisia</skos:prefLabel>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324318"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322488"/>
+         </skos:Concept>
+      </skos:narrower>
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+  </skos:Concept>
+  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                 rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322520">
+      <skos:prefLabel xml:lang="en">East (Mashreq)</skos:prefLabel>
+      <skos:narrower>
+         <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322547">
+            <skos:prefLabel xml:lang="en">Levant</skos:prefLabel>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322550">
+                  <skos:prefLabel xml:lang="en">Lebanon</skos:prefLabel>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322553">
+                        <skos:prefLabel xml:lang="en">Central-north group</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322550"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324415">
+                        <skos:prefLabel xml:lang="en">Northern group</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322550"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322547"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323294">
+                  <skos:prefLabel xml:lang="en">Syria</skos:prefLabel>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323297">
+                        <skos:prefLabel xml:lang="en">Centre</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323294"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323451">
+                        <skos:prefLabel xml:lang="en">Coast</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323294"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324090">
+                        <skos:prefLabel xml:lang="en">Oases and Steppe Dialects</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323294"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322547"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323933">
+                  <skos:prefLabel xml:lang="en">Turkey</skos:prefLabel>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323936">
+                        <skos:prefLabel xml:lang="en">Cilicia (Çukurova)</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323933"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322547"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324134">
+                  <skos:prefLabel xml:lang="en">Palestine/Syria</skos:prefLabel>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324137">
+                        <skos:prefLabel xml:lang="en">Horan dialects</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324134"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322547"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324365">
+                  <skos:prefLabel xml:lang="en">Palestine</skos:prefLabel>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324368">
+                        <skos:prefLabel xml:lang="en">Galilee</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324365"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322547"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322520"/>
+         </skos:Concept>
+      </skos:narrower>
+      <skos:narrower>
+         <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322611">
+            <skos:prefLabel xml:lang="en">Egypt-Sudan</skos:prefLabel>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322614">
+                  <skos:prefLabel xml:lang="en">Egypt</skos:prefLabel>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322617">
+                        <skos:prefLabel xml:lang="en">Delta</skos:prefLabel>
+                        <skos:narrower>
+                           <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322620">
+                              <skos:prefLabel xml:lang="en">Western delta</skos:prefLabel>
+                              <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322617"/>
+                           </skos:Concept>
+                        </skos:narrower>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322614"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322611"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323572">
+                  <skos:prefLabel xml:lang="en">Sudan</skos:prefLabel>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323575">
+                        <skos:prefLabel xml:lang="en">Eastern group</skos:prefLabel>
+                        <skos:narrower>
+                           <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323578">
+                              <skos:prefLabel xml:lang="en">Eastern Sudan</skos:prefLabel>
+                              <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323575"/>
+                           </skos:Concept>
+                        </skos:narrower>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323572"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322611"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322520"/>
+         </skos:Concept>
+      </skos:narrower>
+      <skos:narrower>
+         <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322771">
+            <skos:prefLabel xml:lang="en">Arabia</skos:prefLabel>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322774">
+                  <skos:prefLabel xml:lang="en">Northern group</skos:prefLabel>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322777">
+                        <skos:prefLabel xml:lang="en">Central Najd (ˁAnaza)</skos:prefLabel>
+                        <skos:narrower>
+                           <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322780">
+                              <skos:prefLabel xml:lang="en">Gulf</skos:prefLabel>
+                              <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322777"/>
+                           </skos:Concept>
+                        </skos:narrower>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322774"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322771"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323401">
+                  <skos:prefLabel xml:lang="en">Yemen</skos:prefLabel>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323404">
+                        <skos:prefLabel xml:lang="en">Aden</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323401"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323672">
+                        <skos:prefLabel xml:lang="en">Sa’da region</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323401"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322771"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322520"/>
+         </skos:Concept>
+      </skos:narrower>
+      <skos:narrower>
+         <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322821">
+            <skos:prefLabel xml:lang="en">Mesopotamia</skos:prefLabel>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322824">
+                  <skos:prefLabel xml:lang="en">Eastern Syria (qəltu)</skos:prefLabel>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322827">
+                        <skos:prefLabel xml:lang="en">Euphrates group</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322824"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322821"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322931">
+                  <skos:prefLabel xml:lang="en">Anatolia</skos:prefLabel>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322934">
+                        <skos:prefLabel xml:lang="en">Kozluk-Sason Group</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322931"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324646">
+                        <skos:prefLabel xml:lang="en">Mardin group</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322931"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322821"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323024">
+                  <skos:prefLabel xml:lang="en">Iraq (gilit)</skos:prefLabel>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323250">
+                        <skos:prefLabel xml:lang="en">South</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323024"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322821"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323622">
+                  <skos:prefLabel xml:lang="en">Iraq (qəltu)</skos:prefLabel>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323625">
+                        <skos:prefLabel xml:lang="en">Tigris group</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323622"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322821"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323856">
+                  <skos:prefLabel xml:lang="en">Anatolia (qəltu)</skos:prefLabel>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323859">
+                        <skos:prefLabel xml:lang="en">Kozluk-Sason-Muș group</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323856"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322821"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324288">
+                  <skos:prefLabel xml:lang="en">Anatolia (q ə ltu)</skos:prefLabel>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324291">
+                        <skos:prefLabel xml:lang="en">Siirt/Mardin group</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324288"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322821"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322520"/>
+         </skos:Concept>
+      </skos:narrower>
+      <skos:narrower>
+         <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323130">
+            <skos:prefLabel xml:lang="en">Sudan</skos:prefLabel>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323133">
+                  <skos:prefLabel xml:lang="en">Eastern group</skos:prefLabel>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323136">
+                        <skos:prefLabel xml:lang="en">Central Sudan</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323133"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323130"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322520"/>
+         </skos:Concept>
+      </skos:narrower>
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+  </skos:Concept>
+  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                 rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322664">
+      <skos:prefLabel xml:lang="en">East</skos:prefLabel>
+      <skos:narrower>
+         <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322691">
+            <skos:prefLabel xml:lang="en">Mesopotamia</skos:prefLabel>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322694">
+                  <skos:prefLabel xml:lang="en">Iraq</skos:prefLabel>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322697">
+                        <skos:prefLabel xml:lang="en">South Iraq</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322694"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322691"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322664"/>
+         </skos:Concept>
+      </skos:narrower>
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+  </skos:Concept>
+  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                 rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322946">
+      <skos:prefLabel xml:lang="en">Arabia</skos:prefLabel>
+      <skos:narrower>
+         <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322961">
+            <skos:prefLabel xml:lang="en">Northern Group</skos:prefLabel>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322964">
+                  <skos:prefLabel xml:lang="en">Syro-Mesopotamian fringe</skos:prefLabel>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322961"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322946"/>
+         </skos:Concept>
+      </skos:narrower>
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+  </skos:Concept>
+  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                 rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322976">
+      <skos:prefLabel xml:lang="en">Western</skos:prefLabel>
+      <skos:narrower>
+         <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322991">
+            <skos:prefLabel xml:lang="en">Maghreb</skos:prefLabel>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322994">
+                  <skos:prefLabel xml:lang="en">Morocco</skos:prefLabel>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322991"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323779">
+                  <skos:prefLabel xml:lang="en">Tunisia</skos:prefLabel>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323782">
+                        <skos:prefLabel xml:lang="en">Southern Tunisia</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323779"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:narrower>
+                     <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324509">
+                        <skos:prefLabel xml:lang="en">Northern Tunisia</skos:prefLabel>
+                        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323779"/>
+                     </skos:Concept>
+                  </skos:narrower>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322991"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322976"/>
+         </skos:Concept>
+      </skos:narrower>
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+  </skos:Concept>
+  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                 rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323029">
+      <skos:prefLabel xml:lang="en">Dialect group: Maghreb, Tunisia</skos:prefLabel>
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+  </skos:Concept>
+  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                 rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323493">
+      <skos:prefLabel xml:lang="en">Eastern</skos:prefLabel>
+      <skos:narrower>
+         <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323508">
+            <skos:prefLabel xml:lang="en">Syro-Palestinian</skos:prefLabel>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323511">
+                  <skos:prefLabel xml:lang="en">Central Syrian</skos:prefLabel>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323508"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323493"/>
+         </skos:Concept>
+      </skos:narrower>
+      <skos:narrower>
+         <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324596">
+            <skos:prefLabel xml:lang="en">Egyptian</skos:prefLabel>
+            <skos:narrower>
+               <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324599">
+                  <skos:prefLabel xml:lang="en">Central Delta</skos:prefLabel>
+                  <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324596"/>
+               </skos:Concept>
+            </skos:narrower>
+            <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323493"/>
+         </skos:Concept>
+      </skos:narrower>
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+  </skos:Concept>
+</rdf:RDF>
