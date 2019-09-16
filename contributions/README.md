@@ -14,3 +14,26 @@ In case these transformation scenarios do not show up, click on the gear wheel s
 After the transformation, the resulting TEI document is automatically opened in Oxygen and stored next to the original Word document. You can now review and edit the document by hand.
 
 After having finished editing, copy the XML file to the respective subdirectory (e.g. a feature list document goes into the `vicav_lingfeatures` directory), add it to the git repository and push it to the server.
+
+# Post processing Ling-features
+
+## Tokenize with w tags
+1. start vi_tok.exe (Delphi)
+2. Open tei-doc
+3. Push button "Show tokenizer"
+4. Push button "Tokenise"
+5. Set parameters in "Tokens" form: 
+    * Token element: w
+    * Char element: pc
+    * Exclude elements: head,cell[@rend="tdCentre"],cell[@rend="tdCom"]cell[@rend="tdLast"],cell[@rend="tdLeft"],cell[@rend="tdID"],item,note,div[@type="positioning"],div[@type="dvTranslations"],title,idno,availability,country,settlement,bibl,publicationStmt,sourceDesc,author
+    *     * With IDs: true
+    * token on sep line: true
+    * Add annotations: false
+    * Whitespace as seg: true
+    * Add @ana: true
+5. Push button "Add Tags" in "Tokens" form
+6. Save (Ctrl + S) with extension _toks.xml
+
+## Annotate relevant w tags 
+7. Start ling_annot.exe (Lazarus)
+8. 

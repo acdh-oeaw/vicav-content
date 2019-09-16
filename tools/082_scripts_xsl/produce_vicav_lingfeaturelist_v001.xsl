@@ -64,7 +64,7 @@
                     <xsl:attribute name="rend">tdID</xsl:attribute>
                 </xsl:when>
                 <xsl:when test="count(preceding-sibling::tei:cell) = 5">
-                    <xsl:attribute name="rend">tdRight</xsl:attribute>
+                    <xsl:attribute name="rend">tdLast</xsl:attribute>
                 </xsl:when>
             </xsl:choose>
             <xsl:apply-templates/>
