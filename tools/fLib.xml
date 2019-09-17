@@ -120,16 +120,16 @@
             </fvLib>                     
             
             <fLib n="pos">
-               <f xml:id="pos.verb" name="v"><symbol value="verb"/></f>
-               <f xml:id="pos.adj" name="adj"><symbol value="adjective"/></f>
-               <f xml:id="pos.adv" name="adv"><symbol value="adverb"/></f>
-               <f xml:id="pos.num" name="pos"><symbol value="num"/></f>
-               <f xml:id="pos.ord" name="pos"><symbol value="ord"/></f>
-               <f xml:id="pos.prep" name="prep"><symbol value="preposition"/></f>
-               <f xml:id="pos.pron" name="pron"><symbol value="pronoun"/></f>
-               <f xml:id="pos.np" name="np"><symbol value="pluralNoun"/></f>
-               <f xml:id="pos.n" name="n"><symbol value="noun"/></f>
-               <f xml:id="pos.pp" name="pp"><symbol value="pastParticiple"/></f>
+               <f xml:id="pos.verb" name="verb"><symbol value="verb"/></f>
+               <f xml:id="pos.adj" name="adjective"><symbol value="adjective"/></f>
+               <f xml:id="pos.adv" name="adverb"><symbol value="adverb"/></f>
+               <f xml:id="pos.num" name="cardinalNumber"><symbol value="cardinalNumber"/></f>
+               <f xml:id="pos.ord" name="ordinalNumber"><symbol value="ordinalNumber"/></f>
+               <f xml:id="pos.prep" name="preposition"><symbol value="preposition"/></f>
+               <f xml:id="pos.pron" name="pronoun"><symbol value="pronoun"/></f>
+               <f xml:id="pos.np" name="pluralNoun"><symbol value="pluralNoun"/></f>
+               <f xml:id="pos.n" name="noun"><symbol value="noun"/></f>
+               <f xml:id="pos.pp" name="pastParticiple"><symbol value="pastParticiple"/></f>
                <f xml:id="pos.vn" name="vn"><symbol value="verbalNoun"/></f>
             </fLib>
             
@@ -173,9 +173,9 @@
             </fLib>
             
             <fLib n="person">   
-               <f xml:id="pers.1" name="person"><symbol value="1st"/></f>
-               <f xml:id="pers.2" name="person"><symbol value="2nd"/></f>
-               <f xml:id="pers.3" name="person"><symbol value="3rd"/></f>
+               <f xml:id="pers.1" name="firstPerson"><symbol value="1st"/></f>
+               <f xml:id="pers.2" name="secondPerson"><symbol value="2nd"/></f>
+               <f xml:id="pers.3" name="thirdPerson"><symbol value="3rd"/></f>
            </fLib>
             
             <fLib n="subc">
