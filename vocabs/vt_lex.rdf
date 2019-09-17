@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <skos:ConceptScheme rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex">
+      <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T14:10:54.518574+00:00</dct:created>
+      <rdfs:label xml:lang="en">VICAV semantic inventory</rdfs:label>
+      <dc:title xml:lang="en">VICAV semantic inventory</dc:title>
+      <dc:creator>Charly Mörth</dc:creator>
+      <dc:creator>Stephan Procházka</dc:creator>
+      <dc:publisher>Austrian Centre for Digital Humanities</dc:publisher>
+      <dc:description xml:lang="en">This SKOS vocabulary provides a list of semantic items used in various VICAV resources.</dc:description>      
+      <dc:language>en</dc:language>
+   </skos:ConceptScheme>
+   
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#a_little">
+         <skos:prefLabel xml:lang="en">a little</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#ability">
+         <skos:prefLabel xml:lang="en">ability</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#being_unable">
+         <skos:prefLabel xml:lang="en">being unable</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#black">
+         <skos:prefLabel xml:lang="en">black</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#car">
+         <skos:prefLabel xml:lang="en">car</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#children">
+         <skos:prefLabel xml:lang="en">children</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#coffee">
+         <skos:prefLabel xml:lang="en">coffee</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#eight">
+         <skos:prefLabel xml:lang="en">eight</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#eighteen">
+         <skos:prefLabel xml:lang="en">eighteen</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#eleven">
+         <skos:prefLabel xml:lang="en">eleven</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#friend">
+         <skos:prefLabel xml:lang="en">friend</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#good">
+         <skos:prefLabel xml:lang="en">good</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#grey">
+         <skos:prefLabel xml:lang="en">grey</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#here">
+         <skos:prefLabel xml:lang="en">here</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#house">
+         <skos:prefLabel xml:lang="en">house</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#how">
+         <skos:prefLabel xml:lang="en">how</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#how_many">
+         <skos:prefLabel xml:lang="en">how many</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#how_much">
+         <skos:prefLabel xml:lang="en">how much</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#husband">
+         <skos:prefLabel xml:lang="en">husband</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#in">
+         <skos:prefLabel xml:lang="en">in</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#last_year">
+         <skos:prefLabel xml:lang="en">last year</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#lemon">
+         <skos:prefLabel xml:lang="en">lemon</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#letter">
+         <skos:prefLabel xml:lang="en">letter</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#man">
+         <skos:prefLabel xml:lang="en">man</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#mobile">
+         <skos:prefLabel xml:lang="en">mobile</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#money">
+         <skos:prefLabel xml:lang="en">money</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#much">
+         <skos:prefLabel xml:lang="en">much</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#now">
+         <skos:prefLabel xml:lang="en">now</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#orange">
+         <skos:prefLabel xml:lang="en">orange</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#pink">
+         <skos:prefLabel xml:lang="en">pink</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#please">
+         <skos:prefLabel xml:lang="en">please</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#shirt">
+         <skos:prefLabel xml:lang="en">shirt</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#since_for">
+         <skos:prefLabel xml:lang="en">since for</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#tea">
+         <skos:prefLabel xml:lang="en">tea</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#three">
+         <skos:prefLabel xml:lang="en">three</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_bring">
+         <skos:prefLabel xml:lang="en">to bring</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_close">
+         <skos:prefLabel xml:lang="en">to close</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_do">
+         <skos:prefLabel xml:lang="en">to do</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_give">
+         <skos:prefLabel xml:lang="en">to give</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_have">
+         <skos:prefLabel xml:lang="en">to have</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_open">
+         <skos:prefLabel xml:lang="en">to open</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_rain">
+         <skos:prefLabel xml:lang="en">to rain</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_see">
+         <skos:prefLabel xml:lang="en">to see</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_speak">
+         <skos:prefLabel xml:lang="en">to speak</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_stay">
+         <skos:prefLabel xml:lang="en">to stay</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_take">
+         <skos:prefLabel xml:lang="en">to take</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_want">
+         <skos:prefLabel xml:lang="en">to want</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#today">
+         <skos:prefLabel xml:lang="en">today</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#tomorrow">
+         <skos:prefLabel xml:lang="en">tomorrow</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#TV">
+         <skos:prefLabel xml:lang="en">TV</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#twelve">
+         <skos:prefLabel xml:lang="en">twelve</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#what">
+         <skos:prefLabel xml:lang="en">what</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#when">
+         <skos:prefLabel xml:lang="en">when</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#where">
+         <skos:prefLabel xml:lang="en">where</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#where_from">
+         <skos:prefLabel xml:lang="en">where from</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#where_to">
+         <skos:prefLabel xml:lang="en">where to</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#which">
+         <skos:prefLabel xml:lang="en">which</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#white">
+         <skos:prefLabel xml:lang="en">white</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#who">
+         <skos:prefLabel xml:lang="en">who</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#whose">
+         <skos:prefLabel xml:lang="en">whose</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#why">
+         <skos:prefLabel xml:lang="en">why</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#window">
+         <skos:prefLabel xml:lang="en">window</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#women">
+         <skos:prefLabel xml:lang="en">women</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#yesterday">
+         <skos:prefLabel xml:lang="en">yesterday</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#two">
+         <skos:prefLabel xml:lang="en">two</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#bread">
+         <skos:prefLabel xml:lang="en">bread</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#existential">
+         <skos:prefLabel xml:lang="en">existential</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#gen_explicative">
+         <skos:prefLabel xml:lang="en">gen explicative</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
+   
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#possibility">
+         <skos:prefLabel xml:lang="en">possibility</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+</rdf:RDF>
