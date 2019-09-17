@@ -1,0 +1,2170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--AUTOMATICALLY GENERATED FILE – do not edit! -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICAV place list</title>
+            <respStmt>
+               <resp>Technical editor</resp>
+               <name>Karlheinz Moerth</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>ACDH-OeAW</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date>2018</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY NC SA 3.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>This file was initially aggregated from tags in the <ref target="https://www.zotero.org/groups/2165756/vicav">VICAV bibliography</ref>, enhanced by <name>vigolo</name> and converted to TEI-XML by <name>tools/082_scripts_xsl/vigolo2TEI.xsl</name>2019-09-17T15:08:39.798+02:00</creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace><!--???? geo: United Arab Emirates--><!--???? geo:Tihama--><!--???? geo:Sicily--><!--???? geo:Tihāmah--><!--???? geo: 'Asir--><!--???? geo:Aruad--><!--???? geo:Uganda--><!--???? geo:Abu Dhabi--><!--???? geo:Tripolitania--><!--???? geo:Errachidia--><!--???? geo:Fessan--><!--???? geo:Hadramawt--><!--???? geo:Dascht-e-Azadegan--><!--???? reg:Cyprus-->
+            <place type="geo" xml:id="abéché">
+               <placeName xml:lang="en">Abéché</placeName>
+               <location>
+                  <geo>13°49'45"N 20°49'57"E</geo>
+               </location>
+               <idno type="geonames">245785</idno>
+            </place>
+            <place type="geo" xml:id="abushusha">
+               <placeName xml:lang="en">Abu Shusha</placeName>
+               <location>
+                  <geo>31°51'25"N 34°54'56"E</geo>
+               </location>
+               <idno type="geonames">295767</idno>
+            </place>
+            <place type="geo" xml:id="abusnan">
+               <placeName xml:lang="en">Abu Snan</placeName>
+               <location>
+                  <geo>32°57'32"N 35°10'17"E</geo>
+               </location>
+               <idno type="geonames">295765</idno>
+            </place>
+            <place type="geo" xml:id="adana">
+               <placeName xml:lang="en">Adana</placeName>
+               <location>
+                  <geo>37°0'6"N 35°19'44"E</geo>
+               </location>
+               <idno type="geonames">325363</idno>
+            </place>
+            <place type="geo" xml:id="aden">
+               <placeName xml:lang="en">Aden</placeName>
+               <location>
+                  <geo>12°46'46"N 45°2'12"E</geo>
+               </location>
+               <idno type="geonames">415189</idno>
+            </place>
+            <place type="geo" xml:id="afak">
+               <placeName xml:lang="en">Afak</placeName>
+               <location>
+                  <geo>32°3'51"N 45°14'51"E</geo>
+               </location>
+               <idno type="geonames">99738</idno>
+            </place>
+            <place type="geo" xml:id="agadir">
+               <placeName xml:lang="en">Agadir</placeName>
+               <location>
+                  <geo>30°25'13"N 9°35'9"W</geo>
+               </location>
+               <idno type="geonames">2561668</idno>
+            </place>
+            <place type="geo" xml:id="ahwaz">
+               <placeName xml:lang="en">Ahwaz</placeName>
+               <location>
+                  <geo>31°19'8"N 48°41'3"E</geo>
+               </location>
+               <idno type="geonames">144448</idno>
+            </place>
+            <place type="geo" xml:id="akko">
+               <placeName xml:lang="en">Akko</placeName>
+               <location>
+                  <geo>32°55'41"N 35°4'35"E</geo>
+               </location>
+               <idno type="geonames">295721</idno>
+            </place>
+            <place type="geo" xml:id="albaraddun">
+               <placeName xml:lang="en">Al Baraddun</placeName>
+               <location>
+                  <geo>14°43'13"N 44°35'15"E</geo>
+               </location>
+               <idno type="geonames">30652</idno>
+            </place>
+            <place type="geo" xml:id="alhasa">
+               <placeName xml:lang="en">Al Hasa</placeName>
+               <location>
+                  <geo>26°34'60"N 48°10'0"E</geo>
+               </location>
+               <idno type="geonames">110110</idno>
+            </place>
+            <place type="geo" xml:id="alhoceima">
+               <placeName xml:lang="en">Al Hoceima</placeName>
+               <location>
+                  <geo>35°15'6"N 3°56'3"W</geo>
+               </location>
+               <idno type="geonames">2558545</idno>
+            </place>
+            <place type="geo" xml:id="albalqa">
+               <placeName xml:lang="en">al-Balqa</placeName>
+               <location>
+                  <geo>32°0'0"N 35°40'0"E</geo>
+               </location>
+               <idno type="geonames">250751</idno>
+            </place>
+            <place type="geo" xml:id="aleppo">
+               <placeName xml:lang="en">Aleppo</placeName>
+               <location>
+                  <geo>36°12'4"N 37°9'40"E</geo>
+               </location>
+               <idno type="geonames">170063</idno>
+            </place>
+            <place type="geo" xml:id="alexandria">
+               <placeName xml:lang="en">Alexandria</placeName>
+               <location>
+                  <geo>31°12'6"N 29°54'57"E</geo>
+               </location>
+               <idno type="geonames">361058</idno>
+            </place>
+            <place type="geo" xml:id="algier">
+               <placeName xml:lang="en">Algier</placeName>
+               <location>
+                  <geo>36°43'56"N 3°5'15"E</geo>
+               </location>
+               <idno type="geonames">2507480</idno>
+            </place>
+            <place type="geo" xml:id="alkarak">
+               <placeName xml:lang="en">Al-Karak</placeName>
+               <location>
+                  <geo>31°10'0"N 35°45'0"E</geo>
+               </location>
+               <idno type="geonames">250625</idno>
+            </place>
+            <place type="geo" xml:id="alkhaburah">
+               <placeName xml:lang="en">Al-Khaburah</placeName>
+               <location>
+                  <geo>23°58'17" 57°5'35"</geo>
+               </location>
+               <idno type="geonames">289199</idno>
+            </place>
+            <place type="geo" xml:id="alkhafsah">
+               <placeName xml:lang="en">Al-Khafsah</placeName>
+               <location>
+                  <geo>36°13'52"N 38°1'18"E</geo>
+               </location>
+               <idno type="geonames">168422</idno>
+            </place>
+            <place type="geo" xml:id="alqaryatayn">
+               <placeName xml:lang="en">Al-Qaryatayn</placeName>
+               <location>
+                  <geo>34°13'46"N 37°14'26"E</geo>
+               </location>
+               <idno type="geonames">173361</idno>
+            </place>
+            <place type="geo" xml:id="alqatif">
+               <placeName xml:lang="en">Al-Qatif</placeName>
+               <location>
+                  <geo>26°33'56"N 50°0'32"E</geo>
+               </location>
+               <idno type="geonames">108927</idno>
+            </place>
+            <place type="geo" xml:id="alristaq">
+               <placeName xml:lang="en">Al-Ristaq</placeName>
+               <location>
+                  <geo>23°23'43"N 57°25'38"E</geo>
+               </location>
+               <idno type="geonames">289012</idno>
+            </place>
+            <place type="geo" xml:id="alsalt">
+               <placeName xml:lang="en">Al-Salt</placeName>
+               <location>
+                  <geo>32°2'21"N 35°43'38"E</geo>
+               </location>
+               <idno type="geonames">250258</idno>
+            </place>
+            <place type="geo" xml:id="alshirqat">
+               <placeName xml:lang="en">Al-Shirqat</placeName>
+               <location>
+                  <geo>35°31'45"N 43°13'12"E</geo>
+               </location>
+               <idno type="geonames">6804454</idno>
+            </place>
+            <place type="geo" xml:id="amman">
+               <placeName xml:lang="en">Amman</placeName>
+               <location>
+                  <geo>31°57'19"N 35°56'42"E</geo>
+               </location>
+               <idno type="geonames">250441</idno>
+            </place>
+            <place type="geo" xml:id="amuda">
+               <placeName xml:lang="en">Amuda</placeName>
+               <location>
+                  <geo>37°6'15"N 40°55'48"E</geo>
+               </location>
+               <idno type="geonames">173230</idno>
+            </place>
+            <place type="geo" xml:id="anatoliaregion">
+               <placeName xml:lang="en">Anatolia Region</placeName>
+               <location>
+                  <geo>39°0'0"N 35°0'0"E</geo>
+               </location>
+               <idno type="geonames">323835</idno>
+            </place>
+            <place type="geo" xml:id="anjra">
+               <placeName xml:lang="en">Anjra</placeName>
+               <location>
+                  <geo>35°47'24"N 5°31'5"W</geo>
+               </location>
+               <idno type="geonames">2557757</idno>
+            </place>
+            <place type="geo" xml:id="antakya">
+               <placeName xml:lang="en">Antakya</placeName>
+               <location>
+                  <geo>36°12'24"N 36°9'26"E</geo>
+               </location>
+               <idno type="geonames">323779</idno>
+            </place>
+            <place type="geo" xml:id="antilebanonmountains">
+               <placeName xml:lang="en">Anti-Lebanon Mountains</placeName>
+               <location>
+                  <geo>34°0'0"N 36°30'0"E</geo>
+               </location>
+               <idno type="geonames">173153</idno>
+            </place>
+            <place type="geo" xml:id="aqrah">
+               <placeName xml:lang="en">Aqrah</placeName>
+               <location>
+                  <geo>36°45'37"N 43°53'39"E</geo>
+               </location>
+               <idno type="geonames">98822</idno>
+            </place>
+            <place type="geo" xml:id="arwad">
+               <placeName xml:lang="en">Arwad</placeName>
+               <location>
+                  <geo>34°51'23"N 35°51'32"E</geo>
+               </location>
+               <idno type="geonames">172879</idno>
+            </place>
+            <place type="geo" xml:id="ashdod">
+               <placeName xml:lang="en">Ashdod</placeName>
+               <location>
+                  <geo>31°47'32"N 34°38'59"E</geo>
+               </location>
+               <idno type="geonames">295629</idno>
+            </place>
+            <place type="reg" xml:id="atlasmountains">
+               <placeName xml:lang="en">Atlas Mountains</placeName>
+               <location>
+                  <geo>32°0'0"N 2°0'2"W</geo>
+               </location>
+               <idno type="geonames">2556769</idno>
+            </place>
+            <place type="geo" xml:id="avdat">
+               <placeName xml:lang="en">Avdat</placeName>
+               <location>
+                  <geo>30°49'36"N 34°45'50"E</geo>
+               </location>
+               <idno type="geonames">295611</idno>
+            </place>
+            <place type="geo" xml:id="baghdad">
+               <placeName xml:lang="en">Baghdad</placeName>
+               <location>
+                  <geo>33°20'26"N 44°24'3"E</geo>
+               </location>
+               <idno type="geonames">98182</idno>
+            </place>
+            <place type="geo" xml:id="bahla">
+               <placeName xml:lang="en">Bahla</placeName>
+               <location>
+                  <geo>22°58'44"N 57°18'17"E</geo>
+               </location>
+               <idno type="geonames">288899</idno>
+            </place>
+            <place type="geo" xml:id="bahzani">
+               <placeName xml:lang="en">Bahzani</placeName>
+               <location>
+                  <geo>36°27'38"N 43°20'21"E</geo>
+               </location>
+               <idno type="geonames">98144</idno>
+            </place>
+            <place type="geo" xml:id="balat">
+               <placeName xml:lang="en">Balat</placeName>
+               <location>
+                  <geo>25°33'43"N 29°15'53"E</geo>
+               </location>
+               <idno type="geonames">359316</idno>
+            </place>
+            <place type="reg" xml:id="balkhregion">
+               <placeName xml:lang="en">Balkh region</placeName>
+               <location>
+                  <geo>36°45'23"N 66°53'50"E</geo>
+               </location>
+               <idno type="geonames">1147290</idno>
+            </place>
+            <place type="geo" xml:id="baskinta">
+               <placeName xml:lang="en">Baskinta</placeName>
+               <location>
+                  <geo>33°56'39"N 35°47'15"E</geo>
+               </location>
+               <idno type="geonames">276463</idno>
+            </place>
+            <place type="geo" xml:id="basra">
+               <placeName xml:lang="en">Basra</placeName>
+               <location>
+                  <geo>30°30'31"N 47°46'49"E</geo>
+               </location>
+               <idno type="geonames">99532</idno>
+            </place>
+            <place type="geo" xml:id="baytlif">
+               <placeName xml:lang="en">Bayt Lif</placeName>
+               <location>
+                  <geo>33°8'3"N 35°19'58"E</geo>
+               </location>
+               <idno type="geonames">276709</idno>
+            </place>
+            <place type="geo" xml:id="beirut">
+               <placeName xml:lang="en">Beirut</placeName>
+               <location>
+                  <geo>33°53'36"N 35°30'6"E</geo>
+               </location>
+               <idno type="geonames">276781</idno>
+            </place>
+            <place type="geo" xml:id="benghazi">
+               <placeName xml:lang="en">Benghazi</placeName>
+               <location>
+                  <geo>32°6'53"N 20°4'7"E</geo>
+               </location>
+               <idno type="geonames">88319</idno>
+            </place>
+            <place type="geo" xml:id="benimellal">
+               <placeName xml:lang="en">Beni Mellal</placeName>
+               <location>
+                  <geo>32°20'14"N 6°20'6"W</geo>
+               </location>
+               <idno type="geonames">2555745</idno>
+            </place>
+            <place type="geo" xml:id="bethlehem">
+               <placeName xml:lang="en">Bethlehem</placeName>
+               <location>
+                  <geo>31°42'18"N 35°12'14"E</geo>
+               </location>
+               <idno type="geonames">284315</idno>
+            </place>
+            <place type="geo" xml:id="biladghamid">
+               <placeName xml:lang="en">Bilad Ghamid</placeName>
+               <location>
+                  <geo>19°58'31"N 41°33'25"E</geo>
+               </location>
+               <idno type="geonames">107439</idno>
+            </place>
+            <place type="geo" xml:id="birzeit">
+               <placeName xml:lang="en">Birzeit</placeName>
+               <location>
+                  <geo>31°58'11"N 35°11'39"E</geo>
+               </location>
+               <idno type="geonames">284237</idno>
+            </place>
+            <place type="geo" xml:id="bousaada">
+               <placeName xml:lang="en">Bou Saada</placeName>
+               <location>
+                  <geo>35°12'31"N 4°10'26"E</geo>
+               </location>
+               <idno type="geonames">2502385</idno>
+            </place>
+            <place type="geo" xml:id="bukhara">
+               <placeName xml:lang="en">Bukhara</placeName>
+               <location>
+                  <geo>39°46'29"N 64°25'43"E</geo>
+               </location>
+               <idno type="geonames">1217662</idno>
+            </place>
+            <place type="geo" xml:id="cairo">
+               <placeName xml:lang="en">Cairo</placeName>
+               <location>
+                  <geo>30°3'45"N 31°14'59"E</geo>
+               </location>
+               <idno type="geonames">360630</idno>
+            </place>
+            <place type="geo" xml:id="casablanca">
+               <placeName xml:lang="en">Casablanca</placeName>
+               <location>
+                  <geo>33°35'18"N 7°36'7"W</geo>
+               </location>
+               <idno type="geonames">2553604</idno>
+            </place>
+            <place type="geo" xml:id="ceuta">
+               <placeName xml:lang="en">Ceuta</placeName>
+               <location>
+                  <geo>1°9'0"N 41°55'0"E</geo>
+               </location>
+               <idno type="geonames">62987</idno>
+            </place>
+            <place type="geo" xml:id="chanay">
+               <placeName xml:lang="en">Chanay</placeName>
+               <location>
+                  <geo>33°47'16"N 35°39'49"E</geo>
+               </location>
+               <idno type="geonames">267672</idno>
+            </place>
+            <place type="geo" xml:id="chefchaouen">
+               <placeName xml:lang="en">Chefchaouen</placeName>
+               <location>
+                  <geo>35°10'8"N 5°15'5"W</geo>
+               </location>
+               <idno type="geonames">2553455</idno>
+            </place>
+            <place type="geo" xml:id="cherchell">
+               <placeName xml:lang="en">Cherchell</placeName>
+               <location>
+                  <geo>36°36'18"N 2°11'27"E</geo>
+               </location>
+               <idno type="geonames">2501440</idno>
+            </place>
+            <place type="geo" xml:id="chorramschahr">
+               <placeName xml:lang="en">Chorramschahr</placeName>
+               <location>
+                  <geo>30°26'27"N 48°11'3"E</geo>
+               </location>
+               <idno type="geonames">127319</idno>
+            </place>
+            <place type="geo" xml:id="comoroislands">
+               <placeName xml:lang="en">Comoro Islands</placeName>
+               <location>
+                  <geo>12°13'12"S 44°26'44"E</geo>
+               </location>
+               <idno type="geonames">921929</idno>
+            </place>
+            <place type="geo" xml:id="constantine">
+               <placeName xml:lang="en">Constantine</placeName>
+               <location>
+                  <geo>36°21'54"N 6°36'53"E</geo>
+               </location>
+               <idno type="geonames">2501152</idno>
+            </place>
+            <place type="geo" xml:id="çukurova">
+               <placeName xml:lang="en">Çukurova</placeName>
+               <location>
+                  <geo>36°49'30"N 34°44'26"E</geo>
+               </location>
+               <idno type="geonames">7645885</idno>
+            </place>
+            <place type="geo" xml:id="cyprus">
+               <placeName xml:lang="en">Cyprus</placeName>
+               <location>
+                  <geo>35°0'0"N 33°0'0"E</geo>
+               </location>
+               <idno type="geonames">146669</idno>
+            </place>
+            <place type="geo" xml:id="cyprus">
+               <placeName xml:lang="en">Cyprus</placeName>
+               <location>
+                  <geo>35°0'0"N 33°0'0"E</geo>
+               </location>
+               <idno type="geonames">146669</idno>
+            </place>
+            <place type="geo" xml:id="dagestan">
+               <placeName xml:lang="en">Dagestan</placeName>
+               <location>
+                  <geo>42°0'0"N 47°0'0"E</geo>
+               </location>
+               <idno type="geonames">567292</idno>
+            </place>
+            <place type="geo" xml:id="dakhla">
+               <placeName xml:lang="en">Dakhla</placeName>
+               <location>
+                  <geo>25°30'0"N 29°10'0"E</geo>
+               </location>
+               <idno type="geonames">358471</idno>
+            </place>
+            <place type="geo" xml:id="damascus">
+               <placeName xml:lang="en">Damascus</placeName>
+               <location>
+                  <geo>33°30'37"N 36°17'29"E</geo>
+               </location>
+               <idno type="geonames">170654</idno>
+            </place>
+            <place type="geo" xml:id="dashteazadegan">
+               <placeName xml:lang="en">Dasht-e Azadegan</placeName>
+               <location>
+                  <geo>31°42'22"N 48°11'4"E</geo>
+               </location>
+               <idno type="geonames">403561</idno>
+            </place>
+            <place type="geo" xml:id="debdou">
+               <placeName xml:lang="en">Debdou</placeName>
+               <location>
+                  <geo>34°3'26"N 3°2'3"W</geo>
+               </location>
+               <idno type="geonames">11732759</idno>
+            </place>
+            <place type="geo" xml:id="deirezzor">
+               <placeName xml:lang="en">Deir ez-Zor</placeName>
+               <location>
+                  <geo>35°10'0"N 40°16'60"E</geo>
+               </location>
+               <idno type="geonames">170792</idno>
+            </place>
+            <place type="geo" xml:id="dellys">
+               <placeName xml:lang="en">Dellys</placeName>
+               <location>
+                  <geo>36°55'2"N 3°54'47"E</geo>
+               </location>
+               <idno type="geonames">2500583</idno>
+            </place>
+            <place type="geo" xml:id="dhahran">
+               <placeName xml:lang="en">Dhahran</placeName>
+               <location>
+                  <geo>26°17'19"N 50°6'50"E</geo>
+               </location>
+               <idno type="geonames">107797</idno>
+            </place>
+            <place type="geo" xml:id="dhale">
+               <placeName xml:lang="en">Dhale</placeName>
+               <location>
+                  <geo>13°42'51"N 44°42'52"E</geo>
+               </location>
+               <idno type="geonames">6940875</idno>
+            </place>
+            <place type="geo" xml:id="dhofar">
+               <placeName xml:lang="en">Dhofar</placeName>
+               <location>
+                  <geo>17°2'33"N 54°9'55"E</geo>
+               </location>
+               <idno type="geonames">285879</idno>
+            </place>
+            <place type="geo" xml:id="djerba">
+               <placeName xml:lang="en">Djerba</placeName>
+               <location>
+                  <geo>33°48'0"N 10°54'0"E</geo>
+               </location>
+               <idno type="geonames">2470181</idno>
+            </place>
+            <place type="geo" xml:id="doha">
+               <placeName xml:lang="en">Doha</placeName>
+               <location>
+                  <geo>25°17'8"N 51°31'51"E</geo>
+               </location>
+               <idno type="geonames">290030</idno>
+            </place>
+            <place type="geo" xml:id="douz">
+               <placeName xml:lang="en">Douz</placeName>
+               <location>
+                  <geo>33°27'59"N 9°1'13"E</geo>
+               </location>
+               <idno type="geonames">2471287</idno>
+            </place>
+            <place type="geo" xml:id="draariver">
+               <placeName xml:lang="en">Draa River</placeName>
+               <location>
+                  <geo>28°40'54"N 11°7'11"W</geo>
+               </location>
+               <idno type="geonames">2551028</idno>
+            </place>
+            <place type="geo" xml:id="dubai">
+               <placeName xml:lang="en">Dubai</placeName>
+               <location>
+                  <geo>25°3'57"N 55°10'17"E</geo>
+               </location>
+               <idno type="geonames">292223</idno>
+            </place>
+            <place type="geo" xml:id="eastafrica">
+               <placeName xml:lang="en">East Africa</placeName>
+               <location>
+                  <geo>9°0'44"N 27°34'15"E</geo>
+               </location>
+               <idno type="geonames">363807</idno>
+            </place>
+            <place type="geo" xml:id="easternanatoliaregion">
+               <placeName xml:lang="en">Eastern Anatolia Region</placeName>
+               <location>
+                  <geo>39°25'36"N 41°14'5"E</geo>
+               </location>
+               <idno type="geonames">10922505</idno>
+            </place>
+            <place type="geo" xml:id="edirne">
+               <placeName xml:lang="en">Edirne</placeName>
+               <location>
+                  <geo>41°40'38"N 26°33'21"E</geo>
+               </location>
+               <idno type="geonames">747712</idno>
+            </place>
+            <place type="geo" xml:id="elbalyana">
+               <placeName xml:lang="en">El Balyana</placeName>
+               <location>
+                  <geo>26°14'8"N 32°0'12"E</geo>
+               </location>
+               <idno type="geonames">361435</idno>
+            </place>
+            <place type="geo" xml:id="elhaouz">
+               <placeName xml:lang="en">El Haouz</placeName>
+               <location>
+                  <geo>31°20'27"N 7°54'7"W</geo>
+               </location>
+               <idno type="geonames">6547292</idno>
+            </place>
+            <place type="geo" xml:id="eljadida">
+               <placeName xml:lang="en">El Jadida</placeName>
+               <location>
+                  <geo>33°15'25"N 8°30'8"W</geo>
+               </location>
+               <idno type="geonames">2550078</idno>
+            </place>
+            <place type="geo" xml:id="elhamma">
+               <placeName xml:lang="en">El-Hamma</placeName>
+               <location>
+                  <geo>33°53'33"N 9°35'39"E</geo>
+               </location>
+               <idno type="geonames">2470606</idno>
+            </place>
+            <place type="geo" xml:id="errachidia">
+               <placeName xml:lang="en">Er Rachidia</placeName>
+               <location>
+                  <geo>31°55'53"N 4°25'4"W</geo>
+               </location>
+               <idno type="geonames">7280528</idno>
+            </place>
+            <place type="geo" xml:id="errachidia">
+               <placeName xml:lang="en">Er Rachidia</placeName>
+               <location>
+                  <geo>31°55'53"N 4°25'4"W</geo>
+               </location>
+               <idno type="geonames">7280528</idno>
+            </place>
+            <place type="geo" xml:id="erbil">
+               <placeName xml:lang="en">Erbil</placeName>
+               <location>
+                  <geo>36°10'60"N 44°0'43"E</geo>
+               </location>
+               <idno type="geonames">95446</idno>
+            </place>
+            <place type="geo" xml:id="eritrea">
+               <placeName xml:lang="en">Eritrea</placeName>
+               <location>
+                  <geo>15°0'0"N 39°0'0"E</geo>
+               </location>
+               <idno type="geonames">338010</idno>
+            </place>
+            <place type="geo" xml:id="essaouira">
+               <placeName xml:lang="en">Essaouira</placeName>
+               <location>
+                  <geo>31°30'45"N 9°46'9"W</geo>
+               </location>
+               <idno type="geonames">2549263</idno>
+            </place>
+            <place type="geo" xml:id="faiyum">
+               <placeName xml:lang="en">Faiyum</placeName>
+               <location>
+                  <geo>29°18'0"N 30°30'0"E</geo>
+               </location>
+               <idno type="geonames">361323</idno>
+            </place>
+            <place type="geo" xml:id="fez">
+               <placeName xml:lang="en">Fez</placeName>
+               <location>
+                  <geo>34°1'59"N 5°0'5"W</geo>
+               </location>
+               <idno type="geonames">2548885</idno>
+            </place>
+            <place type="geo" xml:id="fezzan">
+               <placeName xml:lang="en">Fezzan</placeName>
+               <location>
+                  <geo>26°0'0"N 14°0'0"E</geo>
+               </location>
+               <idno type="geonames">2217514</idno>
+            </place>
+            <place type="geo" xml:id="fezzan">
+               <placeName xml:lang="en">Fezzan</placeName>
+               <location>
+                  <geo>26°0'0"N 14°0'0"E</geo>
+               </location>
+               <idno type="geonames">2217514</idno>
+            </place>
+            <place type="geo" xml:id="gabès">
+               <placeName xml:lang="en">Gabès</placeName>
+               <location>
+                  <geo>33°52'53"N 10°5'54"E</geo>
+               </location>
+               <idno type="geonames">2468369</idno>
+            </place>
+            <place type="geo" xml:id="galilee">
+               <placeName xml:lang="en">Galilee</placeName>
+               <location>
+                  <geo>32°54'0"N 35°19'60"E</geo>
+               </location>
+               <idno type="geonames">294932</idno>
+            </place>
+            <place type="geo" xml:id="gaza">
+               <placeName xml:lang="en">Gaza</placeName>
+               <location>
+                  <geo>31°30'6"N 34°28'0"E</geo>
+               </location>
+               <idno type="geonames">281133</idno>
+            </place>
+            <place type="geo" xml:id="gebelaulia">
+               <placeName xml:lang="en">Gebel Aulia</placeName>
+               <location>
+                  <geo>15°14'17"N 32°28'8"E</geo>
+               </location>
+               <idno type="geonames">373467</idno>
+            </place>
+            <place type="geo" xml:id="ghazaouet">
+               <placeName xml:lang="en">Ghazaouet</placeName>
+               <location>
+                  <geo>35°5'45"N 1°51'1"W</geo>
+               </location>
+               <idno type="geonames">2496042</idno>
+            </place>
+            <place type="geo" xml:id="golanheights">
+               <placeName xml:lang="en">Golan Heights</placeName>
+               <location>
+                  <geo>32°54'17"N 35°48'26"E</geo>
+               </location>
+               <idno type="geonames">173708</idno>
+            </place>
+            <place type="geo" xml:id="gozo">
+               <placeName xml:lang="en">Gozo</placeName>
+               <location>
+                  <geo>36°2'58"N 14°15'0"E</geo>
+               </location>
+               <idno type="geonames">2563049</idno>
+            </place>
+            <place type="geo" xml:id="granada">
+               <placeName xml:lang="en">Granada</placeName>
+               <location>
+                  <geo>37°11'17"N 3°36'3"W</geo>
+               </location>
+               <idno type="geonames">2517117</idno>
+            </place>
+            <place type="geo" xml:id="gzenaya">
+               <placeName xml:lang="en">Gzenaya</placeName>
+               <location>
+                  <geo>34°38'0"N 3°55'3"W</geo>
+               </location>
+               <idno type="geonames">6546456</idno>
+            </place>
+            <place type="geo" xml:id="habban">
+               <placeName xml:lang="en">Habban</placeName>
+               <location>
+                  <geo>14°6'31"N 44°29'38"E</geo>
+               </location>
+               <idno type="geonames">7340056</idno>
+            </place>
+            <place type="geo" xml:id="hadramaut">
+               <placeName xml:lang="en">Hadramaut</placeName>
+               <location>
+                  <geo>16°0'0"N 49°0'0"E</geo>
+               </location>
+               <idno type="geonames">75411</idno>
+            </place>
+            <place type="geo" xml:id="hadramaut">
+               <placeName xml:lang="en">Hadramaut</placeName>
+               <location>
+                  <geo>16°0'0"N 49°0'0"E</geo>
+               </location>
+               <idno type="geonames">75411</idno>
+            </place>
+            <place type="geo" xml:id="haifa">
+               <placeName xml:lang="en">Haifa</placeName>
+               <location>
+                  <geo>32°49'6"N 34°59'19"E</geo>
+               </location>
+               <idno type="geonames">294801</idno>
+            </place>
+            <place type="geo" xml:id="hama">
+               <placeName xml:lang="en">Hama</placeName>
+               <location>
+                  <geo>35°7'54"N 36°45'28"E</geo>
+               </location>
+               <idno type="geonames">170017</idno>
+            </place>
+            <place type="geo" xml:id="harran">
+               <placeName xml:lang="en">Harran</placeName>
+               <location>
+                  <geo>36°50'35"N 39°13'6"E</geo>
+               </location>
+               <idno type="geonames">439166</idno>
+            </place>
+            <place type="geo" xml:id="hasankeyf">
+               <placeName xml:lang="en">Hasankeyf</placeName>
+               <location>
+                  <geo>37°42'22"N 41°24'17"E</geo>
+               </location>
+               <idno type="geonames">312479</idno>
+            </place>
+            <place type="geo" xml:id="hasköy">
+               <placeName xml:lang="en">Hasköy</placeName>
+               <location>
+                  <geo>40°26'8"N 39°21'32"E</geo>
+               </location>
+               <idno type="geonames">745763</idno>
+            </place>
+            <place type="geo" xml:id="hatay">
+               <placeName xml:lang="en">Hatay</placeName>
+               <location>
+                  <geo>36°30'0"N 36°15'0"E</geo>
+               </location>
+               <idno type="geonames">312394</idno>
+            </place>
+            <place type="geo" xml:id="hebron">
+               <placeName xml:lang="en">Hebron</placeName>
+               <location>
+                  <geo>31°31'46"N 35°5'38"E</geo>
+               </location>
+               <idno type="geonames">285066</idno>
+            </place>
+            <place type="geo" xml:id="hejaz">
+               <placeName xml:lang="en">Hejaz</placeName>
+               <location>
+                  <geo>24°29'52"N 38°30'24"E</geo>
+               </location>
+               <idno type="geonames">109600</idno>
+            </place>
+            <place type="geo" xml:id="hillah">
+               <placeName xml:lang="en">Hillah</placeName>
+               <location>
+                  <geo>32°27'49"N 44°25'11"E</geo>
+               </location>
+               <idno type="geonames">99347</idno>
+            </place>
+            <place type="geo" xml:id="hit">
+               <placeName xml:lang="en">Hit</placeName>
+               <location>
+                  <geo>33°44'5"N 42°40'56"E</geo>
+               </location>
+               <idno type="geonames">9166579</idno>
+            </place>
+            <place type="geo" xml:id="holon">
+               <placeName xml:lang="en">Holon</placeName>
+               <location>
+                  <geo>32°0'37"N 34°46'45"E</geo>
+               </location>
+               <idno type="geonames">294751</idno>
+            </place>
+            <place type="geo" xml:id="ibb">
+               <placeName xml:lang="en">Ibb</placeName>
+               <location>
+                  <geo>13°58'0"N 44°10'60"E</geo>
+               </location>
+               <idno type="geonames">74477</idno>
+            </place>
+            <place type="geo" xml:id="ibri">
+               <placeName xml:lang="en">Ibri</placeName>
+               <location>
+                  <geo>23°13'33"N 56°30'57"E</geo>
+               </location>
+               <idno type="geonames">287830</idno>
+            </place>
+            <place type="geo" xml:id="i̇dilāzex">
+               <placeName xml:lang="en">İdil (Āzex)</placeName>
+               <location>
+                  <geo>37°20'5"N 41°53'22"E</geo>
+               </location>
+               <idno type="geonames">311704</idno>
+            </place>
+            <place type="geo" xml:id="iksal">
+               <placeName xml:lang="en">Iksal</placeName>
+               <location>
+                  <geo>32°40'54"N 35°19'25"E</geo>
+               </location>
+               <idno type="geonames">294658</idno>
+            </place>
+            <place type="geo" xml:id="isawiya">
+               <placeName xml:lang="en">Isawiya</placeName>
+               <location>
+                  <geo>31°48'11"N 35°17'13"E</geo>
+               </location>
+               <idno type="geonames">283583</idno>
+            </place>
+            <place type="geo" xml:id="iskenderun">
+               <placeName xml:lang="en">Iskenderun</placeName>
+               <location>
+                  <geo>36°35'14"N 36°10'24"E</geo>
+               </location>
+               <idno type="geonames">311111</idno>
+            </place>
+            <place type="geo" xml:id="ismant">
+               <placeName xml:lang="en">Ismant</placeName>
+               <location>
+                  <geo>25°31'48"N 29°3'7"E</geo>
+               </location>
+               <idno type="geonames">355451</idno>
+            </place>
+            <place type="geo" xml:id="jabalfayfa">
+               <placeName xml:lang="en">Jabal Fayfa</placeName>
+               <location>
+                  <geo>17°14'43"N 43°5'27"E</geo>
+               </location>
+               <idno type="geonames">106666</idno>
+            </place>
+            <place type="geo" xml:id="jaffa">
+               <placeName xml:lang="en">Jaffa</placeName>
+               <location>
+                  <geo>32°3'2"N 34°45'8"E</geo>
+               </location>
+               <idno type="geonames">293253</idno>
+            </place>
+            <place type="geo" xml:id="jbala">
+               <placeName xml:lang="en">Jbala</placeName>
+               <location>
+                  <geo>35°18'41"N 5°41'5"W</geo>
+               </location>
+               <idno type="geonames">10952626</idno>
+            </place>
+            <place type="geo" xml:id="jbelrat">
+               <placeName xml:lang="en">Jbel Rat</placeName>
+               <location>
+                  <geo>31°34'29"N 6°43'6"W</geo>
+               </location>
+               <idno type="geonames">2538386</idno>
+            </place>
+            <place type="geo" xml:id="jeddah">
+               <placeName xml:lang="en">Jeddah</placeName>
+               <location>
+                  <geo>21°32'33"N 39°11'53"E</geo>
+               </location>
+               <idno type="geonames">105343</idno>
+            </place>
+            <place type="geo" xml:id="jerusalem">
+               <placeName xml:lang="en">Jerusalem</placeName>
+               <location>
+                  <geo>31°46'9"N 35°12'59"E</geo>
+               </location>
+               <idno type="geonames">281184</idno>
+            </place>
+            <place type="geo" xml:id="jibla">
+               <placeName xml:lang="en">Jibla</placeName>
+               <location>
+                  <geo>13°55'18"N 44°8'48"E</geo>
+               </location>
+               <idno type="geonames">74185</idno>
+            </place>
+            <place type="geo" xml:id="jijel">
+               <placeName xml:lang="en">Jijel</placeName>
+               <location>
+                  <geo>36°49'14"N 5°46'0"E</geo>
+               </location>
+               <idno type="geonames">2492913</idno>
+            </place>
+            <place type="geo" xml:id="jnanate">
+               <placeName xml:lang="en">Jnanate</placeName>
+               <location>
+                  <geo>34°30'58"N 5°2'5"W</geo>
+               </location>
+               <idno type="geonames">11042130</idno>
+            </place>
+            <place type="geo" xml:id="juba">
+               <placeName xml:lang="en">Juba</placeName>
+               <location>
+                  <geo>4°51'6"N 31°34'57"E</geo>
+               </location>
+               <idno type="geonames">373303</idno>
+            </place>
+            <place type="geo" xml:id="kaduqli">
+               <placeName xml:lang="en">Kaduqli</placeName>
+               <location>
+                  <geo>11°0'40"N 29°43'6"E</geo>
+               </location>
+               <idno type="geonames">373141</idno>
+            </place>
+            <place type="geo" xml:id="kafryasif">
+               <placeName xml:lang="en">Kafr Yasif</placeName>
+               <location>
+                  <geo>32°57'16"N 35°9'44"E</geo>
+               </location>
+               <idno type="geonames">294600</idno>
+            </place>
+            <place type="geo" xml:id="kartmin">
+               <placeName xml:lang="en">Kartmin</placeName>
+               <location>
+                  <geo>37°18'5"N 41°31'14"E</geo>
+               </location>
+               <idno type="geonames">297404</idno>
+            </place>
+            <place type="geo" xml:id="kenitra">
+               <placeName xml:lang="en">Kenitra</placeName>
+               <location>
+                  <geo>34°15'40"N 6°34'6"W</geo>
+               </location>
+               <idno type="geonames">2544571</idno>
+            </place>
+            <place type="geo" xml:id="khartoum">
+               <placeName xml:lang="en">Khartoum</placeName>
+               <location>
+                  <geo>15°33'6"N 32°31'57"E</geo>
+               </location>
+               <idno type="geonames">379252</idno>
+            </place>
+            <place type="geo" xml:id="khirbetselm">
+               <placeName xml:lang="en">Khirbet Selm</placeName>
+               <location>
+                  <geo>33°13'46"N 35°25'27"E</geo>
+               </location>
+               <idno type="geonames">272376</idno>
+            </place>
+            <place type="geo" xml:id="khorasan">
+               <placeName xml:lang="en">Khorasan</placeName>
+               <location>
+                  <geo>35°0'0"N 59°0'0"E</geo>
+               </location>
+               <idno type="geonames">127374</idno>
+            </place>
+            <place type="geo" xml:id="khorramshahr">
+               <placeName xml:lang="en">Khorramshahr</placeName>
+               <location>
+                  <geo>30°26'27"N 48°11'3"E</geo>
+               </location>
+               <idno type="geonames">127319</idno>
+            </place>
+            <place type="geo" xml:id="khuzestan">
+               <placeName xml:lang="en">Khuzestan</placeName>
+               <location>
+                  <geo>31°30'0"N 49°0'0"E</geo>
+               </location>
+               <idno type="geonames">127082</idno>
+            </place>
+            <place type="geo" xml:id="khuzestanprovince">
+               <placeName xml:lang="en">Khuzestan Province</placeName>
+               <location>
+                  <geo>31°30'0"N 49°0'0"E</geo>
+               </location>
+               <idno type="geonames">127082</idno>
+            </place>
+            <place type="geo" xml:id="kibera">
+               <placeName xml:lang="en">Kibera</placeName>
+               <location>
+                  <geo>1°19'1"S 36°46'60"E</geo>
+               </location>
+               <idno type="geonames">192495</idno>
+            </place>
+            <place type="geo" xml:id="kirkuk">
+               <placeName xml:lang="en">Kirkuk</placeName>
+               <location>
+                  <geo>35°28'5"N 44°23'32"E</geo>
+               </location>
+               <idno type="geonames">94787</idno>
+            </place>
+            <place type="geo" xml:id="korba">
+               <placeName xml:lang="en">Korba</placeName>
+               <location>
+                  <geo>36°34'43"N 10°51'31"E</geo>
+               </location>
+               <idno type="geonames">2467920</idno>
+            </place>
+            <place type="geo" xml:id="kormakitis">
+               <placeName xml:lang="en">Kormakitis</placeName>
+               <location>
+                  <geo>35°20'33"N 32°58'43"E</geo>
+               </location>
+               <idno type="geonames">10200799</idno>
+            </place>
+            <place type="geo" xml:id="ksarelkebir">
+               <placeName xml:lang="en">Ksar el-Kebir</placeName>
+               <location>
+                  <geo>35°0'2"N 5°54'5"W</geo>
+               </location>
+               <idno type="geonames">2544001</idno>
+            </place>
+            <place type="geo" xml:id="kueiris">
+               <placeName xml:lang="en">Kueiris</placeName>
+               <location>
+                  <geo>32°33'0"N 44°25'0"E</geo>
+               </location>
+               <idno type="geonames">94051</idno>
+            </place>
+            <place type="geo" xml:id="larache">
+               <placeName xml:lang="en">Larache</placeName>
+               <location>
+                  <geo>35°11'36"N 6°9'6"W</geo>
+               </location>
+               <idno type="geonames">2543549</idno>
+            </place>
+            <place type="geo" xml:id="lod">
+               <placeName xml:lang="en">Lod</placeName>
+               <location>
+                  <geo>31°56'48"N 34°53'25"E</geo>
+               </location>
+               <idno type="geonames">294421</idno>
+            </place>
+            <place type="geo" xml:id="madaba">
+               <placeName xml:lang="en">Madaba</placeName>
+               <location>
+                  <geo>31°42'58"N 35°47'38"E</geo>
+               </location>
+               <idno type="geonames">248370</idno>
+            </place>
+            <place type="geo" xml:id="mahalatqaraqush">
+               <placeName xml:lang="en">Mahalat Qaraqush</placeName>
+               <location>
+                  <geo>36°10'60"N 44°0'43"E</geo>
+               </location>
+               <idno type="geonames">95446</idno>
+            </place>
+            <place type="geo" xml:id="mahdia">
+               <placeName xml:lang="en">Mahdia</placeName>
+               <location>
+                  <geo>35°30'17"N 11°3'44"E</geo>
+               </location>
+               <idno type="geonames">2473572</idno>
+            </place>
+            <place type="geo" xml:id="maiduguri">
+               <placeName xml:lang="en">Maiduguri</placeName>
+               <location>
+                  <geo>11°50'49"N 13°9'26"E</geo>
+               </location>
+               <idno type="geonames">2331447</idno>
+            </place>
+            <place type="geo" xml:id="manakhah">
+               <placeName xml:lang="en">Manakhah</placeName>
+               <location>
+                  <geo>15°4'18"N 43°41'10"E</geo>
+               </location>
+               <idno type="geonames">6940806</idno>
+            </place>
+            <place type="geo" xml:id="mardin">
+               <placeName xml:lang="en">Mardin</placeName>
+               <location>
+                  <geo>37°18'47"N 40°44'37"E</geo>
+               </location>
+               <idno type="geonames">304797</idno>
+            </place>
+            <place type="geo" xml:id="marrakesh">
+               <placeName xml:lang="en">Marrakesh</placeName>
+               <location>
+                  <geo>31°38'3"N 7°59'7"W</geo>
+               </location>
+               <idno type="geonames">2542997</idno>
+            </place>
+            <place type="geo" xml:id="masmouda">
+               <placeName xml:lang="en">Masmouda</placeName>
+               <location>
+                  <geo>34°24'45"N 4°24'4"W</geo>
+               </location>
+               <idno type="geonames">11099968</idno>
+            </place>
+            <place type="geo" xml:id="massawa">
+               <placeName xml:lang="en">Massawa</placeName>
+               <location>
+                  <geo>15°36'29"N 39°28'28"E</geo>
+               </location>
+               <idno type="geonames">330546</idno>
+            </place>
+            <place type="geo" xml:id="maždal">
+               <placeName xml:lang="en">Maždal</placeName>
+               <location>
+                  <geo>33°32'19"N 35°44'46"E</geo>
+               </location>
+               <idno type="geonames">271861</idno>
+            </place>
+            <place type="geo" xml:id="mazouna">
+               <placeName xml:lang="en">Mazouna</placeName>
+               <location>
+                  <geo>36°7'20"N 0°53'55"E</geo>
+               </location>
+               <idno type="geonames">2489987</idno>
+            </place>
+            <place type="geo" xml:id="mecca">
+               <placeName xml:lang="en">Mecca</placeName>
+               <location>
+                  <geo>21°25'36"N 39°49'32"E</geo>
+               </location>
+               <idno type="geonames">104515</idno>
+            </place>
+            <place type="geo" xml:id="médéa">
+               <placeName xml:lang="en">Médéa</placeName>
+               <location>
+                  <geo>36°15'51"N 2°45'14"E</geo>
+               </location>
+               <idno type="geonames">2488835</idno>
+            </place>
+            <place type="geo" xml:id="mehdia">
+               <placeName xml:lang="en">Mehdia</placeName>
+               <location>
+                  <geo>34°15'21"N 6°40'6"W</geo>
+               </location>
+               <idno type="geonames">2542768</idno>
+            </place>
+            <place type="geo" xml:id="meknes">
+               <placeName xml:lang="en">Meknes</placeName>
+               <location>
+                  <geo>33°53'37"N 5°32'5"W</geo>
+               </location>
+               <idno type="geonames">2542715</idno>
+            </place>
+            <place type="geo" xml:id="mersin">
+               <placeName xml:lang="en">Mersin</placeName>
+               <location>
+                  <geo>36°48'43"N 34°38'20"E</geo>
+               </location>
+               <idno type="geonames">304531</idno>
+            </place>
+            <place type="geo" xml:id="mhamid">
+               <placeName xml:lang="en">M'hamid</placeName>
+               <location>
+                  <geo>36°48'43"N 34°38'20"E</geo>
+               </location>
+               <idno type="geonames">304531</idno>
+            </place>
+            <place type="geo" xml:id="mila">
+               <placeName xml:lang="en">Mila</placeName>
+               <location>
+                  <geo>36°25'0"N 6°10'0"E</geo>
+               </location>
+               <idno type="geonames">2487449</idno>
+            </place>
+            <place type="geo" xml:id="mostaganem">
+               <placeName xml:lang="en">Mostaganem</placeName>
+               <location>
+                  <geo>35°55'52"N 0°5'21"E</geo>
+               </location>
+               <idno type="geonames">2487134</idno>
+            </place>
+            <place type="geo" xml:id="mosul">
+               <placeName xml:lang="en">Mosul</placeName>
+               <location>
+                  <geo>36°20'6"N 43°7'8"E</geo>
+               </location>
+               <idno type="geonames">99072</idno>
+            </place>
+            <place type="geo" xml:id="mountcarmel">
+               <placeName xml:lang="en">Mount Carmel</placeName>
+               <location>
+                  <geo>32°43'43"N 35°3'15"E</geo>
+               </location>
+               <idno type="geonames">294579</idno>
+            </place>
+            <place type="geo" xml:id="muharraq">
+               <placeName xml:lang="en">Muharraq</placeName>
+               <location>
+                  <geo>26°15'26"N 50°36'43"E</geo>
+               </location>
+               <idno type="geonames">290332</idno>
+            </place>
+            <place type="geo" xml:id="muhradah">
+               <placeName xml:lang="en">Muhradah</placeName>
+               <location>
+                  <geo>35°14'52"N 36°34'21"E</geo>
+               </location>
+               <idno type="geonames">166742</idno>
+            </place>
+            <place type="geo" xml:id="nabeul">
+               <placeName xml:lang="en">Nabeul</placeName>
+               <location>
+                  <geo>36°27'22"N 10°44'15"E</geo>
+               </location>
+               <idno type="geonames">2468579</idno>
+            </place>
+            <place type="geo" xml:id="nabk">
+               <placeName xml:lang="en">Nabk</placeName>
+               <location>
+                  <geo>34°4'59"N 36°42'44"E</geo>
+               </location>
+               <idno type="geonames">173194</idno>
+            </place>
+            <place type="geo" xml:id="nahrjaghjagh">
+               <placeName xml:lang="en">Nahr Jaghjagh</placeName>
+               <location>
+                  <geo>36°29'50"N 40°46'16"E</geo>
+               </location>
+               <idno type="geonames">320062</idno>
+            </place>
+            <place type="geo" xml:id="najd">
+               <placeName xml:lang="en">Najd</placeName>
+               <location>
+                  <geo>25°0'0"N 44°30'0"E</geo>
+               </location>
+               <idno type="geonames">103644</idno>
+            </place>
+            <place type="geo" xml:id="negev">
+               <placeName xml:lang="en">Negev</placeName>
+               <location>
+                  <geo>30°30'0"N 34°55'0"E</geo>
+               </location>
+               <idno type="geonames">294886</idno>
+            </place>
+            <place type="geo" xml:id="nigeria">
+               <placeName xml:lang="en">Nigeria</placeName>
+               <location>
+                  <geo>10°0'0"N 8°0'0"E</geo>
+               </location>
+               <idno type="geonames">2328926</idno>
+            </place>
+            <place type="geo" xml:id="nusaybin">
+               <placeName xml:lang="en">Nusaybin</placeName>
+               <location>
+                  <geo>37°9'25"N 41°20'29"E</geo>
+               </location>
+               <idno type="geonames">441966</idno>
+            </place>
+            <place type="geo" xml:id="omdurman">
+               <placeName xml:lang="en">Omdurman</placeName>
+               <location>
+                  <geo>15°38'40"N 32°28'40"E</geo>
+               </location>
+               <idno type="geonames">365137</idno>
+            </place>
+            <place type="geo" xml:id="oran">
+               <placeName xml:lang="en">Oran</placeName>
+               <location>
+                  <geo>35°41'57"N 0°38'9"E</geo>
+               </location>
+               <idno type="geonames">2485926</idno>
+            </place>
+            <place type="geo" xml:id="ouaday">
+               <placeName xml:lang="en">Ouaday</placeName>
+               <location>
+                  <geo>14°10'38"N 15°57'56"E</geo>
+               </location>
+               <idno type="geonames">2426573</idno>
+            </place>
+            <place type="geo" xml:id="ouazzane">
+               <placeName xml:lang="en">Ouazzane</placeName>
+               <location>
+                  <geo>34°47'45"N 5°34'5"W</geo>
+               </location>
+               <idno type="geonames">2540810</idno>
+            </place>
+            <place type="geo" xml:id="oujda">
+               <placeName xml:lang="en">Oujda</placeName>
+               <location>
+                  <geo>34°40'53"N 1°54'1"W</geo>
+               </location>
+               <idno type="geonames">2540483</idno>
+            </place>
+            <place type="geo" xml:id="outatelhaj">
+               <placeName xml:lang="en">Outat El Haj</placeName>
+               <location>
+                  <geo>33°20'42"N 3°42'3"W</geo>
+               </location>
+               <idno type="geonames">2538573</idno>
+            </place>
+            <place type="geo" xml:id="palmyra">
+               <placeName xml:lang="en">Palmyra</placeName>
+               <location>
+                  <geo>34°33'45"N 38°17'2"E</geo>
+               </location>
+               <idno type="geonames">163808</idno>
+            </place>
+            <place type="geo" xml:id="peqiin">
+               <placeName xml:lang="en">Peqiin</placeName>
+               <location>
+                  <geo>32°58'49"N 35°19'7"E</geo>
+               </location>
+               <idno type="geonames">293926</idno>
+            </place>
+            <place type="geo" xml:id="petra">
+               <placeName xml:lang="en">Petra</placeName>
+               <location>
+                  <geo>30°19'47"N 35°26'29"E</geo>
+               </location>
+               <idno type="geonames">250745</idno>
+            </place>
+            <place type="geo" xml:id="portsaid">
+               <placeName xml:lang="en">Port Said</placeName>
+               <location>
+                  <geo>31°15'24"N 32°17'3"E</geo>
+               </location>
+               <idno type="geonames">358619</idno>
+            </place>
+            <place type="geo" xml:id="qalamun">
+               <placeName xml:lang="en">Qalamun</placeName>
+               <location>
+                  <geo>33°37'44"N 36°26'53"E</geo>
+               </location>
+               <idno type="geonames">166237</idno>
+            </place>
+            <place type="geo" xml:id="qamishli">
+               <placeName xml:lang="en">Qamishli</placeName>
+               <location>
+                  <geo>37°3'8"N 41°13'53"E</geo>
+               </location>
+               <idno type="geonames">173377</idno>
+            </place>
+            <place type="geo" xml:id="qashqadaryoriver">
+               <placeName xml:lang="en">Qashqadaryo River</placeName>
+               <location>
+                  <geo>38°34'60"N 66°0'0"E</geo>
+               </location>
+               <idno type="geonames">1114928</idno>
+            </place>
+            <place type="geo" xml:id="qift">
+               <placeName xml:lang="en">Qift</placeName>
+               <location>
+                  <geo>25°59'54"N 32°49'1"E</geo>
+               </location>
+               <idno type="geonames">350560</idno>
+            </place>
+            <place type="geo" xml:id="rabat">
+               <placeName xml:lang="en">Rabat</placeName>
+               <location>
+                  <geo>34°0'48"N 6°49'6"W</geo>
+               </location>
+               <idno type="geonames">2538475</idno>
+            </place>
+            <place type="geo" xml:id="rahat">
+               <placeName xml:lang="en">Rahat</placeName>
+               <location>
+                  <geo>31°23'44"N 34°45'25"E</geo>
+               </location>
+               <idno type="geonames">8184212</idno>
+            </place>
+            <place type="geo" xml:id="rahayta">
+               <placeName xml:lang="en">Rahayta</placeName>
+               <location>
+                  <geo>31°23'44"N 34°45'25"E</geo>
+               </location>
+               <idno type="geonames">8184212</idno>
+            </place>
+            <place type="geo" xml:id="ramallah">
+               <placeName xml:lang="en">Ramallah</placeName>
+               <location>
+                  <geo>31°53'59"N 35°12'15"E</geo>
+               </location>
+               <idno type="geonames">282239</idno>
+            </place>
+            <place type="geo" xml:id="ramla">
+               <placeName xml:lang="en">Ramla</placeName>
+               <location>
+                  <geo>31°55'45"N 34°51'56"E</geo>
+               </location>
+               <idno type="geonames">293768</idno>
+            </place>
+            <place type="geo" xml:id="rasbanas">
+               <placeName xml:lang="en">Ras Banas</placeName>
+               <location>
+                  <geo>23°54'20"N 35°47'21"E</geo>
+               </location>
+               <idno type="geonames">359296</idno>
+            </place>
+            <place type="geo" xml:id="sadah">
+               <placeName xml:lang="en">Sa'dah</placeName>
+               <location>
+                  <geo>16°56'25"N 43°45'50"E</geo>
+               </location>
+               <idno type="geonames">71334</idno>
+            </place>
+            <place type="geo" xml:id="safed">
+               <placeName xml:lang="en">Safed</placeName>
+               <location>
+                  <geo>32°2'13"N 35°49'58"E</geo>
+               </location>
+               <idno type="geonames">247108</idno>
+            </place>
+            <place type="geo" xml:id="safed">
+               <placeName xml:lang="en">Safed</placeName>
+               <location>
+                  <geo>32°57'53"N 35°29'46"E</geo>
+               </location>
+               <idno type="geonames">293100</idno>
+            </place>
+            <place type="geo" xml:id="safi">
+               <placeName xml:lang="en">Safi</placeName>
+               <location>
+                  <geo>32°17'58"N 9°14'9"W</geo>
+               </location>
+               <idno type="geonames">2537881</idno>
+            </place>
+            <place type="geo" xml:id="safut">
+               <placeName xml:lang="en">Safut</placeName>
+               <location>
+                  <geo>32°2'13"N 35°49'58"E</geo>
+               </location>
+               <idno type="geonames">247108</idno>
+            </place>
+            <place type="geo" xml:id="saida">
+               <placeName xml:lang="en">Saida</placeName>
+               <location>
+                  <geo>34°49'49"N 0°9'6"E</geo>
+               </location>
+               <idno type="geonames">2482572</idno>
+            </place>
+            <place type="geo" xml:id="sale">
+               <placeName xml:lang="en">Sale</placeName>
+               <location>
+                  <geo>34°3'11"N 6°47'6"W</geo>
+               </location>
+               <idno type="geonames">2537763</idno>
+            </place>
+            <place type="geo" xml:id="samandağ">
+               <placeName xml:lang="en">Samandağ</placeName>
+               <location>
+                  <geo>36°5'3"N 35°58'20"E</geo>
+               </location>
+               <idno type="geonames">9541203</idno>
+            </place>
+            <place type="geo" xml:id="samha">
+               <placeName xml:lang="en">Samha</placeName>
+               <location>
+                  <geo>12°9'23"N 53°2'43"E</geo>
+               </location>
+               <idno type="geonames">71147</idno>
+            </place>
+            <place type="geo" xml:id="sanaa">
+               <placeName xml:lang="en">Sanaa</placeName>
+               <location>
+                  <geo>15°21'17"N 44°12'24"E</geo>
+               </location>
+               <idno type="geonames">71137</idno>
+            </place>
+            <place type="geo" xml:id="şanlıurfa">
+               <placeName xml:lang="en">Şanlıurfa</placeName>
+               <location>
+                  <geo>37°12'46"N 38°46'54"E</geo>
+               </location>
+               <idno type="geonames">298332</idno>
+            </place>
+            <place type="geo" xml:id="sason">
+               <placeName xml:lang="en">Sason</placeName>
+               <location>
+                  <geo>38°19'40"N 41°24'50"E</geo>
+               </location>
+               <idno type="geonames">301483</idno>
+            </place>
+            <place type="geo" xml:id="sebta">
+               <placeName xml:lang="en">Sebta</placeName>
+               <location>
+                  <geo>35°53'34"N 5°20'5"W</geo>
+               </location>
+               <idno type="geonames">6545516</idno>
+            </place>
+            <place type="geo" xml:id="sefrou">
+               <placeName xml:lang="en">Sefrou</placeName>
+               <location>
+                  <geo>33°49'55"N 4°49'4"W</geo>
+               </location>
+               <idno type="geonames">2537545</idno>
+            </place>
+            <place type="geo" xml:id="sevilla">
+               <placeName xml:lang="en">Sevilla</placeName>
+               <location>
+                  <geo>37°22'58"N 5°58'5"W</geo>
+               </location>
+               <idno type="geonames">2510911</idno>
+            </place>
+            <place type="geo" xml:id="sfax">
+               <placeName xml:lang="en">Sfax</placeName>
+               <location>
+                  <geo>34°44'26"N 10°45'37"E</geo>
+               </location>
+               <idno type="geonames">2467454</idno>
+            </place>
+            <place type="geo" xml:id="shammar">
+               <placeName xml:lang="en">Shammar</placeName>
+               <location>
+                  <geo>27°29'26"N 41°10'40"E</geo>
+               </location>
+               <idno type="geonames">105532</idno>
+            </place>
+            <place type="geo" xml:id="sidiaïssa">
+               <placeName xml:lang="en">Sidi Aïssa</placeName>
+               <location>
+                  <geo>35°53'8"N 3°46'20"E</geo>
+               </location>
+               <idno type="geonames">2481246</idno>
+            </place>
+            <place type="geo" xml:id="sidibelabbès">
+               <placeName xml:lang="en">Sidi Bel Abbès</placeName>
+               <location>
+                  <geo>35°11'24"N 0°37'51"E</geo>
+               </location>
+               <idno type="geonames">2481007</idno>
+            </place>
+            <place type="geo" xml:id="siirt">
+               <placeName xml:lang="en">Siirt</placeName>
+               <location>
+                  <geo>37°55'45"N 41°56'29"E</geo>
+               </location>
+               <idno type="geonames">300822</idno>
+            </place>
+            <place type="geo" xml:id="sinai">
+               <placeName xml:lang="en">Sinai</placeName>
+               <location>
+                  <geo>29°0'0"N 33°48'0"E</geo>
+               </location>
+               <idno type="geonames">355182</idno>
+            </place>
+            <place type="geo" xml:id="singapore">
+               <placeName xml:lang="en">Singapore</placeName>
+               <location>
+                  <geo>1°17'23"N 103°51'0"E</geo>
+               </location>
+               <idno type="geonames">1880252</idno>
+            </place>
+            <place type="geo" xml:id="siverek">
+               <placeName xml:lang="en">Siverek</placeName>
+               <location>
+                  <geo>37°45'18"N 39°19'0"E</geo>
+               </location>
+               <idno type="geonames">300614</idno>
+            </place>
+            <place type="geo" xml:id="siwa">
+               <placeName xml:lang="en">Siwa</placeName>
+               <location>
+                  <geo>29°11'32"N 25°31'39"E</geo>
+               </location>
+               <idno type="geonames">347860</idno>
+            </place>
+            <place type="geo" xml:id="skoura">
+               <placeName xml:lang="en">Skoura</placeName>
+               <location>
+                  <geo>31°5'6"N 6°35'6"W</geo>
+               </location>
+               <idno type="geonames">2532625</idno>
+            </place>
+            <place type="geo" xml:id="sousse">
+               <placeName xml:lang="en">Sousse</placeName>
+               <location>
+                  <geo>35°49'31"N 10°38'13"E</geo>
+               </location>
+               <idno type="geonames">2464915</idno>
+            </place>
+            <place type="geo" xml:id="soussmassa">
+               <placeName xml:lang="en">Souss-Massa</placeName>
+               <location>
+                  <geo>30°25'31"N 9°33'9"W</geo>
+               </location>
+               <idno type="geonames">11281882</idno>
+            </place>
+            <place type="geo" xml:id="southsudan">
+               <placeName xml:lang="en">South Sudan</placeName>
+               <location>
+                  <geo>7°30'0"N 30°0'0"E</geo>
+               </location>
+               <idno type="geonames">7909807</idno>
+            </place>
+            <place type="geo" xml:id="tabelbala">
+               <placeName xml:lang="en">Tabelbala</placeName>
+               <location>
+                  <geo>28°45'42"N 2°25'2"W</geo>
+               </location>
+               <idno type="geonames">2492855</idno>
+            </place>
+            <place type="geo" xml:id="tadla">
+               <placeName xml:lang="en">Tadla</placeName>
+               <location>
+                  <geo>32°10'0"N 6°25'6"W</geo>
+               </location>
+               <idno type="geonames">2597555</idno>
+            </place>
+            <place type="geo" xml:id="tafilalet">
+               <placeName xml:lang="en">Tafilalet</placeName>
+               <location>
+                  <geo>31°19'55"N 4°21'4"W</geo>
+               </location>
+               <idno type="geonames">11359750</idno>
+            </place>
+            <place type="geo" xml:id="taiz">
+               <placeName xml:lang="en">Taiz</placeName>
+               <location>
+                  <geo>13°34'46"N 44°1'15"E</geo>
+               </location>
+               <idno type="geonames">70225</idno>
+            </place>
+            <place type="geo" xml:id="takrouna">
+               <placeName xml:lang="en">Takrouna</placeName>
+               <location>
+                  <geo>36°9'0"N 10°19'60"E</geo>
+               </location>
+               <idno type="geonames">2464802</idno>
+            </place>
+            <place type="geo" xml:id="tanger">
+               <placeName xml:lang="en">Tanger</placeName>
+               <location>
+                  <geo>35°46'2"N 5°47'5"W</geo>
+               </location>
+               <idno type="geonames">2530335</idno>
+            </place>
+            <place type="geo" xml:id="tantan">
+               <placeName xml:lang="en">Tan-Tan</placeName>
+               <location>
+                  <geo>28°26'17"N 11°6'11"W</geo>
+               </location>
+               <idno type="geonames">2530241</idno>
+            </place>
+            <place type="geo" xml:id="tataouine">
+               <placeName xml:lang="en">Tataouine</placeName>
+               <location>
+                  <geo>32°0'0"N 10°0'0"E</geo>
+               </location>
+               <idno type="geonames">2464698</idno>
+            </place>
+            <place type="geo" xml:id="taza">
+               <placeName xml:lang="en">Taza</placeName>
+               <location>
+                  <geo>34°12'36"N 4°0'4"W</geo>
+               </location>
+               <idno type="geonames">2529317</idno>
+            </place>
+            <place type="geo" xml:id="telaviv">
+               <placeName xml:lang="en">Tel Aviv</placeName>
+               <location>
+                  <geo>32°4'51"N 34°46'50"E</geo>
+               </location>
+               <idno type="geonames">293397</idno>
+            </place>
+            <place type="geo" xml:id="temara">
+               <placeName xml:lang="en">Temara</placeName>
+               <location>
+                  <geo>33°55'43"N 6°54'6"W</geo>
+               </location>
+               <idno type="geonames">2529013</idno>
+            </place>
+            <place type="geo" xml:id="ténès">
+               <placeName xml:lang="en">Ténès</placeName>
+               <location>
+                  <geo>36°30'39"N 1°18'29"E</geo>
+               </location>
+               <idno type="geonames">2477148</idno>
+            </place>
+            <place type="geo" xml:id="tétouan">
+               <placeName xml:lang="en">Tétouan</placeName>
+               <location>
+                  <geo>35°34'42"N 5°22'5"W</geo>
+               </location>
+               <idno type="geonames">2528910</idno>
+            </place>
+            <place type="geo" xml:id="thessaloniki">
+               <placeName xml:lang="en">Thessaloniki</placeName>
+               <location>
+                  <geo>40°38'37"N 22°55'51"E</geo>
+               </location>
+               <idno type="geonames">734077</idno>
+            </place>
+            <place type="geo" xml:id="tiberias">
+               <placeName xml:lang="en">Tiberias</placeName>
+               <location>
+                  <geo>32°47'32"N 35°31'52"E</geo>
+               </location>
+               <idno type="geonames">293322</idno>
+            </place>
+            <place type="geo" xml:id="tikrit">
+               <placeName xml:lang="en">Tikrit</placeName>
+               <location>
+                  <geo>34°36'57"N 43°40'43"E</geo>
+               </location>
+               <idno type="geonames">90150</idno>
+            </place>
+            <place type="geo" xml:id="tillo">
+               <placeName xml:lang="en">Tillo</placeName>
+               <location>
+                  <geo>37°56'59"N 42°0'41"E</geo>
+               </location>
+               <idno type="geonames">438519</idno>
+            </place>
+            <place type="geo" xml:id="tiznit">
+               <placeName xml:lang="en">Tiznit</placeName>
+               <location>
+                  <geo>29°41'51"N 9°43'9"W</geo>
+               </location>
+               <idno type="geonames">2527089</idno>
+            </place>
+            <place type="geo" xml:id="tlemcen">
+               <placeName xml:lang="en">Tlemcen</placeName>
+               <location>
+                  <geo>34°52'42"N 1°18'1"W</geo>
+               </location>
+               <idno type="geonames">2475687</idno>
+            </place>
+            <place type="geo" xml:id="toledo">
+               <placeName xml:lang="en">Toledo</placeName>
+               <location>
+                  <geo>39°51'29"N 4°1'4"W</geo>
+               </location>
+               <idno type="geonames">2510409</idno>
+            </place>
+            <place type="geo" xml:id="tozeur">
+               <placeName xml:lang="en">Tozeur</placeName>
+               <location>
+                  <geo>33°55'11"N 8°8'1"E</geo>
+               </location>
+               <idno type="geonames">2464648</idno>
+            </place>
+            <place type="geo" xml:id="tripolilebanon">
+               <placeName xml:lang="en">Tripoli (Lebanon)</placeName>
+               <location>
+                  <geo>34°26'1"N 35°50'39"E</geo>
+               </location>
+               <idno type="geonames">266826</idno>
+            </place>
+            <place type="geo" xml:id="tripolilibya">
+               <placeName xml:lang="en">Tripoli (Libya)</placeName>
+               <location>
+                  <geo>32°53'15"N 13°11'14"E</geo>
+               </location>
+               <idno type="geonames">2210247</idno>
+            </place>
+            <place type="geo" xml:id="tunis">
+               <placeName xml:lang="en">Tunis</placeName>
+               <location>
+                  <geo>36°49'8"N 10°9'57"E</geo>
+               </location>
+               <idno type="geonames">2464470</idno>
+            </place>
+            <place type="geo" xml:id="valencia">
+               <placeName xml:lang="en">Valencia</placeName>
+               <location>
+                  <geo>39°28'11"N 0°22'39"W</geo>
+               </location>
+               <idno type="geonames">2509954</idno>
+            </place>
+            <place type="geo" xml:id="wadikhalid">
+               <placeName xml:lang="en">Wadi Khalid</placeName>
+               <location>
+                  <geo>33°35'42"N 35°48'27"E</geo>
+               </location>
+               <idno type="geonames">272631</idno>
+            </place>
+            <place type="geo" xml:id="yafa">
+               <placeName xml:lang="en">Yafa</placeName>
+               <location>
+                  <geo>13°51'43"N 45°12'5"E</geo>
+               </location>
+               <idno type="geonames">6940829</idno>
+            </place>
+            <place type="geo" xml:id="yangon">
+               <placeName xml:lang="en">Yangon</placeName>
+               <location>
+                  <geo>16°48'19"N 96°9'22"E</geo>
+               </location>
+               <idno type="geonames">1298824</idno>
+            </place>
+            <place type="geo" xml:id="zaafrane">
+               <placeName xml:lang="en">Zaafrane</placeName>
+               <location>
+                  <geo>33°26'34"N 8°55'14"E</geo>
+               </location>
+               <idno type="geonames">2464050</idno>
+            </place>
+            <place type="geo" xml:id="zabid">
+               <placeName xml:lang="en">Zabid</placeName>
+               <location>
+                  <geo>14°11'42"N 43°18'55"E</geo>
+               </location>
+               <idno type="geonames">69500</idno>
+            </place>
+            <place type="geo" xml:id="zakarīya">
+               <placeName xml:lang="en">Zakarīya</placeName>
+               <location>
+                  <geo>36°46'2"N 38°10'9"E</geo>
+               </location>
+               <idno type="geonames">162562</idno>
+            </place>
+            <place type="geo" xml:id="zeitounkeserwan">
+               <placeName xml:lang="en">Zeitoun, Keserwan</placeName>
+               <location>
+                  <geo>34°3'44"N 35°41'7"E</geo>
+               </location>
+               <idno type="geonames">265874</idno>
+            </place>
+            <place type="geo" xml:id="zgharta">
+               <placeName xml:lang="en">Zgharta</placeName>
+               <location>
+                  <geo>34°20'48"N 35°54'31"E</geo>
+               </location>
+               <idno type="geonames">265845</idno>
+            </place>
+            <place type="reg" xml:id="unitedarabemirates">
+               <placeName xml:lang="en">United Arab Emirates</placeName>
+               <location>
+                  <geo>23°45'0"N 54°30'0"E</geo>
+               </location>
+               <idno type="geonames">290557</idno>
+            </place>
+            <place type="reg" xml:id="abudhabi">
+               <placeName xml:lang="en">Abu Dhabi</placeName>
+               <location>
+                  <geo>24°28'0"N 54°22'0"E</geo>
+               </location>
+               <idno type="geonames">292968</idno>
+            </place>
+            <place type="reg" xml:id="afghanistan">
+               <placeName xml:lang="en">Afghanistan</placeName>
+               <location>
+                  <geo>33°0'0"N 66°0'0"E</geo>
+               </location>
+               <idno type="geonames">1149361</idno>
+            </place>
+            <place type="reg" xml:id="algeria">
+               <placeName xml:lang="en">Algeria</placeName>
+               <location>
+                  <geo>28°0'0"N 3°0'0"E</geo>
+               </location>
+               <idno type="geonames">2589581</idno>
+            </place>
+            <place type="reg" xml:id="andalusia">
+               <placeName xml:lang="en">Andalusia</placeName>
+               <location>
+                  <geo>37°36'0"N 4°30'4"W</geo>
+               </location>
+               <idno type="geonames">2593109</idno>
+            </place>
+            <place type="reg" xml:id="arabianpeninsula">
+               <placeName xml:lang="en">Arabian Peninsula</placeName>
+               <location>
+                  <geo>25°0'0"N 45°0'0"E</geo>
+               </location>
+               <idno type="geonames">6957697</idno>
+            </place>
+            <place type="reg" xml:id="asir">
+               <placeName xml:lang="en">'Asir</placeName>
+               <location>
+                  <geo>19°9'0"N 42°57'0"E</geo>
+               </location>
+               <idno type="geonames">108179</idno>
+            </place>
+            <place type="reg" xml:id="bahrain">
+               <placeName xml:lang="en">Bahrain</placeName>
+               <location>
+                  <geo>26°1'60"N 50°33'0"E</geo>
+               </location>
+               <idno type="geonames">290291</idno>
+            </place>
+            <place type="reg" xml:id="cameroonnorthregion">
+               <placeName xml:lang="en">Cameroon (North Region)</placeName>
+               <location>
+                  <geo>9°18'5"N 13°23'52"E</geo>
+               </location>
+               <idno type="geonames">2231320</idno>
+            </place>
+            <place type="reg" xml:id="chad">
+               <placeName xml:lang="en">Chad</placeName>
+               <location>
+                  <geo>15°0'0"N 19°0'0"E</geo>
+               </location>
+               <idno type="geonames">2434508</idno>
+            </place>
+            <place type="reg" xml:id="cilicia">
+               <placeName xml:lang="en">Cilicia</placeName>
+               <location>
+                  <geo>36°55'2"N 34°53'59"E</geo>
+               </location>
+               <idno type="geonames">8378491</idno>
+            </place>
+            <place type="reg" xml:id="cyrenaica">
+               <placeName xml:lang="en">Cyrenaica</placeName>
+               <location>
+                  <geo>31°0'0"N 22°30'0"E</geo>
+               </location>
+               <idno type="geonames">88252</idno>
+            </place>
+            <place type="reg" xml:id="egypt">
+               <placeName xml:lang="en">Egypt</placeName>
+               <location>
+                  <geo>27°0'0"N 30°0'0"E</geo>
+               </location>
+               <idno type="geonames">357994</idno>
+            </place>
+            <place type="reg" xml:id="iran">
+               <placeName xml:lang="en">Iran</placeName>
+               <location>
+                  <geo>32°0'0"N 53°0'0"E</geo>
+               </location>
+               <idno type="geonames">130758</idno>
+            </place>
+            <place type="reg" xml:id="iraq">
+               <placeName xml:lang="en">Iraq</placeName>
+               <location>
+                  <geo>33°0'0"N 44°0'0"E</geo>
+               </location>
+               <idno type="geonames">99237</idno>
+            </place>
+            <place type="reg" xml:id="israel">
+               <placeName xml:lang="en">Israel</placeName>
+               <location>
+                  <geo>31°30'0"N 34°45'0"E</geo>
+               </location>
+               <idno type="geonames">294640</idno>
+            </place>
+            <place type="reg" xml:id="jordan">
+               <placeName xml:lang="en">Jordan</placeName>
+               <location>
+                  <geo>31°0'0"N 36°0'0"E</geo>
+               </location>
+               <idno type="geonames">248816</idno>
+            </place>
+            <place type="reg" xml:id="kuweit">
+               <placeName xml:lang="en">Kuweit</placeName>
+               <location>
+                  <geo>29°30'0"N 47°45'0"E</geo>
+               </location>
+               <idno type="geonames">285570</idno>
+            </place>
+            <place type="reg" xml:id="lebanon">
+               <placeName xml:lang="en">Lebanon</placeName>
+               <location>
+                  <geo>33°49'60"N 35°49'60"E</geo>
+               </location>
+               <idno type="geonames">272103</idno>
+            </place>
+            <place type="reg" xml:id="libya">
+               <placeName xml:lang="en">Libya</placeName>
+               <location>
+                  <geo>28°0'0"N 17°0'0"E</geo>
+               </location>
+               <idno type="geonames">2215636</idno>
+            </place>
+            <place type="reg" xml:id="malta">
+               <placeName xml:lang="en">Malta</placeName>
+               <location>
+                  <geo>35°55'0"N 14°25'60"E</geo>
+               </location>
+               <idno type="geonames">2562770</idno>
+            </place>
+            <place type="reg" xml:id="mauritania">
+               <placeName xml:lang="en">Mauritania</placeName>
+               <location>
+                  <geo>20°15'0"N 10°30'10"W</geo>
+               </location>
+               <idno type="geonames">2378080</idno>
+            </place>
+            <place type="reg" xml:id="morocco">
+               <placeName xml:lang="en">Morocco</placeName>
+               <location>
+                  <geo>32°0'0"N 6°0'6"W</geo>
+               </location>
+               <idno type="geonames">2542007</idno>
+            </place>
+            <place type="reg" xml:id="nigeria">
+               <placeName xml:lang="en">Nigeria</placeName>
+               <location>
+                  <geo>10°0'0"N 8°0'0"E</geo>
+               </location>
+               <idno type="geonames">2328926</idno>
+            </place>
+            <place type="reg" xml:id="oman">
+               <placeName xml:lang="en">Oman</placeName>
+               <location>
+                  <geo>21°0'0"N 57°0'0"E</geo>
+               </location>
+               <idno type="geonames">286963</idno>
+            </place>
+            <place type="reg" xml:id="palestine">
+               <placeName xml:lang="en">Palestine</placeName>
+               <location>
+                  <geo>31°55'18"N 35°12'12"E</geo>
+               </location>
+               <idno type="geonames">6254930</idno>
+            </place>
+            <place type="reg" xml:id="qatar">
+               <placeName xml:lang="en">Qatar</placeName>
+               <location>
+                  <geo>25°30'0"N 51°15'0"E</geo>
+               </location>
+               <idno type="geonames">289688</idno>
+            </place>
+            <place type="reg" xml:id="saudiarabia">
+               <placeName xml:lang="en">Saudi Arabia</placeName>
+               <location>
+                  <geo>25°0'0"N 45°0'0"E</geo>
+               </location>
+               <idno type="geonames">102358</idno>
+            </place>
+            <place type="reg" xml:id="senegal">
+               <placeName xml:lang="en">Senegal</placeName>
+               <location>
+                  <geo>14°30'0"N 14°15'14"W</geo>
+               </location>
+               <idno type="geonames">2245662</idno>
+            </place>
+            <place type="reg" xml:id="sicily">
+               <placeName xml:lang="en">Sicily</placeName>
+               <location>
+                  <geo>37°45'0"N 14°15'0"E</geo>
+               </location>
+               <idno type="geonames">2523119</idno>
+            </place>
+            <place type="reg" xml:id="southsudan">
+               <placeName xml:lang="en">South Sudan</placeName>
+               <location>
+                  <geo>7°30'0"N 30°0'0"E</geo>
+               </location>
+               <idno type="geonames">7909807</idno>
+            </place>
+            <place type="reg" xml:id="spain">
+               <placeName xml:lang="en">Spain</placeName>
+               <location>
+                  <geo>40°0'0"N 4°0'4"W</geo>
+               </location>
+               <idno type="geonames">2510769</idno>
+            </place>
+            <place type="reg" xml:id="sudan">
+               <placeName xml:lang="en">Sudan</placeName>
+               <location>
+                  <geo>16°0'0"N 30°0'0"E</geo>
+               </location>
+               <idno type="geonames">366755</idno>
+            </place>
+            <place type="reg" xml:id="syria">
+               <placeName xml:lang="en">Syria</placeName>
+               <location>
+                  <geo>35°0'0"N 38°0'0"E</geo>
+               </location>
+               <idno type="geonames">163843</idno>
+            </place>
+            <place type="reg" xml:id="tihama">
+               <placeName xml:lang="en">Tihama</placeName>
+               <location>
+                  <geo>22°0'0"N 40°0'0"E</geo>
+               </location>
+               <idno type="geonames">101373</idno>
+            </place>
+            <place type="reg" xml:id="tripolitania">
+               <placeName xml:lang="en">Tripolitania</placeName>
+               <location>
+                  <geo>31°0'0"N 15°0'0"E</geo>
+               </location>
+               <idno type="geonames">2210246</idno>
+            </place>
+            <place type="reg" xml:id="tunisia">
+               <placeName xml:lang="en">Tunisia</placeName>
+               <location>
+                  <geo>34°0'0"N 9°0'0"E</geo>
+               </location>
+               <idno type="geonames">2464461</idno>
+            </place>
+            <place type="reg" xml:id="turkey">
+               <placeName xml:lang="en">Turkey</placeName>
+               <location>
+                  <geo>39°0'0"N 35°0'0"E</geo>
+               </location>
+               <idno type="geonames">298795</idno>
+            </place>
+            <place type="reg" xml:id="uganda">
+               <placeName xml:lang="en">Uganda</placeName>
+               <location>
+                  <geo>1°15'0"N 32°30'0"E</geo>
+               </location>
+               <idno type="geonames">226074</idno>
+            </place>
+            <place type="reg" xml:id="unitedarabemirates">
+               <placeName xml:lang="en">United Arab Emirates</placeName>
+               <location>
+                  <geo>23°45'0"N 54°30'0"E</geo>
+               </location>
+               <idno type="geonames">290557</idno>
+            </place>
+            <place type="reg" xml:id="uzbekistan">
+               <placeName xml:lang="en">Uzbekistan</placeName>
+               <location>
+                  <geo>41°40'0"N 63°49'60"E</geo>
+               </location>
+               <idno type="geonames">1512440</idno>
+            </place>
+            <place type="reg" xml:id="yemen">
+               <placeName xml:lang="en">Yemen</placeName>
+               <location>
+                  <geo>15°30'0"N 47°30'0"E</geo>
+               </location>
+               <idno type="geonames">69543</idno>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
