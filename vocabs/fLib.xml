@@ -38,21 +38,16 @@
 
             <fvLib n="Verbal Forms">
                <fs xml:id="v_pres_ind_sg_p1" feats="#pos.verb #tns.pres #mood.ind #num.sg #pers.1"/>
-               <fs xml:id="v_pres_ind_sg_p2" feats="#pos.verb #tns.pres #mood.ind #num.sg #pers.2"/>
-               <fs xml:id="v_pres_ind_sg_p3" feats="#pos.verb #tns.pres #mood.ind #num.sg #pers.3"/>
+               <fs xml:id="v_pres_ind_sg_f_p2" feats="#pos.verb #tns.pres #mood.ind #num.sg #gender.f #pers.2"/>
+               <fs xml:id="v_pres_ind_sg_m_p2" feats="#pos.verb #tns.pres #mood.ind #num.sg #gender.m #pers.2"/>
+               <fs xml:id="v_pres_ind_sg_f_p3" feats="#pos.verb #tns.pres #mood.ind #num.sg #gender.f #pers.3"/>
+               <fs xml:id="v_pres_ind_sg_m_p3" feats="#pos.verb #tns.pres #mood.ind #num.sg #gender.m #pers.3"/>
                <fs xml:id="v_pres_ind_pl_p1" feats="#pos.verb #tns.pres #mood.ind #num.pl #pers.1"/>
-               <fs xml:id="v_pres_ind_pl_p2" feats="#pos.verb #tns.pres #mood.ind #num.pl #pers.2"/>
-               <fs xml:id="v_pres_ind_pl_p3" feats="#pos.verb #tns.pres #mood.ind #num.pl #pers.3"/>
-                              
-               <!-- WATCHME mood? -->
-               <fs xml:id="v_pres_pl_p3" feats="#pos.verb #tns.pres #num.pl #pers.3"/>
-               <fs xml:id="v_pres_sg_p3" feats="#pos.verb #tns.pres #mood.ind #num.sg #pers.3"/>
-               
-               <fs xml:id="v_pres_sg_p3_f" feats="#pos.verb #tns.pres #num.sg #gender.f #pers.3"/>
-               
-               <!-- verbal noun -->
-               <fs xml:id="v_vn" feats="#pos.verb #pos.vn"/>
-               
+               <fs xml:id="v_pres_ind_pl_f_p2" feats="#pos.verb #tns.pres #mood.ind #num.pl #gender.f #pers.2"/>
+               <fs xml:id="v_pres_ind_pl_m_p2" feats="#pos.verb #tns.pres #mood.ind #num.pl #gender.m #pers.2"/>
+               <fs xml:id="v_pres_ind_pl_f_p3" feats="#pos.verb #tns.pres #mood.ind #num.pl #gender.f #pers.3"/>
+               <fs xml:id="v_pres_ind_pl_m_p3" feats="#pos.verb #tns.pres #mood.ind #num.pl #gender.m #pers.3"/>
+                                           
                <fs xml:id="v_past_sg_p1" feats="#pos.verb #tns.past #mood.ind #num.sg #pers.1"/>
                <fs xml:id="v_past_sg_p2" feats="#pos.verb #tns.past #mood.ind #num.sg #pers.2"/>
                <fs xml:id="v_past_sg_p3" feats="#pos.verb #tns.past #mood.ind #num.sg #pers.3"/>
@@ -73,14 +68,45 @@
                <fs xml:id="v_future_ind_pl_p3" feats="#pos.verb #tns.future #mood.ind #num.pl #pers.3"/>                              
             </fvLib>
             
-            <fvLib n="Noun Forms">
-               <!-- construct state of a noun -->
+             <fvLib n="Adjective forms">
+                 <fs xml:id="a_diptPl" feats="#pos.adj #num.pl #subc.dipt"/>
+                 <fs xml:id="a_elative" feats="#pos.adj #subc.elative"/>
+                 <fs xml:id="a_elative_f" feats="#pos.adj #gender.f #subc.elative"/>
+                 <fs xml:id="a_f_sg" feats="#pos.adj #num.sg #gender.f"/>
+                 <fs xml:id="a_f_sg_dipt" feats="#pos.adj #gender.f #num.sg #subc.dipt"/>
+                 <fs xml:id="a_f_pl" feats="#pos.adj #gender.f #num.pl"/>
+                 <fs xml:id="a_m_sg" feats="#pos.adj #gender.m #num.sg"/>                
+                 <fs xml:id="a_m_pl" feats="#pos.adj #gender.m #num.pl"/>                
+             </fvLib>
+
+             <fvLib n="Active participle">
+                 <fs xml:id="ap_f_sg" feats="#pos.ap #gender.f #num.sg"/>
+                 <fs xml:id="ap_f_pl" feats="#pos.ap #gender.f #num.pl"/>
+                 <fs xml:id="ap_m_sg" feats="#pos.ap #gender.m #num.sg"/>                
+                 <fs xml:id="ap_m_pl" feats="#pos.ap #gender.m #num.pl"/>                
+             </fvLib>
+             
+             <fvLib n="Demonstratives">
+                 <fs xml:id="dm_m_sg_prox" feats="#pos.dm #gender.m #num.sg #subc.prox"/>
+                 <fs xml:id="dm_f_sg_prox" feats="#pos.dm #gender.f #num.sg #subc.prox"/>
+                 <fs xml:id="dm_pl_prox" feats="#pos.dm #num.pl #subc.prox"/>
+             </fvLib>
+             
+             <fvLib n="Multi word units">
+                 <fs xml:id="mwu" feats="#pos.mwu"/>
+                 <fs xml:id="mwu_f" feats="#pos.mwu #gender.f"/>
+                 <fs xml:id="mwu_pl" feats="#pos.mwu #num.pl"/>
+             </fvLib>
+             
+             <fvLib n="Noun forms">
+                     <!-- construct state of a noun -->
                <fs xml:id="n_constState" feats="#pos.n #subc.constructState"/>               
                
+               <fs xml:id="n_sg_m" feats="#pos.n #num.sg #gender.m"/>
                <fs xml:id="n_sg_f" feats="#pos.n #num.sg #gender.f"/>
-               
+                 
                <!-- plural of a noun -->
-               <fs xml:id="n_pl" feats="#pos.n #num.pl"/>
+               <fs xml:id="n_pl_m" feats="#pos.n #num.pl #gender.m"/>
                <fs xml:id="n_pl_f" feats="#pos.n #num.pl #gender.f"/>
                
                <!-- dual of a noun -->
@@ -89,22 +115,12 @@
                <!-- WATCHME no num? -->
                <fs xml:id="n_f" feats="#pos.n #gender.f"/>                                            
                
-               <!-- countPlural ? -->
                <fs xml:id="n_countPlural" feats="#pos.n #subc.countPl"/>
                <fs xml:id="n_diminutive" feats="#pos.n #subc.dim"/>
-               <!-- countdiptPl ? -->
-               <fs xml:id="n_diptPl" feats="#pos.n #num.pl #subc.dipt"/>
-               
-               
-               <fs xml:id="n_nu" feats="#pos.n"/>
-               
-               <!-- What is "inst" ? -->
-               <fs xml:id="n_inst" feats="#pos.n"/>
-               <fs xml:id="n_inst_pl" feats="#pos.n #num.pl"/>
-               
-               <!-- what is "_l_" ? -->
-               <fs xml:id="n_l_pl" feats="#pos.n #num.pl"/>              
-               
+               <!-- countdiptPl ? -->               
+             
+               <fs xml:id="n_nu" feats="#pos.n #subc.unitNoun"/>
+               <fs xml:id="n_l_pl" feats="#pos.n #num.pl #subc.articlePl #subc.artPl"/>                            
                              
                <!-- SHOULDN’T BE THIS "c2_sg" instead of "2sg" (i.e. case as a separate feature?) 
                   BTW "2sg" is not a valid xml:id -->
@@ -118,27 +134,66 @@
                
                <fs xml:id="n_vicis" feats="#pos.n #subc.vicis"/>
                <fs xml:id="n_vicis_pl" feats="#pos.n #subc.vicis #num.pl"/>
-               
-            </fvLib>
+                 
+               <!-- What is "inst" = instance noun; should probably be merged with n_vicis ? -->
+                 <fs xml:id="n_inst" feats="#pos.n #subc.vicis"/>
+                 <fs xml:id="n_inst_pl" feats="#pos.n #num.pl #subc.vicis"/>
+             </fvLib>
+             
+             <fvLib n="Numeral">
+                 <fs xml:id="num_m" feats="#pos.num #gender.m"/>
+                 <fs xml:id="num_f" feats="#pos.num #gender.f"/>
+                 <fs xml:id="num_pl" feats="#pos.num #num.pl"/>
+             </fvLib>
+             
+             <fvLib n="Ordinal">
+                 <fs xml:id="ord_m" feats="#pos.ord #gender.m"/>
+                 <fs xml:id="ord_f" feats="#pos.num #gender.f"/>
+                 <fs xml:id="ord_pl" feats="#pos.num #num.pl"/>
+             </fvLib>            
+
+             <fvLib n="Passive participle">
+                 <fs xml:id="pp_f_sg" feats="#pos.pp #gender.f #num.sg"/>
+                 <fs xml:id="pp_f_pl" feats="#pos.pp #gender.f #num.pl"/>
+                 <fs xml:id="pp_m_sg" feats="#pos.pp #gender.m #num.sg"/>                
+                 <fs xml:id="pp_m_pl" feats="#pos.pp #gender.m #num.pl"/>                
+             </fvLib>
+
+             <fvLib n="Pronoun">
+                 <fs xml:id="pron_sg_1" feats="#pos.pp #gender.f #num.sg #pers.1"/>
+                 <fs xml:id="pron_f_sg_p2" feats="#pos.pp #gender.f #num.sg #pers.2"/>
+                 <fs xml:id="pron_m_sg_p2" feats="#pos.pp #gender.m #num.sg #pers.2"/>
+                 <fs xml:id="pron_m_sg_p3" feats="#pos.pp #gender.m #num.sg #pers.3"/>                
+                 <fs xml:id="pron_f_sg_p3" feats="#pos.pp #gender.m #num.sg #pers.3"/>
+                 
+                 <fs xml:id="pron_pl_1" feats="#pos.pp #gender.f #num.pl #pers.1"/>
+                 <fs xml:id="pron_f_pl_p2" feats="#pos.pp #gender.f #num.pl #pers.2"/>
+                 <fs xml:id="pron_m_pl_p2" feats="#pos.pp #gender.m #num.pl #pers.2"/>
+                 <fs xml:id="pron_m_pl_p3" feats="#pos.pp #gender.m #num.pl #pers.3"/>                
+                 <fs xml:id="pron_f_pl_p3" feats="#pos.pp #gender.m #num.pl #pers.3"/>                
+             </fvLib>
+             
+             <fvLib n="Verbal noun">
+                 <fs xml:id="vn" feats="#pos.vn"/>
+             </fvLib>
             
-            <fvLib n="Adjective Forms">
-               <!--feminine form of an adjective-->
-               <fs xml:id="adj_f" feats="#pos.adj #gen.f"/>
-               <fs xml:id="adj_pl" feats="#pos.adj #num.pl"/>
-            </fvLib>                     
-            
+             
+
             <fLib n="Part of Speech">
-               <f xml:id="pos.verb" name="verb"><symbol value="verb"/></f>
                <f xml:id="pos.adj" name="adjective"><symbol value="adjective"/></f>
+               <f xml:id="pos.ap" name="adjective"><symbol value="activeParticiple"/></f>
                <f xml:id="pos.adv" name="adverb"><symbol value="adverb"/></f>
+               <f xml:id="pos.dm" name="demonstrative"><symbol value="demonstrative"/></f>
+               <f xml:id="pos.mwu" name="multiWordUnit"><symbol value="multiWordUnit"/></f>
                <f xml:id="pos.num" name="cardinalNumber"><symbol value="cardinalNumber"/></f>
                <f xml:id="pos.ord" name="ordinalNumber"><symbol value="ordinalNumber"/></f>
                <f xml:id="pos.prep" name="preposition"><symbol value="preposition"/></f>
                <f xml:id="pos.pron" name="pronoun"><symbol value="pronoun"/></f>
                <f xml:id="pos.np" name="pluralNoun"><symbol value="pluralNoun"/></f>
                <f xml:id="pos.n" name="noun"><symbol value="noun"/></f>
-               <f xml:id="pos.pp" name="pastParticiple"><symbol value="pastParticiple"/></f>
-               <f xml:id="pos.vn" name="vn"><symbol value="verbalNoun"/></f>
+               <f xml:id="pos.pp" name="passiveParticiple"><symbol value="passiveParticiple"/></f>
+               <f xml:id="pos.verb" name="verb"><symbol value="verb"/></f>
+                <f xml:id="pos.vn" name="vn"><symbol value="verbalNoun"/></f>
             </fLib>
             
             <fLib n="Derived Verb Class">
@@ -187,13 +242,18 @@
            </fLib>
             
             <fLib n="Subc">
-               <f xml:id="subc.dim" name="diminutive"><symbol value="diminutive"/></f>
-               <f xml:id="subc.unitNoun" name="unitNoun"><symbol value="unitNoun"/></f>               
+               <!-- Discuss the term --> 
+               <f xml:id="subc.artPl" name="countPlural"><symbol value="articlePlural"/></f>               
                <f xml:id="subc.const" name="constructState"><symbol value="constructState"/></f>               
-               <f xml:id="subc.countPl" name="countPlural"><symbol value="countPlural"/></f>               
-               <f xml:id="subc.vicis" name="nomenVicis"><symbol value="nomenVicis"/></f>               
+               <f xml:id="subc.countPl" name="countPlural"><symbol value="countPlural"/></f>
+               <f xml:id="subc.dim" name="diminutive"><symbol value="diminutive"/></f>
                <f xml:id="subc.dipt" name="diptotic"><symbol value="diptotic"/></f>               
-           </fLib>                          
+               <f xml:id="subc.elative" name="elative"><symbol value="elative"/></f>
+               <f xml:id="subc.unitNoun" name="unitNoun"><symbol value="unitNoun"/></f>               
+               <f xml:id="subc.prox" name="proximal"><symbol value="proximal"/></f>               
+               <f xml:id="subc.dist" name="distal"><symbol value="distal"/></f>               
+               <f xml:id="subc.vicis" name="nomenVicis"><symbol value="nomenVicis"/></f>               
+            </fLib>                          
          </div>
       </body>
   </text>
