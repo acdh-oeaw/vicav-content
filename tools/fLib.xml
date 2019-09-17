@@ -7,19 +7,27 @@
       <fileDesc>
          <titleStmt>
             <title>VICAV feature-value library</title>
-            <author>Charly Mörth</author>
+            <author ref="http://d-nb.info/gnd/115146970">Charly Mörth</author>
+            <respStmt>
+               <resp>TEI modelling</resp>
+               <persName ref="http://d-nb.info/gnd/1127043269">Stefan Majewski</persName>
+            </respStmt>
             <respStmt>
                <resp>TEI encoding</resp>
-               <persName>Daniel Schopper</persName>
+               <persName ref="http://viaf.org/viaf/249676043">Daniel Schopper</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <p>Unpublished working draft</p>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+            <date>2019</date>
          </publicationStmt>
          <sourceDesc>
             <p>This is a born digital document.</p>
          </sourceDesc>
       </fileDesc>
+     <encodingDesc>
+        <p>The encoding follows the structure described in <ref target="https://doi.org/10.4000/jtei.522">Gerhard Budin, Stefan Majewski and Karlheinz Mörth, « Creating Lexical Resources in TEI P5 », Journal of the Text Encoding Initiative [Online], Issue 3 | November 2012</ref>.</p>
+     </encodingDesc>
   </teiHeader>
   <text>
       <body>
@@ -28,7 +36,7 @@
             <p>This document contains the feature value library used in all VICAV dictionaries.</p>
             <p>For more information how these are used, please refer to the <ref target="https://clarin.oeaw.ac.at/lrp/dict-gate/vle_docu/vicav_dict_encoding__v003.html">VICAV Dictionary Encoding Guidelines</ref>.</p>
 
-            <fvLib n="verbal forms">
+            <fvLib n="Verbal Forms">
                <fs xml:id="v_pres_ind_sg_p1" feats="#pos.verb #tns.pres #mood.ind #num.sg #pers.1"/>
                <fs xml:id="v_pres_ind_sg_p2" feats="#pos.verb #tns.pres #mood.ind #num.sg #pers.2"/>
                <fs xml:id="v_pres_ind_sg_p3" feats="#pos.verb #tns.pres #mood.ind #num.sg #pers.3"/>
@@ -39,7 +47,7 @@
                <!-- WATCHME mood? -->
                <fs xml:id="v_pres_pl_p3" feats="#pos.verb #tns.pres #num.pl #pers.3"/>
                <fs xml:id="v_pres_sg_p3" feats="#pos.verb #tns.pres #mood.ind #num.sg #pers.3"/>
-               <!-- WATCHME v + gender ? -->
+               
                <fs xml:id="v_pres_sg_p3_f" feats="#pos.verb #tns.pres #num.sg #gender.f #pers.3"/>
                
                <!-- verbal noun -->
@@ -65,7 +73,7 @@
                <fs xml:id="v_future_ind_pl_p3" feats="#pos.verb #tns.future #mood.ind #num.pl #pers.3"/>                              
             </fvLib>
             
-            <fvLib n="noun forms">
+            <fvLib n="Noun Forms">
                <!-- construct state of a noun -->
                <fs xml:id="n_constState" feats="#pos.n #subc.constructState"/>               
                
@@ -113,13 +121,13 @@
                
             </fvLib>
             
-            <fvLib n="adjective forms">
+            <fvLib n="Adjective Forms">
                <!--feminine form of an adjective-->
                <fs xml:id="adj_f" feats="#pos.adj #gen.f"/>
                <fs xml:id="adj_pl" feats="#pos.adj #num.pl"/>
             </fvLib>                     
             
-            <fLib n="pos">
+            <fLib n="Part of Speech">
                <f xml:id="pos.verb" name="verb"><symbol value="verb"/></f>
                <f xml:id="pos.adj" name="adjective"><symbol value="adjective"/></f>
                <f xml:id="pos.adv" name="adverb"><symbol value="adverb"/></f>
@@ -133,52 +141,52 @@
                <f xml:id="pos.vn" name="vn"><symbol value="verbalNoun"/></f>
             </fLib>
             
-            <fLib n="derivedVerbClass">
-               <f name="vc.I" n="I"><symbol value="derivedVerbClass1"/></f>
-               <f name="vc.Iq" n="Iq"><symbol value="derivedVerbClass1_quadriliteralVerb"/></f>
-               <f name="vc.II" n="II"><symbol value="derivedVerbClass2"/></f>
-               <f name="vc.IIq" n="IIq"><symbol value="derivedVerbClass2_quadriliteralVerb"/></f>
-               <f name="vc.III" n="III"><symbol value="derivedVerbClass3"/></f>
-               <f name="vc.IV" n="IV"><symbol value="derivedVerbClass4"/></f>
-               <f name="vc.V" n="V"><symbol value="derivedVerbClass5"/></f>
-               <f name="vc.VI" n="VI"><symbol value="derivedVerbClass6"/></f>
-               <f name="vc.VIw" n="VIw"><symbol value="derivedVerbClass6w"/></f>
-               <f name="vc.VII" n="VII"><symbol value="derivedVerbClass7"/></f>
-               <f name="vc.VIII" n="VIII"><symbol value="derivedVerbClass8"/></f>
-               <f name="vc.IX" n="IX"><symbol value="derivedVerbClass9"/></f>
-               <f name="vc.X" n="X"><symbol value="derivedVerbClass10"/></f>
+            <fLib n="Derived Verb Class">
+               <f xml:id="vc.I" name="vc.I" n="I"><symbol value="derivedVerbClass1"/></f>
+               <f xml:id="vc.Iq" name="vc.Iq" n="Iq"><symbol value="derivedVerbClass1_quadriliteralVerb"/></f>
+               <f xml:id="vc.II" name="vc.II" n="II"><symbol value="derivedVerbClass2"/></f>
+               <f xml:id="vc.IIq" name="vc.IIq" n="IIq"><symbol value="derivedVerbClass2_quadriliteralVerb"/></f>
+               <f xml:id="vc.III" name="vc.III" n="III"><symbol value="derivedVerbClass3"/></f>
+               <f xml:id="vc.IV" name="vc.IV" n="IV"><symbol value="derivedVerbClass4"/></f>
+               <f xml:id="vc.V" name="vc.V" n="V"><symbol value="derivedVerbClass5"/></f>
+               <f xml:id="vc.VI" name="vc.VI" n="VI"><symbol value="derivedVerbClass6"/></f>
+               <f xml:id="vc.VIw" name="vc.VIw" n="VIw"><symbol value="derivedVerbClass6w"/></f>
+               <f xml:id="vc.VII" name="vc.VII" n="VII"><symbol value="derivedVerbClass7"/></f>
+               <f xml:id="vc.VIII" name="vc.VIII" n="VIII"><symbol value="derivedVerbClass8"/></f>
+               <f xml:id="vc.IX" name="vc.IX" n="IX"><symbol value="derivedVerbClass9"/></f>
+               <f xml:id="vc.X" name="vc.X" n="X"><symbol value="derivedVerbClass10"/></f>
             </fLib>
             
-            <fLib n="tns">
+            <fLib n="Tense">
                <f xml:id="tns.pres" name="presentTense"><symbol value="presentTense"/></f>
                <f xml:id="tns.past" name="pastTense"><symbol value="pastTense"/></f>
                <f xml:id="tns.future" name="futureTense"><symbol value="futureTense"/></f>               
             </fLib>
             
-            <fLib n="mood">   
+            <fLib n="Mood">   
                <f xml:id="mood.ind" name="indicative"><symbol value="indicative"/></f>
                <f xml:id="mood.imp" name="imperative"><symbol value="imperative"/></f>               
             </fLib>
             
-            <fLib n="number">
+            <fLib n="Number">
                <f xml:id="num.sg" name="singular"><symbol value="singular"/></f>
                <f xml:id="num.pl" name="plural"><symbol value="plural"/></f>
                <f xml:id="num.dual" name="dual"><symbol value="dual"/></f>
             </fLib>
             
-            <fLib n="gender">
+            <fLib n="Gender">
                <f xml:id="gender.m" name="male"><symbol value="male"/></f>
                <f xml:id="gender.f" name="female"><symbol value="female"/></f>
                <f xml:id="gender.n" name="neutral"><symbol value="neutral"/></f>
             </fLib>
             
-            <fLib n="person">   
+            <fLib n="Person">   
                <f xml:id="pers.1" name="firstPerson"><symbol value="1st"/></f>
                <f xml:id="pers.2" name="secondPerson"><symbol value="2nd"/></f>
                <f xml:id="pers.3" name="thirdPerson"><symbol value="3rd"/></f>
            </fLib>
             
-            <fLib n="subc">
+            <fLib n="Subc">
                <f xml:id="subc.dim" name="diminutive"><symbol value="diminutive"/></f>
                <f xml:id="subc.unitNoun" name="unitNoun"><symbol value="unitNoun"/></f>               
                <f xml:id="subc.const" name="constructState"><symbol value="constructState"/></f>               
