@@ -40,12 +40,14 @@
           </content>
         </elementSpec>
         <elementSpec ident="cit" mode="change" module="core">
+          <desc xml:lang="en">Each sample in the feature list is represented as a <gi>cit</gi> element with a nested quote element</desc>
           <constraintSpec ident="cit" scheme="schematron">
             <constraint>
               <s:rule context="tei:cit[@type = 'featureSample']">
                 <s:assert test="*[1] instance of element(tei:lbl)">a lbl element with the name of the exemplified feature must be the first child of a featureSample</s:assert>
-                <s:assert test="exists(tei:quote)">a quote element must be present in a featureSample</s:assert>
+                <s:assert test="exists(tei:quote)">a quote element must be present in a featureSample containing the english example sentence</s:assert>
                 <s:assert test="exists(tei:cit[@type = 'translation'])">a featureSample at least one translation of must be present.</s:assert>
+                <s:assert test="exists(tei:cit/tei:quote[matches(@xml:lang, '^ar')])">a featureSample must have a nested cit containing the dialect version of the sample sentence.</s:assert>
               </s:rule>
             </constraint>
           </constraintSpec>
