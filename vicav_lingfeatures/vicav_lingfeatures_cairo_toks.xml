@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ling_features_cairo">
    <teiHeader>
       <fileDesc>
@@ -10,1644 +11,1370 @@
             <pubPlace>Vienna</pubPlace>
             <date>2018</date>
             <availability status="restricted">
-               <p><ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/></p>
+               <p>
+                  <ref type="license"
+                       target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+               </p>
             </availability>
          </publicationStmt>
          <sourceDesc>
             <p>This is an original digital text</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef matchPattern="(.+)"
+                       replacementPattern="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#$1"
+                       ident="semlib"/>
+            <prefixDef matchPattern="(.+)"
+                       replacementPattern="../vocabs/fLib.xml#$1"
+                       ident="fvlib"/>
+         </listPrefixDef>
+      </encodingDesc>
    </teiHeader>
    <text>
       <body>
-          <head>
+         <head>
               <name xml:lang="eng" type="city">Cairo</name>
               <name xml:lang="eng" type="country">Egypt</name>
           </head>
          <div type="positioning">
-            <p><geo>30.05, 31.23</geo></p>
+            <p>
+               <geo>30.05, 31.23</geo>
+            </p>
          </div>
-
-         <div>
-            <table>
-               <row>
-                  <cell rend="tdLeft"><hi rend="bold">Interrogatives</hi>
-                  </cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre"/>
-                  <cell rend="tdRight"/>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">who?</cell>
-                  <cell xml:space="preserve" rend="tdCom">Most commonly dialects show reflexes of CA <hi rend="italic">man</hi>.</cell>
-                  <cell rend="tdCentre">Who is this man? – He is my friend</cell>
-                  <cell rend="tdRight">
-                     <hi rend="red">
-                        <w ana="#vt_lex_who" xml:id="id_0">mīn</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w ana="#vt_morph_art_def_ass">iṛ</w>
-                     <pc type="ws" xml:id="id_2">-</pc>
-                     <w ana="#vt_lex_man" xml:id="id_3">ṛāgil</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_4"> </seg>
-                     <w ana="#vt_morph_dempron_prox_m_sg" xml:id="id_5">da</w>
+         <div type="featureGroup">
+            <head>Interrogatives</head>
+            <cit type="featureSample">
+               <lbl>who?</lbl>
+               <note>Most commonly dialects show reflexes of CA <hi rend="italic">man</hi>.</note>
+               <quote xml:lang="en">Who is this man? – He is my friend</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                        <w ana="semlib:who" xml:id="id_0">mīn</w>
+                     <w ana="fvlib:art_def_ass" join="right">iṛ</w>
+                     <pc type="ws" xml:id="id_2" join="right">-</pc>
+                     <w ana="semlib:man" xml:id="id_3">ṛāgil</w>
+                     <w ana="fvlib:dempron_prox_m_sg" xml:id="id_5" join="right">da</w>
                      <pc type="ws" xml:id="id_6">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_7"> </seg>
                      <w xml:id="id_8">–</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_9"> </seg>
                      <w xml:id="id_10">da</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_11"> </seg>
-                     <w xml:id="id_12">ṣaḥb</w>
-                     <w ana="#vt_morph_suffix_1_sg">i</w>
+                     <w xml:id="id_12" join="right">ṣaḥb</w>
+                     <w ana="fvlib:suffix_1_sg" join="right">i</w>
                      <pc type="ws" xml:id="id_13">.</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_14"> </seg>
-                     <pc type="ws" xml:id="id_15">(</pc>
-                     <w ana="#vt_morph_perspron_3_sg_m" xml:id="id_16">huwwa</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_17"> </seg>
-                     <w xml:id="id_16_a">ṣaḥb</w>
-                     <w>i</w>
+                     <pc type="ws" xml:id="id_15" join="right">(</pc>
+                     <w ana="fvlib:perspron_3_sg_m" xml:id="id_16">huwwa</w>
+                     <w xml:id="id_16_a" join="right">ṣaḥb</w>
+                     <w join="right">i</w>
                      <pc type="ws" xml:id="id_19">)</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">whose?</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Whose car is this? – This is our car. It’s small but it’s
-                     good.</cell>
-                  <cell rend="tdRight">
-                     <w ana="#vt_morph_dempron_prox_f_sg" xml:id="id_20">di</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_21"> </seg>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample">
+               <lbl>whose?</lbl>
+               <quote xml:lang="en">Whose car is this? – This is our car. It’s small but it’s
+                     good.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <w ana="fvlib:dempron_prox_f_sg" xml:id="id_20">di</w>
                      <w xml:id="id_22">ʕaṛabiyyit</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_23"> </seg>
-                     <hi rend="red">
-                     <w ana="#vt_lex_whose" xml:id="id_24">mīn</w>
-                     </hi>
+                     <w ana="semlib:whose" xml:id="id_24">mīn</w>
                      <pc type="ws" xml:id="id_25">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_26"> </seg>
                      <w xml:id="id_27">–</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_28"> </seg>
                      <w xml:id="id_29">di</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_30"> </seg>
-                     <w xml:id="id_31">l</w>
-                     <pc type="ws" xml:id="id_32">-</pc>
-                     <w ana="#vt_lex_car" xml:id="id_33">ʕaṛabiyya</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_34"> </seg>
-                     <w xml:id="id_35">btaʕitna</w>
+                     <w xml:id="id_31" join="right">l</w>
+                     <pc type="ws" xml:id="id_32" join="right">-</pc>
+                     <w ana="semlib:car" xml:id="id_33">ʕaṛabiyya</w>
+                     <w xml:id="id_35" join="right">btaʕitna</w>
                      <pc type="ws" xml:id="id_36">.</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_37"> </seg>
-                     <pc type="ws" xml:id="id_38">(</pc>
-                     <w ana="#vt_morph_perspron_3_sg_f" xml:id="id_39">hiyya</w>
+                     <pc type="ws" xml:id="id_38" join="right">(</pc>
+                     <w ana="fvlib:perspron_3_sg_f" xml:id="id_39" join="right">hiyya</w>
                      <pc type="ws" xml:id="id_40">)</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_41"> </seg>
                      <w xml:id="id_42">ṣġayyara</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_43"> </seg>
                      <w xml:id="id_44">bassᴵ</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_45"> </seg>
-                     <w xml:id="id_46">kwayyisa</w>
+                     <w xml:id="id_46" join="right">kwayyisa</w>
                      <pc type="ws" xml:id="id_47">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">what?</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Fatima, what are you doing now? – I’m watching TV.</cell>
-                  <cell rend="tdRight">
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample">
+               <lbl>what?</lbl>
+               <quote xml:lang="en">Fatima, what are you doing now? – I’m watching TV.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
                      <w xml:id="id_48">bitiʕmili</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_49"> </seg>
-                     <hi rend="red">
-                        <w ana="#vt_lex_what" xml:id="id_50">ʔēh</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_51">dilwaʔti</w>
+                        <w ana="semlib:what" xml:id="id_50">ʔēh</w>
+                     <w xml:id="id_51" join="right">dilwaʔti</w>
                      <pc type="ws" xml:id="id_52">,</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_53"> </seg>
                      <w xml:id="id_54">yā</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_55"> </seg>
-                     <w xml:id="id_56">faṭma</w>
+                     <w xml:id="id_56" join="right">faṭma</w>
                      <pc type="ws" xml:id="id_57">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_58"> </seg>
                      <w xml:id="id_59">–</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_60"> </seg>
                      <w xml:id="id_61">batfaṛṛag</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_62"> </seg>
-                     <w xml:id="id_63">ʕa</w>
-                     <pc type="ws" xml:id="id_64">-</pc>
-                     <w xml:id="id_65">t</w>
-                     <pc type="ws" xml:id="id_66">-</pc>
-                     <w ana="#vt_lex_TV" xml:id="id_67">tilifizyōn</w>
+                     <w xml:id="id_63" join="right">ʕa</w>
+                     <pc type="ws" xml:id="id_64" join="right">-</pc>
+                     <w xml:id="id_65" join="right">t</w>
+                     <pc type="ws" xml:id="id_66" join="right">-</pc>
+                     <w ana="semlib:TV" xml:id="id_67" join="right">tilifizyōn</w>
                      <pc type="ws" xml:id="id_68">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">why?</cell>
-                  <cell xml:space="preserve" rend="tdCom">A very common pattern are reflexes of CA <hi rend="italic">li
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample">
+               <lbl>why?</lbl>
+               <note>A very common pattern are reflexes of CA <hi rend="italic">li
                         + ’ayy</hi> or <hi rend="italic">li + ’ayy + šay’</hi>
-                  </cell>
-                  <cell rend="tdCentre">Why didn’t he come? – I don’t know. </cell>
-                  <cell rend="tdRight">
-                     <w xml:id="id_69">ma</w>
-                     <pc type="ws" xml:id="id_70">-</pc>
-                     <w xml:id="id_71">gā</w>
-                     <pc type="ws" xml:id="id_72">-</pc>
+                  </note>
+               <quote xml:lang="en">Why didn’t he come? – I don’t know. </quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <w xml:id="id_69" join="right">ma</w>
+                     <pc type="ws" xml:id="id_70" join="right">-</pc>
+                     <w xml:id="id_71" join="right">gā</w>
+                     <pc type="ws" xml:id="id_72" join="right">-</pc>
                      <w xml:id="id_73">š</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_74"> </seg>
-                     <hi rend="red">
-                        <w ana="#vt_lex_why" xml:id="id_75">lēh</w>
-                     </hi>
+                        <w ana="semlib:why" xml:id="id_75">lēh</w>
                      <pc type="ws" xml:id="id_76">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_77"> </seg>
                      <w xml:id="id_78">–</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_79"> </seg>
-                     <w xml:id="id_80">ma</w>
-                     <pc type="ws" xml:id="id_81">-</pc>
-                     <w xml:id="id_82">baʕṛaf</w>
-                     <pc type="ws" xml:id="id_83">-</pc>
-                     <w xml:id="id_84">š</w>
+                     <w xml:id="id_80" join="right">ma</w>
+                     <pc type="ws" xml:id="id_81" join="right">-</pc>
+                     <w xml:id="id_82" join="right">baʕṛaf</w>
+                     <pc type="ws" xml:id="id_83" join="right">-</pc>
+                     <w xml:id="id_84" join="right">š</w>
                      <pc type="ws" xml:id="id_85">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">where?</cell>
-                  <cell xml:space="preserve" rend="tdCom">A very common pattern are reflexes of CA <hi rend="italic">fī
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample">
+               <lbl>where?</lbl>
+               <note>A very common pattern are reflexes of CA <hi rend="italic">fī
                         + ’ayna</hi>
-                  </cell>
-                  <cell rend="tdCentre">Where is my mobile (phone)? – Here it is!</cell>
-                  <cell rend="tdRight">
-                     <hi rend="red">
-                        <w ana="#vt_lex_where" xml:id="id_86">fēn</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w ana="{ana}">il</w>
-                     <pc type="ws" xml:id="id_88">-</pc>
+                  </note>
+               <quote xml:lang="en">Where is my mobile (phone)? – Here it is!</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                        <w ana="semlib:where" xml:id="id_86">fēn</w>
+                     <w ana="{ana}" join="right">il</w>
+                     <pc type="ws" xml:id="id_88" join="right">-</pc>
                      <w xml:id="id_89">mubayl</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_90"> </seg>
-                     <w xml:id="id_91">bitāʕi</w>
+                     <w xml:id="id_91" join="right">bitāʕi</w>
                      <pc type="ws" xml:id="id_92">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_93"> </seg>
                      <w xml:id="id_94">–</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_95"> </seg>
-                     <w xml:id="id_96">ʔahó</w>
+                     <w xml:id="id_96" join="right">ʔahó</w>
                      <pc type="ws" xml:id="id_97">!</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">where to?</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Where are you (m./f.) going? – I am going home.</cell>
-                  <cell rend="tdRight">
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample">
+               <lbl>where to?</lbl>
+               <quote xml:lang="en">Where are you (m./f.) going? – I am going home.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
                      <w xml:id="id_98">rāyiḥ/rayḥa</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_99"> </seg>
-                     <hi rend="red">
-                     <phr ana="#vt_lex_where_to">
-                     <w>(</w>
-                     <w>ʕala</w>
-                     <w>)</w>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w>fēn</w>
+                     <phr ana="semlib:where_to">
+                        <w join="right">(</w>
+                        <w join="right">ʕala</w>
+                        <w>)</w>
+                     
+                        <w>fēn</w>
                      </phr>
-                     </hi>
                      <pc type="ws" xml:id="id_105">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_106"> </seg>
                      <w xml:id="id_107">–</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_108"> </seg>
-                     <w xml:id="id_109">ʕa</w>
-                     <w xml:id="id_110">-</w>
-                     <w xml:id="id_111">l</w>
-                     <pc type="ws" xml:id="id_112">-</pc>
-                     <w xml:id="id_113">bēt</w>
+                     <w xml:id="id_109" join="right">ʕa</w>
+                     <w xml:id="id_110" join="right">-</w>
+                     <w xml:id="id_111" join="right">l</w>
+                     <pc type="ws" xml:id="id_112" join="right">-</pc>
+                     <w xml:id="id_113" join="right">bēt</w>
                      <pc type="ws" xml:id="id_114">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">where from?</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Where are you (m./f.; sg./pl.) from? – I am/ We are from
-                     Cairo.</cell>
-                  <cell rend="tdRight">
-                     <w ana="#vt_morph_perspron_2_sg_m" xml:id="id_115">ʔinta</w>
-                     <w xml:id="id_115_a">/</w>
-                     <w ana="#vt_morph_perspron_2_sg_f" xml:id="id_115_a_a">ʔinti</w>
-                     <w xml:id="id_115_a_a_a">/</w>
-                     <w ana="#vt_morph_perspron_2_pl" xml:id="id_115_a_a_a_a">ʔintu</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_116"> </seg>
-                     <hi rend="red">
-                        <w ana="#vt_lex_where_from" xml:id="id_117">mnēn</w>
-                     </hi>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample">
+               <lbl>where from?</lbl>
+               <quote xml:lang="en">Where are you (m./f.; sg./pl.) from? – I am/ We are from
+                     Cairo.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <w ana="fvlib:perspron_2_sg_m" xml:id="id_115" join="right">ʔinta</w>
+                     <w xml:id="id_115_a" join="right">/</w>
+                     <w ana="fvlib:perspron_2_sg_f" xml:id="id_115_a_a" join="right">ʔinti</w>
+                     <w xml:id="id_115_a_a_a" join="right">/</w>
+                     <w ana="fvlib:perspron_2_pl" xml:id="id_115_a_a_a_a">ʔintu</w>
+                        <w ana="semlib:where_from" xml:id="id_117">mnēn</w>
                      <pc type="ws" xml:id="id_118">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_119"> </seg>
                      <w xml:id="id_120">–</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_121"> </seg>
-                     <w ana="#vt_morph_perspron_1_sg" xml:id="id_122">ʔana</w>
-                     <w xml:id="id_122_a">/</w>
-                     <w ana="#vt_morph_perspron_1_pl" xml:id="id_122_a_a">ʔiḥna</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_123"> </seg>
+                     <w ana="fvlib:perspron_1_sg" xml:id="id_122" join="right">ʔana</w>
+                     <w xml:id="id_122_a" join="right">/</w>
+                     <w ana="fvlib:perspron_1_pl" xml:id="id_122_a_a">ʔiḥna</w>
                      <w xml:id="id_124">min</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_125"> </seg>
-                     <w xml:id="id_126">maṣr</w>
+                     <w xml:id="id_126" join="right">maṣr</w>
                      <pc type="ws" xml:id="id_127">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">when?</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Fatima, when did you see Muhammad? – I saw him yesterday. </cell>
-                  <cell rend="tdRight">
-                     <w xml:id="id_128">ya</w>
-                     <pc type="ws" xml:id="id_129">-</pc>
-                     <w xml:id="id_130">faṭma</w>
-                     <pc type="ws" xml:id="id_131">,</pc> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_132"> </seg>
-                     <hi rend="red">
-                        <w ana="#vt_lex_when" xml:id="id_133">ʔimta</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample">
+               <lbl>when?</lbl>
+               <quote xml:lang="en">Fatima, when did you see Muhammad? – I saw him yesterday. </quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <w xml:id="id_128" join="right">ya</w>
+                     <pc type="ws" xml:id="id_129" join="right">-</pc>
+                     <w xml:id="id_130" join="right">faṭma</w>
+                     <pc type="ws" xml:id="id_131">,</pc>
+                        <w ana="semlib:when" xml:id="id_133">ʔimta</w>
                      <w xml:id="id_134">šufti</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_135"> </seg>
-                     <w xml:id="id_136">mḥammad</w>
+                     <w xml:id="id_136" join="right">mḥammad</w>
                      <pc type="ws" xml:id="id_137">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_138"> </seg>
                      <w xml:id="id_139">–</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_140"> </seg>
-                     <w xml:id="id_141">šuft</w>
+                     <w xml:id="id_141" join="right">šuft</w>
                      <w xml:id="id_142">u</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_143"> </seg>
-                     <w xml:id="id_144">mbāriḥ</w>
+                     <w xml:id="id_144" join="right">mbāriḥ</w>
                      <pc type="ws" xml:id="id_145">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">how?</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">How are you (m./f.)? – I’m fine.</cell>
-                  <cell rend="tdRight">
-                     <hi rend="red">
-                        <w ana="#vt_lex_how" xml:id="id_146">ʔizzayy</w>
-                     </hi>
-                     <w xml:id="id_147">ak</w>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample">
+               <lbl>how?</lbl>
+               <quote xml:lang="en">How are you (m./f.)? – I’m fine.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                        <w ana="semlib:how" xml:id="id_146">ʔizzayy</w>
+                     <w xml:id="id_147" join="right">ak</w>
                      <pc type="ws" xml:id="id_148">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_149"> </seg>
                      <w xml:id="id_150">–</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_151"> </seg>
-                     <w xml:id="id_152">kwayyis</w>
+                     <w xml:id="id_152" join="right">kwayyis</w>
                      <pc type="ws" xml:id="id_153">,</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_154"> </seg>
-                     <pc type="ws" xml:id="id_155">(</pc>
-                     <w xml:id="id_156">il</w>
-                     <pc type="ws" xml:id="id_157">-</pc>
+                     <pc type="ws" xml:id="id_155" join="right">(</pc>
+                     <w xml:id="id_156" join="right">il</w>
+                     <pc type="ws" xml:id="id_157" join="right">-</pc>
                      <w xml:id="id_158">ḥamdu</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_159"> </seg>
-                     <w xml:id="id_160">li</w>
-                     <pc type="ws" xml:id="id_161">-</pc>
-                     <w xml:id="id_162">llāh</w>
-                     <pc type="ws" xml:id="id_163">)</pc>
+                     <w xml:id="id_160" join="right">li</w>
+                     <pc type="ws" xml:id="id_161" join="right">-</pc>
+                     <w xml:id="id_162" join="right">llāh</w>
+                     <pc type="ws" xml:id="id_163" join="right">)</pc>
                      <pc type="ws" xml:id="id_164">.</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_165"> </seg>
-                     <w xml:id="id_166">/</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_167"> </seg>
-                     <hi rend="red">
+                     <w xml:id="id_166">/</w>
                         <w xml:id="id_168">ʔizzayy</w>
-                     </hi>
-                     <w xml:id="id_169">ik</w>
+                     <w xml:id="id_169" join="right">ik</w>
                      <pc type="ws" xml:id="id_170">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_171"> </seg>
                      <w xml:id="id_172">–</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_173"> </seg>
-                     <w xml:id="id_174">kuwayyisa</w>
+                     <w xml:id="id_174" join="right">kuwayyisa</w>
                      <pc type="ws" xml:id="id_175">,</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_176"> </seg>
-                     <pc type="ws" xml:id="id_177">(</pc>
-                     <w xml:id="id_178">l</w>
-                     <pc type="ws" xml:id="id_179">-</pc>
+                     <pc type="ws" xml:id="id_177" join="right">(</pc>
+                     <w xml:id="id_178" join="right">l</w>
+                     <pc type="ws" xml:id="id_179" join="right">-</pc>
                      <w xml:id="id_180">ḥamdu</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_181"> </seg>
-                     <w xml:id="id_182">li</w>
-                     <pc type="ws" xml:id="id_183">-</pc>
-                     <w xml:id="id_184">llāh</w>
-                     <pc type="ws" xml:id="id_185">)</pc>
+                     <w xml:id="id_182" join="right">li</w>
+                     <pc type="ws" xml:id="id_183" join="right">-</pc>
+                     <w xml:id="id_184" join="right">llāh</w>
+                     <pc type="ws" xml:id="id_185" join="right">)</pc>
                      <pc type="ws" xml:id="id_186">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">how much?</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">How much is half a kilo of lemons? – It’s 10 Pounds. </cell>
-                  <cell rend="tdRight">
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample">
+               <lbl>how much?</lbl>
+               <quote xml:lang="en">How much is half a kilo of lemons? – It’s 10 Pounds. </quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
                      <w xml:id="id_187">nuṣṣᴵ</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_188"> </seg>
                      <w xml:id="id_189">kīlu</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_190"> </seg>
-                     <w xml:id="id_190_" ana="#vt_lex_lemon">lamūn</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_192"> </seg>
-                     <hi rend="red">
-                     <phr ana="#vt_lex_how_much">
-                        <w xml:id="id_193">b</w>
-                        <pc type="ws" xml:id="id_194">-</pc>
+                     <w xml:id="id_190_" ana="semlib:lemon">lamūn</w>
+                     <phr ana="semlib:how_much">
+                        <w xml:id="id_193" join="right">b</w>
+                        <pc type="ws" xml:id="id_194" join="right">-</pc>
                         <w xml:id="id_195">kām</w>
                         </phr>
-                     </hi>
                      <pc type="ws" xml:id="id_196">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_197"> </seg>
                      <w xml:id="id_198">–</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_199"> </seg>
-                     <w xml:id="id_200">bi</w>
-                     <pc type="ws" xml:id="id_201">-</pc>
+                     <w xml:id="id_200" join="right">bi</w>
+                     <pc type="ws" xml:id="id_201" join="right">-</pc>
                      <w xml:id="id_202">ʕašra</w>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w ana="{ana}">ginēh</w>
+                     <w ana="{ana}" join="right">ginēh</w>
                      <pc type="ws" xml:space="preserve">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">how many?</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">How many children do you (f.) have? – I have
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample">
+               <lbl>how many?</lbl>
+               <quote xml:lang="en">How many children do you (f.) have? – I have
                      two daughters
-                     and three sons.</cell>
-                  <cell rend="tdRight">
-                     <w ana="#vt_lex_to_have" xml:id="id_205">ʕand</w>
+                     and three sons.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <w ana="semlib:to_have" xml:id="id_205" join="right">ʕand</w>
                      <w xml:id="id_206">ak</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_207"> </seg>
-                     <hi rend="red">
-                        <w ana="#vt_lex_how_many" xml:id="id_208">kām</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_209">walad</w>
+                        <w ana="semlib:how_many" xml:id="id_208">kām</w>
+                     <w xml:id="id_209" join="right">walad</w>
                      <pc type="ws" xml:space="preserve">?</pc>
-                     <seg type="ws" xml:space="preserve"> </seg>
                      <w ana="{ana}">–</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_213"> </seg>
                      <w xml:id="id_214">ʕandi</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_215"> </seg>
                      <w xml:id="id_216">bintēn</w>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_216a" ana="{ana}">w</w>
-                     <w xml:id="id_216b">-</w>
+                     <w xml:id="id_216a" ana="{ana}" join="right">w</w>
+                     <w xml:id="id_216b" join="right">-</w>
                      <w ana="#vt_phon_CA_th #vt_lex_three">talat</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_220"> </seg>
-                     <w xml:id="id_221">wilād</w>
+                     <w xml:id="id_221" join="right">wilād</w>
                      <pc type="ws" xml:id="id_222">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">which?</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">In which neighbourhood do you live? – We live in Zamalik. </cell>
-                  <cell rend="tdRight">
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample">
+               <lbl>which?</lbl>
+               <quote xml:lang="en">In which neighbourhood do you live? – We live in Zamalik. </quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
                      <w xml:id="id_223">saknīn</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_224"> </seg>
                      <w xml:id="id_225">fi</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_226"> </seg>
-                     <w xml:id="id_227">manṭiʔit</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_228"> </seg>
-                     <hi rend="red">
-                        <w ana="#vt_lex_which" xml:id="id_229">ēh</w>
-                     </hi>
+                     <w xml:id="id_227">manṭiʔit</w>
+                        <w ana="semlib:which" xml:id="id_229">ēh</w>
                      <pc type="ws" xml:id="id_230">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_231"> </seg>
                      <w xml:id="id_232">–</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_233"> </seg>
                      <w xml:id="id_234">iḥna</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_235"> </seg>
                      <w xml:id="id_236">saknīn</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_237"> </seg>
                      <w xml:id="id_238">fi</w>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_239">z</w>
-                     <pc type="ws" xml:id="id_240">-</pc>
-                     <w xml:id="id_241">zamālik</w>
+                     <w xml:id="id_239" join="right">z</w>
+                     <pc type="ws" xml:id="id_240" join="right">-</pc>
+                     <w xml:id="id_241" join="right">zamālik</w>
                      <pc type="ws" xml:id="id_242">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">
-                     <hi rend="bold">Demonstratives</hi>
-                  </cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre"/>
-                  <cell rend="tdRight"/>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">this</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Who is this man? – He is my friend</cell>
-                  <cell rend="tdRight">
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+         </div>
+         <div type="featureGroup">
+            <head>Demonstratives</head>
+            <cit type="featureSample">
+               <lbl>this</lbl>
+               <quote xml:lang="en">Who is this man? – He is my friend</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
                      <w xml:id="id_243">mīn</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_244"> </seg>
-                     <w xml:id="id_245">iṛ</w>
-                     <pc type="ws" xml:id="id_246">-</pc>
-                     <w xml:id="id_247">ṛāgil</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_248"> </seg>
-                     <hi rend="red">
+                     <w xml:id="id_245" join="right">iṛ</w>
+                     <pc type="ws" xml:id="id_246" join="right">-</pc>
+                     <w xml:id="id_247">ṛāgil</w>
                         <w xml:id="id_249">da</w>
-                     </hi>
                      <pc type="ws" xml:id="id_250">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_251"> </seg>
                      <w xml:id="id_252">–</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_253"> </seg>
                      <w xml:id="id_254">da</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_255"> </seg>
-                     <w xml:id="id_256">ṣaḥbi</w>
+                     <w xml:id="id_256" join="right">ṣaḥbi</w>
                      <pc type="ws" xml:id="id_257">.</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_258"> </seg>
-                     <pc type="ws" xml:id="id_259">(</pc>
+                     <pc type="ws" xml:id="id_259" join="right">(</pc>
                      <w xml:id="id_260">huwwa</w>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_261">ṣaḥbi</w>
+                     <w xml:id="id_261" join="right">ṣaḥbi</w>
                      <pc type="ws" xml:id="id_262">)</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">
-                     <hi rend="bold">Pronouns</hi>
-                  </cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre"/>
-                  <cell rend="tdRight"/>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">I</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">I am a teacher.</cell>
-                  <cell rend="tdRight">
-                     <hi rend="red">
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+         </div>
+         <div type="featureGroup">
+            <head>Pronouns</head>
+            <cit type="featureSample">
+               <lbl>I</lbl>
+               <quote xml:lang="en">I am a teacher.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
                         <w xml:id="id_263">ʔana</w>
-                      </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_264">mudarris</w>
+                      <w xml:id="id_264" join="right">mudarris</w>
                      <pc type="ws" xml:id="id_265">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">
-                     <hi rend="bold">Presentatives</hi>
-                  </cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre"/>
-                  <cell rend="tdRight"/>
-                  <cell rend="tdID">
-                     <pc type="ws" xml:id="id_266">?</pc>
-                     <pc type="ws" xml:id="id_267">?</pc>
-                     <pc type="ws" xml:id="id_268">?</pc>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample">
+               <lbl>
+                  <hi rend="bold">Presentatives</hi>
+               </lbl>
+               <quote xml:lang="en"/>
+               <cit type="translation">
+                  <quote xml:lang="ar"/>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de">
+                     <pc type="ws" xml:id="id_266" join="right">?</pc>
+                     <pc type="ws" xml:id="id_267" join="right">?</pc>
+                     <pc type="ws" xml:id="id_268" join="right">?</pc>
                      <pc type="ws" xml:id="id_269">?</pc>
-                  </cell>
-               </row>
-               <row>
-                  <cell rend="tdLeft">there is … (m.)</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Where is my mobile? – Here is the phone!</cell>
-                  <cell rend="tdRight">
+                  </quote>
+               </cit>
+            </cit>
+            <cit type="featureSample">
+               <lbl>there is … (m.)</lbl>
+               <quote xml:lang="en">Where is my mobile? – Here is the phone!</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
                      <w xml:id="id_270">fēn</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_271"> </seg>
-                     <w xml:id="id_272">il</w>
-                     <pc type="ws" xml:id="id_273">-</pc>
+                     <w xml:id="id_272" join="right">il</w>
+                     <pc type="ws" xml:id="id_273" join="right">-</pc>
                      <w xml:id="id_274">mubayl</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_275"> </seg>
-                     <w xml:id="id_276">bitāʕi</w>
+                     <w xml:id="id_276" join="right">bitāʕi</w>
                      <pc type="ws" xml:id="id_277">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_278"> </seg>
                      <w xml:id="id_279">–</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_280"> </seg>
-                     <w xml:id="id_281">il</w>
-                     <pc type="ws" xml:id="id_282">-</pc>
-                     <w xml:id="id_283">mubayl</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_284"> </seg>
-                     <hi rend="red">
-                        <w ana="#vt_morph_pres_m_sg" xml:id="id_285">ʔahó</w>
-                     </hi>
+                     <w xml:id="id_281" join="right">il</w>
+                     <pc type="ws" xml:id="id_282" join="right">-</pc>
+                     <w xml:id="id_283">mubayl</w>
+                        <w ana="fvlib:pres_m_sg" xml:id="id_285">ʔahó</w>
                      <pc type="ws" xml:id="id_286">!</pc>
-                  </cell>
-                  <cell rend="tdID">
-                     <pc type="ws" xml:id="id_287">?</pc>
-                     <pc type="ws" xml:id="id_288">?</pc>
-                     <pc type="ws" xml:id="id_289">?</pc>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de">
+                     <pc type="ws" xml:id="id_287" join="right">?</pc>
+                     <pc type="ws" xml:id="id_288" join="right">?</pc>
+                     <pc type="ws" xml:id="id_289" join="right">?</pc>
                      <pc type="ws" xml:id="id_290">?</pc>
-                  </cell>
-               </row>
-               <row>
-                  <cell rend="tdLeft">there is … (f.)</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Where is the car? – Here it is!</cell>
-                  <cell rend="tdRight">
+                  </quote>
+               </cit>
+            </cit>
+            <cit type="featureSample">
+               <lbl>there is … (f.)</lbl>
+               <quote xml:lang="en">Where is the car? – Here it is!</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
                      <w xml:id="id_291">fēn</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_292"> </seg>
-                     <w xml:id="id_293">il</w>
-                     <pc type="ws" xml:id="id_294">-</pc>
-                     <w xml:id="id_295">ʕaṛabiyya</w>
+                     <w xml:id="id_293" join="right">il</w>
+                     <pc type="ws" xml:id="id_294" join="right">-</pc>
+                     <w xml:id="id_295" join="right">ʕaṛabiyya</w>
                      <pc type="ws" xml:id="id_296">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_297"> </seg>
-                     <w xml:id="id_298">–</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_299"> </seg>
-                     <hi rend="red">
-                        <w ana="#vt_morph_pres_f_sg" xml:id="id_300">ʔahé</w>
-                     </hi>
+                     <w xml:id="id_298">–</w>
+                        <w ana="fvlib:pres_f_sg" xml:id="id_300">ʔahé</w>
                      <pc type="ws" xml:id="id_301">!</pc>
-                  </cell>
-                  <cell rend="tdID">
-                     <pc type="ws" xml:id="id_302">?</pc>
-                     <pc type="ws" xml:id="id_303">?</pc>
-                     <pc type="ws" xml:id="id_304">?</pc>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de">
+                     <pc type="ws" xml:id="id_302" join="right">?</pc>
+                     <pc type="ws" xml:id="id_303" join="right">?</pc>
+                     <pc type="ws" xml:id="id_304" join="right">?</pc>
                      <pc type="ws" xml:id="id_305">?</pc>
-                  </cell>
-               </row>
-               <row>
-                  <cell rend="tdLeft">
-                     <hi rend="bold">Adverbs</hi>
-                  </cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre"/>
-                  <cell rend="tdRight"/>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">here</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">We have been here for 8 years.</cell>
-                  <cell rend="tdRight">
-                     <w xml:id="id_306">baʔa</w>
-                     <pc type="ws" xml:id="id_307">-</pc>
-                     <w xml:id="id_308">lna</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_309"> </seg>
-                     <hi rend="red">
-                        <w ana="#vt_lex_here" xml:id="id_310">hina</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w ana="#vt_lex_eight" xml:id="id_311">taman</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_312"> </seg>
-                     <w xml:id="id_313">sanawāt</w>
+                  </quote>
+               </cit>
+            </cit>
+         </div>
+         <div type="featureGroup">
+            <head>Adverbs</head>
+            <cit type="featureSample" ana="semlib:here">
+               <lbl>here</lbl>
+               <quote xml:lang="en">We have been here for 8 years.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <w xml:id="id_306" join="right">baʔa</w>
+                     <pc type="ws" xml:id="id_307" join="right">-</pc>
+                     <w xml:id="id_308">lna</w>
+                        <w ana="semlib:here" xml:id="id_310">hina</w>
+                     <w ana="semlib:eight" xml:id="id_311">taman</w>
+                     <w xml:id="id_313" join="right">sanawāt</w>
                      <pc type="ws" xml:id="id_314">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">now</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Fatima, what are you doing now? – I’m watching TV. </cell>
-                  <cell rend="tdRight">
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:now">
+               <lbl>now</lbl>
+               <quote xml:lang="en">Fatima, what are you doing now? – I’m watching TV. </quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
                      <w xml:id="id_315">bitiʕmili</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_316"> </seg>
-                     <w xml:id="id_317">ʔēh</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_318"> </seg>
-                     <hi rend="red">
-                        <w ana="#vt_lex_now" xml:id="id_319">dilwaʔti</w>
-                     </hi>
+                     <w xml:id="id_317">ʔēh</w>
+                        <w ana="semlib:now" xml:id="id_319">dilwaʔti</w>
                      <pc type="ws" xml:id="id_320">,</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_321"> </seg>
                      <w xml:id="id_322">yā</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_323"> </seg>
-                     <w xml:id="id_324">faṭma</w>
+                     <w xml:id="id_324" join="right">faṭma</w>
                      <pc type="ws" xml:id="id_325">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_326"> </seg>
                      <w xml:id="id_327">–</w>
-                     <seg type="ws" xml:space="preserve"> </seg>
                      <w xml:id="id_328">batfaṛṛag</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_329"> </seg>
-                     <w xml:id="id_330">ʕa</w>
-                     <pc type="ws" xml:id="id_331">-</pc>
-                     <w xml:id="id_332">t</w>
-                     <pc type="ws" xml:id="id_333">-</pc>
-                     <w xml:id="id_334">tilifizyōn</w>
+                     <w xml:id="id_330" join="right">ʕa</w>
+                     <pc type="ws" xml:id="id_331" join="right">-</pc>
+                     <w xml:id="id_332" join="right">t</w>
+                     <pc type="ws" xml:id="id_333" join="right">-</pc>
+                     <w xml:id="id_334" join="right">tilifizyōn</w>
                      <pc type="ws" xml:id="id_335">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">today</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">It’s very hot today.</cell>
-                  <cell rend="tdRight">
-                     <w xml:id="id_336">ʔid</w>
-                     <pc type="ws" xml:id="id_337">-</pc>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:today">
+               <lbl>today</lbl>
+               <quote xml:lang="en">It’s very hot today.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <w xml:id="id_336" join="right">ʔid</w>
+                     <pc type="ws" xml:id="id_337" join="right">-</pc>
                      <w xml:id="id_338">dinya</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_339"> </seg>
                      <w xml:id="id_340">ḥarrᴵ</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_341"> </seg>
-                     <w xml:id="id_342">ʔawi</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_343"> </seg>
-                     <hi rend="red">
-                     <w ana="#vt_lex_today" xml:id="id_344">in-nahaṛ-da</w>
-                     </hi>
+                     <w xml:id="id_342">ʔawi</w>
+                     <w ana="semlib:today" xml:id="id_344">in-nahaṛ-da</w>
                      <pc type="ws" xml:id="id_349">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">yesterday</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Yesterday it rained.</cell>
-                  <cell rend="tdRight">
-                     <w xml:id="id_350">ʔid</w>
-                     <pc type="ws" xml:id="id_351">-</pc>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:yesterday">
+               <lbl>yesterday</lbl>
+               <quote xml:lang="en">Yesterday it rained.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <w xml:id="id_350" join="right">ʔid</w>
+                     <pc type="ws" xml:id="id_351" join="right">-</pc>
                      <w xml:id="id_352">dinya</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_353"> </seg>
                      <w xml:id="id_354">kānit</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_355"> </seg>
-                     <w xml:id="id_356">bitmaṭṭaṛ</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_357"> </seg>
-                     <hi rend="red">
-                        <w ana="#vt_lex_yesterday" xml:id="id_358">imbāriḥ</w>
-                     </hi>
+                     <w xml:id="id_356">bitmaṭṭaṛ</w>
+                        <w ana="semlib:yesterday" xml:id="id_358">imbāriḥ</w>
                      <pc type="ws" xml:id="id_359">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">tomorrow</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Hey kids, tomorrow you have to study.</cell>
-                  <cell rend="tdRight">
-                     <w xml:id="id_360">ya</w>
-                     <pc type="ws" xml:id="id_361">-</pc>
-                     <w xml:id="id_362">wlād</w>
-                     <pc type="ws" xml:id="id_363">,</pc> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_364"> </seg>
-                     <hi rend="red">
-                        <w ana="#vt_lex_tomorrow" xml:id="id_365">bukṛa</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:tomorrow">
+               <lbl>tomorrow</lbl>
+               <quote xml:lang="en">Hey kids, tomorrow you have to study.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <w xml:id="id_360" join="right">ya</w>
+                     <pc type="ws" xml:id="id_361" join="right">-</pc>
+                     <w xml:id="id_362" join="right">wlād</w>
+                     <pc type="ws" xml:id="id_363">,</pc>
+                        <w ana="semlib:tomorrow" xml:id="id_365">bukṛa</w>
                      <w xml:id="id_366_a">lāzim</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_367"> </seg>
-                     <w xml:id="id_368">tidrisu</w>
+                     <w xml:id="id_368" join="right">tidrisu</w>
                      <pc type="ws" xml:id="id_369">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">last year</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Last year we had many problems.</cell>
-                  <cell rend="tdRight">
-                     <hi rend="red">
-                     <phr ana="#vt_lex_last_year">
-                        <w xml:id="id_370">ʔis</w>
-                        <pc type="ws" xml:id="id_371">-</pc>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:last_year">
+               <lbl>last year</lbl>
+               <quote xml:lang="en">Last year we had many problems.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <phr ana="semlib:last_year">
+                        <w xml:id="id_370" join="right">ʔis</w>
+                        <pc type="ws" xml:id="id_371" join="right">-</pc>
                         <w xml:id="id_372">sana</w>
-                        <seg type="ws" xml:space="preserve" xml:id="id_373"> </seg>
+                        
                         <w xml:id="id_374">lli</w>
-                        <seg type="ws" xml:space="preserve" xml:id="id_375"> </seg>
+                        
                         <w xml:id="id_376">fātit</w>
                         </phr>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
                      <w xml:id="id_377_a">kān</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_378"> </seg>
                      <w xml:id="id_379">ʕandina</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_380"> </seg>
                      <w xml:id="id_381">mašākil</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_382"> </seg>
-                     <w xml:id="id_383">kitīr</w>
+                     <w xml:id="id_383" join="right">kitīr</w>
                      <pc type="ws" xml:id="id_384">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">
-                     <hi rend="bold">Numerals</hi>
-                  </cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre"/>
-                  <cell rend="tdRight"/>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">eight</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">We have been here for 8 years. </cell>
-                  <cell rend="tdRight">
-                     <w xml:id="id_385">baʔa</w>
-                     <pc type="ws" xml:id="id_386">-</pc>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+         </div>
+         <div type="featureGroup">
+            <head>Numerals</head>
+            <cit type="featureSample" ana="semlib:eight">
+               <lbl>eight</lbl>
+               <quote xml:lang="en">We have been here for 8 years. </quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <w xml:id="id_385" join="right">baʔa</w>
+                     <pc type="ws" xml:id="id_386" join="right">-</pc>
                      <w xml:id="id_387">lna</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_388"> </seg>
-                     <w xml:id="id_389">hina</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_390"> </seg>
-                     <hi rend="red">
+                     <w xml:id="id_389">hina</w>
                         <w xml:id="id_391">taman</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_392_a">sanawāt</w>
+                     <w xml:id="id_392_a" join="right">sanawāt</w>
                      <pc type="ws" xml:id="id_393">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">eleven</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">What’s the time? It’s 11 o’clock.</cell>
-                  <cell rend="tdRight">
-                     <w xml:id="id_394">ʔis</w>
-                     <pc type="ws" xml:id="id_395">-</pc>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:eleven">
+               <lbl>eleven</lbl>
+               <quote xml:lang="en">What’s the time? It’s 11 o’clock.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <w xml:id="id_394" join="right">ʔis</w>
+                     <pc type="ws" xml:id="id_395" join="right">-</pc>
                      <w xml:id="id_396">sāʕa</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_397"> </seg>
-                     <w xml:id="id_398">kām</w>
+                     <w xml:id="id_398" join="right">kām</w>
                      <pc type="ws" xml:id="id_399">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_400"> </seg>
                      <w xml:id="id_401">–</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_402"> </seg>
-                     <w xml:id="id_403">ʔis</w>
-                     <pc type="ws" xml:id="id_404">-</pc>
-                     <w xml:id="id_405">sāʕa</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_406"> </seg>
-                     <hi rend="red">
-                        <w ana="#vt_lex_eleven" xml:id="id_407">ḥidāšaṛ</w>
-                     </hi>
+                     <w xml:id="id_403" join="right">ʔis</w>
+                     <pc type="ws" xml:id="id_404" join="right">-</pc>
+                     <w xml:id="id_405">sāʕa</w>
+                        <w ana="semlib:eleven" xml:id="id_407">ḥidāšaṛ</w>
                      <pc type="ws" xml:id="id_408">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">twelve</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">They have 12 goats and 2 cows.</cell>
-                  <cell rend="tdRight">
-                     <pc type="ws" xml:id="id_409">-</pc>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:twelve">
+               <lbl>twelve</lbl>
+               <quote xml:lang="en">They have 12 goats and 2 cows.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <pc type="ws" xml:id="id_409" join="right">-</pc>
                      <pc type="ws" xml:id="id_410">-</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">eighteen</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">There are 18 new students in our class.</cell>
-                  <cell rend="tdRight">
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:eighteen">
+               <lbl>eighteen</lbl>
+               <quote xml:lang="en">There are 18 new students in our class.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
                      <w xml:id="id_411">fi</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_412"> </seg>
                      <w xml:id="id_413">faṣlina</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_414"> </seg>
-                     <w xml:id="id_415">fīh</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_416"> </seg>
-                     <hi rend="red">
-                     <w ana="#vt_lex_eighteen" xml:id="id_417">tamantāšar</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="id_415">fīh</w>
+                     <w ana="semlib:eighteen" xml:id="id_417">tamantāšar</w>
                      <w xml:id="id_418_a">ṭālib</w>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_419">gidīd</w>
+                     <w xml:id="id_419" join="right">gidīd</w>
                      <pc type="ws" xml:id="id_420">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">
-                     <hi rend="bold">Adjectives</hi>
-                  </cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre"/>
-                  <cell rend="tdRight"/>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">good</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">How are you (m./f.)? – I’m fine.</cell>
-                  <cell rend="tdRight">
-                     <w xml:id="id_421">ʔizzayyak</w>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+         </div>
+         <div type="featureGroup">
+            <head>Adjectives</head>
+            <cit type="featureSample" ana="semlib:good">
+               <lbl>good</lbl>
+               <quote xml:lang="en">How are you (m./f.)? – I’m fine.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <w xml:id="id_421" join="right">ʔizzayyak</w>
                      <pc type="ws" xml:id="id_422">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_423"> </seg>
-                     <w xml:id="id_424">–</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_425"> </seg>
-                     <hi rend="red">
-                        <w ana="#vt_lex_good" xml:id="id_426">kwayyis</w>
-                     </hi>
+                     <w xml:id="id_424">–</w>
+                        <w ana="semlib:good" xml:id="id_426">kwayyis</w>
                      <pc type="ws" xml:id="id_427">,</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_428"> </seg>
-                     <pc type="ws" xml:id="id_429">(</pc>
-                     <w xml:id="id_430">il</w>
-                     <pc type="ws" xml:id="id_431">-</pc>
+                     <pc type="ws" xml:id="id_429" join="right">(</pc>
+                     <w xml:id="id_430" join="right">il</w>
+                     <pc type="ws" xml:id="id_431" join="right">-</pc>
                      <w xml:id="id_432">ḥamdu</w>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_433">li</w>
-                     <pc type="ws" xml:id="id_434">-</pc>
-                     <w xml:id="id_435">llāh</w>
-                     <pc type="ws" xml:id="id_436">)</pc>
+                     <w xml:id="id_433" join="right">li</w>
+                     <pc type="ws" xml:id="id_434" join="right">-</pc>
+                     <w xml:id="id_435" join="right">llāh</w>
+                     <pc type="ws" xml:id="id_436" join="right">)</pc>
                      <pc type="ws" xml:id="id_437">.</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_438"> </seg>
                      <w xml:id="id_439">/</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_440"> </seg>
-                     <w xml:id="id_441">ʔizzayyik</w>
+                     <w xml:id="id_441" join="right">ʔizzayyik</w>
                      <pc type="ws" xml:id="id_442">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_443"> </seg>
-                     <w xml:id="id_444">–</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_445"> </seg>
-                     <hi rend="red">
+                     <w xml:id="id_444">–</w>
                         <w xml:id="id_446">kuwayyisa</w>
-                     </hi>
                      <pc type="ws" xml:id="id_447">,</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_448"> </seg>
-                     <pc type="ws" xml:id="id_449">(</pc>
-                     <w xml:id="id_450">l</w>
-                     <pc type="ws" xml:id="id_451">-</pc>
+                     <pc type="ws" xml:id="id_449" join="right">(</pc>
+                     <w xml:id="id_450" join="right">l</w>
+                     <pc type="ws" xml:id="id_451" join="right">-</pc>
                      <w xml:id="id_452">ḥamdu</w>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_453">li</w>
-                     <pc type="ws" xml:id="id_454">-</pc>
-                     <w xml:id="id_455">llāh</w>
-                     <pc type="ws" xml:id="id_456">)</pc>
+                     <w xml:id="id_453" join="right">li</w>
+                     <pc type="ws" xml:id="id_454" join="right">-</pc>
+                     <w xml:id="id_455" join="right">llāh</w>
+                     <pc type="ws" xml:id="id_456" join="right">)</pc>
                      <pc type="ws" xml:id="id_457">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">
-                     <hi rend="bold">Colours</hi>
-                  </cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre"/>
-                  <cell rend="tdRight"/>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">white</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">My husband wears a white shirt. We have a white
-                     car.</cell>
-                  <cell rend="tdRight">
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+         </div>
+         <div type="featureGroup">
+            <head>Colours</head>
+            <cit type="featureSample" ana="semlib:white">
+               <lbl>white</lbl>
+               <quote xml:lang="en">My husband wears a white shirt. We have a white
+                     car.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
                      <w xml:id="id_458">gōzi</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_459"> </seg>
                      <w xml:id="id_460">lābis</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_461"> </seg>
-                     <w ana="#vt_lex_shirt" xml:id="id_462">ʔamīṣ</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_463"> </seg>
-                     <hi rend="red">
-                        <w ana="#vt_lex_white" xml:id="id_464">ʔabyaḍ</w>
-                     </hi>
+                     <w ana="semlib:shirt" xml:id="id_462">ʔamīṣ</w>
+                        <w ana="semlib:white" xml:id="id_464">ʔabyaḍ</w>
                      <pc type="ws" xml:id="id_465">.</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_466"> </seg>
                      <w xml:id="id_467">ʕandina</w>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_468">ʕaṛabiyya</w> 
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <hi rend="red">
+                     <w xml:id="id_468">ʕaṛabiyya</w>
                         <w xml:id="id_470">bēḍa</w>
-                     </hi>
                      <pc type="ws" xml:id="id_471">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">black</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">I don’t like this black shirt. / car.</cell>
-                  <cell rend="tdRight">
-                     <w xml:id="id_472">ma</w>
-                     <pc type="ws" xml:id="id_473">-</pc>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:black">
+               <lbl>black</lbl>
+               <quote xml:lang="en">I don’t like this black shirt. / car.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <w xml:id="id_472" join="right">ma</w>
+                     <pc type="ws" xml:id="id_473" join="right">-</pc>
                      <w xml:id="id_474">baḥibbᴵ</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_475"> </seg>
-                     <w xml:id="id_476">il</w>
-                     <pc type="ws" xml:id="id_477">-</pc>
+                     <w xml:id="id_476" join="right">il</w>
+                     <pc type="ws" xml:id="id_477" join="right">-</pc>
                      <w xml:id="id_478">ʔamīṣ</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_479"> </seg>
-                     <w xml:id="id_480">il</w>
-                     <pc type="ws" xml:id="id_481">-</pc>
-                     <hi rend="red">
-                        <w ana="#vt_lex_black" xml:id="id_482">ʔaswad</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_483_a">da</w>
+                     <w xml:id="id_480" join="right">il</w>
+                     <pc type="ws" xml:id="id_481" join="right">-</pc>
+                        <w ana="semlib:black" xml:id="id_482">ʔaswad</w>
+                     <w xml:id="id_483_a" join="right">da</w>
                      <pc type="ws" xml:id="id_484">.</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_485"> </seg>
-                     <w xml:id="id_486">/</w>
-
-                     <w xml:id="id_487">il</w>
-                     <pc type="ws" xml:id="id_488">-</pc>
+                     <w xml:id="id_486" join="right">/</w>
+                     <w xml:id="id_487" join="right">il</w>
+                     <pc type="ws" xml:id="id_488" join="right">-</pc>
                      <w xml:id="id_489">ʕaṛabiyya</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_490"> </seg>
-                     <w xml:id="id_491">s</w>
-                     <pc type="ws" xml:id="id_492">-</pc>
-                     <hi rend="red">
+                     <w xml:id="id_491" join="right">s</w>
+                     <pc type="ws" xml:id="id_492" join="right">-</pc>
                         <w xml:id="id_493">sōda</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_494_a">di</w>
+                     <w xml:id="id_494_a" join="right">di</w>
                      <pc type="ws" xml:id="id_495">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">pink</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">My wife bought a pink shirt / bag.</cell>
-                  <cell rend="tdRight">
-                     <w xml:id="id_496">ʔis</w>
-                     <pc type="ws" xml:id="id_497">-</pc>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:pink">
+               <lbl>pink</lbl>
+               <quote xml:lang="en">My wife bought a pink shirt / bag.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <w xml:id="id_496" join="right">ʔis</w>
+                     <pc type="ws" xml:id="id_497" join="right">-</pc>
                      <w xml:id="id_498">sittᴵ</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_499"> </seg>
                      <w xml:id="id_500">btaʕti</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_501"> </seg>
                      <w xml:id="id_502">štarit</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_503"> </seg>
-                     <w xml:id="id_504">ʔamīṣ</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_505"> </seg>
-                     <hi rend="red">
-                        <w ana="#vt_lex_pink" xml:id="id_506">wardi</w>
-                     </hi>
-                     <w xml:id="id_507">/</w>
-
-                     <w xml:id="id_508">šanta</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_509"> </seg>
-                     <hi rend="red">
+                     <w xml:id="id_504">ʔamīṣ</w>
+                        <w ana="semlib:pink" xml:id="id_506">wardi</w>
+                     <w xml:id="id_507" join="right">/</w>
+                     <w xml:id="id_508">šanta</w>
                         <w xml:id="id_510">wardiyya</w>
-                     </hi>
                      <pc type="ws" xml:id="id_511">.</pc>
-                  </cell>
-                  <cell rend="tdID">
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de">
                      <w xml:id="id_512">wardi</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_513"> </seg>
                      <w xml:id="id_514">/</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_515"> </seg>
                      <w xml:id="id_516">bamba</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_517"> </seg>
-                     <pc type="ws" xml:id="id_518">?</pc>
-                     <pc type="ws" xml:id="id_519">?</pc>
+                     <pc type="ws" xml:id="id_518" join="right">?</pc>
+                     <pc type="ws" xml:id="id_519" join="right">?</pc>
                      <pc type="ws" xml:id="id_520">?</pc>
-                  </cell>
-               </row>
-               <row>
-                  <cell rend="tdLeft">grey</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">a grey wall/a grey bag</cell>
-                  <cell rend="tdRight">
-                     <w xml:id="id_521">ḥēṭa</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_522"> </seg>
-                     <hi rend="red">
-                        <w ana="#vt_lex_grey" xml:id="id_523">rmādi</w>
-                     </hi>
+                  </quote>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:grey">
+               <lbl>grey</lbl>
+               <quote xml:lang="en">a grey wall/a grey bag</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <w xml:id="id_521">ḥēṭa</w>
+                        <w ana="semlib:grey" xml:id="id_523">rmādi</w>
                      <w xml:id="id_524">/</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_525"> </seg>
-                     <w xml:id="id_526">šanta</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_527"> </seg>
-                     <hi rend="red">
+                     <w xml:id="id_526">šanta</w>
                         <w xml:id="id_528">rmādi</w>
-                     </hi>
-                  </cell>
-                  <cell rend="tdID">
+                     </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de">
                      <w xml:id="id_529">rmādiyya</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_530"> </seg>
-                     <pc type="ws" xml:id="id_531">?</pc>
-                     <pc type="ws" xml:id="id_532">?</pc>
+                     <pc type="ws" xml:id="id_531" join="right">?</pc>
+                     <pc type="ws" xml:id="id_532" join="right">?</pc>
                      <pc type="ws" xml:id="id_533">?</pc>
-                  </cell>
-               </row>
-               <row>
-                  <cell rend="tdLeft">orange</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">an orange shirt/car</cell>
-                  <cell rend="tdRight">
-                     <w xml:id="id_534">ʔamīṣ</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_535"> </seg>
-                     <hi rend="red">
-                        <w ana="#vt_lex_orange" xml:id="id_536">burtuʔāni</w>
-                     </hi>
+                  </quote>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:orange">
+               <lbl>orange</lbl>
+               <quote xml:lang="en">an orange shirt/car</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <w xml:id="id_534">ʔamīṣ</w>
+                        <w ana="semlib:orange" xml:id="id_536">burtuʔāni</w>
                      <w xml:id="id_537">/</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_538"> </seg>
-                     <w xml:id="id_539">ʕaṛabiyya</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_540"> </seg>
-                     <hi rend="red">
+                     <w xml:id="id_539">ʕaṛabiyya</w>
                         <w xml:id="id_541">burtuʔāni</w>
-                     </hi>
-                  </cell>
-                  <cell rend="tdID">
-                     <pc type="ws" xml:id="id_542">?</pc>
-                     <pc type="ws" xml:id="id_543">?</pc>
+                     </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de">
+                     <pc type="ws" xml:id="id_542" join="right">?</pc>
+                     <pc type="ws" xml:id="id_543" join="right">?</pc>
                      <pc type="ws" xml:id="id_544">?</pc>
-                  </cell>
-               </row>
-               <row>
-                  <cell rend="tdLeft">
-                     <hi rend="bold">Prepositions</hi>
-                  </cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre"/>
-                  <cell rend="tdRight"/>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">
-                     <hi rend="italic">fi</hi> vs. <hi rend="italic">bi</hi>
-                  </cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">There are 18 new students in our class.</cell>
-                  <cell rend="tdRight">
-                     <w ana="#vt_lex_in" xml:id="id_545">fi</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_546"> </seg>
-                     <w xml:id="id_547">faṣlina</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_548"> </seg>
-                     <hi rend="red">
+                  </quote>
+               </cit>
+            </cit>
+         </div>
+         <div type="featureGroup">
+            <head>Prepositions</head>
+            <cit type="featureSample">
+               <lbl>
+                  <hi rend="italic">fi</hi> vs. <hi rend="italic">bi</hi>
+               </lbl>
+               <quote xml:lang="en">There are 18 new students in our class.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <w ana="semlib:in" xml:id="id_545">fi</w>
+                     <w xml:id="id_547">faṣlina</w>
                         <w xml:id="id_549">fīh</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
                      <w xml:id="id_550_a">tamantāšar</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_551"> </seg>
                      <w xml:id="id_552">ṭālib</w>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_553">gidīd</w>
+                     <w xml:id="id_553" join="right">gidīd</w>
                      <pc type="ws" xml:id="id_554">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">
-                     <hi rend="bold">Important verbs</hi>
-                  </cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre"/>
-                  <cell rend="tdRight"/>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">to do</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Fatima, what are you doing now? – I’m watching TV.</cell>
-                  <cell rend="tdRight">
-                     <hi rend="red">
-                        <w ana="#vt_lex_to_do" xml:id="id_555">bitiʕmili</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+         </div>
+         <div type="featureGroup">
+            <head>Important verbs</head>
+            <cit type="featureSample" ana="semlib:to_do">
+               <lbl>to do</lbl>
+               <quote xml:lang="en">Fatima, what are you doing now? – I’m watching TV.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                        <w ana="semlib:to_do" xml:id="id_555">bitiʕmili</w>
                      <w xml:id="id_556_a">ʔēh</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_557"> </seg>
-                     <w xml:id="id_558">dilwaʔti</w>
+                     <w xml:id="id_558" join="right">dilwaʔti</w>
                      <pc type="ws" xml:id="id_559">,</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_560"> </seg>
                      <w xml:id="id_561">yā</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_562"> </seg>
-                     <w xml:id="id_563">faṭma</w>
+                     <w xml:id="id_563" join="right">faṭma</w>
                      <pc type="ws" xml:id="id_564">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_565"> </seg>
                      <w xml:id="id_566">–</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_567"> </seg>
                      <w xml:id="id_568">batfaṛṛag</w>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_569">ʕa</w>
-                     <pc type="ws" xml:id="id_570">-</pc>
-                     <w xml:id="id_571">t</w>
-                     <pc type="ws" xml:id="id_572">-</pc>
-                     <w xml:id="id_573">tilifizyōn</w>
+                     <w xml:id="id_569" join="right">ʕa</w>
+                     <pc type="ws" xml:id="id_570" join="right">-</pc>
+                     <w xml:id="id_571" join="right">t</w>
+                     <pc type="ws" xml:id="id_572" join="right">-</pc>
+                     <w xml:id="id_573" join="right">tilifizyōn</w>
                      <pc type="ws" xml:id="id_574">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">to stay</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Stay a bit longer! – No, I don’t have time.</cell>
-                  <cell rend="tdRight">
-                     <hi rend="red">
-                        <w ana="#vt_lex_to_stay" xml:id="id_575">xallīk</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_576_a">šwayya</w>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:to_stay">
+               <lbl>to stay</lbl>
+               <quote xml:lang="en">Stay a bit longer! – No, I don’t have time.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                        <w ana="semlib:to_stay" xml:id="id_575">xallīk</w>
+                     <w xml:id="id_576_a" join="right">šwayya</w>
                      <pc type="ws" xml:id="id_577">!</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_578"> </seg>
                      <w xml:id="id_579">–</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_580"> </seg>
-                     <w xml:id="id_581">laʔ</w>
+                     <w xml:id="id_581" join="right">laʔ</w>
                      <pc type="ws" xml:id="id_582">,</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_583"> </seg>
-                     <w xml:id="id_584">ma</w>
-                     <pc type="ws" xml:id="id_585">-</pc>
-                     <w xml:id="id_586">ʕandī</w>
-                     <pc type="ws" xml:id="id_587">-</pc>
+                     <w xml:id="id_584" join="right">ma</w>
+                     <pc type="ws" xml:id="id_585" join="right">-</pc>
+                     <w xml:id="id_586" join="right">ʕandī</w>
+                     <pc type="ws" xml:id="id_587" join="right">-</pc>
                      <w xml:id="id_588">š</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_589"> </seg>
-                     <w xml:id="id_590">waʔt</w>
+                     <w xml:id="id_590" join="right">waʔt</w>
                      <pc type="ws" xml:id="id_591">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">to speak</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Do you speak Arabic? – Just, a little.</cell>
-                  <cell rend="tdRight">
-                     <hi rend="red">
-                        <w ana="#vt_lex_to_speak" xml:id="id_592">bititkallim</w>
-                     </hi>
-                     <w xml:id="id_593">ʕaṛabi</w>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:to_speak">
+               <lbl>to speak</lbl>
+               <quote xml:lang="en">Do you speak Arabic? – Just, a little.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                        <w ana="semlib:to_speak" xml:id="id_592">bititkallim</w>
+                     <w xml:id="id_593" join="right">ʕaṛabi</w>
                      <pc type="ws" xml:id="id_594">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_595"> </seg>
                      <w xml:id="id_596">–šwayya</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_597"> </seg>
-                     <w xml:id="id_598">bass</w>
+                     <w xml:id="id_598" join="right">bass</w>
                      <pc type="ws" xml:id="id_599">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">to rain</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Yesterday it rained.</cell>
-                  <cell rend="tdRight">
-                     <w xml:id="id_600">ʔid</w>
-                     <pc type="ws" xml:id="id_601">-</pc>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:to_rain">
+               <lbl>to rain</lbl>
+               <quote xml:lang="en">Yesterday it rained.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <w xml:id="id_600" join="right">ʔid</w>
+                     <pc type="ws" xml:id="id_601" join="right">-</pc>
                      <w xml:id="id_602">dinya</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_603"> </seg>
-                     <w xml:id="id_604">kānit</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_605"> </seg>
-                     <hi rend="red">
-                        <w ana="#vt_lex_to_rain" xml:id="id_606">bitmaṭṭaṛ</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_607">imbāriḥ</w>
+                     <w xml:id="id_604">kānit</w>
+                        <w ana="semlib:to_rain" xml:id="id_606">bitmaṭṭaṛ</w>
+                     <w xml:id="id_607" join="right">imbāriḥ</w>
                      <pc type="ws" xml:id="id_608">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">to open</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Open the window!</cell>
-                  <cell rend="tdRight">
-                     <hi rend="red">
-                        <w ana="#vt_lex_to_open" xml:id="id_609">ʔiftaḥ</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_610_a">iš</w>
-                     <pc type="ws" xml:id="id_611">-</pc>
-                     <w ana="#vt_lex_window" xml:id="id_612">šibbāk</w>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:to_open">
+               <lbl>to open</lbl>
+               <quote xml:lang="en">Open the window!</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                        <w ana="semlib:to_open" xml:id="id_609">ʔiftaḥ</w>
+                     <w xml:id="id_610_a" join="right">iš</w>
+                     <pc type="ws" xml:id="id_611" join="right">-</pc>
+                     <w ana="semlib:window" xml:id="id_612" join="right">šibbāk</w>
                      <pc type="ws" xml:space="preserve">!</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">to close</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Close the doors!</cell>
-                  <cell rend="tdRight">
-                     <hi rend="red">
-                        <w ana="#vt_lex_to_close" xml:id="id_614">ʔiʔfil</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_615_a">l</w>
-                     <w xml:id="id_616">-</w>
-                     <w xml:id="id_617">abwāb</w>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:to_close">
+               <lbl>to close</lbl>
+               <quote xml:lang="en">Close the doors!</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                        <w ana="semlib:to_close" xml:id="id_614">ʔiʔfil</w>
+                     <w xml:id="id_615_a" join="right">l</w>
+                     <w xml:id="id_616" join="right">-</w>
+                     <w xml:id="id_617" join="right">abwāb</w>
                      <pc type="ws" xml:id="id_618">!</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">to take</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">What did you take? – Nothing.</cell>
-                  <cell rend="tdRight">
-                     <hi rend="red">
-                        <w ana="#vt_lex_to_take" xml:id="id_619">xadtᴵ</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_620_a">ʔēh</w>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:to_take">
+               <lbl>to take</lbl>
+               <quote xml:lang="en">What did you take? – Nothing.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                        <w ana="semlib:to_take" xml:id="id_619">xadtᴵ</w>
+                     <w xml:id="id_620_a" join="right">ʔēh</w>
                      <pc type="ws" xml:space="preserve">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_622"> </seg>
-                     <w xml:id="id_623">–</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_624"> </seg>
-                     <hi rend="red">
+                     <w xml:id="id_623">–</w>
                         <w xml:id="id_625">maxaditšᴵ</w> 
-                        </hi>
-                     <seg type="ws" xml:space="preserve" xml:id="id_626"> </seg>
-                     <w xml:id="id_627">wala</w>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_628">ḥāga</w>
+                        <w xml:id="id_627">wala</w>
+                     <w xml:id="id_628" join="right">ḥāga</w>
                      <pc type="ws" xml:id="id_629">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">to give</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Did you give the letter to Ahmad? – Yes, I gave it to
-                     him.</cell>
-                  <cell rend="tdRight">
-                     <hi rend="red">
-                        <w ana="#vt_lex_to_give" xml:id="id_630">ʕiddēt</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_631_a">il</w>
-                     <pc type="ws" xml:id="id_632">-</pc>
-                     <w ana="#vt_lex_letter" xml:id="id_633">gawāb</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_634"> </seg>
-                     <w xml:id="id_635">li</w>
-                     <pc type="ws" xml:id="id_636">-</pc>
-                     <w xml:id="id_637">ʔaḥmad</w>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:to_give">
+               <lbl>to give</lbl>
+               <quote xml:lang="en">Did you give the letter to Ahmad? – Yes, I gave it to
+                     him.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                        <w ana="semlib:to_give" xml:id="id_630">ʕiddēt</w>
+                     <w xml:id="id_631_a" join="right">il</w>
+                     <pc type="ws" xml:id="id_632" join="right">-</pc>
+                     <w ana="semlib:letter" xml:id="id_633">gawāb</w>
+                     <w xml:id="id_635" join="right">li</w>
+                     <pc type="ws" xml:id="id_636" join="right">-</pc>
+                     <w xml:id="id_637" join="right">ʔaḥmad</w>
                      <pc type="ws" xml:id="id_638">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_639"> </seg>
                      <w xml:id="id_640">–</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_641"> </seg>
-                     <w xml:id="id_642">ʔaywa</w>
+                     <w xml:id="id_642" join="right">ʔaywa</w>
                      <pc type="ws" xml:space="preserve">,</pc>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <hi rend="red">
                      <w xml:id="id_645">ʔiddit</w>
-                     </hi>
-                     <w xml:id="id_646">-</w>
-                     <w xml:id="id_647">ū</w>
-                     <pc type="ws" xml:id="id_648">-</pc>
-                     <w xml:id="id_649">lu</w>
+                     <w xml:id="id_646" join="right">-</w>
+                     <w xml:id="id_647" join="right">ū</w>
+                     <pc type="ws" xml:id="id_648" join="right">-</pc>
+                     <w xml:id="id_649" join="right">lu</w>
                      <pc type="ws" xml:id="id_650">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">to see</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">The children saw a beggar behind our house.</cell>
-                  <cell rend="tdRight">
-                     <phr ana="#vt_lex_children">
-                     <w xml:id="id_651">l</w>
-                     <pc type="ws" xml:id="id_652">-</pc>
-                     <w xml:id="id_653">awlād</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_654"> </seg>
-                     <pc type="ws" xml:id="id_652a">/</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_654b"> </seg>
-                     <w xml:id="id_651a">l</w>
-                     <pc type="ws" xml:id="id_652b">-</pc>
-                     <w xml:id="id_653a">ʕiyāl</w>
-                     </phr> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_654d"> </seg>
-                     <hi rend="red">
-                        <w ana="#vt_lex_to_see" xml:id="id_655">šāfu</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:to_see">
+               <lbl>to see</lbl>
+               <quote xml:lang="en">The children saw a beggar behind our house.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <phr ana="semlib:children">
+                        <w xml:id="id_651" join="right">l</w>
+                        <pc type="ws" xml:id="id_652" join="right">-</pc>
+                        <w xml:id="id_653">awlād</w> 
+                     
+                        <pc type="ws" xml:id="id_652a">/</pc>
+                     
+                        <w xml:id="id_651a" join="right">l</w>
+                        <pc type="ws" xml:id="id_652b" join="right">-</pc>
+                        <w xml:id="id_653a">ʕiyāl</w>
+                     </phr>
+                        <w ana="semlib:to_see" xml:id="id_655">šāfu</w>
                      <w xml:id="id_656_a">šaḥḥāt</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_657"> </seg>
                      <w xml:id="id_658">waṛa</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_659"> </seg>
-                     <w xml:id="id_660">l</w>
-                     <w xml:id="id_661">-</w>
-                     <w ana="#vt_lex_house" xml:id="id_662">bēt</w>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_663">bitaʕna</w>
+                     <w xml:id="id_660" join="right">l</w>
+                     <w xml:id="id_661" join="right">-</w>
+                     <w ana="semlib:house" xml:id="id_662">bēt</w>
+                     <w xml:id="id_663" join="right">bitaʕna</w>
                      <pc type="ws" xml:id="id_664">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">to want</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Do you (f.) want to drink tea or coffee? – Tea
-                     please.</cell>
-                  <cell rend="tdRight">
-                     <hi rend="red">
-                        <w ana="#vt_lex_to_want" xml:id="id_665">ʕawza</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:to_want">
+               <lbl>to want</lbl>
+               <quote xml:lang="en">Do you (f.) want to drink tea or coffee? – Tea
+                     please.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                        <w ana="semlib:to_want" xml:id="id_665">ʕawza</w>
                      <w xml:id="id_666">tišrabi</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_667"> </seg>
-                     <w ana="#vt_lex_tea" xml:id="id_668">šāy</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_669"> </seg>
+                     <w ana="semlib:tea" xml:id="id_668">šāy</w>
                      <w xml:id="id_670">walla</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_671"> </seg>
-                     <w ana="#vt_lex_coffee #vt_phon_CA_q" xml:id="id_672">ʔahwa</w>
+                     <w ana="semlib:coffee #vt_phon_CA_q" xml:id="id_672" join="right">ʔahwa</w>
                      <pc type="ws" xml:id="id_673">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_674"> </seg>
                      <w xml:id="id_675">–</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_676"> </seg>
-                     <w xml:id="id_677">šāy</w>
+                     <w xml:id="id_677" join="right">šāy</w>
                      <pc type="ws" xml:id="id_678">,</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_679"> </seg>
-                     <phr ana="#vt_lex_please">
-                     <w xml:id="id_680">law</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_681"> </seg>
-                     <w xml:id="id_682">samaḥt</w>
+                     <phr ana="semlib:please">
+                        <w xml:id="id_680">law</w>
+                     
+                        <w xml:id="id_682">samaḥt</w>
                      </phr>
                      <pc type="ws" xml:id="id_683">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">to bring</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Bring me the big bottle, please! – I'm right with
-                     you.</cell>
-                  <cell rend="tdRight">
-                     <pc type="ws" xml:id="id_684">-</pc>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:to_bring">
+               <lbl>to bring</lbl>
+               <quote xml:lang="en">Bring me the big bottle, please! – I'm right with
+                     you.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <pc type="ws" xml:id="id_684" join="right">-</pc>
                      <pc type="ws" xml:id="id_685">-</pc>
-                  </cell>
-                  <cell rend="tdID">
-                     <pc type="ws" xml:id="id_686">?</pc>
-                     <pc type="ws" xml:id="id_687">?</pc>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de">
+                     <pc type="ws" xml:id="id_686" join="right">?</pc>
+                     <pc type="ws" xml:id="id_687" join="right">?</pc>
                      <pc type="ws" xml:id="id_688">?</pc>
-                  </cell>
-               </row>
-               <row>
-                  <cell rend="tdLeft">to have</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">They have a lot of money, but they are bad people.</cell>
-                  <cell rend="tdRight">
-                     <pc type="ws" xml:id="id_689">-</pc>
+                  </quote>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:to_have">
+               <lbl>to have</lbl>
+               <quote xml:lang="en">They have a lot of money, but they are bad people.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <pc type="ws" xml:id="id_689" join="right">-</pc>
                      <pc type="ws" xml:id="id_690">-</pc>
-                  </cell>
-                  <cell rend="tdID">
-                     <pc type="ws" xml:id="id_691">?</pc>
-                     <pc type="ws" xml:id="id_692">?</pc>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de">
+                     <pc type="ws" xml:id="id_691" join="right">?</pc>
+                     <pc type="ws" xml:id="id_692" join="right">?</pc>
                      <pc type="ws" xml:id="id_693">?</pc>
-                  </cell>
-               </row>
-               <row>
-                  <cell rend="tdLeft">
-                     <hi rend="bold">Phrasemes</hi>
-                  </cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre"/>
-                  <cell rend="tdRight"/>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">since/for</cell>
-                  <cell xml:space="preserve" rend="tdCom">Many Arabic dialects 
+                  </quote>
+               </cit>
+            </cit>
+         </div>
+         <div type="featureGroup">
+            <head>Phrasemes</head>
+            <cit type="featureSample">
+               <lbl>since/for</lbl>
+               <note>Many Arabic dialects 
                      use periphrastic constructions to render 
-                     English ‛since’.</cell>
-                  <cell rend="tdCentre">We have been here for 8 years.</cell>
-                  <cell rend="tdRight">
-                     <hi rend="red">
-                     <phr ana="#vt_lex_since_for">
-                        <w xml:id="id_694">baʔa</w>
-                        <pc type="ws" xml:id="id_695">-</pc>
+                     English ‛since’.</note>
+               <quote xml:lang="en">We have been here for 8 years.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <phr ana="semlib:since_for">
+                        <w xml:id="id_694" join="right">baʔa</w>
+                        <pc type="ws" xml:id="id_695" join="right">-</pc>
                         <w xml:id="id_696">l</w>
                         </phr>
-                     </hi>
                      <w xml:id="id_697">na</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_698"> </seg>
                      <w xml:id="id_699">hina</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_700"> </seg>
                      <w xml:id="id_701">taman</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_702"> </seg>
-                     <w xml:id="id_703">sanawāt</w>
+                     <w xml:id="id_703" join="right">sanawāt</w>
                      <pc type="ws" xml:id="id_704">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">
-                     <hi rend="bold">Nouns</hi>
-                  </cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre"/>
-                  <cell rend="tdRight"/>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">women</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">What are those women doing there? – They are baking 
-                     bread.</cell>
-                  <cell rend="tdRight">
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+         </div>
+         <div type="featureGroup">
+            <head>Nouns</head>
+            <cit type="featureSample" ana="semlib:women">
+               <lbl>women</lbl>
+               <quote xml:lang="en">What are those women doing there? – They are baking 
+                     bread.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
                      <w xml:id="id_705">biyiʕmilu</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_706"> </seg>
                      <w xml:id="id_707">ʔēh</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_708"> </seg>
-                     <w xml:id="id_709">is</w>
-                     <pc type="ws" xml:id="id_710">-</pc>
-                     <hi rend="red">
-                        <w ana="#vt_lex_women" xml:id="id_711">sittāt</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w ana="#vt_morph_dempron_prox_pl" xml:id="id_712_a">dōl</w>
+                     <w xml:id="id_709" join="right">is</w>
+                     <pc type="ws" xml:id="id_710" join="right">-</pc>
+                        <w ana="semlib:women" xml:id="id_711">sittāt</w>
+                     <w ana="fvlib:dempron_prox_pl" xml:id="id_712_a" join="right">dōl</w>
                      <pc type="ws" xml:id="id_713">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_714"> </seg>
                      <w xml:id="id_715">–</w>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_716">biyixbizu</w>
+                     <w xml:id="id_716" join="right">biyixbizu</w>
                      <pc type="ws" xml:id="id_717">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">husband</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">My husband wears a white shirt. We have a white
-                     car.</cell>
-                  <cell rend="tdRight">
-                     <hi rend="red">
-                        <w ana="#vt_lex_husband" xml:id="id_718">gōz</w>
-                     </hi>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:husband">
+               <lbl>husband</lbl>
+               <quote xml:lang="en">My husband wears a white shirt. We have a white
+                     car.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                        <w ana="semlib:husband" xml:id="id_718">gōz</w>
                      <w xml:id="id_719">i</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_720"> </seg>
                      <w xml:id="id_721">lābis</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_722"> </seg>
                      <w xml:id="id_723">ʔamīṣ</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_724"> </seg>
-                     <w xml:id="id_725">ʔabyaḍ</w>
+                     <w xml:id="id_725" join="right">ʔabyaḍ</w>
                      <pc type="ws" xml:id="id_726">.</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_727"> </seg>
                      <w xml:id="id_728">ʕandina</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_729"> </seg>
                      <w xml:id="id_730">ʕaṛabiyya</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_731"> </seg>
-                     <w xml:id="id_732">bēḍa</w>
+                     <w xml:id="id_732" join="right">bēḍa</w>
                      <pc type="ws" xml:id="id_733">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">friend</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Who is this man? – He is my friend</cell>
-                  <cell rend="tdRight">
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:friend">
+               <lbl>friend</lbl>
+               <quote xml:lang="en">Who is this man? – He is my friend</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
                      <w xml:id="id_734">mīn</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_735"> </seg>
-                     <w xml:id="id_736">iṛ</w>
-                     <pc type="ws" xml:id="id_737">-</pc>
+                     <w xml:id="id_736" join="right">iṛ</w>
+                     <pc type="ws" xml:id="id_737" join="right">-</pc>
                      <w xml:id="id_738">ṛāgil</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_739"> </seg>
-                     <w xml:id="id_740">da</w>
+                     <w xml:id="id_740" join="right">da</w>
                      <pc type="ws" xml:id="id_741">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_742"> </seg>
                      <w xml:id="id_743">–</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_744"> </seg>
-                     <w xml:id="id_745">da</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_746"> </seg>
-                     <hi rend="red">
-                        <w ana="#vt_lex_friend" xml:id="id_747">ṣaḥb</w>
-                     </hi>
-                     <w xml:id="id_748">i</w>
+                     <w xml:id="id_745">da</w>
+                        <w ana="semlib:friend" xml:id="id_747">ṣaḥb</w>
+                     <w xml:id="id_748" join="right">i</w>
                      <pc type="ws" xml:id="id_749">.</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_750"> </seg>
-                     <w>(</w>
+                     <w join="right">(</w>
                      <w ana="{ana}">huwwa</w>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w ana="{ana}">ṣaḥbi</w>
+                     <w ana="{ana}" join="right">ṣaḥbi</w>
                      <pc type="ws" xml:id="id_754">)</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">
-                     <hi rend="bold">Neologisms</hi>
-                  </cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre"/>
-                  <cell rend="tdRight"/>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">mobile vs. cellphone</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Where is my mobile (phone)? – Here it is!</cell>
-                  <cell rend="tdRight">
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+         </div>
+         <div type="featureGroup">
+            <head>Neologisms</head>
+            <cit type="featureSample">
+               <lbl>mobile vs. cellphone</lbl>
+               <quote xml:lang="en">Where is my mobile (phone)? – Here it is!</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
                      <w xml:id="id_755">fēn</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_756"> </seg>
-                     <w xml:id="id_757">il</w>
-                     <pc type="ws" xml:id="id_758">-</pc>
-                     <hi rend="red">
-                        <w ana="#vt_lex_mobile" xml:id="id_759">mubayl</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_760_a">bitāʕi</w>
+                     <w xml:id="id_757" join="right">il</w>
+                     <pc type="ws" xml:id="id_758" join="right">-</pc>
+                        <w ana="semlib:mobile" xml:id="id_759">mubayl</w>
+                     <w xml:id="id_760_a" join="right">bitāʕi</w>
                      <pc type="ws" xml:id="id_761">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_762"> </seg>
                      <w xml:id="id_763">–</w>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_763_a_a">ʔahó</w>
+                     <w xml:id="id_763_a_a" join="right">ʔahó</w>
                      <pc type="ws" xml:id="id_764">!</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">
-                     <hi rend="bold">Modality</hi>
-                  </cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre"/>
-                  <cell rend="tdRight"/>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">being unable</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">We cannot pay the rent.</cell>
-                  <cell rend="tdRight">
-                     <hi rend="red">
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+         </div>
+         <div type="featureGroup">
+            <head>Modality</head>
+            <cit type="featureSample" ana="semlib:being_unable">
+               <lbl>being unable</lbl>
+               <quote xml:lang="en">We cannot pay the rent.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
                      <w xml:id="id_765">ma-niʔdaṛ-šᴵ</w>
-                    </hi> 
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_770">nidfaʕ</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_771"> </seg>
-                     <w xml:id="id_772">il</w>
-                     <pc type="ws" xml:id="id_773">-</pc>
-                     <w xml:id="id_774">ʔugṛa</w>
+                    <w xml:id="id_770">nidfaʕ</w>
+                     <w xml:id="id_772" join="right">il</w>
+                     <pc type="ws" xml:id="id_773" join="right">-</pc>
+                     <w xml:id="id_774" join="right">ʔugṛa</w>
                      <pc type="ws" xml:id="id_775">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">ability</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Can you (~do you know how to) play chess? – Yes.</cell>
-                  <cell rend="tdRight">
-                     <pc type="ws" xml:id="id_776">(</pc>
-                     <pc type="ws" xml:id="id_777">?</pc>
-                     <pc type="ws" xml:id="id_778">?</pc>
-                     <pc type="ws" xml:id="id_779">?</pc>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:ability">
+               <lbl>ability</lbl>
+               <quote xml:lang="en">Can you (~do you know how to) play chess? – Yes.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <pc type="ws" xml:id="id_776" join="right">(</pc>
+                     <pc type="ws" xml:id="id_777" join="right">?</pc>
+                     <pc type="ws" xml:id="id_778" join="right">?</pc>
+                     <pc type="ws" xml:id="id_779" join="right">?</pc>
                      <pc type="ws" xml:id="id_780">)</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">possibility</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Can you come tomorrow?</cell>
-                  <cell rend="tdRight">
-                     <hi rend="red">
-                     <w ana="#vt_lex_possibility" xml:id="id_781">tiʔdaṛ</w>
-                                                                            </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_782_a">tīgi</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_783"> </seg>
-                     <w xml:id="id_784">bukṛa</w>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample" ana="semlib:possibility">
+               <lbl>possibility</lbl>
+               <quote xml:lang="en">Can you come tomorrow?</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
+                     <w ana="semlib:possibility" xml:id="id_781">tiʔdaṛ</w>
+                                                                            <w xml:id="id_782_a">tīgi</w>
+                     <w xml:id="id_784" join="right">bukṛa</w>
                      <pc type="ws" xml:id="id_785">?</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">
-                     <hi rend="bold">Other items</hi>
-                  </cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre"/>
-                  <cell rend="tdRight"/>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">a little</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Do you speak Arabic? – Just, a little.</cell>
-                  <cell rend="tdRight">
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+         </div>
+         <div type="featureGroup">
+            <head>Other items</head>
+            <cit type="featureSample" ana="semlib:a_little">
+               <lbl>a little</lbl>
+               <quote xml:lang="en">Do you speak Arabic? – Just, a little.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
                      <w xml:id="id_786">bititkallim</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_787"> </seg>
-                     <w xml:id="id_788">ʕaṛabi</w>
+                     <w xml:id="id_788" join="right">ʕaṛabi</w>
                      <pc type="ws" xml:id="id_789">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_790"> </seg>
-                     <w xml:id="id_791">–</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_792"> </seg>
-                     <hi rend="red">
-                        <w ana="#vt_lex_a_little" xml:id="id_793">šwayya</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
-                     <w xml:id="id_794">bass</w>
+                     <w xml:id="id_791">–</w>
+                        <w ana="semlib:a_little" xml:id="id_793">šwayya</w>
+                     <w xml:id="id_794" join="right">bass</w>
                      <pc type="ws" xml:id="id_795">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">existential (there is, there are)</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">There are 18 new students in our class.</cell>
-                  <cell rend="tdRight">
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample">
+               <lbl>existential (there is, there are)</lbl>
+               <quote xml:lang="en">There are 18 new students in our class.</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
                      <w xml:id="id_796">fi</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_797"> </seg>
-                     <w xml:id="id_798">faṣlina</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_799"> </seg>
-                     <hi rend="red">
-                        <w ana="#vt_lex_existential" xml:id="id_800">fīh</w>
-                     </hi>
-                     <seg type="ws" xml:space="preserve"> </seg>
+                     <w xml:id="id_798">faṣlina</w>
+                        <w ana="semlib:existential" xml:id="id_800">fīh</w>
                      <w xml:id="id_801">tamantāšar</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_802"> </seg>
-                     <w xml:id="id_803">ṭālib</w>
-
-                     <w xml:id="id_804">gidīd</w>
+                     <w xml:id="id_803" join="right">ṭālib</w>
+                     <w xml:id="id_804" join="right">gidīd</w>
                      <pc type="ws" xml:id="id_805">.</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-               <row>
-                  <cell rend="tdLeft">Genitive explicative</cell>
-                  <cell xml:space="preserve" rend="tdCom"/>
-                  <cell rend="tdCentre">Where is my mobile? – Here it is!</cell>
-                  <cell rend="tdRight">
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
+            <cit type="featureSample">
+               <lbl>Genitive explicative</lbl>
+               <quote xml:lang="en">Where is my mobile? – Here it is!</quote>
+               <cit type="translation">
+                  <quote xml:lang="ar">
                      <w xml:id="id_806">fēn</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_807"> </seg>
-                     <w xml:id="id_808">il</w>
-                     <pc type="ws" xml:id="id_809">-</pc>
-                     <w xml:id="id_810">mubayl</w> 
-                     <seg type="ws" xml:space="preserve" xml:id="id_811"> </seg>
-                     <hi rend="red">
-                     <w ana="#vt_lex_gen_explicative" xml:id="id_812">bitāʕ</w>
+                     <w xml:id="id_808" join="right">il</w>
+                     <pc type="ws" xml:id="id_809" join="right">-</pc>
+                     <w xml:id="id_810">mubayl</w>
+                     <w ana="semlib:gen_explicative" xml:id="id_812" join="right">bitāʕ</w>
                      <w xml:id="id_812_a">i</w>
-                     </hi>
                      <pc type="ws" xml:id="id_813">?</pc>
-                     <seg type="ws" xml:space="preserve" xml:id="id_814"> </seg>
                      <w xml:id="id_815">–</w>
-                     <seg type="ws" xml:space="preserve" xml:id="id_816"> </seg>
-                     <w xml:id="id_817">ʔahó</w>
+                     <w xml:id="id_817" join="right">ʔahó</w>
                      <pc type="ws" xml:id="id_818">!</pc>
-                  </cell>
-                  <cell rend="tdID"/>
-               </row>
-            </table>
+                  </quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+            </cit>
          </div>
       </body>
    </text>

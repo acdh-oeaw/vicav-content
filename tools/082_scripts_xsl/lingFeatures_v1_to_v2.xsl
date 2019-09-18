@@ -21,11 +21,23 @@
     </xsl:template>
     <xsl:template match="tei:table">
         <xsl:for-each-group select="tei:row" group-starting-with="self::tei:row[every $c in tei:cell[position() gt 1] satisfies not($c/node())]">
-            <div>
+            <div type="featureGroup">
                 <head><xsl:value-of select="tei:cell[1]/tei:hi"/></head>
                 <xsl:apply-templates select="current-group()[position() gt 1]"/>
             </div>
         </xsl:for-each-group>
+    </xsl:template>
+    
+    <xsl:template match="tei:fileDesc">
+        <xsl:copy>
+            <xsl:apply-templates select="@*|node()"/>
+        </xsl:copy>
+        <encodingDesc>
+            <listPrefixDef>
+                <prefixDef matchPattern="(.+)" replacementPattern="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#$1" ident="semlib"/>
+                <prefixDef matchPattern="(.+)" replacementPattern="../vocabs/fLib.xml#$1" ident="fvlib"/>
+            </listPrefixDef>
+        </encodingDesc>
     </xsl:template>
     
     <xsl:template match="tei:row">
@@ -33,9 +45,9 @@
         <!-- TODO implement check whether the "seme" really exists or not -->
         <xsl:variable name="sem" select="doc($path-to-vt_lex)//skos:prefLabel[. = current()/tei:cell[1]]" as="item()*"/>
         <xsl:variable name="sem-ref" select="$sem/parent::skos:Concept/@rdf:about"/>
-        <cit>
+        <cit type="featureSample">
             <xsl:if test="exists($sem)">
-                <xsl:attribute name="ana" select="concat('vtLex:', substring-after($sem/../@rdf:about,'#'))"/>
+                <xsl:attribute name="ana" select="concat('semlib:', substring-after($sem/../@rdf:about,'#'))"/>
             </xsl:if>
             <xsl:if test="tei:cell[1] != ''">
                 <lbl><xsl:apply-templates select="tei:cell[1]"/></lbl>
@@ -56,10 +68,10 @@
     <xsl:template match="@ana">
         <xsl:choose>
             <xsl:when test="starts-with(., '#vt_lex')">
-                <xsl:attribute name="ana" select="replace(.,'#vt_lex_','semLib:')"/>
+                <xsl:attribute name="ana" select="replace(.,'#vt_lex_','semlib:')"/>
             </xsl:when>
             <xsl:when test="matches(., '#vt_morph')">
-                <xsl:attribute name="ana" select="replace(.,'#vt_morph_','fvLib:')"/>
+                <xsl:attribute name="ana" select="replace(.,'#vt_morph_','fvlib:')"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:copy-of select="."/>
