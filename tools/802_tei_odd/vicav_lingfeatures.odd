@@ -23,11 +23,14 @@
   <text>
     <body>
       <schemaSpec ident="vicav_lingfeats" start="TEI">
-        <moduleRef key="header"/>
-        <moduleRef key="core"/>
-        <moduleRef key="corpus"/>
+        <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt availability rendition sourceDesc encodingDesc tagsDecl revisionDesc change listPrefixDef prefixDef"/>
+        <moduleRef key="core" include="address author bibl cit date editor desc graphic head hi quote name note p publisher pubPlace ref respStmt resp rs series title"/>
         <moduleRef key="tei"/>
-        <moduleRef key="textstructure"/>
+        <moduleRef key="textstructure" include="body div TEI text"/>
+        <moduleRef key="corpus"/>
+        <moduleRef key="analysis" include="w pc phr"/>
+        <moduleRef key="dictionaries" include="lbl"/>
+        <moduleRef key="namesdates" include="geo"/>
       </schemaSpec>
     </body>
   </text>
