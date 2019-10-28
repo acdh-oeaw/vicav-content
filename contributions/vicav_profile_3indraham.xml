@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_{location}_01">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A machine-readable profile of Ayn Draham Arabic</title>
+            <respStmt>
+               <resp>document preparation</resp>
+               <name xml:id=""/>
+            </respStmt>
+            <author>Ilona Bruckner</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>ACDH-OeAW</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date>2019</date>
+            <availability status="restricted">
+               <p>
+                  <ref type="license"
+                       target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This is an original digital text</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change status="created" when="2019-09-03T10:31:00Z" who="#">created</change>
+         <change status="draft" when="2019-10-04T08:11:00Z" who="#">last modified (revision 1)</change>
+         <change status="draft" when="2019-10-28T11:29:02.576+01:00">transformed to TEI-XML</change>
+         <change when="2019-10-28T11:29:03.057+01:00" status="draft"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>
+               <label>Name (English)</label>
+               <name xml:lang="eng">Ayn Draham</name>
+               <label>Name (Fuṣḥā, transcription)</label>
+               <name xml:lang="ara">ʕAyn Drāham</name>
+               <label>Name in local variety (in transcription)</label>
+               <name xml:lang="ara-x-DMG">ʕĪn Dṛāham</name>
+               <label>Name (Fuṣḥā, Arabic)</label>
+               <name xml:lang="ajp">عين دراهم</name>
+            </head>
+            <div type="positioning">
+               <head>Geo location</head>
+               <p>
+                  <geo>36.78, 8.67</geo>
+               </p>
+            </div>
+            <div type="typology">
+               <head>Typology (Local)</head>
+               <p rend="author">West (Maghreb) &gt; Tunisia &gt; North Western Tunisia</p>
+               <p>Bedouin-type dialect</p>
+            </div>
+            <div type="general">
+               <head>General</head>
+               <p xml:space="preserve">ʕĪn Drāham is a city in the Jendouba Gouvernorate of North West Tunisia, situated 25 kilometers south of Ṭabarga. It is the center of a municipality of 40,372 inhabitants. The city itself has an estimated population of 10,843 inhabitants (2004). It is located at an altitude of 700 meters on the slopes of the Ǧbal Bīr (1014 m).The name ʕĪn Drāham refers to the sulfurous hot springs that were already used by the Romans. Originally a French military base, it started to become a tourist destination in the 1930s, being known for its unique cold and humid climate and its colonial heritage (especially the red-tile roofs). It has the highest average rainfall at 1534 mm per year in Tunisia and is frequently covered with snow in winter. This uniqueness is reflected in its dense forests of oak trees (including cork oak), pine (of which the famous zgūgu is made) and beech.</p>
+            </div>
+            <div type="bibliography">
+               <head>Bibliography</head>
+               <p xml:space="preserve">{leave empty}</p>
+            </div>
+            <div type="sampleText">
+               <head>Sample text</head>
+               <p xml:space="preserve">{leave empty}</p>
+            </div>
+            <div type="lingFeatures">
+               <head>Linguistic features</head>
+               <p xml:space="preserve">{leave empty}</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

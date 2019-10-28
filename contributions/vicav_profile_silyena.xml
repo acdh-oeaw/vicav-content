@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_{location}_01">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A machine-readable profile of Siliana, Tunisia Arabic</title>
+            <respStmt>
+               <resp>document preparation</resp>
+               <name xml:id=""/>
+            </respStmt>
+            <author>Ilona Bruckner</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>ACDH-OeAW</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date>2019</date>
+            <availability status="restricted">
+               <p>
+                  <ref type="license"
+                       target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This is an original digital text</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change status="created" when="2019-08-30T10:27:00Z" who="#">created</change>
+         <change status="draft" when="2019-10-04T08:57:00Z" who="#">last modified (revision 1)</change>
+         <change status="draft" when="2019-10-28T11:28:39.259+01:00">transformed to TEI-XML</change>
+         <change when="2019-10-28T11:28:39.802+01:00" status="draft"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>
+               <figure>
+                  <graphic url="Silyena_Profil_editAE/media/image1.jpeg"/>
+                  <head type="imgCaption">Ilona Bruckner</head>
+               </figure>
+               <label>Name (English)</label>
+               <name xml:lang="eng">Siliana, Tunisia</name>
+               <label>Name (Fuṣḥā, transcription)</label>
+               <name xml:lang="ara">Silyāna</name>
+               <label>Name in local variety (in transcription)</label>
+               <name xml:lang="ara-x-DMG">Silyǟna</name>
+               <label>Name (Fuṣḥā, Arabic)</label>
+               <name xml:lang="ajp">سليانة</name>
+            </head>
+            <div type="positioning">
+               <head>Geo location</head>
+               <p>
+                  <geo>36.08, 9.36</geo>
+               </p>
+            </div>
+            <div type="typology">
+               <head>Typology (Local)</head>
+               <p rend="author">West (Maghreb) &gt; Tunisia &gt; North Western Tunisia</p>
+               <p>Bedouin-type dialect</p>
+            </div>
+            <div type="general">
+               <head>General</head>
+               <p xml:space="preserve">Silyǟna is a modern farming town of more than 31000 (2014) inhabitants and the capital of the Gouvernourate Silyǟna. Modern Silyǟna was founded in 1905 and it is located about 130 km south-west of the capital Tunis. It consists of 17 districts and is the hometown of the historician Ahmad ibn Abi Dhiyaf and the singer Hédi Jouini. Silyǟnas population was formed mainly by arabic tribes during the settlement of the Beni Hilāl in the region and by some Amazigh tribes. Since the 1990 the town grew bigger, due to immigration from the neighbouring rural areas and it keeps growing (in 2004 it counted only 24000 inhabitants).</p>
+            </div>
+            <div type="bibliography">
+               <head>Bibliography</head>
+               <p xml:space="preserve">{leave empty}</p>
+            </div>
+            <div type="sampleText">
+               <head>Sample text</head>
+               <p xml:space="preserve">{leave empty}</p>
+            </div>
+            <div type="lingFeatures">
+               <head>Linguistic features</head>
+               <p xml:space="preserve">{leave empty}</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

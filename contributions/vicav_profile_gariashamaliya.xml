@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_{location}_01">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A machine-readable profile of El Guaria Nord Arabic</title>
+            <respStmt>
+               <resp>document preparation</resp>
+               <name xml:id=""/>
+            </respStmt>
+            <author>Ilona Bruckner</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>ACDH-OeAW</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date>2019</date>
+            <availability status="restricted">
+               <p>
+                  <ref type="license"
+                       target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This is an original digital text</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change status="created" when="2019-08-30T09:02:00Z" who="#">created</change>
+         <change status="draft" when="2019-10-04T08:29:00Z" who="#">last modified (revision 1)</change>
+         <change status="draft" when="2019-10-28T11:28:48.195+01:00">transformed to TEI-XML</change>
+         <change when="2019-10-28T11:28:48.7+01:00" status="draft"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>
+               <figure>
+                  <graphic url="GariaShamaliya_Profil_editAE/media/image1.jpeg"/>
+                  <head type="imgCaption">Ilona Bruckner</head>
+               </figure>
+               <label>Name (English)</label>
+               <name xml:lang="eng">El Guaria Nord</name>
+               <label>Name (Fuṣḥā, transcription)</label>
+               <name xml:lang="ara">al-Qarya aš-Šamālīya </name>
+               <label>Name in local variety (in transcription)</label>
+               <name xml:lang="ara-x-DMG">il-Garya š-Šamālīya</name>
+               <label>Name (Fuṣḥā, Arabic)</label>
+               <name xml:lang="ajp">القرية الشمالية</name>
+            </head>
+            <div type="positioning">
+               <head>Geo location</head>
+               <p>
+                  <geo>35.79, 9.42</geo>
+               </p>
+            </div>
+            <div type="typology">
+               <head>Typology (Local)</head>
+               <p rend="typology">West (Maghreb) &gt; Tunisia &gt; North-Western</p>
+               <p>Bedouin-type dialect</p>
+            </div>
+            <div type="general">
+               <head>General</head>
+               <p xml:space="preserve">About 10 km far from the town of Kasra, il-Garia consists of a few small neighbourhoods. The region is known for its beautiful nature, the olive groves and the mountainous landscape.</p>
+            </div>
+            <div type="bibliography">
+               <head>Bibliography</head>
+               <p xml:space="preserve">{leave empty}</p>
+            </div>
+            <div type="sampleText">
+               <head>Sample text</head>
+               <p xml:space="preserve">{leave empty}</p>
+            </div>
+            <div type="lingFeatures">
+               <head>Linguistic features</head>
+               <p xml:space="preserve">{leave empty}</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
