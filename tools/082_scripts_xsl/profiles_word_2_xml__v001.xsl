@@ -108,8 +108,11 @@
         <fields xmlns="">
             <field key="id">ID</field>
             <field key="author">Author of this profile</field>
+            <field key="locNameEng">Name (English)</field>
+            <field key="locNameFushaAr">Name (Fuṣḥā, Arabic)</field>
             <field key="locNameEng">Name of location (English)</field>
             <field key="locNameFushaAr">Name of location (Fuṣḥā, Arabic)</field>
+            <field key="locNameFusha">Name (Fuṣḥā, transcription)</field>
             <field key="locNameFusha">Name of location (Fuṣḥā, transcription)</field>
             <field key="locNameLoc">Name in local variety (in transcription)</field>
             <field key="geo">Geo location</field>
