@@ -37,8 +37,8 @@
       <revisionDesc>
          <change status="created" when="2018-05-02T08:20:00Z" who="#">created</change>
          <change status="draft" when="2019-10-24T11:26:00Z" who="#">last modified (revision 1)</change>
-         <change status="draft" when="2019-10-28T16:37:48.818+01:00">transformed to TEI-XML</change>
-         <change when="2019-10-28T16:37:49.29+01:00" status="draft"/>
+         <change status="draft" when="2019-10-29T11:33:53.156+01:00">transformed to TEI-XML</change>
+         <change when="2019-10-29T11:33:53.663+01:00" status="draft"/>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -46,7 +46,7 @@
          <div>
             <head>
                <figure>
-                  <graphic url="Testour_profile_final/media/image1.jpeg"/>
+                  <graphic url="Testour1.jpeg"/>
                   <head type="imgCaption">Aleksandra Ercegovčević</head>
                </figure>
                <label>Name (English)</label>
@@ -70,13 +70,11 @@
                <p>Bedouin-type dialect </p>
             </div>
             <div type="general">
-               <head>General</head>
                <p xml:space="preserve">Testour is a small town located in the North West Tunisian governorate of Béja and situated on the hills of the Medjerda Valley. The population of Testour is famous for its Andalusian origin. The modern town occupies the site of the Roman settlement Tichilla which was granted to Andalusian refugees in 1609. </p>
                <p xml:space="preserve">As for the town’s tourist attractions, the main one is the Great Mosque built in Andalusian style in the 17th century. Furthermore, Testour hosts a yearly international festival of <hi rendition="#i">mālūf</hi> (traditional Maghrebi music of Andalusian origin).</p>
                <p xml:space="preserve">The Andalusian roots of the inhabitants are also reflected in the lexis of the dialect of Testour, namely in some Andalusian Spanish loanwords. </p>
             </div>
             <div type="researchHistory">
-               <head>Research history</head>
                <p xml:space="preserve">To the best of our knowledge hitherto no research has been done on the dialect of Testour, however this dialect is linguistically investigated within the TUNOCENT project.</p>
             </div>
             <div type="bibliography">

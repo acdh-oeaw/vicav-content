@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_nefza_01">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_ain_draham_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>A machine-readable profile of Nefza Arabic</title>
+            <title>A machine-readable profile of Aïn Draham Arabic</title>
             <respStmt>
                <resp>document preparation</resp>
                <name xml:id=""/>
             </respStmt>
-            <author>Aleksandra Ercegovčević</author>
+            <author>Ilona Bruckner</author>
          </titleStmt>
          <publicationStmt>
             <publisher>ACDH-OeAW</publisher>
@@ -35,45 +35,41 @@
          </tagsDecl>
       </encodingDesc>
       <revisionDesc>
-         <change status="created" when="2018-05-02T08:20:00Z" who="#">created</change>
-         <change status="draft" when="2019-10-24T11:20:00Z" who="#">last modified (revision 1)</change>
-         <change status="draft" when="2019-10-29T11:33:56.934+01:00">transformed to TEI-XML</change>
-         <change when="2019-10-29T11:33:57.45+01:00" status="draft"/>
+         <change status="created" when="2019-09-03T10:31:00Z" who="#">created</change>
+         <change status="draft" when="2019-10-29T08:14:00Z" who="#">last modified (revision 1)</change>
+         <change status="draft" when="2019-10-29T11:33:40.366+01:00">transformed to TEI-XML</change>
+         <change when="2019-10-29T11:33:40.883+01:00" status="draft"/>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div>
             <head>
-               <figure>
-                  <graphic url="Nefza1.jpeg"/>
-                  <head type="imgCaption">Wikimedia</head>
-               </figure>
                <label>Name (English)</label>
-               <name xml:lang="eng">Nefza</name>
+               <name xml:lang="eng">Aïn Draham, Ayn Draham</name>
                <label>Name (Fuṣḥā, transcription)</label>
-               <name xml:lang="ara-x-DMG">Nafza</name>
+               <name xml:lang="ara-x-DMG">ʕAyn Darāhim</name>
                <label>Name in local variety (in transcription)</label>
-               <name xml:lang="ara-Latn" type="latLoc">Nifza</name>
+               <name xml:lang="ara-Latn" type="latLoc">ʕĪn Dṛāham</name>
                <label>Name (Fuṣḥā, Arabic)</label>
-               <name xml:lang="ara">نفزة</name>
+               <name xml:lang="ara">عين دراهم</name>
             </head>
             <div type="positioning">
                <head>Geo location</head>
                <p>
-                  <geo>36.98, 9.08</geo>
+                  <geo>36.78, 8.67</geo>
                </p>
             </div>
             <div type="typology">
                <head>Typology (Local)</head>
                <p rend="typology" xml:space="preserve">West (Maghreb) › Tunisia › North Western Tunisia</p>
-               <p>Bedouin-type dialect </p>
+               <p>Bedouin-type dialect</p>
             </div>
             <div type="general">
-               <p xml:space="preserve">Nefza (formerly Djebel Abiod / Ǧabal Abyaḏ̣) is a small town in the North West Tunisian governorate of Béja, located in a valley between the Kroumir and the Mogod mountains. The Sidi el Barrak (Sīdi l-Baṛṛāg) Dam which is situated next to Nefza supplies water for different parts of the country. Beside its breath-taking arboreous nature, the Nefza region is famous for the kaki fruit called <hi rendition="#i">krīma</hi>, which is the town’s symbol as well.</p>
+               <p xml:space="preserve">ʕĪn Drāham is a town in the Jendouba Governorate of North Western Tunisia, located 25 km south of Tabarka and only about 10 km to the Algerian border. At an altitude of 700 m it is situated in the undulating region of the Kroumir mountains. It is home to about 11,000 inhabitants.ʕĪn Drāham is famous for its sulphurous hot springs that were already used by the Romans. Originally a French military base, it started to become an inner-Tunisian tourist destination in the 1930s, being known for its unique cold and humid climate and its colonial heritage (especially the red-tile roofs). It has the highest average rainfall of 1,534 mm per year in Tunisia and is frequently covered with snow in winter. This uniqueness in climate and landscape is reflected in its dense forests of beech and oak trees (including cork oak), pine trees (of which the famous <hi rendition="#i">zgūg</hi><hi rendition="#i">u</hi> is made.</p>
             </div>
             <div type="researchHistory">
-               <p xml:space="preserve">To the best of our knowledge hitherto no research has been done on the dialect of Nefza, however this dialect as well as the dialects of the surrounding villages like e.g. Umm l-ʕBīd, Ḥbǟba and Ṭwīla are linguistically investigated within the TUNOCENT project.</p>
+               <p xml:space="preserve">To the best of our knowledge hitherto no research has been done on the dialect of ʕĪn Drāham, however this dialect is linguistically investigated within the TUNOCENT project.</p>
             </div>
             <div type="bibliography">
                <head>Bibliography</head>

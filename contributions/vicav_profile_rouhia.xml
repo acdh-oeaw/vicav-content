@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_rouhia_01">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A machine-readable profile of Rouhia Arabic</title>
+            <respStmt>
+               <resp>document preparation</resp>
+               <name xml:id=""/>
+            </respStmt>
+            <author>Ilona Bruckner</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>ACDH-OeAW</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date>2019</date>
+            <availability status="restricted">
+               <p>
+                  <ref type="license"
+                       target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This is an original digital text</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change status="created" when="2019-09-02T12:45:00Z" who="#">created</change>
+         <change status="draft" when="2019-10-29T09:20:00Z" who="#">last modified (revision 1)</change>
+         <change status="draft" when="2019-10-29T11:33:38.179+01:00">transformed to TEI-XML</change>
+         <change when="2019-10-29T11:33:38.838+01:00" status="draft"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>
+               <figure>
+                  <graphic url="ir-Ruhiya1.jpeg"/>
+                  <head type="imgCaption">Ilona Bruckner</head>
+               </figure>
+               <label>Name (English)</label>
+               <name xml:lang="eng">Rouhia, er Rouhia, Ar-Rawhiyah</name>
+               <label>Name (Fuṣḥā, transcription)</label>
+               <name xml:lang="ara-x-DMG">ar-Rūḥīya</name>
+               <label>Name in local variety (in transcription)</label>
+               <name xml:lang="ara-Latn" type="latLoc">ir-Rūḥīya</name>
+               <label>Name (Fuṣḥā, Arabic)</label>
+               <name xml:lang="ara">الروحية</name>
+            </head>
+            <div type="positioning">
+               <head>Geo location</head>
+               <p>
+                  <geo>35.65, 9.05</geo>
+               </p>
+            </div>
+            <div type="typology">
+               <head>Typology (Local)</head>
+               <p rend="typology" xml:space="preserve">West (Maghreb) › Tunisia › North Western Tunisia</p>
+               <p>Bedouin-type dialect</p>
+            </div>
+            <div type="general">
+               <p xml:space="preserve">ir-Rūḥīya is a small town (<hi rendition="#u">with about 4,000 </hi>inhabitants) and district capital (<hi rendition="#i">muʕtamadīya</hi>) in the <ref target="https://en.wikipedia.org/wiki/Siliana_Governorate"><hi rendition="#u">Silyǟ</hi><hi rendition="#u">na</hi><hi rendition="#u"> G</hi><hi rendition="#u">o</hi><hi rendition="#u">vernorate</hi></ref>. According to local sources, its original population was formed by the Arabic tribes Ūlǟd Mǟžir and Ūlǟd ʕAyyāṛ. Due to its location in the transition area of three governorates, it belonged to il-Kǟf first, later became a part of il-Gaṣrīn and as Silyǟna became a governorate of its own, it became a part of Silyǟna. Within the municipality of ir-Rūḥīya the dialect of is-Skārna is famous for its unique lexical expressions. </p>
+               <p xml:space="preserve">Folk etymology has it that the name of the town is derived from <hi rendition="#i">ar-rūḥ</hi><hi rendition="#i"> </hi><hi rendition="#i">h</hi><hi rendition="#i">ī</hi><hi rendition="#i">ya</hi> “It is the spirit”. ir-Rūḥīya used to be a vivid center of spiritual life, famous for its <hi rendition="#i">zrid</hi>-ceremonies (singular <hi rendition="#i">zarda</hi> “feast celebrated in honour of a saint”), in the course of which the local population as well as people from other parts of Tunisia visited the saints’ tombs (e.g. Umm id-Dlǟl, Sīdi l-Hǟdi, Ḥmid Bū ʕĪn, Sīdi ʕAlī). After the revolution in 2011 these activities stopped and have shown a slow revival within the last years.</p>
+            </div>
+            <div type="researchHistory">
+               <p xml:space="preserve">To the best of our knowledge hitherto no research has been done on the dialect of ir-Rūḥīya, however this dialect is linguistically investigated within the TUNOCENT project.</p>
+            </div>
+            <div type="bibliography">
+               <head>Bibliography</head>
+               <p xml:space="preserve">{leave empty}</p>
+            </div>
+            <div type="sampleText">
+               <head>Sample text</head>
+               <p xml:space="preserve">{leave empty}</p>
+            </div>
+            <div type="lingFeatures">
+               <head>Linguistic features</head>
+               <p xml:space="preserve">{leave empty}</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

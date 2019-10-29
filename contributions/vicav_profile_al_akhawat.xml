@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_nefza_01">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_al_akhawat_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>A machine-readable profile of Nefza Arabic</title>
+            <title>A machine-readable profile of Al Akhawat Arabic</title>
             <respStmt>
                <resp>document preparation</resp>
                <name xml:id=""/>
             </respStmt>
-            <author>Aleksandra Ercegovčević</author>
+            <author>Ilona Bruckner</author>
          </titleStmt>
          <publicationStmt>
             <publisher>ACDH-OeAW</publisher>
@@ -35,10 +35,10 @@
          </tagsDecl>
       </encodingDesc>
       <revisionDesc>
-         <change status="created" when="2018-05-02T08:20:00Z" who="#">created</change>
-         <change status="draft" when="2019-10-24T11:20:00Z" who="#">last modified (revision 1)</change>
-         <change status="draft" when="2019-10-29T11:33:56.934+01:00">transformed to TEI-XML</change>
-         <change when="2019-10-29T11:33:57.45+01:00" status="draft"/>
+         <change status="created" when="2019-09-02T12:56:00Z" who="#">created</change>
+         <change status="draft" when="2019-10-29T09:20:00Z" who="#">last modified (revision 1)</change>
+         <change status="draft" when="2019-10-29T11:33:48.052+01:00">transformed to TEI-XML</change>
+         <change when="2019-10-29T11:33:48.61+01:00" status="draft"/>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -46,34 +46,34 @@
          <div>
             <head>
                <figure>
-                  <graphic url="Nefza1.jpeg"/>
-                  <head type="imgCaption">Wikimedia</head>
+                  <graphic url="l-Akhwet1.jpeg"/>
+                  <head type="imgCaption">Ilona Bruckner</head>
                </figure>
                <label>Name (English)</label>
-               <name xml:lang="eng">Nefza</name>
+               <name xml:lang="eng">Al Akhawat, El Akhouat</name>
                <label>Name (Fuṣḥā, transcription)</label>
-               <name xml:lang="ara-x-DMG">Nafza</name>
+               <name xml:lang="ara-x-DMG">al-ʔAxawāt</name>
                <label>Name in local variety (in transcription)</label>
-               <name xml:lang="ara-Latn" type="latLoc">Nifza</name>
+               <name xml:lang="ara-Latn" type="latLoc">l-Axwǟt</name>
                <label>Name (Fuṣḥā, Arabic)</label>
-               <name xml:lang="ara">نفزة</name>
+               <name xml:lang="ara">الأخوات</name>
             </head>
             <div type="positioning">
                <head>Geo location</head>
                <p>
-                  <geo>36.98, 9.08</geo>
+                  <geo>36.31, 9.24</geo>
                </p>
             </div>
             <div type="typology">
                <head>Typology (Local)</head>
                <p rend="typology" xml:space="preserve">West (Maghreb) › Tunisia › North Western Tunisia</p>
-               <p>Bedouin-type dialect </p>
+               <p>Bedouin-type dialect</p>
             </div>
             <div type="general">
-               <p xml:space="preserve">Nefza (formerly Djebel Abiod / Ǧabal Abyaḏ̣) is a small town in the North West Tunisian governorate of Béja, located in a valley between the Kroumir and the Mogod mountains. The Sidi el Barrak (Sīdi l-Baṛṛāg) Dam which is situated next to Nefza supplies water for different parts of the country. Beside its breath-taking arboreous nature, the Nefza region is famous for the kaki fruit called <hi rendition="#i">krīma</hi>, which is the town’s symbol as well.</p>
+               <p xml:space="preserve">l-Axwǟt is a small town in the north of the Governorate Silyǟna. Despite its smallness, it has some developed infrastructure and a direct train connection to the capital. Due to its closeness to Tunis, its fertile earth and natural resources it was of great interest for the French. l-Axwǟt is part of the district (<hi rendition="#i">muʕtamadīya</hi>) of Gaʕfūr that is inhabited mainly by the tribes of Ūlǟd Žwīn, il-Wislǟtīya, il-Kinǟzra and il-Brākta. From 1952 until 1993, the main employer was a zinc- and lead-mine, attracting workers from all around Tunisia’s North Western and central regions and even from Libya. Therefore, many different dialects mingled in the region. After the mine had been closed, many became unemployed and left the town. Now the most important economic branch is agriculture.</p>
             </div>
             <div type="researchHistory">
-               <p xml:space="preserve">To the best of our knowledge hitherto no research has been done on the dialect of Nefza, however this dialect as well as the dialects of the surrounding villages like e.g. Umm l-ʕBīd, Ḥbǟba and Ṭwīla are linguistically investigated within the TUNOCENT project.</p>
+               <p xml:space="preserve">To the best of our knowledge hitherto no research has been done on the dialect of l-Axwǟt, however this dialect is linguistically investigated within the TUNOCENT project.</p>
             </div>
             <div type="bibliography">
                <head>Bibliography</head>

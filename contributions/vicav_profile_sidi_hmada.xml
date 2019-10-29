@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_nefza_01">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_sidi_hmada_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>A machine-readable profile of Nefza Arabic</title>
+            <title>A machine-readable profile of Sidi Hmada Arabic</title>
             <respStmt>
                <resp>document preparation</resp>
                <name xml:id=""/>
             </respStmt>
-            <author>Aleksandra Ercegovčević</author>
+            <author>Ilona Bruckner</author>
          </titleStmt>
          <publicationStmt>
             <publisher>ACDH-OeAW</publisher>
@@ -35,10 +35,10 @@
          </tagsDecl>
       </encodingDesc>
       <revisionDesc>
-         <change status="created" when="2018-05-02T08:20:00Z" who="#">created</change>
-         <change status="draft" when="2019-10-24T11:20:00Z" who="#">last modified (revision 1)</change>
-         <change status="draft" when="2019-10-29T11:33:56.934+01:00">transformed to TEI-XML</change>
-         <change when="2019-10-29T11:33:57.45+01:00" status="draft"/>
+         <change status="created" when="2019-08-29T15:38:00Z" who="#">created</change>
+         <change status="draft" when="2019-10-29T09:40:00Z" who="#">last modified (revision 1)</change>
+         <change status="draft" when="2019-10-29T11:33:42.434+01:00">transformed to TEI-XML</change>
+         <change when="2019-10-29T11:33:42.952+01:00" status="draft"/>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -46,34 +46,34 @@
          <div>
             <head>
                <figure>
-                  <graphic url="Nefza1.jpeg"/>
-                  <head type="imgCaption">Wikimedia</head>
+                  <graphic url="SidiHmeda1.jpeg"/>
+                  <head type="imgCaption">Ilona Bruckner</head>
                </figure>
                <label>Name (English)</label>
-               <name xml:lang="eng">Nefza</name>
+               <name xml:lang="eng">Sidi Hmada</name>
                <label>Name (Fuṣḥā, transcription)</label>
-               <name xml:lang="ara-x-DMG">Nafza</name>
+               <name xml:lang="ara-x-DMG">Sīdi Ḥamāda</name>
                <label>Name in local variety (in transcription)</label>
-               <name xml:lang="ara-Latn" type="latLoc">Nifza</name>
+               <name xml:lang="ara-Latn" type="latLoc">Sīdi Ḥmǟda</name>
                <label>Name (Fuṣḥā, Arabic)</label>
-               <name xml:lang="ara">نفزة</name>
+               <name xml:lang="ara">سيدي حمادة</name>
             </head>
             <div type="positioning">
                <head>Geo location</head>
                <p>
-                  <geo>36.98, 9.08</geo>
+                  <geo>35.96, 9.54</geo>
                </p>
             </div>
             <div type="typology">
                <head>Typology (Local)</head>
                <p rend="typology" xml:space="preserve">West (Maghreb) › Tunisia › North Western Tunisia</p>
-               <p>Bedouin-type dialect </p>
+               <p>Bedouin-type dialect</p>
             </div>
             <div type="general">
-               <p xml:space="preserve">Nefza (formerly Djebel Abiod / Ǧabal Abyaḏ̣) is a small town in the North West Tunisian governorate of Béja, located in a valley between the Kroumir and the Mogod mountains. The Sidi el Barrak (Sīdi l-Baṛṛāg) Dam which is situated next to Nefza supplies water for different parts of the country. Beside its breath-taking arboreous nature, the Nefza region is famous for the kaki fruit called <hi rendition="#i">krīma</hi>, which is the town’s symbol as well.</p>
+               <p xml:space="preserve">The village of Sīdi Ḥmǟda is located on the foot of Žbal is-Sarž in the governorate of Silyǟna. The region is famous for the grotto ʕĪn iḏ-Ḏhab and the recently established natural reserve where gazelles are reared. Sīdi Ḥmǟda is home to about 2,000 inhabitants who consider themselves descendants of the local saint Sīdi Ḥmǟda. He is said to be the son of a Libyan father and of a mother from the Ūlǟd ʕŪn tribe of Silyǟna.</p>
             </div>
             <div type="researchHistory">
-               <p xml:space="preserve">To the best of our knowledge hitherto no research has been done on the dialect of Nefza, however this dialect as well as the dialects of the surrounding villages like e.g. Umm l-ʕBīd, Ḥbǟba and Ṭwīla are linguistically investigated within the TUNOCENT project.</p>
+               <p xml:space="preserve">To the best of our knowledge hitherto no research has been done on the dialect of Sīdi Ḥmǟda, however this dialect is linguistically investigated within the TUNOCENT project.</p>
             </div>
             <div type="bibliography">
                <head>Bibliography</head>
