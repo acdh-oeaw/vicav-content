@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_{location}_01">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_medjez_el_bab_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>A machine-readable profile of Ayn Draham Arabic</title>
+            <title>A machine-readable profile of Medjez el Bab Arabic</title>
             <respStmt>
                <resp>document preparation</resp>
                <name xml:id=""/>
             </respStmt>
-            <author>Ilona Bruckner</author>
+            <author>Aleksandra Ercegovčević</author>
          </titleStmt>
          <publicationStmt>
             <publisher>ACDH-OeAW</publisher>
@@ -35,39 +35,45 @@
          </tagsDecl>
       </encodingDesc>
       <revisionDesc>
-         <change status="created" when="2019-09-03T10:31:00Z" who="#">created</change>
-         <change status="draft" when="2019-10-04T08:11:00Z" who="#">last modified (revision 1)</change>
-         <change status="draft" when="2019-10-28T11:29:02.576+01:00">transformed to TEI-XML</change>
-         <change when="2019-10-28T11:29:03.057+01:00" status="draft"/>
+         <change status="created" when="2018-05-02T08:20:00Z" who="#">created</change>
+         <change status="draft" when="2019-10-24T11:11:00Z" who="#">last modified (revision 1)</change>
+         <change status="draft" when="2019-10-28T17:44:37.359+01:00">transformed to TEI-XML</change>
+         <change when="2019-10-28T17:44:37.956+01:00" status="draft"/>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div>
             <head>
+               <figure>
+                  <graphic url="Medjez%20el-Bab_profile_final/media/image1.jpeg"/>
+                  <head type="imgCaption">Aleksandra Ercegovčević</head>
+               </figure>
                <label>Name (English)</label>
-               <name xml:lang="eng">Ayn Draham</name>
+               <name xml:lang="eng">Medjez el Bab, Majaz al Bab</name>
                <label>Name (Fuṣḥā, transcription)</label>
-               <name xml:lang="ara">ʕAyn Drāham</name>
+               <name xml:lang="ara-x-DMG">Maǧāz al-Bāb</name>
                <label>Name in local variety (in transcription)</label>
-               <name xml:lang="ara-x-DMG">ʕĪn Dṛāham</name>
+               <name xml:lang="ara-Latn" type="latLoc">Mžǟz il-Bǟb</name>
                <label>Name (Fuṣḥā, Arabic)</label>
-               <name xml:lang="ajp">عين دراهم</name>
+               <name xml:lang="ara">مجاز الباب </name>
             </head>
             <div type="positioning">
                <head>Geo location</head>
                <p>
-                  <geo>36.78, 8.67</geo>
+                  <geo>36.64, 9.63</geo>
                </p>
             </div>
             <div type="typology">
                <head>Typology (Local)</head>
-               <p rend="author">West (Maghreb) &gt; Tunisia &gt; North Western Tunisia</p>
-               <p>Bedouin-type dialect</p>
+               <p rend="typology" xml:space="preserve">West (Maghreb) › Tunisia › North Western Tunisia</p>
+               <p>Bedouin-type dialect </p>
             </div>
             <div type="general">
-               <head>General</head>
-               <p xml:space="preserve">ʕĪn Drāham is a city in the Jendouba Gouvernorate of North West Tunisia, situated 25 kilometers south of Ṭabarga. It is the center of a municipality of 40,372 inhabitants. The city itself has an estimated population of 10,843 inhabitants (2004). It is located at an altitude of 700 meters on the slopes of the Ǧbal Bīr (1014 m).The name ʕĪn Drāham refers to the sulfurous hot springs that were already used by the Romans. Originally a French military base, it started to become a tourist destination in the 1930s, being known for its unique cold and humid climate and its colonial heritage (especially the red-tile roofs). It has the highest average rainfall at 1534 mm per year in Tunisia and is frequently covered with snow in winter. This uniqueness is reflected in its dense forests of oak trees (including cork oak), pine (of which the famous zgūgu is made) and beech.</p>
+               <p xml:space="preserve">Medjez el Bab is a town in the North West Tunisian governorate of Béja, situated some 60 km away from the capital Tunis. It is located in the plain of the river Medjerda and was inhabited during the Roman era already, bearing the name Membressa. </p>
+            </div>
+            <div type="researchHistory">
+               <p xml:space="preserve">To the best of our knowledge hitherto no research has been done on the dialect of Medjez el Bab, however this dialect is linguistically investigated within the TUNOCENT project.</p>
             </div>
             <div type="bibliography">
                <head>Bibliography</head>

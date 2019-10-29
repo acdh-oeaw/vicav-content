@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_{location}_01">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_testour_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -36,9 +36,9 @@
       </encodingDesc>
       <revisionDesc>
          <change status="created" when="2018-05-02T08:20:00Z" who="#">created</change>
-         <change status="draft" when="2019-10-14T08:36:00Z" who="#">last modified (revision 1)</change>
-         <change status="draft" when="2019-10-28T11:28:35.28+01:00">transformed to TEI-XML</change>
-         <change when="2019-10-28T11:28:35.898+01:00" status="draft"/>
+         <change status="draft" when="2019-10-24T11:26:00Z" who="#">last modified (revision 1)</change>
+         <change status="draft" when="2019-10-28T16:37:48.818+01:00">transformed to TEI-XML</change>
+         <change when="2019-10-28T16:37:49.29+01:00" status="draft"/>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -46,21 +46,17 @@
          <div>
             <head>
                <figure>
-                  <graphic url="Testour_profile/media/image1.jpeg"/>
-                  <head type="imgCaption">Aleksandra Ercegovčević</head>
-               </figure>
-               <figure>
-                  <graphic url="Testour_profile/media/image2.jpeg"/>
+                  <graphic url="Testour_profile_final/media/image1.jpeg"/>
                   <head type="imgCaption">Aleksandra Ercegovčević</head>
                </figure>
                <label>Name (English)</label>
                <name xml:lang="eng">Testour</name>
                <label>Name (Fuṣḥā, transcription)</label>
-               <name xml:lang="ara">Tastūr</name>
-               <label>Name in local variety (in transcription)</label>
                <name xml:lang="ara-x-DMG">Tastūr</name>
+               <label>Name in local variety (in transcription)</label>
+               <name xml:lang="ara-Latn" type="latLoc">Tastūr</name>
                <label>Name (Fuṣḥā, Arabic)</label>
-               <name xml:lang="ajp">تستور</name>
+               <name xml:lang="ara">تستور</name>
             </head>
             <div type="positioning">
                <head>Geo location</head>
@@ -70,18 +66,18 @@
             </div>
             <div type="typology">
                <head>Typology (Local)</head>
-               <p rend="typology">West (Maghreb) &gt; Tunisia &gt; North Western Tunisia</p>
+               <p rend="typology" xml:space="preserve">West (Maghreb) › Tunisia › North Western Tunisia</p>
                <p>Bedouin-type dialect </p>
             </div>
             <div type="general">
                <head>General</head>
-               <p xml:space="preserve">Testour is a small town located in North West Tunisia on the hills of Medjerda Valley. The population of Testour is famous for its Andalusian descent. The modern town occupies the site of the Roman settlement Tichilla which was granted to Andalusian refugees in 1609. </p>
-               <p xml:space="preserve">As for the town’s tourist attractions, the main one is the Great Mosque built in Andalusian style in the 17th century. Furthermore, Testour hosts a yearly international festival of Malouf (traditional Andalusian music).</p>
+               <p xml:space="preserve">Testour is a small town located in the North West Tunisian governorate of Béja and situated on the hills of the Medjerda Valley. The population of Testour is famous for its Andalusian origin. The modern town occupies the site of the Roman settlement Tichilla which was granted to Andalusian refugees in 1609. </p>
+               <p xml:space="preserve">As for the town’s tourist attractions, the main one is the Great Mosque built in Andalusian style in the 17th century. Furthermore, Testour hosts a yearly international festival of <hi rendition="#i">mālūf</hi> (traditional Maghrebi music of Andalusian origin).</p>
                <p xml:space="preserve">The Andalusian roots of the inhabitants are also reflected in the lexis of the dialect of Testour, namely in some Andalusian Spanish loanwords. </p>
             </div>
             <div type="researchHistory">
                <head>Research history</head>
-               <p xml:space="preserve">To the best of our knowledge hitherto no research has been done on the dialect of Testour, however this dialect is taken into consideration and examined within the TUNOCENT project.</p>
+               <p xml:space="preserve">To the best of our knowledge hitherto no research has been done on the dialect of Testour, however this dialect is linguistically investigated within the TUNOCENT project.</p>
             </div>
             <div type="bibliography">
                <head>Bibliography</head>
