@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
-  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:s="http://purl.oclc.org/dsdl/schematron">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -24,10 +21,8 @@
   <text>
     <body>
       <schemaSpec ident="vicav_profiles" start="TEI">
-        <moduleRef key="header"
-          include="teiHeader fileDesc titleStmt publicationStmt availability rendition sourceDesc encodingDesc tagsDecl revisionDesc change listPrefixDef prefixDef"/>
-        <moduleRef key="core"
-          include="address author bibl date editor desc graphic head hi label listBibl name note p publisher pubPlace ref respStmt resp rs series title"/>
+        <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt availability rendition sourceDesc encodingDesc tagsDecl revisionDesc change listPrefixDef prefixDef"/>
+        <moduleRef key="core" include="address author bibl date editor desc graphic head hi label listBibl name note p publisher pubPlace ref respStmt resp rs series title"/>
         <moduleRef key="tei"/>
         <moduleRef key="namesdates" include="geo"/>
         <moduleRef key="textstructure" include="body div TEI text"/>
@@ -137,8 +132,7 @@
               <s:rule context="tei:rs[@type = 'bibl']">
                 <s:let name="zotero-prefix" value="'zotID:'"/>
                 <s:let name="zotero-id" value="substring-after(@ref,$zotero-prefix)"/>
-                <s:let name="zotero-entry"
-                  value="doc('../../../vicav_biblio/VICAV.xml')//tei:biblStruct[ends-with(@corresp,$zotero-id)]"/>
+                <s:let name="zotero-entry" value="doc('../../../vicav_biblio/VICAV.xml')//tei:biblStruct[ends-with(@corresp,$zotero-id)]"/>
                 <s:assert test="starts-with(@ref, $zotero-prefix)">ref must start with the Zotero
                   prefix '<s:value-of select="$zotero-prefix"/>' prefix</s:assert>
                 <s:assert test="exists($zotero-entry)"><s:value-of select="$zotero-id"/> is not a
@@ -153,10 +147,7 @@
               vicav_dialects.rdf.</desc>
             <constraint>
               <s:ns uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#" prefix="rdf"/>
-              <s:rule context="tei:div[@type = 'typology']/tei:p[1]"
-                  ><!--inserted by injectSKOS.xsl--><s:assert
-                  test=". = ('East (Mashriq) › Mesopotamia › Anatolia', 'Algeria › West (Maghreb)', 'Algeria › West (Maghreb)', 'Algeria › West (Maghreb)', 'Algeria › West (Maghreb)', 'East (Mashriq) › Arabia › Central Najd › Northern group', 'Tunisia › West (Maghreb)', 'Tunisia › West (Maghreb)', 'Tunisia › West (Maghreb)', 'East (Mashriq) › Levant › Lebanon', 'East (Mashriq) › Palestine › Levant', 'East (Mashriq) › Anatolia (qəltu) › Mesopotamia', 'East (Mashriq) › Anatolia (qəltu) › Mesopotamia', 'Libya › West (Maghreb)', 'East (Mashriq) › Iraq (qəltu) › Mesopotamia', 'East (Mashriq) › Arabia › Central Najd (ˁAnaza) › Northern group', 'East (Mashriq) › Arabia', 'East (Mashriq) › Turkey › Levant', 'East (Mashriq) › Yemen › Arabia', 'East (Mashriq) › Yemen › Arabia', 'East (Mashriq) › Yemen › Arabia', 'East (Mashriq) › Syria › Levant', 'East (Mashriq) › Syria › Levant', 'East (Mashriq) › Syria › Levant', 'East (Mashriq) › Levant › Lebanon', 'Egypt › East (Mashriq) › Delta › Egypt-Sudan', 'Egypt › East (Mashriq) › Delta › Egypt-Sudan', 'East (Mashriq) › Iraq › Mesopotamia', 'Eastern Syria (qəltu) › East (Mashriq) › Mesopotamia', 'Eastern group › East (Mashriq) › Sudan', 'Palestine/Syria › East (Mashriq) › Levant', 'East (Mashriq) › Arabia', 'East (Mashriq) › Mesopotamia › Anatolia', 'Iraq (gilit) › East (Mashriq) › Mesopotamia', 'Morocco › West (Maghreb)', 'East (Mashriq) › Egypt-Sudan › Eastern group › Sudan', 'East (Mashriq) › Syro-Palestinian', 'East (Mashriq) › Arabia › Northern group')"
-                  >typology must match one path of the SKOS Taxonomy of dialects</s:assert></s:rule>
+              <s:rule context="tei:div[@type = 'typology']/tei:p[1]"><!--inserted by injectSKOS.xsl--><s:assert test=". = ('West (Maghreb) › Morocco', 'West (Maghreb) › Algeria', 'East (Mashriq) › Levant › Lebanon', 'East (Mashriq) › Levant › Lebanon', 'East (Mashriq) › Egypt-Sudan › Eastern group › Sudan', 'East (Mashriq) › Mesopotamia › Iraq (qəltu)', 'East (Mashriq) › Levant › Palestine/Syria', 'East (Mashriq) › Arabia › Northern group', 'East (Mashriq) › Egypt-Sudan › Delta › Egypt', 'East (Mashriq) › Mesopotamia › Iraq', 'East (Mashriq) › Arabia', 'East (Mashriq) › Mesopotamia › Anatolia (qəltu)', 'East (Mashriq) › Mesopotamia › Iraq (gilit)', 'West (Maghreb) › Tunisia', 'East (Mashriq) › Levant › Syria', 'East (Mashriq) › Levant › Syria', 'East (Mashriq) › Levant › Syria', 'East (Mashriq) › Sudan › Eastern group', 'East (Mashriq) › Arabia › Yemen', 'West (Maghreb) › Algeria', 'West (Maghreb) › Tunisia', 'East (Mashriq) › Mesopotamia › Anatolia', 'East (Mashriq) › Levant › Turkey', 'West (Maghreb) › Tunisia', 'West (Maghreb) › Libya', 'East (Mashriq) › Levant › Palestine', 'East (Mashriq) › Mesopotamia › Anatolia (qəltu)', 'West (Maghreb) › Algeria', 'East (Mashriq) › Arabia › Yemen', 'East (Mashriq) › Arabia › Northern group › Central Najd', 'East (Mashriq) › Mesopotamia › Eastern Syria (qəltu)', 'East (Mashriq) › Syro-Palestinian', 'East (Mashriq) › Mesopotamia › Anatolia', 'East (Mashriq) › Arabia', 'West (Maghreb) › Algeria', 'East (Mashriq) › Arabia › Northern group › Central Najd (ˁAnaza)', 'East (Mashriq) › Egypt-Sudan › Delta › Egypt', 'East (Mashriq) › Arabia › Yemen')">typology must match one path of the SKOS Taxonomy of dialects</s:assert></s:rule>
             </constraint>
           </constraintSpec>
         </elementSpec>
