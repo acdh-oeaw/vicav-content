@@ -10757,6 +10757,21 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>tools/082_scripts_xsl/profiles_word_2_xml__v001.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DOCX to TEI: Profile</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>vicav_lingfeatures/vicav_lingfeatures_ahwaz_toks.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -11647,7 +11662,7 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputResource">
-                                    <String>vicav_${cfn}.xml</String>
+                                    <null/>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>

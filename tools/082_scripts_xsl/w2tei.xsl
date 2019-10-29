@@ -34,7 +34,7 @@
     version="3.0">
     <xsl:preserve-space elements="w:t"/>
     <xsl:output indent="no"/>
-    
+       
     <xsl:function name="_:unzip-and-parse">
         <xsl:param name="filename"/>
         <xsl:variable name="text" select="archive:extract-text(file:read-binary($path-to-docx), $filename)"/>
@@ -42,18 +42,31 @@
     </xsl:function>
     <xsl:function name="_:unzip-and-store-binary">
         <xsl:param name="internalFilepath" as="xs:string"/>
-        <xsl:message>Extracting and storing binary file '<xsl:value-of select="$internalFilepath"/>'</xsl:message>
-        <xsl:variable name="filename" select="tokenize($internalFilepath,'/')[last()]"/>
-        <xsl:variable name="output-filepath-relative" select="concat(replace($docx-filename,'\.docx$',''),'/',substring-after($internalFilepath,'word/'))"/>
-        <xsl:variable name="output-filepath-absolute" select="concat($docx-filepath,'/', $output-filepath-relative)"/>
         <xsl:variable name="data" select="archive:extract-binary(file:read-binary($path-to-docx), $internalFilepath)"/>
-        <xsl:variable name="create-parent-dirs" select="file:create-dir(substring-before($output-filepath-absolute, $filename))"/>
-        <xsl:if test="not($create-parent-dirs)">
-            <xsl:message>Created directory structure of '<xsl:value-of select="$output-filepath-relative"/>'</xsl:message>
-        </xsl:if>
-        <xsl:variable name="store" select="file:write-binary($output-filepath-absolute, xs:base64Binary($data))"/>
-        <xsl:message>Storing media file <xsl:value-of select="$filename"/> to <xsl:value-of select="$output-filepath-absolute"/></xsl:message>
-        <xsl:value-of select="if (not($store)) then $output-filepath-relative else ()"/>
+        <xsl:message>Extracting and storing binary file '<xsl:value-of select="$internalFilepath"/>'</xsl:message>
+        <xsl:choose>
+            <xsl:when test="matches($docx-filename, '[A-Z]\w+_')">
+                <xsl:variable name="dialect" select="replace($docx-filename, '([A-Z]\w+)_.*', '$1')"/>
+                <xsl:variable name="filename" select="concat($dialect, substring-after($internalFilepath,'word/media/image'))"/>
+                <xsl:variable name="output-filepath-relative" select="$filename"/>
+                <xsl:variable name="output-filepath-absolute" select="concat($docx-filepath,'/', $output-filepath-relative)"/>                
+                <xsl:variable name="store" select="file:write-binary($output-filepath-absolute, xs:base64Binary($data))"/>
+                <xsl:message>Storing media file <xsl:value-of select="$filename"/> to <xsl:value-of select="$output-filepath-absolute"/></xsl:message>
+                <xsl:value-of select="if (not($store)) then $output-filepath-relative else ()"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:variable name="filename" select="tokenize($internalFilepath,'/')[last()]"/>
+                <xsl:variable name="output-filepath-relative" select="concat(replace($docx-filename,'\.docx$',''),'/',substring-after($internalFilepath,'word/'))"/>
+                <xsl:variable name="output-filepath-absolute" select="concat($docx-filepath,'/', $output-filepath-relative)"/>                
+                <xsl:variable name="create-parent-dirs" select="file:create-dir(substring-before($output-filepath-absolute, $filename))"/>
+                <xsl:if test="not($create-parent-dirs)">
+                    <xsl:message>Created directory structure of '<xsl:value-of select="$output-filepath-relative"/>'</xsl:message>
+                </xsl:if>
+                <xsl:variable name="store" select="file:write-binary($output-filepath-absolute, xs:base64Binary($data))"/>
+                <xsl:message>Storing media file <xsl:value-of select="$filename"/> to <xsl:value-of select="$output-filepath-absolute"/></xsl:message>
+                <xsl:value-of select="if (not($store)) then $output-filepath-relative else ()"/>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:function>
     
     <xsl:key name="comment-by-id" match="w:comment" use="@w:id"/>

@@ -104,6 +104,13 @@
         <xsl:sequence select="$table//tei:cell[normalize-space(.) = $label]/parent::tei:row/tei:cell[$cell-number]"/>
     </xsl:function>
     
+    <xsl:function name="acdh:normalize-dialect">
+        <xsl:param name="string"></xsl:param>
+        <xsl:variable name="from" select="'âæçéèêëïîôœûùüÿäöüßʔāǟḅʕḏ̣ḏēġǧḥīᴵəᵊḷṃōṛṣšṭṯūẓž'"/>
+        <xsl:variable name="to"   select="'aaceeeeiioouuuyaous2aeb3ddegghiieelmorssttuzz'"/>
+        <xsl:value-of select="lower-case(translate(normalize-unicode(normalize-space(string($string))), $from, $to))"/>
+    </xsl:function>
+
     <xsl:variable name="fields">
         <fields xmlns="">
             <field key="id">ID</field>
@@ -132,9 +139,9 @@
     </xsl:variable>
 
     <xsl:variable name="author" select="acdh:field-value('author')"/>
-    <xsl:variable name="id" select="acdh:field-value('id')"/>
-    
     <xsl:variable name="locNameEng" select="acdh:field-value('locNameEng')"/>
+    <xsl:variable name="locNameEngNoAlternates" select="replace($locNameEng, ',.+$', '')"/>
+    
     <xsl:variable name="locNameFushaAr" select="acdh:field-value('locNameFushaAr')"/>
     <xsl:variable name="locNameFusha" select="acdh:field-value('locNameFusha')"/>
     <xsl:variable name="locNameLoc" select="acdh:field-value('locNameLoc')"/>
@@ -142,7 +149,23 @@
     <xsl:variable name="imageCopyright" select="acdh:field-value('imageCopyright')"/>
     <xsl:variable name="image" select="acdh:field-value('image')//tei:figure"/>
     <xsl:variable name="geo" select="acdh:field-value('geo')"/>
-    <xsl:variable name="typology" select="acdh:field-value('typology')"/>
+    <xsl:variable name="typology">
+        <xsl:variable name="raw" select="acdh:field-value('typology')"/>
+        <xsl:element name="{local-name($raw)}">
+            <xsl:attribute name="rend">typology</xsl:attribute>
+            <xsl:attribute name="xml:space">preserve</xsl:attribute>
+            <xsl:for-each select="$raw/node()">
+                <xsl:message select="."></xsl:message>
+                <xsl:choose>
+                    <xsl:when test=". instance of text()">
+                        <xsl:message select="replace(., '>', '›')"></xsl:message>
+                        <xsl:value-of select="replace(., '>', '›')"/>
+                    </xsl:when>
+                    <xsl:otherwise><xsl:apply-templates></xsl:apply-templates></xsl:otherwise>
+                </xsl:choose>
+            </xsl:for-each>
+        </xsl:element>
+    </xsl:variable>
     <xsl:variable name="typologyGen" select="acdh:field-value('typologyGen')"/>
     
     <xsl:variable name="general" select="acdh:field-value('general')"/>
@@ -154,8 +177,16 @@
     <xsl:variable name="biblio" select="acdh:field-value('biblio')"/>
     <xsl:variable name="sample" select="acdh:field-value('sample')"/>
     <xsl:variable name="lingfeatures" select="acdh:field-value('lingfeatures')"/>
-
+    <xsl:variable name="machineName" select="replace(acdh:normalize-dialect($locNameEngNoAlternates), '\W+', '_')"/>
+    
+    <xsl:variable name="id" select="replace(acdh:field-value('id'), '\{location\}', $machineName)"/>
+    
+    <xsl:variable name="outputFilename" select="concat('vicav_profile_', $machineName)"></xsl:variable>
+        
+    
     <xsl:template match="/">
+        <xsl:result-document href="{$outputFilename}.xml">
+        
         <xsl:if test="$debug">
             <xsl:result-document href="keys.xml">
                 <xsl:sequence select="$bibl-entry-keys"/>
@@ -170,7 +201,7 @@
                 <teiHeader>
                     <fileDesc>
                         <titleStmt>
-                            <title>A machine-readable profile of <xsl:value-of select="$locNameEng"/> Arabic</title>
+                            <title>A machine-readable profile of <xsl:value-of select="$locNameEngNoAlternates"/> Arabic</title>
                             <respStmt>
                                 <resp>document preparation</resp>
                                 <xsl:copy-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author/node()"/>
@@ -206,15 +237,15 @@
                                 
                                 <xsl:if test="string-length($locNameFusha)&gt;0">
                                     <label><xsl:value-of select="acdh:label-by-key('locNameFusha')"/></label>
-                                    <name xml:lang="ara"><xsl:value-of select="$locNameFusha"/></name>
+                                    <name xml:lang="ara-x-DMG"><xsl:value-of select="$locNameFusha"/></name>
                                 </xsl:if>
                                 <xsl:if test="string-length($locNameLoc)&gt;0">
                                     <label><xsl:value-of select="acdh:label-by-key('locNameLoc')"/></label>
-                                    <name xml:lang="ara-x-DMG"><xsl:value-of select="$locNameLoc"/></name>
+                                    <name xml:lang="ara-Latn" type="latLoc"><xsl:value-of select="$locNameLoc"/></name>
                                 </xsl:if>
                                 <xsl:if test="string-length($locNameFushaAr)&gt;0">
                                     <label><xsl:value-of select="acdh:label-by-key('locNameFushaAr')"/></label>
-                                    <name xml:lang="ajp" ><xsl:value-of select="$locNameFushaAr"/></name>
+                                    <name xml:lang="ara" ><xsl:value-of select="$locNameFushaAr"/></name>
                                 </xsl:if>                                                        
                             </head>
                             
@@ -235,14 +266,12 @@
                             
                             <xsl:if test="exists($general)">
                                 <div type="general">
-                                    <head><xsl:value-of select="acdh:label-by-key('general')"/></head>
                                     <xsl:apply-templates select="$general"/>
                                 </div>
                             </xsl:if>
                             
                             <xsl:if test="exists($researchHistory)">
                                 <div type="researchHistory">
-                                    <head><xsl:value-of select="acdh:label-by-key('researchHistory')"/></head>
                                     <xsl:apply-templates select="$researchHistory"/>
                                 </div>
                             </xsl:if>
@@ -295,6 +324,7 @@
         </xsl:variable>
         
         <xsl:apply-templates select="$pass1" mode="pass2"/>
+        </xsl:result-document>
         
     </xsl:template>
     
@@ -355,8 +385,6 @@
             </xsl:non-matching-substring>
         </xsl:analyze-string>
     </xsl:template>
-    
-    
      
     <xsl:template match="w:proofErr"/>
     
