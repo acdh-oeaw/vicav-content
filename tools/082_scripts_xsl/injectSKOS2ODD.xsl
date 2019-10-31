@@ -35,7 +35,8 @@
     <xsl:function name="vicav:expandParentConcepts">
         <xsl:param name="c" as="element(skos:Concept)"/>
         <xsl:variable name="parents" select="vicav:getParentConcepts($c)"/>
-        <xsl:value-of select="string-join((reverse($parents/skos:prefLabel/text()), $c/skos:prevLabel),' › ')"/>
+        <xsl:message select="$parents"></xsl:message>
+        <xsl:value-of select="string-join(($parents/skos:prefLabel/text(), $c/skos:prevLabel),' › ')"/>
     </xsl:function>
     
     <xsl:template match="s:rule[@context = 'tei:div[@type = ''typology'']/tei:p[1]']">
