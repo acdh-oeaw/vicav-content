@@ -47,7 +47,7 @@
             <head>Interrogatives</head>
             <cit type="featureSample">
                <lbl>who?</lbl>
-               <note>Most commonly dialects show reflexes of CA <hi rend="italic">man</hi>.</note>
+               <note xml:space="preserve">Most commonly dialects show reflexes of CA <hi rend="italic">man</hi>.</note>
                <quote xml:lang="en">Who is this man? – He is my friend</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
@@ -186,7 +186,7 @@
             </cit>
             <cit type="featureSample">
                <lbl>why?</lbl>
-               <note>A very common pattern are reflexes of CA <hi rend="italic">li</hi>
+               <note xml:space="preserve">A very common pattern are reflexes of CA <hi rend="italic">li</hi>
                      + <hi rend="italic">’ayy</hi> or <hi rend="italic">li</hi> + <hi rend="italic">’ayy</hi> +
                      <hi rend="itelic">šay’</hi>
                </note>
@@ -222,7 +222,7 @@
             </cit>
             <cit type="featureSample">
                <lbl>where?</lbl>
-               <note>A very common pattern are reflexes of CA <hi rend="italic">fī</hi> + <hi rend="italic">’ayna</hi>
+               <note xml:space="preserve">A very common pattern are reflexes of CA <hi rend="italic">fī</hi> + <hi rend="italic">’ayna</hi>
                </note>
                <quote xml:lang="en">Where is my mobile (phone)? – Here it is!</quote>
                <cit type="translation">
@@ -1621,7 +1621,7 @@
             <head>Phrasemes</head>
             <cit type="featureSample">
                <lbl>since/for</lbl>
-               <note>Many Arabic dialects
+               <note xml:space="preserve">Many Arabic dialects
                      use periphrastic constructions to render English ‛since’.</note>
                <quote xml:lang="en">We have been here for 8 years.</quote>
                <cit type="translation">
