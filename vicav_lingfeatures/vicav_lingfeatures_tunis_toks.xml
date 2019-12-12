@@ -22,18 +22,19 @@
       </fileDesc>
       <encodingDesc>
          <listPrefixDef>
-            <prefixDef matchPattern="(.+)" replacementPattern="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#$1" ident="semlib"/>
-            <prefixDef matchPattern="(.+)" replacementPattern="../vocabs/fLib.xml#$1" ident="fvlib"/>
+            <prefixDef matchPattern="(.+)"
+               replacementPattern="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#$1" ident="semlib" />
+            <prefixDef matchPattern="(.+)" replacementPattern="../vocabs/fLib.xml#$1" ident="fvlib" />
          </listPrefixDef>
       </encodingDesc>
    </teiHeader>
 
-    <text>
+   <text>
       <body>
          <head>
-              <name xml:lang="eng" type="city">Tunis</name>
-              <name xml:lang="eng" type="country">Tunisia</name>
-          </head>
+            <name xml:lang="eng" type="city">Tunis</name>
+            <name xml:lang="eng" type="country">Tunisia</name>
+         </head>
          <div type="positioning">
             <p xml:id="id_p_24">
                <geo>36.8, 10.18</geo>
@@ -47,7 +48,7 @@
                <quote xml:lang="en">Who is this man? – He is my friend</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semlib:who" xml:id="wid_00000">škūn</w>
+                     <w ana="semlib:who" xml:id="wid_00000">škūn</w>
                      <w xml:id="wid_00001" join="right">hā</w>
                      <pc type="ws" xml:id="id_pc_46" join="right">-</pc>
                      <w xml:id="wid_00002" join="right">ṛ</w>
@@ -78,13 +79,12 @@
             </cit>
             <cit ana="semlib:whose" type="featureSample">
                <lbl xml:space="preserve">whose?</lbl>
-               <quote xml:lang="en">Whose car is this? – This is our car. It’s small but it’s
-                     good.</quote>
+               <quote xml:lang="en">Whose car is this? – This is our car. It’s small but it’s good.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
                      <w ana="fvlib:dempron_prox_f_sg" xml:id="wid_00021">hāḏi</w>
                      <w ana="semlib:car" xml:id="wid_00022">kaṛhabt</w>
-                        <w ana="semlib:whose" xml:id="wid_00023">əškūn</w>
+                     <w ana="semlib:whose" xml:id="wid_00023">əškūn</w>
                      <pc type="ws" xml:id="id_pc_101">?</pc>
                      <w xml:id="wid_00024">–</w>
                      <w xml:id="wid_00025">hāḏi</w>
@@ -137,7 +137,7 @@
                <quote xml:lang="en">Fatima, what are you doing now? – I’m watching TV.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semlib:what" xml:id="wid_00063">āš/š</w>
+                     <w ana="semlib:what" xml:id="wid_00063">āš/š</w>
                      <pc type="ws" xml:id="id_pc_198" join="right">-</pc>
                      <w xml:id="wid_00064">ʕāmla</w>
                      <w xml:id="wid_00065" join="right">taww</w>
@@ -177,9 +177,7 @@
             </cit>
             <cit ana="semlib:why" type="featureSample">
                <lbl xml:space="preserve">why?</lbl>
-               <note xml:space="preserve">A very common pattern are reflexes of CA <hi rend="italic">li
-                        + ’ayy</hi> or <hi rend="italic">li + ’ayy + šay’</hi>
-                  </note>
+               <note xml:space="preserve">A very common pattern are reflexes of CA <hi rend="italic">li + ’ayy</hi> or <hi rend="italic">li + ’ayy + šay’</hi></note>
                <quote xml:lang="en">Why didn’t he come? – I don’t know. </quote>
                <cit type="translation">
                   <quote xml:lang="ar">
@@ -218,13 +216,11 @@
             </cit>
             <cit ana="semlib:where" type="featureSample">
                <lbl xml:space="preserve">where?</lbl>
-               <note xml:space="preserve">A very common pattern are reflexes of CA <hi rend="italic">fī
-                        + ’ayna</hi>
-                  </note>
+               <note xml:space="preserve">A very common pattern are reflexes of CA <hi rend="italic">fī + ’ayna</hi></note>
                <quote xml:lang="en">Where is my mobile (phone)? – Here it is!</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semlib:where" xml:id="wid_00113">wīn</w>
+                     <w ana="semlib:where" xml:id="wid_00113">wīn</w>
                      <w xml:id="wid_00114" join="right">il</w>
                      <pc type="ws" xml:id="id_pc_330" join="right">-</pc>
                      <w xml:id="wid_00115">buṛṭābil</w>
@@ -262,7 +258,7 @@
                <quote xml:lang="en">Where are you (m./f.) going? – I am going home.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semlib:where_to" xml:id="wid_00136">wīn</w>
+                     <w ana="semlib:where_to" xml:id="wid_00136">wīn</w>
                      <w xml:id="wid_00137">māši</w>
                      <w xml:id="wid_00138">/</w>
                      <w xml:id="wid_00139" join="right">māšya</w>
@@ -299,12 +295,12 @@
             </cit>
             <cit ana="semlib:where_from" type="featureSample">
                <lbl xml:space="preserve">where from?</lbl>
-               <quote xml:lang="en">Where are you (m./f.; sg./pl.) from? – I am/ We are from
-                     ….</quote>
+               <quote xml:lang="en">Where are you (m./f.; sg./pl.) from? – I am/ We are from….</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semlib:where_from" xml:id="wid_00163">mnīn</w>
-                     <w ana="fvlib:perspron_2_sg_m fvlib:perspron_2_sg_f" xml:id="wid_00164">inti</w>
+                     <w ana="semlib:where_from" xml:id="wid_00163">mnīn</w>
+                     <w ana="fvlib:perspron_2_sg_m fvlib:perspron_2_sg_f" xml:id="wid_00164"
+                        >inti</w>
                      <w xml:id="wid_00165">/</w>
                      <w ana="fvlib:perspron_2_pl" xml:id="wid_00166" join="right">intūma</w>
                      <pc type="ws" xml:id="id_pc_466">?</pc>
@@ -339,10 +335,10 @@
             </cit>
             <cit ana="semlib:when" type="featureSample">
                <lbl xml:space="preserve">when?</lbl>
-               <quote xml:lang="en">Fatima, when did you see Muhammad? – I saw him yesterday. </quote>
+               <quote xml:lang="en">Fatima, when did you see Muhammad? – I saw him yesterday.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semlib:when" xml:id="wid_00196">waqtāš</w>
+                     <w ana="semlib:when" xml:id="wid_00196">waqtāš</w>
                      <w xml:id="wid_00197">rīt/šuft</w>
                      <w xml:id="wid_00198" join="right">Muḥammad</w>
                      <pc type="ws" xml:id="id_pc_544">,</pc>
@@ -384,15 +380,9 @@
                <cit type="translation">
                   <quote xml:lang="ar">
                      <phr ana="semlib:how">
-                     
                         <w xml:id="wid_00226">šnūwa</w>
-                     
-                     
                         <w xml:id="wid_00227">/</w>
-                     
-                     
                         <w xml:id="wid_00228">šnīye</w>
-                     
                      </phr>
                      <w xml:id="wid_00229" join="right">ḥwālik</w>
                      <pc type="ws" xml:id="id_pc_620">?</pc>
@@ -430,7 +420,7 @@
                         <w xml:id="wid_00249" join="right">b</w>
                         <pc type="ws" xml:id="id_pc_673" join="right">-</pc>
                         <w xml:id="wid_00250">qaddāš</w>
-                        </phr>
+                     </phr>
                      <w xml:id="wid_00251">əṛṭal</w>
                      <w ana="semlib:lemon" xml:id="wid_00252" join="right">līmūn</w>
                      <pc type="ws" xml:id="id_pc_679" join="right">?</pc>
@@ -458,12 +448,10 @@
             </cit>
             <cit ana="semlib:how_many" type="featureSample">
                <lbl xml:space="preserve">how many?</lbl>
-               <quote xml:lang="en">How many children do you (f.) have? – I have
-                     two daughters
-                     and three sons.</quote>
+               <quote xml:lang="en">How many children do you (f.) have? – I have two daughters andthree sons.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semlib:how_many" xml:id="wid_00270">qaddāš</w>
+                     <w ana="semlib:how_many" xml:id="wid_00270">qaddāš</w>
                      <w xml:id="wid_00271">ʕandik</w>
                      <w xml:id="wid_00272" join="right">ūlād</w>
                      <pc type="ws" xml:id="id_pc_735">?</pc>
@@ -507,12 +495,12 @@
                   <quote xml:lang="ar">
                      <w xml:id="wid_00300" join="right">f</w>
                      <pc type="ws" xml:id="id_pc_802" join="right">-</pc>
-                        <w ana="semlib:which" xml:id="wid_00301">āni</w>
+                     <w ana="semlib:which" xml:id="wid_00301">āni</w>
                      <w xml:id="wid_00302">žīha</w>
                      <w xml:id="wid_00303">/</w>
                      <w xml:id="wid_00304" join="right">f</w>
                      <pc type="ws" xml:id="id_pc_810" join="right">-</pc>
-                        <w xml:id="wid_00305">ānu</w>
+                     <w xml:id="wid_00305">ānu</w>
                      <w xml:id="wid_00306">ḥayy</w>
                      <w xml:id="wid_00307" join="right">tusuknu</w>
                      <pc type="ws" xml:id="id_pc_816">?</pc>
@@ -549,7 +537,7 @@
                <cit type="translation">
                   <quote xml:lang="ar">
                      <w xml:id="wid_00329">škūn</w>
-                        <w ana="fvlib:dempron_prox_m_sg" xml:id="wid_00330">hā</w>
+                     <w ana="fvlib:dempron_prox_m_sg" xml:id="wid_00330">hā</w>
                      <pc type="ws" xml:id="id_pc_883" join="right">-</pc>
                      <w xml:id="wid_00331" join="right">ṛ</w>
                      <pc type="ws" xml:id="id_pc_885" join="right">-</pc>
@@ -673,12 +661,8 @@
                      <w xml:id="wid_00383">ṯmānya</w>
                      <w xml:id="wid_00384">snīn</w>
                      <phr ana="semlib:here">
-                     
                         <w xml:id="wid_00385">hūni</w>
-                     
-                     
                         <w xml:id="wid_00386">/</w>
-                     
                         <w xml:id="wid_00387">əhnā</w>
                      </phr>
                      <pc type="ws" xml:id="id_pc_1065">.</pc>
@@ -705,12 +689,10 @@
                      <pc type="ws" xml:id="id_pc_1097" join="right">-</pc>
                      <w xml:id="wid_00400">ʕāmla</w>
                      <phr ana="semlib:now">
-                     
                         <w xml:id="wid_00401" join="right">taww</w>
                         <pc type="ws" xml:id="id_pc_1101" join="right">(</pc>
                         <w xml:id="wid_00402" join="right">a</w>
                         <pc type="ws" xml:id="id_pc_1103">)</pc>
-                     
                      </phr>
                      <pc type="ws" xml:id="id_pc_1104">,</pc>
                      <w xml:id="wid_00403">yā</w>
@@ -757,7 +739,7 @@
                         <w xml:id="wid_00430" join="right">l</w>
                         <pc type="ws" xml:id="id_pc_1173" join="right">-</pc>
                         <w xml:id="wid_00431">yūm</w>
-                        </phr>
+                     </phr>
                      <pc type="ws" xml:id="id_pc_1175">.</pc>
                   </quote>
                </cit>
@@ -778,15 +760,9 @@
                <cit type="translation">
                   <quote xml:lang="ar">
                      <phr ana="semlib:yesterday">
-                     
                         <w xml:id="wid_00441">ilbāraḥ</w>
-                     
-                     
                         <w xml:id="wid_00442">/</w>
-                     
-                     
                         <w xml:id="wid_00443">imbāraḥ</w>
-                     
                      </phr>
                      <w xml:id="wid_00444">ṣabb</w>
                      <w xml:id="wid_00445" join="right">li</w>
@@ -811,7 +787,7 @@
                      <w xml:id="wid_00454">yā</w>
                      <w xml:id="wid_00455" join="right">ūlād</w>
                      <pc type="ws" xml:id="id_pc_1239">,</pc>
-                        <w ana="semlib:tomorrow" xml:id="wid_00456">ġudwa</w>
+                     <w ana="semlib:tomorrow" xml:id="wid_00456">ġudwa</w>
                      <w xml:id="wid_00457">yilzimkum</w>
                      <w xml:id="wid_00458" join="right">taqṛāu</w>
                      <pc type="ws" xml:id="id_pc_1246">.</pc>
@@ -838,13 +814,11 @@
                         <w xml:id="wid_00470" join="right">il</w>
                         <pc type="ws" xml:id="id_pc_1281" join="right">-</pc>
                         <w xml:id="wid_00471">ʕām</w>
-                        
                         <w xml:id="wid_00472">illi</w>
-                        
                         <w xml:id="wid_00473">fāt</w>
-                        </phr>
+                     </phr>
                      <w xml:id="wid_00474">/</w>
-                        <w xml:id="wid_00475">ʕāmnāwal</w>
+                     <w xml:id="wid_00475">ʕāmnāwal</w>
                      <w xml:id="wid_00476">kānit</w>
                      <w xml:id="wid_00477">ʕandna</w>
                      <w xml:id="wid_00478">/</w>
@@ -877,7 +851,7 @@
                      <w xml:id="wid_00494">ʕandna</w>
                      <w xml:id="wid_00495">/</w>
                      <w xml:id="wid_00496">ʕanna</w>
-                        <w ana="semlib:eight" xml:id="wid_00497">ṯmānya</w>
+                     <w ana="semlib:eight" xml:id="wid_00497">ṯmānya</w>
                      <w xml:id="wid_00498">snīn</w>
                      <w xml:id="wid_00499">hūni</w>
                      <w xml:id="wid_00500">/</w>
@@ -910,7 +884,7 @@
                      <w xml:id="wid_00516">–</w>
                      <w xml:id="wid_00517" join="right">la</w>
                      <pc type="ws" xml:id="id_pc_1402" join="right">-</pc>
-                        <w ana="semlib:eleven" xml:id="wid_00518">ḥdāš</w>
+                     <w ana="semlib:eleven" xml:id="wid_00518">ḥdāš</w>
                      <pc type="ws" xml:id="id_pc_1404">.</pc>
                   </quote>
                </cit>
@@ -936,9 +910,9 @@
                <cit type="translation">
                   <quote xml:lang="ar">
                      <w xml:id="wid_00532">ʕandhum</w>
-                        <w ana="semlib:twelve" xml:id="wid_00533" join="right">ṯnāš</w>
-                        <pc type="ws" xml:id="id_pc_1443" join="right">-</pc>
-                        <w xml:id="wid_00534">in</w>
+                     <w ana="semlib:twelve" xml:id="wid_00533" join="right">ṯnāš</w>
+                     <pc type="ws" xml:id="id_pc_1443" join="right">-</pc>
+                     <w xml:id="wid_00534">in</w>
                      <w xml:id="wid_00535">miʕza</w>
                      <w xml:id="wid_00536" join="right">w</w>
                      <pc type="ws" xml:id="id_pc_1449" join="right">-</pc>
@@ -968,10 +942,10 @@
                <cit type="translation">
                   <quote xml:lang="ar">
                      <w xml:id="wid_00552">famma</w>
-                        <w ana="semlib:eighteen" xml:id="wid_00553" join="right">ṯmunṭāš</w>
-                        <pc type="ws" xml:id="id_pc_1491" join="right">-</pc>
-                        <w xml:id="wid_00554">in</w> 
-                        <w xml:id="wid_00555">ṭālib</w>
+                     <w ana="semlib:eighteen" xml:id="wid_00553" join="right">ṯmunṭāš</w>
+                     <pc type="ws" xml:id="id_pc_1491" join="right">-</pc>
+                     <w xml:id="wid_00554">in</w>
+                     <w xml:id="wid_00555">ṭālib</w>
                      <w xml:id="wid_00556">ždīd</w>
                      <w ana="semlib:in" xml:id="wid_00557" join="right">f</w>
                      <pc type="ws" xml:id="id_pc_1498" join="right">-</pc>
@@ -1011,9 +985,8 @@
                      <w xml:id="wid_00577">–</w>
                      <phr ana="semlib:good">
                         <w xml:id="wid_00578">lā</w>
-                        
                         <w xml:id="wid_00579">bās</w>
-                        </phr>
+                     </phr>
                      <pc type="ws" xml:id="id_pc_1561">.</pc>
                   </quote>
                </cit>
@@ -1041,14 +1014,13 @@
             <head>Colours</head>
             <cit ana="semlib:white" type="featureSample">
                <lbl xml:space="preserve">white</lbl>
-               <quote xml:lang="en">My husband wears a white shirt. We have a white
-                     car.</quote>
+               <quote xml:lang="en">My husband wears a white shirt. We have a white car.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
                      <w xml:id="wid_00596">ṛāžli</w>
                      <w xml:id="wid_00597">lābis</w>
                      <w ana="semlib:shirt" xml:id="wid_00598">sūrīya</w>
-                        <w ana="semlib:white" xml:id="wid_00599">bīḏ̣a</w>
+                     <w ana="semlib:white" xml:id="wid_00599">bīḏ̣a</w>
                      <w xml:id="wid_00600" join="right">w</w>
                      <pc type="ws" xml:id="id_pc_1625" join="right">-</pc>
                      <w xml:id="wid_00601">āna</w>
@@ -1060,7 +1032,7 @@
                      <w xml:id="wid_00606">/</w>
                      <w xml:id="wid_00607">ʕanna</w>
                      <w xml:id="wid_00608">kaṛhaba</w>
-                        <w xml:id="wid_00609">bīḏ̣a</w>
+                     <w xml:id="wid_00609">bīḏ̣a</w>
                      <pc type="ws" xml:id="id_pc_1644">.</pc>
                   </quote>
                </cit>
@@ -1099,7 +1071,7 @@
                      <w xml:id="wid_00635">maryūl</w>
                      <w xml:id="wid_00636" join="right">il</w>
                      <pc type="ws" xml:id="id_pc_1706" join="right">-</pc>
-                        <w ana="semlib:black" xml:id="wid_00637">akḥal</w>
+                     <w ana="semlib:black" xml:id="wid_00637">akḥal</w>
                      <pc type="ws" xml:id="id_pc_1708">.</pc>
                      <w xml:id="wid_00638">/</w>
                      <w xml:id="wid_00639" join="right">hā</w>
@@ -1109,7 +1081,7 @@
                      <w xml:id="wid_00641">kaṛhaba</w>
                      <w xml:id="wid_00642" join="right">l</w>
                      <pc type="ws" xml:id="id_pc_1719" join="right">-</pc>
-                        <w xml:id="wid_00643">kaḥla</w>
+                     <w xml:id="wid_00643">kaḥla</w>
                      <pc type="ws" xml:id="id_pc_1721">.</pc>
                   </quote>
                </cit>
@@ -1133,11 +1105,11 @@
                      <w xml:id="wid_00660">maṛti</w>
                      <w xml:id="wid_00661">šrāt</w>
                      <w xml:id="wid_00662">maryūl</w>
-                        <w ana="semlib:pink" xml:id="wid_00663">waṛdi</w>
+                     <w ana="semlib:pink" xml:id="wid_00663">waṛdi</w>
                      <pc type="ws" xml:id="id_pc_1769">.</pc>
                      <w xml:id="wid_00664">/</w>
                      <w xml:id="wid_00665">sāk</w>
-                        <w xml:id="wid_00666">waṛdi</w>
+                     <w xml:id="wid_00666">waṛdi</w>
                      <pc type="ws" xml:id="id_pc_1776">.</pc>
                      <pc type="ws" xml:id="id_pc_1778" join="right">(</pc>
                      <w xml:id="wid_00667">maryūl</w>
@@ -1145,7 +1117,7 @@
                      <pc type="ws" xml:id="id_pc_1782" join="right">-</pc>
                      <w xml:id="wid_00669" join="right">ir</w>
                      <pc type="ws" xml:id="id_pc_1784" join="right">-</pc>
-                        <w xml:id="wid_00670">rose</w>
+                     <w xml:id="wid_00670">rose</w>
                      <pc type="ws" xml:id="id_pc_1786">.</pc>
                      <w xml:id="wid_00671">/</w>
                      <w xml:id="wid_00672">sāk</w>
@@ -1153,7 +1125,7 @@
                      <pc type="ws" xml:id="id_pc_1793" join="right">-</pc>
                      <w xml:id="wid_00674" join="right">ir</w>
                      <pc type="ws" xml:id="id_pc_1795" join="right">-</pc>
-                        <w xml:id="wid_00675">rose</w>
+                     <w xml:id="wid_00675">rose</w>
                      <pc type="ws" xml:id="id_pc_1797" join="right">.</pc>
                      <pc type="ws" xml:id="id_pc_1798">)</pc>
                   </quote>
@@ -1179,16 +1151,16 @@
                <cit type="translation">
                   <quote xml:lang="ar">
                      <w xml:id="wid_00691">ḥīṭ</w>
-                        <w ana="semlib:grey" xml:id="wid_00692">ərmādi</w>
+                     <w ana="semlib:grey" xml:id="wid_00692">ərmādi</w>
                      <w xml:id="wid_00693">/</w>
                      <w xml:id="wid_00694">sāk</w>
-                        <w xml:id="wid_00695">ərmādi</w>
+                     <w xml:id="wid_00695">ərmādi</w>
                      <pc type="ws" xml:id="id_pc_1847" join="right">(</pc>
                      <w xml:id="wid_00696">ḥīṭ</w>
-                        <w xml:id="wid_00697">gris</w>
+                     <w xml:id="wid_00697">gris</w>
                      <w xml:id="wid_00698">/</w>
                      <w xml:id="wid_00699">sāk</w>
-                        <w xml:id="wid_00700">gris</w>
+                     <w xml:id="wid_00700">gris</w>
                      <pc type="ws" xml:id="id_pc_1856">)</pc>
                   </quote>
                </cit>
@@ -1207,14 +1179,14 @@
                <cit type="translation">
                   <quote xml:lang="ar">
                      <w xml:id="wid_00709">maryūl</w>
-                        <w ana="semlib:orange" xml:id="wid_00710">buṛdgāni</w>
+                     <w ana="semlib:orange" xml:id="wid_00710">buṛdgāni</w>
                      <pc type="ws" xml:id="id_pc_1883" join="right">(</pc>
                      <w xml:id="wid_00711">maryūl</w>
                      <w xml:id="wid_00712" join="right">f</w>
                      <pc type="ws" xml:id="id_pc_1887" join="right">-</pc>
                      <w xml:id="wid_00713" join="right">il</w>
                      <pc type="ws" xml:id="id_pc_1889" join="right">-</pc>
-                        <w xml:id="wid_00714">orange</w>
+                     <w xml:id="wid_00714">orange</w>
                      <pc type="ws" xml:id="id_pc_1891">)</pc>
                   </quote>
                </cit>
@@ -1242,7 +1214,7 @@
                      <w xml:id="wid_00725">in</w>
                      <w xml:id="wid_00726">ṭālib</w>
                      <w xml:id="wid_00727">ždīd</w>
-                        <w xml:id="wid_00728" ana="semlib:fi_vs_bi">f</w>
+                     <w xml:id="wid_00728" ana="semlib:fi_vs_bi">f</w>
                      <pc type="ws" xml:id="id_pc_1937" join="right">-</pc>
                      <w xml:id="wid_00729" join="right">il</w>
                      <pc type="ws" xml:id="id_pc_1939" join="right">-</pc>
@@ -1274,7 +1246,7 @@
                   <quote xml:lang="ar">
                      <w xml:id="wid_00744" join="right">āš/š</w>
                      <pc type="ws" xml:id="id_pc_1987" join="right">-</pc>
-                        <w ana="semlib:to_do" xml:id="wid_00745">ʕāmla</w>
+                     <w ana="semlib:to_do" xml:id="wid_00745">ʕāmla</w>
                      <w xml:id="wid_00746" join="right">taww</w>
                      <pc type="ws" xml:id="id_pc_1991" join="right">(</pc>
                      <w xml:id="wid_00747" join="right">a</w>
@@ -1315,7 +1287,7 @@
                <quote xml:lang="en">Stay a bit longer! – No, I don’t have time.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semlib:to_stay" xml:id="wid_00771">uqʕud</w>
+                     <w ana="semlib:to_stay" xml:id="wid_00771">uqʕud</w>
                      <w xml:id="wid_00772" join="right">šwayya</w>
                      <pc type="ws" xml:id="id_pc_2058">!</pc>
                      <w xml:id="wid_00773">–</w>
@@ -1351,7 +1323,7 @@
                <quote xml:lang="en">Do you speak Arabic? – Just, a little.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semlib:to_speak" xml:id="wid_00794">titkallim</w>
+                     <w ana="semlib:to_speak" xml:id="wid_00794">titkallim</w>
                      <w xml:id="wid_00795" join="right">b</w>
                      <pc type="ws" xml:id="id_pc_2118" join="right">-</pc>
                      <w xml:id="wid_00796" join="right">il</w>
@@ -1386,11 +1358,10 @@
                      <w xml:id="wid_00813">ilbāraḥ/imbāraḥ</w>
                      <phr ana="semlib:to_rain">
                         <w xml:id="wid_00814">ṣabb</w>
-                        
                         <w xml:id="wid_00815" join="right">li</w>
                         <pc type="ws" xml:id="id_pc_2168" join="right">-</pc>
                         <w xml:id="wid_00816">mṭaṛ</w>
-                        </phr>
+                     </phr>
                      <pc type="ws" xml:id="id_pc_2170">.</pc>
                   </quote>
                </cit>
@@ -1408,7 +1379,7 @@
                <quote xml:lang="en">Open the window!</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semlib:to_open" xml:id="wid_00820">ḥill</w>
+                     <w ana="semlib:to_open" xml:id="wid_00820">ḥill</w>
                      <w xml:id="wid_00821" join="right">iš</w>
                      <pc type="ws" xml:id="id_pc_2189" join="right">-</pc>
                      <w ana="semlib:window" xml:id="wid_00822" join="right">šubbāk</w>
@@ -1430,7 +1401,7 @@
                <quote xml:lang="en">Close the doors!</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semlib:to_close" xml:id="wid_00829">sakkir</w>
+                     <w ana="semlib:to_close" xml:id="wid_00829">sakkir</w>
                      <w xml:id="wid_00830" join="right">il</w>
                      <pc type="ws" xml:id="id_pc_2216" join="right">-</pc>
                      <w xml:id="wid_00831" join="right">bībān</w>
@@ -1452,7 +1423,7 @@
                <cit type="translation">
                   <quote xml:lang="ar">
                      <w xml:id="wid_00837">šnūwa</w>
-                        <w ana="semlib:to_take" xml:id="wid_00838">xḏīt</w>
+                     <w ana="semlib:to_take" xml:id="wid_00838">xḏīt</w>
                      <pc type="ws" xml:id="id_pc_2240">?</pc>
                      <w xml:id="wid_00839">–</w>
                      <w xml:id="wid_00840">ḥatta</w>
@@ -1476,11 +1447,10 @@
             </cit>
             <cit ana="semlib:to_give" type="featureSample">
                <lbl xml:space="preserve">to give</lbl>
-               <quote xml:lang="en">Did you give the letter to Ahmad? – Yes, I gave it to
-                     him.</quote>
+               <quote xml:lang="en">Did you give the letter to Ahmad? – Yes, I gave it to him.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semlib:to_give" xml:id="wid_00855">ʕṭīt</w>
+                     <w ana="semlib:to_give" xml:id="wid_00855">ʕṭīt</w>
                      <pc type="ws" xml:id="id_pc_2287" join="right">-</pc>
                      <w xml:id="wid_00856">ši</w>
                      <w xml:id="wid_00857" join="right">ž</w>
@@ -1529,7 +1499,7 @@
                      <w xml:id="wid_00885" join="right">iz</w>
                      <pc type="ws" xml:id="id_pc_2359" join="right">-</pc>
                      <w ana="semlib:children" xml:id="wid_00886">zġāṛ</w>
-                        <w ana="semlib:to_see" xml:id="wid_00887">šāfu</w>
+                     <w ana="semlib:to_see" xml:id="wid_00887">šāfu</w>
                      <w xml:id="wid_00888">ṭallāb</w>
                      <w xml:id="wid_00889">wṛā</w>
                      <w ana="semlib:house" xml:id="wid_00890" join="right">dāṛ</w>
@@ -1553,11 +1523,10 @@
             </cit>
             <cit ana="semlib:to_want" type="featureSample">
                <lbl xml:space="preserve">to want</lbl>
-               <quote xml:lang="en">Do you (f.) want to drink tea or coffee? – Tea
-                     please.</quote>
+               <quote xml:lang="en">Do you (f.) want to drink tea or coffee? – Tea please.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semlib:to_want" xml:id="wid_00904">tḥibb</w>
+                     <w ana="semlib:to_want" xml:id="wid_00904">tḥibb</w>
                      <w xml:id="wid_00905">tušṛub</w>
                      <w ana="semlib:tea" xml:id="wid_00906">tāy</w>
                      <w xml:id="wid_00907">walla</w>
@@ -1566,7 +1535,6 @@
                      <w xml:id="wid_00909">–</w>
                      <phr ana="semlib:please">
                         <w xml:id="wid_00910">māḏā</w>
-                     
                         <w xml:id="wid_00911">bīya</w>
                      </phr>
                      <w xml:id="wid_00912" join="right">tāy</w>
@@ -1591,11 +1559,10 @@
             </cit>
             <cit ana="semlib:to_bring" type="featureSample">
                <lbl xml:space="preserve">to bring</lbl>
-               <quote xml:lang="en">Bring me the big bottle, please! – I'm right with
-                     you.</quote>
+               <quote xml:lang="en">Bring me the big bottle, please! – I'm right with you.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semlib:to_bring" xml:id="wid_00932">žīb</w>
+                     <w ana="semlib:to_bring" xml:id="wid_00932">žīb</w>
                      <w xml:id="wid_00933">li</w>
                      <w xml:id="wid_00934" join="right">d</w>
                      <pc type="ws" xml:id="id_pc_2479" join="right">-</pc>
@@ -1630,7 +1597,7 @@
                <quote xml:lang="en">They have a lot of money, but they are bad people.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semlib:to_have" xml:id="wid_00957">ʕand</w>
+                     <w ana="semlib:to_have" xml:id="wid_00957">ʕand</w>
                      <w xml:id="wid_00958">hum</w>
                      <w ana="semlib:much" xml:id="wid_00959">baṛša</w>
                      <w ana="semlib:money" xml:id="wid_00960" join="right">flūs</w>
@@ -1666,15 +1633,13 @@
             <head>Phrasemes</head>
             <cit ana="semlib:since_for" type="featureSample">
                <lbl xml:space="preserve">since/for</lbl>
-               <note xml:space="preserve">Many Arabic dialects
-                     use periphrastic constructions to render
-                     English ‛since’.</note>
+               <note xml:space="preserve">Many Arabic dialects use periphrastic constructions to render English ‛since’.</note>
                <quote xml:lang="en">We have been here for 8 years.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semlib:since_for" xml:id="wid_00984">ʕandna</w>
+                     <w ana="semlib:since_for" xml:id="wid_00984">ʕandna</w>
                      <w xml:id="wid_00985">/</w>
-                        <w xml:id="wid_00986">ʕanna</w>
+                     <w xml:id="wid_00986">ʕanna</w>
                      <w xml:id="wid_00987">ṯmānya</w>
                      <w xml:id="wid_00988">snīn</w>
                      <w xml:id="wid_00989">hūni</w>
@@ -1700,8 +1665,7 @@
             <head>Nouns</head>
             <cit ana="semlib:women" type="featureSample">
                <lbl xml:space="preserve">women</lbl>
-               <quote xml:lang="en">What are those women doing there? – They are baking
-                     bread.</quote>
+               <quote xml:lang="en">What are those women doing there? – They are baking bread.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
                      <w xml:id="wid_01003" join="right">āš/š</w>
@@ -1711,7 +1675,7 @@
                      <pc type="ws" xml:id="id_pc_2672" join="right">-</pc>
                      <w xml:id="wid_01006" join="right">li</w>
                      <pc type="ws" xml:id="id_pc_2674" join="right">-</pc>
-                        <w ana="semlib:women" xml:id="wid_01007">nsā</w>
+                     <w ana="semlib:women" xml:id="wid_01007">nsā</w>
                      <pc type="ws" xml:id="id_pc_2676">?</pc>
                      <w xml:id="wid_01008">–</w>
                      <w xml:id="wid_01009">yṭayybu</w>
@@ -1743,7 +1707,7 @@
                <quote xml:lang="en">My husband wears a white shirt.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semlib:husband" xml:id="wid_01027">ṛāžl</w>
+                     <w ana="semlib:husband" xml:id="wid_01027">ṛāžl</w>
                      <w xml:id="wid_01028">i</w>
                      <w xml:id="wid_01029">lābis</w>
                      <w xml:id="wid_01030">sūrīya</w>
@@ -1775,7 +1739,7 @@
                      <pc type="ws" xml:id="id_pc_2763">?</pc>
                      <w xml:id="wid_01045">–</w>
                      <w xml:id="wid_01046">hūwa</w>
-                        <w ana="semlib:friend" xml:id="wid_01047">ṣāḥb</w>
+                     <w ana="semlib:friend" xml:id="wid_01047">ṣāḥb</w>
                      <w xml:id="wid_01048" join="right">i</w>
                      <pc type="ws" xml:id="id_pc_2771">.</pc>
                   </quote>
@@ -1807,7 +1771,7 @@
                      <w xml:id="wid_01063">wīn</w>
                      <w xml:id="wid_01064" join="right">il</w>
                      <pc type="ws" xml:id="id_pc_2822" join="right">-</pc>
-                        <w ana="semlib:mobile" xml:id="wid_01065">buṛṭābil</w>
+                     <w ana="semlib:mobile" xml:id="wid_01065">buṛṭābil</w>
                      <w xml:id="wid_01066" join="right">imtāʕi</w>
                      <pc type="ws" xml:id="id_pc_2826">?</pc>
                      <w xml:id="wid_01067">–</w>
@@ -1851,7 +1815,7 @@
                         <w xml:id="wid_01088" join="right">nnažžmū</w>
                         <pc type="ws" xml:id="id_pc_2894" join="right">-</pc>
                         <w xml:id="wid_01089">š</w>
-                        </phr>
+                     </phr>
                      <w xml:id="wid_01090">nxallṣu</w>
                      <w xml:id="wid_01091" join="right">l</w>
                      <pc type="ws" xml:id="id_pc_2900" join="right">-</pc>
@@ -1876,7 +1840,7 @@
                <quote xml:lang="en">Can you (~do you know how to) play Shqubba? – Yes.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semlib:ability" xml:id="wid_01104">taʕraf</w>
+                     <w ana="semlib:ability" xml:id="wid_01104">taʕraf</w>
                      <pc type="ws" xml:id="id_pc_2935" join="right">-</pc>
                      <w xml:id="wid_01105">ši</w>
                      <w xml:id="wid_01106">talʕab</w>
@@ -1932,7 +1896,7 @@
                      <w xml:id="wid_01127" join="right">ʕarbi</w>
                      <pc type="ws" xml:id="id_pc_3012">?</pc>
                      <w xml:id="wid_01128">–</w>
-                        <w ana="semlib:a_little" xml:id="wid_01129">šwayya</w>
+                     <w ana="semlib:a_little" xml:id="wid_01129">šwayya</w>
                      <w xml:id="wid_01130" join="right">baṛka</w>
                      <pc type="ws" xml:id="id_pc_3019">.</pc>
                   </quote>
@@ -1956,7 +1920,7 @@
                <quote xml:lang="en">There are 18 new students in our class.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semlib:existential" xml:id="wid_01143">famma</w>
+                     <w ana="semlib:existential" xml:id="wid_01143">famma</w>
                      <w xml:id="wid_01144" join="right">ṯmunṭāš</w>
                      <pc type="ws" xml:id="id_pc_3057" join="right">-</pc>
                      <w xml:id="wid_01145">in</w>
@@ -1993,7 +1957,7 @@
                      <w xml:id="wid_01165" join="right">il</w>
                      <pc type="ws" xml:id="id_pc_3107" join="right">-</pc>
                      <w xml:id="wid_01166">buṛṭābil</w>
-                        <w xml:id="wid_01167">imtāʕi</w>
+                     <w xml:id="wid_01167">imtāʕi</w>
                      <pc type="ws" xml:id="id_pc_3111">?</pc>
                      <w xml:id="wid_01168">–</w>
                      <phr ana="semlib:gen_explicative">
@@ -2001,7 +1965,6 @@
                         <w xml:id="wid_01169" join="right">a</w>
                         <pc type="ws" xml:id="id_pc_3117" join="right">)</pc>
                         <w xml:id="wid_01170">hāwa</w>
-                     
                         <w xml:id="wid_01171">hnā</w>
                      </phr>
                      <w xml:id="wid_01172">/</w>
