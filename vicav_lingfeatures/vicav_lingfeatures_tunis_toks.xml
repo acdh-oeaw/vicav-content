@@ -598,7 +598,7 @@
          </div>
          <div type="featureGroup">
             <head>Presentatives</head>
-            <cit ana="semlib:presentational_m" type="featureSample">
+            <cit ana="fvlib:pres_m_sg" type="featureSample">
                <lbl xml:space="preserve">here is … (m.)</lbl>
                <quote xml:lang="en">Where is my mobile? – Here is the phone!</quote>
                <cit type="translation">
@@ -616,10 +616,10 @@
                         <pc type="ws" xml:id="id_pc_979" join="right">)</pc>
                         <w xml:id="wid_00359">hāwa</w>
                      </phr>
-                     <w xml:id="wid_00360" ana="semlib:presentational_m">hnā</w>
+                     <w xml:id="wid_00360">hnā</w>
                      <pc type="ws" xml:space="preserve">/</pc>
                      <w xml:id="wid_00362">hāw</w>
-                     <w xml:id="wid_00363" ana="semlib:presentational_m">əhnā</w>
+                     <w xml:id="wid_00363">əhnā</w>
                      <pc type="ws" xml:id="id_pc_989">.</pc>
                   </quote>
                </cit>
@@ -638,7 +638,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="semlib:presentational_f" type="featureSample">
+            <cit ana="fvlib:pres_f_sg" type="featureSample">
                <lbl xml:space="preserve">here is … (f.)</lbl>
                <quote xml:lang="en">Where is the car? – Here it is!</quote>
                <cit type="translation">

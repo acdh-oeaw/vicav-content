@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ling_features_baghdad">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ling_features_baghdad">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -40,20 +39,20 @@
          </div>
          <div type="featureGroup">
             <head>Interrogatives</head>
-            <cit type="featureSample">
+            <cit ana="semlib:who" type="featureSample">
                <lbl xml:space="preserve">who?</lbl>
                <note xml:space="preserve">Most commonly dialects show reflexes of CA <hi rend="italic">man</hi>.</note>
                <quote xml:lang="en">Who is this man? – He is my friend</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                         <w ana="semLib:who" xml:id="wid_00000" join="right">mǝnu</w>
+                         <w ana="semlib:who" xml:id="wid_00000" join="right">mǝnu</w>
                      <w xml:id="wid_00001" join="right">hāḏa</w>
                      <w xml:id="wid_00002" join="right">r</w>
                      <pc type="ws" xml:id="id_pc_52" join="right">-</pc>
-                     <w ana="semLib:man" xml:id="wid_00003" join="right">rǝǧǧāl</w>
+                     <w ana="semlib:man" xml:id="wid_00003" join="right">rǝǧǧāl</w>
                      <pc type="ws" xml:id="id_pc_54" join="right">?</pc>
                      <w xml:id="wid_00004" join="right">–</w>
-                     <w ana="fvLib:perspron_3_sg_m" xml:id="wid_00005" join="right">huwwa</w>
+                     <w ana="fvlib:perspron_3_sg_m" xml:id="wid_00005" join="right">huwwa</w>
                      <w xml:id="wid_00006" join="right">ṣadīq</w>
                      <w xml:id="id_w_1" join="right">i</w>
                      <pc type="ws" xml:id="id_pc_61">.</pc>
@@ -75,15 +74,15 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample">
+            <cit ana="semlib:whose" type="featureSample">
                <lbl xml:space="preserve">whose?</lbl>
                <quote xml:lang="en">Whose car is this? – This is our car. It’s small but it’s
                      good.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                     <w ana="fvLib:dempron_prox_f_sg" xml:id="wid_00021" join="right">hāḏi</w>
-                     <w ana="semLib:car" xml:id="wid_00022" join="right">siyyārat</w>
-                        <w ana="semLib:whose" xml:id="wid_00023" join="right">mǝnu</w>
+                     <w ana="fvlib:dempron_prox_f_sg" xml:id="wid_00021" join="right">hāḏi</w>
+                     <w ana="semlib:car" xml:id="wid_00022" join="right">siyyārat</w>
+                        <w ana="semlib:whose" xml:id="wid_00023" join="right">mǝnu</w>
                      <pc type="ws" xml:id="id_pc_105" join="right">?</pc>
                      <w xml:id="wid_00024" join="right">–</w>
                      <w xml:id="wid_00025" join="right">hāḏi</w>
@@ -119,14 +118,14 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample">
+            <cit ana="semlib:what" type="featureSample">
                <lbl xml:space="preserve">what?</lbl>
                <quote xml:lang="en">Fatima, what are you doing now? – I’m watching TV.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
                      <w xml:id="wid_00054" join="right">Fāṭma</w>
                      <pc type="ws" xml:id="id_pc_181" join="right">,</pc>
-                        <w ana="semLib:what" xml:id="wid_00055" join="right">ǝš</w>
+                        <w ana="semlib:what" xml:id="wid_00055" join="right">ǝš</w>
                      <pc type="ws" xml:id="id_pc_184" join="right">-</pc>
                      <w xml:id="wid_00056" join="right">da</w>
                      <pc type="ws" xml:id="id_pc_186" join="right">-</pc>
@@ -137,7 +136,7 @@
                      <w xml:id="wid_00060" join="right">ʔašūf</w>
                      <w xml:id="wid_00061" join="right">ǝt</w>
                      <pc type="ws" xml:id="id_pc_197" join="right">-</pc>
-                     <w ana="semLib:TV" xml:id="wid_00062" join="right">talfizyōn</w>
+                     <w ana="semlib:TV" xml:id="wid_00062" join="right">talfizyōn</w>
                      <pc type="ws" xml:id="id_pc_199">.</pc>
                   </quote>
                </cit>
@@ -158,7 +157,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="semLib:why" type="featureSample">
+            <cit ana="semlib:why" type="featureSample">
                <lbl xml:space="preserve">why?</lbl>
                <note xml:space="preserve">A very common pattern are reflexes of CA <hi rend="italic">li
                         + ’ayy</hi> or <hi rend="italic">li + ’ayy + šay’</hi>
@@ -166,7 +165,7 @@
                <quote xml:lang="en">Why didn’t he come? – I don’t know. </quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semLib:why" xml:id="wid_00079" join="right">lēš</w>
+                        <w ana="semlib:why" xml:id="wid_00079" join="right">lēš</w>
                      <w xml:id="wid_00080" join="right">ma</w>
                      <w xml:id="wid_00081" join="right">ʔǝǧa</w>
                      <pc type="ws" xml:id="id_pc_251" join="right">?</pc>
@@ -193,7 +192,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="semLib:where" type="featureSample">
+            <cit ana="semlib:where" type="featureSample">
                <lbl xml:space="preserve">where?</lbl>
                <note xml:space="preserve">A very common pattern are reflexes of CA <hi rend="italic">fī
                         + ’ayna</hi>
@@ -201,7 +200,7 @@
                <quote xml:lang="en">Where is my mobile (phone)? – Here it is!</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semLib:where" xml:id="wid_00100" join="right">wēn</w>
+                        <w ana="semlib:where" xml:id="wid_00100" join="right">wēn</w>
                      <w xml:id="wid_00101" join="right">ǝl</w>
                      <pc type="ws" xml:id="id_pc_304" join="right">-</pc>
                      <w xml:id="wid_00102" join="right">mōbāyl</w>
@@ -227,12 +226,12 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="semLib:where_to" type="featureSample">
+            <cit ana="semlib:where_to" type="featureSample">
                <lbl xml:space="preserve">where to?</lbl>
                <quote xml:lang="en">Where are you (m./f.) going? – I am going home.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semLib:where_to" xml:id="wid_00119" join="right">wēn</w>
+                        <w ana="semlib:where_to" xml:id="wid_00119" join="right">wēn</w>
                      <w xml:id="wid_00120" join="right">rāḥ</w>
                      <w xml:id="wid_00121" join="right">ǝtrūḥ</w>
                      <pc type="ws" xml:id="id_pc_357" join="right">?</pc>
@@ -269,26 +268,26 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample">
+            <cit ana="semlib:where_from" type="featureSample">
                <lbl xml:space="preserve">where from?</lbl>
                <quote xml:lang="en">Where are you (m./f.; sg./pl.) from? – I am/ We are from
                      Cairo.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semLib:where_from" xml:id="wid_00148" join="right">ǝmmēn</w>
-                     <w ana="fvLib:perspron_2_sg_m" xml:id="wid_00149" join="right">ǝnta</w>
+                        <w ana="semlib:where_from" xml:id="wid_00148" join="right">ǝmmēn</w>
+                     <w ana="fvlib:perspron_2_sg_m" xml:id="wid_00149" join="right">ǝnta</w>
                      <w xml:id="wid_00150" join="right">/</w>
-                     <w ana="fvLib:perspron_2_sg_f" xml:id="wid_00151" join="right">ǝnti</w>
+                     <w ana="fvlib:perspron_2_sg_f" xml:id="wid_00151" join="right">ǝnti</w>
                      <w xml:id="wid_00152" join="right">/</w>
-                     <w ana="fvLib:perspron_2_pl" xml:id="wid_00153" join="right">ǝntu</w>
+                     <w ana="fvlib:perspron_2_pl" xml:id="wid_00153" join="right">ǝntu</w>
                      <pc type="ws" xml:id="id_pc_439" join="right">?</pc>
                      <w xml:id="wid_00154" join="right">–</w>
-                     <w ana="fvLib:perspron_1_sg" xml:id="wid_00155" join="right">ʔāni</w>
+                     <w ana="fvlib:perspron_1_sg" xml:id="wid_00155" join="right">ʔāni</w>
                      <w xml:id="wid_00156" join="right">mǝn</w>
                      <w xml:id="wid_00157" join="right">baġdād</w>
                      <pc type="ws" xml:id="id_pc_448" join="right">.</pc>
                      <w xml:id="wid_00158" join="right">/</w>
-                     <w ana="fvLib:perspron_1_pl" xml:id="wid_00159" join="right">ǝḥna</w>
+                     <w ana="fvlib:perspron_1_pl" xml:id="wid_00159" join="right">ǝḥna</w>
                      <w xml:id="wid_00160" join="right">mǝn</w>
                      <w xml:id="wid_00161" join="right">baġdād</w>
                      <pc type="ws" xml:id="id_pc_457">.</pc>
@@ -315,7 +314,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="semLib:when" type="featureSample">
+            <cit ana="semlib:when" type="featureSample">
                <lbl xml:space="preserve">when?</lbl>
                <quote xml:lang="en">Fatima, when did you see Muhammad? – I saw him yesterday. </quote>
                <cit type="translation">
@@ -323,7 +322,7 @@
                      <w xml:id="wid_00185" join="right">ya</w>
                      <w xml:id="wid_00186" join="right">Fāṭma</w>
                      <pc type="ws" xml:id="id_pc_520" join="right">,</pc>
-                        <w ana="semLib:when" xml:id="wid_00187" join="right">ǝšwakǝt</w>
+                        <w ana="semlib:when" xml:id="wid_00187" join="right">ǝšwakǝt</w>
                      <w xml:id="wid_00188" join="right">šǝfti</w>
                      <w xml:id="wid_00189" join="right">Mḥammad</w>
                      <pc type="ws" xml:id="id_pc_527" join="right">?</pc>
@@ -354,12 +353,12 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="semLib:how" type="featureSample">
+            <cit ana="semlib:how" type="featureSample">
                <lbl xml:space="preserve">how?</lbl>
                <quote xml:lang="en">How are you (m./f.)? – I’m fine.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semLib:how" xml:id="wid_00212" join="right">ǝšlōn</w>
+                        <w ana="semlib:how" xml:id="wid_00212" join="right">ǝšlōn</w>
                      <w xml:id="wid_00213" join="right">ak</w>
                      <w xml:id="wid_00214" join="right">/</w>
                         <w xml:id="wid_00215" join="right">ǝšlōn</w>
@@ -395,16 +394,16 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample">
+            <cit ana="semlib:how_much" type="featureSample">
                <lbl xml:space="preserve">how much?</lbl>
                <quote xml:lang="en">How much is half a kilo of lemons? – It’s 10 Pounds. </quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semLib:how_much" xml:id="wid_00239" join="right">bēš</w>
+                        <w ana="semlib:how_much" xml:id="wid_00239" join="right">bēš</w>
                      <w xml:id="wid_00240" join="right">nuṣṣ</w>
                      <w xml:id="wid_00241" join="right">kēlu</w>
                      <w xml:id="wid_00242" join="right">nūmi</w>
-                     <w ana="semLib:lemon" xml:id="wid_00243" join="right">ḥāmuð̣</w>
+                     <w ana="semlib:lemon" xml:id="wid_00243" join="right">ḥāmuð̣</w>
                      <pc type="ws" xml:id="id_pc_660" join="right">.</pc>
                      <w xml:id="wid_00244" join="right">–</w>
                      <w xml:id="wid_00245" join="right">sǝʕra</w>
@@ -431,14 +430,14 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample">
+            <cit ana="semlib:how_many" type="featureSample">
                <lbl xml:space="preserve">how many?</lbl>
                <quote xml:lang="en">How many children do you (f.) have? – I have
                      two daughters
                      and three sons.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semLib:how_many" xml:id="wid_00265" join="right">ǝšgadd</w>
+                        <w ana="semlib:how_many" xml:id="wid_00265" join="right">ǝšgadd</w>
                      <w xml:id="wid_00266" join="right">ʕǝddǝč</w>
                      <w xml:id="wid_00267" join="right">ǧahhāl</w>
                      <pc type="ws" xml:id="id_pc_723" join="right">?</pc>
@@ -452,7 +451,7 @@
                      <w xml:id="wid_00274" join="right">bǝntēn</w>
                      <w xml:id="wid_00275" join="right">wǝ</w>
                      <pc type="ws" xml:id="id_pc_741" join="right">-</pc>
-                     <w ana="semLib:three #vt_phon_CA_th" xml:id="wid_00276" join="right">tlaṯ</w>
+                     <w ana="semlib:three #vt_phon_CA_th" xml:id="wid_00276" join="right">tlaṯ</w>
                      <w xml:id="wid_00277" join="right">wǝlǝd</w>
                      <pc type="ws" xml:id="id_pc_745">.</pc>
                   </quote>
@@ -476,14 +475,14 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="semLib:which" type="featureSample">
+            <cit ana="semlib:which" type="featureSample">
                <lbl xml:space="preserve">which?</lbl>
                <quote xml:lang="en">In which neighbourhood do you live? – We live in Zamalik. </quote>
                <cit type="translation">
                   <quote xml:lang="ar">
                      <w xml:id="wid_00297" join="right">ǝb</w>
                      <pc type="ws" xml:id="id_pc_794" join="right">-</pc>
-                        <w ana="semLib:which" xml:id="wid_00298" join="right">ʔayy</w>
+                        <w ana="semlib:which" xml:id="wid_00298" join="right">ʔayy</w>
                      <w xml:id="wid_00299" join="right">manṭiqa</w>
                      <w xml:id="wid_00300" join="right">tsuknūn</w>
                      <pc type="ws" xml:id="id_pc_800" join="right">?</pc>
@@ -520,13 +519,13 @@
          </div>
          <div type="featureGroup">
             <head>Demonstratives</head>
-            <cit ana="fvLib:dempron_prox_m_sg" type="featureSample">
+            <cit ana="fvlib:dempron_prox_m_sg" type="featureSample">
                <lbl xml:space="preserve">this</lbl>
                <quote xml:lang="en">Who is this man? – He is my friend</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
                      <w xml:id="wid_00325" join="right">mǝnu</w>
-                        <w ana="fvLib:dempron_prox_m_sg" xml:id="wid_00326" join="right">hāḏa</w>
+                        <w ana="fvlib:dempron_prox_m_sg" xml:id="wid_00326" join="right">hāḏa</w>
                      <w xml:id="wid_00327" join="right">r</w>
                      <pc type="ws" xml:id="id_pc_876" join="right">-</pc>
                      <w xml:id="wid_00328" join="right">rǝǧǧāl</w>
@@ -574,7 +573,7 @@
          </div>
          <div type="featureGroup">
             <head>Presentatives</head>
-            <cit ana="fvLib:pres_m_sg" type="featureSample">
+            <cit ana="fvlib:pres_m_sg" type="featureSample">
                <lbl xml:space="preserve">there is … (m.)</lbl>
                <quote xml:lang="en">Where is my mobile? – Here it is!</quote>
                <cit type="translation">
@@ -586,7 +585,7 @@
                      <w xml:id="wid_00352" join="right">mālti</w>
                      <pc type="ws" xml:id="id_pc_964" join="right">?</pc>
                      <w xml:id="wid_00353" join="right">–</w>
-                        <w ana="fvLib:pres_m_sg" xml:id="wid_00354" join="right">hayyāta</w>
+                        <w ana="fvlib:pres_m_sg" xml:id="wid_00354" join="right">hayyāta</w>
                      <pc type="ws" xml:id="id_pc_969">!</pc>
                   </quote>
                </cit>
@@ -629,13 +628,13 @@
          </div>
          <div type="featureGroup">
             <head>Adverbs</head>
-            <cit ana="vtLex:here" type="featureSample">
+            <cit ana="semlib:here" type="featureSample">
                <lbl xml:space="preserve">here</lbl>
                <quote xml:lang="en">We have been here for 8 years.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
                      <w xml:id="wid_00371" join="right">ǝḥna</w>
-                        <w ana="semLib:here" xml:id="wid_00372" join="right">hnāya</w>
+                        <w ana="semlib:here" xml:id="wid_00372" join="right">hnāya</w>
                      <w xml:id="wid_00373" join="right">mǝn</w>
                      <w xml:id="wid_00374" join="right">ǝṯman</w>
                      <w xml:id="wid_00375" join="right">sanawāt</w>
@@ -654,7 +653,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:now" type="featureSample">
+            <cit ana="semlib:now" type="featureSample">
                <lbl xml:space="preserve">now</lbl>
                <quote xml:lang="en">Fatima, what are you doing now? – I’m watching TV. </quote>
                <cit type="translation">
@@ -666,7 +665,7 @@
                      <w xml:id="wid_00389" join="right">da</w>
                      <pc type="ws" xml:id="id_pc_1076" join="right">-</pc>
                      <w xml:id="wid_00390" join="right">ssawwīn</w>
-                        <w ana="semLib:now" xml:id="wid_00391" join="right">hassa</w>
+                        <w ana="semlib:now" xml:id="wid_00391" join="right">hassa</w>
                      <pc type="ws" xml:id="id_pc_1080" join="right">?</pc>
                      <w xml:id="wid_00392" join="right">–</w>
                      <w xml:id="wid_00393" join="right">ʔašūf</w>
@@ -693,7 +692,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:today" type="featureSample">
+            <cit ana="semlib:today" type="featureSample">
                <lbl xml:space="preserve">today</lbl>
                <quote xml:lang="en">It’s very hot today.</quote>
                <cit type="translation">
@@ -701,7 +700,7 @@
                      <w xml:id="wid_00412" join="right">ǝǧ</w>
                      <pc type="ws" xml:id="id_pc_1134" join="right">-</pc>
                      <w xml:id="wid_00413" join="right">ǧaww</w>
-                     <phr ana="semLib:today">
+                     <phr ana="semlib:today">
                         <w xml:id="wid_00414" join="right">ǝl</w>
                         <pc type="ws" xml:id="id_pc_1138" join="right">-</pc>
                         <w xml:id="wid_00415">yōm</w>
@@ -722,12 +721,12 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:yesterday" type="featureSample">
+            <cit ana="semlib:yesterday" type="featureSample">
                <lbl xml:space="preserve">yesterday</lbl>
                <quote xml:lang="en">Yesterday it rained.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                     <phr ana="semLib:yesterday">
+                     <phr ana="semlib:yesterday">
                         <w xml:id="wid_00427" join="right">ǝl</w>
                         <pc type="ws" xml:id="id_pc_1173" join="right">-</pc>
                         <w xml:id="wid_00428">bārḥa</w>
@@ -750,7 +749,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:tomorrow" type="featureSample">
+            <cit ana="semlib:tomorrow" type="featureSample">
                <lbl xml:space="preserve">tomorrow</lbl>
                <quote xml:lang="en">Hey kids, tomorrow you have to study.</quote>
                <cit type="translation">
@@ -758,7 +757,7 @@
                      <w xml:id="wid_00442" join="right">ya</w>
                      <w xml:id="wid_00443" join="right">šabāb</w>
                      <pc type="ws" xml:id="id_pc_1213" join="right">,</pc>
-                        <w ana="semLib:tomorrow" xml:id="wid_00444" join="right">bāčǝr</w>
+                        <w ana="semlib:tomorrow" xml:id="wid_00444" join="right">bāčǝr</w>
                      <w xml:id="wid_00445" join="right">lāzim</w>
                      <w xml:id="wid_00446" join="right">ǝddursūn</w>
                      <pc type="ws" xml:id="id_pc_1220">.</pc>
@@ -776,12 +775,12 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:last_year" type="featureSample">
+            <cit ana="semlib:last_year" type="featureSample">
                <lbl xml:space="preserve">last year</lbl>
                <quote xml:lang="en">Last year we had many problems.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                     <phr ana="semLib:last_year">
+                     <phr ana="semlib:last_year">
                         <w xml:id="wid_00458" join="right">s</w>
                         <pc type="ws" xml:id="id_pc_1255" join="right">-</pc>
                         <w xml:id="wid_00459" join="right">sana</w>
@@ -820,7 +819,7 @@
          </div>
          <div type="featureGroup">
             <head>Numerals</head>
-            <cit ana="vtLex:eight" type="featureSample">
+            <cit ana="semlib:eight" type="featureSample">
                <lbl xml:space="preserve">eight</lbl>
                <quote xml:lang="en">We have been here for 8 years. </quote>
                <cit type="translation">
@@ -828,7 +827,7 @@
                      <w xml:id="wid_00483" join="right">ǝḥna</w>
                      <w xml:id="wid_00484" join="right">hnāya</w>
                      <w xml:id="wid_00485" join="right">mǝn</w>
-                        <w ana="semLib:eight" xml:id="wid_00486" join="right">ǝṯman</w>
+                        <w ana="semlib:eight" xml:id="wid_00486" join="right">ǝṯman</w>
                      <w xml:id="wid_00487" join="right">sanawāt</w>
                      <pc type="ws" xml:id="id_pc_1331">.</pc>
                   </quote>
@@ -845,7 +844,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:eleven" type="featureSample">
+            <cit ana="semlib:eleven" type="featureSample">
                <lbl xml:space="preserve">eleven</lbl>
                <quote xml:lang="en">What’s the time? It’s 11 o’clock.</quote>
                <cit type="translation">
@@ -861,7 +860,7 @@
                      <w xml:id="wid_00505" join="right">ǝs</w>
                      <pc type="ws" xml:id="id_pc_1376" join="right">-</pc>
                      <w xml:id="wid_00506" join="right">sāʕa</w>
-                        <w ana="semLib:eleven" xml:id="wid_00507" join="right">daʕaš</w>
+                        <w ana="semlib:eleven" xml:id="wid_00507" join="right">daʕaš</w>
                      <pc type="ws" xml:id="id_pc_1380">.</pc>
                   </quote>
                </cit>
@@ -881,13 +880,13 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:twelve" type="featureSample">
+            <cit ana="semlib:twelve" type="featureSample">
                <lbl xml:space="preserve">twelve</lbl>
                <quote xml:lang="en">They have 12 goats and 2 cows.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
                      <w xml:id="wid_00521" join="right">ʕǝdhum</w>
-                        <w ana="semLib:twelve" xml:id="wid_00522" join="right">ǝṯnaʕaš</w>
+                        <w ana="semlib:twelve" xml:id="wid_00522" join="right">ǝṯnaʕaš</w>
                      <w xml:id="wid_00523" join="right">ṣaxla</w>
                      <w xml:id="wid_00524" join="right">/</w>
                      <w xml:id="wid_00525" join="right">maʕza</w>
@@ -910,7 +909,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:eighteen" type="featureSample">
+            <cit ana="semlib:eighteen" type="featureSample">
                <lbl xml:space="preserve">eighteen</lbl>
                <quote xml:lang="en">There are 18 new students in our class.</quote>
                <cit type="translation">
@@ -918,7 +917,7 @@
                      <w xml:id="wid_00539" join="right">ǝb</w>
                      <pc type="ws" xml:id="id_pc_1461" join="right">-</pc>
                      <w xml:id="wid_00540" join="right">ṣaffna</w>
-                        <w ana="semLib:eighteen" xml:id="wid_00541" join="right">ṯmunṭaʕaš</w>
+                        <w ana="semlib:eighteen" xml:id="wid_00541" join="right">ṯmunṭaʕaš</w>
                      <w xml:id="wid_00542" join="right">ṭālib</w>
                      <w xml:id="wid_00543" join="right">ǝǧdīd</w>
                      <pc type="ws" xml:id="id_pc_1469">.</pc>
@@ -940,7 +939,7 @@
          </div>
          <div type="featureGroup">
             <head>Adjectives</head>
-            <cit ana="vtLex:good" type="featureSample">
+            <cit ana="semlib:good" type="featureSample">
                <lbl xml:space="preserve">good</lbl>
                <quote xml:lang="en">How are you (m./f.)? – I’m fine.</quote>
                <cit type="translation">
@@ -950,7 +949,7 @@
                      <w xml:id="wid_00558" join="right">ǝšlōnǝč</w>
                      <pc type="ws" xml:id="id_pc_1517" join="right">?</pc>
                      <w xml:id="wid_00559" join="right">–</w>
-                        <w ana="semLib:good" xml:id="wid_00560" join="right">zēn</w>
+                        <w ana="semlib:good" xml:id="wid_00560" join="right">zēn</w>
                      <w xml:id="wid_00561" join="right">/</w>
                         <w xml:id="wid_00562" join="right">zēna</w>
                      <pc type="ws" xml:id="id_pc_1526" join="right">,</pc>
@@ -982,7 +981,7 @@
          </div>
          <div type="featureGroup">
             <head>Colours</head>
-            <cit ana="vtLex:white" type="featureSample">
+            <cit ana="semlib:white" type="featureSample">
                <lbl xml:space="preserve">white</lbl>
                <quote xml:lang="en">My husband wears a white shirt. We have a white
                      car.</quote>
@@ -990,8 +989,8 @@
                   <quote xml:lang="ar">
                      <w xml:id="wid_00581" join="right">yǝlbas</w>
                      <w xml:id="wid_00582" join="right">raǧli</w>
-                     <w ana="semLib:shirt" xml:id="wid_00583" join="right">qamīṣ</w>
-                        <w ana="semLib:white" xml:id="wid_00584" join="right">ʔabyað̣</w>
+                     <w ana="semlib:shirt" xml:id="wid_00583" join="right">qamīṣ</w>
+                        <w ana="semlib:white" xml:id="wid_00584" join="right">ʔabyað̣</w>
                      <w xml:id="wid_00585" join="right">w</w>
                      <pc type="ws" xml:id="id_pc_1595" join="right">-</pc>
                      <w xml:id="wid_00586" join="right">ʔāni</w>
@@ -1019,7 +1018,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:black" type="featureSample">
+            <cit ana="semlib:black" type="featureSample">
                <lbl xml:space="preserve">black</lbl>
                <quote xml:lang="en">I don’t like this black shirt. / car.</quote>
                <cit type="translation">
@@ -1032,7 +1031,7 @@
                      <w xml:id="wid_00614" join="right">qamīṣ</w>
                      <w xml:id="wid_00615" join="right">ǝl</w>
                      <pc type="ws" xml:id="id_pc_1663" join="right">-</pc>
-                        <w ana="semLib:black" xml:id="wid_00616" join="right">ʔaswad</w>
+                        <w ana="semlib:black" xml:id="wid_00616" join="right">ʔaswad</w>
                      <pc type="ws" xml:id="id_pc_1665" join="right">.</pc>
                      <w xml:id="wid_00617" join="right">/</w>
                      <w xml:id="wid_00618" join="right">ma</w>
@@ -1059,7 +1058,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:pink" type="featureSample">
+            <cit ana="semlib:pink" type="featureSample">
                <lbl xml:space="preserve">pink</lbl>
                <quote xml:lang="en">My wife bought a pink shirt / bag.</quote>
                <cit type="translation">
@@ -1067,7 +1066,7 @@
                      <w xml:id="wid_00641" join="right">ǝštarat</w>
                      <w xml:id="wid_00642" join="right">marti</w>
                      <w xml:id="wid_00643" join="right">qamīṣ</w>
-                        <w ana="semLib:pink" xml:id="wid_00644" join="right">wardi</w>
+                        <w ana="semlib:pink" xml:id="wid_00644" join="right">wardi</w>
                      <w xml:id="wid_00645" join="right">w</w>
                      <pc type="ws" xml:id="id_pc_1732" join="right">-</pc>
                      <w xml:id="wid_00646" join="right">ǧunṭa</w>
@@ -1090,13 +1089,13 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:grey" type="featureSample">
+            <cit ana="semlib:grey" type="featureSample">
                <lbl xml:space="preserve">grey</lbl>
                <quote xml:lang="en">a grey wall / a grey bag</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
                      <w xml:id="wid_00663" join="right">ḥāyǝṭ</w>
-                        <w ana="semLib:grey" xml:id="wid_00664" join="right">rumādi</w>
+                        <w ana="semlib:grey" xml:id="wid_00664" join="right">rumādi</w>
                      <pc type="ws" xml:id="id_pc_1779" join="right">(</pc>
                         <w xml:id="wid_00665" join="right">riṣāṣi</w>
                      <pc type="ws" xml:id="id_pc_1781" join="right">)</pc>
@@ -1117,13 +1116,13 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:orange" type="featureSample">
+            <cit ana="semlib:orange" type="featureSample">
                <lbl xml:space="preserve">orange</lbl>
                <quote xml:lang="en">an orange shirt / car</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
                      <w xml:id="wid_00678" join="right">qamīṣ</w>
-                        <w ana="semLib:orange" xml:id="wid_00679" join="right">burtuqāli</w>
+                        <w ana="semlib:orange" xml:id="wid_00679" join="right">burtuqāli</w>
                      <w xml:id="wid_00680" join="right">/</w>
                      <w xml:id="wid_00681" join="right">siyyāra</w>
                         <w xml:id="wid_00682">burtuqālīya</w>
@@ -1140,14 +1139,14 @@
          </div>
          <div type="featureGroup">
             <head>Prepositions</head>
-            <cit ana="semLib:in" type="featureSample">
+            <cit ana="semlib:in" type="featureSample">
                <lbl xml:space="preserve">
                   <hi rend="italic">fi</hi> vs. <hi rend="italic">bi</hi>
                </lbl>
                <quote xml:lang="en">There are 18 new students in our class.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                     <w ana="semLib:in" xml:id="wid_00691" join="right">ǝb</w>
+                     <w ana="semlib:in" xml:id="wid_00691" join="right">ǝb</w>
                      <pc type="ws" xml:id="id_pc_1859" join="right">-</pc>
                      <w xml:id="wid_00692" join="right">ṣaffna</w>
                         <w xml:id="wid_00693" join="right">ṯmunṭaʕaš</w>
@@ -1172,7 +1171,7 @@
          </div>
          <div type="featureGroup">
             <head>Important verbs</head>
-            <cit ana="vtLex:to_do" type="featureSample">
+            <cit ana="semlib:to_do" type="featureSample">
                <lbl xml:space="preserve">to do</lbl>
                <quote xml:lang="en">Fatima, what are you doing now? – I’m watching TV.</quote>
                <cit type="translation">
@@ -1181,7 +1180,7 @@
                      <pc type="ws" xml:id="id_pc_1911" join="right">,</pc>
                      <w xml:id="wid_00709" join="right">ǝš</w>
                      <pc type="ws" xml:id="id_pc_1914" join="right">-</pc>
-                     <phr ana="semLib:to_do">
+                     <phr ana="semlib:to_do">
                         <w xml:id="wid_00710" join="right">da</w>
                         <pc type="ws" xml:id="id_pc_1916" join="right">-</pc>
                         <w xml:id="wid_00711">ssawwīn</w>
@@ -1213,12 +1212,12 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:to_stay" type="featureSample">
+            <cit ana="semlib:to_stay" type="featureSample">
                <lbl xml:space="preserve">to stay</lbl>
                <quote xml:lang="en">Stay a bit longer! – No, I don’t have time.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semLib:to_stay" xml:id="wid_00733" join="right">ubqa</w>
+                        <w ana="semlib:to_stay" xml:id="wid_00733" join="right">ubqa</w>
                      <pc type="ws" xml:id="id_pc_1976" join="right">(</pc>
                      <w xml:id="wid_00734" join="right">m</w>
                      <pc type="ws" xml:id="id_pc_1978" join="right">.</pc>
@@ -1263,12 +1262,12 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:to_speak" type="featureSample">
+            <cit ana="semlib:to_speak" type="featureSample">
                <lbl xml:space="preserve">to speak</lbl>
                <quote xml:lang="en">Do you speak Arabic? – Just, a little.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semLib:to_speak" xml:id="wid_00763" join="right">tǝḥči</w>
+                        <w ana="semlib:to_speak" xml:id="wid_00763" join="right">tǝḥči</w>
                      <w xml:id="wid_00764" join="right">ʕarabi</w>
                      <pc type="ws" xml:id="id_pc_2060" join="right">?</pc>
                      <w xml:id="wid_00765" join="right">–</w>
@@ -1291,7 +1290,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:to_rain" type="featureSample">
+            <cit ana="semlib:to_rain" type="featureSample">
                <lbl xml:space="preserve">to rain</lbl>
                <quote xml:lang="en">Yesterday it rained.</quote>
                <cit type="translation">
@@ -1299,7 +1298,7 @@
                      <w xml:id="wid_00780" join="right">ǝl</w>
                      <pc type="ws" xml:id="id_pc_2102" join="right">-</pc>
                      <w xml:id="wid_00781" join="right">bārḥa</w>
-                     <phr ana="semLib:to_rain">
+                     <phr ana="semlib:to_rain">
                         <w xml:id="wid_00782" join="right">čānat</w>
                         
                         <w xml:id="wid_00783">ǝtmaṭṭǝr</w>
@@ -1320,15 +1319,15 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:to_open" type="featureSample">
+            <cit ana="semlib:to_open" type="featureSample">
                <lbl xml:space="preserve">to open</lbl>
                <quote xml:lang="en">Open the window!</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semLib:to_open" xml:id="wid_00791" join="right">ǝftaḥ</w>
+                        <w ana="semlib:to_open" xml:id="wid_00791" join="right">ǝftaḥ</w>
                      <w xml:id="wid_00792" join="right">ǝš</w>
                      <pc type="ws" xml:id="id_pc_2135" join="right">-</pc>
-                     <w ana="semLib:window" xml:id="wid_00793" join="right">šubbāk</w>
+                     <w ana="semlib:window" xml:id="wid_00793" join="right">šubbāk</w>
                      <pc type="ws" xml:id="id_pc_2137">!</pc>
                   </quote>
                </cit>
@@ -1342,12 +1341,12 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:to_close" type="featureSample">
+            <cit ana="semlib:to_close" type="featureSample">
                <lbl xml:space="preserve">to close</lbl>
                <quote xml:lang="en">Close the doors!</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semLib:to_close" xml:id="wid_00800" join="right">sidd</w>
+                        <w ana="semlib:to_close" xml:id="wid_00800" join="right">sidd</w>
                      <w xml:id="wid_00801" join="right">ǝl</w>
                      <pc type="ws" xml:id="id_pc_2162" join="right">-</pc>
                      <w xml:id="wid_00802" join="right">bībān</w>
@@ -1363,13 +1362,13 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:to_take" type="featureSample">
+            <cit ana="semlib:to_take" type="featureSample">
                <lbl xml:space="preserve">to take</lbl>
                <quote xml:lang="en">What did you take? – Nothing.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
                      <w xml:id="wid_00808" join="right">šǝnu</w>
-                        <w ana="semLib:to_take" xml:id="wid_00809" join="right">ʔaxaḏti</w>
+                        <w ana="semlib:to_take" xml:id="wid_00809" join="right">ʔaxaḏti</w>
                      <w xml:id="wid_00810" join="right">wiyyāč</w>
                      <pc type="ws" xml:id="id_pc_2188" join="right">?</pc>
                      <w xml:id="wid_00811" join="right">/</w>
@@ -1396,19 +1395,19 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:to_give" type="featureSample">
+            <cit ana="semlib:to_give" type="featureSample">
                <lbl xml:space="preserve">to give</lbl>
                <quote xml:lang="en">Did you give the letter to Ahmad? – Yes, I gave it to
                      him.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semLib:to_give" xml:id="wid_00830" join="right">ǝnṭēt</w>
+                        <w ana="semlib:to_give" xml:id="wid_00830" join="right">ǝnṭēt</w>
                      <w xml:id="wid_00831" join="right">/</w>
                         <w xml:id="wid_00832" join="right">ǝṭṭēt</w>
                      <w xml:id="wid_00833" join="right">Aḥmad</w>
                      <w xml:id="wid_00834" join="right">ǝr</w>
                      <pc type="ws" xml:id="id_pc_2250" join="right">-</pc>
-                     <w ana="semLib:letter" xml:id="wid_00835" join="right">risāla</w>
+                     <w ana="semlib:letter" xml:id="wid_00835" join="right">risāla</w>
                      <pc type="ws" xml:id="id_pc_2252" join="right">?</pc>
                      <w xml:id="wid_00836" join="right">–</w>
                      <w xml:id="wid_00837" join="right">ʔē</w>
@@ -1441,18 +1440,18 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:to_see" type="featureSample">
+            <cit ana="semlib:to_see" type="featureSample">
                <lbl xml:space="preserve">to see</lbl>
                <quote xml:lang="en">The children saw a beggar behind our house.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
                      <w xml:id="wid_00862" join="right">ǝǧ</w>
                      <pc type="ws" xml:id="id_pc_2316" join="right">-</pc>
-                     <w ana="semLib:children" xml:id="wid_00863" join="right">ǧahhāl</w>
-                        <w ana="semLib:to_see" xml:id="wid_00864" join="right">šāfaw</w>
+                     <w ana="semlib:children" xml:id="wid_00863" join="right">ǧahhāl</w>
+                        <w ana="semlib:to_see" xml:id="wid_00864" join="right">šāfaw</w>
                      <w xml:id="wid_00865" join="right">imǧaddi</w>
                      <w xml:id="wid_00866" join="right">wara</w>
-                     <w ana="semLib:house" xml:id="wid_00867" join="right">bēt</w>
+                     <w ana="semlib:house" xml:id="wid_00867" join="right">bēt</w>
                      <w xml:id="wid_00867a" join="right">na</w>
                      <pc type="ws" xml:id="id_pc_2326">.</pc>
                   </quote>
@@ -1471,7 +1470,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:to_want" type="featureSample">
+            <cit ana="semlib:to_want" type="featureSample">
                <lbl xml:space="preserve">to want</lbl>
                <quote xml:lang="en">Do you (f.) want to drink tea or coffee? – Tea
                      please.</quote>
@@ -1479,17 +1478,17 @@
                   <quote xml:lang="ar">
                      <w xml:id="wid_00881" join="right">ši</w>
                      <pc type="ws" xml:id="id_pc_2363" join="right">-</pc>
-                        <w ana="semLib:to_want" xml:id="wid_00882" join="right">trīd</w>
+                        <w ana="semlib:to_want" xml:id="wid_00882" join="right">trīd</w>
                      <w xml:id="wid_00883" join="right">tišrab</w>
-                     <w ana="semLib:coffee #vt_phon_CA_q" xml:id="wid_00884" join="right">gahwa</w>
+                     <w ana="semlib:coffee #vt_phon_CA_q" xml:id="wid_00884" join="right">gahwa</w>
                      <w xml:id="wid_00885" join="right">lō</w>
-                     <w ana="semLib:tea" xml:id="wid_00886" join="right">čāy</w>
+                     <w ana="semlib:tea" xml:id="wid_00886" join="right">čāy</w>
                      <pc type="ws" xml:id="id_pc_2373" join="right">?</pc>
                      <w xml:id="wid_00887" join="right">–</w>
                         <w xml:id="wid_00888" join="right">ʔarīd</w>
                      <w xml:id="wid_00889" join="right">čāy</w>
                      <pc type="ws" xml:id="id_pc_2380" join="right">,</pc>
-                     <phr ana="semLib:please">
+                     <phr ana="semlib:please">
                      
                         <w xml:id="wid_00890" join="right">aḷḷa</w>
                      
@@ -1514,7 +1513,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:to_bring" type="featureSample">
+            <cit ana="semlib:to_bring" type="featureSample">
                <lbl xml:space="preserve">to bring</lbl>
                <quote xml:lang="en">Bring me the big bottle, please! – I’m right with
                      you.</quote>
@@ -1524,7 +1523,7 @@
                      <w xml:id="wid_00912" join="right">yxallīk</w>
                      <pc type="ws" xml:id="id_pc_2438" join="right">,</pc>
                      <w xml:id="wid_00913" join="right">balki</w>
-                        <w ana="semLib:to_bring" xml:id="wid_00914" join="right">tǧīb</w>
+                        <w ana="semlib:to_bring" xml:id="wid_00914" join="right">tǧīb</w>
                      <pc type="ws" xml:id="id_pc_2443" join="right">-</pc>
                      <w xml:id="wid_00915" join="right">li</w>
                      <w xml:id="wid_00916" join="right">š</w>
@@ -1559,15 +1558,15 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:to_have" type="featureSample">
+            <cit ana="semlib:to_have" type="featureSample">
                <lbl xml:space="preserve">to have</lbl>
                <quote xml:lang="en">They have a lot of money, but they are bad people.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semLib:to_have" xml:id="wid_00941" join="right">ʕǝd</w>
+                        <w ana="semlib:to_have" xml:id="wid_00941" join="right">ʕǝd</w>
                      <w xml:id="wid_00942" join="right">hum</w>
-                     <w ana="semLib:much" xml:id="wid_00943" join="right">ǝhwāya</w>
-                     <w ana="semLib:money" xml:id="wid_00944" join="right">flūs</w>
+                     <w ana="semlib:much" xml:id="wid_00943" join="right">ǝhwāya</w>
+                     <w ana="semlib:money" xml:id="wid_00944" join="right">flūs</w>
                      <w xml:id="wid_00945" join="right">bass</w>
                      <w xml:id="wid_00946" join="right">humma</w>
                      <w xml:id="wid_00947" join="right">mū</w>
@@ -1595,7 +1594,7 @@
          </div>
          <div type="featureGroup">
             <head>Phrasemes</head>
-            <cit ana="semLib:since_for" type="featureSample">
+            <cit ana="semlib:since_for" type="featureSample">
                <lbl xml:space="preserve">since/for</lbl>
                <note xml:space="preserve">Many Arabic dialects
                      use periphrastic constructions to render
@@ -1605,7 +1604,7 @@
                   <quote xml:lang="ar">
                      <w xml:id="wid_00966" join="right">ǝḥna</w>
                      <w xml:id="wid_00967" join="right">hnāya</w>
-                        <w ana="semLib:since_for" xml:id="wid_00968" join="right">mǝn</w>
+                        <w ana="semlib:since_for" xml:id="wid_00968" join="right">mǝn</w>
                      <w xml:id="wid_00969" join="right">ǝṯman</w>
                      <w xml:id="wid_00970" join="right">sanawāt</w>
                      <pc type="ws" xml:id="id_pc_2586">.</pc>
@@ -1626,7 +1625,7 @@
          </div>
          <div type="featureGroup">
             <head>Nouns</head>
-            <cit ana="vtLex:women" type="featureSample">
+            <cit ana="semlib:women" type="featureSample">
                <lbl xml:space="preserve">women</lbl>
                <quote xml:lang="en">What are those women doing there? – They are baking
                      bread.</quote>
@@ -1641,7 +1640,7 @@
                      <w xml:id="wid_00986" join="right">haḏōlāk</w>
                         <w xml:id="wid_00987" join="right">in</w>
                         <pc type="ws" xml:id="id_pc_2639" join="right">-</pc>
-                        <w ana="semLib:women" xml:id="wid_00988" join="right">nǝswān</w>
+                        <w ana="semlib:women" xml:id="wid_00988" join="right">nǝswān</w>
                      <pc type="ws" xml:id="id_pc_2641" join="right">?</pc>
                      <w xml:id="wid_00989" join="right">–</w>
                      <w xml:id="wid_00990" join="right">gāʕǝd</w>
@@ -1674,14 +1673,14 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:husband" type="featureSample">
+            <cit ana="semlib:husband" type="featureSample">
                <lbl xml:space="preserve">husband</lbl>
                <quote xml:lang="en">My husband wears a white shirt. We have a white
                      car.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
                      <w xml:id="wid_01016" join="right">yǝlbas</w>
-                        <w ana="semLib:husband" xml:id="wid_01017" join="right">raǧl</w>
+                        <w ana="semlib:husband" xml:id="wid_01017" join="right">raǧl</w>
                      <w xml:id="id_w_0" join="right">i</w>
                      <w xml:id="wid_01018" join="right">qamīṣ</w>
                      <w xml:id="wid_01019" join="right">ʔabyað̣</w>
@@ -1712,7 +1711,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:friend" type="featureSample">
+            <cit ana="semlib:friend" type="featureSample">
                <lbl xml:space="preserve">friend</lbl>
                <quote xml:lang="en">Who is this man? – He is my friend.</quote>
                <cit type="translation">
@@ -1725,7 +1724,7 @@
                      <pc type="ws" xml:id="id_pc_2780" join="right">?</pc>
                      <w xml:id="wid_01049" join="right">–</w>
                      <w xml:id="wid_01050" join="right">huwwa</w>
-                        <w ana="semLib:friend" xml:id="wid_01051" join="right">ṣadīq</w>
+                        <w ana="semlib:friend" xml:id="wid_01051" join="right">ṣadīq</w>
                      <w xml:id="wid_01052" join="right">i</w>
                      <pc type="ws" xml:id="id_pc_2788">.</pc>
                   </quote>
@@ -1749,7 +1748,7 @@
          </div>
          <div type="featureGroup">
             <head>Neologisms</head>
-            <cit ana="semLib:mobile" type="featureSample">
+            <cit ana="semlib:mobile" type="featureSample">
                <lbl xml:space="preserve">mobile vs. cellphone</lbl>
                <quote xml:lang="en">Where is my mobile (phone)? – Here it is!</quote>
                <cit type="translation">
@@ -1757,7 +1756,7 @@
                      <w xml:id="wid_01067" join="right">wēn</w>
                      <w xml:id="wid_01068" join="right">ǝl</w>
                      <pc type="ws" xml:id="id_pc_2839" join="right">-</pc>
-                        <w ana="semLib:mobile" xml:id="wid_01069" join="right">mōbāyl</w>
+                        <w ana="semlib:mobile" xml:id="wid_01069" join="right">mōbāyl</w>
                      <w xml:id="wid_01070" join="right">mālti</w>
                      <pc type="ws" xml:id="id_pc_2843" join="right">?</pc>
                      <w xml:id="wid_01071" join="right">–</w>
@@ -1783,12 +1782,12 @@
          </div>
          <div type="featureGroup">
             <head>Modality</head>
-            <cit ana="vtLex:being_unable" type="featureSample">
+            <cit ana="semlib:being_unable" type="featureSample">
                <lbl xml:space="preserve">being unable</lbl>
                <quote xml:lang="en">We cannot pay the rent.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                     <phr ana="semLib:being_unable">
+                     <phr ana="semlib:being_unable">
                         <w xml:id="wid_01086" join="right">ma</w>
                      
                      
@@ -1814,7 +1813,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:ability" type="featureSample">
+            <cit ana="semlib:ability" type="featureSample">
                <lbl xml:space="preserve">ability</lbl>
                <quote xml:lang="en">Can you (~do you know how to) play domino? – Yes.</quote>
                <cit type="translation">
@@ -1843,7 +1842,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="vtLex:possibility" type="featureSample">
+            <cit ana="semlib:possibility" type="featureSample">
                <lbl xml:space="preserve">possibility</lbl>
                <quote xml:lang="en">Can you come tomorrow?</quote>
                <cit type="translation">
@@ -1862,7 +1861,7 @@
          </div>
          <div type="featureGroup">
             <head>Other items</head>
-            <cit ana="vtLex:a_little" type="featureSample">
+            <cit ana="semlib:a_little" type="featureSample">
                <lbl xml:space="preserve">a little</lbl>
                <quote xml:lang="en">Do you speak Arabic? – Just, a little.</quote>
                <cit type="translation">
@@ -1872,7 +1871,7 @@
                      <pc type="ws" xml:id="id_pc_3011" join="right">?</pc>
                      <w xml:id="wid_01124" join="right">–</w>
                      <w xml:id="wid_01125" join="right">bass</w>
-                        <w ana="semLib:a_little" xml:id="wid_01126" join="right">ǝšwayya</w>
+                        <w ana="semlib:a_little" xml:id="wid_01126" join="right">ǝšwayya</w>
                      <pc type="ws" xml:id="id_pc_3018">.</pc>
                   </quote>
                </cit>
@@ -1917,7 +1916,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="fvLib:pres_f_sg" type="featureSample">
+            <cit ana="fvlib:pres_f_sg" type="featureSample">
                <lbl xml:space="preserve">Genitive explicative</lbl>
                <quote xml:lang="en">Where is my mobile? – Here it is!</quote>
                <cit type="translation">
@@ -1926,7 +1925,7 @@
                      <w xml:id="wid_01157" join="right">ǝl</w>
                      <pc type="ws" xml:id="id_pc_3097" join="right">-</pc>
                      <w xml:id="wid_01158" join="right">mōbāyl</w>
-                        <w ana="fvLib:pres_f_sg" xml:id="wid_01159" join="right">mālt</w>
+                        <w ana="fvlib:pres_f_sg" xml:id="wid_01159" join="right">mālt</w>
                      <w xml:id="wid_01160" join="right">i</w>
                      <pc type="ws" xml:id="id_pc_3102" join="right">?</pc>
                      <w xml:id="wid_01161" join="right">–</w>

@@ -577,7 +577,7 @@
                <quote xml:lang="en">I am a teacher.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w xml:id="wid_00320">āne</w>
+                        <w xml:id="wid_00320" ana="fvlib:perspron_1_sg">āne</w>
                      <w xml:id="wid_00321" join="right">məʕalləm</w>
                      <pc xml:id="id_pc_994">.</pc>
                   </quote>
@@ -639,9 +639,11 @@
                      <w xml:id="wid_00338" join="right">sayyāra</w>
                      <pc xml:id="id_pc_1060">?</pc>
                      <pc xml:id="id_pc_1062">–</pc>
+                     <phr ana="fvlib:pres_f_sg">
                         <w xml:id="wid_00339">ha</w>
                         
                         <w xml:id="wid_00340">hiyya</w>
+                     </phr>
                      <pc xml:id="id_pc_1067">.</pc>
                   </quote>
                </cit>
@@ -1901,7 +1903,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample">
+            <cit ana="semlib:existential" type="featureSample">
                <lbl xml:space="preserve">existential (there is, there are)</lbl>
                <quote xml:lang="en">There are 18 new students in our class.</quote>
                <cit type="translation">

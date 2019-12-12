@@ -10761,21 +10761,6 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>lingfeatures v1 to v2</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>vicav_lingfeatures/vicav_lingfeatures_tunis_toks.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
                                         <String>vicav_lingfeatures_add_ana</String>
                                     </list>
                                 </field>
@@ -10792,6 +10777,21 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 <field name="scenarioIds">
                                     <list>
                                         <String>lingfeatures v1 to v2</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>vicav_lingfeatures/vicav_lingfeatures_tunis_toks.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>vicav_lingfeatures_add_ana</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -12022,13 +12022,13 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                     <String>XSL</String>
                                 </field>
                                 <field name="saveAs">
-                                    <Boolean>false</Boolean>
+                                    <Boolean>true</Boolean>
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputResource">
-                                    <null/>
+                                    <String>${currentFileURL}</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
