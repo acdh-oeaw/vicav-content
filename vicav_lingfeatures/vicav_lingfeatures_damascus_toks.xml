@@ -387,24 +387,9 @@
                   <quote xml:lang="de"/>
                </cit>
             </cit>
-            <cit type="featureSample">
-               <lbl xml:space="preserve">
-                  <hi rend="bold">Presentatives</hi>
-               </lbl>
-               <quote xml:lang="en"/>
-               <cit type="translation">
-                  <quote xml:lang="ar"/>
-               </cit>
-               <cit type="translation">
-                  <quote xml:lang="de">
-                     <pc type="ws" xml:id="id_pc_410" join="right">(</pc>
-                     <pc type="ws" xml:id="id_pc_411" join="right">?</pc>
-                     <pc type="ws" xml:id="id_pc_412" join="right">?</pc>
-                     <pc type="ws" xml:id="id_pc_413" join="right">?</pc>
-                     <pc type="ws" xml:id="id_pc_414">)</pc>
-                  </quote>
-               </cit>
-            </cit>
+            </div>
+         <div type="featureGroup">
+            <head>Presentatives</head>
             <cit ana="fvlib:pres_m_sg" type="featureSample">
                <lbl xml:space="preserve">here is … (m.)</lbl>
                <quote xml:lang="en">Where is my mobile? – Here is the phone!</quote>

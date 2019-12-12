@@ -373,7 +373,7 @@
          </div>
          <div type="featureGroup">
             <head>Demonstratives</head>
-            <cit type="featureSample">
+            <cit type="featureSample" ana="fvlib:dempron_prox_m_sg">
                <lbl xml:space="preserve">this</lbl>
                <quote xml:lang="en">Who is this man? – He is my friend</quote>
                <cit type="translation">
@@ -382,7 +382,7 @@
                      <w xml:id="id_245" join="right">iṛ</w>
                      <pc type="ws" xml:id="id_246" join="right">-</pc>
                      <w xml:id="id_247">ṛāgil</w>
-                        <w xml:id="id_249">da</w>
+                     <w xml:id="id_249" ana="fvlib:dempron_prox_m_sg">da</w>
                      <pc type="ws" xml:id="id_250">?</pc>
                      <w xml:id="id_252">–</w>
                      <w xml:id="id_254">da</w>
@@ -401,12 +401,12 @@
          </div>
          <div type="featureGroup">
             <head>Pronouns</head>
-            <cit type="featureSample">
+            <cit type="featureSample" ana="fvlib:perspron_1_sg">
                <lbl xml:space="preserve">I</lbl>
                <quote xml:lang="en">I am a teacher.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w xml:id="id_263">ʔana</w>
+                        <w xml:id="id_263" ana="fvlib:perspron_1_sg">ʔana</w>
                       <w xml:id="id_264" join="right">mudarris</w>
                      <pc type="ws" xml:id="id_265">.</pc>
                   </quote>
@@ -415,23 +415,9 @@
                   <quote xml:lang="de"/>
                </cit>
             </cit>
-            <cit type="featureSample">
-               <lbl xml:space="preserve">
-                  <hi rend="bold">Presentatives</hi>
-               </lbl>
-               <quote xml:lang="en"/>
-               <cit type="translation">
-                  <quote xml:lang="ar"/>
-               </cit>
-               <cit type="translation">
-                  <quote xml:lang="de">
-                     <pc type="ws" xml:id="id_266" join="right">?</pc>
-                     <pc type="ws" xml:id="id_267" join="right">?</pc>
-                     <pc type="ws" xml:id="id_268" join="right">?</pc>
-                     <pc type="ws" xml:id="id_269">?</pc>
-                  </quote>
-               </cit>
-            </cit>
+           </div>
+         <div type="featureGroup">
+            <head>Presentatives</head>
             <cit ana="fvlib:pres_m_sg" type="featureSample">
                <lbl xml:space="preserve">there is … (m.)</lbl>
                <quote xml:lang="en">Where is my mobile? – Here is the phone!</quote>

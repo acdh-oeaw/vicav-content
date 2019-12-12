@@ -599,7 +599,7 @@
          </div>
          <div type="featureGroup">
             <head>Presentatives</head>
-            <cit type="featureSample">
+            <cit type="featureSample" ana="fvlib:pres_m_sg">
                <lbl xml:space="preserve">there is … (m.)</lbl>
                <quote xml:lang="en">Where is my mobile? – Here is the phone!</quote>
                <cit type="translation">
@@ -611,9 +611,11 @@
                      <w xml:id="id_879" join="right">tālīfūni</w>
                      <pc type="ws" xml:id="id_880">?</pc>
                      <w xml:id="id_882">–</w>
+                     <phr ana="fvlib:pres_m_sg">
                      <w xml:id="id_884">hāw</w>
                         <w xml:id="id_886">ǝhnē</w>
                      <pc type="ws" xml:id="id_887">.</pc>
+                     </phr>
                   </quote>
                </cit>
                <cit type="translation">

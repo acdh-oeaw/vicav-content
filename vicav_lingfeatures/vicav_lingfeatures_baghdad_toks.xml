@@ -555,7 +555,7 @@
          </div>
          <div type="featureGroup">
             <head>Pronouns</head>
-            <cit type="featureSample">
+            <cit type="featureSample" ana="fvlib:perspron_1_sg">
                <lbl xml:space="preserve">I</lbl>
                <quote xml:lang="en">I am a teacher.</quote>
                <cit type="translation">
