@@ -12,8 +12,7 @@
             <date>2018</date>
             <availability status="restricted">
                <p xml:id="id_p_12">
-                  <ref type="license"
-                       target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+                  <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
                </p>
             </availability>
          </publicationStmt>
@@ -23,12 +22,8 @@
       </fileDesc>
       <encodingDesc>
          <listPrefixDef>
-            <prefixDef matchPattern="(.+)"
-                       replacementPattern="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#$1"
-                       ident="semlib"/>
-            <prefixDef matchPattern="(.+)"
-                       replacementPattern="../vocabs/fLib.xml#$1"
-                       ident="fvlib"/>
+            <prefixDef matchPattern="(.+)" replacementPattern="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#$1" ident="semlib"/>
+            <prefixDef matchPattern="(.+)" replacementPattern="../vocabs/fLib.xml#$1" ident="fvlib"/>
          </listPrefixDef>
       </encodingDesc>
    </teiHeader>
@@ -163,7 +158,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample">
+            <cit ana="semLib:why" type="featureSample">
                <lbl xml:space="preserve">why?</lbl>
                <note xml:space="preserve">A very common pattern are reflexes of CA <hi rend="italic">li
                         + ’ayy</hi> or <hi rend="italic">li + ’ayy + šay’</hi>
@@ -198,7 +193,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample">
+            <cit ana="semLib:where" type="featureSample">
                <lbl xml:space="preserve">where?</lbl>
                <note xml:space="preserve">A very common pattern are reflexes of CA <hi rend="italic">fī
                         + ’ayna</hi>
@@ -232,7 +227,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample">
+            <cit ana="semLib:where_to" type="featureSample">
                <lbl xml:space="preserve">where to?</lbl>
                <quote xml:lang="en">Where are you (m./f.) going? – I am going home.</quote>
                <cit type="translation">
@@ -320,7 +315,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample">
+            <cit ana="semLib:when" type="featureSample">
                <lbl xml:space="preserve">when?</lbl>
                <quote xml:lang="en">Fatima, when did you see Muhammad? – I saw him yesterday. </quote>
                <cit type="translation">
@@ -359,7 +354,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample">
+            <cit ana="semLib:how" type="featureSample">
                <lbl xml:space="preserve">how?</lbl>
                <quote xml:lang="en">How are you (m./f.)? – I’m fine.</quote>
                <cit type="translation">
@@ -481,7 +476,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample">
+            <cit ana="semLib:which" type="featureSample">
                <lbl xml:space="preserve">which?</lbl>
                <quote xml:lang="en">In which neighbourhood do you live? – We live in Zamalik. </quote>
                <cit type="translation">
@@ -525,7 +520,7 @@
          </div>
          <div type="featureGroup">
             <head>Demonstratives</head>
-            <cit type="featureSample">
+            <cit ana="fvLib:dempron_prox_m_sg" type="featureSample">
                <lbl xml:space="preserve">this</lbl>
                <quote xml:lang="en">Who is this man? – He is my friend</quote>
                <cit type="translation">
@@ -579,7 +574,7 @@
          </div>
          <div type="featureGroup">
             <head>Presentatives</head>
-            <cit type="featureSample">
+            <cit ana="fvLib:pres_m_sg" type="featureSample">
                <lbl xml:space="preserve">there is … (m.)</lbl>
                <quote xml:lang="en">Where is my mobile? – Here it is!</quote>
                <cit type="translation">
@@ -634,7 +629,7 @@
          </div>
          <div type="featureGroup">
             <head>Adverbs</head>
-            <cit type="featureSample" ana="vtLex:here">
+            <cit ana="vtLex:here" type="featureSample">
                <lbl xml:space="preserve">here</lbl>
                <quote xml:lang="en">We have been here for 8 years.</quote>
                <cit type="translation">
@@ -659,7 +654,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:now">
+            <cit ana="vtLex:now" type="featureSample">
                <lbl xml:space="preserve">now</lbl>
                <quote xml:lang="en">Fatima, what are you doing now? – I’m watching TV. </quote>
                <cit type="translation">
@@ -698,7 +693,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:today">
+            <cit ana="vtLex:today" type="featureSample">
                <lbl xml:space="preserve">today</lbl>
                <quote xml:lang="en">It’s very hot today.</quote>
                <cit type="translation">
@@ -727,7 +722,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:yesterday">
+            <cit ana="vtLex:yesterday" type="featureSample">
                <lbl xml:space="preserve">yesterday</lbl>
                <quote xml:lang="en">Yesterday it rained.</quote>
                <cit type="translation">
@@ -755,7 +750,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:tomorrow">
+            <cit ana="vtLex:tomorrow" type="featureSample">
                <lbl xml:space="preserve">tomorrow</lbl>
                <quote xml:lang="en">Hey kids, tomorrow you have to study.</quote>
                <cit type="translation">
@@ -781,7 +776,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:last_year">
+            <cit ana="vtLex:last_year" type="featureSample">
                <lbl xml:space="preserve">last year</lbl>
                <quote xml:lang="en">Last year we had many problems.</quote>
                <cit type="translation">
@@ -825,7 +820,7 @@
          </div>
          <div type="featureGroup">
             <head>Numerals</head>
-            <cit type="featureSample" ana="vtLex:eight">
+            <cit ana="vtLex:eight" type="featureSample">
                <lbl xml:space="preserve">eight</lbl>
                <quote xml:lang="en">We have been here for 8 years. </quote>
                <cit type="translation">
@@ -850,7 +845,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:eleven">
+            <cit ana="vtLex:eleven" type="featureSample">
                <lbl xml:space="preserve">eleven</lbl>
                <quote xml:lang="en">What’s the time? It’s 11 o’clock.</quote>
                <cit type="translation">
@@ -886,7 +881,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:twelve">
+            <cit ana="vtLex:twelve" type="featureSample">
                <lbl xml:space="preserve">twelve</lbl>
                <quote xml:lang="en">They have 12 goats and 2 cows.</quote>
                <cit type="translation">
@@ -915,7 +910,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:eighteen">
+            <cit ana="vtLex:eighteen" type="featureSample">
                <lbl xml:space="preserve">eighteen</lbl>
                <quote xml:lang="en">There are 18 new students in our class.</quote>
                <cit type="translation">
@@ -945,7 +940,7 @@
          </div>
          <div type="featureGroup">
             <head>Adjectives</head>
-            <cit type="featureSample" ana="vtLex:good">
+            <cit ana="vtLex:good" type="featureSample">
                <lbl xml:space="preserve">good</lbl>
                <quote xml:lang="en">How are you (m./f.)? – I’m fine.</quote>
                <cit type="translation">
@@ -987,7 +982,7 @@
          </div>
          <div type="featureGroup">
             <head>Colours</head>
-            <cit type="featureSample" ana="vtLex:white">
+            <cit ana="vtLex:white" type="featureSample">
                <lbl xml:space="preserve">white</lbl>
                <quote xml:lang="en">My husband wears a white shirt. We have a white
                      car.</quote>
@@ -1024,7 +1019,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:black">
+            <cit ana="vtLex:black" type="featureSample">
                <lbl xml:space="preserve">black</lbl>
                <quote xml:lang="en">I don’t like this black shirt. / car.</quote>
                <cit type="translation">
@@ -1064,7 +1059,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:pink">
+            <cit ana="vtLex:pink" type="featureSample">
                <lbl xml:space="preserve">pink</lbl>
                <quote xml:lang="en">My wife bought a pink shirt / bag.</quote>
                <cit type="translation">
@@ -1095,7 +1090,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:grey">
+            <cit ana="vtLex:grey" type="featureSample">
                <lbl xml:space="preserve">grey</lbl>
                <quote xml:lang="en">a grey wall / a grey bag</quote>
                <cit type="translation">
@@ -1122,7 +1117,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:orange">
+            <cit ana="vtLex:orange" type="featureSample">
                <lbl xml:space="preserve">orange</lbl>
                <quote xml:lang="en">an orange shirt / car</quote>
                <cit type="translation">
@@ -1145,7 +1140,7 @@
          </div>
          <div type="featureGroup">
             <head>Prepositions</head>
-            <cit type="featureSample">
+            <cit ana="semLib:in" type="featureSample">
                <lbl xml:space="preserve">
                   <hi rend="italic">fi</hi> vs. <hi rend="italic">bi</hi>
                </lbl>
@@ -1177,7 +1172,7 @@
          </div>
          <div type="featureGroup">
             <head>Important verbs</head>
-            <cit type="featureSample" ana="vtLex:to_do">
+            <cit ana="vtLex:to_do" type="featureSample">
                <lbl xml:space="preserve">to do</lbl>
                <quote xml:lang="en">Fatima, what are you doing now? – I’m watching TV.</quote>
                <cit type="translation">
@@ -1218,7 +1213,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:to_stay">
+            <cit ana="vtLex:to_stay" type="featureSample">
                <lbl xml:space="preserve">to stay</lbl>
                <quote xml:lang="en">Stay a bit longer! – No, I don’t have time.</quote>
                <cit type="translation">
@@ -1268,7 +1263,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:to_speak">
+            <cit ana="vtLex:to_speak" type="featureSample">
                <lbl xml:space="preserve">to speak</lbl>
                <quote xml:lang="en">Do you speak Arabic? – Just, a little.</quote>
                <cit type="translation">
@@ -1296,7 +1291,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:to_rain">
+            <cit ana="vtLex:to_rain" type="featureSample">
                <lbl xml:space="preserve">to rain</lbl>
                <quote xml:lang="en">Yesterday it rained.</quote>
                <cit type="translation">
@@ -1325,7 +1320,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:to_open">
+            <cit ana="vtLex:to_open" type="featureSample">
                <lbl xml:space="preserve">to open</lbl>
                <quote xml:lang="en">Open the window!</quote>
                <cit type="translation">
@@ -1347,7 +1342,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:to_close">
+            <cit ana="vtLex:to_close" type="featureSample">
                <lbl xml:space="preserve">to close</lbl>
                <quote xml:lang="en">Close the doors!</quote>
                <cit type="translation">
@@ -1368,7 +1363,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:to_take">
+            <cit ana="vtLex:to_take" type="featureSample">
                <lbl xml:space="preserve">to take</lbl>
                <quote xml:lang="en">What did you take? – Nothing.</quote>
                <cit type="translation">
@@ -1401,7 +1396,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:to_give">
+            <cit ana="vtLex:to_give" type="featureSample">
                <lbl xml:space="preserve">to give</lbl>
                <quote xml:lang="en">Did you give the letter to Ahmad? – Yes, I gave it to
                      him.</quote>
@@ -1446,7 +1441,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:to_see">
+            <cit ana="vtLex:to_see" type="featureSample">
                <lbl xml:space="preserve">to see</lbl>
                <quote xml:lang="en">The children saw a beggar behind our house.</quote>
                <cit type="translation">
@@ -1476,7 +1471,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:to_want">
+            <cit ana="vtLex:to_want" type="featureSample">
                <lbl xml:space="preserve">to want</lbl>
                <quote xml:lang="en">Do you (f.) want to drink tea or coffee? – Tea
                      please.</quote>
@@ -1519,7 +1514,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:to_bring">
+            <cit ana="vtLex:to_bring" type="featureSample">
                <lbl xml:space="preserve">to bring</lbl>
                <quote xml:lang="en">Bring me the big bottle, please! – I’m right with
                      you.</quote>
@@ -1564,7 +1559,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:to_have">
+            <cit ana="vtLex:to_have" type="featureSample">
                <lbl xml:space="preserve">to have</lbl>
                <quote xml:lang="en">They have a lot of money, but they are bad people.</quote>
                <cit type="translation">
@@ -1600,7 +1595,7 @@
          </div>
          <div type="featureGroup">
             <head>Phrasemes</head>
-            <cit type="featureSample">
+            <cit ana="semLib:since_for" type="featureSample">
                <lbl xml:space="preserve">since/for</lbl>
                <note xml:space="preserve">Many Arabic dialects
                      use periphrastic constructions to render
@@ -1631,7 +1626,7 @@
          </div>
          <div type="featureGroup">
             <head>Nouns</head>
-            <cit type="featureSample" ana="vtLex:women">
+            <cit ana="vtLex:women" type="featureSample">
                <lbl xml:space="preserve">women</lbl>
                <quote xml:lang="en">What are those women doing there? – They are baking
                      bread.</quote>
@@ -1679,7 +1674,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:husband">
+            <cit ana="vtLex:husband" type="featureSample">
                <lbl xml:space="preserve">husband</lbl>
                <quote xml:lang="en">My husband wears a white shirt. We have a white
                      car.</quote>
@@ -1717,7 +1712,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:friend">
+            <cit ana="vtLex:friend" type="featureSample">
                <lbl xml:space="preserve">friend</lbl>
                <quote xml:lang="en">Who is this man? – He is my friend.</quote>
                <cit type="translation">
@@ -1754,7 +1749,7 @@
          </div>
          <div type="featureGroup">
             <head>Neologisms</head>
-            <cit type="featureSample">
+            <cit ana="semLib:mobile" type="featureSample">
                <lbl xml:space="preserve">mobile vs. cellphone</lbl>
                <quote xml:lang="en">Where is my mobile (phone)? – Here it is!</quote>
                <cit type="translation">
@@ -1788,7 +1783,7 @@
          </div>
          <div type="featureGroup">
             <head>Modality</head>
-            <cit type="featureSample" ana="vtLex:being_unable">
+            <cit ana="vtLex:being_unable" type="featureSample">
                <lbl xml:space="preserve">being unable</lbl>
                <quote xml:lang="en">We cannot pay the rent.</quote>
                <cit type="translation">
@@ -1819,7 +1814,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:ability">
+            <cit ana="vtLex:ability" type="featureSample">
                <lbl xml:space="preserve">ability</lbl>
                <quote xml:lang="en">Can you (~do you know how to) play domino? – Yes.</quote>
                <cit type="translation">
@@ -1848,7 +1843,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample" ana="vtLex:possibility">
+            <cit ana="vtLex:possibility" type="featureSample">
                <lbl xml:space="preserve">possibility</lbl>
                <quote xml:lang="en">Can you come tomorrow?</quote>
                <cit type="translation">
@@ -1867,7 +1862,7 @@
          </div>
          <div type="featureGroup">
             <head>Other items</head>
-            <cit type="featureSample" ana="vtLex:a_little">
+            <cit ana="vtLex:a_little" type="featureSample">
                <lbl xml:space="preserve">a little</lbl>
                <quote xml:lang="en">Do you speak Arabic? – Just, a little.</quote>
                <cit type="translation">
@@ -1922,7 +1917,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit type="featureSample">
+            <cit ana="fvLib:pres_f_sg" type="featureSample">
                <lbl xml:space="preserve">Genitive explicative</lbl>
                <quote xml:lang="en">Where is my mobile? – Here it is!</quote>
                <cit type="translation">
