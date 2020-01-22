@@ -306,7 +306,7 @@
                      <w xml:id="wid_00085">bǝntēn</w>
                      <w xml:id="wid_00086" join="right">w</w>
                      <pc type="ws" xml:id="id_pc_313" join="right">-</pc>
-                     <w ana="#vt_phon_CA_th #vt_lex_three" xml:id="wid_00087">tlǝt</w>
+                     <w ana="vt_phon_CA_th semlib:three" xml:id="wid_00087">tlǝt</w>
                      <w xml:id="wid_00088" join="right">ǝwlād</w>
                      <pc type="ws" xml:id="id_pc_317">.</pc>
                   </quote>
@@ -1049,7 +1049,7 @@
                      <w xml:id="wid_00310_a">tǝšrabi</w>
                      <w ana="semlib:tea" xml:id="wid_00311">šāy</w>
                      <w xml:id="wid_00312">walla</w>
-                     <w ana="semlib:coffee #vt_phon_CA_q" xml:id="wid_00313" join="right">ʔahwe</w>
+                     <w ana="semlib:coffee vt_phon_CA_q" xml:id="wid_00313" join="right">ʔahwe</w>
                      <pc type="ws" xml:id="id_pc_1093">?</pc>
                      <w xml:id="wid_00314">–</w>
                      <w xml:id="wid_00315" join="right">šāy</w>
