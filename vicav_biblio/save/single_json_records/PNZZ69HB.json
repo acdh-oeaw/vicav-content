@@ -1,0 +1,117 @@
+{
+    "key": "PNZZ69HB",
+    "version": 4498,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/PNZZ69HB",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/PNZZ69HB",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 5116658,
+            "username": "erceg2018",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/erceg2018",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Meissner",
+        "parsedDate": "1905",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "PNZZ69HB",
+        "version": 4498,
+        "itemType": "journalArticle",
+        "title": "Neuarabische Geschichten aus Tanger",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Bruno",
+                "lastName": "Meissner"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Mitteilungen des Seminars für Orientalische Sprachen",
+        "volume": "8",
+        "issue": "2",
+        "pages": "39-97",
+        "date": "1905",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:meissner_1905_3846)",
+        "tags": [
+            {
+                "tag": "geo:Tanger [35.75, -5.83]"
+            },
+            {
+                "tag": "vt:folklore"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:oral literature"
+            },
+            {
+                "tag": "vt:oral narratives"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-25T09:24:34Z"
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "key": "8CHTX2GK",
+    "version": 3141,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/8CHTX2GK",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/8CHTX2GK",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Stevens",
+        "parsedDate": "1996",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "8CHTX2GK",
+        "version": 3141,
+        "itemType": "bookSection",
+        "title": "Compiling an English-to-Egyptian-Arabic dictionary: difficulties encountered",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "V.",
+                "lastName": "Stevens"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Understanding Arabic: Essays in Contemporary Arabic Linguistics in Honor of El-Said Badawi",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Cairo",
+        "publisher": "American University in Cairo Press",
+        "date": "1996",
+        "pages": "145-156",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:stevens_1996_0000)",
+        "tags": [
+            {
+                "tag": "geo:Cairo [30.04, 31.23]"
+            },
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-07-17T14:22:28Z"
+    }
+}

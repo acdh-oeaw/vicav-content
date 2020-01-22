@@ -1,0 +1,131 @@
+{
+    "key": "FY5XKCZN",
+    "version": 7782,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/FY5XKCZN",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/FY5XKCZN",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Aguadé",
+        "parsedDate": "1998",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "FY5XKCZN",
+        "version": 7782,
+        "itemType": "bookSection",
+        "title": "Un dialecte ma?qilien: le parler des Z?ir",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jordi",
+                "lastName": "Aguadé"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Jordi",
+                "lastName": "Aguadé"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Patrice",
+                "lastName": "Cressier"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Ángeles",
+                "lastName": "Vicente"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Peuplement et arabisation au Maghreb occidental: dialectologie et histoire",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "1",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Madrid",
+        "publisher": "Casa de Velázquez",
+        "date": "1998",
+        "pages": "141-150",
+        "language": "",
+        "ISBN": "978-3-8258-1597-4",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:aguade_1998_4475)",
+        "tags": [
+            {
+                "tag": "geo:Zair [29.83, -5.72]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/HBFC2NZ9"
+        },
+        "dateAdded": "2018-04-12T19:25:39Z",
+        "dateModified": "2019-03-02T13:44:04Z"
+    }
+}

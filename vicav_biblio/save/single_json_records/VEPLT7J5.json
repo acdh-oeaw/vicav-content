@@ -1,0 +1,110 @@
+{
+    "key": "VEPLT7J5",
+    "version": 2596,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/VEPLT7J5",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/VEPLT7J5",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Abu-Haidar",
+        "parsedDate": "1995",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "VEPLT7J5",
+        "version": 2596,
+        "itemType": "bookSection",
+        "title": "Dominance and communicative incompetence: the speech habits of a group of 8-11-year-old boys in a Lebanese rural community",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Farida",
+                "lastName": "Abu-Haidar"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "S.",
+                "lastName": "Mills"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Language and Gender: Interdisciplinary Perspectives",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Harlow",
+        "publisher": "Longman",
+        "date": "1995",
+        "pages": "181-193",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:abu_haidar_1995_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Lebanon"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-05T11:57:07Z"
+    }
+}

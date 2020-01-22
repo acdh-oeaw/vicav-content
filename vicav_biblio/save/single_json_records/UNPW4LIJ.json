@@ -1,0 +1,107 @@
+{
+    "key": "UNPW4LIJ",
+    "version": 8327,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/UNPW4LIJ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/UNPW4LIJ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Procházka and Gabsi",
+        "parsedDate": "2017",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "UNPW4LIJ",
+        "version": 8327,
+        "itemType": "bookSection",
+        "title": "Agreement with Plural Heads in Tunisian Arabic: The Urban North",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Stephan",
+                "lastName": "Procházka"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Ines",
+                "lastName": "Gabsi"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Veronika",
+                "lastName": "Ritt-Benmimoun"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Tunisian and Libyan Arabic Dialects : Common Trends - Recent Developments - Diachronic Aspects",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Zaragoza",
+        "publisher": "Prensas de la Universidad de Zaragoza",
+        "date": "2017",
+        "pages": "239-260",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:prochazka_2016_3167)",
+        "tags": [
+            {
+                "tag": "cnt:Tunisia"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:syntax"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-12-27T16:23:15Z"
+    }
+}

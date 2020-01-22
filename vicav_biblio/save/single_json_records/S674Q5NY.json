@@ -1,0 +1,96 @@
+{
+    "key": "S674Q5NY",
+    "version": 2307,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/S674Q5NY",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/S674Q5NY",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Heath",
+        "parsedDate": "2007",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "S674Q5NY",
+        "version": 2307,
+        "itemType": "bookSection",
+        "title": "Moroccan Arabic Morphology",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jeffrey",
+                "lastName": "Heath"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Alan S.",
+                "lastName": "Kaye"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Morphologies of Asia and Africa",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "1",
+        "numberOfVolumes": "2",
+        "edition": "",
+        "place": "Winona Lake, Indiana",
+        "publisher": "Eisenbrauns",
+        "date": "2007",
+        "pages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:heath_2007_4211)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

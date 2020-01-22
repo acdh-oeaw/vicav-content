@@ -1,0 +1,107 @@
+{
+    "key": "TPTWN7PF",
+    "version": 5755,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/TPTWN7PF",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/TPTWN7PF",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Lewin",
+        "parsedDate": "1966",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "TPTWN7PF",
+        "version": 5755,
+        "itemType": "book",
+        "title": "Arabische Texte im Dialekt von Hama, mit Einleitung und Glossar",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Bernhard",
+                "lastName": "Lewin"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Beirut",
+        "publisher": "Steiner",
+        "date": "1966",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Hama [35.43, 36.42]"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-10T15:31:11Z",
+        "dateModified": "2018-10-10T15:31:38Z"
+    }
+}

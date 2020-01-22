@@ -1,0 +1,80 @@
+{
+    "key": "J3CHN3IX",
+    "version": 4975,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/J3CHN3IX",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/J3CHN3IX",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Frayha",
+        "parsedDate": "1973",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "J3CHN3IX",
+        "version": 4975,
+        "itemType": "book",
+        "title": "Mu?gam al-Êalfaö al-?ammiyya",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "A.",
+                "lastName": "Frayha"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Beirut",
+        "publisher": "",
+        "date": "1973",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-03T09:53:39Z",
+        "dateModified": "2018-10-03T09:53:55Z"
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "key": "6SZZUJBI",
+    "version": 6702,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/6SZZUJBI",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/6SZZUJBI",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Oumazane",
+        "parsedDate": "1989",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "6SZZUJBI",
+        "version": 6702,
+        "itemType": "thesis",
+        "title": "A Study of Conversational Mitigation in Moroccan Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Lahoussine",
+                "lastName": "Oumazane"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "D.E.S",
+        "university": "Faculty of Letters - Rabat",
+        "place": "Rabat",
+        "date": "1989",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:oumazane_1989_3908)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "key": "C45ZTKNN",
+    "version": 7012,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/C45ZTKNN",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/C45ZTKNN",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Messaoudi",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "C45ZTKNN",
+        "version": 7012,
+        "itemType": "bookSection",
+        "title": "Les technolectes au Maroc. Fonctionnement et tendances d'évolution",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Leila",
+                "lastName": "Messaoudi"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Jocelyne",
+                "lastName": "Dakhila"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Trames de langues. Usages et métissages linguistiques dans l'histoire du Maghreb",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Paris",
+        "publisher": "Maisonneuve et Larose",
+        "date": "2004",
+        "pages": "455-467",
+        "language": "French",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:messaoudi_2004_3864)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:jargon"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

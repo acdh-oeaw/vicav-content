@@ -1,0 +1,94 @@
+{
+    "key": "8W4K59JR",
+    "version": 6724,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/8W4K59JR",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/8W4K59JR",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "El-Ismaeli",
+        "parsedDate": "2005",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "8W4K59JR",
+        "version": 6724,
+        "itemType": "thesis",
+        "title": "La thématisation en arabe marocain: Étude syntactico-énoncative. Doctorat",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Omar",
+                "lastName": "El-Ismaeli"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "",
+        "university": "Université Sidi Mohammed Ben Abdellah",
+        "place": "Fes",
+        "date": "2005",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:el-ismaeli_2005_3595)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:syntax"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

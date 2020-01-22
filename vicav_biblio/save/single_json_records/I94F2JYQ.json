@@ -1,0 +1,125 @@
+{
+    "key": "I94F2JYQ",
+    "version": 3311,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/I94F2JYQ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/I94F2JYQ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Ruiter",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "I94F2JYQ",
+        "version": 3311,
+        "itemType": "bookSection",
+        "title": "Quel arabe pour communiquer? Passé et présent",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jan Jaap de",
+                "lastName": "Ruiter"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Frédéric",
+                "lastName": "Bauden"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Ultra mare: mélanges de langue arabe et d'islamologie offerts à Aubert Martin",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leuven",
+        "publisher": "Peeters",
+        "date": "2004",
+        "pages": "29-39",
+        "language": "French",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:ruiter_2004_3963)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:teaching materials"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-08T19:01:47Z"
+    }
+}

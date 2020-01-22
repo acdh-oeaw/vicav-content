@@ -1,0 +1,93 @@
+{
+    "key": "5GNARAZI",
+    "version": 6881,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/5GNARAZI",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/5GNARAZI",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Youssi",
+        "parsedDate": "1980",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "5GNARAZI",
+        "version": 6881,
+        "itemType": "conferencePaper",
+        "title": "Morphologie verbale en arabe maghrebin médian",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Abderrahim",
+                "lastName": "Youssi"
+            }
+        ],
+        "abstractNote": "",
+        "date": "1980",
+        "proceedingsTitle": "Actes du VIème Colloque International de Linguistique Fonctionelle (SILF), Juillet 1979",
+        "conferenceName": "",
+        "place": "Rabat",
+        "publisher": "Publications de la Faculté des Lettres",
+        "volume": "",
+        "pages": "187-97",
+        "series": "",
+        "language": "",
+        "DOI": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

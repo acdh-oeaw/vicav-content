@@ -1,0 +1,111 @@
+{
+    "key": "VSDPPFKH",
+    "version": 8468,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/VSDPPFKH",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/VSDPPFKH",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Vinnikov",
+        "parsedDate": "1965",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "VSDPPFKH",
+        "version": 8468,
+        "itemType": "bookSection",
+        "title": "Materialien zur Grammatik des Dialektes der Kaška-Darjnner Araber. Paradigmen der Verbalformen",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "I.N.",
+                "lastName": "Vinnikov"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Studia Semitica philologica necnon philosophica Ioanni Bakoš dicata",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Bratislava",
+        "publisher": "Vydavatel'stvo Slovenskej Akadémie Vied",
+        "date": "1965",
+        "pages": "261-276",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Uzbekistan"
+            },
+            {
+                "tag": "vt:Arabic as a minority language"
+            },
+            {
+                "tag": "vt:Central Asia"
+            },
+            {
+                "tag": "vt:Mesopotamia"
+            },
+            {
+                "tag": "vt:ethnic minorities"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-14T19:23:38Z",
+        "dateModified": "2018-12-01T10:43:07Z"
+    }
+}

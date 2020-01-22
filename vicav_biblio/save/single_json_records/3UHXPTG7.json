@@ -1,0 +1,108 @@
+{
+    "key": "3UHXPTG7",
+    "version": 7729,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/3UHXPTG7",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/3UHXPTG7",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Jastrow",
+        "parsedDate": "1994",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "3UHXPTG7",
+        "version": 7729,
+        "itemType": "bookSection",
+        "title": "Erlebnisse eines Lastwagenfahrers. Ein neuer Turoyo-Text im Dialekt von Mid?n",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Otto",
+                "lastName": "Jastrow"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Festschrift Ewald Wagner zum 65. Geburtstag",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Beirut & Stuttgart",
+        "publisher": "Reichert",
+        "date": "1994",
+        "pages": "201-233",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "reg:Turkey [38.08, 41.10]"
+            },
+            {
+                "tag": "vt:Arabic as a minority language"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-08T08:22:28Z",
+        "dateModified": "2019-02-26T19:31:26Z"
+    }
+}

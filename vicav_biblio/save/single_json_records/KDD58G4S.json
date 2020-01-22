@@ -1,0 +1,127 @@
+{
+    "key": "KDD58G4S",
+    "version": 2275,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/KDD58G4S",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/KDD58G4S",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Zeroual et al.",
+        "parsedDate": "2008",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "KDD58G4S",
+        "version": 2275,
+        "itemType": "conferencePaper",
+        "title": "Spatio-Temporal and Kinematic Study of Moroccan Arabic Coronal Geminate Plosives",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Chakir",
+                "lastName": "Zeroual"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Philip",
+                "lastName": "Hoole"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Adamantios I.",
+                "lastName": "Gafos"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Rudolph",
+                "lastName": "Sock"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Susanne",
+                "lastName": "Fuchs"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Yves",
+                "lastName": "Laprie"
+            }
+        ],
+        "abstractNote": "",
+        "date": "2008",
+        "proceedingsTitle": "ISSP 2008 Proceedings: December 8th to 12th 2008, Strasbourg, France",
+        "conferenceName": "",
+        "place": "",
+        "publisher": "INRIA",
+        "volume": "",
+        "pages": "133-136",
+        "series": "",
+        "language": "",
+        "DOI": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:phonology"
+            },
+            {
+                "tag": "vt:prosody"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

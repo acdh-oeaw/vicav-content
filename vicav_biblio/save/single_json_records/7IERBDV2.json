@@ -1,0 +1,102 @@
+{
+    "key": "7IERBDV2",
+    "version": 6314,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/7IERBDV2",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/7IERBDV2",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Mion",
+        "parsedDate": "2009",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "7IERBDV2",
+        "version": 6314,
+        "itemType": "bookSection",
+        "title": "L'indetermination nominale dans les dialectes arabes. Une vue d'ensemble",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Giuliano",
+                "lastName": "Mion"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Angelo",
+                "lastName": "Arioli"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Miscellanea arabica 2009",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Rome",
+        "publisher": "Sapienza Università, Facoltà di Studi Orientali",
+        "date": "2009",
+        "pages": "215-231",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:mion_2009_0000)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-25T10:04:50Z"
+    }
+}

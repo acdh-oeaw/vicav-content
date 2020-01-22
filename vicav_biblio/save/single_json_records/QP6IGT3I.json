@@ -1,0 +1,102 @@
+{
+    "key": "QP6IGT3I",
+    "version": 4086,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/QP6IGT3I",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/QP6IGT3I",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 5116658,
+            "username": "erceg2018",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/erceg2018",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Holes",
+        "parsedDate": "1983",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "QP6IGT3I",
+        "version": 4086,
+        "itemType": "journalArticle",
+        "title": "Patterns of communal language variation in Bahrain",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Clive",
+                "lastName": "Holes"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Language in Society",
+        "volume": "12",
+        "issue": "",
+        "pages": "433-457",
+        "date": "1983",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:holes_1983_0001)",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "cnt:Bahrain"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-18T12:53:22Z"
+    }
+}

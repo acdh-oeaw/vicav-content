@@ -1,0 +1,114 @@
+{
+    "key": "JTETQ385",
+    "version": 5856,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/JTETQ385",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/JTETQ385",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Lapanne-Joinville",
+        "parsedDate": "1955",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "JTETQ385",
+        "version": 5856,
+        "itemType": "journalArticle",
+        "title": "Contribution à la connaissance des argots arabes du Maroc",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jean",
+                "lastName": "Lapanne-Joinville"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Hespéris",
+        "volume": "42",
+        "issue": "",
+        "pages": "203-215",
+        "date": "1955",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:jargon"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-08T15:27:03Z",
+        "dateModified": "2018-10-08T15:28:00Z"
+    }
+}

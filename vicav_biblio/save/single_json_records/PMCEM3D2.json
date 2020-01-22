@@ -1,0 +1,81 @@
+{
+    "key": "PMCEM3D2",
+    "version": 5280,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/PMCEM3D2",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/PMCEM3D2",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Owens",
+        "parsedDate": "1980",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "PMCEM3D2",
+        "version": 5280,
+        "itemType": "journalArticle",
+        "title": "The syllabe as prosody: A re-analysis of syllabification in Eastern Libyan Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jonathan",
+                "lastName": "Owens"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Bulletin of the School of Oriental and African Studies",
+        "volume": "43",
+        "issue": "2",
+        "pages": "277-288",
+        "date": "1980",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-12T14:01:05Z",
+        "dateModified": "2018-10-12T15:03:22Z"
+    }
+}

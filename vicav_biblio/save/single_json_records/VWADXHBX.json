@@ -1,0 +1,110 @@
+{
+    "key": "VWADXHBX",
+    "version": 6080,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/VWADXHBX",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/VWADXHBX",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Baccouche and Mejri",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "VWADXHBX",
+        "version": 6080,
+        "itemType": "bookSection",
+        "title": "Atlas linguistique de Tunisie: Du littéral au dialectal",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Taïeb",
+                "lastName": "Baccouche"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Salah",
+                "lastName": "Mejri"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Trames de langues",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Paris",
+        "publisher": "Larousse-Maisonneuve",
+        "date": "2004",
+        "pages": "387-399",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Tunisia"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-09-29T13:59:46Z",
+        "dateModified": "2018-09-29T14:00:51Z"
+    }
+}

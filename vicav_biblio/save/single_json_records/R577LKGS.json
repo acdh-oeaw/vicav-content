@@ -1,0 +1,121 @@
+{
+    "key": "R577LKGS",
+    "version": 8728,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/R577LKGS",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/R577LKGS",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Versteegh",
+        "parsedDate": "2009",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "R577LKGS",
+        "version": 8728,
+        "itemType": "bookSection",
+        "title": "Loan verbs in Arabic and the DO-construction",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Kees",
+                "lastName": "Versteegh"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Enam",
+                "lastName": "Al-Wer"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Rudolf",
+                "lastName": "de Jong"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Arabic Dialectology. In honour of Clive Holes on the Occasion of his Sixtieth Birthday",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leiden and Boston",
+        "publisher": "Brill",
+        "date": "2009",
+        "pages": "187-200",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:behnstedt_2009_4391)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:loanwords"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2019-03-15T17:54:39Z",
+        "dateModified": "2019-03-15T17:55:45Z"
+    }
+}

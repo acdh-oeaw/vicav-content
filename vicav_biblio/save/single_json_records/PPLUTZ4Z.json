@@ -1,0 +1,99 @@
+{
+    "key": "PPLUTZ4Z",
+    "version": 3328,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/PPLUTZ4Z",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/PPLUTZ4Z",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Roth",
+        "parsedDate": "1995",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "PPLUTZ4Z",
+        "version": 3328,
+        "itemType": "bookSection",
+        "title": "Arabe classique et arabe dialectal",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Arlette",
+                "lastName": "Roth"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Maghreb, peuples et civilisations",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Paris",
+        "publisher": "La Découverte",
+        "date": "1995",
+        "pages": "156-160",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:roth_1995_0000)",
+        "tags": [
+            {
+                "tag": "vt:classical"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-15T12:32:00Z"
+    }
+}

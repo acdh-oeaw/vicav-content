@@ -1,0 +1,123 @@
+{
+    "key": "E26FXHU5",
+    "version": 5711,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/E26FXHU5",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/E26FXHU5",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Stillman",
+        "parsedDate": "1997",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "E26FXHU5",
+        "version": 5711,
+        "itemType": "bookSection",
+        "title": "La rime dans le langage arabe des Juifs de Sefrou",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Norman A.",
+                "lastName": "Stillman"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Rélations judéo-musulmanes au Maroc. Perceptions et réalités",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Paris",
+        "publisher": "Stavit-CRJM",
+        "date": "1997",
+        "pages": "97-104",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Sefrou [33.83, -4.83]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Jewish dialects"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:oral literature"
+            },
+            {
+                "tag": "vt:oral poetry"
+            },
+            {
+                "tag": "vt:sedentary dialect"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-14T18:15:39Z",
+        "dateModified": "2018-10-14T18:16:14Z"
+    }
+}

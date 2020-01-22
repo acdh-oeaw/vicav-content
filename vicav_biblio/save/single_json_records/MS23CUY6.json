@@ -1,0 +1,104 @@
+{
+    "key": "MS23CUY6",
+    "version": 6273,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/MS23CUY6",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/MS23CUY6",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Woidich et al.",
+        "parsedDate": "2007",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "MS23CUY6",
+        "version": 6273,
+        "itemType": "bookSection",
+        "title": "'Axir i??ibb inna?: Texte sur Volksmedizin aus ilBašandi in der Oase Dakhla",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Manfred",
+                "lastName": "Woidich"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Jan. P.",
+                "lastName": "Hogendijk"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Arnoud",
+                "lastName": "Vrolijk"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "O ye Gentlemen: Arabic Studies on Science and Literary Culture. In Honour of Remke Kruk",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leiden",
+        "publisher": "Brill",
+        "date": "2007",
+        "pages": "143-170",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:woidich_2007_0000)",
+        "tags": [
+            {
+                "tag": "geo:Dakhla [25.51, 29.16]"
+            },
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:manuscripts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-25T15:42:55Z"
+    }
+}

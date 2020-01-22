@@ -1,0 +1,116 @@
+{
+    "key": "PQAUDQLU",
+    "version": 4052,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/PQAUDQLU",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/PQAUDQLU",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 5116658,
+            "username": "erceg2018",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/erceg2018",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Henkin",
+        "parsedDate": "2000",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "PQAUDQLU",
+        "version": 4052,
+        "itemType": "bookSection",
+        "title": "Tense-switching in narratives of Negev Bedouin men and women",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Roni",
+                "lastName": "Henkin"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Abderrahim",
+                "lastName": "Youssi"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Fouzia",
+                "lastName": "Benjelloun"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Mohamed",
+                "lastName": "Dahbi"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Zakia",
+                "lastName": "Iraqui-Sinaceur"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Aspects of the dialects of Arabic today: proceedings of the 4th conference of the International Arabic Dialectology Association (AIDA), Marrakech, Apr. 1-4, 2000",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Rabat",
+        "publisher": "Amapatril",
+        "date": "2000",
+        "pages": "288-298",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:henkin_2000_0000)",
+        "tags": [
+            {
+                "tag": "vt:bedouin dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-18T12:11:09Z"
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "key": "G7CYVIIV",
+    "version": 8174,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/G7CYVIIV",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/G7CYVIIV",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Isaksson and Lahdo",
+        "parsedDate": "2005",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "G7CYVIIV",
+        "version": 8174,
+        "itemType": "bookSection",
+        "title": "Reflections on the linguistic situation in Anatolia and northern Syria from a Semitist’s perspective",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Bo",
+                "lastName": "Isaksson"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Ablahad",
+                "lastName": "Lahdo"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Annika",
+                "lastName": "Rabo"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Bo",
+                "lastName": "Utas"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "The role of the state in West Asia. Papers read at a conference held at the Swedish Research Institute in Istanbul - 14-16 November 2002",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Istanbul",
+        "publisher": "Swedish Research Institute in Istanbul",
+        "date": "2005",
+        "pages": "105-114",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "reg:Mesopotamia [35.14, 42.48]"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-18T16:04:19Z"
+    }
+}

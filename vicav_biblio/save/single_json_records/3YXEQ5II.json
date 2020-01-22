@@ -1,0 +1,111 @@
+{
+    "key": "3YXEQ5II",
+    "version": 5990,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/3YXEQ5II",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/3YXEQ5II",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Cantineau",
+        "parsedDate": "1940",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "3YXEQ5II",
+        "version": 5990,
+        "itemType": "journalArticle",
+        "title": "Les parlers arabes du département d'Oran",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jean",
+                "lastName": "Cantineau"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Revue Africaine",
+        "volume": "84",
+        "issue": "",
+        "pages": "220-231",
+        "date": "1940",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Oran [53.67, -8.35]"
+            },
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "vt:bedouin dialect"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-09-30T17:55:51Z",
+        "dateModified": "2018-09-30T17:56:27Z"
+    }
+}

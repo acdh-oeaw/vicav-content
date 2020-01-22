@@ -1,0 +1,88 @@
+{
+    "key": "ZDLTDPKP",
+    "version": 2205,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ZDLTDPKP",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ZDLTDPKP",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Rubiera Mata",
+        "parsedDate": "1984",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ZDLTDPKP",
+        "version": 2205,
+        "itemType": "journalArticle",
+        "title": "Precisiones sobre los dialectos arábigo-granadino y arábigo-valenciano",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "M. J.",
+                "lastName": "Rubiera Mata"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Sharq al-Andalus",
+        "volume": "1",
+        "issue": "",
+        "pages": "151-152",
+        "date": "1984",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:rubiera_mata_1984_0000)",
+        "tags": [
+            {
+                "tag": "geo:Granada [37.17, -3.59]"
+            },
+            {
+                "tag": "geo:Valencia [39.46, -0.37]"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

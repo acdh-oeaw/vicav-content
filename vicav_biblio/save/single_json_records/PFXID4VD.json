@@ -1,0 +1,102 @@
+{
+    "key": "PFXID4VD",
+    "version": 8450,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/PFXID4VD",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/PFXID4VD",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Ferrando",
+        "parsedDate": "2000",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "PFXID4VD",
+        "version": 8450,
+        "itemType": "bookSection",
+        "title": "The Arabic language among the Mozarabs of Toledo during the 12th and 13th centuries",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ignacio",
+                "lastName": "Ferrando"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Jonathan",
+                "lastName": "Owens"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Arabic as a Minority Language",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Berlin-New York",
+        "publisher": "de Gruyter",
+        "date": "2000",
+        "pages": "45-63",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:ferrando_2000_0003)",
+        "tags": [
+            {
+                "tag": "geo:Toledo [39.86, -4.02]"
+            },
+            {
+                "tag": "reg:Andalusia [39.92, -3.02]"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-15T09:00:25Z"
+    }
+}

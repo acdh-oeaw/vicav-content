@@ -1,0 +1,96 @@
+{
+    "key": "88ZQ53HD",
+    "version": 8304,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/88ZQ53HD",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/88ZQ53HD",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Pellat",
+        "parsedDate": "1995",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "88ZQ53HD",
+        "version": 8304,
+        "itemType": "bookSection",
+        "title": "Los joyeros de la palabra",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Charles",
+                "lastName": "Pellat"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Bernard",
+                "lastName": "Lewis"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "El mundo del Islam: gente, cultura y fe",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "",
+        "publisher": "Destino",
+        "date": "1995",
+        "pages": "157-183",
+        "language": "Spanish",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:pellat_1995_3913)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

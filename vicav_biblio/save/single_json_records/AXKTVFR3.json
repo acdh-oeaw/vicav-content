@@ -1,0 +1,96 @@
+{
+    "key": "AXKTVFR3",
+    "version": 7728,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/AXKTVFR3",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/AXKTVFR3",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Procházka",
+        "parsedDate": "2018",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "AXKTVFR3",
+        "version": 7728,
+        "itemType": "bookSection",
+        "title": "The Northern Fertile Crescent",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Stephan",
+                "lastName": "Procházka"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Clive",
+                "lastName": "Holes"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Arabic Historical Dialectology: Linguistic and Sociolinguistic Approaches",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Oxford",
+        "publisher": "Oxford University Press",
+        "date": "2018",
+        "pages": "257-292",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:prochazka_2018_3192)",
+        "tags": [
+            {
+                "tag": "reg:Turkey [38.08, 41.10]"
+            },
+            {
+                "tag": "vt:Mesopotamia"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-02-26T19:32:56Z"
+    }
+}

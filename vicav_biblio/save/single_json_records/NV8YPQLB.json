@@ -1,0 +1,102 @@
+{
+    "key": "NV8YPQLB",
+    "version": 2908,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/NV8YPQLB",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/NV8YPQLB",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Wahba",
+        "parsedDate": "1996",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "NV8YPQLB",
+        "version": 2908,
+        "itemType": "bookSection",
+        "title": "Linguistic variation in Alexandrian Arabic: the feature of emphasis",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Kassem M.",
+                "lastName": "Wahba"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Understanding Arabic: Essays in contemporary Arabic linguistics in honor of El-Said Badawi",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Cairo",
+        "publisher": "American University in Cairo Press",
+        "date": "1996",
+        "pages": "103-128",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:wahba_1996_0000)",
+        "tags": [
+            {
+                "tag": "geo:Alexandria [31.20, 29.91]"
+            },
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-08T10:56:58Z"
+    }
+}

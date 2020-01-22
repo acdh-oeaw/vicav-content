@@ -1,0 +1,84 @@
+{
+    "key": "A4BCW2LJ",
+    "version": 2331,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/A4BCW2LJ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/A4BCW2LJ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Mejri",
+        "parsedDate": "2006",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "A4BCW2LJ",
+        "version": 2331,
+        "itemType": "book",
+        "title": "L'arabe dialectal: enquêtes, descriptions, interprétations (Actes d'AIDA 6). Travaux offerts au Professeur Taïeb Baccouche. Sous la dir. de Salah Mejri",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Salah",
+                "lastName": "Mejri"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Tunis",
+        "publisher": "",
+        "date": "2006",
+        "numPages": "509",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:mejri_2006_0001)",
+        "tags": [
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

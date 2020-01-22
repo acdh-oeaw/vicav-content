@@ -1,0 +1,114 @@
+{
+    "key": "8ZJTL85Q",
+    "version": 8199,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/8ZJTL85Q",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/8ZJTL85Q",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Lentin",
+        "parsedDate": "2003",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "8ZJTL85Q",
+        "version": 8199,
+        "itemType": "journalArticle",
+        "title": "Datif éthique, datif coréférentiel et voix moyenne dans les dialectes arabes du Bilâd al-Shâm et quelques problèmes connexes",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jérôme",
+                "lastName": "Lentin"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Ayoub",
+                "lastName": "Georgine"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Jérôme",
+                "lastName": "Lentin"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Cahiers de linguistique de l’INALCO",
+        "volume": "5",
+        "issue": "",
+        "pages": "99-130",
+        "date": "2003-2005 (erschienen 2008)",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:lentin_2003-2005 (erschienen 2008)_3136)",
+        "tags": [
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [
+            "UAEG282Q"
+        ],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T12:26:55Z"
+    }
+}

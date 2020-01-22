@@ -1,0 +1,111 @@
+{
+    "key": "MU5XJLAB",
+    "version": 5827,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/MU5XJLAB",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/MU5XJLAB",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Jill Berge",
+        "parsedDate": "1982",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "MU5XJLAB",
+        "version": 5827,
+        "itemType": "bookSection",
+        "title": "Mutations vocaliques dans les dialectes hispano-arabes",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Heliane",
+                "lastName": "Jill Berge"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Études de linguistique arabe",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leiden",
+        "publisher": "Brill",
+        "date": "1982",
+        "pages": "362-368",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "reg:Andalusia [39.92, -3.02]"
+            },
+            {
+                "tag": "reg:Spain [39.92, -3.02]"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:phonology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-08T09:27:09Z",
+        "dateModified": "2018-10-08T12:10:47Z"
+    }
+}

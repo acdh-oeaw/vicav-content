@@ -1,0 +1,122 @@
+{
+    "key": "IYZFPJBC",
+    "version": 7917,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/IYZFPJBC",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/IYZFPJBC",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Benkirane",
+        "parsedDate": "2003",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "IYZFPJBC",
+        "version": 7917,
+        "itemType": "journalArticle",
+        "title": "Statut prosodique et phonologique des séquences CVC dans le parler arabe du Maroc",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Thami",
+                "lastName": "Benkirane"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Langues et Linguistique: Revue Internationale de Linguistique / al-Lughat wa-'l-Lisaniyat",
+        "volume": "12",
+        "issue": "",
+        "pages": "1-12",
+        "date": "2003",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "French",
+        "DOI": "",
+        "ISSN": "11140399",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:benkirane_2003_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:phonology"
+            },
+            {
+                "tag": "vt:syntax"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/8XBEERBM"
+        },
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-03T15:40:43Z"
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "key": "7VC36ZVZ",
+    "version": 8036,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/7VC36ZVZ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/7VC36ZVZ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Watson and Ola",
+        "parsedDate": "1984",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "7VC36ZVZ",
+        "version": 8036,
+        "itemType": "book",
+        "title": "Juba Arabic for Beginners",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "R.",
+                "lastName": "Watson"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "L.",
+                "lastName": "Ola"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Juba",
+        "publisher": "Summer Institute of Linguistics",
+        "date": "1984",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Juba [3.00, 43.00]"
+            },
+            {
+                "tag": "cnt:South Sudan"
+            },
+            {
+                "tag": "vt:teaching materials"
+            },
+            {
+                "tag": "vt:textbook"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-14T19:31:10Z",
+        "dateModified": "2019-03-04T17:56:39Z"
+    }
+}

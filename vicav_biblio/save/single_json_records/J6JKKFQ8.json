@@ -1,0 +1,105 @@
+{
+    "key": "J6JKKFQ8",
+    "version": 8161,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/J6JKKFQ8",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/J6JKKFQ8",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Holes",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "J6JKKFQ8",
+        "version": 8161,
+        "itemType": "bookSection",
+        "title": "Quadriliteral verbs in the Arabic dialects of eastern Arabia",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Clive",
+                "lastName": "Holes"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Approaches to Arabic Dialects",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leiden & Boston",
+        "publisher": "Brill",
+        "date": "2004",
+        "pages": "97-116",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "reg:Mesopotamia [35.14, 42.48]"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-08T07:32:36Z",
+        "dateModified": "2018-11-10T13:23:02Z"
+    }
+}

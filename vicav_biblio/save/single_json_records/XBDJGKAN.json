@@ -1,0 +1,108 @@
+{
+    "key": "XBDJGKAN",
+    "version": 5794,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/XBDJGKAN",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/XBDJGKAN",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Mejdell",
+        "parsedDate": "2003",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "XBDJGKAN",
+        "version": 5794,
+        "itemType": "bookSection",
+        "title": "Notes on (non)restrictedness in relative clauses in Egyptian Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Gunvor",
+                "lastName": "Mejdell"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "AIDA 5th Conference Proceedings",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Cadiz",
+        "publisher": "Universidad de Cádiz",
+        "date": "2003",
+        "pages": "539-544",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:syntax"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-11T08:56:25Z",
+        "dateModified": "2018-10-11T08:57:44Z"
+    }
+}

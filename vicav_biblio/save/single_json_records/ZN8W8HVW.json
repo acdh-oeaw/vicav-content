@@ -1,0 +1,113 @@
+{
+    "key": "ZN8W8HVW",
+    "version": 6528,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ZN8W8HVW",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ZN8W8HVW",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4621144,
+            "username": "Bettina_Leit",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/bettina_leit",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "al-Ghunaim",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ZN8W8HVW",
+        "version": 6528,
+        "itemType": "book",
+        "title": "?Alfað? al-lahga al-kuwaytiyya fi kitab lisan al-?arab",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ya?qub",
+                "lastName": "al-Ghunaim"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Kuwait",
+        "publisher": "The Center for Research and Studies on Kuwait",
+        "date": "2004",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "reg:Gulf [26.57, 49.55]"
+            },
+            {
+                "tag": "cnt:Kuweit"
+            },
+            {
+                "tag": "vt:// (Kuwayt, Bahrain, Qatar, UAE)"
+            },
+            {
+                "tag": "vt:bedouin dialect"
+            },
+            {
+                "tag": "vt:dictionary"
+            },
+            {
+                "tag": "vt:lexicon"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-12-03T14:54:51Z",
+        "dateModified": "2018-12-03T14:56:56Z"
+    }
+}

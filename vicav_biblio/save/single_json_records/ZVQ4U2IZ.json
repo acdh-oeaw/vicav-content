@@ -1,0 +1,97 @@
+{
+    "key": "ZVQ4U2IZ",
+    "version": 7136,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ZVQ4U2IZ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ZVQ4U2IZ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Greis",
+        "parsedDate": "1974",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ZVQ4U2IZ",
+        "version": 7136,
+        "itemType": "journalArticle",
+        "title": "Notes on some functional distinctions in cultivated Cairene Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Naguib",
+                "lastName": "Greis"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "American Journal of Arabic Studies",
+        "volume": "2",
+        "issue": "",
+        "pages": "1-6",
+        "date": "1974",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:greis_1974_0000)",
+        "tags": [
+            {
+                "tag": "geo:Cairo [30.04, 31.23]"
+            },
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

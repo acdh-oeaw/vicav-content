@@ -1,0 +1,108 @@
+{
+    "key": "RB2AR4QD",
+    "version": 5884,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/RB2AR4QD",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/RB2AR4QD",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Galmés de Fuentes",
+        "parsedDate": "1996",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "RB2AR4QD",
+        "version": 5884,
+        "itemType": "bookSection",
+        "title": "La lengua de los moriscos",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Á.",
+                "lastName": "Galmés de Fuentes"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Manual de dialectología hispánica: El español de España",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Barcelona",
+        "publisher": "Ariel",
+        "date": "1996",
+        "pages": "111-118",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "reg:Andalusia [39.92, -3.02]"
+            },
+            {
+                "tag": "reg:Spain [39.92, -3.02]"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-03T09:55:18Z",
+        "dateModified": "2018-10-03T09:56:05Z"
+    }
+}

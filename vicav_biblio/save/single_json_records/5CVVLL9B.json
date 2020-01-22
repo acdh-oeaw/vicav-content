@@ -1,0 +1,107 @@
+{
+    "key": "5CVVLL9B",
+    "version": 3323,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/5CVVLL9B",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/5CVVLL9B",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Roth",
+        "parsedDate": "2000",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "5CVVLL9B",
+        "version": 3323,
+        "itemType": "bookSection",
+        "title": "Quelques observations concernant un parler arabe en éviction. La vulnérabilité du complément d'objet direct (Kormakiti, Chypre)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Arlette",
+                "lastName": "Roth"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Abderrahim",
+                "lastName": "Youssi"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "As!ects of the dialects of  Arabic today Proceedings of the 4th  Conference of the Inter-national Arabic Dialectolog; Association. IIn honour of Professor David Cohen",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Rabat",
+        "publisher": "Amapatril",
+        "date": "2000",
+        "pages": "123-132",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:roth_2000_0000)",
+        "tags": [
+            {
+                "tag": "geo:Kormakitis [35.34, 33.00]"
+            },
+            {
+                "tag": "reg:Cyprus []"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-09T21:05:10Z"
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "key": "PXBWUQVH",
+    "version": 6897,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/PXBWUQVH",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/PXBWUQVH",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Agius",
+        "parsedDate": "1998",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "PXBWUQVH",
+        "version": 6897,
+        "itemType": "journalArticle",
+        "title": "Formality-Intimacy Continuum in Maltese",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Dionisius Albertus",
+                "lastName": "Agius"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Zeitschrift für Arabische Linguistik",
+        "volume": "",
+        "issue": "35",
+        "pages": "29-51",
+        "date": "1998",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "0170026X",
+        "shortTitle": "",
+        "url": "http://www.jstor.org.uaccess.univie.ac.at/stable/43525691",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:agius_1998_2850)",
+        "tags": [
+            {
+                "tag": "cnt:Malta"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:pragmatics"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

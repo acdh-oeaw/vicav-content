@@ -1,0 +1,109 @@
+{
+    "key": "WEZJZU2B",
+    "version": 8257,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/WEZJZU2B",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/WEZJZU2B",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Natividad",
+        "parsedDate": "1998",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "WEZJZU2B",
+        "version": 8257,
+        "itemType": "bookSection",
+        "title": "Le dialecte de Chefchaouen",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Emma",
+                "lastName": "Natividad"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Jordi",
+                "lastName": "Aguadé"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Patrice",
+                "lastName": "Cressier"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Ángeles",
+                "lastName": "Vicente"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Peuplement et arabisation au Maghreb occidental: dialectologie et histoire",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Madrid - Zaragoza",
+        "publisher": "Casa de Velázquez",
+        "date": "1998",
+        "pages": "109-120",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:natividad_1998_3892)",
+        "tags": [
+            {
+                "tag": "geo:Chefchaouen [35.16, -5.26]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:description of dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

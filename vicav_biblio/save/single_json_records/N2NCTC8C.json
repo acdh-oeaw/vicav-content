@@ -1,0 +1,105 @@
+{
+    "key": "N2NCTC8C",
+    "version": 8042,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/N2NCTC8C",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/N2NCTC8C",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "De Jong",
+        "parsedDate": "2015",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "N2NCTC8C",
+        "version": 8042,
+        "itemType": "bookSection",
+        "title": "Texts in the Bedouin dialects of the Awlad Sa?id and the Tayaha of Sinai",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Rudolf",
+                "lastName": "De Jong"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Lutz",
+                "lastName": "Edzard"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Arabic and Semitic Linguistics Contextualized. A Festschrift for Jan Retsö",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrassowitz",
+        "date": "2015",
+        "pages": "61-83",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:de jong_2015_2978)",
+        "tags": [
+            {
+                "tag": "geo:Sinai [-17.55, -62.66]"
+            },
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "vt:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:language of a tribe"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-11T11:09:23Z"
+    }
+}

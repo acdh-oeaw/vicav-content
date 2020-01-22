@@ -1,0 +1,106 @@
+{
+    "key": "DW447MTE",
+    "version": 7346,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/DW447MTE",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/DW447MTE",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Binay",
+        "parsedDate": "2008",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "DW447MTE",
+        "version": 7346,
+        "itemType": "bookSection",
+        "title": "?ušunat laf?ihi - über die (Aus-)Sprache des Beduinen in der klassisch-arabischen Literatur",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Sara",
+                "lastName": "Binay"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Armenuhi",
+                "lastName": "Drost-Abgarjan"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Jens",
+                "lastName": "Kotjatko-Reeb"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Jürgen",
+                "lastName": "Tubach"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Vom Nil an die Saale. Festschrift für Arafa Mustafa zum 65. Geburtstag am 28. Februar 2005",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Halle/Saale",
+        "publisher": "Martin-Luther-Universität Halle-Wittenberg",
+        "date": "2008",
+        "pages": "75-82",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:binay_2008_0000)",
+        "tags": [
+            {
+                "tag": "vt:bedouin dialect"
+            },
+            {
+                "tag": "vt:classical"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-01T09:34:43Z"
+    }
+}

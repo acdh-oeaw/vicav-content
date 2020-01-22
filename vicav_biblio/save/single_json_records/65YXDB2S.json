@@ -1,0 +1,105 @@
+{
+    "key": "65YXDB2S",
+    "version": 3545,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/65YXDB2S",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/65YXDB2S",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Bohas",
+        "parsedDate": "1989",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "65YXDB2S",
+        "version": 3545,
+        "itemType": "journalArticle",
+        "title": "Accentuation, effacement et abrégement dans le parler de Tanger",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Georges",
+                "lastName": "Bohas"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Langues Orientales Anciennes Philologie et Linguistique",
+        "volume": "2",
+        "issue": "",
+        "pages": "149-163",
+        "date": "1989",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:bohas_1989_0000)",
+        "tags": [
+            {
+                "tag": "geo:Tanger [35.75, -5.83]"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-01T09:57:51Z"
+    }
+}

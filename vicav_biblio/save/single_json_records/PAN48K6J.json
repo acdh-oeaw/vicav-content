@@ -1,0 +1,128 @@
+{
+    "key": "PAN48K6J",
+    "version": 8317,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/PAN48K6J",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/PAN48K6J",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Piamenta",
+        "parsedDate": "2000",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "PAN48K6J",
+        "version": 8317,
+        "itemType": "book",
+        "title": "Jewish Life in Arabic Language and Jerusalem Arabic in Communal Perspective. A Lexico-Semantic Study",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Moshe",
+                "lastName": "Piamenta"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leiden - Bosten - Colonia",
+        "publisher": "Brill",
+        "date": "2000",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Jerusalem [31.76, 35.21]"
+            },
+            {
+                "tag": "cnt:Israel"
+            },
+            {
+                "tag": "reg:Palestine [31.89, 35.25]"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:ethnic minorities"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:sedentary dialect"
+            },
+            {
+                "tag": "vt:semantics"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-14T15:43:15Z",
+        "dateModified": "2018-10-14T15:43:56Z"
+    }
+}

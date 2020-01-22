@@ -1,0 +1,97 @@
+{
+    "key": "WLEZS948",
+    "version": 6926,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/WLEZS948",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/WLEZS948",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Ambros",
+        "parsedDate": "1995",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "WLEZS948",
+        "version": 6926,
+        "itemType": "journalArticle",
+        "title": "„Sprachfehler“ als Indikatoren von Sprachwandel im Maltesischen der Gegenwart",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Arne A.",
+                "lastName": "Ambros"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Zeitschrift für Arabische Linguistik",
+        "volume": "",
+        "issue": "29",
+        "pages": "51-58",
+        "date": "1995",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "0170026X",
+        "shortTitle": "",
+        "url": "http://www.jstor.org.uaccess.univie.ac.at/stable/43525635",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:ambros_1995_2860)",
+        "tags": [
+            {
+                "tag": "cnt:Malta"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

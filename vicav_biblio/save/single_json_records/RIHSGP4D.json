@@ -1,0 +1,113 @@
+{
+    "key": "RIHSGP4D",
+    "version": 6165,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/RIHSGP4D",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/RIHSGP4D",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Seeger",
+        "parsedDate": "2013",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "RIHSGP4D",
+        "version": 6165,
+        "itemType": "book",
+        "title": "Lehrbuch des palästinensischen Arabisch. Der Dialekt der Städter.",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ulrich",
+                "lastName": "Seeger"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrassowitz",
+        "date": "2013",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "reg:Palestine [31.89, 35.25]"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:teaching materials"
+            },
+            {
+                "tag": "vt:textbook"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-09-03T12:32:51Z",
+        "dateModified": "2018-09-03T12:33:26Z"
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "key": "3C4PNXVL",
+    "version": 2258,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/3C4PNXVL",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/3C4PNXVL",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Boumans",
+        "parsedDate": "2001",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "3C4PNXVL",
+        "version": 2258,
+        "itemType": "journalArticle",
+        "title": "Moroccan Arabic and Dutch: languages of Moroccan youth in the Netherlands",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Louis",
+                "lastName": "Boumans"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Langues et Linguistique: Revue Internationale de Linguistique / al-Lughat wa-al-Lisaniyat",
+        "volume": "8",
+        "issue": "",
+        "pages": "97-120",
+        "date": "2001",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "English",
+        "DOI": "",
+        "ISSN": "1114-0399",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:boumans_2001_3424)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt://e.g. Europe, Americas"
+            },
+            {
+                "tag": "vt:Arabic as a minority language"
+            },
+            {
+                "tag": "vt:Diaspora"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

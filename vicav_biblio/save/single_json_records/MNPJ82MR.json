@@ -1,0 +1,134 @@
+{
+    "key": "MNPJ82MR",
+    "version": 2640,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/MNPJ82MR",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/MNPJ82MR",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Aguadé and Elyaacoubi",
+        "parsedDate": "1994",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "MNPJ82MR",
+        "version": 2640,
+        "itemType": "bookSection",
+        "title": "The Arabic dialect of Skura (southern Morocco)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jordi",
+                "lastName": "Aguadé"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Mohammad",
+                "lastName": "Elyaacoubi"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "J.",
+                "lastName": "Aguadé"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "F.",
+                "lastName": "Corriente"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "M.",
+                "lastName": "Marugán"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Actas del congreso internacional sobre interferencias lingüísticas arabo-romances y paralelos extra-iberos ...Madrid ... 1990",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Zaragoza",
+        "publisher": "",
+        "date": "1994",
+        "pages": "15-20",
+        "language": "English",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Skoura [31.06, -6.55]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-05T14:37:45Z"
+    }
+}

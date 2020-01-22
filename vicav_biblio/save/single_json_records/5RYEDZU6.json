@@ -1,0 +1,105 @@
+{
+    "key": "5RYEDZU6",
+    "version": 2436,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/5RYEDZU6",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/5RYEDZU6",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Abu-Shams",
+        "parsedDate": "2002",
+        "numChildren": 4
+    },
+    "data": {
+        "key": "5RYEDZU6",
+        "version": 2436,
+        "itemType": "book",
+        "title": "Estudio lingüístico y textual del léxico relativo a la cocina y la alimentación en             el dialecto árabe de Rabat (Marruecos)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Leila",
+                "lastName": "Abu-Shams"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Zaragoza",
+        "publisher": "Universidad de Zaragoza",
+        "date": "2002",
+        "numPages": "461",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:abu-shams_2002_0076)",
+        "tags": [
+            {
+                "tag": "geo:Rabat [33.97, -6.84]"
+            },
+            {
+                "tag": "ii:Arabic language"
+            },
+            {
+                "tag": "ii:Colloquial Arabic dialects North Africa & Spain"
+            },
+            {
+                "tag": "ii:non-classical"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": [
+                "http://zotero.org/groups/2165756/items/UHKTGNKW",
+                "http://zotero.org/groups/2165756/items/HVZUBJLT",
+                "http://zotero.org/groups/2165756/items/SZKKMRBS"
+            ]
+        },
+        "dateAdded": "2018-04-12T19:25:39Z",
+        "dateModified": "2018-04-21T08:59:25Z"
+    }
+}

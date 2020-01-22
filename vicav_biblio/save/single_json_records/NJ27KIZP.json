@@ -1,0 +1,96 @@
+{
+    "key": "NJ27KIZP",
+    "version": 6622,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/NJ27KIZP",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/NJ27KIZP",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Huizinga",
+        "parsedDate": "1984",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "NJ27KIZP",
+        "version": 6622,
+        "itemType": "book",
+        "title": "Spoken Yemeni Arabic: an elementary glossary with emphasis on medical terminology. An elementary pedagogical grammar. Conversations in the hospital",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "M.",
+                "lastName": "Huizinga"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Amsterdam",
+        "publisher": "VU Boekhandel",
+        "date": "1984",
+        "numPages": "206",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:huizinga_1984_0000)",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "cnt:Yemen"
+            },
+            {
+                "tag": "vt:glossary"
+            },
+            {
+                "tag": "vt:grammar"
+            },
+            {
+                "tag": "vt:jargon"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-18T14:49:08Z"
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "key": "UX89FKXP",
+    "version": 2190,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/UX89FKXP",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/UX89FKXP",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Yoda",
+        "parsedDate": "2000",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "UX89FKXP",
+        "version": 2190,
+        "itemType": "journalArticle",
+        "title": "The correlation between short vowel subsystem and long vowel system in the modern Maghribi dialects",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Sumikazu",
+                "lastName": "Yoda"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "JAMES: Annals of Japan Asociation for Middle East Studies",
+        "volume": "15",
+        "issue": "",
+        "pages": "91-125",
+        "date": "2000",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:yoda_2000_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

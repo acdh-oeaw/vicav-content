@@ -1,0 +1,130 @@
+{
+    "key": "CIW6G4EI",
+    "version": 3576,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/CIW6G4EI",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/CIW6G4EI",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Boumans and Ruiter",
+        "parsedDate": "2002",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "CIW6G4EI",
+        "version": 3576,
+        "itemType": "bookSection",
+        "title": "Moroccan Arabic in the European diaspora",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Louis",
+                "lastName": "Boumans"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Jan Jaap de",
+                "lastName": "Ruiter"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Aleya",
+                "lastName": "Rouchdy"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Language contact and language conflict in Arabic: variations on a sociolinguistic theme",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "London",
+        "publisher": "RoutledgeCurzon",
+        "date": "2002",
+        "pages": "259-285",
+        "language": "English",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:boumans_2002_3421)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt://e.g. Europe, Americas"
+            },
+            {
+                "tag": "vt:Arabic as a minority language"
+            },
+            {
+                "tag": "vt:Diaspora"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-01T10:24:13Z"
+    }
+}

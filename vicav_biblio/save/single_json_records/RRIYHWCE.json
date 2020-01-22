@@ -1,0 +1,117 @@
+{
+    "key": "RRIYHWCE",
+    "version": 2574,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/RRIYHWCE",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/RRIYHWCE",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Abboud-Haggar",
+        "parsedDate": "2014",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "RRIYHWCE",
+        "version": 2574,
+        "itemType": "bookSection",
+        "title": "Egyptian Tales in Shay? al-?an?awi’s Handwritten Notebook: ?ikayat al-Shay? al-?an?awi. Partial Edition with an Introductory Linguistic Study",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Soha",
+                "lastName": "Abboud-Haggar"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Olivier",
+                "lastName": "Durand"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Angela Daiana",
+                "lastName": "Langone"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Giuliano",
+                "lastName": "Mion"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Alf lahga wa lahga : proceedings of the 9th Aida Conference",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wien",
+        "publisher": "LIT Verlag",
+        "date": "2014",
+        "pages": "11-21",
+        "language": "",
+        "ISBN": "978-3-643-90334-1",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:abboud_haggar_durand_2014_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-05T11:25:36Z"
+    }
+}

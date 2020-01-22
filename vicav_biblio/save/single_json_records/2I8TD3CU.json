@@ -1,0 +1,99 @@
+{
+    "key": "2I8TD3CU",
+    "version": 6974,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/2I8TD3CU",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/2I8TD3CU",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Spitaler",
+        "parsedDate": "1967",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "2I8TD3CU",
+        "version": 6974,
+        "itemType": "bookSection",
+        "title": "A?-?abru ka-smihi, as-safahatu ka-smiha und Ähnliches. Ein Beitrag zur arabischen Phraseologie",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Anton",
+                "lastName": "Spitaler"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Wilhelm",
+                "lastName": "Hoenerbach"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Der Orient in der Forschung. Festschrift für Otto Spies",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrassowitz",
+        "date": "1967",
+        "pages": "634-656",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:spitaler_1967_4019)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:phraseology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "key": "7CACNSU5",
+    "version": 2196,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/7CACNSU5",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/7CACNSU5",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Trabelsi",
+        "parsedDate": "1991",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "7CACNSU5",
+        "version": 2196,
+        "itemType": "journalArticle",
+        "title": "De quelques aspects du langage des femmes de Tunis",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Chedia",
+                "lastName": "Trabelsi"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "International Journal of the Sociology of Language",
+        "volume": "87",
+        "issue": "",
+        "pages": "87-99",
+        "date": "1991",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "01652516",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:trabelsi_1991_0000)",
+        "tags": [
+            {
+                "tag": "geo:Tunis [36.80, 10.18]"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Tunisia"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

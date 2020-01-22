@@ -1,0 +1,100 @@
+{
+    "key": "VJHK4QB2",
+    "version": 3063,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/VJHK4QB2",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/VJHK4QB2",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Abu-Haidar",
+        "parsedDate": "1990",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "VJHK4QB2",
+        "version": 3063,
+        "itemType": "journalArticle",
+        "title": "Maintenance and shift in the Christian Arabic of Baghdad",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Farida",
+                "lastName": "Abu-Haidar"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Zeitschrift für Arabische Linguistik",
+        "volume": "",
+        "issue": "21",
+        "pages": "47-62",
+        "date": "1990",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "0170026X",
+        "shortTitle": "",
+        "url": "http://www.jstor.org/stable/43615787",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:abu_haidar_1989_0000)",
+        "tags": [
+            {
+                "tag": "geo:Baghdad [33.30, 44.38]"
+            },
+            {
+                "tag": "cnt:Iraq"
+            },
+            {
+                "tag": "reg:Mesopotamia [35.14, 42.48]"
+            },
+            {
+                "tag": "vt:Christian dialects"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-19T10:16:51Z"
+    }
+}

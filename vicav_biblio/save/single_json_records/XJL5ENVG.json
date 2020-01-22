@@ -1,0 +1,111 @@
+{
+    "key": "XJL5ENVG",
+    "version": 6052,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/XJL5ENVG",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/XJL5ENVG",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Benkaddour,",
+        "parsedDate": "1985",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "XJL5ENVG",
+        "version": 6052,
+        "itemType": "bookSection",
+        "title": "Certain assimilatory processes in Moroccan Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "A.",
+                "lastName": "Benkaddour,"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Annales de la Faculté de Lettres et Sciences Humaines",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Casablanca",
+        "publisher": "University Hassan II",
+        "date": "1985",
+        "pages": "99-105",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:phonology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-09-30T12:51:22Z",
+        "dateModified": "2018-09-30T12:52:33Z"
+    }
+}

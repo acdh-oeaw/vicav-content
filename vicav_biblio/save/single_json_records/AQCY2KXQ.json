@@ -1,0 +1,96 @@
+{
+    "key": "AQCY2KXQ",
+    "version": 6644,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/AQCY2KXQ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/AQCY2KXQ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Jelinek",
+        "parsedDate": "1981",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "AQCY2KXQ",
+        "version": 6644,
+        "itemType": "bookSection",
+        "title": "Colloquial Egyptian Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Eloise",
+                "lastName": "Jelinek"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Susan",
+                "lastName": "Steele"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Encyclopedia of AUX",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Cambrige (MA)",
+        "publisher": "MIT Press",
+        "date": "1981",
+        "pages": "73-97",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:jelinek_1981_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:description of dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T09:07:04Z"
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "key": "LPMZCQ3B",
+    "version": 8036,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/LPMZCQ3B",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/LPMZCQ3B",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Miller",
+        "parsedDate": "1983",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "LPMZCQ3B",
+        "version": 8036,
+        "itemType": "journalArticle",
+        "title": "Le Juba Arabic, une lingua franca du Soudan méridional: remarque sur le fonctionnement du verbe",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Catherine",
+                "lastName": "Miller"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Matériaux Arabes et Sudarabiques. Nu?u? wa-Ab?ath ?Arabiya wa-?Arabiya Janubiya",
+        "volume": "",
+        "issue": "",
+        "pages": "105-118",
+        "date": "1983",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:miller_1983_0000)",
+        "tags": [
+            {
+                "tag": "geo:Juba [4.85, 31.57]"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "cnt:South Sudan"
+            },
+            {
+                "tag": "cnt:Sudan"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:syntax"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-04T17:55:56Z"
+    }
+}

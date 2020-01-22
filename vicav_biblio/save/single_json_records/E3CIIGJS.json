@@ -1,0 +1,122 @@
+{
+    "key": "E3CIIGJS",
+    "version": 5586,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/E3CIIGJS",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/E3CIIGJS",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Sasi",
+        "parsedDate": "1972",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "E3CIIGJS",
+        "version": 5586,
+        "itemType": "book",
+        "title": "Sprichwörter und Andere Volkskundliche Texte aus Mekka",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Omar Al-",
+                "lastName": "Sasi"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Munster",
+        "publisher": "",
+        "date": "1972",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Mecca [21.38, 39.85]"
+            },
+            {
+                "tag": "vt:customs & etiquette"
+            },
+            {
+                "tag": "vt:ethnographic record"
+            },
+            {
+                "tag": "vt:ethnography"
+            },
+            {
+                "tag": "vt:folklore"
+            },
+            {
+                "tag": "vt:oral literature"
+            },
+            {
+                "tag": "vt:oral narratives"
+            },
+            {
+                "tag": "vt:proverbs"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-14T17:38:05Z",
+        "dateModified": "2018-10-14T17:38:44Z"
+    }
+}

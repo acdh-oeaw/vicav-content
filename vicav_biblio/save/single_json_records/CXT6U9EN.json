@@ -1,0 +1,97 @@
+{
+    "key": "CXT6U9EN",
+    "version": 6673,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/CXT6U9EN",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/CXT6U9EN",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Kassemi",
+        "parsedDate": "1999",
+        "numChildren": 2
+    },
+    "data": {
+        "key": "CXT6U9EN",
+        "version": 6673,
+        "itemType": "thesis",
+        "title": "Flexion dans la formation des verbes trilitéres en arabe marocain (parler d'oulat El haj): racines, schèmes et affixes. D.E.S.",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Mohamadine",
+                "lastName": "Kassemi"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "",
+        "university": "Université Sidi Mohammed Ben Abdellah",
+        "place": "Fes",
+        "date": "1999-2000",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:kassemi_1999-2000_4564)",
+        "tags": [
+            {
+                "tag": "geo:Outat El Haj [33.34, -3.70]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

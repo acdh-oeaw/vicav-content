@@ -1,0 +1,110 @@
+{
+    "key": "DTCMI6CY",
+    "version": 6390,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/DTCMI6CY",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/DTCMI6CY",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Grand'Henry",
+        "parsedDate": "1977",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "DTCMI6CY",
+        "version": 6390,
+        "itemType": "bookSection",
+        "title": "Arabe maghrebin et arabe andalou; remarques diachroniques",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jacques",
+                "lastName": "Grand'Henry"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Wolfgang",
+                "lastName": "Voigt"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "XIX. Deutscher Orientalistentag ... 1975 in Freiburg im Breisgau: Vorträge",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Steiner",
+        "date": "1977",
+        "pages": "674-680",
+        "language": "English",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:grand'henry_1977_0000)",
+        "tags": [
+            {
+                "tag": "reg:Andalusia [39.92, -3.02]"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/KU5ZGIV8"
+        },
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T18:49:52Z"
+    }
+}

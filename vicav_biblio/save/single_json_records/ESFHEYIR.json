@@ -1,0 +1,103 @@
+{
+    "key": "ESFHEYIR",
+    "version": 2210,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ESFHEYIR",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ESFHEYIR",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Renaud",
+        "parsedDate": "1937",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ESFHEYIR",
+        "version": 2210,
+        "itemType": "journalArticle",
+        "title": "Médecine et médecins marocains au siècle de Moulay Ismâîl",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "H.P.J.",
+                "lastName": "Renaud"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Annales de l'Institut d'études Orientales",
+        "volume": "3",
+        "issue": "",
+        "pages": "89-109",
+        "date": "1937",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "English",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:renaud_1937_3932)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:ethnographic record"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:jargon"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:manuscripts"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

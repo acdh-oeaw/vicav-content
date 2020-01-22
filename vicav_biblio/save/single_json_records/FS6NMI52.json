@@ -1,0 +1,98 @@
+{
+    "key": "FS6NMI52",
+    "version": 5896,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/FS6NMI52",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/FS6NMI52",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Frayha",
+        "parsedDate": "1973",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "FS6NMI52",
+        "version": 5896,
+        "itemType": "book",
+        "title": "A Dictionary of Non-classical Vocables in the Spoken Arabic of Lebanon",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "A.",
+                "lastName": "Frayha"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leiden",
+        "publisher": "Brill",
+        "date": "1973",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Lebanon"
+            },
+            {
+                "tag": "vt:dictionary"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-03T09:52:42Z",
+        "dateModified": "2018-10-03T09:53:10Z"
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "key": "HUYTGYFZ",
+    "version": 7781,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/HUYTGYFZ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/HUYTGYFZ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Hagenbucher",
+        "parsedDate": "1973",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "HUYTGYFZ",
+        "version": 7781,
+        "itemType": "book",
+        "title": "Les arabes dits “suwa” du Nord-Cameroun",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "F.",
+                "lastName": "Hagenbucher"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Yaounde",
+        "publisher": "ORSTOM",
+        "date": "1973",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "reg:Cameroon (North Region) [10.60, 14.54]"
+            },
+            {
+                "tag": "vt:Central Africa"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-03T13:40:02Z",
+        "dateModified": "2019-03-02T13:34:10Z"
+    }
+}

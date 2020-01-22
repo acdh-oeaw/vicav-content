@@ -1,0 +1,110 @@
+{
+    "key": "EA7MPY5Z",
+    "version": 8724,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/EA7MPY5Z",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/EA7MPY5Z",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Iványi",
+        "parsedDate": "2006",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "EA7MPY5Z",
+        "version": 8724,
+        "itemType": "encyclopediaArticle",
+        "title": "Diphthongs",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Tamás",
+                "lastName": "Iványi"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Kees",
+                "lastName": "Versteegh"
+            }
+        ],
+        "abstractNote": "",
+        "encyclopediaTitle": "Encyclopaedia of Arabic Language and Linguistics",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "1",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leiden",
+        "publisher": "Brill",
+        "date": "2006",
+        "pages": "640-643",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "language": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-18T14:05:49Z"
+    }
+}

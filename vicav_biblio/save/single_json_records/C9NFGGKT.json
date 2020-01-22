@@ -1,0 +1,107 @@
+{
+    "key": "C9NFGGKT",
+    "version": 8209,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/C9NFGGKT",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/C9NFGGKT",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Maas",
+        "parsedDate": "1995",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "C9NFGGKT",
+        "version": 8209,
+        "itemType": "journalArticle",
+        "title": "Koverben im marokkanischen Arabisch in typologischer Perspektive",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Utz",
+                "lastName": "Maas"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Sprachtypologie und Universalienforschung: Language Typology and Universals",
+        "volume": "48",
+        "issue": "iii",
+        "pages": "239-274",
+        "date": "1995",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "09422919",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:maas_1995_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/B4S8SD2X"
+        },
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-06T16:15:50Z"
+    }
+}

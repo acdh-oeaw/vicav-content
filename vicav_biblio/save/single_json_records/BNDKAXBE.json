@@ -1,0 +1,96 @@
+{
+    "key": "BNDKAXBE",
+    "version": 7366,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/BNDKAXBE",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/BNDKAXBE",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Ben Cheneb",
+        "parsedDate": "1922",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "BNDKAXBE",
+        "version": 7366,
+        "itemType": "book",
+        "title": "Mots turcs et persans conservés dans le parler algérien",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Mohammed",
+                "lastName": "Ben Cheneb"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Alger",
+        "publisher": "Université d'Alger",
+        "date": "1922",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:ben cheneb_1922_3144)",
+        "tags": [
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:loanwords"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-10T19:14:14Z"
+    }
+}

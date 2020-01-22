@@ -1,0 +1,107 @@
+{
+    "key": "LDAZFZIW",
+    "version": 3194,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/LDAZFZIW",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/LDAZFZIW",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Bettini",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "LDAZFZIW",
+        "version": 3194,
+        "itemType": "bookSection",
+        "title": "Remarques sur les parlers arabes du Fezzân (Libye)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Lidia",
+                "lastName": "Bettini"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Frédéric",
+                "lastName": "Bauden"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Mélanges offerts au professeur Aubert Martin",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Louvain",
+        "publisher": "Peeters",
+        "date": "2004",
+        "pages": "11-28",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:bettini_2004_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Libya"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-07-20T19:01:23Z"
+    }
+}

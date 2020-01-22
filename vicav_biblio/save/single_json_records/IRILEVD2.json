@@ -1,0 +1,97 @@
+{
+    "key": "IRILEVD2",
+    "version": 7417,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/IRILEVD2",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/IRILEVD2",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Lahdo",
+        "parsedDate": "2010",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "IRILEVD2",
+        "version": 7417,
+        "itemType": "journalArticle",
+        "title": "Text sample from Derik (al-Malikiyah)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ablahad",
+                "lastName": "Lahdo"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Orientalia Suecana",
+        "volume": "59",
+        "issue": "",
+        "pages": "61-72",
+        "date": "2010",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:lahdo_2010_3074)",
+        "tags": [
+            {
+                "tag": "geo:Derek [37.17, 42.14]"
+            },
+            {
+                "tag": "cnt:Syria"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

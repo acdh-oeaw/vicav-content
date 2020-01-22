@@ -1,0 +1,112 @@
+{
+    "key": "YG6VCYN3",
+    "version": 6423,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/YG6VCYN3",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/YG6VCYN3",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Ghaly",
+        "parsedDate": "2000",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "YG6VCYN3",
+        "version": 6423,
+        "itemType": "bookSection",
+        "title": "The syntax of colloquial Egyptian proverbs",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Huda M.M.",
+                "lastName": "Ghaly"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Zeinab M.",
+                "lastName": "Ibrahim"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Sabiha T.",
+                "lastName": "Aydelott"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Nagwa",
+                "lastName": "Kassabgy"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Diversity in language: contrastive studies in Arabic and English theoretical and applied linguistics",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Cairo",
+        "publisher": "AUC",
+        "date": "2000",
+        "pages": "5-30",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:ghaly_2000_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:proverbs"
+            },
+            {
+                "tag": "vt:syntax"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T18:28:09Z"
+    }
+}

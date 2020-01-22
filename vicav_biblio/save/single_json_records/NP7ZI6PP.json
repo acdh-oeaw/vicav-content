@@ -1,0 +1,107 @@
+{
+    "key": "NP7ZI6PP",
+    "version": 3067,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/NP7ZI6PP",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/NP7ZI6PP",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Talmoudi",
+        "parsedDate": "1981",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "NP7ZI6PP",
+        "version": 3067,
+        "itemType": "book",
+        "title": "Texts in the Arabic dialect of Susa (Tunisia). Transcription, translation, notes and glossary",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Fathi",
+                "lastName": "Talmoudi"
+            }
+        ],
+        "abstractNote": "",
+        "series": "Orientalia Gothoburgensia",
+        "seriesNumber": "8",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Gothenburg",
+        "publisher": "Acta Universitatis Gothoburgensis",
+        "date": "1981",
+        "numPages": "166",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:talmoudi_1981_0001)",
+        "tags": [
+            {
+                "tag": "geo:Sousse [35.82, 10.60]"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Tunisia"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-21T15:52:27Z"
+    }
+}

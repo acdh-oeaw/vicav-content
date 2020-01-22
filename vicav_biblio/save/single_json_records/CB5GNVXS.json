@@ -1,0 +1,108 @@
+{
+    "key": "CB5GNVXS",
+    "version": 5810,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/CB5GNVXS",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/CB5GNVXS",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Holes",
+        "parsedDate": "2007",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "CB5GNVXS",
+        "version": 5810,
+        "itemType": "encyclopediaArticle",
+        "title": "Kuwaiti Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Clive",
+                "lastName": "Holes"
+            }
+        ],
+        "abstractNote": "",
+        "encyclopediaTitle": "Encyclopedia of Arabic Language and Linguistics",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "2",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leiden",
+        "publisher": "Brill",
+        "date": "2007",
+        "pages": "608-620",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "language": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "reg:Gulf [26.57, 49.55]"
+            },
+            {
+                "tag": "cnt:Kuweit"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-08T07:34:40Z",
+        "dateModified": "2018-10-08T07:35:11Z"
+    }
+}

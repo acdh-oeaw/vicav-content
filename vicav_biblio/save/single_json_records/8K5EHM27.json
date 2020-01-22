@@ -1,0 +1,113 @@
+{
+    "key": "8K5EHM27",
+    "version": 6536,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/8K5EHM27",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/8K5EHM27",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4621144,
+            "username": "Bettina_Leit",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/bettina_leit",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Al-Rumi",
+        "parsedDate": "2005",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "8K5EHM27",
+        "version": 6536,
+        "itemType": "book",
+        "title": "Mu?gam al-mus?ala?at al-ba?riyya fi l-kuwayt",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "A?mad al-Bishr",
+                "lastName": "Al-Rumi"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Kuwait",
+        "publisher": "The Center for Research and Studies on Kuwait",
+        "date": "2005",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "reg:Gulf [26.57, 49.55]"
+            },
+            {
+                "tag": "cnt:Kuweit"
+            },
+            {
+                "tag": "vt:// (Kuwayt, Bahrain, Qatar, UAE)"
+            },
+            {
+                "tag": "vt:bedouin dialect"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-12-03T14:50:58Z",
+        "dateModified": "2018-12-03T14:52:19Z"
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "key": "M8BDDD8S",
+    "version": 2319,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/M8BDDD8S",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/M8BDDD8S",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Abu-Haidar",
+        "parsedDate": "1994",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "M8BDDD8S",
+        "version": 2319,
+        "itemType": "bookSection",
+        "title": "Les particules préverbales dans le dialecte musulman de Bagdad",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Farida",
+                "lastName": "Abu-Haidar"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Dominique",
+                "lastName": "Caubet"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Martine",
+                "lastName": "Vanhove"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Actes des premières journées internationales de dialectologie arabe de Paris. (Colloque international tenu à Paris du 27 au 30 janvier 1993). Préface de David Cohen",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Paris",
+        "publisher": "INALCO, Publications Langues'O",
+        "date": "1994",
+        "pages": "151-160",
+        "language": "",
+        "ISBN": "2-85831-045-9",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:abu_haidar_caubet_1994_0000)",
+        "tags": [
+            {
+                "tag": "geo:Baghdad [33.31, 44.36]"
+            },
+            {
+                "tag": "cnt:Iraq"
+            },
+            {
+                "tag": "reg:Mesopotamia [35.14, 42.48]"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

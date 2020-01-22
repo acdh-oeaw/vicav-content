@@ -1,0 +1,102 @@
+{
+    "key": "9EZIHNSR",
+    "version": 5833,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/9EZIHNSR",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/9EZIHNSR",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Kahn",
+        "parsedDate": "1975",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "9EZIHNSR",
+        "version": 5833,
+        "itemType": "journalArticle",
+        "title": "Arabic emphatics: The evidence for cultural determinants of phonetic sex-typing",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Margaret",
+                "lastName": "Kahn"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Phonetica",
+        "volume": "31",
+        "issue": "1",
+        "pages": "38-50",
+        "date": "1975",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:phonology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-08T12:19:45Z",
+        "dateModified": "2018-10-08T12:21:22Z"
+    }
+}

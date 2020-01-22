@@ -1,0 +1,105 @@
+{
+    "key": "L5PS9L28",
+    "version": 3422,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/L5PS9L28",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/L5PS9L28",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Piamenta",
+        "parsedDate": "2002",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "L5PS9L28",
+        "version": 3422,
+        "itemType": "bookSection",
+        "title": "Fossilized and semi-fossilized verbs in Jerusalem Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Moshe",
+                "lastName": "Piamenta"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "\"Sprich doch mit deinen Knechten aramäisch, wir verstehen es!\": 60 Beiträge zur Semitistik : Festschrift für Otto Jastrow zum 60. Geburtstag",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wien",
+        "publisher": "Wiesbaden",
+        "date": "2002",
+        "pages": "531-539",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:piamenta_2002_0000)",
+        "tags": [
+            {
+                "tag": "geo:Jerusalem [31.76, 35.21]"
+            },
+            {
+                "tag": "cnt:Israel"
+            },
+            {
+                "tag": "reg:Palestine [31.89, 35.25]"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-24T08:05:40Z"
+    }
+}

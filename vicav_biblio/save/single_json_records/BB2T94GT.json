@@ -1,0 +1,118 @@
+{
+    "key": "BB2T94GT",
+    "version": 4585,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/BB2T94GT",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/BB2T94GT",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Abu-Haidar",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "BB2T94GT",
+        "version": 4585,
+        "itemType": "bookSection",
+        "title": "The Arabic of Rabi?a: a q?ltu dialect of north-western Iraq",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Farida",
+                "lastName": "Abu-Haidar"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Martine",
+                "lastName": "Haak"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Rudolf",
+                "lastName": "De Jong"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Approaches to Arabic dialects: a collection of articles presented to Manfred Woidich on the occasion of his sixtieth birthday",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leiden",
+        "publisher": "Brill",
+        "date": "2004",
+        "pages": "1-12",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:abu_haidar_2004_0000)",
+        "tags": [
+            {
+                "tag": "geo:Rabia [36.80, 42.09]"
+            },
+            {
+                "tag": "cnt:Iraq"
+            },
+            {
+                "tag": "reg:Mesopotamia [35.14, 42.48]"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:sedentary dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-26T13:22:45Z"
+    }
+}

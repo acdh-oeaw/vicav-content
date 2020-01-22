@@ -1,0 +1,99 @@
+{
+    "key": "EHN4T7W3",
+    "version": 2311,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/EHN4T7W3",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/EHN4T7W3",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Embarki",
+        "parsedDate": "2000",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "EHN4T7W3",
+        "version": 2311,
+        "itemType": "bookSection",
+        "title": "La variation phonétique est-elle synonyme d’iniquité linguistique? Cas des parlers arabes au Maroc",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Mohamed",
+                "lastName": "Embarki"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Manwel",
+                "lastName": "Mifsud"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Proceedings of the Third International Conference of AÏDA: Association Internationale de Dialectologie Arabe: held at Malta, 29 March – 2 April 1998",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Malta",
+        "publisher": "",
+        "date": "2000",
+        "pages": "101-106",
+        "language": "",
+        "ISBN": "99932-0-044-1",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:embarki_mifsud_2000_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:phonology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

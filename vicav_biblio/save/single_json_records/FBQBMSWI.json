@@ -1,0 +1,99 @@
+{
+    "key": "FBQBMSWI",
+    "version": 2308,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/FBQBMSWI",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/FBQBMSWI",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Havelova",
+        "parsedDate": "2000",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "FBQBMSWI",
+        "version": 2308,
+        "itemType": "bookSection",
+        "title": "Sociolinguistic description of Nazareth",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Andrea",
+                "lastName": "Havelova"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Manwel",
+                "lastName": "Mifsud"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Proceedings of the Third International Conference of AÏDA: Association Internationale de Dialectologie Arabe: held at Malta, 29 March – 2 April 1998",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Malta",
+        "publisher": "",
+        "date": "2000",
+        "pages": "141-144",
+        "language": "",
+        "ISBN": "99932-0-044-1",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:havelova_mifsud_2000_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Israel"
+            },
+            {
+                "tag": "reg:Palestine [31.89, 35.25]"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

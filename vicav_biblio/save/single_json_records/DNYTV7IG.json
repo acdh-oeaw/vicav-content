@@ -1,0 +1,108 @@
+{
+    "key": "DNYTV7IG",
+    "version": 8180,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/DNYTV7IG",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/DNYTV7IG",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Kampffmeyer",
+        "parsedDate": "1899",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "DNYTV7IG",
+        "version": 8180,
+        "itemType": "journalArticle",
+        "title": "Beiträge zur Dialektologie des Arabischen",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Georg",
+                "lastName": "Kampffmeyer"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "J.",
+                "lastName": "Karabacek"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "David Heinrich",
+                "lastName": "Müller"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "L.",
+                "lastName": "Reinisch"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "L.",
+                "lastName": "von Schroeder"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Wiener Zeitschrift für die Kunde des Morgenlandes",
+        "volume": "13",
+        "issue": "",
+        "pages": "1-34, 227-250",
+        "date": "1899",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:kampffmeyer_1899_3751)",
+        "tags": [
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-10-08T12:25:53Z"
+    }
+}

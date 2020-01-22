@@ -1,0 +1,130 @@
+{
+    "key": "DNKRBJHA",
+    "version": 2217,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/DNKRBJHA",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/DNKRBJHA",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Moscoso García",
+        "parsedDate": "2007",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "DNKRBJHA",
+        "version": 2217,
+        "itemType": "journalArticle",
+        "title": "??ffa? l?-?bala \"la manzana del embarazo\". Cuento en árabe antiguo de Rabat",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Francisco",
+                "lastName": "Moscoso García"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "AWRAQ",
+        "volume": "24",
+        "issue": "",
+        "pages": "167-192",
+        "date": "2007",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:moscoso garcia_2007_4148)",
+        "tags": [
+            {
+                "tag": "geo:Rabat [33.97, -6.84]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:anthropology"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:ethnographic record"
+            },
+            {
+                "tag": "vt:ethnography"
+            },
+            {
+                "tag": "vt:folklore"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:oral literature"
+            },
+            {
+                "tag": "vt:oral narratives"
+            },
+            {
+                "tag": "vt:oral poetry"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

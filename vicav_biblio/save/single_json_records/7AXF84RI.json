@@ -1,0 +1,109 @@
+{
+    "key": "7AXF84RI",
+    "version": 6876,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/7AXF84RI",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/7AXF84RI",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Zafrani",
+        "parsedDate": "1988",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "7AXF84RI",
+        "version": 6876,
+        "itemType": "conferencePaper",
+        "title": "Langues juives du Maroc et traductions judéo-arabes de la Bible",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Haïm",
+                "lastName": "Zafrani"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "J-P.",
+                "lastName": "Rothschild"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "G.D.",
+                "lastName": "Sixdenier"
+            }
+        ],
+        "abstractNote": "",
+        "date": "1988",
+        "proceedingsTitle": "Études samaritaines: Pentateuque et Targum, exégèse et philologie, chroniques. Communications présentées à la table ronde internationale \"Les manuscrits samaritains: problèmes et méthodes\" (Paris 7-9 octobre 1985)",
+        "conferenceName": "",
+        "place": "Louvain",
+        "publisher": "Peeters",
+        "volume": "",
+        "pages": "",
+        "series": "",
+        "language": "English",
+        "DOI": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Jewish dialects"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:ethnic minorities"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

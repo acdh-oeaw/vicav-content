@@ -1,0 +1,91 @@
+{
+    "key": "KH7BVJDM",
+    "version": 7438,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/KH7BVJDM",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/KH7BVJDM",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Moscoso García",
+        "parsedDate": "2002",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "KH7BVJDM",
+        "version": 7438,
+        "itemType": "journalArticle",
+        "title": "Interdentales y fricativas en los dialectos árabes de Marruecos. Hipótesis sobre la pérdida de interdentales en los dialectos de tipo beduino",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Francisco",
+                "lastName": "Moscoso García"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Al-Andalus Magreb",
+        "volume": "10",
+        "issue": "",
+        "pages": "153-166",
+        "date": "2002",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "11338571",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:moscoso_garcia_2002_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

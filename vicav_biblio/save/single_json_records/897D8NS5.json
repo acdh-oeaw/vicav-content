@@ -1,0 +1,121 @@
+{
+    "key": "897D8NS5",
+    "version": 8158,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/897D8NS5",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/897D8NS5",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Himer",
+        "parsedDate": "2001",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "897D8NS5",
+        "version": 8158,
+        "itemType": "bookSection",
+        "title": "Identité urbaine de la popolation de Salé",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Mohammed el-",
+                "lastName": "Himer"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Thierry",
+                "lastName": "Bulot"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "C.",
+                "lastName": "Bauvois"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "P.",
+                "lastName": "Blanchet"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Sociolinguistique Urbaine",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "",
+        "publisher": "Presses Univeristaires de Rennes",
+        "date": "2001",
+        "pages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:himer_2001_3709)",
+        "tags": [
+            {
+                "tag": "geo:Sale [34.03, -6.77]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:anthropology"
+            },
+            {
+                "tag": "vt:ethnography"
+            },
+            {
+                "tag": "vt:sedentary dialect"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-18T12:49:58Z"
+    }
+}

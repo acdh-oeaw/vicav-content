@@ -1,0 +1,93 @@
+{
+    "key": "IZ27VHKJ",
+    "version": 7211,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/IZ27VHKJ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/IZ27VHKJ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Borg",
+        "parsedDate": "1985",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "IZ27VHKJ",
+        "version": 7211,
+        "itemType": "book",
+        "title": "Cypriot Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Alexander",
+                "lastName": "Borg"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Stuttgart",
+        "publisher": "Steiner",
+        "date": "1985",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:borg_1985_0000)",
+        "tags": [
+            {
+                "tag": "geo:Cyprus [35.17, 33.36]"
+            },
+            {
+                "tag": "geo:Kormakitis [35.34, 33.00]"
+            },
+            {
+                "tag": "vt:Arabic as a minority language"
+            },
+            {
+                "tag": "vt:description of dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-01T10:01:01Z"
+    }
+}

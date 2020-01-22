@@ -1,0 +1,104 @@
+{
+    "key": "AVBNUMUL",
+    "version": 4388,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/AVBNUMUL",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/AVBNUMUL",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Grand'Henry",
+        "parsedDate": "1972",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "AVBNUMUL",
+        "version": 4388,
+        "itemType": "book",
+        "title": "Le parler arabe de Cherchell (Algérie)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jacques",
+                "lastName": "Grand'Henry"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Louvain-la-Neuve",
+        "publisher": "Université Catholique de Louvain",
+        "date": "1972",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:grand'henry_1972_0000)",
+        "tags": [
+            {
+                "tag": "geo:Cherchell [36.56, 2.20]"
+            },
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "vt:description of dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T18:46:53Z"
+    }
+}

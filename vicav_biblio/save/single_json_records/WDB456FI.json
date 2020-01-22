@@ -1,0 +1,105 @@
+{
+    "key": "WDB456FI",
+    "version": 4200,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/WDB456FI",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/WDB456FI",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 5116658,
+            "username": "erceg2018",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/erceg2018",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Jastrow",
+        "parsedDate": "1986",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "WDB456FI",
+        "version": 4200,
+        "itemType": "journalArticle",
+        "title": "Alles über Qat: Text im arabischen Dialekt von Jiblih (Nordjemen)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Otto",
+                "lastName": "Jastrow"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Zeitschrift der Deutschen Morgenländischen Gesellschaft",
+        "volume": "136",
+        "issue": "",
+        "pages": "23-55",
+        "date": "1986",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:jastrow_1986_0000)",
+        "tags": [
+            {
+                "tag": "geo:Jibla [13.92, 44.14]"
+            },
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "cnt:Yemen"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T08:40:32Z"
+    }
+}

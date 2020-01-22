@@ -1,0 +1,104 @@
+{
+    "key": "MG2LY6HT",
+    "version": 3621,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/MG2LY6HT",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/MG2LY6HT",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Cachia",
+        "parsedDate": "1996",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "MG2LY6HT",
+        "version": 3621,
+        "itemType": "bookSection",
+        "title": "An incomplete Egyptian ballad on the 1956 war",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Pierre",
+                "lastName": "Cachia"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "J. R.",
+                "lastName": "Smart"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Tradition and modernity in Arabic language and literature",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Richmond",
+        "publisher": "Curzon",
+        "date": "1996",
+        "pages": "259-272",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:cachia_1996_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-01T11:23:14Z"
+    }
+}

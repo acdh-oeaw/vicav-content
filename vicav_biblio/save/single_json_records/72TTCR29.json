@@ -1,0 +1,108 @@
+{
+    "key": "72TTCR29",
+    "version": 8380,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/72TTCR29",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/72TTCR29",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Shurafa",
+        "parsedDate": "1997",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "72TTCR29",
+        "version": 8380,
+        "itemType": "journalArticle",
+        "title": "A contrastive analysis of the linguistic politeness forms between two dialects of Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Nuha Suleiman Daoud al-",
+                "lastName": "Shurafa"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Journal of King Abdulaziz University: Arts and Humanities / Majallat Jami?at al-Malik ?Abd al-?Aziz: al-?Ulum al-Insaniya",
+        "volume": "10",
+        "issue": "",
+        "pages": "23-34",
+        "date": "1997",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:shurafa_1997_0000)",
+        "tags": [
+            {
+                "tag": "geo:Hejaz [19.25, 41.17]"
+            },
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "reg:Palestine [31.89, 35.25]"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:pragmatics"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/WDMQFRQ6"
+        },
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-16T15:07:05Z"
+    }
+}

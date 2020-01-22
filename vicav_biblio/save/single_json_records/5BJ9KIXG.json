@@ -1,0 +1,116 @@
+{
+    "key": "5BJ9KIXG",
+    "version": 5013,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/5BJ9KIXG",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/5BJ9KIXG",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "El Habib",
+        "parsedDate": "2006",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "5BJ9KIXG",
+        "version": 5013,
+        "itemType": "bookSection",
+        "title": "Le processus de l’évolution de la langue chez les jeunes de la région du Gharb (Maroc) (cas d’étude Kénitra et Mehdia). « Quelles expressions et quelles nouveautés ? »",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Adam",
+                "lastName": "El Habib"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Abderrahim",
+                "lastName": "Youssi"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "L’arabe dialectal : enquêtes, descriptions, interprétations. Actes d’AIDA 6. Travaux Offerts au Professeur Taieb Baccouche. Sous la direction de Salah Mejri (Université de la Manouba / LLI, Université de Paris 13).",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Tunis",
+        "publisher": "Imprimerie Officielle de la République Tunisienne",
+        "date": "2006",
+        "pages": "125-134",
+        "language": "",
+        "ISBN": "9954-0-2720-3",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:habib_youssi_2006_0000)",
+        "tags": [
+            {
+                "tag": "geo:Kenitra [34.25, -6.58]"
+            },
+            {
+                "tag": "geo:Mehdia [34.25, -6.67]"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-10-04T18:29:27Z"
+    }
+}

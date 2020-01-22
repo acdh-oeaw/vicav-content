@@ -1,0 +1,102 @@
+{
+    "key": "ID4D7I5R",
+    "version": 6349,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ID4D7I5R",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ID4D7I5R",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Abd-el-Jawad and Awwad",
+        "parsedDate": "1987",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ID4D7I5R",
+        "version": 6349,
+        "itemType": "journalArticle",
+        "title": "Reflexes of classical Arabic interdentals: a study in historical sociolinguistics",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Hassan",
+                "lastName": "Abd-el-Jawad"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Mohammad Amin",
+                "lastName": "Awwad"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Al-Abhath",
+        "volume": "35",
+        "issue": "",
+        "pages": "75-101",
+        "date": "1987",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:abd_el_jawad_1987_0001)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:phonology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-26T13:19:21Z"
+    }
+}

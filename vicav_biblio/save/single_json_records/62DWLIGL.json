@@ -1,0 +1,97 @@
+{
+    "key": "62DWLIGL",
+    "version": 6900,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/62DWLIGL",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/62DWLIGL",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "al-Fasi",
+        "parsedDate": "1963",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "62DWLIGL",
+        "version": 6900,
+        "itemType": "journalArticle",
+        "title": "Le poète populaire Jilali Mthired; avec la traduction de son poème \"L'Hôte\"",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Mu?ammad",
+                "lastName": "al-Fasi"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "La Pensée",
+        "volume": "5",
+        "issue": "",
+        "pages": "42-54",
+        "date": "1963",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:al-fasi_1963_3306)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:poetry"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

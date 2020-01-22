@@ -1,0 +1,105 @@
+{
+    "key": "A4J493EI",
+    "version": 3250,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/A4J493EI",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/A4J493EI",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Shahin",
+        "parsedDate": "1997",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "A4J493EI",
+        "version": 3250,
+        "itemType": "bookSection",
+        "title": "Acoustics of pharyngealization vs. uvularization harmony",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Kimary N.",
+                "lastName": "Shahin"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Perspectives on Arabic Linguistics: Papers from the Annual Symposium on Arabic Linguistics. Volume X: Salt Lake City, 1996",
+        "series": "Current Issues in Linguistic Theory",
+        "seriesNumber": "153",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Amsterdam",
+        "publisher": "John Benjamins Publishing Company",
+        "date": "1997",
+        "pages": "215-237",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:shahin_1997_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Israel"
+            },
+            {
+                "tag": "reg:Palestine [31.89, 35.25]"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-05T07:58:44Z"
+    }
+}

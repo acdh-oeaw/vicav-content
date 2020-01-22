@@ -1,0 +1,103 @@
+{
+    "key": "NMU68KGA",
+    "version": 7274,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/NMU68KGA",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/NMU68KGA",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Jastrow",
+        "parsedDate": "1989",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "NMU68KGA",
+        "version": 7274,
+        "itemType": "journalArticle",
+        "title": "Notes on Jewish Ma?lawi",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Otto",
+                "lastName": "Jastrow"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Jerusalem Studies in Arabic and Islam",
+        "volume": "2",
+        "issue": "",
+        "pages": "282-293",
+        "date": "1989",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:jastrow_1989_3054)",
+        "tags": [
+            {
+                "tag": "geo:Mosul [36.35, 43.16]"
+            },
+            {
+                "tag": "cnt:Iraq"
+            },
+            {
+                "tag": "vt:Jewish dialects"
+            },
+            {
+                "tag": "vt:Mesopotamia"
+            },
+            {
+                "tag": "vt:sedentary dialect"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "key": "YUNAMUSR",
+    "version": 7110,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/YUNAMUSR",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/YUNAMUSR",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Drozdík",
+        "parsedDate": "1999",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "YUNAMUSR",
+        "version": 7110,
+        "itemType": "journalArticle",
+        "title": "Some aspects of relativization in Egyptian colloquial arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "L.",
+                "lastName": "Drozdík"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Asian and African Studies (Bratislava)",
+        "volume": "8",
+        "issue": "i",
+        "pages": "74-82",
+        "date": "1999",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:drozdik_1999_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:semantics"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

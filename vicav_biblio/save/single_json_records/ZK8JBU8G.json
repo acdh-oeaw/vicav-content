@@ -1,0 +1,104 @@
+{
+    "key": "ZK8JBU8G",
+    "version": 3792,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ZK8JBU8G",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ZK8JBU8G",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Nallino",
+        "parsedDate": "1900",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ZK8JBU8G",
+        "version": 3792,
+        "itemType": "book",
+        "title": "L’arabo parlato in Egitto; grammatica, dialoghi e raccolta di circa 6000 vocaboli. Forma la nuova ed. completamente rifatta del Manuale dell’arabo volgare di de Sterlich e Dib Khaddag",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Carlo Alfonso",
+                "lastName": "Nallino"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Milano",
+        "publisher": "U. Hoepli",
+        "date": "1900",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:nallino_1900_0000)",
+        "tags": [
+            {
+                "tag": "geo:Cairo [30.04, 31.23]"
+            },
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:textbook"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-03T18:41:15Z"
+    }
+}

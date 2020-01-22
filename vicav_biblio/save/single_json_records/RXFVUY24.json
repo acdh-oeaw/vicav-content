@@ -1,0 +1,102 @@
+{
+    "key": "RXFVUY24",
+    "version": 5674,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/RXFVUY24",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/RXFVUY24",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Wagner",
+        "parsedDate": "1966",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "RXFVUY24",
+        "version": 5674,
+        "itemType": "journalArticle",
+        "title": "Der Jemen als Vermittler äthiopischen Sprachgutes",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ewald",
+                "lastName": "Wagner"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Die Sprache",
+        "volume": "12",
+        "issue": "",
+        "pages": "252-279",
+        "date": "1966",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Yemen"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-14T19:27:03Z",
+        "dateModified": "2018-10-14T19:27:30Z"
+    }
+}

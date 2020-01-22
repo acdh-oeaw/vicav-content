@@ -1,0 +1,99 @@
+{
+    "key": "ZJDIUR9G",
+    "version": 8071,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ZJDIUR9G",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ZJDIUR9G",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "El Hakimi",
+        "parsedDate": "1995",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "ZJDIUR9G",
+        "version": 8071,
+        "itemType": "thesis",
+        "title": "Die Farbbezeichnungen im Deutschen und Marokkanisch-Arabischen",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Izz Eddine",
+                "lastName": "El Hakimi"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "Doctorat d'Etat",
+        "university": "Neuphilologische Fakultät - Casablanca / Aïn Chock",
+        "place": "Casablanca",
+        "date": "1995",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:el hakimi_1995_3588)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:lexicon"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-05T12:41:12Z"
+    }
+}

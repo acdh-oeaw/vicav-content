@@ -1,0 +1,99 @@
+{
+    "key": "A78G9U49",
+    "version": 2891,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/A78G9U49",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/A78G9U49",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Watson",
+        "parsedDate": "2006",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "A78G9U49",
+        "version": 2891,
+        "itemType": "bookSection",
+        "title": "Two texts from Jabal Razi?, north-west Yemen",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Janet C.E.",
+                "lastName": "Watson"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Current issues in the analysis of Semitic grammar and lexicon II: Oslo-Göteborg cooperation 4th-5th November 2005",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrassowitz",
+        "date": "2006",
+        "pages": "40-63",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:watson_2006_0002)",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "cnt:Yemen"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-08T10:17:13Z"
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "key": "VWI3ACMX",
+    "version": 2433,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/VWI3ACMX",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/VWI3ACMX",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Bennis and Iazzi",
+        "parsedDate": "1995",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "VWI3ACMX",
+        "version": 2433,
+        "itemType": "journalArticle",
+        "title": "Morphologie du verbe causatif en arabe marocain",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Saïd",
+                "lastName": "Bennis"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "El Mehdi",
+                "lastName": "Iazzi"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Langues et Littératures",
+        "volume": "13",
+        "issue": "",
+        "pages": "79-96",
+        "date": "1995",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "English",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:bennis_1995_3384)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/DFRKB5YP"
+        },
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-21T08:19:50Z"
+    }
+}

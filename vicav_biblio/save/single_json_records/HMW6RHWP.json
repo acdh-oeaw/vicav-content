@@ -1,0 +1,100 @@
+{
+    "key": "HMW6RHWP",
+    "version": 7060,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/HMW6RHWP",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/HMW6RHWP",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Benjelloun",
+        "parsedDate": "2001",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "HMW6RHWP",
+        "version": 7060,
+        "itemType": "journalArticle",
+        "title": "L'arabe: de la langue maternelle marocaine à la langue d'enseignement",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Saïd",
+                "lastName": "Benjelloun"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Revue des Deux Rives: Europe-Maghreb",
+        "volume": "2",
+        "issue": "",
+        "pages": "9-26",
+        "date": "2001",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:benjelloun_2001_3369)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

@@ -1,0 +1,117 @@
+{
+    "key": "9SFTSBBF",
+    "version": 5641,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/9SFTSBBF",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/9SFTSBBF",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Youssi",
+        "parsedDate": "1989",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "9SFTSBBF",
+        "version": 5641,
+        "itemType": "bookSection",
+        "title": "Parlers arabes d'Occident: Présentation",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Abderrahim",
+                "lastName": "Youssi"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Langue et société au Maghreb. Bilan et perspectives",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Rabat",
+        "publisher": "University Mohammed V",
+        "date": "1989",
+        "pages": "151-163",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "cnt:Libya"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "cnt:Tunisia"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-14T19:55:21Z",
+        "dateModified": "2018-10-14T19:55:59Z"
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "key": "XR9N7DUQ",
+    "version": 7907,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/XR9N7DUQ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/XR9N7DUQ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Belnap",
+        "parsedDate": "2009",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "XR9N7DUQ",
+        "version": 7907,
+        "itemType": "journalArticle",
+        "title": "A New Perspective on the History of Arabic Variation in Marking Agreement with Plural Heads",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "R. Kirk",
+                "lastName": "Belnap"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Folia Linguistica",
+        "volume": "33",
+        "issue": "1-2",
+        "pages": "169",
+        "date": "2009",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "flin",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "https://www.degruyter.com/view/j/flin.1999.33.issue-1-2/flin.1999.33.1-2.169/flin.1999.33.1-2.169.xml",
+        "accessDate": "2018-01-15",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:belnap r. kirk_2009_3013)",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "vt:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-07-19T17:51:24Z"
+    }
+}

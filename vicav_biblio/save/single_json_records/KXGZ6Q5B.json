@@ -1,0 +1,105 @@
+{
+    "key": "KXGZ6Q5B",
+    "version": 6515,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/KXGZ6Q5B",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/KXGZ6Q5B",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Lamrani",
+        "parsedDate": "2006",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "KXGZ6Q5B",
+        "version": 6515,
+        "itemType": "bookSection",
+        "title": "The use of modern standard Arabic (MSA) in the Moroccan criminal courtroom and the problems of miscommunication",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Fatima Zohra",
+                "lastName": "Lamrani"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Salah",
+                "lastName": "Mejri"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "L’arabe dialectal : enquêtes, descriptions, interprétations. Actes d’AIDA 6. Travaux Offerts au Professeur Taieb Baccouche",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Tunis",
+        "publisher": "Centre d'Etudes et de Recherches Economiques et Sociales",
+        "date": "2006",
+        "pages": "233-242",
+        "language": "",
+        "ISBN": "9954-0-2720-3",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:lamrani_youssi_2006_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:jargon"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T12:06:51Z"
+    }
+}

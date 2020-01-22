@@ -1,0 +1,102 @@
+{
+    "key": "WWQW7N6A",
+    "version": 8345,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/WWQW7N6A",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/WWQW7N6A",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Rosenhouse",
+        "parsedDate": "1993",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "WWQW7N6A",
+        "version": 8345,
+        "itemType": "journalArticle",
+        "title": "Contribution to the Study of Moroccan Judaeo-Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Judith",
+                "lastName": "Rosenhouse"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Zeitschrift für Arabische Linguistik",
+        "volume": "",
+        "issue": "26",
+        "pages": "66-87",
+        "date": "1993",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "0170026X",
+        "shortTitle": "",
+        "url": "http://www.jstor.org/stable/43525615",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:rosenhouse_1993_2866)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Jewish dialects"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:ethnic minorities"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/ZDCAZRYW"
+        },
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-21T09:04:30Z"
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "key": "R9R57J7F",
+    "version": 8723,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/R9R57J7F",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/R9R57J7F",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Al-Wer et al.",
+        "parsedDate": "2015",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "R9R57J7F",
+        "version": 8723,
+        "itemType": "journalArticle",
+        "title": "How Arabic Regional Features Become Sectarian Features Jordan as a Case Study",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Enam",
+                "lastName": "Al-Wer"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Uri",
+                "lastName": "Horesh"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Bruno",
+                "lastName": "Herin"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Maria",
+                "lastName": "Fanis"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Zeitschrift für Arabische Linguistik",
+        "volume": "",
+        "issue": "62",
+        "pages": "68-87",
+        "date": "2015",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Jordan"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2019-03-15T18:03:49Z",
+        "dateModified": "2019-03-15T18:05:09Z"
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "key": "PFW9CNIJ",
+    "version": 2531,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/PFW9CNIJ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/PFW9CNIJ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Grigore",
+        "parsedDate": "2014",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "PFW9CNIJ",
+        "version": 2531,
+        "itemType": "bookSection",
+        "title": "Le verbe et les particules préverbales dans l’arabe parlé à Siirt (Turquie)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "George",
+                "lastName": "Grigore"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Olivier",
+                "lastName": "Durand"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Angela Daiana",
+                "lastName": "Langone"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Giuliano",
+                "lastName": "Mion"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Alf lahga wa lahga : proceedings of the 9th Aida Conference",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wien",
+        "publisher": "LIT Verlag",
+        "date": "2014",
+        "pages": "173-181",
+        "language": "",
+        "ISBN": "978-3-643-90334-1",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:grigore_durand_2014_0000)",
+        "tags": [
+            {
+                "tag": "geo:Siirt [37.92, 41.94]"
+            },
+            {
+                "tag": "reg:Mesopotamia [35.14, 42.48]"
+            },
+            {
+                "tag": "reg:Turkey [38.08, 41.10]"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-24T11:08:14Z"
+    }
+}

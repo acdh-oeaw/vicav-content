@@ -1,0 +1,91 @@
+{
+    "key": "3287WCFI",
+    "version": 7781,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/3287WCFI",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/3287WCFI",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Caprile",
+        "parsedDate": "1978",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "3287WCFI",
+        "version": 7781,
+        "itemType": "journalArticle",
+        "title": "L'importance d'une langue peut-elle se mesurer au nombre de ses locuteurs? Essai d'évaluation démolinguistique du Tchad",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "J. P.",
+                "lastName": "Caprile"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Laboratoire de Langues et Civilisations à TraditionOrale, LACITO - documents: Afrique",
+        "volume": "4",
+        "issue": "",
+        "pages": "73-88",
+        "date": "1978",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:caprile_1978_0000)",
+        "tags": [
+            {
+                "tag": "reg:Chad"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:Arabic as a minority language"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-02T13:34:36Z"
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "key": "3DA55Q36",
+    "version": 7962,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/3DA55Q36",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/3DA55Q36",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Brugnatelli",
+        "parsedDate": "2013",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "3DA55Q36",
+        "version": 7962,
+        "itemType": "bookSection",
+        "title": "Arab-Berber contacts in the Middle Ages and ancient Arabic dialects: new evidence from an old Iba?ite religious text",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Vermondo",
+                "lastName": "Brugnatelli"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Mena",
+                "lastName": "Lafkioui"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "African Arabic : approaches to dialectology",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Berlin",
+        "publisher": "de Gruyter Mouton",
+        "date": "2013",
+        "pages": "271-292",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:brugnatelli_2013_2955)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:berber languages"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:manuscripts"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-01T10:44:41Z"
+    }
+}

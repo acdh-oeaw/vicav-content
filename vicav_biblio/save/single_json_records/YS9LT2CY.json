@@ -1,0 +1,101 @@
+{
+    "key": "YS9LT2CY",
+    "version": 3422,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/YS9LT2CY",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/YS9LT2CY",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Piamenta",
+        "parsedDate": "1991",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "YS9LT2CY",
+        "version": 3422,
+        "itemType": "book",
+        "title": "Dictionary of post-classical Yemeni Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Moshe",
+                "lastName": "Piamenta"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "2",
+        "numberOfVolumes": "1",
+        "edition": "",
+        "place": "Leiden",
+        "publisher": "Brill",
+        "date": "1991",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:piamenta_1991_0001)",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "cnt:Yemen"
+            },
+            {
+                "tag": "vt:dictionary"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-24T08:05:51Z"
+    }
+}

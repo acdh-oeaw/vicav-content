@@ -1,0 +1,113 @@
+{
+    "key": "ID2VN4K7",
+    "version": 4342,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ID2VN4K7",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ID2VN4K7",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 5116658,
+            "username": "erceg2018",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/erceg2018",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Maamouri",
+        "parsedDate": "2000",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ID2VN4K7",
+        "version": 4342,
+        "itemType": "book",
+        "title": "Aménagement linguistique en contexte scolaire au Maroc: Arabisation et aménagement linguistique de la langue arabe",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Mohamed",
+                "lastName": "Maamouri"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Rabat",
+        "publisher": "Séminaire sur les langues d'enseignement",
+        "date": "2000",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:maamouri_2000_4286)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:jargon"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T13:25:34Z"
+    }
+}

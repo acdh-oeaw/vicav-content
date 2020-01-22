@@ -1,0 +1,112 @@
+{
+    "key": "JCGM35IW",
+    "version": 4118,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/JCGM35IW",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/JCGM35IW",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 5116658,
+            "username": "erceg2018",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/erceg2018",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Holes",
+        "parsedDate": "2007",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "JCGM35IW",
+        "version": 4118,
+        "itemType": "bookSection",
+        "title": "Hello, I say, and welcome! Where from, these riding men?\" Arabic popular poetry and political satire: a study in intertextuality from Jordan",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Clive",
+                "lastName": "Holes"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Everhard",
+                "lastName": "Ditters"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Harald",
+                "lastName": "Motzki"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Approaches to Arabic linguistics: presented to Kees Versteegh on the occasion of his sixtieth birthday",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leiden & Boston",
+        "publisher": "Brill",
+        "date": "2007",
+        "pages": "543-563",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:holes_2007_0001)",
+        "tags": [
+            {
+                "tag": "cnt:Jordan"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:oral poetry"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-18T14:08:04Z"
+    }
+}

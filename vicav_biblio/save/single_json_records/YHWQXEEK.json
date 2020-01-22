@@ -1,0 +1,91 @@
+{
+    "key": "YHWQXEEK",
+    "version": 7119,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/YHWQXEEK",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/YHWQXEEK",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Durand",
+        "parsedDate": "1992",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "YHWQXEEK",
+        "version": 7119,
+        "itemType": "journalArticle",
+        "title": "I preverbi dell'imperfettivo in arabo dialettale",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "O.",
+                "lastName": "Durand"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Rivista degli Studi Orientali",
+        "volume": "65 i-ii",
+        "issue": "1991",
+        "pages": "1-11",
+        "date": "1992",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:durand_1992_0000)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

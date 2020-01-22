@@ -1,0 +1,100 @@
+{
+    "key": "KPD7GI8R",
+    "version": 2284,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/KPD7GI8R",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/KPD7GI8R",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Nacer Idirssi",
+        "parsedDate": "2002",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "KPD7GI8R",
+        "version": 2284,
+        "itemType": "thesis",
+        "title": "Morphologie derivationnelle vs Morphologie flexionnelle en grammaire fonctionnelle: Le cas du predicat en Arabe Marocain",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Abdelfattah",
+                "lastName": "Nacer Idirssi"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "Doctorat d'Etat",
+        "university": "Faulté des Lettres - Rabat",
+        "place": "Rabat",
+        "date": "2002",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:nacer idirssi_2002_3887)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:syntax"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

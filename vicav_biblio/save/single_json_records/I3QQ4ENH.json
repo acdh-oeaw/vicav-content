@@ -1,0 +1,100 @@
+{
+    "key": "I3QQ4ENH",
+    "version": 7728,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/I3QQ4ENH",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/I3QQ4ENH",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Procházka",
+        "parsedDate": "2002",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "I3QQ4ENH",
+        "version": 7728,
+        "itemType": "journalArticle",
+        "title": "Die Alawitendialekte der Çukurova – Vergleichsmaterialien zu Peter Behnstedts Sprachatlas von Syrien",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Stephan",
+                "lastName": "Procházka"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Wiener Zeitschrift für die Kunde des Morgenlandes",
+        "volume": "92",
+        "issue": "",
+        "pages": "91-109",
+        "date": "2002",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:prochazka_2002_3260)",
+        "tags": [
+            {
+                "tag": "geo:Çukurova [47.49, 9.73]"
+            },
+            {
+                "tag": "reg:Turkey [38.08, 41.10]"
+            },
+            {
+                "tag": "vt:Mesopotamia"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:minorities"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-02-26T19:32:30Z"
+    }
+}

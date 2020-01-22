@@ -1,0 +1,126 @@
+{
+    "key": "P7CJ46FG",
+    "version": 7846,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/P7CJ46FG",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/P7CJ46FG",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Akkal",
+        "parsedDate": "1995",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "P7CJ46FG",
+        "version": 7846,
+        "itemType": "bookSection",
+        "title": "The verbless construction and the participle in Moroccan Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ahmed",
+                "lastName": "Akkal"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Recherches en linguistique arabe. Ab?ath fi al-lisaniyat al-?Arabiya.                     Préparé par Abdellatif Chouta, Abdelmajid Jahfa.",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Casablanca",
+        "publisher": "Publications de la Faculté es Lettres et des Sciences Humaines Ben Msick",
+        "date": "1995",
+        "pages": "13-36",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:akkal_1995_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:syntax"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": [
+                "http://zotero.org/groups/2165756/items/ZT7C5KFK",
+                "http://zotero.org/groups/2165756/items/K2XE82Z7",
+                "http://zotero.org/groups/2165756/items/QSSMX35D"
+            ]
+        },
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-03T12:02:25Z"
+    }
+}

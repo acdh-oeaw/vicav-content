@@ -1,0 +1,99 @@
+{
+    "key": "AD5MSKZC",
+    "version": 3769,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/AD5MSKZC",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/AD5MSKZC",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Colin",
+        "parsedDate": "1969",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "AD5MSKZC",
+        "version": 3769,
+        "itemType": "journalArticle",
+        "title": "Quelques 'mots voyageurs' dans les parlers arabes et berbères du Maghreb",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Georges Séraphin",
+                "lastName": "Colin"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Comptes Rendus du Groupe Linguistique d'Etudes Chamito-Sémitiques: G.L.E.C.S",
+        "volume": "12-13",
+        "issue": "",
+        "pages": "59-64",
+        "date": "1969",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:colin_1969_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "vt:lexicon"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-03T18:22:24Z"
+    }
+}

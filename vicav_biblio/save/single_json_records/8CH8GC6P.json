@@ -1,0 +1,103 @@
+{
+    "key": "8CH8GC6P",
+    "version": 2300,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/8CH8GC6P",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/8CH8GC6P",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Nakao",
+        "parsedDate": "2016",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "8CH8GC6P",
+        "version": 2300,
+        "itemType": "bookSection",
+        "title": "Pidgins on the Nile: Europeans and Broken Arabic, from Egypt to Uganda",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Shuichiro",
+                "lastName": "Nakao"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Muntasir F.",
+                "lastName": "Al-Hamad"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Rizwan",
+                "lastName": "Ahmed"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Hafid I.",
+                "lastName": "Aloui"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Lisan al-arab: Studies in Contemporary Arabic Dialects. Proceedings of the 10th International Conference of AIDA. Qatar University 2013",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Vienna",
+        "publisher": "LIT Verlag",
+        "date": "2016",
+        "pages": "219-233",
+        "language": "",
+        "ISBN": "978-3-643-90334-1",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:nakao_al_hamad_2016_0000)",
+        "tags": [
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

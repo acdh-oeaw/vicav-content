@@ -1,0 +1,99 @@
+{
+    "key": "54KJWHNR",
+    "version": 8207,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/54KJWHNR",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/54KJWHNR",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Luffin",
+        "parsedDate": "2013",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "54KJWHNR",
+        "version": 8207,
+        "itemType": "bookSection",
+        "title": "Some new information about Bongor Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Xavier",
+                "lastName": "Luffin"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Mena",
+                "lastName": "Lafkioui"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "African Arabic : approaches to dialectology",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Berlin",
+        "publisher": "de Gruyter Mouton",
+        "date": "2013",
+        "pages": "161-182",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:luffin_2013_2949)",
+        "tags": [
+            {
+                "tag": "cnt:Chad"
+            },
+            {
+                "tag": "vt:Central Africa"
+            },
+            {
+                "tag": "vt:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:creole"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

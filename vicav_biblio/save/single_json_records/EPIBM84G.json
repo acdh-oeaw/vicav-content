@@ -1,0 +1,99 @@
+{
+    "key": "EPIBM84G",
+    "version": 3352,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/EPIBM84G",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/EPIBM84G",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Rosenbaum",
+        "parsedDate": "1998",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "EPIBM84G",
+        "version": 3352,
+        "itemType": "bookSection",
+        "title": "Address forms in Egyptian literature",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Gabriel M.",
+                "lastName": "Rosenbaum"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Proceedings of the Arabic and Islamic sections : Part one / of the 35th International Congress of Asian and North African Studies (ICANAS), Budapest, 1-7 July 1997",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Budapest",
+        "publisher": "Csoma de Korös Society. Section of Islamic Studies",
+        "date": "1998",
+        "pages": "99-108",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:rosenbaum_1998_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-15T13:04:11Z"
+    }
+}

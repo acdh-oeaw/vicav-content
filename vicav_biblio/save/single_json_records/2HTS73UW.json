@@ -1,0 +1,120 @@
+{
+    "key": "2HTS73UW",
+    "version": 6422,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/2HTS73UW",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/2HTS73UW",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Ghannami",
+        "parsedDate": "1997",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "2HTS73UW",
+        "version": 6422,
+        "itemType": "book",
+        "title": "Contes fantastiques arabes (recueillis dans la région d'Oujda): classification, structuration, interprétation et traduction",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Rachida el",
+                "lastName": "Ghannami"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Villeneuve d'Ascq",
+        "publisher": "Presses Universitaires du Septentrion",
+        "date": "1997",
+        "numPages": "",
+        "language": "French",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:ghannami_1997_3649)",
+        "tags": [
+            {
+                "tag": "geo:Oujda [34.68, -1.90]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:ethnographic record"
+            },
+            {
+                "tag": "vt:ethnography"
+            },
+            {
+                "tag": "vt:folklore"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:music"
+            },
+            {
+                "tag": "vt:oral narratives"
+            },
+            {
+                "tag": "vt:oral poetry"
+            },
+            {
+                "tag": "vt:sedentary dialect"
+            },
+            {
+                "tag": "vt:songs"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T18:28:44Z"
+    }
+}

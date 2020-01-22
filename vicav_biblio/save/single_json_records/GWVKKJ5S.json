@@ -1,0 +1,118 @@
+{
+    "key": "GWVKKJ5S",
+    "version": 2431,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/GWVKKJ5S",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/GWVKKJ5S",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Hurch and Maas",
+        "parsedDate": "1998",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "GWVKKJ5S",
+        "version": 2431,
+        "itemType": "journalArticle",
+        "title": "Morphoprosodie des marokkanischen Arabischen",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Richard",
+                "lastName": "Hurch"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Utz",
+                "lastName": "Maas"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Folia Linguistica: Acta Societatis Linguisticae Europaeae",
+        "volume": "32",
+        "issue": "3-4",
+        "pages": "239-263",
+        "date": "1998",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "German",
+        "DOI": "",
+        "ISSN": "0165-4004",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:hurch_1998_4229)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:phonology"
+            },
+            {
+                "tag": "vt:prosody"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/9JQQTL7Q"
+        },
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-21T08:16:30Z"
+    }
+}

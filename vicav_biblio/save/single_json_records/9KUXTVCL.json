@@ -1,0 +1,93 @@
+{
+    "key": "9KUXTVCL",
+    "version": 6231,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/9KUXTVCL",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/9KUXTVCL",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Omar",
+        "parsedDate": "1975",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "9KUXTVCL",
+        "version": 6231,
+        "itemType": "book",
+        "title": "Saudi Arabic Urban Hijazi Dialect. Basic Course",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Margaret K.",
+                "lastName": "Omar"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Washington D.C.",
+        "publisher": "MPS Multimedia Inc. DBA Selectsoft",
+        "date": "1975",
+        "numPages": "288",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:omar_1975_0000)",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "cnt:Saudi Arabia"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:textbook"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-10-11T14:19:59Z"
+    }
+}

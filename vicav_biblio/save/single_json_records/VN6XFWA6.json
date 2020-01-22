@@ -1,0 +1,93 @@
+{
+    "key": "VN6XFWA6",
+    "version": 2332,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/VN6XFWA6",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/VN6XFWA6",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Marçais",
+        "parsedDate": "1956",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "VN6XFWA6",
+        "version": 2332,
+        "itemType": "book",
+        "title": "Le parler arabe de Djidjelli",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Philippe",
+                "lastName": "Marçais"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Paris",
+        "publisher": "",
+        "date": "1956",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:marcais_1956_0000)",
+        "tags": [
+            {
+                "tag": "geo:Jijel [36.81, 5.74]"
+            },
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "vt:description of dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

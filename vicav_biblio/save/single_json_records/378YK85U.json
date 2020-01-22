@@ -1,0 +1,91 @@
+{
+    "key": "378YK85U",
+    "version": 6511,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/378YK85U",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/378YK85U",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Laria",
+        "parsedDate": "1994",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "378YK85U",
+        "version": 6511,
+        "itemType": "journalArticle",
+        "title": "Classi morfologiche del verbo nel dialetto della Cirenaica",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Massimo",
+                "lastName": "Laria"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Quaderni di Studi Arabi",
+        "volume": "11",
+        "issue": "1993",
+        "pages": "107-115",
+        "date": "1994",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:laria_1994_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Libya"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T12:11:34Z"
+    }
+}

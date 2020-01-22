@@ -1,0 +1,108 @@
+{
+    "key": "8GP9D4NV",
+    "version": 8073,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/8GP9D4NV",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/8GP9D4NV",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "El-Hassan",
+        "parsedDate": "1978",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "8GP9D4NV",
+        "version": 8073,
+        "itemType": "journalArticle",
+        "title": "Educated spoken Arabic in Egypt and the Levant: A critical review of diglossia and related concepts",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "S.A.",
+                "lastName": "El-Hassan"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Archivum Linguisticum",
+        "volume": "8",
+        "issue": "",
+        "pages": "151-187",
+        "date": "1978",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-01T15:25:36Z",
+        "dateModified": "2018-10-01T15:26:14Z"
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "key": "YRQNII86",
+    "version": 6168,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/YRQNII86",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/YRQNII86",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Procházka",
+        "parsedDate": "2009",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "YRQNII86",
+        "version": 6168,
+        "itemType": "bookSection",
+        "title": "Marginalia zum jemenitisch-arabischen Lexikon",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Stephan",
+                "lastName": "Procházka"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Werner",
+                "lastName": "Arnold"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Michael",
+                "lastName": "Jursa"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Walter W.",
+                "lastName": "Müller"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Stephan",
+                "lastName": "Procházka"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Philologisches und Historisches zwischen Anatolien und Sokotra: Analecta Semitica in Memoriam Alexander Sima",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrassowitz",
+        "date": "2009",
+        "pages": "279-296",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:prochazka_2009_3258)",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "cnt:Yemen"
+            },
+            {
+                "tag": "vt:Oman/Yemen"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-09-03T12:22:29Z",
+        "dateModified": "2018-09-03T12:22:29Z"
+    }
+}

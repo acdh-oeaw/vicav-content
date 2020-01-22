@@ -1,0 +1,109 @@
+{
+    "key": "X8V2DKZY",
+    "version": 2286,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/X8V2DKZY",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/X8V2DKZY",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Hilili",
+        "parsedDate": "1979",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "X8V2DKZY",
+        "version": 2286,
+        "itemType": "thesis",
+        "title": "Phonologie et morphologie de l'ancien Fassi (parler arabe marocain)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Abdelaziz",
+                "lastName": "Hilili"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "Thèse de 3ème cycle non publiée",
+        "university": "Paris III",
+        "place": "Paris",
+        "date": "1979",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:hilili_1979_3705)",
+        "tags": [
+            {
+                "tag": "geo:Fez [34.01, -5.00]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:manuscripts"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:phonology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

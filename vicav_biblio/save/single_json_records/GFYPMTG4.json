@@ -1,0 +1,111 @@
+{
+    "key": "GFYPMTG4",
+    "version": 8885,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/GFYPMTG4",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/GFYPMTG4",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4621144,
+            "username": "Bettina_Leit",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/bettina_leit",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Layard",
+        "parsedDate": "1846",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "GFYPMTG4",
+        "version": 8885,
+        "itemType": "journalArticle",
+        "title": "A Description of the Province of Khúzistán",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "A. H.",
+                "lastName": "Layard"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Journal of the Royal Geographical Society of London",
+        "volume": "16",
+        "issue": "",
+        "pages": "1-105",
+        "date": "1846",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "10.2307/1798222",
+        "ISSN": "02666235",
+        "shortTitle": "",
+        "url": "https://www.jstor.org/stable/1798222?origin=crossref",
+        "accessDate": "2019-01-16T10:22:38Z",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "Crossref",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Khuzestan"
+            },
+            {
+                "tag": "cnt:Iran"
+            },
+            {
+                "tag": "vt:Mesopotamia"
+            },
+            {
+                "tag": "vt:ethnic minorities"
+            },
+            {
+                "tag": "vt:ethnography"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2019-01-16T10:22:38Z",
+        "dateModified": "2019-03-21T07:58:05Z"
+    }
+}

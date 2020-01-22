@@ -1,0 +1,117 @@
+{
+    "key": "WS68TQIU",
+    "version": 8732,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/WS68TQIU",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/WS68TQIU",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Woidich and Zack",
+        "parsedDate": "2009",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "WS68TQIU",
+        "version": 8732,
+        "itemType": "bookSection",
+        "title": "The g/g-question in Egyptian Arabic revisited",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Manfred",
+                "lastName": "Woidich"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Enam",
+                "lastName": "Al-Wer"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Rudolf",
+                "lastName": "de Jong"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Liesbeth",
+                "lastName": "Zack"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Arabic Dialectology. In honour of Clive Holes on the Occasion of his Sixtieth Birthday",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leiden and Boston",
+        "publisher": "Brill",
+        "date": "2009",
+        "pages": "41-60",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:behnstedt_2009_4391)",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "vt:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2019-03-15T17:47:59Z",
+        "dateModified": "2019-03-15T17:49:25Z"
+    }
+}

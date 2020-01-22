@@ -1,0 +1,102 @@
+{
+    "key": "3FRIBJ53",
+    "version": 5944,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/3FRIBJ53",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/3FRIBJ53",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Corriente",
+        "parsedDate": "1994",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "3FRIBJ53",
+        "version": 5944,
+        "itemType": "bookSection",
+        "title": "Current state of research in the field of Andalusi Arabic: Achievements and prospects",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Federico",
+                "lastName": "Corriente"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Perspectives on Arabic Linguistics VI",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Amsterdam & Philadelphia",
+        "publisher": "John Benjamins",
+        "date": "1994",
+        "pages": "7-16",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "reg:Andalusia [39.92, -3.02]"
+            },
+            {
+                "tag": "reg:Spain [39.92, -3.02]"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-01T10:12:23Z",
+        "dateModified": "2018-10-27T13:44:31Z"
+    }
+}

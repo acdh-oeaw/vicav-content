@@ -1,0 +1,104 @@
+{
+    "key": "ULXGC8A6",
+    "version": 3350,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ULXGC8A6",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ULXGC8A6",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Rosenbaum",
+        "parsedDate": "2000",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ULXGC8A6",
+        "version": 3350,
+        "itemType": "bookSection",
+        "title": "Alternating style in Egyptian prose",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Gabriel M.",
+                "lastName": "Rosenbaum"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Manwel",
+                "lastName": "Mifsud"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Proceedings of the Third International Conference of AÏDA: Association Internationale de Dialectologie Arabe: held at Malta, 29 March – 2 April 1998",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Malta",
+        "publisher": "Association Internationale de Dialectologie Arabe",
+        "date": "2000",
+        "pages": "145-150",
+        "language": "",
+        "ISBN": "99932-0-044-1",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:rosenbaum_mifsud_2000_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-15T13:02:29Z"
+    }
+}

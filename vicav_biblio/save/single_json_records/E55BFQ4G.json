@@ -1,0 +1,106 @@
+{
+    "key": "E55BFQ4G",
+    "version": 2316,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/E55BFQ4G",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/E55BFQ4G",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Benhattab",
+        "parsedDate": "2014",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "E55BFQ4G",
+        "version": 2316,
+        "itemType": "bookSection",
+        "title": "The treatment of Algerian Arabic and French bare forms in the speech of the members of the Mzabi and Kabyle minorities of Oran",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Lotfi Abdelkader",
+                "lastName": "Benhattab"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Olivier",
+                "lastName": "Durand"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Angela Daiana",
+                "lastName": "Langone"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Giuliano",
+                "lastName": "Mion"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Alf lahga wa lahga : proceedings of the 9th Aida Conference",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wien",
+        "publisher": "LIT Verlag",
+        "date": "2014",
+        "pages": "47-56",
+        "language": "",
+        "ISBN": "978-3-643-90334-1",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:benhattab_durand_2014_0000)",
+        "tags": [
+            {
+                "tag": "geo:Oran [35.69, -0.63]"
+            },
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

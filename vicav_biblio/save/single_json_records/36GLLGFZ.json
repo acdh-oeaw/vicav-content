@@ -1,0 +1,114 @@
+{
+    "key": "36GLLGFZ",
+    "version": 6138,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/36GLLGFZ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/36GLLGFZ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Czapkiewicz",
+        "parsedDate": "1967",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "36GLLGFZ",
+        "version": 6138,
+        "itemType": "journalArticle",
+        "title": "The d-form of the verb in the spoken Arabic of Baghdad",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "A.",
+                "lastName": "Czapkiewicz"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Folia Orientalia",
+        "volume": "9",
+        "issue": "",
+        "pages": "5-10",
+        "date": "1967",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Baghdad [33.30, 44.38]"
+            },
+            {
+                "tag": "cnt:Iraq"
+            },
+            {
+                "tag": "reg:Mesopotamia [35.14, 42.48]"
+            },
+            {
+                "tag": "vt:Mesopotamia"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-09-03T18:50:42Z",
+        "dateModified": "2018-09-03T18:51:09Z"
+    }
+}

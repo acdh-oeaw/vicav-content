@@ -1,0 +1,102 @@
+{
+    "key": "M3S793H5",
+    "version": 3496,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/M3S793H5",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/M3S793H5",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Nouaouri",
+        "parsedDate": "2006",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "M3S793H5",
+        "version": 3496,
+        "itemType": "bookSection",
+        "title": "Relative clauses in Moroccan Arabic: its use and acquisition in narratives",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Nadi Hamdi",
+                "lastName": "Nouaouri"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Actas del Primer Congreso Árabe Marroquí: Estudios, Ensenanza y Aprendiziaje",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Cadiz",
+        "publisher": "Servicio de Publicaciones de la Universidad de Cádiz",
+        "date": "2006",
+        "pages": "169-189",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:nouaouri_2006_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-29T19:24:47Z"
+    }
+}

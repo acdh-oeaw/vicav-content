@@ -1,0 +1,96 @@
+{
+    "key": "GL4X42A3",
+    "version": 3904,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/GL4X42A3",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/GL4X42A3",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Eisele",
+        "parsedDate": "1987",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "GL4X42A3",
+        "version": 3904,
+        "itemType": "journalArticle",
+        "title": "Arabic dialectology: a review of recent literature",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "John C.",
+                "lastName": "Eisele"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Al'Arabiyya",
+        "volume": "20",
+        "issue": "",
+        "pages": "199-269",
+        "date": "1987",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:eisele_1987_0000)",
+        "tags": [
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-13T11:54:37Z"
+    }
+}

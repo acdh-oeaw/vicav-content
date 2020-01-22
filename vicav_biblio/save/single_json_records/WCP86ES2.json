@@ -1,0 +1,105 @@
+{
+    "key": "WCP86ES2",
+    "version": 7991,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/WCP86ES2",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/WCP86ES2",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Caubet",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "WCP86ES2",
+        "version": 7991,
+        "itemType": "bookSection",
+        "title": "Dialectologie et histoire au Maghreb: pour une sociolinguistique historique",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Dominique",
+                "lastName": "Caubet"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Jocelyne",
+                "lastName": "Dakhila"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Trames de langues. Usages et métissages linguistiques dans l'histoire du Maghreb",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Paris",
+        "publisher": "Maisonneuve et Larose",
+        "date": "2004",
+        "pages": "59-70",
+        "language": "French",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:caubet_2004_3503)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:berber languages"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

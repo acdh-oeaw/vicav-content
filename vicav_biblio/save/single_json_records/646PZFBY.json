@@ -1,0 +1,100 @@
+{
+    "key": "646PZFBY",
+    "version": 7155,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/646PZFBY",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/646PZFBY",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Jarrah",
+        "parsedDate": "2000",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "646PZFBY",
+        "version": 7155,
+        "itemType": "journalArticle",
+        "title": "Communication strategies in Jordanian medical discourse: doctor-patient communication",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Mohammad al-",
+                "lastName": "Jarrah"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Abhath al-Yarmouk: Literature & Linguistics Series / Ab?ath al-Yarmuk: Silsilat al-Adab wa-'l-Lughawiyat",
+        "volume": "18",
+        "issue": "i",
+        "pages": "17-43",
+        "date": "2000",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "10230157",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:jarrah_2000_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Jordan"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:jargon"
+            },
+            {
+                "tag": "vt:pragmatics"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

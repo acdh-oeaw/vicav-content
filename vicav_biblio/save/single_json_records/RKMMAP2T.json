@@ -1,0 +1,107 @@
+{
+    "key": "RKMMAP2T",
+    "version": 6867,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/RKMMAP2T",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/RKMMAP2T",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Sánchez",
+        "parsedDate": "2009",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "RKMMAP2T",
+        "version": 6867,
+        "itemType": "conferencePaper",
+        "title": "Enseñanza del árabe marroquí en la ciudad de Marrakech",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Pablo",
+                "lastName": "Sánchez"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Leila",
+                "lastName": "Abu-Shams"
+            }
+        ],
+        "abstractNote": "",
+        "date": "2009",
+        "proceedingsTitle": "Actas del III Congresso Internacional de Árabe Marroquí: Estudio, enseñanza y aprendizaje",
+        "conferenceName": "",
+        "place": "[Bilbao]",
+        "publisher": "Servicio Editorial de la Universida del País Vasco / Euskal Herriko Unibertsitatea Argitalpen Zerbitzua",
+        "volume": "",
+        "pages": "159-175",
+        "series": "",
+        "language": "",
+        "DOI": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Marrakesh [31.62, -7.98]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:teaching materials"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

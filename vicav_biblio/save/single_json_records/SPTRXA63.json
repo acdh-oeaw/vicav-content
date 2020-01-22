@@ -1,0 +1,103 @@
+{
+    "key": "SPTRXA63",
+    "version": 6387,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/SPTRXA63",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/SPTRXA63",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Grand'Henry",
+        "parsedDate": "1981",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "SPTRXA63",
+        "version": 6387,
+        "itemType": "journalArticle",
+        "title": "Les niveaux de langue dans la poésie populaire arabe du Maghrib",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jacques",
+                "lastName": "Grand'Henry"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "",
+        "volume": "Amsterdam Studies in the Theory and History of Linguistic Science",
+        "issue": "16",
+        "pages": "651-658",
+        "date": "1981",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:grand'henry_1981_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:oral literature"
+            },
+            {
+                "tag": "vt:poetry"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T18:52:44Z"
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "key": "2UG7KZPV",
+    "version": 7532,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/2UG7KZPV",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/2UG7KZPV",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Rosenbaum",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "2UG7KZPV",
+        "version": 7532,
+        "itemType": "journalArticle",
+        "title": "Egyptian Arabic as a written language",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Gabriel M.",
+                "lastName": "Rosenbaum"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Jerusalem Studies in Arabic and Islam",
+        "volume": "29",
+        "issue": "",
+        "pages": "281-340",
+        "date": "2004",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "03344118",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:rosenbaum_2004_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:diglossia"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

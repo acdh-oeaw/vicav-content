@@ -1,0 +1,104 @@
+{
+    "key": "R7WMVXTL",
+    "version": 5897,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/R7WMVXTL",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/R7WMVXTL",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Féghali",
+        "parsedDate": "1938",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "R7WMVXTL",
+        "version": 5897,
+        "itemType": "book",
+        "title": "Proverbes et dictons Syro-Libanais. Texte arabe, transcription, traduction, commentaire et index analytique",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Michel",
+                "lastName": "Féghali"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Paris",
+        "publisher": "Institut d’Ethnologie.",
+        "date": "1938",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Lebanon"
+            },
+            {
+                "tag": "vt:dictionary"
+            },
+            {
+                "tag": "vt:proverbs"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-02T14:27:25Z",
+        "dateModified": "2018-10-02T14:27:58Z"
+    }
+}

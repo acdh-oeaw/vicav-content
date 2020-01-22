@@ -1,0 +1,88 @@
+{
+    "key": "7T3XV4PI",
+    "version": 6554,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/7T3XV4PI",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/7T3XV4PI",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Kofler",
+        "parsedDate": "1942",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "7T3XV4PI",
+        "version": 6554,
+        "itemType": "journalArticle",
+        "title": "Reste altarabischer Dialekte",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Hans",
+                "lastName": "Kofler"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Wiener Zeitschrift für die Kunde des Morgenlandes",
+        "volume": "49",
+        "issue": "",
+        "pages": "15-30",
+        "date": "1942",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:kofler_1942_0000)",
+        "tags": [
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-10-22T14:43:17Z"
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "key": "7K6JBK6L",
+    "version": 8333,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/7K6JBK6L",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/7K6JBK6L",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Prochazka",
+        "parsedDate": "1981",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "7K6JBK6L",
+        "version": 8333,
+        "itemType": "journalArticle",
+        "title": "The Shi?i dialects of Bahrain and their relationship to the Eastern Arabian dialect of Mu?arraq and the Omani dialect of al-Ristaq",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Theodor",
+                "lastName": "Prochazka"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Zeitschrift für Arabische Linguistik",
+        "volume": "6",
+        "issue": "",
+        "pages": "16-55",
+        "date": "1981",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:prochazka_1981_0000)",
+        "tags": [
+            {
+                "tag": "geo:Al-Ristaq [23.44, 57.43]"
+            },
+            {
+                "tag": "geo:Muharraq [26.26, 50.62]"
+            },
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "reg:Gulf [26.57, 49.55]"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-07T13:12:46Z"
+    }
+}

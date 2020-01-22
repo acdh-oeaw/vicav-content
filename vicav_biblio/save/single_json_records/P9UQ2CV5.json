@@ -1,0 +1,109 @@
+{
+    "key": "P9UQ2CV5",
+    "version": 2337,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/P9UQ2CV5",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/P9UQ2CV5",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Harrell et al.",
+        "parsedDate": "2006",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "P9UQ2CV5",
+        "version": 2337,
+        "itemType": "book",
+        "title": "A basic course in Moroccan Arabic (with MP3 files)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Richard S.",
+                "lastName": "Harrell"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Mohammed",
+                "lastName": "Abu-Talib"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "William S.",
+                "lastName": "Carroll"
+            }
+        ],
+        "abstractNote": "",
+        "series": "Georgetown Classics in Arabic Language and Linguistics",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Washington, D.C.",
+        "publisher": "Georgetown University Press",
+        "date": "2006",
+        "numPages": "395",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:harrell_2006_4275)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:textbook"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

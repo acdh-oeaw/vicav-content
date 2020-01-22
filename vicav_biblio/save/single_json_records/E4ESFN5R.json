@@ -1,0 +1,94 @@
+{
+    "key": "E4ESFN5R",
+    "version": 2221,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/E4ESFN5R",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/E4ESFN5R",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Matta",
+        "parsedDate": "1999",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "E4ESFN5R",
+        "version": 2221,
+        "itemType": "journalArticle",
+        "title": "Eine syntaktisch-semantische Analyse der redensartlichen Vergleiche im Deutschen und Ägyptisch-Arabischen Anhand eines ausgewählten Korpus",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Hilda",
+                "lastName": "Matta"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Proverbium",
+        "volume": "16",
+        "issue": "",
+        "pages": "193-226",
+        "date": "1999",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:matta_1999_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:semantics"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

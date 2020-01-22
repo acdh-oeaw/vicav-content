@@ -1,0 +1,102 @@
+{
+    "key": "WVQM4TAM",
+    "version": 3076,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/WVQM4TAM",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/WVQM4TAM",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Talmon",
+        "parsedDate": "2000",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "WVQM4TAM",
+        "version": 3076,
+        "itemType": "bookSection",
+        "title": "Arabic as a minority language in Israel",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Rafael",
+                "lastName": "Talmon"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Arabic as a Minority Language",
+        "series": "Contributions to the Sociology of Language",
+        "seriesNumber": "83",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Berlin",
+        "publisher": "Mouton de Gruyter",
+        "date": "2000",
+        "pages": "199-220",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:talmon_2000_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Israel"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:Arabic as a minority language"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-21T16:17:34Z"
+    }
+}

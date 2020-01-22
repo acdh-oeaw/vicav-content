@@ -1,0 +1,94 @@
+{
+    "key": "5IF3JY5L",
+    "version": 6213,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/5IF3JY5L",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/5IF3JY5L",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Maïri",
+        "parsedDate": "1983",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "5IF3JY5L",
+        "version": 6213,
+        "itemType": "journalArticle",
+        "title": "The number marking system of Algiers Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Lies",
+                "lastName": "Maïri"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Zeitschrift für Arabische Linguistik",
+        "volume": "",
+        "issue": "11",
+        "pages": "48-71",
+        "date": "1983",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "0170026X",
+        "shortTitle": "",
+        "url": "http://www.jstor.org/stable/43530434",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:mairi_1983_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-10-29T11:19:51Z"
+    }
+}

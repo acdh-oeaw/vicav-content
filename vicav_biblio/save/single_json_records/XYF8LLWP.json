@@ -1,0 +1,122 @@
+{
+    "key": "XYF8LLWP",
+    "version": 4337,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/XYF8LLWP",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/XYF8LLWP",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 5116658,
+            "username": "erceg2018",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/erceg2018",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Mahi",
+        "parsedDate": "2006",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "XYF8LLWP",
+        "version": 4337,
+        "itemType": "bookSection",
+        "title": "Shifts from Classical Arabic to Moroccan Arabic: diglossia or code-switching?",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Zohra",
+                "lastName": "Mahi"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Saleh",
+                "lastName": "Mejri"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "L'arabe dialectal: enquêtes, descriptions, interprétations (Actes d'AIDA 6). Travaux offerts au Professeur Taïeb Baccouche",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Tunis",
+        "publisher": "Centre d'Etudes et de Recherches Economiques et Sociales",
+        "date": "2006",
+        "pages": "271-280",
+        "language": "English",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T13:17:38Z"
+    }
+}

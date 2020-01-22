@@ -1,0 +1,122 @@
+{
+    "key": "LQ3NTRJM",
+    "version": 3697,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/LQ3NTRJM",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/LQ3NTRJM",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Caubet",
+        "parsedDate": "2005",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "LQ3NTRJM",
+        "version": 3697,
+        "itemType": "journalArticle",
+        "title": "Génération Darija!",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Dominique",
+                "lastName": "Caubet"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Estudios de Dialectología Norteafricana y Andalusí",
+        "volume": "9",
+        "issue": "",
+        "pages": "233-243",
+        "date": "2005",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:caubet_2005_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:folklore"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:music"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:songs"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/3M4WDG75"
+        },
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-02T11:05:52Z"
+    }
+}

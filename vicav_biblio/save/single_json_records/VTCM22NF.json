@@ -1,0 +1,109 @@
+{
+    "key": "VTCM22NF",
+    "version": 6079,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/VTCM22NF",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/VTCM22NF",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Baccouche and Mejri",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "VTCM22NF",
+        "version": 6079,
+        "itemType": "book",
+        "title": "Les questionnaires de l’Atlas linguistique de Tunisie",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Taïeb",
+                "lastName": "Baccouche"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Salah",
+                "lastName": "Mejri"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Tunis",
+        "publisher": "Maisonneuve et Larose",
+        "date": "2004",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Tunisia"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-09-29T14:01:19Z",
+        "dateModified": "2018-09-29T14:02:06Z"
+    }
+}

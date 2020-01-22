@@ -1,0 +1,102 @@
+{
+    "key": "H9TV5UE6",
+    "version": 8261,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/H9TV5UE6",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/H9TV5UE6",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Newton",
+        "parsedDate": "1964",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "H9TV5UE6",
+        "version": 8261,
+        "itemType": "journalArticle",
+        "title": "An Arabic-Greek dialect",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "B.",
+                "lastName": "Newton"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Word",
+        "volume": "20",
+        "issue": "3",
+        "pages": "43-52",
+        "date": "1964",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "reg:Cyprus []"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-11T14:16:31Z",
+        "dateModified": "2018-10-11T14:16:52Z"
+    }
+}

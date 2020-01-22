@@ -1,0 +1,99 @@
+{
+    "key": "MG5RF7AF",
+    "version": 8392,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/MG5RF7AF",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/MG5RF7AF",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Singer",
+        "parsedDate": "1958",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "MG5RF7AF",
+        "version": 8392,
+        "itemType": "bookSection",
+        "title": "Neuarabische Fragewörter: ein Beitrag zur historischen und vergleichenden Grammatik der arabischen Dialekte",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Hans-Rudolf",
+                "lastName": "Singer"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "München",
+        "publisher": "Mikrokopie",
+        "date": "1958",
+        "pages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:singer_0000)",
+        "tags": [
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-07T20:37:08Z"
+    }
+}

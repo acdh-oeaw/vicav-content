@@ -1,0 +1,119 @@
+{
+    "key": "YSWL2YZG",
+    "version": 8013,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/YSWL2YZG",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/YSWL2YZG",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Corriente",
+        "parsedDate": "1997",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "YSWL2YZG",
+        "version": 8013,
+        "itemType": "book",
+        "title": "Poesía dialectal árabe y romance en Alandalús: Cejeles y xarajat de muwašša?at",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Federico",
+                "lastName": "Corriente"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Madrid",
+        "publisher": "Gredos",
+        "date": "1997",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "reg:Andalusia [39.92, -3.02]"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:folklore"
+            },
+            {
+                "tag": "vt:oral literature"
+            },
+            {
+                "tag": "vt:oral poetry"
+            },
+            {
+                "tag": "vt:poetry"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-01T10:32:35Z",
+        "dateModified": "2018-10-27T13:44:50Z"
+    }
+}

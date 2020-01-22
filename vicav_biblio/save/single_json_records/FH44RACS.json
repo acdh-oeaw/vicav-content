@@ -1,0 +1,105 @@
+{
+    "key": "FH44RACS",
+    "version": 2320,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/FH44RACS",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/FH44RACS",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Youssi et al.",
+        "parsedDate": "2002",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "FH44RACS",
+        "version": 2320,
+        "itemType": "book",
+        "title": "Aspects of the dialects of Arabic today. Proceedings of the 4th  Conference of the International Arabic Dailectology Association (AIDA). Marrakesh, Apr. 1.-4. 2000. In Honour of Professor David Cohen",
+        "creators": [
+            {
+                "creatorType": "editor",
+                "firstName": "Abderrahim",
+                "lastName": "Youssi"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Fouzia",
+                "lastName": "Benjelloun"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Mohamed",
+                "lastName": "Dahbi"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Zakia",
+                "lastName": "Iraqui-Sinaceur"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Rabat",
+        "publisher": "Amapatril",
+        "date": "2002",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "key": "2GPPE9QR",
+    "version": 7006,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/2GPPE9QR",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/2GPPE9QR",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Manfredi et al.",
+        "parsedDate": "2014",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "2GPPE9QR",
+        "version": 7006,
+        "itemType": "bookSection",
+        "title": "Arabic varieties within CorpAfroAs",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Stefano",
+                "lastName": "Manfredi"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Dominique",
+                "lastName": "Caubet"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Christophe",
+                "lastName": "Pereira"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Ángeles",
+                "lastName": "Vicente"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Alexandrine",
+                "lastName": "Barontini"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Olivier",
+                "lastName": "Durand"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Angela Daiana",
+                "lastName": "Langone"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Giuliano",
+                "lastName": "Mion"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Alf lahga wa lahga : proceedings of the 9th Aida Conference",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wien",
+        "publisher": "LIT Verlag",
+        "date": "2014",
+        "pages": "31-46",
+        "language": "",
+        "ISBN": "978-3-643-90334-1",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:manfredi_caubet_2014_0000)",
+        "tags": [
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "vt:Central Africa"
+            },
+            {
+                "tag": "vt:East Africa"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

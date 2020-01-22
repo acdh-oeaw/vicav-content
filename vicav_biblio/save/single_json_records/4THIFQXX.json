@@ -1,0 +1,95 @@
+{
+    "key": "4THIFQXX",
+    "version": 7965,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/4THIFQXX",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/4THIFQXX",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Harrell",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "4THIFQXX",
+        "version": 7965,
+        "itemType": "book",
+        "title": "A short reference grammar of Moroccan Arabic: with audio CD; / with an appendix of texts in urban Moroccan Arabic by Louis Brunot",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Richard Slade",
+                "lastName": "Harrell"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Washington D.C.",
+        "publisher": "Georgetown University Press",
+        "date": "2004",
+        "numPages": "263",
+        "language": "English",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:harrell_2004_3679)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:textbook"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/3IIMETWA"
+        },
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-18T11:12:07Z"
+    }
+}

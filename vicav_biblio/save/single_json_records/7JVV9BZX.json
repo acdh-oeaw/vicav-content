@@ -1,0 +1,119 @@
+{
+    "key": "7JVV9BZX",
+    "version": 6058,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/7JVV9BZX",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/7JVV9BZX",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Bencheneb, R",
+        "parsedDate": "1946",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "7JVV9BZX",
+        "version": 6058,
+        "itemType": "journalArticle",
+        "title": "Trois récits de chasse de la région de Médéa",
+        "creators": [
+            {
+                "creatorType": "author",
+                "name": "Bencheneb, R"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Revue Africaine",
+        "volume": "90",
+        "issue": "",
+        "pages": "184-193",
+        "date": "1946",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Médéa [35.71, 2.85]"
+            },
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:folklore"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:jargon"
+            },
+            {
+                "tag": "vt:oral literature"
+            },
+            {
+                "tag": "vt:oral narratives"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-09-29T16:22:18Z",
+        "dateModified": "2018-09-29T16:23:01Z"
+    }
+}

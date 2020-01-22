@@ -1,0 +1,121 @@
+{
+    "key": "V58AQ2WK",
+    "version": 7257,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/V58AQ2WK",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/V58AQ2WK",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Jastrow",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "V58AQ2WK",
+        "version": 7257,
+        "itemType": "bookSection",
+        "title": "Jüdisches, christliches und muslimisches Arabisch in Mossul",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Otto",
+                "lastName": "Jastrow"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Martine",
+                "lastName": "Haak"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Rudolf de",
+                "lastName": "Jong"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Kees",
+                "lastName": "Versteegh"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Approaches to Arabic dialects: a collection of articles presented to Manfred Woidich on the occasion of his sixtieth birthday",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leiden",
+        "publisher": "Brill",
+        "date": "2004",
+        "pages": "135-150",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:jastrow_2004_3059)",
+        "tags": [
+            {
+                "tag": "geo:Mosul [36.35, 43.16]"
+            },
+            {
+                "tag": "vt:Christian dialects"
+            },
+            {
+                "tag": "vt:Jewish dialects"
+            },
+            {
+                "tag": "vt:Mesopotamia"
+            },
+            {
+                "tag": "vt:minorities"
+            },
+            {
+                "tag": "vt:sedentary dialect"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

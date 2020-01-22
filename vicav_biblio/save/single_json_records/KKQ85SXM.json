@@ -1,0 +1,94 @@
+{
+    "key": "KKQ85SXM",
+    "version": 6700,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/KKQ85SXM",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/KKQ85SXM",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Miller",
+        "parsedDate": "1994",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "KKQ85SXM",
+        "version": 6700,
+        "itemType": "thesis",
+        "title": "Language indexation: A syntactic constraint on code-mixing",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Amanda",
+                "lastName": "Miller"
+            }
+        ],
+        "abstractNote": "Code-mixing, defined as intra-sentential language alternation, is known to demonstrate structurally determined patterns of restriction. Universal constraints have been proposed to account for these structural restrictions (Poplack (1980), Woolford (1983), Di Sciullo, Muysken and Singh (1986)) but have had limited success in accounting for code-mixing between typologically diverse languages. This thesis examines the structural principles that apply universally to the interaction of languages in code-mixed sentences. We argue that systematic cross- linguistic restrictions on code-mixing can be accounted for by a syntactic constraint that is sensitive to the distinction between functional and lexical categories. We propose the constraint of Language Indexation, according to which (structurally) adjacent categories of like functional/lexical category status must be realised in the same language. We show how this proposal accounts for code-mixed data from a range of language pairs, including Tagalog/English, Moroccan Arabic/French, Swahili/English, Irish/English, Hindi/English, Spanish/English and French/English. A difference in the application of Language Indexation in nominal versus verbal projections is discussed with reference to Tagalog/English and Moroccan Arabic/ French code-mixing. Finally, we briefly examine the implications of Language Indexation with respect to the code-mixing of aphasic bilinguals.",
+        "thesisType": "",
+        "university": "McGill University (Canada)",
+        "place": "",
+        "date": "1994",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:miller_1994_3869)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:french language"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

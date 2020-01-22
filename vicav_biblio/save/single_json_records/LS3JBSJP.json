@@ -1,0 +1,116 @@
+{
+    "key": "LS3JBSJP",
+    "version": 2319,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/LS3JBSJP",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/LS3JBSJP",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Afkir and Habib",
+        "parsedDate": "2015",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "LS3JBSJP",
+        "version": 2319,
+        "itemType": "bookSection",
+        "title": "Code-switching in Morocco: Acceptances or Refusals?",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Mina",
+                "lastName": "Afkir"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Ahmed/Adam El",
+                "lastName": "Habib"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Enam",
+                "lastName": "Al-Wer"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Chryso",
+                "lastName": "Hadjimetriou"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Bruno",
+                "lastName": "Herin"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Uri",
+                "lastName": "Horesh"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Proceedings of the 8th Conference of Association Internationale de Dialectologie Arabe (AIDA) Colchester, UK, 2008",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Essex",
+        "publisher": "University of Essex",
+        "date": "2015",
+        "pages": "88-94",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:afkir_habib_2015_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

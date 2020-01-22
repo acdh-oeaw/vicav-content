@@ -1,0 +1,88 @@
+{
+    "key": "6QQYQSUA",
+    "version": 6710,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/6QQYQSUA",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/6QQYQSUA",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Bennis",
+        "parsedDate": "1992",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "6QQYQSUA",
+        "version": 6710,
+        "itemType": "thesis",
+        "title": "La formation du causatif en arabe marocain (Approche prosodique)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Saïd",
+                "lastName": "Bennis"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "D.E.S.",
+        "university": "Faulté des Lettres - Rabat",
+        "place": "Rabat",
+        "date": "1992",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:bennis_1992_3379)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

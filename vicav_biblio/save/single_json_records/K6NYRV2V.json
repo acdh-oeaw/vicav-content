@@ -1,0 +1,118 @@
+{
+    "key": "K6NYRV2V",
+    "version": 8729,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/K6NYRV2V",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/K6NYRV2V",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Ingham",
+        "parsedDate": "2009",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "K6NYRV2V",
+        "version": 8729,
+        "itemType": "bookSection",
+        "title": "The dialect of the Euphrates Bedouin, a fringe Mesopotamian dialect",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Bruce",
+                "lastName": "Ingham"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Enam",
+                "lastName": "Al-Wer"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Rudolf",
+                "lastName": "de Jong"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Arabic Dialectology. In honour of Clive Holes on the Occasion of his Sixtieth Birthday",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leiden and Boston",
+        "publisher": "Brill",
+        "date": "2009",
+        "pages": "99-108",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:behnstedt_2009_4391)",
+        "tags": [
+            {
+                "tag": "cnt:Iraq"
+            },
+            {
+                "tag": "vt:Mesopotamia"
+            },
+            {
+                "tag": "vt:bedouin dialect"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2019-03-15T17:52:22Z",
+        "dateModified": "2019-03-15T17:53:17Z"
+    }
+}

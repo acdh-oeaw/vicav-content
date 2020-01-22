@@ -1,0 +1,107 @@
+{
+    "key": "9EYF2KFC",
+    "version": 8184,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/9EYF2KFC",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/9EYF2KFC",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Klimiuk",
+        "parsedDate": "2017",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "9EYF2KFC",
+        "version": 8184,
+        "itemType": "bookSection",
+        "title": "The particle ra- in Libyan Arabic dialects (with emphasis on the Arabic dialect of Msallata)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Maciej",
+                "lastName": "Klimiuk"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Veronika",
+                "lastName": "Ritt-Benmimoun"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Tunisian and Libyan Arabic Dialects: Common trends – Recent developments – Diachronic aspects",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Zaragoza",
+        "publisher": "Universidad de Zaragoza",
+        "date": "2017",
+        "pages": "371-386",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Libya"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2019-01-02T13:14:27Z",
+        "dateModified": "2019-01-02T13:15:33Z"
+    }
+}

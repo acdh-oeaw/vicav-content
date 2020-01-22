@@ -1,0 +1,115 @@
+{
+    "key": "HMRE363R",
+    "version": 7035,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/HMRE363R",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/HMRE363R",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Cherbonneau",
+        "parsedDate": "1849",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "HMRE363R",
+        "version": 7035,
+        "itemType": "journalArticle",
+        "title": "Définition lexigraphique de plusieurs mots usités dans le langage de l'Afrique septentrionale",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jacques-Auguste",
+                "lastName": "Cherbonneau"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Journal Asiatique",
+        "volume": "63-70",
+        "issue": "",
+        "pages": "537-551",
+        "date": "1849",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:cherbonneau_1849_3531)",
+        "tags": [
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "cnt:Libya"
+            },
+            {
+                "tag": "cnt:Mauritania"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "cnt:Tunisia"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

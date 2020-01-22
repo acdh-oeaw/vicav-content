@@ -1,0 +1,94 @@
+{
+    "key": "Y42X9Y7Q",
+    "version": 7432,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/Y42X9Y7Q",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/Y42X9Y7Q",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Mishkurov",
+        "parsedDate": "1984",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "Y42X9Y7Q",
+        "version": 7432,
+        "itemType": "journalArticle",
+        "title": "O tipologii poryadka slov kak sposobe aktual'nogo chleneniya arabskogo literaturnogo i dialektnogo predlozheniya",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "E. N.",
+                "lastName": "Mishkurov"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "",
+        "volume": "Moscow: Nauka, 1984",
+        "issue": "",
+        "pages": "85-90",
+        "date": "1984",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:mishkurov_1984_0000)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "key": "2NDUGGHG",
+    "version": 2206,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/2NDUGGHG",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/2NDUGGHG",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Roth-Laly",
+        "parsedDate": "1972",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "2NDUGGHG",
+        "version": 2206,
+        "itemType": "journalArticle",
+        "title": "À propos du statut et de l'expansion de l'arabe à Abbéché (réponses à un questionnaire soumis à deux cents écoliers)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "A.",
+                "lastName": "Roth-Laly"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Comptes Rendus du Groupe Linguistique d'Etudes Chamito-Sémitiques: G.L.E.C.S",
+        "volume": "16",
+        "issue": "1971-72",
+        "pages": "131-154",
+        "date": "1972",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:roth_laly_1972_0000)",
+        "tags": [
+            {
+                "tag": "geo:Abéché [13.83, 20.84]"
+            },
+            {
+                "tag": "cnt:Chad"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

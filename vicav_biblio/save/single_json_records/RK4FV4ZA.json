@@ -1,0 +1,131 @@
+{
+    "key": "RK4FV4ZA",
+    "version": 2314,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/RK4FV4ZA",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/RK4FV4ZA",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Boumans and Caubet",
+        "parsedDate": "2000",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "RK4FV4ZA",
+        "version": 2314,
+        "itemType": "bookSection",
+        "title": "Modelling intrasentential codeswitching: a comparative study of Algerian/French in Algeria and Moroccan/Dutch in the Netherlands",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Louis",
+                "lastName": "Boumans"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Dominique",
+                "lastName": "Caubet"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Jonathan",
+                "lastName": "Owens"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Arabic as a minority language",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Berlin-New York",
+        "publisher": "Mouton de Gruyter",
+        "date": "2000",
+        "pages": "113-180",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:boumans_2000_3428)",
+        "tags": [
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt://e.g. Europe, Americas"
+            },
+            {
+                "tag": "vt:Arabic as a minority language"
+            },
+            {
+                "tag": "vt:Diaspora"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:syntax"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

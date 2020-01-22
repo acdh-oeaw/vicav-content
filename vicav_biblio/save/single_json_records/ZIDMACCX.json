@@ -1,0 +1,109 @@
+{
+    "key": "ZIDMACCX",
+    "version": 2986,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ZIDMACCX",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ZIDMACCX",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Behnstedt and Woidich",
+        "parsedDate": "1985",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ZIDMACCX",
+        "version": 2986,
+        "itemType": "book",
+        "title": "Die ägyptisch-arabischen Dialekte. Band 1: Einleitung und Anmerkungen zu den Karten",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Peter",
+                "lastName": "Behnstedt"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Manfred",
+                "lastName": "Woidich"
+            }
+        ],
+        "abstractNote": "",
+        "series": "Beihefte zum Tübinger Atlas des Vorderen Orients",
+        "seriesNumber": "",
+        "volume": "B/50",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Reichert",
+        "date": "1985",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:behnstedt_woidich_1985_0001)",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:dictionary"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-10T18:55:21Z"
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "key": "MPQ44R9N",
+    "version": 3436,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/MPQ44R9N",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/MPQ44R9N",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Pellat",
+        "parsedDate": "1950",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "MPQ44R9N",
+        "version": 3436,
+        "itemType": "bookSection",
+        "title": "Sur deux emprunts au berbère par l'arabe dialectal nord-africain",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Charles",
+                "lastName": "Pellat"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Mélanges William Marçais",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Paris",
+        "publisher": "Maisonneuve",
+        "date": "1950",
+        "pages": "277-288",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:pellat_1950_3909)",
+        "tags": [
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "cnt:Tunisia"
+            },
+            {
+                "tag": "vt:berber languages"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:loanwords"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-24T08:38:45Z"
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "key": "UD96ZW97",
+    "version": 2303,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/UD96ZW97",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/UD96ZW97",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Lévy",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "UD96ZW97",
+        "version": 2303,
+        "itemType": "bookSection",
+        "title": "Quatre siècles plus tard, quelles traces portugaises?",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Simon",
+                "lastName": "Lévy"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Carmen",
+                "lastName": "Ballersteros"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Mery",
+                "lastName": "Ruah"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Os judeos sefarditas entre Portugal, Espanha e Marrocos",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Lisbon",
+        "publisher": "Colibri",
+        "date": "2004",
+        "pages": "233-238",
+        "language": "French",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:levy_2004_3807)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:loanwords"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

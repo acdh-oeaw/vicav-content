@@ -1,0 +1,129 @@
+{
+    "key": "RYQGWT9V",
+    "version": 6143,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/RYQGWT9V",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/RYQGWT9V",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Borg",
+        "parsedDate": "1989",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "RYQGWT9V",
+        "version": 6143,
+        "itemType": "bookSection",
+        "title": "Some Maltese toponyms in historical and comparative perspective",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Alexander",
+                "lastName": "Borg"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Paul",
+                "lastName": "Wexler"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Alexander",
+                "lastName": "Borg"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Sasson",
+                "lastName": "Somekh"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Studia linguistica et orientalia memoriae Haim Blanc dedicata",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrassowitz",
+        "date": "1989",
+        "pages": "62-85",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Malta"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:etymology"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:toponymy"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-09-19T08:44:27Z",
+        "dateModified": "2018-09-19T08:47:04Z"
+    }
+}

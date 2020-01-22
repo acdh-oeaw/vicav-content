@@ -1,0 +1,99 @@
+{
+    "key": "WUUQRSIK",
+    "version": 6972,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/WUUQRSIK",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/WUUQRSIK",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Sinaceur",
+        "parsedDate": "2006",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "WUUQRSIK",
+        "version": 6972,
+        "itemType": "bookSection",
+        "title": "Caractéristiques régionales des proverbes en arabe marocain",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Zakia Iraqui",
+                "lastName": "Sinaceur"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Abderrahim",
+                "lastName": "Youssi"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "L’arabe dialectal : enquêtes, descriptions, interprétations. Actes d’AIDA 6. Travaux Offerts au Professeur Taieb Baccouche. Sous la direction de Salah Mejri (Université de la Manouba / LLI, Université de Paris 13).",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Tunis",
+        "publisher": "Imprimerie Officielle de la République Tunisienne",
+        "date": "2006",
+        "pages": "187-200",
+        "language": "",
+        "ISBN": "9954-0-2720-3",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:sinaceur_youssi_2006_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:folklore"
+            },
+            {
+                "tag": "vt:proverbs"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

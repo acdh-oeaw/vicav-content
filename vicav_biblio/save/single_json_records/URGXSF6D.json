@@ -1,0 +1,102 @@
+{
+    "key": "URGXSF6D",
+    "version": 3319,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/URGXSF6D",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/URGXSF6D",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Roth",
+        "parsedDate": "2008",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "URGXSF6D",
+        "version": 3319,
+        "itemType": "bookSection",
+        "title": "Mélanges de variétés et stratégies discursives dans le registre dialectal. Exemples maghrébins",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Arlette",
+                "lastName": "Roth"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Moyen Arabe Et Varie´te´s MixtesDe L’arabe á Travers L’histoire: Actes Du Premier Colloque International. Louvain-La-Neuve, 10-14 Mai 2004",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Louvain-la-Neuve",
+        "publisher": "Uni-versite´ catholique de Louvain. Institut orientaliste",
+        "date": "2008",
+        "pages": "391 - 404",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:roth_2008_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:pragmatics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-09T20:26:00Z"
+    }
+}

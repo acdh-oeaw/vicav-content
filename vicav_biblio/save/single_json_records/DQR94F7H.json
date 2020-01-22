@@ -1,0 +1,113 @@
+{
+    "key": "DQR94F7H",
+    "version": 7728,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/DQR94F7H",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/DQR94F7H",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Wittrich",
+        "parsedDate": "2002",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "DQR94F7H",
+        "version": 7728,
+        "itemType": "bookSection",
+        "title": "Zwei Gedichte im Dialekt von Az?x",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Michaela",
+                "lastName": "Wittrich"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Werner",
+                "lastName": "Arnold"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Hartmut",
+                "lastName": "Bobzin"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Sprich doch mit deinen Knechten aramäisch, wir verstehen es!\": 60 Beiträge zur Semitistik. Festschrift für Otto Jastrow zum 60. Geburtstag",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrasowitz",
+        "date": "2002",
+        "pages": "813-820",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:wittrich_2002_3126)",
+        "tags": [
+            {
+                "tag": "reg:Turkey [38.08, 41.10]"
+            },
+            {
+                "tag": "vt:Mesopotamia"
+            },
+            {
+                "tag": "vt:folklore"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:oral poetry"
+            },
+            {
+                "tag": "vt:poetry"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-02-26T19:30:38Z"
+    }
+}

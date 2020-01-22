@@ -1,0 +1,115 @@
+{
+    "key": "ZUSTX4RM",
+    "version": 4138,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ZUSTX4RM",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ZUSTX4RM",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 5116658,
+            "username": "erceg2018",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/erceg2018",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Hoyt",
+        "parsedDate": "2002",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ZUSTX4RM",
+        "version": 4138,
+        "itemType": "bookSection",
+        "title": "Impersonal agreement as a specificity effect in rural Palestinian Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Frederick",
+                "lastName": "Hoyt"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Dilworth B.",
+                "lastName": "Parkinson"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Elabbas",
+                "lastName": "Benmamoun"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Perspectives on Arabic linguistics XIII-XIV: papers from the Thirteenth and Fourteenth Annual Symposia on Arabic Linguistics",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Amsterdam",
+        "publisher": "Benjamins",
+        "date": "2002",
+        "pages": "111-141",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:hoyt_2002_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Israel"
+            },
+            {
+                "tag": "reg:Palestine [31.89, 35.25]"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-18T14:32:28Z"
+    }
+}

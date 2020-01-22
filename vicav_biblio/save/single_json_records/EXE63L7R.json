@@ -1,0 +1,96 @@
+{
+    "key": "EXE63L7R",
+    "version": 7767,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/EXE63L7R",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/EXE63L7R",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Rhodokanakis",
+        "parsedDate": "1911",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "EXE63L7R",
+        "version": 7767,
+        "itemType": "book",
+        "title": "Der vulgärarabische Dialekt im Dofar (Zfar). II. Einleitung, Glossar und Grammatik",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Nikolaus",
+                "lastName": "Rhodokanakis"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "X",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wien",
+        "publisher": "Kaiserliche Akademie der Wissenschaften",
+        "date": "1911",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:rhodokanakis_1908_1911_0000)",
+        "tags": [
+            {
+                "tag": "geo:Dhofar [10.63, 49.05]"
+            },
+            {
+                "tag": "cnt:Oman/Yemen"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:glossary"
+            },
+            {
+                "tag": "vt:grammar"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-01-16T11:49:48Z"
+    }
+}

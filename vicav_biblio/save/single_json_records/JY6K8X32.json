@@ -1,0 +1,108 @@
+{
+    "key": "JY6K8X32",
+    "version": 8242,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/JY6K8X32",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/JY6K8X32",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Muhannadi",
+        "parsedDate": "1991",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "JY6K8X32",
+        "version": 8242,
+        "itemType": "thesis",
+        "title": "A Sociolinguistic Study of Woman’s Speech in Qatar",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "M. al-",
+                "lastName": "Muhannadi"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "",
+        "university": "",
+        "place": "Colchester",
+        "date": "1991",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "reg:Gulf [26.57, 49.55]"
+            },
+            {
+                "tag": "cnt:Qatar"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:gender aspects"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-11T13:20:36Z",
+        "dateModified": "2018-10-11T13:21:31Z"
+    }
+}

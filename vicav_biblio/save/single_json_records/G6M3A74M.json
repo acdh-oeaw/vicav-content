@@ -1,0 +1,104 @@
+{
+    "key": "G6M3A74M",
+    "version": 6539,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/G6M3A74M",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/G6M3A74M",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4621144,
+            "username": "Bettina_Leit",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/bettina_leit",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Ma?ar",
+        "parsedDate": "1970",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "G6M3A74M",
+        "version": 6539,
+        "itemType": "book",
+        "title": "Min ?asrar al-luga al-kuwaytiyya",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "?Abd al-?Aziz A",
+                "lastName": "Ma?ar"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Kuwait",
+        "publisher": "",
+        "date": "1970",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Kuweit"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-30T12:36:37Z",
+        "dateModified": "2018-10-30T12:37:27Z"
+    }
+}

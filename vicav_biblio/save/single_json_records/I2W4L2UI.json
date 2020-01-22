@@ -1,0 +1,94 @@
+{
+    "key": "I2W4L2UI",
+    "version": 7315,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/I2W4L2UI",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/I2W4L2UI",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Malek",
+        "parsedDate": "2007",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "I2W4L2UI",
+        "version": 7315,
+        "itemType": "journalArticle",
+        "title": "La transiton de l'intraphrastique à l'interphrastique dans les usages conversationnels des étudiants algériens",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Azzedine",
+                "lastName": "Malek"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Synergies Algérie",
+        "volume": "1",
+        "issue": "",
+        "pages": "49-62",
+        "date": "2007",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "19585160",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:malek_2007_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "key": "KF8CAXYX",
+    "version": 6459,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/KF8CAXYX",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/KF8CAXYX",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Gudme",
+        "parsedDate": "1938",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "KF8CAXYX",
+        "version": 6459,
+        "itemType": "journalArticle",
+        "title": "Arabic excavation terminology in Iraq and Syria",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "P. de Hemmer",
+                "lastName": "Gudme"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Acta Orientalia (Copenhagen)",
+        "volume": "16",
+        "issue": "",
+        "pages": "105-130",
+        "date": "1938",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:gudme_1938_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Iraq"
+            },
+            {
+                "tag": "reg:Mesopotamia [35.14, 42.48]"
+            },
+            {
+                "tag": "cnt:Syria"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:jargon"
+            },
+            {
+                "tag": "vt:lexicon"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-22T17:57:13Z"
+    }
+}

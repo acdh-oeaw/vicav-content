@@ -1,0 +1,104 @@
+{
+    "key": "Q64XRNDK",
+    "version": 2309,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/Q64XRNDK",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/Q64XRNDK",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Gazsi",
+        "parsedDate": "2008",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "Q64XRNDK",
+        "version": 2309,
+        "itemType": "bookSection",
+        "title": "Arabic Proverbs from Iran: Some Characteristics of Arabic Spoken in Khuzistan Province",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Dénes",
+                "lastName": "Gazsi"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Stephan",
+                "lastName": "Procházka"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Veronika",
+                "lastName": "Ritt-Benmimoun"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Between the Atlantic and Indian Oceans: Studies on Contemporary Arabic Dialects. Proceedings of the 7th AIDA Conference, held in Vienna from 5-9 September 2006",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Münster-Wien",
+        "publisher": "LIT-Verlag",
+        "date": "2008",
+        "pages": "195-206",
+        "language": "",
+        "ISBN": "978-3-8258-1597-4",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:gazsi_prochazka_2008_0000)",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "cnt:Iran"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:proverbs"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

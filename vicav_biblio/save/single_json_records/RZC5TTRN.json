@@ -1,0 +1,95 @@
+{
+    "key": "RZC5TTRN",
+    "version": 8339,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/RZC5TTRN",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/RZC5TTRN",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Ravid",
+        "parsedDate": "2003",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "RZC5TTRN",
+        "version": 8339,
+        "itemType": "bookSection",
+        "title": "A developmental perspective on root perception in Hebrew and Palestinian             Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Dorit",
+                "lastName": "Ravid"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Joseph",
+                "lastName": "Shimron"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Language Processing and Acquisition in Languages of Semitic, Root-Based, Morphology",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Amsterdam & Philadelphia",
+        "publisher": "John Benjamins Publishing Company",
+        "date": "2003",
+        "pages": "293-319",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:ravid_2003_0000)",
+        "tags": [
+            {
+                "tag": "ii:Colloquial Arabic dialects Palestine"
+            },
+            {
+                "tag": "reg:Palestine [31.89, 35.25]"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/B5YRCHN8"
+        },
+        "dateAdded": "2018-04-12T19:25:39Z",
+        "dateModified": "2019-03-07T13:24:00Z"
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "key": "4W6AGF7F",
+    "version": 2280,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/4W6AGF7F",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/4W6AGF7F",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Benabbou and Bouali",
+        "parsedDate": "2003",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "4W6AGF7F",
+        "version": 2280,
+        "itemType": "conferencePaper",
+        "title": "Mots de villes et mots de campagnes au Maroc",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Mostafa",
+                "lastName": "Benabbou"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Rachida",
+                "lastName": "Bouali"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Igancio",
+                "lastName": "Ferrando"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Juan José",
+                "lastName": "Sánchez Sandoval"
+            }
+        ],
+        "abstractNote": "",
+        "date": "2003",
+        "proceedingsTitle": "AIDA 5th Conference Proceedings Cádiz, September 2002",
+        "conferenceName": "",
+        "place": "Cádiz",
+        "publisher": "Servicio de publicaciones, Universidad de Cádiz",
+        "volume": "",
+        "pages": "335-348",
+        "series": "",
+        "language": "",
+        "DOI": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

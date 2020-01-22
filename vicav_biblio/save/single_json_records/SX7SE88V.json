@@ -1,0 +1,105 @@
+{
+    "key": "SX7SE88V",
+    "version": 7050,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/SX7SE88V",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/SX7SE88V",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Boogert and Kossmann",
+        "parsedDate": "1997",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "SX7SE88V",
+        "version": 7050,
+        "itemType": "journalArticle",
+        "title": "Les premiers emprunts arabes en berbère",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Nico van den",
+                "lastName": "Boogert"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Marteen",
+                "lastName": "Kossmann"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Arabica",
+        "volume": "44",
+        "issue": "",
+        "pages": "317-322",
+        "date": "1997",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:boogert_1997_3404)",
+        "tags": [
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:berber languages"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:loanwords"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

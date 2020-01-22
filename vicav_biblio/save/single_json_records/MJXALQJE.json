@@ -1,0 +1,109 @@
+{
+    "key": "MJXALQJE",
+    "version": 8375,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/MJXALQJE",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/MJXALQJE",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Seeger",
+        "parsedDate": "2013",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "MJXALQJE",
+        "version": 8375,
+        "itemType": "bookSection",
+        "title": "Zum Verhältnis der zentralasiatischen arabischen Dialekte",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ulrich",
+                "lastName": "Seeger"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Renaud",
+                "lastName": "Kuty"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Ulrich",
+                "lastName": "Seeger"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Shabo",
+                "lastName": "Talay"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Nicht nur mit Engelszungen. Beiträge zur semitischen Dialektologie: Festschrift für Werner Arnold zum 60. Geburtstag",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrasowitz",
+        "date": "2013",
+        "pages": "313–322",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:talay_2013_3112)",
+        "tags": [
+            {
+                "tag": "cnt:Uzbekistan"
+            },
+            {
+                "tag": "vt:Central Asia"
+            },
+            {
+                "tag": "vt:Mesopotamia"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-03T12:28:38Z"
+    }
+}

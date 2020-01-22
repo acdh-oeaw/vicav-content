@@ -1,0 +1,114 @@
+{
+    "key": "6ZYYGZGE",
+    "version": 6990,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/6ZYYGZGE",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/6ZYYGZGE",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Talay",
+        "parsedDate": "2014",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "6ZYYGZGE",
+        "version": 6990,
+        "itemType": "bookSection",
+        "title": "The Mesopotamian-Levantine dialect continuum",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Shabo",
+                "lastName": "Talay"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Tal",
+                "lastName": "Davidovich"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Ablahad",
+                "lastName": "Lahdo"
+            },
+            {
+                "creatorType": "editor",
+                "name": "Torkel Lindquist"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "From Tur Abdin to Hadramawt: Semitic Studies Festschrift in Honour of Bo Isaksson on the occasion of his retirement",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrasowitz",
+        "date": "2014",
+        "pages": "179-188",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:talay_2014_3114)",
+        "tags": [
+            {
+                "tag": "reg:Mesopotamia [35.14, 42.48]"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

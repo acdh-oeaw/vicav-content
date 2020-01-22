@@ -1,0 +1,107 @@
+{
+    "key": "NJVPVEML",
+    "version": 3342,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/NJVPVEML",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/NJVPVEML",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Rosenhouse",
+        "parsedDate": "2000",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "NJVPVEML",
+        "version": 3342,
+        "itemType": "bookSection",
+        "title": "A comparative analysis of bedouin and sedentary men’s and women’s stories",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Judith",
+                "lastName": "Rosenhouse"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Manwel",
+                "lastName": "Mifsud"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Proceedings of the Third International Conference of AÏDA: Association Internationale de Dialectologie Arabe: held at Malta, 29 March – 2 April 1998",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Malta",
+        "publisher": "Association Internationale de Dialectologie Arabe",
+        "date": "2000",
+        "pages": "151-156",
+        "language": "",
+        "ISBN": "99932-0-044-1",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:rosenhouse_mifsud_2000_0000)",
+        "tags": [
+            {
+                "tag": "vt:bedouin dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:sedentary dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-15T12:53:59Z"
+    }
+}

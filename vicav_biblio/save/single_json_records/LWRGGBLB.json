@@ -1,0 +1,108 @@
+{
+    "key": "LWRGGBLB",
+    "version": 6003,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/LWRGGBLB",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/LWRGGBLB",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Corriente",
+        "parsedDate": "1995",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "LWRGGBLB",
+        "version": 6003,
+        "itemType": "journalArticle",
+        "title": "El idiolecto romance andalusí reflejado por las xarajat",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Federico",
+                "lastName": "Corriente"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Revista de Filología Española",
+        "volume": "75",
+        "issue": "",
+        "pages": "5-53",
+        "date": "1995",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "reg:Andalusia [39.92, -3.02]"
+            },
+            {
+                "tag": "reg:Spain [39.92, -3.02]"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:oral literature"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-01T10:29:35Z",
+        "dateModified": "2018-10-27T13:44:44Z"
+    }
+}

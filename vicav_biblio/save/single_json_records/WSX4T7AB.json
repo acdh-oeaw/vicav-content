@@ -1,0 +1,88 @@
+{
+    "key": "WSX4T7AB",
+    "version": 7326,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/WSX4T7AB",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/WSX4T7AB",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Marçais",
+        "parsedDate": "1938",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "WSX4T7AB",
+        "version": 7326,
+        "itemType": "journalArticle",
+        "title": "Comment l'Afrique du Nord été arabisée I. L'arabisation des villes",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "William",
+                "lastName": "Marçais"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Annales de l'Institut d'études Orientales",
+        "volume": "4",
+        "issue": "",
+        "pages": "1-21",
+        "date": "1938",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:marcais_1938_3834)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "key": "RYRM25A8",
+    "version": 6517,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/RYRM25A8",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/RYRM25A8",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Lajmi",
+        "parsedDate": "2006",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "RYRM25A8",
+        "version": 6517,
+        "itemType": "bookSection",
+        "title": "Le traitement lexical de l’Atlas Linguistique de Tunisie : Le cas des poissons",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Dhouha",
+                "lastName": "Lajmi"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Salah",
+                "lastName": "Mejri"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "L’arabe dialectal : enquêtes, descriptions, interprétations. Actes d’AIDA 6. Travaux Offerts au Professeur Taieb Baccouche",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Tunis",
+        "publisher": "Centre d'Etudes et de Recherches Economiques et Sociales",
+        "date": "2006",
+        "pages": "227-232",
+        "language": "",
+        "ISBN": "9954-0-2720-3",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:lajmi_youssi_2006_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Tunisia"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:jargon"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T12:04:57Z"
+    }
+}

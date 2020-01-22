@@ -1,0 +1,108 @@
+{
+    "key": "R5YLBL5I",
+    "version": 5811,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/R5YLBL5I",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/R5YLBL5I",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Hopkins",
+        "parsedDate": "1986",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "R5YLBL5I",
+        "version": 5811,
+        "itemType": "journalArticle",
+        "title": "Early materials in Middle (Neo-) Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Simon",
+                "lastName": "Hopkins"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Jerusalem Studies in Arabic and Islam",
+        "volume": "7",
+        "issue": "",
+        "pages": "45-59",
+        "date": "1986",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:manuscripts"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-08T07:35:32Z",
+        "dateModified": "2018-10-08T07:41:52Z"
+    }
+}

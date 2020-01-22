@@ -1,0 +1,111 @@
+{
+    "key": "IPD9NF7M",
+    "version": 3441,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/IPD9NF7M",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/IPD9NF7M",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Paoli",
+        "parsedDate": "1993",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "IPD9NF7M",
+        "version": 3441,
+        "itemType": "journalArticle",
+        "title": "Constituance ou domaine en phonologie métrique: le cas de l'hébreu biblique et des parlers arabes de Damas, du Hijaz et de Jordanie (Beni Hasan)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "B.",
+                "lastName": "Paoli"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Linguistica Communicatio / Al-Tawa?ul al-Lisani",
+        "volume": "5",
+        "issue": "1-2",
+        "pages": "177-209",
+        "date": "1993",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:paoli_1993_0000)",
+        "tags": [
+            {
+                "tag": "geo:Damascus [33.51, 36.27]"
+            },
+            {
+                "tag": "cnt:Jordan"
+            },
+            {
+                "tag": "cnt:Saudi Arabia"
+            },
+            {
+                "tag": "cnt:Syria"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-24T08:44:04Z"
+    }
+}

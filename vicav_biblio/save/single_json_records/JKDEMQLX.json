@@ -1,0 +1,91 @@
+{
+    "key": "JKDEMQLX",
+    "version": 6719,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/JKDEMQLX",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/JKDEMQLX",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Bernouss",
+        "parsedDate": "2002",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "JKDEMQLX",
+        "version": 6719,
+        "itemType": "thesis",
+        "title": "Lexical regularities in Moroccan Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Mohamed Reda",
+                "lastName": "Bernouss"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "Doctorat",
+        "university": "Faculty of Letters - Dahr el-Mehrez / Fes",
+        "place": "Fes",
+        "date": "2002",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:bernouss_2002_3396)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

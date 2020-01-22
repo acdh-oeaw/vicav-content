@@ -1,0 +1,102 @@
+{
+    "key": "TI3M6D43",
+    "version": 7166,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/TI3M6D43",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/TI3M6D43",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Forstner",
+        "parsedDate": "1991",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "TI3M6D43",
+        "version": 7166,
+        "itemType": "bookSection",
+        "title": "Bemerkungen zum Gebrauch des aktiven Partizips im Marokkanischen",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Martin",
+                "lastName": "Forstner"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Martin",
+                "lastName": "Forstner"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Festgabe für Hans-Rudolf Singer",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Frankfurt am Main and Bern and New York and Paris",
+        "publisher": "Peter Lang",
+        "date": "1991",
+        "pages": "245-262",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:forstner_1991_3638)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

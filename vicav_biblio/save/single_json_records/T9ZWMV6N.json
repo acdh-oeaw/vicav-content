@@ -1,0 +1,88 @@
+{
+    "key": "T9ZWMV6N",
+    "version": 2210,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/T9ZWMV6N",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/T9ZWMV6N",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Redjala",
+        "parsedDate": "1970",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "T9ZWMV6N",
+        "version": 2210,
+        "itemType": "journalArticle",
+        "title": "Remarques sur les problèmes linguistiques en Algérie",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Mbarek",
+                "lastName": "Redjala"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Comptes Rendus du Groupe Linguistique d'Etudes Chamito-Sémitiques: G.L.E.C.S",
+        "volume": "14",
+        "issue": "1969-70",
+        "pages": "109-124",
+        "date": "1970",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:redjala_1970_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

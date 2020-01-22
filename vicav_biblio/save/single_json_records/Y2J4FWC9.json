@@ -1,0 +1,91 @@
+{
+    "key": "Y2J4FWC9",
+    "version": 2190,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/Y2J4FWC9",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/Y2J4FWC9",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Woidich",
+        "parsedDate": "1998",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "Y2J4FWC9",
+        "version": 2190,
+        "itemType": "journalArticle",
+        "title": "Aus den Erinnerungen eines Hundertjährigen. Ein Text im Dialekt von Bala? in Ost-Dakhla / Ägypten",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Manfred",
+                "lastName": "Woidich"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Estudios de Dialectología Norteafricana y Andalusí",
+        "volume": "3",
+        "issue": "",
+        "pages": "7-33",
+        "date": "1998",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:woidich_1998_0000)",
+        "tags": [
+            {
+                "tag": "geo:Balat [25.55, 29.26]"
+            },
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

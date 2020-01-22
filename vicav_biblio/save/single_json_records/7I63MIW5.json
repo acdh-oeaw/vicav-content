@@ -1,0 +1,99 @@
+{
+    "key": "7I63MIW5",
+    "version": 7868,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/7I63MIW5",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/7I63MIW5",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Amsidder",
+        "parsedDate": "2000",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "7I63MIW5",
+        "version": 7868,
+        "itemType": "bookSection",
+        "title": "La problématique des langues maternelles au Maroc",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Abderrahmane",
+                "lastName": "Amsidder"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Abderrahmane",
+                "lastName": "Amsidder"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Langues maternelles et enseignement apprentissage des langues étrangères au Maroc",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Agadir",
+        "publisher": "Faculté des Lettres et des Sciences Humaines (Université Ibn Zohr)",
+        "date": "2000",
+        "pages": "7-15",
+        "language": "French",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:amsidder_2000_3315)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-03T13:21:27Z"
+    }
+}

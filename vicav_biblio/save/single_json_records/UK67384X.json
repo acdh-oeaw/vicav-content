@@ -1,0 +1,99 @@
+{
+    "key": "UK67384X",
+    "version": 7167,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/UK67384X",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/UK67384X",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Freeman",
+        "parsedDate": "2002",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "UK67384X",
+        "version": 7167,
+        "itemType": "bookSection",
+        "title": "A Working Model for Diglossia: How can we accommodate the Arab perception that Arabic is a single linguistic system?",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Andrew",
+                "lastName": "Freeman"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Abderrahim",
+                "lastName": "Youssi"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Aspects of the dialects of Arabic today: Proceedings of the 4th Conference of the International Arabic Dialectology Association (AIDA), Marrakesh, April 1-4, 2000. In honour of Professor David Cohen",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Rabat",
+        "publisher": "Amapatril",
+        "date": "2002",
+        "pages": "276-287",
+        "language": "",
+        "ISBN": "9954-0-2720-3",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:freeman_youssi_2002_0000)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

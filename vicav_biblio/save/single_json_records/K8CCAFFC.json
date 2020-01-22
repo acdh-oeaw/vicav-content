@@ -1,0 +1,88 @@
+{
+    "key": "K8CCAFFC",
+    "version": 7011,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/K8CCAFFC",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/K8CCAFFC",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Messaoudi",
+        "parsedDate": "1995",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "K8CCAFFC",
+        "version": 7011,
+        "itemType": "bookSection",
+        "title": "Eléments pour une dialectologie arabe: quelques aspects linguistiques de l'arabe dialectal marocain",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Leïla",
+                "lastName": "Messaoudi"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Dialectologie et sciences humaines au Maroc",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "",
+        "publisher": "Faculté des Lettres et des Sciences Humaines",
+        "date": "1995",
+        "pages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:messaoudi_1995_3856)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

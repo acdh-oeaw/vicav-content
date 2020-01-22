@@ -1,0 +1,105 @@
+{
+    "key": "CBZND4FV",
+    "version": 7862,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/CBZND4FV",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/CBZND4FV",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Al-Wer",
+        "parsedDate": "2007",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "CBZND4FV",
+        "version": 7862,
+        "itemType": "bookSection",
+        "title": "The formation of the dialect of Amman: from chaos to order",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Enam",
+                "lastName": "Al-Wer"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Catherine",
+                "lastName": "Miller"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Arabic in the city",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "London",
+        "publisher": "Routledge",
+        "date": "2007",
+        "pages": "55-76",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:al-wer_2007_3004)",
+        "tags": [
+            {
+                "tag": "geo:Amman [31.94, 35.92]"
+            },
+            {
+                "tag": "cnt:Jordan"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:sedentary dialect"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

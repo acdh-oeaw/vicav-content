@@ -1,0 +1,112 @@
+{
+    "key": "WSD3XRT4",
+    "version": 3420,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/WSD3XRT4",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/WSD3XRT4",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Pietro et al.",
+        "parsedDate": "1967",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "WSD3XRT4",
+        "version": 3420,
+        "itemType": "bookSection",
+        "title": "The Language Situation in Arab Sicily",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Robert J. DI",
+                "lastName": "Pietro"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "George Dimitri",
+                "lastName": "Selim"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Don Graham",
+                "lastName": "Stuart"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Linguistic Studies in Memory of Richard Slade Harrell",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Washington, D.C.",
+        "publisher": "",
+        "date": "1967",
+        "pages": "19-35",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:pietro_selim_1967_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "reg:Sicily [37.62, 14.44]"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-24T07:26:06Z"
+    }
+}

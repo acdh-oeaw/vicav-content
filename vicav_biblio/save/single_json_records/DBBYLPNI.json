@@ -1,0 +1,94 @@
+{
+    "key": "DBBYLPNI",
+    "version": 2394,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/DBBYLPNI",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/DBBYLPNI",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Panetta",
+        "parsedDate": "1980",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "DBBYLPNI",
+        "version": 2394,
+        "itemType": "journalArticle",
+        "title": "Vocabolario e fraseologia dell'arabo parlato a Bengasi",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "E.",
+                "lastName": "Panetta"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Oriente Moderno",
+        "volume": "60",
+        "issue": "",
+        "pages": "197-213",
+        "date": "1980",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:panetta_1980_0000)",
+        "tags": [
+            {
+                "tag": "geo:Benghazi [32.09, 20.18]"
+            },
+            {
+                "tag": "cnt:Libya"
+            },
+            {
+                "tag": "reg:Maghreb"
+            },
+            {
+                "tag": "vt:dictionary"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-18T13:12:41Z"
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "key": "B2JFJWPQ",
+    "version": 6563,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/B2JFJWPQ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/B2JFJWPQ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Jouin",
+        "parsedDate": "1973",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "B2JFJWPQ",
+        "version": 6563,
+        "itemType": "bookSection",
+        "title": "Du langage imagé des citadines marocaines",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jeanne",
+                "lastName": "Jouin"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Micheline",
+                "lastName": "Galley"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Proceedings of the First Congress on Mediterranean Studies of Arabo-Berber Influence",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Algiers",
+        "publisher": "Société Nationale d'Édition et de Difussion",
+        "date": "1973",
+        "pages": "365-370",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:sedentary dialect"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T09:34:39Z"
+    }
+}

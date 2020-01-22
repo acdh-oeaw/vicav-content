@@ -1,0 +1,95 @@
+{
+    "key": "CG324JCW",
+    "version": 7753,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/CG324JCW",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/CG324JCW",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Behnstedt and Woidich",
+        "parsedDate": "2011",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "CG324JCW",
+        "version": 7753,
+        "itemType": "book",
+        "title": "Wortatlas der arabischen Dialekte. I: Mensch, Natur, Fauna und Flora. II: Materielle Kultur. III: Verben, Adjektive, Zeit und Zahlen.",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Peter",
+                "lastName": "Behnstedt"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Manfred",
+                "lastName": "Woidich"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leiden & Boston",
+        "publisher": "Brill",
+        "date": "2011-2014",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:behnstedt_2011-2014_3010)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:lexicon"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-23T08:08:50Z"
+    }
+}

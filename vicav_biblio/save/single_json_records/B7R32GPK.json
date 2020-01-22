@@ -1,0 +1,91 @@
+{
+    "key": "B7R32GPK",
+    "version": 6898,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/B7R32GPK",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/B7R32GPK",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Agius",
+        "parsedDate": "1995",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "B7R32GPK",
+        "version": 6898,
+        "itemType": "journalArticle",
+        "title": "Le problème complexe de l'arabe en Sicile. La période islamique et la période normande",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Dionysius A.",
+                "lastName": "Agius"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Alifbâ",
+        "volume": "17",
+        "issue": "",
+        "pages": "105-124",
+        "date": "1995",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:agius_1995_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "reg:Sicily [37.62, 14.44]"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

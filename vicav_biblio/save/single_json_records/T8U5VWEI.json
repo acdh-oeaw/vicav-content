@@ -1,0 +1,91 @@
+{
+    "key": "T8U5VWEI",
+    "version": 7659,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/T8U5VWEI",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/T8U5VWEI",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Watson",
+        "parsedDate": "1995",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "T8U5VWEI",
+        "version": 7659,
+        "itemType": "journalArticle",
+        "title": "Vowel harmony in Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "J.C.E.",
+                "lastName": "Watson"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Newcastle & Durham Working Papers in Linguistics",
+        "volume": "3",
+        "issue": "",
+        "pages": "249-265",
+        "date": "1995",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:watson_1995_0000)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

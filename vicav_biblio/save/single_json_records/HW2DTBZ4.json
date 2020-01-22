@@ -1,0 +1,97 @@
+{
+    "key": "HW2DTBZ4",
+    "version": 7648,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/HW2DTBZ4",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/HW2DTBZ4",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Saussey",
+        "parsedDate": "1937",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "HW2DTBZ4",
+        "version": 7648,
+        "itemType": "journalArticle",
+        "title": "Une farce de Karageuz en dialecte de Damas",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Edmond",
+                "lastName": "Saussey"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Bulletin d’Études Orientales",
+        "volume": "7-8",
+        "issue": "",
+        "pages": "5-37",
+        "date": "1937-1938",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:saussey_1937_1938_0000)",
+        "tags": [
+            {
+                "tag": "geo:Damascus [33.51, 36.27]"
+            },
+            {
+                "tag": "cnt:Syria"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:folklore"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

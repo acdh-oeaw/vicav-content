@@ -1,0 +1,99 @@
+{
+    "key": "WDVBCC3D",
+    "version": 6210,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/WDVBCC3D",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/WDVBCC3D",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Mitchell",
+        "parsedDate": "1990",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "WDVBCC3D",
+        "version": 6210,
+        "itemType": "bookSection",
+        "title": "The mixture not as before: in search of an Arabic spoken norm",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "T. F.",
+                "lastName": "Mitchell"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Dionisius A.",
+                "lastName": "Agius"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Diglossic tension: Teaching Arabic for communication",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leeds",
+        "publisher": "Folia Scholastica",
+        "date": "1990",
+        "pages": "18-26",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:mitchell_1990_0000)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-10-29T11:27:36Z"
+    }
+}

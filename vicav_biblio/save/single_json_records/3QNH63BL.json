@@ -1,0 +1,102 @@
+{
+    "key": "3QNH63BL",
+    "version": 8496,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/3QNH63BL",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/3QNH63BL",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Woidich",
+        "parsedDate": "2006",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "3QNH63BL",
+        "version": 8496,
+        "itemType": "book",
+        "title": "Das Kairenisch-Arabische: eine Grammatik",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Manfred",
+                "lastName": "Woidich"
+            }
+        ],
+        "abstractNote": "",
+        "series": "Porta linguarum Orientalium",
+        "seriesNumber": "N.S. 22",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrassowitz",
+        "date": "2006",
+        "numPages": "XXX, 444 S.",
+        "language": "",
+        "ISBN": "978-3-447-05315-0",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:woidich_2006_3203)",
+        "tags": [
+            {
+                "tag": "geo:Cairo [30.04, 31.23]"
+            },
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "vt:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:grammar"
+            },
+            {
+                "tag": "vt:sedentary dialect"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

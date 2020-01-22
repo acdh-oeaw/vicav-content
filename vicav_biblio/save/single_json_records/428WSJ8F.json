@@ -1,0 +1,91 @@
+{
+    "key": "428WSJ8F",
+    "version": 2206,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/428WSJ8F",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/428WSJ8F",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Roth-Laly",
+        "parsedDate": "1971",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "428WSJ8F",
+        "version": 2206,
+        "itemType": "journalArticle",
+        "title": "Mission de dialectologie arabe a Kormakiti (28 juin - 8 août 1972)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Arlette",
+                "lastName": "Roth-Laly"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Littérature Orale Arabo-Berbère",
+        "volume": "5",
+        "issue": "",
+        "pages": "144-152",
+        "date": "1971",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:roth_laly_1971_0001)",
+        "tags": [
+            {
+                "tag": "geo:Kormakitis [35.34, 33.00]"
+            },
+            {
+                "tag": "reg:Cyprus []"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

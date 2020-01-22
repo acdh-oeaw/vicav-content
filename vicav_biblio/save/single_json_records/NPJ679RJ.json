@@ -1,0 +1,110 @@
+{
+    "key": "NPJ679RJ",
+    "version": 2782,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/NPJ679RJ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/NPJ679RJ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Arnold",
+        "parsedDate": "2015",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "NPJ679RJ",
+        "version": 2782,
+        "itemType": "bookSection",
+        "title": "Living together with the Jews: A Palestinian Arabic text from Jaffa.",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Werner",
+                "lastName": "Arnold"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Lutz",
+                "lastName": "Edzard"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Arabic and Semitic Linguistics Contextualized: A Festschrift for Jan Retsö",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrassowitz",
+        "date": "2015",
+        "pages": "54-60",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:arnold_0000)",
+        "tags": [
+            {
+                "tag": "geo:Jaffa [32.04, 34.75]"
+            },
+            {
+                "tag": "cnt:Israel"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-05T17:03:40Z"
+    }
+}

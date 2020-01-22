@@ -1,0 +1,117 @@
+{
+    "key": "K6XN38FH",
+    "version": 3420,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/K6XN38FH",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/K6XN38FH",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Pianel",
+        "parsedDate": "1950",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "K6XN38FH",
+        "version": 3420,
+        "itemType": "journalArticle",
+        "title": "Sobriquets marocains",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "G.",
+                "lastName": "Pianel"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Hespéris",
+        "volume": "37",
+        "issue": "",
+        "pages": "443-459",
+        "date": "1950",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:pianel_1950_3916)",
+        "tags": [
+            {
+                "tag": "vt:anthropology"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:loanwords"
+            },
+            {
+                "tag": "vt:onomastics"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-24T07:26:19Z"
+    }
+}

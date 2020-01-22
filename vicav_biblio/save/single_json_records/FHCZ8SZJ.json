@@ -1,0 +1,102 @@
+{
+    "key": "FHCZ8SZJ",
+    "version": 7186,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/FHCZ8SZJ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/FHCZ8SZJ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Iraqui-Sinaceur",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "FHCZ8SZJ",
+        "version": 7186,
+        "itemType": "bookSection",
+        "title": "Histoire et emprunt linguistique",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Zakia",
+                "lastName": "Iraqui-Sinaceur"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Jocelyne",
+                "lastName": "Dakhila"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Trames de langues. Usages et métissages linguistiques dans l'histoire du Maghreb",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Paris",
+        "publisher": "Maisonneuve et Larose",
+        "date": "2004",
+        "pages": "509-524",
+        "language": "French",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:iraqui-sinaceur_2004_3733)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:loanwords"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

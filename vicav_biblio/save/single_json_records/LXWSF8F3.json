@@ -1,0 +1,105 @@
+{
+    "key": "LXWSF8F3",
+    "version": 2204,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/LXWSF8F3",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/LXWSF8F3",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Saib",
+        "parsedDate": "1976",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "LXWSF8F3",
+        "version": 2204,
+        "itemType": "journalArticle",
+        "title": "Schwa Insertion in Berber: Un Problème de Choix",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jilali",
+                "lastName": "Saib"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Robert",
+                "lastName": "Hetzron"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Afroasiatic Linguistics",
+        "volume": "3",
+        "issue": "4",
+        "pages": "71-83",
+        "date": "1976",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:saib_1976_3974)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:berber languages"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:phonology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

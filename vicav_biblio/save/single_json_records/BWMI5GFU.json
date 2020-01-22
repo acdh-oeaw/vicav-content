@@ -1,0 +1,100 @@
+{
+    "key": "BWMI5GFU",
+    "version": 6298,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/BWMI5GFU",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/BWMI5GFU",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Moujahid",
+        "parsedDate": "1995",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "BWMI5GFU",
+        "version": 6298,
+        "itemType": "bookSection",
+        "title": "Littérature orale, compétence culturelle et récupération de la langue maternelle",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "El Houssain el",
+                "lastName": "Moujahid"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Le Maroc et la Hollande: une approche comparative des grands intérêts communs",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Rabat",
+        "publisher": "Université Mohammed V, Faculté des Lettres et des Sciences Humaines",
+        "date": "1995",
+        "pages": "89-103",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:moujahid_1995_0001)",
+        "tags": [
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:teaching materials"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-25T10:29:23Z"
+    }
+}

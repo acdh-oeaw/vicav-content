@@ -1,0 +1,113 @@
+{
+    "key": "KVPL9275",
+    "version": 5551,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/KVPL9275",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/KVPL9275",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Levy",
+        "parsedDate": "1992",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "KVPL9275",
+        "version": 5551,
+        "itemType": "bookSection",
+        "title": "?ara et m?lla?: les mots, l'histoire et l'institution",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Simon",
+                "lastName": "Levy"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Abdelahad",
+                "lastName": "Sebti"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Hostoire et linguistique",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Rabat",
+        "publisher": "Université Mohammed V, Publications de la Faculté des Lettres et des Sciences Humaines",
+        "date": "1992",
+        "pages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:simon_1992_4195)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:dictionary"
+            },
+            {
+                "tag": "vt:lexicon"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-10-29T11:10:06Z"
+    }
+}

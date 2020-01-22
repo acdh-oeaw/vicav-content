@@ -1,0 +1,93 @@
+{
+    "key": "MJVERK4Q",
+    "version": 8298,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/MJVERK4Q",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/MJVERK4Q",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Palva",
+        "parsedDate": "1981",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "MJVERK4Q",
+        "version": 8298,
+        "itemType": "journalArticle",
+        "title": "A general classification of Jordanian Arabic dialects (East and West             Bank)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "H.",
+                "lastName": "Palva"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Sprawozdania z Posiedzen Komisji Naukowych",
+        "volume": "25",
+        "issue": "",
+        "pages": "75-76",
+        "date": "1981",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:palva_1981_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Israel"
+            },
+            {
+                "tag": "cnt:Jordan"
+            },
+            {
+                "tag": "reg:Palestine [31.89, 35.25]"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/F3X7IB6U"
+        },
+        "dateAdded": "2018-04-12T19:25:39Z",
+        "dateModified": "2019-03-07T12:01:23Z"
+    }
+}

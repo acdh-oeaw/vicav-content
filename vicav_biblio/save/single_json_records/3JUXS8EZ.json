@@ -1,0 +1,112 @@
+{
+    "key": "3JUXS8EZ",
+    "version": 7025,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/3JUXS8EZ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/3JUXS8EZ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Mohammad-Baba",
+        "parsedDate": "2016",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "3JUXS8EZ",
+        "version": 7025,
+        "itemType": "bookSection",
+        "title": "Quand le classique et le dialectal se mélangent en poésie : le genre poétique ??aygä en Mauritanie",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ahmed-Salem Ould",
+                "lastName": "Mohammad-Baba"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Muntasir F.",
+                "lastName": "Al-Hamad"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Rizwan",
+                "lastName": "Ahmed"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Hafid I.",
+                "lastName": "Aloui"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Lisan al-arab: Studies in Contemporary Arabic Dialects. Proceedings of the 10th International Conference of AIDA. Qatar University 2013",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Vienna",
+        "publisher": "LIT Verlag",
+        "date": "2016",
+        "pages": "235-247",
+        "language": "",
+        "ISBN": "978-3-643-90334-1",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:mohammad_baba_al_hamad_2016_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Mauritania"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:oral poetry"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

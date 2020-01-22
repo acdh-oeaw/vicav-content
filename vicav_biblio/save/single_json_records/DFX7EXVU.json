@@ -1,0 +1,88 @@
+{
+    "key": "DFX7EXVU",
+    "version": 2197,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/DFX7EXVU",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/DFX7EXVU",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Talmon",
+        "parsedDate": "2003",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "DFX7EXVU",
+        "version": 2197,
+        "itemType": "journalArticle",
+        "title": "Rediscovery of the morphology part of H. Blanc's 1953 dissertation",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Rafael",
+                "lastName": "Talmon"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "",
+        "volume": "",
+        "issue": "",
+        "pages": "281-290",
+        "date": "2003",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:talmon_2003_0000)",
+        "tags": [
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

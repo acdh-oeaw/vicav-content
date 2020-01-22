@@ -1,0 +1,110 @@
+{
+    "key": "C9TUUTPC",
+    "version": 6311,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/C9TUUTPC",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/C9TUUTPC",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Mitchell",
+        "parsedDate": "1992",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "C9TUUTPC",
+        "version": 6311,
+        "itemType": "bookSection",
+        "title": "Shaking the mixture well",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "T. F.",
+                "lastName": "Mitchell"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "D. A.",
+                "lastName": "Agius"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Avihai",
+                "lastName": "Shivtiel"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Educated spoken Arabic: what, why, how? Proceedings of the Leeds University Workshop ... 1990",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leeds",
+        "publisher": "University of Leeds, Department of Modern Arabic Studies",
+        "date": "1992",
+        "pages": "7-15",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:mitchell_1992_0000)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-25T10:14:06Z"
+    }
+}

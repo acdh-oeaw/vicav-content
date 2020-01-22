@@ -1,0 +1,94 @@
+{
+    "key": "DDSI5273",
+    "version": 6498,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/DDSI5273",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/DDSI5273",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Benhallam",
+        "parsedDate": "1990",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "DDSI5273",
+        "version": 6498,
+        "itemType": "journalArticle",
+        "title": "Moroccan Arabic Syllable Structure",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Abderrafi",
+                "lastName": "Benhallam"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Langues et Littératures",
+        "volume": "VIII",
+        "issue": "",
+        "pages": "177-191",
+        "date": "1990",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:benhallam_1990_3358)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-30T12:49:49Z"
+    }
+}

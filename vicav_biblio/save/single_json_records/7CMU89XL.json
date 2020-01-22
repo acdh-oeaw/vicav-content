@@ -1,0 +1,94 @@
+{
+    "key": "7CMU89XL",
+    "version": 7855,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/7CMU89XL",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/7CMU89XL",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Al-Nasser",
+        "parsedDate": "1993",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "7CMU89XL",
+        "version": 7855,
+        "itemType": "journalArticle",
+        "title": "The Social Function of Greetings in Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Abdulmun'im",
+                "lastName": "Al-Nasser"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Zeitschrift für Arabische Linguistik",
+        "volume": "",
+        "issue": "26",
+        "pages": "15-27",
+        "date": "1993",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "0170026X",
+        "shortTitle": "",
+        "url": "http://www.jstor.org/stable/43525613",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:'abdulmun'im al-nasser_1993_2864)",
+        "tags": [
+            {
+                "tag": "vt:customs & etiquette"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:pragmatics"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-05T11:31:37Z"
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "key": "VHZ3ZJFP",
+    "version": 2434,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/VHZ3ZJFP",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/VHZ3ZJFP",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Durand",
+        "parsedDate": "1995",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "VHZ3ZJFP",
+        "version": 2434,
+        "itemType": "journalArticle",
+        "title": "Le vocalisme bref et la question de l'accent tonique en arabe marocain et berbère",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Olivier",
+                "lastName": "Durand"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Rivista degli Studi Orientali",
+        "volume": "69",
+        "issue": "1-2",
+        "pages": "11-30",
+        "date": "1995",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:durand_1995_3582)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/IBYVD69M"
+        },
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-21T08:18:05Z"
+    }
+}

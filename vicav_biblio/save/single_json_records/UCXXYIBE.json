@@ -1,0 +1,125 @@
+{
+    "key": "UCXXYIBE",
+    "version": 2674,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/UCXXYIBE",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/UCXXYIBE",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Aguadé and Vicente",
+        "parsedDate": "1997",
+        "numChildren": 3
+    },
+    "data": {
+        "key": "UCXXYIBE",
+        "version": 2674,
+        "itemType": "journalArticle",
+        "title": "Un calco semántico del bereber en árabe dialectal magrebí: el uso de la preposición ?la en el comparativo",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jordi",
+                "lastName": "Aguadé"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Ángeles",
+                "lastName": "Vicente"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Estudios de Dialectología Norteafricana y Andalusí",
+        "volume": "2",
+        "issue": "",
+        "pages": "225-240",
+        "date": "1997",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:aguade_1997_4460)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:berber languages"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:loanwords"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-05T14:59:39Z"
+    }
+}

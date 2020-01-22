@@ -1,0 +1,111 @@
+{
+    "key": "9WFXZBT9",
+    "version": 8076,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/9WFXZBT9",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/9WFXZBT9",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Elgibali",
+        "parsedDate": "1993",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "9WFXZBT9",
+        "version": 8076,
+        "itemType": "bookSection",
+        "title": "Stability and language variation in Arabic: Cairene and Kuwaiti dialects",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Alaa",
+                "lastName": "Elgibali"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Perspectives on Arabic Linguistics V",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Amsterdam & Philadelphia",
+        "publisher": "John Benjamins",
+        "date": "1993",
+        "pages": "75-96",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Cairo [30.04, 31.23]"
+            },
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "cnt:Kuweit"
+            },
+            {
+                "tag": "vt:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-01T15:24:07Z",
+        "dateModified": "2018-10-01T15:24:54Z"
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "key": "S7G2T366",
+    "version": 3260,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/S7G2T366",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/S7G2T366",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Leddy-Cecere",
+        "parsedDate": "2010",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "S7G2T366",
+        "version": 3260,
+        "itemType": "thesis",
+        "title": "Contact, Restructuring, and Decreolization: The Case of Tunisian Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Thomas A.",
+                "lastName": "Leddy-Cecere"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "",
+        "university": "",
+        "place": "University of Pennsylvania School of Arts and Sciences",
+        "date": "2010",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:leddy_cecere_2010_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Tunisia"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-05T09:40:47Z"
+    }
+}

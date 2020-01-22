@@ -1,0 +1,85 @@
+{
+    "key": "ZXA63JIA",
+    "version": 2198,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ZXA63JIA",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ZXA63JIA",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Taherali",
+        "parsedDate": "1965",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ZXA63JIA",
+        "version": 2198,
+        "itemType": "journalArticle",
+        "title": "Arabic phonology",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Y. S.",
+                "lastName": "Taherali"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Sind University Research Journal, Arts series, Humanities and Social Sciences",
+        "volume": "4",
+        "issue": "",
+        "pages": "14-21",
+        "date": "1965",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:taherali_1965_0000)",
+        "tags": [
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

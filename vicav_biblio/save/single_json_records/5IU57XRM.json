@@ -1,0 +1,120 @@
+{
+    "key": "5IU57XRM",
+    "version": 4324,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/5IU57XRM",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/5IU57XRM",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 5116658,
+            "username": "erceg2018",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/erceg2018",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Levin",
+        "parsedDate": "2005",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "5IU57XRM",
+        "version": 4324,
+        "itemType": "bookSection",
+        "title": "The Arabic dialects of Upper Galilee",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Aryeh",
+                "lastName": "Levin"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Jordi",
+                "lastName": "Aguadé"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Vicente",
+                "lastName": "Ángeles"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Leila",
+                "lastName": "Abu-Shams"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Sacrum Arabo-Semiticum: homenaje al profesor Federico Corriente en su 65 aniversario",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Zaragoza",
+        "publisher": "Instituto de Estudios Islámicos y del Oriente Próximo",
+        "date": "2005",
+        "pages": "255-264",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:levin_2005_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Israel"
+            },
+            {
+                "tag": "reg:Palestine [31.89, 35.25]"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:description of dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T12:38:24Z"
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "key": "MNUI993W",
+    "version": 7729,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/MNUI993W",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/MNUI993W",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 5116658,
+            "username": "erceg2018",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/erceg2018",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Bläsing",
+        "parsedDate": "2008",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "MNUI993W",
+        "version": 7729,
+        "itemType": "journalArticle",
+        "title": "Doma??, mit Wasser verdünnte Dickmilch. Ein kleiner Nachtrag zur arabischen Mundart von Daragözü",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Uwe",
+                "lastName": "Bläsing"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Dutch Studies published by NELL",
+        "volume": "6",
+        "issue": "2",
+        "pages": "89-95",
+        "date": "2008",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Danagözü [38.24, 41.32]"
+            },
+            {
+                "tag": "reg:Turkey [38.08, 41.10]"
+            },
+            {
+                "tag": "vt:Mesopotamia"
+            },
+            {
+                "tag": "vt:culinary"
+            },
+            {
+                "tag": "vt:ethnographic record"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-09-27T10:12:19Z",
+        "dateModified": "2019-02-26T19:29:27Z"
+    }
+}

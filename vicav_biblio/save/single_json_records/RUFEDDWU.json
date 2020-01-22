@@ -1,0 +1,91 @@
+{
+    "key": "RUFEDDWU",
+    "version": 7544,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/RUFEDDWU",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/RUFEDDWU",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Retsö",
+        "parsedDate": "1987",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "RUFEDDWU",
+        "version": 7544,
+        "itemType": "journalArticle",
+        "title": "Copula and double pronominal objects in some Semitic Languages",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jan",
+                "lastName": "Retsö"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Zeitschrift der Deutschen Morgenländischen Gesellschaft",
+        "volume": "137",
+        "issue": "",
+        "pages": "229-236",
+        "date": "1987",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:retso_1987_3097)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

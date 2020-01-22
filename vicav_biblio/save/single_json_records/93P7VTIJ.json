@@ -1,0 +1,111 @@
+{
+    "key": "93P7VTIJ",
+    "version": 8222,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/93P7VTIJ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/93P7VTIJ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Miller",
+        "parsedDate": "2002",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "93P7VTIJ",
+        "version": 8222,
+        "itemType": "bookSection",
+        "title": "The relevance of arabic-based pidgins/creoles for Arabic Linguistics",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Catherine",
+                "lastName": "Miller"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Langue, Language: Contributions to Arabic Linguistics",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Cairo",
+        "publisher": "Dar al-Amin",
+        "date": "2002",
+        "pages": "7-45",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "vt:Central Africa"
+            },
+            {
+                "tag": "vt:East Africa"
+            },
+            {
+                "tag": "vt:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:creole"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-11T13:03:06Z",
+        "dateModified": "2018-10-11T13:03:42Z"
+    }
+}

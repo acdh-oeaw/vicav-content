@@ -1,0 +1,113 @@
+{
+    "key": "N6Y4NGEW",
+    "version": 8036,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/N6Y4NGEW",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/N6Y4NGEW",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Miller",
+        "parsedDate": "2007",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "N6Y4NGEW",
+        "version": 8036,
+        "itemType": "bookSection",
+        "title": "Do they speak the same language? Language use in Juba local courts",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Catherine",
+                "lastName": "Miller"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Everhard",
+                "lastName": "Ditters"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Harald",
+                "lastName": "Motzki"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Approaches to Arabic linguistics: presented to Kees Versteegh on the occasion of his sixtieth birthday",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leiden & Boston",
+        "publisher": "Brill",
+        "date": "2007",
+        "pages": "607-638",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:miller_2007_0001)",
+        "tags": [
+            {
+                "tag": "geo:Juba [4.85, 31.57]"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "cnt:South Sudan"
+            },
+            {
+                "tag": "vt:Central Africa"
+            },
+            {
+                "tag": "vt:jargon"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-04T17:56:34Z"
+    }
+}

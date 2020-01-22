@@ -1,0 +1,112 @@
+{
+    "key": "7PMF9C9B",
+    "version": 2727,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/7PMF9C9B",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/7PMF9C9B",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Amri and Gharib",
+        "parsedDate": "2006",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "7PMF9C9B",
+        "version": 2727,
+        "itemType": "bookSection",
+        "title": "La numérisation des données de L'Atlas Linguistique de Tunisie",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Hichem",
+                "lastName": "Amri"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Nizar",
+                "lastName": "Gharib"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Salah",
+                "lastName": "Mejri"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "L'arabe dialectal: enquêtes, descriptions, interprétations (Actes d'AIDA 6). Travaux offerts au Professeur Taïeb Baccouche",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Tunis",
+        "publisher": "Imprimerie Officielle de la République Tunisienne",
+        "date": "2006",
+        "pages": "45-50",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:amri_2006_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Tunisia"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-05T15:46:41Z"
+    }
+}

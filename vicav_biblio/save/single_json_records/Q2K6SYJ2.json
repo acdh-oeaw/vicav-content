@@ -1,0 +1,108 @@
+{
+    "key": "Q2K6SYJ2",
+    "version": 7840,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/Q2K6SYJ2",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/Q2K6SYJ2",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Ould Mohamed-Baba",
+        "parsedDate": "2006",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "Q2K6SYJ2",
+        "version": 7840,
+        "itemType": "bookSection",
+        "title": "Les euphémismes dans les dialectes arabes: le cas du ?assaniyyä",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ahmed-Salem",
+                "lastName": "Ould Mohamed-Baba"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Abderrahim",
+                "lastName": "Youssi"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Aspects of the dialects of Arabic today: Proceedings of the 4th Conference of the International Arabic Dialectology Association (AIDA), Marrakesh, April 1-4, 2000. In honour of Professor David Cohen",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Marrakech",
+        "publisher": "Amapatril",
+        "date": "2006",
+        "pages": "359-369",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:ould_mohamed_baba_2006_0001)",
+        "tags": [
+            {
+                "tag": "cnt:Mauritania"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:bedouin dialect"
+            },
+            {
+                "tag": "vt:pragmatics"
+            },
+            {
+                "tag": "vt:semantics"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-25T20:04:40Z"
+    }
+}

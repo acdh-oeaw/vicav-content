@@ -1,0 +1,119 @@
+{
+    "key": "MP4GMQ4F",
+    "version": 2429,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/MP4GMQ4F",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/MP4GMQ4F",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Palva",
+        "parsedDate": "1984",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "MP4GMQ4F",
+        "version": 2429,
+        "itemType": "journalArticle",
+        "title": "A general classification for the Arabic dialects spoken in Palestine and Transjordan",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "H.",
+                "lastName": "Palva"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Studia Orientalia",
+        "volume": "55",
+        "issue": "",
+        "pages": "357-376",
+        "date": "1984",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:palva_1984_0000)",
+        "tags": [
+            {
+                "tag": "ii:Arabic language"
+            },
+            {
+                "tag": "ii:Colloquial Arabic dialects Palestine"
+            },
+            {
+                "tag": "ii:non-classical"
+            },
+            {
+                "tag": "cnt:Israel"
+            },
+            {
+                "tag": "cnt:Jordan"
+            },
+            {
+                "tag": "reg:Palestine [31.89, 35.25]"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/QVG475FV"
+        },
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-16T15:19:29Z"
+    }
+}

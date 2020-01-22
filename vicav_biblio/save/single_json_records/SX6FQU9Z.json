@@ -1,0 +1,109 @@
+{
+    "key": "SX6FQU9Z",
+    "version": 6899,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/SX6FQU9Z",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/SX6FQU9Z",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Aguadé",
+        "parsedDate": "1998",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "SX6FQU9Z",
+        "version": 6899,
+        "itemType": "journalArticle",
+        "title": "Relatos en Hassaniyya recogidos en M?amid (Valle del Dra, sur de Marruecos)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jordi",
+                "lastName": "Aguadé"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Estudios de Dialectología Norteafricana y Andalusí",
+        "volume": "3",
+        "issue": "",
+        "pages": "203-215",
+        "date": "1998",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:aguade_1998_0000)",
+        "tags": [
+            {
+                "tag": "geo:Draa River [36.59, 5.53]"
+            },
+            {
+                "tag": "geo:M'hamid [29.82, -5.72]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:oral literature"
+            },
+            {
+                "tag": "vt:oral narratives"
+            },
+            {
+                "tag": "vt:oral poetry"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

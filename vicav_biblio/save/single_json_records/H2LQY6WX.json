@@ -1,0 +1,126 @@
+{
+    "key": "H2LQY6WX",
+    "version": 6173,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/H2LQY6WX",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/H2LQY6WX",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Shahin",
+        "parsedDate": "1998",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "H2LQY6WX",
+        "version": 6173,
+        "itemType": "bookSection",
+        "title": "Optimized Postvelar Harmony in Palestinian Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Kimary N.",
+                "lastName": "Shahin"
+            },
+            {
+                "creatorType": "seriesEditor",
+                "firstName": "Elabbas (ed. and introd.)",
+                "lastName": "Benmamoun"
+            },
+            {
+                "creatorType": "seriesEditor",
+                "firstName": "Mushira (ed. and introd.)",
+                "lastName": "Eid"
+            },
+            {
+                "creatorType": "seriesEditor",
+                "firstName": "Niloofar (ed. and introd.)",
+                "lastName": "Haeri"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Perspectives on Arabic Linguistics, XI",
+        "series": "Amsterdam Studies in the Theory and History of Linguistic Science IV: Current Issues in Linguistic Theory",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Amsterdam, Netherlands",
+        "publisher": "Amsterdam, Netherlands: Benjamins",
+        "date": "1998",
+        "pages": "143-164",
+        "language": "",
+        "ISBN": "978-90-272-3672-2",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "reg:Palestine [31.89, 35.25]"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:phonology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-08-05T07:56:13Z",
+        "dateModified": "2018-08-05T07:56:56Z"
+    }
+}

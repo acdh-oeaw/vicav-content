@@ -1,0 +1,94 @@
+{
+    "key": "89YDUUBN",
+    "version": 7456,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/89YDUUBN",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/89YDUUBN",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Nishio",
+        "parsedDate": "1995",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "89YDUUBN",
+        "version": 7456,
+        "itemType": "journalArticle",
+        "title": "Characteristics of the Arabic dialect of Qif? (Upper Egypt)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Tetsuo",
+                "lastName": "Nishio"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Ajia Afurika Gengo Bunka Kenkyo / Journal of Asian and African Studies",
+        "volume": "48-49",
+        "issue": "",
+        "pages": "173-219",
+        "date": "1995",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "03872807",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:nishio_1995_0000)",
+        "tags": [
+            {
+                "tag": "geo:Qift [25.99, 32.81]"
+            },
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:description of dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

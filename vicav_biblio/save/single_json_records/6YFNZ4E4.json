@@ -1,0 +1,101 @@
+{
+    "key": "6YFNZ4E4",
+    "version": 3372,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/6YFNZ4E4",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/6YFNZ4E4",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Reichmuth",
+        "parsedDate": "1983",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "6YFNZ4E4",
+        "version": 3372,
+        "itemType": "book",
+        "title": "Der arabische Dialekt der Šukriyya im Ostsudan",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Stefan",
+                "lastName": "Reichmuth"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Hildesheim",
+        "publisher": "G. Olms",
+        "date": "1983",
+        "numPages": "309",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:reichmuth_1983_0001)",
+        "tags": [
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "cnt:Sudan"
+            },
+            {
+                "tag": "vt:description of dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-15T13:46:04Z"
+    }
+}

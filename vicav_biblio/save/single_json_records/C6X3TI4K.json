@@ -1,0 +1,111 @@
+{
+    "key": "C6X3TI4K",
+    "version": 8596,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/C6X3TI4K",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/C6X3TI4K",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Owens",
+        "parsedDate": "1985",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "C6X3TI4K",
+        "version": 8596,
+        "itemType": "journalArticle",
+        "title": "The origins of East African Nubi",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jonathan",
+                "lastName": "Owens"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Anthropological Linguistics",
+        "volume": "27",
+        "issue": "",
+        "pages": "229-271",
+        "date": "1985",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:East Africa"
+            },
+            {
+                "tag": "vt:Central Africa"
+            },
+            {
+                "tag": "vt:East Africa"
+            },
+            {
+                "tag": "vt:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:creole"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-12T15:06:39Z",
+        "dateModified": "2019-03-15T15:58:16Z"
+    }
+}

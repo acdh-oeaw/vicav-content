@@ -1,0 +1,91 @@
+{
+    "key": "GJM2DYS4",
+    "version": 7658,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/GJM2DYS4",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/GJM2DYS4",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Watson",
+        "parsedDate": "1999",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "GJM2DYS4",
+        "version": 7658,
+        "itemType": "journalArticle",
+        "title": "The directionality of emphasis spread in Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Janet C.E.",
+                "lastName": "Watson"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Linguistic Inquiry",
+        "volume": "30",
+        "issue": "ii",
+        "pages": "289-300",
+        "date": "1999",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:watson_1999_0000)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:pragmatics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

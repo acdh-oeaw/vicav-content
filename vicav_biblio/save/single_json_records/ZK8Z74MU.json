@@ -1,0 +1,114 @@
+{
+    "key": "ZK8Z74MU",
+    "version": 5680,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ZK8Z74MU",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ZK8Z74MU",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Vinnikov",
+        "parsedDate": "1949",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ZK8Z74MU",
+        "version": 5680,
+        "itemType": "journalArticle",
+        "title": "Materialy po jazyku i folkloru bukharskih arabov",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "I.N.",
+                "lastName": "Vinnikov"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Sovetskoje Vostokovedenije",
+        "volume": "5",
+        "issue": "",
+        "pages": "120-145",
+        "date": "1949",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Bukhara [39.76, 64.45]"
+            },
+            {
+                "tag": "cnt:Uzbekistan"
+            },
+            {
+                "tag": "vt:ethnographic record"
+            },
+            {
+                "tag": "vt:ethnography"
+            },
+            {
+                "tag": "vt:folklore"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-14T19:21:29Z",
+        "dateModified": "2018-10-14T19:22:01Z"
+    }
+}

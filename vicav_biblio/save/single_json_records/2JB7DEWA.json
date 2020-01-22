@@ -1,0 +1,105 @@
+{
+    "key": "2JB7DEWA",
+    "version": 8036,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/2JB7DEWA",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/2JB7DEWA",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Vycichl",
+        "parsedDate": "1959",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "2JB7DEWA",
+        "version": 8036,
+        "itemType": "journalArticle",
+        "title": "Das U-Passivum im Maurisch-Arabischen am Senegal. Zum Ursprung des inneren Passivs in den semitischen Sprachen",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Werner",
+                "lastName": "Vycichl"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Herbert W.",
+                "lastName": "Duda"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Wiener Zeitschrift für die Kunde des Morgenlandes",
+        "volume": "55",
+        "issue": "",
+        "pages": "77-83",
+        "date": "1959",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:vycichl_1959_4072)",
+        "tags": [
+            {
+                "tag": "cnt:Senegal"
+            },
+            {
+                "tag": "vt:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-02T14:11:25Z"
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "key": "Q7NCX4F2",
+    "version": 7120,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/Q7NCX4F2",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/Q7NCX4F2",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Eades and Persson",
+        "parsedDate": "2013",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "Q7NCX4F2",
+        "version": 7120,
+        "itemType": "journalArticle",
+        "title": "Aktionsart, word form and context: On the use of the active participle in Gulf Arabic dialects",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Domenyk",
+                "lastName": "Eades"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Maria",
+                "lastName": "Persson"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Journal of Semitic Studies",
+        "volume": "58",
+        "issue": "",
+        "pages": "343–367",
+        "date": "2013",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:eades_2013_3027)",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "reg:Gulf [26.57, 49.55]"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:pragmatics"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

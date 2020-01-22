@@ -1,0 +1,106 @@
+{
+    "key": "FPC7RQ4Y",
+    "version": 5628,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/FPC7RQ4Y",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/FPC7RQ4Y",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 5116658,
+            "username": "erceg2018",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/erceg2018",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Tamis and Persson",
+        "parsedDate": "2013",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "FPC7RQ4Y",
+        "version": 5628,
+        "itemType": "book",
+        "title": "Sudanese Arabic-English / English-Sudanese Arabic: A Concise Dictionary",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Rianne",
+                "lastName": "Tamis"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Janet",
+                "lastName": "Persson"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "",
+        "publisher": "SIL International",
+        "date": "2013",
+        "numPages": "415",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Sudan"
+            },
+            {
+                "tag": "vt:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:dictionary"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-17T13:55:05Z",
+        "dateModified": "2018-10-17T13:58:07Z"
+    }
+}

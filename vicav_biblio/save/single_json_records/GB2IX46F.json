@@ -1,0 +1,103 @@
+{
+    "key": "GB2IX46F",
+    "version": 8151,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/GB2IX46F",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/GB2IX46F",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Herrero Muños-Cobo",
+        "parsedDate": "1996",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "GB2IX46F",
+        "version": 8151,
+        "itemType": "book",
+        "title": "El árabe marroquí: aproximación sociolingüística",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Bárbara",
+                "lastName": "Herrero Muños-Cobo"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Almería",
+        "publisher": "Universidad de Almería, Servicio de Publicaciones",
+        "date": "1996",
+        "numPages": "309",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:herrero_munos_cobo_1996_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/IUPNQFTG"
+        },
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-05T16:29:52Z"
+    }
+}

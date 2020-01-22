@@ -1,0 +1,120 @@
+{
+    "key": "596WWUDD",
+    "version": 8036,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/596WWUDD",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/596WWUDD",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Miller",
+        "parsedDate": "1993",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "596WWUDD",
+        "version": 8036,
+        "itemType": "journalArticle",
+        "title": "Restructuration morpho-syntaxique en Juba-Arabic et Ki-Nubi: À propos du debat universaux/substrat et superstrat dans les études creoles",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Catherine",
+                "lastName": "Miller"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Materiaux Arabes et Sudarabiques-Groupe d'Études de Linguistique et de Littérature Arabes et Sudarabiques",
+        "volume": "5",
+        "issue": "",
+        "pages": "137-174",
+        "date": "1993",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Juba [4.85, 31.57]"
+            },
+            {
+                "tag": "cnt:South Sudan"
+            },
+            {
+                "tag": "vt:Central Africa"
+            },
+            {
+                "tag": "vt:East Africa"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:syntax"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-11T11:57:38Z",
+        "dateModified": "2019-03-04T17:56:22Z"
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "key": "BAZNFTJC",
+    "version": 7059,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/BAZNFTJC",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/BAZNFTJC",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Benmamoun",
+        "parsedDate": "1997",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "BAZNFTJC",
+        "version": 7059,
+        "itemType": "journalArticle",
+        "title": "Licensing of Negative Polarity Items in Moroccan Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Elabbas",
+                "lastName": "Benmamoun"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Natural Language & Linguistic Theory",
+        "volume": "15",
+        "issue": "2",
+        "pages": "263-288",
+        "date": "1997",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:benmamoun_1997_3378)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "key": "VAY8H2WU",
+    "version": 2304,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/VAY8H2WU",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/VAY8H2WU",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Langone",
+        "parsedDate": "2008",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "VAY8H2WU",
+        "version": 2304,
+        "itemType": "bookSection",
+        "title": "Facteur D (Darija) et nouvelle génération marocaine: la musique entre innovation et tradition",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Angela Daiana",
+                "lastName": "Langone"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Stephan",
+                "lastName": "Procházka"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Veronika",
+                "lastName": "Ritt-Benmimoun"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Between the Atlantic and Indian Oceans: Studies on Contemporary Arabic Dialects. Proceedings of the 7th AIDA Conference, held in Vienna from 5-9 September 2006",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Münster-Wien",
+        "publisher": "LIT-Verlag",
+        "date": "2008",
+        "pages": "273-286",
+        "language": "",
+        "ISBN": "978-3-8258-1597-4",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:langone_prochazka_2008_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

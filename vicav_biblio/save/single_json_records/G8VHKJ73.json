@@ -1,0 +1,99 @@
+{
+    "key": "G8VHKJ73",
+    "version": 8486,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/G8VHKJ73",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/G8VHKJ73",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Westermarck",
+        "parsedDate": "1921",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "G8VHKJ73",
+        "version": 8486,
+        "itemType": "book",
+        "title": "Les cérémonies du mariage au Maroc (Traduction de l'anglais par Arin)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Edward",
+                "lastName": "Westermarck"
+            }
+        ],
+        "abstractNote": "",
+        "series": "PIHEM",
+        "seriesNumber": "",
+        "volume": "7",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Paris",
+        "publisher": "Ernst Leroux",
+        "date": "1921",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:westermarck_1921_4078)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:customs & etiquette"
+            },
+            {
+                "tag": "vt:ethnography"
+            },
+            {
+                "tag": "vt:folklore"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

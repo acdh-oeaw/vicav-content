@@ -1,0 +1,104 @@
+{
+    "key": "DP88I8IR",
+    "version": 6296,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/DP88I8IR",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/DP88I8IR",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Mughazy",
+        "parsedDate": "2003",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "DP88I8IR",
+        "version": 6296,
+        "itemType": "bookSection",
+        "title": "Discourse particles revisited: the case of wallahi in Egyptian Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Mustafa A.",
+                "lastName": "Mughazy"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Dilworth B.",
+                "lastName": "Parkinson"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Samira",
+                "lastName": "Farwaneh"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Perspectives on Arabic linguistics XV: papers from the fifteenth annual Symposium on Arabic Linguistics, Salt Lake City 2001",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Amsterdam & Philadelphia",
+        "publisher": "John Benjamins",
+        "date": "2003",
+        "pages": "3-17",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:mughazy_2003_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:pragmatics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-25T10:32:05Z"
+    }
+}

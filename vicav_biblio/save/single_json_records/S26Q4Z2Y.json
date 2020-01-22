@@ -1,0 +1,91 @@
+{
+    "key": "S26Q4Z2Y",
+    "version": 6504,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/S26Q4Z2Y",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/S26Q4Z2Y",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Abul-Fadl",
+        "parsedDate": "1961",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "S26Q4Z2Y",
+        "version": 6504,
+        "itemType": "thesis",
+        "title": "Volkstümliche Texte in arabischen Bauerndialekten der ägyptischen Provinz Šarqiyya mit dialektgeographischen Untersuchungen zur Lautlehre",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Fahmi",
+                "lastName": "Abul-Fadl"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "",
+        "university": "Universität zu Münster",
+        "place": "Münster",
+        "date": "1961",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:abul_fadl_1961_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:ethnographic record"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-28T11:00:01Z"
+    }
+}

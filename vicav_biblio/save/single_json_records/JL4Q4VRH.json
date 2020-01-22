@@ -1,0 +1,105 @@
+{
+    "key": "JL4Q4VRH",
+    "version": 3834,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/JL4Q4VRH",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/JL4Q4VRH",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Daher",
+        "parsedDate": "1999",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "JL4Q4VRH",
+        "version": 3834,
+        "itemType": "journalArticle",
+        "title": "(th) and (d) as ternary and binary variables in Damascene Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jamil",
+                "lastName": "Daher"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Current Issues in Linguistic Theory",
+        "volume": "190",
+        "issue": "",
+        "pages": "163-182",
+        "date": "1999",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:daher_1999_0000)",
+        "tags": [
+            {
+                "tag": "geo:Damascus [33.51, 36.27]"
+            },
+            {
+                "tag": "cnt:Syria"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-11T10:10:56Z"
+    }
+}

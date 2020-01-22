@@ -1,0 +1,97 @@
+{
+    "key": "FERLQ8VQ",
+    "version": 2283,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/FERLQ8VQ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/FERLQ8VQ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Sayed",
+        "parsedDate": "1981",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "FERLQ8VQ",
+        "version": 2283,
+        "itemType": "thesis",
+        "title": "The Phonology of Moroccan Arabic: A Generative Phonological Approach",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Abdelrahman Ahmed",
+                "lastName": "Sayed"
+            }
+        ],
+        "abstractNote": "This study presents a comprehensive phonological analysis of the urban dialect group of Moroccan Arabic within the framework of the standard theory of generative phonology and subsequent revisions of that theory. The phonological processes covered in the study include: assimilation, labialization, vowel epenthesis, vowel elision, stress, and emphasis. The study consists of six chapters. The first chapter introduces the basic background information about the dialect, and the second chapter deals with the phonological and morphological components. Chapter 3 through Chapter 5 deals with the phonological processes. In Chaper 3, besides the analysis of labialization, three types of assimilation are presented. These include: /1-/ assimilation, voicing assimilation, and incontiguous assimilation. The analysis of these processes provides strong supporting evidence in favor of the adjacency identity constraint as well as simultaneous rule application. Chapter 4 deals with the problem of the underlying representation of morphemes. This problem involves two phonological processes, i.e., vowel epenthesis and vowel elision. Four theoretical possibilities are proposed for representing the underlying forms, and the analysis shows that a choice based on the strong naturalness condition as well as on empirical evidence is impossible; therefore, the final choice among these possibilities is motivated by theoretical principles. In Chapter 5 stress and emphasis are analyzed. Stress always occurs on the syllable that contains a long vowel, otherwise it occurs on the penultima in three syllable words, or on the ultima in bysyllabic words. As for emphasis, the analysis results in the motivation of the feature + emphatic, the limitation of the primary emphatics to the segments / t/, /d/, /s/, and the consideration of the syllable as the domain of emphasis spread. Chapter 6 presents a summary of the phonological components, processes, and the rules which are analyzed in the study.",
+        "thesisType": "",
+        "university": "The University of Texas at Austin",
+        "place": "Austin",
+        "date": "1981",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:sayed_1981_4501)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:phonology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

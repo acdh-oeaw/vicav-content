@@ -1,0 +1,102 @@
+{
+    "key": "NIVH5ZH7",
+    "version": 5864,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/NIVH5ZH7",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/NIVH5ZH7",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Hamid",
+        "parsedDate": "1984",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "NIVH5ZH7",
+        "version": 5864,
+        "itemType": "thesis",
+        "title": "A Descriptive Analysis of Sudanese Colloquial Arabic Phonology",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "A.H.M.",
+                "lastName": "Hamid"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "",
+        "university": "",
+        "place": "Illinois",
+        "date": "1984",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Sudan"
+            },
+            {
+                "tag": "vt:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:phonology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-03T13:41:52Z",
+        "dateModified": "2018-10-03T13:42:21Z"
+    }
+}

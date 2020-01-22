@@ -1,0 +1,105 @@
+{
+    "key": "J74H5ZRX",
+    "version": 3865,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/J74H5ZRX",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/J74H5ZRX",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Denizeau",
+        "parsedDate": "1956",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "J74H5ZRX",
+        "version": 3865,
+        "itemType": "journalArticle",
+        "title": "Le diminutif dans le dialecte arabe des Marazîg (Nefzaoua)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Claude",
+                "lastName": "Denizeau"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Comptes Rendus du Groupe Linguistique d’Études Chamito-Sémitiques (GLECS)",
+        "volume": "7",
+        "issue": "",
+        "pages": "66-71",
+        "date": "1956",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:denizeau_1956_0000)",
+        "tags": [
+            {
+                "tag": "geo:Douz [33.46, 9.02]"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Tunisia"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-11T11:13:57Z"
+    }
+}

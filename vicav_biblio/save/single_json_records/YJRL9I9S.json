@@ -1,0 +1,113 @@
+{
+    "key": "YJRL9I9S",
+    "version": 6534,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/YJRL9I9S",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/YJRL9I9S",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4621144,
+            "username": "Bettina_Leit",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/bettina_leit",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "as-Sab?an",
+        "parsedDate": "1989",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "YJRL9I9S",
+        "version": 6534,
+        "itemType": "book",
+        "title": "Mu?gam ?alfað? al-lahga al-kuwaytiyya",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "L.K.",
+                "lastName": "as-Sab?an"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Kuwait",
+        "publisher": "al-Rubai?an Press",
+        "date": "1989",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "reg:Gulf [26.57, 49.55]"
+            },
+            {
+                "tag": "cnt:Kuweit"
+            },
+            {
+                "tag": "vt:// (Kuwayt, Bahrain, Qatar, UAE)"
+            },
+            {
+                "tag": "vt:bedouin dialect"
+            },
+            {
+                "tag": "vt:dictionary"
+            },
+            {
+                "tag": "vt:lexicon"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-12-03T14:52:23Z",
+        "dateModified": "2018-12-03T14:54:50Z"
+    }
+}

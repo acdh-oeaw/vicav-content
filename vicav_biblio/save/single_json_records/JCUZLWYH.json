@@ -1,0 +1,99 @@
+{
+    "key": "JCUZLWYH",
+    "version": 3964,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/JCUZLWYH",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/JCUZLWYH",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Ferrando Frutos",
+        "parsedDate": "1995",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "JCUZLWYH",
+        "version": 3964,
+        "itemType": "journalArticle",
+        "title": "Los romancismos de los documentos mozárabes de Toledo",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ignacio",
+                "lastName": "Ferrando Frutos"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Anaquel de Estudios Arabes",
+        "volume": "6",
+        "issue": "",
+        "pages": "71-86",
+        "date": "1995",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:ferrando_frutos_1995_0000)",
+        "tags": [
+            {
+                "tag": "reg:Andalusia [39.92, -3.02]"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-15T08:56:05Z"
+    }
+}

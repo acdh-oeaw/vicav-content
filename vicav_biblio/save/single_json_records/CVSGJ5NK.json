@@ -1,0 +1,97 @@
+{
+    "key": "CVSGJ5NK",
+    "version": 6249,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/CVSGJ5NK",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/CVSGJ5NK",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Halasi-Kun",
+        "parsedDate": "1973",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "CVSGJ5NK",
+        "version": 6249,
+        "itemType": "journalArticle",
+        "title": "The Ottoman elements in the Syrian dialects, II",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Tibor",
+                "lastName": "Halasi-Kun"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Archivum Ottomanicum",
+        "volume": "5",
+        "issue": "",
+        "pages": "17-95",
+        "date": "1973",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:halasi-kun_1973_3186)",
+        "tags": [
+            {
+                "tag": "cnt:Syria"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:loanwords"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-10-04T18:34:27Z"
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "key": "PZXDZTTV",
+    "version": 5704,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/PZXDZTTV",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/PZXDZTTV",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Taine-Cheikh",
+        "parsedDate": "1987",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "PZXDZTTV",
+        "version": 5704,
+        "itemType": "journalArticle",
+        "title": "Le ?assaniyya mode(s) d´emploi",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Catherine",
+                "lastName": "Taine-Cheikh"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Al Wasît (bulletin de l´Institut Mauritanien de Recherche Scientifique)",
+        "volume": "1",
+        "issue": "",
+        "pages": "33-46",
+        "date": "1987",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Mauritania"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-14T18:31:09Z",
+        "dateModified": "2018-10-14T18:32:08Z"
+    }
+}

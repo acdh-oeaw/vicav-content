@@ -1,0 +1,100 @@
+{
+    "key": "JU8BQQAY",
+    "version": 2273,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/JU8BQQAY",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/JU8BQQAY",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Abu-Haidar",
+        "parsedDate": "1992",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "JU8BQQAY",
+        "version": 2273,
+        "itemType": "journalArticle",
+        "title": "Arabic terms in contemporary French: the Algerian contribution",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Farida",
+                "lastName": "Abu-Haidar"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Awraq: Estudios sobre el Mundo Árabe e Islámico Contemporáneo",
+        "volume": "13",
+        "issue": "",
+        "pages": "143-155",
+        "date": "1992",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "0214834X",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:abu_haidar_1992_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "vt://e.g. Europe, Americas"
+            },
+            {
+                "tag": "vt:Diaspora"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

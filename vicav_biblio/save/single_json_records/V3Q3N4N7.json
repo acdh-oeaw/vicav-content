@@ -1,0 +1,117 @@
+{
+    "key": "V3Q3N4N7",
+    "version": 6132,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/V3Q3N4N7",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/V3Q3N4N7",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Geva-Kleinberger",
+        "parsedDate": "2010",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "V3Q3N4N7",
+        "version": 6132,
+        "itemType": "journalArticle",
+        "title": "A text in the Arabic dialect of the Druze of 'Ayn Qinyi/the Golan Heights",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Aharon",
+                "lastName": "Geva-Kleinberger"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Jerusalem Studies in Arabic and Islam",
+        "volume": "37",
+        "issue": "",
+        "pages": "47-58",
+        "date": "2010",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Golan Heights [33.27, 35.77]"
+            },
+            {
+                "tag": "cnt:Israel"
+            },
+            {
+                "tag": "cnt:Syria"
+            },
+            {
+                "tag": "vt:customs & etiquette"
+            },
+            {
+                "tag": "vt:ethnic minorities"
+            },
+            {
+                "tag": "vt:folklore"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-09-22T18:20:47Z",
+        "dateModified": "2018-09-22T18:22:27Z"
+    }
+}

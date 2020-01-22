@@ -1,0 +1,104 @@
+{
+    "key": "AQ32NEEF",
+    "version": 6193,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/AQ32NEEF",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/AQ32NEEF",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Aro, Jussi",
+        "parsedDate": "1978",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "AQ32NEEF",
+        "version": 6193,
+        "itemType": "journalArticle",
+        "title": "Der südlibanesische Dialekt von ez-Zreriyye. 1: Texte",
+        "creators": [
+            {
+                "creatorType": "author",
+                "name": "Aro, Jussi"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Acta Orientalia (Copenhagen)",
+        "volume": "39",
+        "issue": "",
+        "pages": "31-125",
+        "date": "1978",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Lebanon"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-05-05T17:09:54Z",
+        "dateModified": "2018-05-05T17:10:39Z"
+    }
+}

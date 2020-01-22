@@ -1,0 +1,101 @@
+{
+    "key": "C7C7U6HB",
+    "version": 6228,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/C7C7U6HB",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/C7C7U6HB",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Rice and Sa‘id",
+        "parsedDate": "1966",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "C7C7U6HB",
+        "version": 6228,
+        "itemType": "book",
+        "title": "Eastern Arabic: An Introduction to the Spoken Arabic of Palestine, Syria and Lebanon",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Frank A.",
+                "lastName": "Rice"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Majed F.",
+                "lastName": "Sa‘id"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Washington D.C.",
+        "publisher": "Georgetown Univeristy Press",
+        "date": "1966",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:rice_sa_id_1966_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Lebanon"
+            },
+            {
+                "tag": "reg:Palestine [31.89, 35.25]"
+            },
+            {
+                "tag": "cnt:Syria"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:textbook"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-10-14T16:34:02Z"
+    }
+}

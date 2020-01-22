@@ -1,0 +1,133 @@
+{
+    "key": "7BXCE2NL",
+    "version": 5620,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/7BXCE2NL",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/7BXCE2NL",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Bettega",
+        "parsedDate": "2017",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "7BXCE2NL",
+        "version": 5620,
+        "itemType": "bookSection",
+        "title": "Agreement with Plural Controllers in Omani Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Simone",
+                "lastName": "Bettega"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Simone",
+                "lastName": "Bettega"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Fabio",
+                "lastName": "Gasparini"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Linguistic Studies in the Arabian Gulf",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Torino",
+        "publisher": "Università di Torino",
+        "date": "2017",
+        "pages": "153-174",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "reg:Gulf [26.57, 49.55]"
+            },
+            {
+                "tag": "cnt:Oman"
+            },
+            {
+                "tag": "vt:Oman/Yemen"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:syntax"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-29T11:48:44Z",
+        "dateModified": "2018-10-29T11:51:36Z"
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "key": "8HFUM2XL",
+    "version": 2220,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/8HFUM2XL",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/8HFUM2XL",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Messaoudi",
+        "parsedDate": "1998",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "8HFUM2XL",
+        "version": 2220,
+        "itemType": "journalArticle",
+        "title": "Technolectes bilingues (français-arabe) et modes de dénomination",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Leila",
+                "lastName": "Messaoudi"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Revue Tunisienne des Sciences Sociales / Al-Majalla al-Tunisiya lil-?Ulum al-Ijtima?iya",
+        "volume": "35",
+        "issue": "117",
+        "pages": "27-45",
+        "date": "1998",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "English",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:messaoudi_1998_4226)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:jargon"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:loanwords"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

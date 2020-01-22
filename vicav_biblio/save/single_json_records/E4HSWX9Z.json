@@ -1,0 +1,112 @@
+{
+    "key": "E4HSWX9Z",
+    "version": 3918,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/E4HSWX9Z",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/E4HSWX9Z",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Elhalimi",
+        "parsedDate": "1996",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "E4HSWX9Z",
+        "version": 3918,
+        "itemType": "bookSection",
+        "title": "La négation dans le parler arabe de Mazouna (Ouest algérien)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Brahim",
+                "lastName": "Elhalimi"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Salem",
+                "lastName": "Chaker"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Dominique",
+                "lastName": "Caubet"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "La négation en berbère et en arabe maghrébin",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Paris",
+        "publisher": "L'Harmattan",
+        "date": "1996",
+        "pages": "135-162",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:elhalimi_1996_0000)",
+        "tags": [
+            {
+                "tag": "geo:Mazouna [36.11, 0.87]"
+            },
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-13T14:17:26Z"
+    }
+}

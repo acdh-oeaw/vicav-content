@@ -1,0 +1,119 @@
+{
+    "key": "3EF57YEW",
+    "version": 2295,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/3EF57YEW",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/3EF57YEW",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Spitaler",
+        "parsedDate": "1952",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "3EF57YEW",
+        "version": 2295,
+        "itemType": "bookSection",
+        "title": "ma ra?ahu illa bi- und Verwandtes. Ein Beitrag zur arabischen Phraseologie",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Anton",
+                "lastName": "Spitaler"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Hans Joachim",
+                "lastName": "Kissling"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Alois",
+                "lastName": "Schmaus"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Serta Monacensia. Franz Babinger zum 15. Januar 1951 als Festgruss dargebracht",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leiden",
+        "publisher": "Brill",
+        "date": "1952",
+        "pages": "171-183",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:spitaler_1952_4152)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:phraseology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

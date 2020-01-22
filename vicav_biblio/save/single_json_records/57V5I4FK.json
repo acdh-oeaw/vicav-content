@@ -1,0 +1,97 @@
+{
+    "key": "57V5I4FK",
+    "version": 7541,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/57V5I4FK",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/57V5I4FK",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Ritt-Benmimoun",
+        "parsedDate": "2017",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "57V5I4FK",
+        "version": 7541,
+        "itemType": "journalArticle",
+        "title": "The preposition fi- as an object and aspect marker in a South Tunisian Bedouin dialect",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Veronika",
+                "lastName": "Ritt-Benmimoun"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Journal of Semitic Studies",
+        "volume": "62",
+        "issue": "",
+        "pages": "319-355",
+        "date": "2017",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:ritt-benmimoun_2017_3103)",
+        "tags": [
+            {
+                "tag": "cnt:Tunisia"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:bedouin dialect"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

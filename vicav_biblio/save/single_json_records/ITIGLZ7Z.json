@@ -1,0 +1,124 @@
+{
+    "key": "ITIGLZ7Z",
+    "version": 7793,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ITIGLZ7Z",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ITIGLZ7Z",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Aoun et al.",
+        "parsedDate": "1999",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ITIGLZ7Z",
+        "version": 7793,
+        "itemType": "journalArticle",
+        "title": "Further Remarks on First Conjunct Agreement",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Joseph",
+                "lastName": "Aoun"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Elabbas",
+                "lastName": "Benmamoun"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Dominique",
+                "lastName": "Sportiche"
+            }
+        ],
+        "abstractNote": "Aoun, Benmamoun, and Sportiche (ABS, 1994) propose an analysis of first conjunct agreement in VS sentences in Lebanese Arabic and Moroccan Arabic. On the basis of the distribution of number-sensitive items, they argue that this type of agreement is due to clausal coordination. Munn (1999) argues against ABS's account and proposes that first conjunct agreement in the Arabic dialects arises because coordination of NP subjects is semantically plural but syntactically singular. In this reply we show that Munn's alternative analysis is empirically inadequate.",
+        "publicationTitle": "Linguistic Inquiry",
+        "volume": "30",
+        "issue": "4",
+        "pages": "669-681",
+        "date": "1999",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "00243892, 15309150",
+        "shortTitle": "",
+        "url": "http://www.jstor.org.uaccess.univie.ac.at/stable/4179086",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:aoun_1999_3008)",
+        "tags": [
+            {
+                "tag": "cnt:Lebanon"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-02T18:43:47Z"
+    }
+}

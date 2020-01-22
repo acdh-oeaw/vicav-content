@@ -1,0 +1,109 @@
+{
+    "key": "6JGJYGYF",
+    "version": 2292,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/6JGJYGYF",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/6JGJYGYF",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Youssef",
+        "parsedDate": "2014",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "6JGJYGYF",
+        "version": 2292,
+        "itemType": "bookSection",
+        "title": "Emphasis Spread in Cairene Arabic: a Reassessment",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Islam",
+                "lastName": "Youssef"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Olivier",
+                "lastName": "Durand"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Angela Daiana",
+                "lastName": "Langone"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Giuliano",
+                "lastName": "Mion"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Alf lahga wa lahga : proceedings of the 9th Aida Conference",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wien",
+        "publisher": "LIT Verlag",
+        "date": "2014",
+        "pages": "455-464",
+        "language": "",
+        "ISBN": "978-3-643-90334-1",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:youssef_durand_2014_0000)",
+        "tags": [
+            {
+                "tag": "geo:Cairo [30.04, 31.23]"
+            },
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

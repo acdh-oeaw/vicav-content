@@ -1,0 +1,110 @@
+{
+    "key": "F9U6YAPS",
+    "version": 8788,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/F9U6YAPS",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/F9U6YAPS",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Bassiouney",
+        "parsedDate": "2018",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "F9U6YAPS",
+        "version": 8788,
+        "itemType": "bookSection",
+        "title": "Identity, repertoire, and performance: The case of an Egyptian poet",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Reem",
+                "lastName": "Bassiouney"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Reem",
+                "lastName": "Bassiouney"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Identity and dialect performance: A study of communities and dialects",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "London & New York",
+        "publisher": "Routledge",
+        "date": "2018",
+        "pages": "286-302",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "vt:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:ethnography"
+            },
+            {
+                "tag": "vt:poetry"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2019-03-14T10:44:23Z",
+        "dateModified": "2019-03-14T10:45:40Z"
+    }
+}

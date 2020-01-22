@@ -1,0 +1,104 @@
+{
+    "key": "K6JYAL8S",
+    "version": 3394,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/K6JYAL8S",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/K6JYAL8S",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Prokosch",
+        "parsedDate": "1986",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "K6JYAL8S",
+        "version": 3394,
+        "itemType": "book",
+        "title": "Arabische Kontaktsprachen (Pidgin- und Kreolsprachen) in Afrika",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "E.",
+                "lastName": "Prokosch"
+            }
+        ],
+        "abstractNote": "",
+        "series": "Grazer Linguistische Monographien",
+        "seriesNumber": "2",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Graz",
+        "publisher": "Institut für Sprachwissenschaft der Universität Graz",
+        "date": "1986",
+        "numPages": "112",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:prokosch_1986_0000)",
+        "tags": [
+            {
+                "tag": "reg:Central Africa []"
+            },
+            {
+                "tag": "reg:East Africa []"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:creole"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-23T08:21:00Z"
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "key": "PISLDQX7",
+    "version": 2206,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/PISLDQX7",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/PISLDQX7",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Roth-Laly",
+        "parsedDate": "1971",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "PISLDQX7",
+        "version": 2206,
+        "itemType": "journalArticle",
+        "title": "Compte-rendu de mission (Tunisie 15 août - 16 septembre 1972)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Arlette",
+                "lastName": "Roth-Laly"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Littérature Orale Arabo-Berbère",
+        "volume": "5",
+        "issue": "",
+        "pages": "140-143",
+        "date": "1971",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:roth_laly_1971_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Tunisia"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

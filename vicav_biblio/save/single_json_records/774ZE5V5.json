@@ -1,0 +1,113 @@
+{
+    "key": "774ZE5V5",
+    "version": 3983,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/774ZE5V5",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/774ZE5V5",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Fleisch",
+        "parsedDate": "1970",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "774ZE5V5",
+        "version": 3983,
+        "itemType": "bookSection",
+        "title": "Un texte arabe, dialectal, de Zgharta (Liban Nord)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Henri",
+                "lastName": "Fleisch"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "David",
+                "lastName": "Cohen"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Mélanges Marcel Cohen: études de linguistique, ethnographie et sciences connexes offertes par ses amis et ses élèves à l'occasion de son 80ème anniversaire",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "The Hague",
+        "publisher": "Mouton",
+        "date": "1970",
+        "pages": "240-244",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:fleisch_1970_0000)",
+        "tags": [
+            {
+                "tag": "geo:Zgharta [34.39, 35.89]"
+            },
+            {
+                "tag": "cnt:Lebanon"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-15T09:12:32Z"
+    }
+}

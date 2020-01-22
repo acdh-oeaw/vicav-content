@@ -1,0 +1,100 @@
+{
+    "key": "5JNJA48U",
+    "version": 2240,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/5JNJA48U",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/5JNJA48U",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Grigore",
+        "parsedDate": "2005",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "5JNJA48U",
+        "version": 2240,
+        "itemType": "journalArticle",
+        "title": "Expressing conditionality in the spoken Arabic of Baghdad",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "George",
+                "lastName": "Grigore"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Folia Orientalia",
+        "volume": "41",
+        "issue": "",
+        "pages": "39-48",
+        "date": "2005",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "00155675",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:grigore_2005_0000)",
+        "tags": [
+            {
+                "tag": "geo:Baghdad [33.31, 44.36]"
+            },
+            {
+                "tag": "cnt:Iraq"
+            },
+            {
+                "tag": "reg:Mesopotamia [35.14, 42.48]"
+            },
+            {
+                "tag": "vt:bedouin dialect"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

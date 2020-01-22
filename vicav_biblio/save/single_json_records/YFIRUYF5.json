@@ -1,0 +1,105 @@
+{
+    "key": "YFIRUYF5",
+    "version": 3960,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/YFIRUYF5",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/YFIRUYF5",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Ferguson",
+        "parsedDate": "1989",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "YFIRUYF5",
+        "version": 3960,
+        "itemType": "journalArticle",
+        "title": "Grammatical agreement in classical Arabic and the modern dialects: a response to Versteegh's pidginization hypothesis",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Charles A.",
+                "lastName": "Ferguson"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Al'Arabiyya",
+        "volume": "22",
+        "issue": "",
+        "pages": "5-17",
+        "date": "1989",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:ferguson_1989_0000)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:Arabic as a minority language"
+            },
+            {
+                "tag": "vt:creole"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-15T08:53:39Z"
+    }
+}

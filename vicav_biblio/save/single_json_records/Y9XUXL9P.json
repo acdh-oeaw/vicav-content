@@ -1,0 +1,107 @@
+{
+    "key": "Y9XUXL9P",
+    "version": 3152,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/Y9XUXL9P",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/Y9XUXL9P",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Ben Amor Ben Hamida",
+        "parsedDate": "2006",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "Y9XUXL9P",
+        "version": 3152,
+        "itemType": "bookSection",
+        "title": "Les questionnaires de l’Atlas Linguistique de Tunisie : Lecture critique",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Thouraya",
+                "lastName": "Ben Amor Ben Hamida"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Salah",
+                "lastName": "Mejri"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "L’arabe dialectal : enquêtes, descriptions, interprétations. Actes d’AIDA 6. Travaux Offerts au Professeur Taieb Baccouche.",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Tunis",
+        "publisher": "Imprimerie Officielle de la République Tunisienne",
+        "date": "2006",
+        "pages": "51-58",
+        "language": "",
+        "ISBN": "9954-0-2720-3",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:hamida_youssi_2006_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Tunisia"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-07-19T17:58:11Z"
+    }
+}

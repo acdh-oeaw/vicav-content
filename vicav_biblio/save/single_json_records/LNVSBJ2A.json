@@ -1,0 +1,114 @@
+{
+    "key": "LNVSBJ2A",
+    "version": 7061,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/LNVSBJ2A",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/LNVSBJ2A",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Benítez Fernández",
+        "parsedDate": "2006",
+        "numChildren": 3
+    },
+    "data": {
+        "key": "LNVSBJ2A",
+        "version": 7061,
+        "itemType": "journalArticle",
+        "title": "Approche sur la politique linguistique au Maroc depuis l'independance",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Montserrat",
+                "lastName": "Benítez Fernández"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Jordi",
+                "lastName": "Aguadé"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Frederico",
+                "lastName": "Corriente"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Ángeles",
+                "lastName": "Vicente"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Mohamed",
+                "lastName": "Meouak"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Estudios de Dialectología Norteafricana y Andalusí",
+        "volume": "10",
+        "issue": "",
+        "pages": "109-120",
+        "date": "2006",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:benitez fernandez_2006_4550)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

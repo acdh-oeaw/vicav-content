@@ -1,0 +1,99 @@
+{
+    "key": "F5HVN24B",
+    "version": 7873,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/F5HVN24B",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/F5HVN24B",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Arias",
+        "parsedDate": "1994",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "F5HVN24B",
+        "version": 7873,
+        "itemType": "bookSection",
+        "title": "El uso de la traducción en la didáctica del árabe colloquial marroquí",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Juan Pablo",
+                "lastName": "Arias"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Luis Charlo",
+                "lastName": "Brea"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Reflexiones sobre la traducción: Actas del Primer Encuentro Interdisciplinar \"Teoría y Práctica de la Traducción\", Cádiz del 29 de marzo al 1 de abril de 1993",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Cádiz",
+        "publisher": "Servicio de Publicaciones de la Universidad de Cádiz",
+        "date": "1994",
+        "pages": "157-166",
+        "language": "Spanish",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:teaching materials"
+            },
+            {
+                "tag": "vt:textbook"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-05T16:45:22Z"
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "key": "43B3AIAT",
+    "version": 7761,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/43B3AIAT",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/43B3AIAT",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 5116658,
+            "username": "erceg2018",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/erceg2018",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Al-Saqqaf",
+        "parsedDate": "2005",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "43B3AIAT",
+        "version": 7761,
+        "itemType": "journalArticle",
+        "title": "?a?rami Arabic verbal morphology",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Abdullah Hassan",
+                "lastName": "Al-Saqqaf"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Matériaux Arabes et Sudarabiques (MAS-Gellas)",
+        "volume": "",
+        "issue": "10",
+        "pages": "91–128",
+        "date": "2005",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Hadramawt [17.37, 49.26]"
+            },
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "vt:South Arabian"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2019-01-23T11:26:51Z",
+        "dateModified": "2019-01-23T11:27:46Z"
+    }
+}

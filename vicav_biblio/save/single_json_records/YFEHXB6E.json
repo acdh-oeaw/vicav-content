@@ -1,0 +1,105 @@
+{
+    "key": "YFEHXB6E",
+    "version": 6083,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/YFEHXB6E",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/YFEHXB6E",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Baccouche",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "YFEHXB6E",
+        "version": 6083,
+        "itemType": "bookSection",
+        "title": "L’arabe: un continuum ?",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Taïeb",
+                "lastName": "Baccouche"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Le Continuum en linguistique",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Susa",
+        "publisher": "Universidad de Susa",
+        "date": "2004",
+        "pages": "233-242",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-09-29T13:49:16Z",
+        "dateModified": "2018-09-29T13:50:05Z"
+    }
+}

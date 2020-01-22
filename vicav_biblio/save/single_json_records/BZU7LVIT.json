@@ -1,0 +1,99 @@
+{
+    "key": "BZU7LVIT",
+    "version": 7775,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/BZU7LVIT",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/BZU7LVIT",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Pereira",
+        "parsedDate": "2006",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "BZU7LVIT",
+        "version": 7775,
+        "itemType": "bookSection",
+        "title": "Eléments de description du parler arabe de Tripoli (Libye)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Christophe",
+                "lastName": "Pereira"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Abderrahim",
+                "lastName": "Youssi"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "L’arabe dialectal : enquêtes, descriptions, interprétations. Actes d’AIDA 6. Travaux Offerts au Professeur Taieb Baccouche. Sous la direction de Salah Mejri (Université de la Manouba / LLI, Université de Paris 13).",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Tunis",
+        "publisher": "Imprimerie Officielle de la République Tunisienne",
+        "date": "2006",
+        "pages": "371-386",
+        "language": "",
+        "ISBN": "9954-0-2720-3",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:pereira_youssi_2006_0000)",
+        "tags": [
+            {
+                "tag": "geo:Tripoli (Libya) [32.88, 13.19]"
+            },
+            {
+                "tag": "cnt:Libya"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "vt:description of dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-02T12:59:32Z"
+    }
+}

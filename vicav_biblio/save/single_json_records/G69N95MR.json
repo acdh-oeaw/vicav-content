@@ -1,0 +1,101 @@
+{
+    "key": "G69N95MR",
+    "version": 7728,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/G69N95MR",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/G69N95MR",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Grigore and Bituna",
+        "parsedDate": "2012",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "G69N95MR",
+        "version": 7728,
+        "itemType": "bookSection",
+        "title": "Common features of North Mesopotamian Arabic Dialects Spoken in Turkey (Sirnak, Mardin, Siirt)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "George",
+                "lastName": "Grigore"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Gabriel",
+                "lastName": "Bituna"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "M. Nesim",
+                "lastName": "Doru"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Bilim Düsünce ve Sanatta Cizre (Uluslararasi Bilim Düsünce ve Sanatta Cizre Sempozyumu Bildirileri)",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Istanbul",
+        "publisher": "Mardin Artuklu Üniversitesi Yayinlari",
+        "date": "2012",
+        "pages": "545-555",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:grigore_2012_3032)",
+        "tags": [
+            {
+                "tag": "geo:Mardin [37.31, 40.73]"
+            },
+            {
+                "tag": "reg:Turkey [38.08, 41.10]"
+            },
+            {
+                "tag": "vt:Mesopotamia"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-02-26T19:30:09Z"
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "key": "AYLN457J",
+    "version": 6794,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/AYLN457J",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/AYLN457J",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Zafrani",
+        "parsedDate": "1988",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "AYLN457J",
+        "version": 6794,
+        "itemType": "bookSection",
+        "title": "Conscience historique et univers culturel judéo-berbères au Maroc",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Haïm",
+                "lastName": "Zafrani"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Y. L.",
+                "lastName": "Arbeitman"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Fucus: a Semitic/Afrasian gathering in remembrance of Albert Ehrman",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Amsterdam",
+        "publisher": "Benjamins",
+        "date": "1988",
+        "pages": "499-517",
+        "language": "English",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:zafrani_1988_4096)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Jewish dialects"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:berber languages"
+            },
+            {
+                "tag": "vt:ethnography"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

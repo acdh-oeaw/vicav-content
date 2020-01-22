@@ -1,0 +1,108 @@
+{
+    "key": "NJPNXVJ6",
+    "version": 3436,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/NJPNXVJ6",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/NJPNXVJ6",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Pellat",
+        "parsedDate": "1991",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "NJPNXVJ6",
+        "version": 3436,
+        "itemType": "bookSection",
+        "title": "Mal?un",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Charles",
+                "lastName": "Pellat"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Encyclopédie de l'Islam (nouvelle édition)",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "VI",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leiden & Boston",
+        "publisher": "Brill",
+        "date": "1991",
+        "pages": "232-242",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:pellat_1991_4234)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:music"
+            },
+            {
+                "tag": "vt:oral literature"
+            },
+            {
+                "tag": "vt:oral poetry"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-24T08:38:22Z"
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "key": "5AGSDUQK",
+    "version": 6229,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/5AGSDUQK",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/5AGSDUQK",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Retsö",
+        "parsedDate": "1983",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "5AGSDUQK",
+        "version": 6229,
+        "itemType": "book",
+        "title": "The Finite Passive Voice in Modern Arabic Dialects",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jan",
+                "lastName": "Retsö"
+            }
+        ],
+        "abstractNote": "",
+        "series": "Orientalia Gothoburgensia",
+        "seriesNumber": "7",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Gothenburg",
+        "publisher": "Acta Universitatis Gothoburgensis",
+        "date": "1983",
+        "numPages": "215",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:retso_1983_0001)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-10-14T16:30:44Z"
+    }
+}

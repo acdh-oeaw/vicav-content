@@ -1,0 +1,97 @@
+{
+    "key": "LNAUNI8A",
+    "version": 7620,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/LNAUNI8A",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/LNAUNI8A",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Quéméneur",
+        "parsedDate": "1962",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "LNAUNI8A",
+        "version": 7620,
+        "itemType": "journalArticle",
+        "title": "Glossaire de dialectal tunisien 1942-1962",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jean",
+                "lastName": "Quéméneur"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "La Revue IBLA",
+        "volume": "",
+        "issue": "",
+        "pages": "325-368",
+        "date": "1962",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:quemeneur_1962_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Tunisia"
+            },
+            {
+                "tag": "vt:glossary"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

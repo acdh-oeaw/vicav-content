@@ -1,0 +1,97 @@
+{
+    "key": "I8DHAAD3",
+    "version": 8116,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/I8DHAAD3",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/I8DHAAD3",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Fleischer",
+        "parsedDate": "1864",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "I8DHAAD3",
+        "version": 8116,
+        "itemType": "journalArticle",
+        "title": "Jüdisch-Arabisches aus Magreb",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Heinrich Leberecht",
+                "lastName": "Fleischer"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Zeitschrift der Deutschen Morgenländischen Gesellschaft",
+        "volume": "18",
+        "issue": "",
+        "pages": "329-40",
+        "date": "1864",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:fleischer_1864_3636)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Jewish dialects"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:ethnic minorities"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-15T09:17:13Z"
+    }
+}

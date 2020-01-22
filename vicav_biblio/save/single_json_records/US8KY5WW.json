@@ -1,0 +1,109 @@
+{
+    "key": "US8KY5WW",
+    "version": 6620,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/US8KY5WW",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/US8KY5WW",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Holes",
+        "parsedDate": "2012",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "US8KY5WW",
+        "version": 6620,
+        "itemType": "bookSection",
+        "title": "Some unusual verb forms of North-Arabia",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Clive",
+                "lastName": "Holes"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Johannes",
+                "lastName": "Den Heijer"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Paolo",
+                "lastName": "La Spisa"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Laurence",
+                "lastName": "Tuerlinckx"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Autour de la langue arabe : études présentées à Jacques Grand'Henry à l'occasion de son 70e anniversaire",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Louvain-la-Neuve",
+        "publisher": "Peeters",
+        "date": "2012",
+        "pages": "219-228",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:holes_2012_2963)",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "reg:Gulf [26.57, 49.55]"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-18T14:26:18Z"
+    }
+}

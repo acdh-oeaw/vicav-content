@@ -1,0 +1,117 @@
+{
+    "key": "GXA9NWXN",
+    "version": 3380,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/GXA9NWXN",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/GXA9NWXN",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Ratcliffe",
+        "parsedDate": "2005",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "GXA9NWXN",
+        "version": 3380,
+        "itemType": "bookSection",
+        "title": "Bukhara Arabic: a metatypized dialect of Arabic in Central Asia",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Robert R.",
+                "lastName": "Ratcliffe"
+            },
+            {
+                "creatorType": "editor",
+                "name": "Csató, Éva Ágnes"
+            },
+            {
+                "creatorType": "editor",
+                "name": "Isaksson, Bo"
+            },
+            {
+                "creatorType": "editor",
+                "name": "Jahani, Carina"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Linguistic convergence and areal diffusion: Case studies from Iranian, Semitic and Turkic",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "London & New York",
+        "publisher": "RoutledgeCurzon",
+        "date": "2005",
+        "pages": "141-159",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:ratcliffe_2005_0000)",
+        "tags": [
+            {
+                "tag": "geo:Bukhara [39.76, 64.45]"
+            },
+            {
+                "tag": "reg:Central Asia []"
+            },
+            {
+                "tag": "reg:Mesopotamia [35.14, 42.48]"
+            },
+            {
+                "tag": "cnt:Uzbekistan"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-23T08:02:21Z"
+    }
+}

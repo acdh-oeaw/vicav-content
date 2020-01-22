@@ -1,0 +1,99 @@
+{
+    "key": "6EQY3I2T",
+    "version": 5999,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/6EQY3I2T",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/6EQY3I2T",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Broselow",
+        "parsedDate": "1992",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "6EQY3I2T",
+        "version": 5999,
+        "itemType": "bookSection",
+        "title": "Parametric Variation in Arabic Dialect",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "E.",
+                "lastName": "Broselow"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Perspectives on Arabic Linguistics IV",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Amsterdam & Philadelphia",
+        "publisher": "John Benjamins",
+        "date": "1992",
+        "pages": "7-45",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-09-30T17:19:07Z",
+        "dateModified": "2018-09-30T17:19:44Z"
+    }
+}

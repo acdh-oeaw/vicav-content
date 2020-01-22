@@ -1,0 +1,109 @@
+{
+    "key": "JH492PXD",
+    "version": 2421,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/JH492PXD",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/JH492PXD",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Nortier",
+        "parsedDate": "1995",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "JH492PXD",
+        "version": 2421,
+        "itemType": "journalArticle",
+        "title": "Code switching in Moroccan Arabic/Dutch vs. Moroccan Arabic/French language contact",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jacomine M.",
+                "lastName": "Nortier"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Moha",
+                "lastName": "Ennaji"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "International Journal of the Sociology of Language",
+        "volume": "112",
+        "issue": "",
+        "pages": "81-95",
+        "date": "1995",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:nortier_1995_3898)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "vt:Diaspora"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/QDECP74Y"
+        },
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-19T09:22:35Z"
+    }
+}

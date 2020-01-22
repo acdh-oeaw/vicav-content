@@ -1,0 +1,94 @@
+{
+    "key": "8KXAKFXU",
+    "version": 8546,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/8KXAKFXU",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/8KXAKFXU",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Yrttiaho",
+        "parsedDate": "1988",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "8KXAKFXU",
+        "version": 8546,
+        "itemType": "journalArticle",
+        "title": "Texts from Arabia Petraea in the dialect of the semi-nomadic an-N?emat tribe of the Shara mountains (Jordan)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "K.",
+                "lastName": "Yrttiaho"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Studia Orientalia",
+        "volume": "64",
+        "issue": "",
+        "pages": "145-168",
+        "date": "1988",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:yrttiaho_1988_0001)",
+        "tags": [
+            {
+                "tag": "cnt:Jordan"
+            },
+            {
+                "tag": "vt:bedouin dialect"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:language of a tribe"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

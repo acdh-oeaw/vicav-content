@@ -1,0 +1,107 @@
+{
+    "key": "LJAGJ79Z",
+    "version": 2638,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/LJAGJ79Z",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/LJAGJ79Z",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Aguadé and Benyahia",
+        "parsedDate": "1990",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "LJAGJ79Z",
+        "version": 2638,
+        "itemType": "journalArticle",
+        "title": "El šaweš Bu-?Azza visita al siquiatra: un diálogo en árabe dialectal de Casablanca",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jordi",
+                "lastName": "Aguadé"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Laila",
+                "lastName": "Benyahia"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Anaquel de Estudios Arabes",
+        "volume": "1",
+        "issue": "",
+        "pages": "103-128",
+        "date": "1990",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:aguade_1990_0000)",
+        "tags": [
+            {
+                "tag": "geo:Casablanca [33.57, -7.58]"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-05T14:36:30Z"
+    }
+}

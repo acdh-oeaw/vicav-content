@@ -1,0 +1,88 @@
+{
+    "key": "V495TRLZ",
+    "version": 2248,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/V495TRLZ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/V495TRLZ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Durand",
+        "parsedDate": "2009",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "V495TRLZ",
+        "version": 2248,
+        "itemType": "journalArticle",
+        "title": "Ma qalat-ha la-hu [not equal to] ma-'alit-ha-lu-š. Où s'arrête le \"mot\" en arabe dialectal? Quelques remarques sur le caractère soi-disant analitique de l'arabe dialectal",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Olivier",
+                "lastName": "Durand"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "",
+        "volume": "",
+        "issue": "",
+        "pages": "188-194",
+        "date": "2009",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:durand_2009_0000)",
+        "tags": [
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

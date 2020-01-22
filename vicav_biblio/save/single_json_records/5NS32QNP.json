@@ -1,0 +1,102 @@
+{
+    "key": "5NS32QNP",
+    "version": 6522,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/5NS32QNP",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/5NS32QNP",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Khattab",
+        "parsedDate": "2006",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "5NS32QNP",
+        "version": 6522,
+        "itemType": "bookSection",
+        "title": "Acoustic and auditory differences in the /t/-/?/ opposition in male and female speakers of Jordanian Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ghada",
+                "lastName": "Khattab"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Sami",
+                "lastName": "Boudelaa"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Perspectives on Arabic linguistics XVI: papers from the sixteenth annual Symposium on Arabic Linguistics, Cambridge, March 2002",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Amsterdam & Philadelphia",
+        "publisher": "Benjamins",
+        "date": "2006",
+        "pages": "131-160",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:khattab_2006_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Jordan"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:gender aspects"
+            },
+            {
+                "tag": "vt:phonology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T11:11:56Z"
+    }
+}

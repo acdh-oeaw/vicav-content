@@ -1,0 +1,102 @@
+{
+    "key": "UQ67PPBA",
+    "version": 2936,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/UQ67PPBA",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/UQ67PPBA",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "al-Batal",
+        "parsedDate": "1993",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "UQ67PPBA",
+        "version": 2936,
+        "itemType": "bookSection",
+        "title": "Connectives in Arabic diglossia: the case of Lebanese Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Mahmoud",
+                "lastName": "al-Batal"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "",
+        "series": "",
+        "seriesNumber": "Current Issues in Linguistic Theory",
+        "volume": "115",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Amsterdam",
+        "publisher": "Benjamins",
+        "date": "1993",
+        "pages": "91-119",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:batal_1993_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Lebanon"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-10T12:14:15Z"
+    }
+}

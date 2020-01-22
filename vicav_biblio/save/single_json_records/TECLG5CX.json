@@ -1,0 +1,94 @@
+{
+    "key": "TECLG5CX",
+    "version": 2284,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/TECLG5CX",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/TECLG5CX",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Mimoun",
+        "parsedDate": "1985",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "TECLG5CX",
+        "version": 2284,
+        "itemType": "thesis",
+        "title": "Recueil de proverbes en usage à Oujda. contribution à l'elaboration d'un corpus central des proverbes marocaines. These de 3ème cycle",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Najini",
+                "lastName": "Mimoun"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "",
+        "university": "Université Sidi Mohammed Ben Abdellah",
+        "place": "",
+        "date": "1985-86",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:mimoun_1985-86_3870)",
+        "tags": [
+            {
+                "tag": "geo:Oujda [34.68, -1.90]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:ethnographic record"
+            },
+            {
+                "tag": "vt:proverbs"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

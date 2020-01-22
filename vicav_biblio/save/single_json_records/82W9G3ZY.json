@@ -1,0 +1,100 @@
+{
+    "key": "82W9G3ZY",
+    "version": 6305,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/82W9G3ZY",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/82W9G3ZY",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Moor",
+        "parsedDate": "1990",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "82W9G3ZY",
+        "version": 6305,
+        "itemType": "journalArticle",
+        "title": "Le vocatif comme élément déictique: un aspect négligé du discours théâtral",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ed de",
+                "lastName": "Moor"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Orientalia Lovaniensia Periodica",
+        "volume": "21",
+        "issue": "",
+        "pages": "213-240",
+        "date": "1990",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "00854522",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:moor_1990_0000)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-25T10:20:52Z"
+    }
+}

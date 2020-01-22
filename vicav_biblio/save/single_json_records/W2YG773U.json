@@ -1,0 +1,109 @@
+{
+    "key": "W2YG773U",
+    "version": 7771,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/W2YG773U",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/W2YG773U",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Wassermann",
+        "parsedDate": "2017",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "W2YG773U",
+        "version": 7771,
+        "itemType": "journalArticle",
+        "title": "A Story from Samha Island",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Clemens",
+                "lastName": "Wassermann"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Zeitschrift für Arabische Linguistik",
+        "volume": "",
+        "issue": "65",
+        "pages": "56-72",
+        "date": "2017",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "10.13173/zeitarabling.65.0056",
+        "ISSN": "0170026X",
+        "shortTitle": "",
+        "url": "http://www.jstor.org.uaccess.univie.ac.at/stable/10.13173/zeitarabling.65.0056",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:wassermann_2017_2783)",
+        "tags": [
+            {
+                "tag": "geo:Samha"
+            },
+            {
+                "tag": "reg:Arabian Peninsula"
+            },
+            {
+                "tag": "reg:Yemen"
+            },
+            {
+                "tag": "vt:Oman/Yemen"
+            },
+            {
+                "tag": "vt:ethnography"
+            },
+            {
+                "tag": "vt:folklore"
+            },
+            {
+                "tag": "vt:oral literature"
+            },
+            {
+                "tag": "vt:oral narratives"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-02T11:18:16Z"
+    }
+}

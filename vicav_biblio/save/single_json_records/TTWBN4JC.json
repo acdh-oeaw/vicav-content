@@ -1,0 +1,99 @@
+{
+    "key": "TTWBN4JC",
+    "version": 7699,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/TTWBN4JC",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/TTWBN4JC",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Fink",
+        "parsedDate": "2017",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "TTWBN4JC",
+        "version": 7699,
+        "itemType": "book",
+        "title": "Der arabische Dialekt von Hasankeyf am Tigris (Osttürkei): Geschichte - Grammatik - Texte - Glossar",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Andreas",
+                "lastName": "Fink"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrassowitz",
+        "date": "2017",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:fink_2017_3211)",
+        "tags": [
+            {
+                "tag": "geo:Hasankeyf [37.71, 41.40]"
+            },
+            {
+                "tag": "cnt:Turkey"
+            },
+            {
+                "tag": "vt:Mesopotamia"
+            },
+            {
+                "tag": "vt:glossary"
+            },
+            {
+                "tag": "vt:grammar"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

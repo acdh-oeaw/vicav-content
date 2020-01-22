@@ -1,0 +1,118 @@
+{
+    "key": "XK9G9Y4W",
+    "version": 4253,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/XK9G9Y4W",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/XK9G9Y4W",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 5116658,
+            "username": "erceg2018",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/erceg2018",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Kaye and Rosenhouse",
+        "parsedDate": "1997",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "XK9G9Y4W",
+        "version": 4253,
+        "itemType": "journalArticle",
+        "title": "Arabic dialects and Maltese",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Alan S.",
+                "lastName": "Kaye"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Judith",
+                "lastName": "Rosenhouse"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Robert",
+                "lastName": "Hetzron"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "The Semitic languages",
+        "volume": "",
+        "issue": "",
+        "pages": "263-311",
+        "date": "1997",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "English",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:kaye_1997_4290)",
+        "tags": [
+            {
+                "tag": "cnt:Malta"
+            },
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T10:15:10Z"
+    }
+}

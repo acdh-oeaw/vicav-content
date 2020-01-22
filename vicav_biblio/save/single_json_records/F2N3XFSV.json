@@ -1,0 +1,88 @@
+{
+    "key": "F2N3XFSV",
+    "version": 2243,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/F2N3XFSV",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/F2N3XFSV",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "García Gómez",
+        "parsedDate": "1971",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "F2N3XFSV",
+        "version": 2243,
+        "itemType": "journalArticle",
+        "title": "Una nota de Levi della Vida sobre el uso de 'Állah' por 'Allah'",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "E.",
+                "lastName": "García Gómez"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Al-Andalus",
+        "volume": "36",
+        "issue": "",
+        "pages": "239-240",
+        "date": "1971",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:garcia_gomez_1971_0000)",
+        "tags": [
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

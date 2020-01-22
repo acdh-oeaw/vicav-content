@@ -1,0 +1,141 @@
+{
+    "key": "PXTZVTZ4",
+    "version": 2311,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/PXTZVTZ4",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/PXTZVTZ4",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Embarki",
+        "parsedDate": "2007",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "PXTZVTZ4",
+        "version": 2311,
+        "itemType": "bookSection",
+        "title": "Segmental and prosodic aspects of Ksar el Kebir's neo-urban variety",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Mohamed",
+                "lastName": "Embarki"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Catherin",
+                "lastName": "Miller"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Enam",
+                "lastName": "al-Wer"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Dominique",
+                "lastName": "Caubet"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Janet C.E.",
+                "lastName": "Watson"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Arabic in the city: issues in dialect contact and language variation",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "London",
+        "publisher": "Routledge",
+        "date": "2007",
+        "pages": "213-229",
+        "language": "English",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:embarki_2007_3605)",
+        "tags": [
+            {
+                "tag": "geo:Ksar el-Kebir [35.00, -5.91]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:phonology"
+            },
+            {
+                "tag": "vt:prosody"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

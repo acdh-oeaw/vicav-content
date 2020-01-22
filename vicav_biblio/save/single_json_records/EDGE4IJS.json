@@ -1,0 +1,99 @@
+{
+    "key": "EDGE4IJS",
+    "version": 8046,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/EDGE4IJS",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/EDGE4IJS",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "García",
+        "parsedDate": "1981",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "EDGE4IJS",
+        "version": 8046,
+        "itemType": "bookSection",
+        "title": "Estudio filológico de una carta en árabe dialectal hispánico",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "A. Díaz",
+                "lastName": "García"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Actas de las Jornadas de Cultura Arabe e Islámica (1978)",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Madrid",
+        "publisher": "Instituto Hispano-Arabe de Cultura",
+        "date": "1981",
+        "pages": "613-617",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:diaz_garcia_1981_0000)",
+        "tags": [
+            {
+                "tag": "reg:Andalusia [39.92, -3.02]"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-04T18:40:18Z"
+    }
+}

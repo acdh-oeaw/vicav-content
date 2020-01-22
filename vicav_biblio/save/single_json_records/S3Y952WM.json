@@ -1,0 +1,138 @@
+{
+    "key": "S3Y952WM",
+    "version": 5616,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/S3Y952WM",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/S3Y952WM",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Gazsi",
+        "parsedDate": "2013",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "S3Y952WM",
+        "version": 5616,
+        "itemType": "bookSection",
+        "title": "The Deceptive, the Reddish and the Ursa: Arabic Wind Terminology on Iran’s Gulf Coast",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Dénes",
+                "lastName": "Gazsi"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Renaud",
+                "lastName": "Kuty"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Ulrich",
+                "lastName": "Seeger"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Shabo",
+                "lastName": "Talay"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Nicht nur mit Engelszungen: Beiträge zur semitischen Dialektologie. Festschrift für Werner Arnold zum 60. Geburtstag",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrasowitz",
+        "date": "2013",
+        "pages": "101-108",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:prochazka_2013_3246)",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "reg:Gulf [26.57, 49.55]"
+            },
+            {
+                "tag": "cnt:Iran"
+            },
+            {
+                "tag": "vt:etymology"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:jargon"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:loanwords"
+            },
+            {
+                "tag": "vt:onomastics"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-29T12:00:16Z",
+        "dateModified": "2018-10-29T12:00:53Z"
+    }
+}

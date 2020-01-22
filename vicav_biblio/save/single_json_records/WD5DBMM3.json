@@ -1,0 +1,99 @@
+{
+    "key": "WD5DBMM3",
+    "version": 3560,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/WD5DBMM3",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/WD5DBMM3",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Boucherit",
+        "parsedDate": "1985",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "WD5DBMM3",
+        "version": 3560,
+        "itemType": "journalArticle",
+        "title": "Convergence et différenciation dialectale à Alger",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Aziza",
+                "lastName": "Boucherit"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Matériaux Arabes et Sudarabiques",
+        "volume": "1985",
+        "issue": "",
+        "pages": "13-56",
+        "date": "1985",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:boucherit_1985_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-01T10:10:22Z"
+    }
+}

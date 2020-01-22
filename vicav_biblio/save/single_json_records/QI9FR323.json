@@ -1,0 +1,108 @@
+{
+    "key": "QI9FR323",
+    "version": 8617,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/QI9FR323",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/QI9FR323",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Fischer",
+        "parsedDate": "1907",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "QI9FR323",
+        "version": 8617,
+        "itemType": "journalArticle",
+        "title": "Eine interessante algierisch-marokkanische Genitivumschreibung (1)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "August",
+                "lastName": "Fischer"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Zeitschrift der Deutschen Morgenländischen Gesellschaft",
+        "volume": "61",
+        "issue": "",
+        "pages": "178-185, 501",
+        "date": "1907",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-02T14:36:21Z",
+        "dateModified": "2019-03-15T16:24:24Z"
+    }
+}

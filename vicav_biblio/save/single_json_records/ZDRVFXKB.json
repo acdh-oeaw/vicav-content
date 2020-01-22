@@ -1,0 +1,105 @@
+{
+    "key": "ZDRVFXKB",
+    "version": 3227,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ZDRVFXKB",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ZDRVFXKB",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Singer",
+        "parsedDate": "1997",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ZDRVFXKB",
+        "version": 3227,
+        "itemType": "bookSection",
+        "title": "Ein arabischer Text aus Constantine (Algerien)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "H-R.",
+                "lastName": "Singer"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Humanism, Culture and Language in the Near East. Studies in Honor of Georg Krotkoff",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Winona Lake, Indiana",
+        "publisher": "Eisenbrauns",
+        "date": "1997",
+        "pages": "225-233",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:singer_1997_0000)",
+        "tags": [
+            {
+                "tag": "geo:Constantine [36.36, 6.64]"
+            },
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-03T20:25:57Z"
+    }
+}

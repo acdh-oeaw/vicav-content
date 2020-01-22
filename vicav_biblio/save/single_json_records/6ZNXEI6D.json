@@ -1,0 +1,96 @@
+{
+    "key": "6ZNXEI6D",
+    "version": 8538,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/6ZNXEI6D",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/6ZNXEI6D",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Zaid",
+        "parsedDate": "2005",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "6ZNXEI6D",
+        "version": 8538,
+        "itemType": "journalArticle",
+        "title": "La distinction entre le syntagme prédicatif et le syntagme qualicatif en arabe marocain",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Zahra",
+                "lastName": "Zaid"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Langues et Linguistique. Languages and Linguistics: an International Refereed             Journal of Linguistics",
+        "volume": "15-16",
+        "issue": "",
+        "pages": "1-30",
+        "date": "2005",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "French",
+        "DOI": "",
+        "ISSN": "1114-03399",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:zaid_2005_4125)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": [
+                "http://zotero.org/groups/2165756/items/N9L3EQ4S",
+                "http://zotero.org/groups/2165756/items/DXD6Q4KQ"
+            ]
+        },
+        "dateAdded": "2018-04-12T19:25:39Z",
+        "dateModified": "2019-03-11T09:55:25Z"
+    }
+}

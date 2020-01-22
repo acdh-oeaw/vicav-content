@@ -1,0 +1,99 @@
+{
+    "key": "TY2CS5PB",
+    "version": 3539,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/TY2CS5PB",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/TY2CS5PB",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Bloch",
+        "parsedDate": "1971",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "TY2CS5PB",
+        "version": 3539,
+        "itemType": "journalArticle",
+        "title": "Morphological doublets in Arabic dialects",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ariel A.",
+                "lastName": "Bloch"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Journal of Semitic Studies",
+        "volume": "16",
+        "issue": "",
+        "pages": "53-73",
+        "date": "1971",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:bloch_1971_0000)",
+        "tags": [
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-01T09:52:18Z"
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "key": "AUHMJZCN",
+    "version": 6246,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/AUHMJZCN",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/AUHMJZCN",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Hamparzoumian",
+        "parsedDate": "2008",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "AUHMJZCN",
+        "version": 6246,
+        "itemType": "bookSection",
+        "title": "Enseñanza del marroquí y nivel de competencia",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Aram",
+                "lastName": "Hamparzoumian"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Francisco",
+                "lastName": "Moscoso García"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Luis Miguel",
+                "lastName": "Pérez Cañada"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Nadi Hamdi",
+                "lastName": "Nouaouri Izrelli"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Actas del segundo congreso Árabe marroquí: estudio, enseñanza y aprendizaje",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Cádiz",
+        "publisher": "Servicio de Publicaciones de la Universidad de Cádiz",
+        "date": "2008",
+        "pages": "11-24",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:hamparzoumian_2008_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:teaching materials"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-10-04T18:40:17Z"
+    }
+}

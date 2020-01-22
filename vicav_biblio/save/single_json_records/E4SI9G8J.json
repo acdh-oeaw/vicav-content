@@ -1,0 +1,87 @@
+{
+    "key": "E4SI9G8J",
+    "version": 2338,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/E4SI9G8J",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/E4SI9G8J",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "?abshush",
+        "parsedDate": "1941",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "E4SI9G8J",
+        "version": 2338,
+        "itemType": "book",
+        "title": "Travels in Yemen: an account of Joseph Halévy's journey to Najran in the year 1870. Written in Sana'ni Arabic by his guide ?ayyim ?abshush. Ed. with a detailed summary in English and a glossary of vernacular words by S.D.Goitein",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "?ayyim",
+                "lastName": "?abshush"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Jerusalem",
+        "publisher": "",
+        "date": "1941",
+        "numPages": "102",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:habshush_1941_0000)",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "cnt:Yemen"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

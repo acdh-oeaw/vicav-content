@@ -1,0 +1,117 @@
+{
+    "key": "Q4URUNSZ",
+    "version": 2861,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/Q4URUNSZ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/Q4URUNSZ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Windfuhr",
+        "parsedDate": "2005",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "Q4URUNSZ",
+        "version": 2861,
+        "itemType": "bookSection",
+        "title": "Central Asian Arabic: the Irano-Arabic dynamics of a new perfect",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Gernot L.",
+                "lastName": "Windfuhr"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Éva Ágnes",
+                "lastName": "Csató"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Bo",
+                "lastName": "Isaksson"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Carina",
+                "lastName": "Jahani"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Linguistic Convergence and Areal Diffusion",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "London",
+        "publisher": "Routledge",
+        "date": "2005",
+        "pages": "111-123",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:windfuhr_2005_0000)",
+        "tags": [
+            {
+                "tag": "reg:Central Asia []"
+            },
+            {
+                "tag": "reg:Mesopotamia [35.14, 42.48]"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-07T15:48:28Z"
+    }
+}

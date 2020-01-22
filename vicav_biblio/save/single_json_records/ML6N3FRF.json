@@ -1,0 +1,113 @@
+{
+    "key": "ML6N3FRF",
+    "version": 2428,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ML6N3FRF",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ML6N3FRF",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Rosenhouse",
+        "parsedDate": "2008",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ML6N3FRF",
+        "version": 2428,
+        "itemType": "journalArticle",
+        "title": "A new approach to the description of contemporary Arabic dialects (mainly in Israel)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Judith",
+                "lastName": "Rosenhouse"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Zeitschrift für Arabische Linguistik",
+        "volume": "48",
+        "issue": "",
+        "pages": "35-57",
+        "date": "2008",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "0170026X",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:rosenhouse_2008_0000)",
+        "tags": [
+            {
+                "tag": "ii:Arabic language"
+            },
+            {
+                "tag": "ii:Colloquial Arabic dialects Palestine"
+            },
+            {
+                "tag": "ii:non-classical"
+            },
+            {
+                "tag": "cnt:Israel"
+            },
+            {
+                "tag": "reg:Palestine [31.89, 35.25]"
+            },
+            {
+                "tag": "vt:description of dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/4D4LT8FU"
+        },
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-16T15:17:31Z"
+    }
+}

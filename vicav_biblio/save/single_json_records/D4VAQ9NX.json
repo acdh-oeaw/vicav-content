@@ -1,0 +1,112 @@
+{
+    "key": "D4VAQ9NX",
+    "version": 2222,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/D4VAQ9NX",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/D4VAQ9NX",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Marçais",
+        "parsedDate": "1912",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "D4VAQ9NX",
+        "version": 2222,
+        "itemType": "journalArticle",
+        "title": "L'alternance vocalique a-u (a-i) au parfait du verbe régulier (1re forme) dans le parler arabe de Tanger",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "William",
+                "lastName": "Marçais"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Zeitschrift für Assyriologie und Verwandte Gebiete",
+        "volume": "27",
+        "issue": "",
+        "pages": "22-27",
+        "date": "1912",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:marcais_1912_4165)",
+        "tags": [
+            {
+                "tag": "geo:Tanger [35.75, -5.83]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:phonology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

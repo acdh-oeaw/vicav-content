@@ -1,0 +1,102 @@
+{
+    "key": "ZXI46B4G",
+    "version": 3760,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ZXI46B4G",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ZXI46B4G",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Colin",
+        "parsedDate": "1928",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ZXI46B4G",
+        "version": 3760,
+        "itemType": "bookSection",
+        "title": "Les voyelles de disjonction dans l'arabe de Grenade au XVe siècle",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Georges Séraphin",
+                "lastName": "Colin"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Memorial Henri Basset: nouvelles études nord-africaines et orientales. Tome 1",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Paris",
+        "publisher": "Leroux",
+        "date": "1928",
+        "pages": "211-218",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:colin_1928_0000)",
+        "tags": [
+            {
+                "tag": "geo:Granada [33.87, -5.54]"
+            },
+            {
+                "tag": "reg:Andalusia [39.92, -3.02]"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-03T18:15:26Z"
+    }
+}

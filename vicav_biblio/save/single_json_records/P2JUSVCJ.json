@@ -1,0 +1,104 @@
+{
+    "key": "P2JUSVCJ",
+    "version": 7775,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/P2JUSVCJ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/P2JUSVCJ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Pereira",
+        "parsedDate": "2008",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "P2JUSVCJ",
+        "version": 7775,
+        "itemType": "bookSection",
+        "title": "Aperçu du système aspecto-temporel du parler arabe de Tripoli (Libye)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Christophe",
+                "lastName": "Pereira"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Stephan",
+                "lastName": "Procházka"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Veronika",
+                "lastName": "Ritt-Benmimoun"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Between the Atlantic and Indian Oceans: Studies on Contemporary Arabic Dialects. Proceedings of the 7th AIDA Conference, held in Vienna from 5-9 September 2006",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Münster-Wien",
+        "publisher": "LIT-Verlag",
+        "date": "2008",
+        "pages": "329-348",
+        "language": "",
+        "ISBN": "978-3-8258-1597-4",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:pereira_prochazka_2008_0000)",
+        "tags": [
+            {
+                "tag": "geo:Tripoli (Libya) [32.88, 13.19]"
+            },
+            {
+                "tag": "cnt:Libya"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-02T12:59:36Z"
+    }
+}

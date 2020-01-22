@@ -1,0 +1,101 @@
+{
+    "key": "JBCEFG5U",
+    "version": 2294,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/JBCEFG5U",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/JBCEFG5U",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Taine-Cheikh",
+        "parsedDate": "2016",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "JBCEFG5U",
+        "version": 2294,
+        "itemType": "bookSection",
+        "title": "ba?d(a) dans les dialectes arabes: glissements sémantiques et phénomènes de transcatégorisation",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Catherine",
+                "lastName": "Taine-Cheikh"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "George",
+                "lastName": "Grigore"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Gabriel",
+                "lastName": "Bi?una"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Arabic Varieties: Far and Wide. Proceedings of the 11th International Conference of AIDA – Bucharest, 2015",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Bucharest",
+        "publisher": "Editura Universita?ii din Bucure?ti",
+        "date": "2016",
+        "pages": "531-539",
+        "language": "",
+        "ISBN": "978-606-16-0709-9",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:taine_cheikh_grigore_2016_0000)",
+        "tags": [
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:semantics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

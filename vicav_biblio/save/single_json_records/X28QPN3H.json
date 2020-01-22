@@ -1,0 +1,91 @@
+{
+    "key": "X28QPN3H",
+    "version": 2202,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/X28QPN3H",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/X28QPN3H",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Shoubary",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "X28QPN3H",
+        "version": 2202,
+        "itemType": "journalArticle",
+        "title": "Neologisms in Egyptian Arabic 1990-2003",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Iman el",
+                "lastName": "Shoubary"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Acta Orientalia: Ediderunt Societates Orientales Danica Fennica Norvegica Svecica",
+        "volume": "65",
+        "issue": "",
+        "pages": "7-17",
+        "date": "2004",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "00016438",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:shoubary_2004_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

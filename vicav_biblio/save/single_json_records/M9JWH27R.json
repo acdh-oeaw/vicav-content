@@ -1,0 +1,91 @@
+{
+    "key": "M9JWH27R",
+    "version": 2246,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/M9JWH27R",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/M9JWH27R",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Fakhri",
+        "parsedDate": "1984",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "M9JWH27R",
+        "version": 2246,
+        "itemType": "journalArticle",
+        "title": "The use of communicative strategies in narrative discourse: a case study of a learner of Moroccan Arabic as a second language",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ahmed",
+                "lastName": "Fakhri"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Language Learning: a Journal of Applied Linguistics",
+        "volume": "34",
+        "issue": "iii",
+        "pages": "15-37",
+        "date": "1984",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:fakhri_1984_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

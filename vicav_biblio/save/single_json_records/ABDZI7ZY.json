@@ -1,0 +1,100 @@
+{
+    "key": "ABDZI7ZY",
+    "version": 2284,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ABDZI7ZY",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ABDZI7ZY",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Maymun",
+        "parsedDate": "1999",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "ABDZI7ZY",
+        "version": 2284,
+        "itemType": "thesis",
+        "title": "Dictionnaire des Taxons paramiologiques en usage au Maroc Oriental (proverbes, locutions proverbiales, dictons, expressions, idiomatiques)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Nagi",
+                "lastName": "Maymun"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "Doctorat d'Etat",
+        "university": "Faculté des Lettres - Oujda",
+        "place": "Oujda",
+        "date": "1999",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:maymun_1999_4222)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:dictionary"
+            },
+            {
+                "tag": "vt:jargon"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:loanwords"
+            },
+            {
+                "tag": "vt:onomastics"
+            },
+            {
+                "tag": "vt:proverbs"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

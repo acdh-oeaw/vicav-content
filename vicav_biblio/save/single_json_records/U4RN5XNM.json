@@ -1,0 +1,97 @@
+{
+    "key": "U4RN5XNM",
+    "version": 6910,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/U4RN5XNM",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/U4RN5XNM",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Aljenaie",
+        "parsedDate": "2008",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "U4RN5XNM",
+        "version": 6910,
+        "itemType": "journalArticle",
+        "title": "Negation in early Kuwaiti Arabic child language",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Khawla",
+                "lastName": "Aljenaie"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Arab Journal for the Humanities / Al-Majalla al-?Arabiya li-l-?Ulum al-Insaniya",
+        "volume": "26",
+        "issue": "102",
+        "pages": "249-275",
+        "date": "2008",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "10269576",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:aljenaie_2008_0000)",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "cnt:Kuweit"
+            },
+            {
+                "tag": "vt:Baby talk"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

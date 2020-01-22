@@ -1,0 +1,106 @@
+{
+    "key": "B9F4MPHI",
+    "version": 2305,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/B9F4MPHI",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/B9F4MPHI",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Jastrow",
+        "parsedDate": "1995",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "B9F4MPHI",
+        "version": 2305,
+        "itemType": "bookSection",
+        "title": "Towards a reassessment of Uzbekistan Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Otto",
+                "lastName": "Jastrow"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Joe",
+                "lastName": "Cremona"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Clive",
+                "lastName": "Holes"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Geoffrey",
+                "lastName": "Khan"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Proceedings of the 2nd International Conference of l’Association Internationale pour la Dialectologie Arabe (AIDA): held at Trinity Hall in the University of Cambridge, 10 – 14 September 1995",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Cambridge",
+        "publisher": "University Publications Centre",
+        "date": "1995",
+        "pages": "95-104",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:jastrow_cremona_1995_0000)",
+        "tags": [
+            {
+                "tag": "reg:Mesopotamia [35.14, 42.48]"
+            },
+            {
+                "tag": "cnt:Uzbekistan"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

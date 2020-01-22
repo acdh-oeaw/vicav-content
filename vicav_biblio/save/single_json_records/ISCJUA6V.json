@@ -1,0 +1,116 @@
+{
+    "key": "ISCJUA6V",
+    "version": 6008,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ISCJUA6V",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ISCJUA6V",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Boucherit and Lentin",
+        "parsedDate": "1989",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ISCJUA6V",
+        "version": 6008,
+        "itemType": "bookSection",
+        "title": "Les dialectes féminins dans le monde arabe: Des dialectes minoritaires et leur évolution",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Aziza",
+                "lastName": "Boucherit"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Jérôme",
+                "lastName": "Lentin"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Genre et langage: actes du colloque tenu à Paris X Nanterre les 14-15-16 décembre 1988",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Paris",
+        "publisher": "Université Paris X-Nanterre",
+        "date": "1989",
+        "pages": "17-37",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:gender aspects"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-09-30T17:09:08Z",
+        "dateModified": "2018-09-30T17:11:07Z"
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "key": "SDNWNF5I",
+    "version": 2260,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/SDNWNF5I",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/SDNWNF5I",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Borg",
+        "parsedDate": "1994",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "SDNWNF5I",
+        "version": 2260,
+        "itemType": "journalArticle",
+        "title": "Some evolutionary parallels and divergences in Cypriot Arabic and Maltese",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Alexander",
+                "lastName": "Borg"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Mediterranean Language Review",
+        "volume": "8",
+        "issue": "",
+        "pages": "41-67",
+        "date": "1994",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "07247567",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:borg_1994_0000)",
+        "tags": [
+            {
+                "tag": "reg:Cyprus []"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Malta"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

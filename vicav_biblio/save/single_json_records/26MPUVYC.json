@@ -1,0 +1,100 @@
+{
+    "key": "26MPUVYC",
+    "version": 7809,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/26MPUVYC",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/26MPUVYC",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Abdel-Massih et al.",
+        "parsedDate": "1978",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "26MPUVYC",
+        "version": 7809,
+        "itemType": "book",
+        "title": "A comprehensive study of Egyptian Arabic: Lexicon Part 1: Egyptian Arabic - English. Lexicon Part 2: English - Egyptian Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ernest T.",
+                "lastName": "Abdel-Massih"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "al-Sa?id Mu?ammad,",
+                "lastName": "Badawi"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Zaki N.",
+                "lastName": "Abdel-Malek"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "4",
+        "numberOfVolumes": "4",
+        "edition": "",
+        "place": "Ann Arbor, Mich.",
+        "publisher": "Center for Near Eastern and North African Studies, University of Michigan",
+        "date": "1978",
+        "numPages": "",
+        "language": "English",
+        "ISBN": "0-932098-11-8 978-0-932098-11-5",
+        "shortTitle": "",
+        "url": "https://hdl.handle.net/2027/mdp.39015087418565?urlappend=%3Bseq=2",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "Open WorldCat",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:abdel_massih_badawi_1978_0000)",
+        "tags": [
+            {
+                "tag": "geo:Cairo [30.04, 31.23]"
+            },
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "vt:lexicon"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

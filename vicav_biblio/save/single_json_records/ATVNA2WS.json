@@ -1,0 +1,85 @@
+{
+    "key": "ATVNA2WS",
+    "version": 6691,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ATVNA2WS",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ATVNA2WS",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Khoukh",
+        "parsedDate": "1992",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ATVNA2WS",
+        "version": 6691,
+        "itemType": "thesis",
+        "title": "El habla jebli de la ciudad de Wazzan, mémoire de licence",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "A.",
+                "lastName": "Khoukh"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "",
+        "university": "Université Mohammed V, Rabat",
+        "place": "Rabat",
+        "date": "1992",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:khoukh_1992_3762)",
+        "tags": [
+            {
+                "tag": "geo:Ouazzane [34.79, -5.56]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

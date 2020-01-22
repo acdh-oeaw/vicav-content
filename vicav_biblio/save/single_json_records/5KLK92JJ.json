@@ -1,0 +1,101 @@
+{
+    "key": "5KLK92JJ",
+    "version": 6201,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/5KLK92JJ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/5KLK92JJ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Alshutayri and Atwell",
+        "parsedDate": "2017-06",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "5KLK92JJ",
+        "version": 6201,
+        "itemType": "journalArticle",
+        "title": "Exploring Twitter as a Source of an Arabic Dialect Corpus",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "A. O. O.",
+                "lastName": "Alshutayri"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "E.",
+                "lastName": "Atwell"
+            }
+        ],
+        "abstractNote": "Given the lack of Arabic dialect text corpora in comparison with what is available for dialects of English and other languages, there is a need to create dialect text corpora for use in Arabic natural language processing. What is more, there is an increasing use of Arabic dialects in social media, so this text is now considered quite appropriate as a source of a corpus. We collected 210,915K tweets from five groups of Arabic dialects Gulf, Iraqi, Egyptian, Levantine, and North African. This paper explores Twitter as a source and describes the methods that we used to extract tweets and classify them according to the geographic location of the sender. We classified Arabic dialects by using Waikato Environment for Knowledge Analysis (WEKA) data analytic tool which contains many alternative filters and classifiers for machine learning. Our approach in classification tweets achieved an accuracy equal to 79%.",
+        "publicationTitle": "International Journal of Computational Linguistics (IJCL)",
+        "volume": "8",
+        "issue": "2",
+        "pages": "37–44",
+        "date": "June 2017",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "http://eprints.whiterose.ac.uk/117781/",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:corpora"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "owl:sameAs": "http://zotero.org/groups/1556590/items/XEQBETWX"
+        },
+        "dateAdded": "2018-04-19T12:23:58Z",
+        "dateModified": "2018-04-19T12:24:38Z"
+    }
+}

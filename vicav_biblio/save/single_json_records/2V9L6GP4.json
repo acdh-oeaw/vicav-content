@@ -1,0 +1,91 @@
+{
+    "key": "2V9L6GP4",
+    "version": 7592,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/2V9L6GP4",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/2V9L6GP4",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Qafisheh",
+        "parsedDate": "1996",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "2V9L6GP4",
+        "version": 7592,
+        "itemType": "journalArticle",
+        "title": "Negation in Yemeni Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Hamdi A.",
+                "lastName": "Qafisheh"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "The Arabist: Budapest Studies in Arabic",
+        "volume": "17",
+        "issue": "",
+        "pages": "31-40",
+        "date": "1996",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:qafisheh_1996_0000)",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "cnt:Yemen"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

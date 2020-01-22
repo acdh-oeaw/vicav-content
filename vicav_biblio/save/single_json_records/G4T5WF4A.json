@@ -1,0 +1,105 @@
+{
+    "key": "G4T5WF4A",
+    "version": 7822,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/G4T5WF4A",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/G4T5WF4A",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Aguadé",
+        "parsedDate": "1996",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "G4T5WF4A",
+        "version": 7822,
+        "itemType": "bookSection",
+        "title": "Dialekt und Strassenverkehrsordnung: zur marokkanischen Führerscheinprüfung",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jordi",
+                "lastName": "Aguadé"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Jens",
+                "lastName": "Lüdtke"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Romania Arabica: Festschrift für Reinhold Kontzi zum 70. Geburtstag",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Tübingen",
+        "publisher": "Narr",
+        "date": "1996",
+        "pages": "73-81",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:aguade_1996_3280)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:ethnography"
+            },
+            {
+                "tag": "vt:jargon"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-05T14:41:11Z"
+    }
+}

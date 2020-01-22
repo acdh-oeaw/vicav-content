@@ -1,0 +1,85 @@
+{
+    "key": "LKU5KQC8",
+    "version": 2199,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/LKU5KQC8",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/LKU5KQC8",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Stewart",
+        "parsedDate": "1989",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "LKU5KQC8",
+        "version": 2199,
+        "itemType": "journalArticle",
+        "title": "A Bedouin idiom: a?ad pronominal suffix",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Frank H.",
+                "lastName": "Stewart"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "",
+        "volume": "",
+        "issue": "",
+        "pages": "277-278",
+        "date": "1989",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:stewart_1989_0000)",
+        "tags": [
+            {
+                "tag": "vt:bedouin dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

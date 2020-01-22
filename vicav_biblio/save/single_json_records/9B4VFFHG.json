@@ -1,0 +1,119 @@
+{
+    "key": "9B4VFFHG",
+    "version": 8631,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/9B4VFFHG",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/9B4VFFHG",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Morano",
+        "parsedDate": "2017",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "9B4VFFHG",
+        "version": 8631,
+        "itemType": "bookSection",
+        "title": "Carl Reinhardt’s Lexical Data (1894): Distinctive Features and Borrowings",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Roberta",
+                "lastName": "Morano"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Simone",
+                "lastName": "Bettega"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Fabio",
+                "lastName": "Gasparini"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Linguistic Studies in the Arabian Gulf",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Torino",
+        "publisher": "Università di Torino",
+        "date": "2017",
+        "pages": "187-195",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "cnt:Oman"
+            },
+            {
+                "tag": "vt:Oman/Yemen"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:loanwords"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-29T11:53:15Z",
+        "dateModified": "2019-03-15T16:34:08Z"
+    }
+}

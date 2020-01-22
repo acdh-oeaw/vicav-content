@@ -1,0 +1,136 @@
+{
+    "key": "X8EGSZLU",
+    "version": 7679,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/X8EGSZLU",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/X8EGSZLU",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Saib",
+        "parsedDate": "2001",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "X8EGSZLU",
+        "version": 7679,
+        "itemType": "bookSection",
+        "title": "Berber and Arabic in Morocco",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jilali",
+                "lastName": "Saib"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Guus",
+                "lastName": "Extra"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Durk",
+                "lastName": "Gorter"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "The other languages of Europe : demographic, sociolinguistic and educational perspectives",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Clevedon",
+        "publisher": "Multilingual Matters",
+        "date": "2001",
+        "pages": "429 - 444",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "http://search.ebscohost.com/login.aspx?direct=true&db=epref&AN=OLE.SAB.MULTILINGUALMATTERS.BJJA.DBI&site=ehost-live",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:saib_2001_4334)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:anthropology"
+            },
+            {
+                "tag": "vt:berber languages"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:ethnic minorities"
+            },
+            {
+                "tag": "vt:ethnography"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-02-21T15:58:07Z"
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "key": "NJAKR5S2",
+    "version": 6690,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/NJAKR5S2",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/NJAKR5S2",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Hammari",
+        "parsedDate": "1996",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "NJAKR5S2",
+        "version": 6690,
+        "itemType": "thesis",
+        "title": "Place features in Rhafsay Moroccan Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Abdelwahid",
+                "lastName": "Hammari"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "D.E.S.",
+        "university": "Faculty of Letters - Rabat",
+        "place": "Rabat",
+        "date": "1996",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:hammari_1996_3674)",
+        "tags": [
+            {
+                "tag": "geo:Rhafsay [34.62, -4.91]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

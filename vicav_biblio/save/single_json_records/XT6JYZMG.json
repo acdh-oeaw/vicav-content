@@ -1,0 +1,109 @@
+{
+    "key": "XT6JYZMG",
+    "version": 3880,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/XT6JYZMG",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/XT6JYZMG",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Dickins",
+        "parsedDate": "2006",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "XT6JYZMG",
+        "version": 3880,
+        "itemType": "bookSection",
+        "title": "The verb base in central urban Sudanese Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "James",
+                "lastName": "Dickins"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Lutz",
+                "lastName": "Edzard"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Janet C. E.",
+                "lastName": "Watson"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Grammar as a window onto Arabic humanism. A collection of articles in honour of Michael G.Carter",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrassowitz",
+        "date": "2006",
+        "pages": "155-195",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:dickins_2006_0000)",
+        "tags": [
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "cnt:Sudan"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-11T11:28:32Z"
+    }
+}

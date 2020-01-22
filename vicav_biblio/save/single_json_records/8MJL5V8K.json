@@ -1,0 +1,102 @@
+{
+    "key": "8MJL5V8K",
+    "version": 8885,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/8MJL5V8K",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/8MJL5V8K",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Ingham",
+        "parsedDate": "1991",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "8MJL5V8K",
+        "version": 8885,
+        "itemType": "bookSection",
+        "title": "Sentence structure in Khuzistani Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Bruce",
+                "lastName": "Ingham"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Alan S.",
+                "lastName": "Kaye"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Semitic studies: In honor of Wolf Leslau on the occasion of his eighty-fifth birthday, November 14th, 1991",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "1",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrassowitz",
+        "date": "1991",
+        "pages": "714-728",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:ingham_1991_3237)",
+        "tags": [
+            {
+                "tag": "geo:Khuzestan"
+            },
+            {
+                "tag": "cnt:Iran"
+            },
+            {
+                "tag": "reg:Mesopotamia [35.14, 42.48]"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-21T07:58:26Z"
+    }
+}

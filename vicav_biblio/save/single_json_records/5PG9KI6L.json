@@ -1,0 +1,112 @@
+{
+    "key": "5PG9KI6L",
+    "version": 3192,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/5PG9KI6L",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/5PG9KI6L",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Bettini",
+        "parsedDate": "2002",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "5PG9KI6L",
+        "version": 3192,
+        "itemType": "bookSection",
+        "title": "Notes sur la dérivation verbale dans les dialectes bédouins de la Jézireh syrienne",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Lidia",
+                "lastName": "Bettini"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Werner",
+                "lastName": "Arnold"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Hartmut",
+                "lastName": "Bobzin"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Sprich doch mit deinen Knechten aramäisch, wir verstehen es!\": 60 Beiträge zur Semitistik. Festschrift für Otto Jastrow zum 60. Geburtstag",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrassowitz",
+        "date": "2002",
+        "pages": "73-84",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:bettini_2002_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Syria"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-07-20T19:00:17Z"
+    }
+}

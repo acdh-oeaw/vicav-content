@@ -1,0 +1,94 @@
+{
+    "key": "4QXN4SFP",
+    "version": 2223,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/4QXN4SFP",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/4QXN4SFP",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Madouni",
+        "parsedDate": "2001",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "4QXN4SFP",
+        "version": 2223,
+        "itemType": "journalArticle",
+        "title": "A propos de verbes quadrilitères dans un parler de l'Ouest algérien (Sidi-Bel-Abbès)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jihane",
+                "lastName": "Madouni"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Estudios de Dialectología Norteafricana y Andalusí",
+        "volume": "5",
+        "issue": "2000-2001",
+        "pages": "243-251",
+        "date": "2001",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:madouni_2001_0000)",
+        "tags": [
+            {
+                "tag": "geo:Sidi Bel Abbès [35.20, -0.62]"
+            },
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

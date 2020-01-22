@@ -1,0 +1,112 @@
+{
+    "key": "RB7RTHB4",
+    "version": 6958,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/RB7RTHB4",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/RB7RTHB4",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Salah",
+        "parsedDate": "2016",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "RB7RTHB4",
+        "version": 6958,
+        "itemType": "bookSection",
+        "title": "Le parler jeune á Fès : esquisse d’une approche linguistique",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Laila Ben",
+                "lastName": "Salah"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Muntasir F.",
+                "lastName": "Al-Hamad"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Rizwan",
+                "lastName": "Ahmed"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Hafid I.",
+                "lastName": "Aloui"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Lisan al-arab: Studies in Contemporary Arabic Dialects. Proceedings of the 10th International Conference of AIDA. Qatar University 2013",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Vienna",
+        "publisher": "LIT Verlag",
+        "date": "2016",
+        "pages": "75-83",
+        "language": "",
+        "ISBN": "978-3-643-90334-1",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:salah_al_hamad_2016_0000)",
+        "tags": [
+            {
+                "tag": "geo:Fez [34.01, -5.00]"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

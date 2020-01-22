@@ -1,0 +1,116 @@
+{
+    "key": "9K2V4KFP",
+    "version": 5640,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/9K2V4KFP",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/9K2V4KFP",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Youssi and Zniber",
+        "parsedDate": "2002",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "9K2V4KFP",
+        "version": 5640,
+        "itemType": "bookSection",
+        "title": "Do auxiliaries really help in Moroccan Arabic?",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Abderrahim",
+                "lastName": "Youssi"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Mohamed",
+                "lastName": "Zniber"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Aspects of the Dialects of Arabic Today - Proceedings of the 4th Conference of AIDA",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Rabat",
+        "publisher": "Amapatril",
+        "date": "2002",
+        "pages": "381-393",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:syntax"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-14T19:57:12Z",
+        "dateModified": "2018-10-14T19:58:11Z"
+    }
+}

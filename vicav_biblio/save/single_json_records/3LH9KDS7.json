@@ -1,0 +1,114 @@
+{
+    "key": "3LH9KDS7",
+    "version": 7206,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/3LH9KDS7",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/3LH9KDS7",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Agius",
+        "parsedDate": "1992",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "3LH9KDS7",
+        "version": 7206,
+        "itemType": "journalArticle",
+        "title": "Morphological alternatives in the Gozitan dialects of Maltese",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Dionisius A.",
+                "lastName": "Agius"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Matériaux Arabes et Sudarabiques",
+        "volume": "4",
+        "issue": "",
+        "pages": "111-116",
+        "date": "1992",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Gozo [36.05, 14.24]"
+            },
+            {
+                "tag": "cnt:Malta"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-09-29T12:05:20Z",
+        "dateModified": "2018-09-29T12:06:34Z"
+    }
+}

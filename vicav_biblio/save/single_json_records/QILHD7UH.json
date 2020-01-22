@@ -1,0 +1,111 @@
+{
+    "key": "QILHD7UH",
+    "version": 5590,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/QILHD7UH",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/QILHD7UH",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Saada",
+        "parsedDate": "1963",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "QILHD7UH",
+        "version": 5590,
+        "itemType": "journalArticle",
+        "title": "Imparfait à b préfixé en occident musulman: Usage et hypothèse",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Lucienne",
+                "lastName": "Saada"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Groupe Linguistique d'Études Chamito-Sémitiques",
+        "volume": "10",
+        "issue": "",
+        "pages": "93-94",
+        "date": "1963-1966",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "cnt:Tunisia"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-14T17:16:29Z",
+        "dateModified": "2018-10-14T17:17:05Z"
+    }
+}

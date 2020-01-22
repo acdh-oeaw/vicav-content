@@ -1,0 +1,118 @@
+{
+    "key": "32GDM9FS",
+    "version": 3553,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/32GDM9FS",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/32GDM9FS",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Borg",
+        "parsedDate": "2001",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "32GDM9FS",
+        "version": 3553,
+        "itemType": "bookSection",
+        "title": "Encoding the boundary between the secular and the sacred: a phonological note on the Prophet's name in the dialect of the Negev and Sinai Bedouin",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Alexander",
+                "lastName": "Borg"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Judith",
+                "lastName": "Rosenhouse"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Ami",
+                "lastName": "Elad-Bouskila"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Linguistic and cultural studies on Arabic and Hebrew. Essays presented to Professor Moshe Piamenta for his eightieth birthday",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrassowitz",
+        "date": "2001",
+        "pages": "49-59",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:borg_2001_0000)",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "cnt:Israel"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-01T10:05:24Z"
+    }
+}

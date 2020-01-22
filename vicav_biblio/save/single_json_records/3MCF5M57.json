@@ -1,0 +1,88 @@
+{
+    "key": "3MCF5M57",
+    "version": 2201,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/3MCF5M57",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/3MCF5M57",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Simeone-Senelle",
+        "parsedDate": "1985",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "3MCF5M57",
+        "version": 2201,
+        "itemType": "journalArticle",
+        "title": "Systèmes aspecto-temporels en arabe maghrébin: introduction",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "M. -C.",
+                "lastName": "Simeone-Senelle"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Matériaux Arabes et Sudarabiques. Nu?u? wa-Ab?ath ?Arabiya wa-?Arabiya Janubiya",
+        "volume": "1985",
+        "issue": "",
+        "pages": "57-61",
+        "date": "1985",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:simeone_senelle_1985_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

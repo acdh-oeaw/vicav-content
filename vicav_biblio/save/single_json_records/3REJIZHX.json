@@ -1,0 +1,91 @@
+{
+    "key": "3REJIZHX",
+    "version": 8417,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/3REJIZHX",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/3REJIZHX",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Taine-Cheikh",
+        "parsedDate": "1991",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "3REJIZHX",
+        "version": 8417,
+        "itemType": "journalArticle",
+        "title": "Le vent et le devant: de l'orientation chez les Maures",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "C.",
+                "lastName": "Taine-Cheikh"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Journal Asiatique",
+        "volume": "279",
+        "issue": "i-ii",
+        "pages": "93-136",
+        "date": "1991",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:taine_cheikh_1991_0001)",
+        "tags": [
+            {
+                "tag": "reg:Andalusia [39.92, -3.02]"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:jargon"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

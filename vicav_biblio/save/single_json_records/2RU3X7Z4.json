@@ -1,0 +1,113 @@
+{
+    "key": "2RU3X7Z4",
+    "version": 2315,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/2RU3X7Z4",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/2RU3X7Z4",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Bentolila",
+        "parsedDate": "2001",
+        "numChildren": 2
+    },
+    "data": {
+        "key": "2RU3X7Z4",
+        "version": 2315,
+        "itemType": "bookSection",
+        "title": "Bilingualism in a Moroccan settlement in the South of Israel",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Yaakov",
+                "lastName": "Bentolila"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Hanna",
+                "lastName": "Herzog"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Eliezer",
+                "lastName": "Ben-Rafael"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Language & Communication in Israel",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "New Brunswick",
+        "publisher": "Transaction Publishers",
+        "date": "2001",
+        "pages": "245-258",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:bentolila_2001_4341)",
+        "tags": [
+            {
+                "tag": "cnt:Israel"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Arabic as a minority language"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:ethnic minorities"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

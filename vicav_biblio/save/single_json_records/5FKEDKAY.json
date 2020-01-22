@@ -1,0 +1,91 @@
+{
+    "key": "5FKEDKAY",
+    "version": 8434,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/5FKEDKAY",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/5FKEDKAY",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Tilmatine",
+        "parsedDate": "2002",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "5FKEDKAY",
+        "version": 8434,
+        "itemType": "journalArticle",
+        "title": "Les archives sonores de Berlin: observations sur une source inexploitée par les études arabes et amazighes (berbères)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Mohand",
+                "lastName": "Tilmatine"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Al-Andalus Magreb -2003",
+        "volume": "10",
+        "issue": "",
+        "pages": "281-291",
+        "date": "2002-2003",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "French",
+        "DOI": "",
+        "ISSN": "1133-8571",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:tilmatine_2002-2003_4050)",
+        "tags": [
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:berber languages"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

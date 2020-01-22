@@ -1,0 +1,102 @@
+{
+    "key": "FGA5CPWP",
+    "version": 4273,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/FGA5CPWP",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/FGA5CPWP",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 5116658,
+            "username": "erceg2018",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/erceg2018",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Lentin",
+        "parsedDate": "1995",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "FGA5CPWP",
+        "version": 4273,
+        "itemType": "journalArticle",
+        "title": "Classification et typologie des dialectes du Bilad al-Šam: quelques suggestions pour un réexamen. (Abstract: Classification and typology of dialects in \"Bilad al-Šam\": suggestions for a reconsideration.)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jérôme",
+                "lastName": "Lentin"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Matériaux Arabes et Sudarabiques. Nu?u? wa-Ab?ath ?Arabiya wa-?Arabiya Janubiya",
+        "volume": "6",
+        "issue": "1994",
+        "pages": "start page: 11",
+        "date": "1995",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:lentin_1995_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Syria"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T11:29:08Z"
+    }
+}

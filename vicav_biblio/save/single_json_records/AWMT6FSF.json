@@ -1,0 +1,97 @@
+{
+    "key": "AWMT6FSF",
+    "version": 8548,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/AWMT6FSF",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/AWMT6FSF",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Youssi",
+        "parsedDate": "2003",
+        "numChildren": 2
+    },
+    "data": {
+        "key": "AWMT6FSF",
+        "version": 8548,
+        "itemType": "conferencePaper",
+        "title": "The speech beneath speech in multilingual communication",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Abderrahim",
+                "lastName": "Youssi"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Igancio",
+                "lastName": "Ferrando"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Juan José",
+                "lastName": "Sánchez Sandoval"
+            }
+        ],
+        "abstractNote": "",
+        "date": "2003",
+        "proceedingsTitle": "AIDA 5th Conference Proceedings Cádiz, September 2002",
+        "conferenceName": "",
+        "place": "Cádiz",
+        "publisher": "Servicio de publicaciones, Universidad de Cádiz",
+        "volume": "",
+        "pages": "155-170",
+        "series": "",
+        "language": "",
+        "DOI": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-03T16:09:27Z"
+    }
+}

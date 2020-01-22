@@ -1,0 +1,94 @@
+{
+    "key": "H4D9KLUG",
+    "version": 6617,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/H4D9KLUG",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/H4D9KLUG",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Johnstone",
+        "parsedDate": "1965",
+        "numChildren": 3
+    },
+    "data": {
+        "key": "H4D9KLUG",
+        "version": 6617,
+        "itemType": "journalArticle",
+        "title": "The sound change j > y in the Arabic dialects of peninsular Arabia",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Thomas M.",
+                "lastName": "Johnstone"
+            }
+        ],
+        "abstractNote": "An important phonological feature of many of the dialects of Arabia is the pronunciation of . This sound change is not confined to one dialect group, and unlike the affrication of and is non-conditioned. The evidence whether > in Classical Arabic or in the ancient dialects is rather inconclusive, and exceptin a few authors it is not categorically stated to be a sound change in the way that this is stated, for example, of 'aj'aja (iy[y] > ij[j] mainly in pause) for the dialect of the Tamim.",
+        "publicationTitle": "Bulletin of the School of Oriental and African Studies",
+        "volume": "28",
+        "issue": "2",
+        "pages": "233-241",
+        "date": "1965",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "0041-977X",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:johnstone_1965_3209)",
+        "tags": [
+            {
+                "tag": "reg:Gulf [26.57, 49.55]"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T09:14:23Z"
+    }
+}

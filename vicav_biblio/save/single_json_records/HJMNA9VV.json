@@ -1,0 +1,94 @@
+{
+    "key": "HJMNA9VV",
+    "version": 2268,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/HJMNA9VV",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/HJMNA9VV",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Arnold",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "HJMNA9VV",
+        "version": 2268,
+        "itemType": "journalArticle",
+        "title": "Liebe, Ehe und Familienleben im arabischen Witz. Vier Texte im arabischen dialekt von ir-Ramle (Israel)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Werner",
+                "lastName": "Arnold"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Estudios de Dialectología Norteafricana y Andalusí",
+        "volume": "8",
+        "issue": "",
+        "pages": "27-31",
+        "date": "2004",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "11377968",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:arnold_2004_0002)",
+        "tags": [
+            {
+                "tag": "geo:Ramla [31.93, 34.87]"
+            },
+            {
+                "tag": "cnt:Israel"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:oral narratives"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

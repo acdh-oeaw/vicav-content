@@ -1,0 +1,111 @@
+{
+    "key": "HMY9P36D",
+    "version": 2296,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/HMY9P36D",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/HMY9P36D",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Shinar",
+        "parsedDate": "1999",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "HMY9P36D",
+        "version": 2296,
+        "itemType": "bookSection",
+        "title": "Quelques observations sor le rôle de la couleur bleue dans le Maghreb traditionnel",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Pessah",
+                "lastName": "Shinar"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Alexander",
+                "lastName": "Borg"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "The Language of Color in the Mediterranean",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Stockholm",
+        "publisher": "Almqvist & Wiksell International",
+        "date": "1999",
+        "pages": "175-199",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:shinar_1999_3994)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:customs & etiquette"
+            },
+            {
+                "tag": "vt:ethnography"
+            },
+            {
+                "tag": "vt:folklore"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

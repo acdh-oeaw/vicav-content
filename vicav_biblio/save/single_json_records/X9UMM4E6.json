@@ -1,0 +1,119 @@
+{
+    "key": "X9UMM4E6",
+    "version": 3760,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/X9UMM4E6",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/X9UMM4E6",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Colin",
+        "parsedDate": "1921",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "X9UMM4E6",
+        "version": 3760,
+        "itemType": "journalArticle",
+        "title": "Notes sur le parler arabe du nord de la région de Taza",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Georges Séraphin",
+                "lastName": "Colin"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Bulletin de l'IFAO",
+        "volume": "18",
+        "issue": "",
+        "pages": "33-119",
+        "date": "1921",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:colin_1921_3545)",
+        "tags": [
+            {
+                "tag": "geo:Taza [34.21, -3.99]"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/J9EWYPH3"
+        },
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-03T18:14:14Z"
+    }
+}

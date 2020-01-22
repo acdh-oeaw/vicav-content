@@ -1,0 +1,117 @@
+{
+    "key": "XVIKKCTE",
+    "version": 5698,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/XVIKKCTE",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/XVIKKCTE",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Tonsi et al.",
+        "parsedDate": "1987",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "XVIKKCTE",
+        "version": 5698,
+        "itemType": "book",
+        "title": "An Intensive Course in Egyptian Colloquial Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "A. al-",
+                "lastName": "Tonsi"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "L.",
+                "lastName": "Al-Sawi"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "S.",
+                "lastName": "Massoud"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Cairo",
+        "publisher": "American University in Cairo Press",
+        "date": "1987",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:teaching materials"
+            },
+            {
+                "tag": "vt:textbook"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-14T18:44:46Z",
+        "dateModified": "2018-10-14T18:45:32Z"
+    }
+}

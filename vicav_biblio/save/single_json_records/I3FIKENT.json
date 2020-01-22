@@ -1,0 +1,98 @@
+{
+    "key": "I3FIKENT",
+    "version": 7834,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/I3FIKENT",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/I3FIKENT",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Aguadé et al.",
+        "parsedDate": "1996",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "I3FIKENT",
+        "version": 7834,
+        "itemType": "journalArticle",
+        "title": "Recherches sur une ?e??ara dans la palmeraie de Skoura: contribution à l'étude des techniques traditionnelles d'irrigation au Maroc",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jordi",
+                "lastName": "Aguadé"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Mohammad",
+                "lastName": "Elyaâcoubi"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "F.",
+                "lastName": "Rodríguez Mañas"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Welt des Orients",
+        "volume": "27",
+        "issue": "",
+        "pages": "87-103",
+        "date": "1996",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "English",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:aguade_1996_4583)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:ethnography"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-05T14:49:39Z"
+    }
+}

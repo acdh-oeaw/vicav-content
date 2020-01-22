@@ -1,0 +1,108 @@
+{
+    "key": "L8S2LDZ2",
+    "version": 8277,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/L8S2LDZ2",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/L8S2LDZ2",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Ouerhani",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "L8S2LDZ2",
+        "version": 8277,
+        "itemType": "journalArticle",
+        "title": "Verbes supports: Polysémie et polylexicalité",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "B.",
+                "lastName": "Ouerhani"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Syntaxe et Sémantique",
+        "volume": "5",
+        "issue": "",
+        "pages": "59-70",
+        "date": "2004",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:semantics"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-11T14:24:14Z",
+        "dateModified": "2018-10-11T14:24:40Z"
+    }
+}

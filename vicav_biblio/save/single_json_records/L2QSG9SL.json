@@ -1,0 +1,109 @@
+{
+    "key": "L2QSG9SL",
+    "version": 2308,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/L2QSG9SL",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/L2QSG9SL",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Guerrero",
+        "parsedDate": "2016",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "L2QSG9SL",
+        "version": 2308,
+        "itemType": "bookSection",
+        "title": "Notes on the Arabic Dialect of Larache (North-Western Morocco)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jairo",
+                "lastName": "Guerrero"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Muntasir F.",
+                "lastName": "Al-Hamad"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Rizwan",
+                "lastName": "Ahmed"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Hafid I.",
+                "lastName": "Aloui"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Lisan al-arab: Studies in Contemporary Arabic Dialects. Proceedings of the 10th International Conference of AIDA. Qatar University 2013",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Vienna",
+        "publisher": "LIT Verlag",
+        "date": "2016",
+        "pages": "195-208",
+        "language": "",
+        "ISBN": "978-3-643-90334-1",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:guerrero_al_hamad_2016_0000)",
+        "tags": [
+            {
+                "tag": "geo:Larache [35.17, -6.14]"
+            },
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "vt:description of dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

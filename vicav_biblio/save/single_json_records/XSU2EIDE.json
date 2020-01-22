@@ -1,0 +1,112 @@
+{
+    "key": "XSU2EIDE",
+    "version": 3404,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/XSU2EIDE",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/XSU2EIDE",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Procházka",
+        "parsedDate": "2003",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "XSU2EIDE",
+        "version": 3404,
+        "itemType": "bookSection",
+        "title": "The Bedouin Arabic dialects of Urfa",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Stephan",
+                "lastName": "Procházka"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Ignacio",
+                "lastName": "Ferrando"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Juan José Sánchez",
+                "lastName": "Sandoval"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "AIDA: 5th Conference Proceedings, Association Internationale de Dialectologie Arabe (AIDA): Cádiz, September 2002",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Cadiz",
+        "publisher": "Servicio de Publicaciones de la Universidad de Cádiz",
+        "date": "2003",
+        "pages": "75-88",
+        "language": "",
+        "ISBN": "84-7786-777-1",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:prochazka_ferrando_2003_0001)",
+        "tags": [
+            {
+                "tag": "geo:Sanliurfa [37.16, 38.79]"
+            },
+            {
+                "tag": "reg:Turkey [38.08, 41.10]"
+            },
+            {
+                "tag": "vt:bedouin dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-23T08:39:30Z"
+    }
+}

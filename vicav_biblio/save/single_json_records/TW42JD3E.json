@@ -1,0 +1,106 @@
+{
+    "key": "TW42JD3E",
+    "version": 7869,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/TW42JD3E",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/TW42JD3E",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Amzid",
+        "parsedDate": "1997",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "TW42JD3E",
+        "version": 7869,
+        "itemType": "thesis",
+        "title": "Les traces de la langue espagnole dans le Nord du Maroc, ancienne zone espagnole: le cas de Tanger",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Mohamed",
+                "lastName": "Amzid"
+            }
+        ],
+        "abstractNote": "Available from Center for Research Libraries http://www.crl.edu/content/ DissLinkPQDD.asp",
+        "thesisType": "",
+        "university": "Universite de Toulouse - Le Mirail (Toulouse II) (France)",
+        "place": "Toulouse",
+        "date": "1997",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:amzid_1997_3317)",
+        "tags": [
+            {
+                "tag": "geo:Tanger [35.75, -5.83]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:loanwords"
+            },
+            {
+                "tag": "vt:sedentary dialect"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-05T15:49:18Z"
+    }
+}

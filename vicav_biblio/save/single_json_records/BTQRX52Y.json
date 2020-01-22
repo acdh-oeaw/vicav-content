@@ -1,0 +1,91 @@
+{
+    "key": "BTQRX52Y",
+    "version": 2197,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/BTQRX52Y",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/BTQRX52Y",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Tamimi",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "BTQRX52Y",
+        "version": 2197,
+        "itemType": "journalArticle",
+        "title": "An experimental phonetic study of intervocalic singleton and geminate sonorants in Jordanian Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Feda Yousef al-",
+                "lastName": "Tamimi"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Al-?Arabiyya: Journal of the American Association of Teachers of Arabic",
+        "volume": "37",
+        "issue": "",
+        "pages": "37-52",
+        "date": "2004",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "08898731",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:tamimi_2004_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Jordan"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

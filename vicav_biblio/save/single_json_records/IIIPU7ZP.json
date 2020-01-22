@@ -1,0 +1,107 @@
+{
+    "key": "IIIPU7ZP",
+    "version": 4258,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/IIIPU7ZP",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/IIIPU7ZP",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 5116658,
+            "username": "erceg2018",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/erceg2018",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Kenstowicz and Wahba",
+        "parsedDate": "1983",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "IIIPU7ZP",
+        "version": 4258,
+        "itemType": "bookSection",
+        "title": "Wh-in-situ constructions in Egyptian Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Michael",
+                "lastName": "Kenstowicz"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Wafaa",
+                "lastName": "Wahba"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Current approaches to African linguistics (vol.2)",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "2",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Dordrecht",
+        "publisher": "Foris",
+        "date": "1983",
+        "pages": "261-281",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:kenstowicz_1983_0001)",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T10:20:43Z"
+    }
+}

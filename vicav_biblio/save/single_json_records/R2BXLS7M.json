@@ -1,0 +1,96 @@
+{
+    "key": "R2BXLS7M",
+    "version": 6304,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/R2BXLS7M",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/R2BXLS7M",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Moscoso",
+        "parsedDate": "2001",
+        "numChildren": 2
+    },
+    "data": {
+        "key": "R2BXLS7M",
+        "version": 6304,
+        "itemType": "journalArticle",
+        "title": "El dialecto árabe de Tánger (basado en los textos recogidos por W. Marçais",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Francisco",
+                "lastName": "Moscoso"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Al-Andalus - Magreb",
+        "volume": "8-9",
+        "issue": "",
+        "pages": "177-206",
+        "date": "2001",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:moscoso_2000-2001_4588)",
+        "tags": [
+            {
+                "tag": "geo:Tanger [35.75, -5.83]"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:description of dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/RS4D7HFR"
+        },
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-25T10:23:18Z"
+    }
+}

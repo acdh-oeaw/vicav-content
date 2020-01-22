@@ -1,0 +1,121 @@
+{
+    "key": "BEMVY9N6",
+    "version": 2316,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/BEMVY9N6",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/BEMVY9N6",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Behnstedt and Benabbou",
+        "parsedDate": "2002",
+        "numChildren": 3
+    },
+    "data": {
+        "key": "BEMVY9N6",
+        "version": 2316,
+        "itemType": "bookSection",
+        "title": "Zu den arabischen Dialekten der Gegend von Taza (Nordmarokko)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Peter",
+                "lastName": "Behnstedt"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Mostafa",
+                "lastName": "Benabbou"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Werner",
+                "lastName": "Arnold"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Hartmut",
+                "lastName": "Bobzin"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "\"Sprich doch mit deinen Knechten aramäisch, wir verstehen es!\": 60 Beiträge zur Semitistik. Festschrift für Otto Jastrow zum 60. Geburtstag",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrassowitz",
+        "date": "2002",
+        "pages": "53-72",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:behnstedt_2002_4379)",
+        "tags": [
+            {
+                "tag": "geo:Taza [34.21, -3.99]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:berber languages"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

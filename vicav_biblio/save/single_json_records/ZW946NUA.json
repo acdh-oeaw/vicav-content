@@ -1,0 +1,100 @@
+{
+    "key": "ZW946NUA",
+    "version": 2531,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ZW946NUA",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ZW946NUA",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Isaksson and Lahdo",
+        "parsedDate": "2002",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ZW946NUA",
+        "version": 2531,
+        "itemType": "bookSection",
+        "title": "Three border towns between Turkey and Syria: ?Amuda, D?rbesiyye and Ras ?l-?Ayn",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Bo",
+                "lastName": "Isaksson"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Ablahad",
+                "lastName": "Lahdo"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Werner",
+                "lastName": "Arnold"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Hartmut",
+                "lastName": "Bobzin"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Sprich doch mit deinen Knechten aramäisch, wir verstehen es!\": 60 Beiträge zur Semitistik. Festschrift für Otto Jastrow zum 60. Geburtstag",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrassowitz",
+        "date": "2002",
+        "pages": "311-335",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:isaksson_2002_3049)",
+        "tags": [
+            {
+                "tag": "reg:Turkey [38.08, 41.10]"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-24T11:13:00Z"
+    }
+}

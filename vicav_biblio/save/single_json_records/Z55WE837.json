@@ -1,0 +1,133 @@
+{
+    "key": "Z55WE837",
+    "version": 2276,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/Z55WE837",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/Z55WE837",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Vicente",
+        "parsedDate": "2003",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "Z55WE837",
+        "version": 2276,
+        "itemType": "conferencePaper",
+        "title": "Le code-switching arabe marocain-espagnol dans la ville de Sebta",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ángeles",
+                "lastName": "Vicente"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Igancio",
+                "lastName": "Ferrando"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Juan José",
+                "lastName": "Sánchez Sandoval"
+            }
+        ],
+        "abstractNote": "",
+        "date": "2003",
+        "proceedingsTitle": "AIDA 5<sup>th$</sup> Conference Proceedings Cádiz, September 2002",
+        "conferenceName": "",
+        "place": "Cádiz",
+        "publisher": "Servicio de publicaciones, Universidad de Cádiz",
+        "volume": "",
+        "pages": "143-153",
+        "series": "",
+        "language": "",
+        "DOI": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Sebta [35.89, -5.28]"
+            },
+            {
+                "tag": "reg:Andalusia [39.92, -3.02]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Arabic as a minority language"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:ethnic minorities"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

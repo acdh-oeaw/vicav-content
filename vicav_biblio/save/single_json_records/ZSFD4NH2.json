@@ -1,0 +1,101 @@
+{
+    "key": "ZSFD4NH2",
+    "version": 2315,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ZSFD4NH2",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ZSFD4NH2",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Boucherit",
+        "parsedDate": "1994",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ZSFD4NH2",
+        "version": 2315,
+        "itemType": "bookSection",
+        "title": "Les fonctions verbales de la particule ra- dans les manuels de grammaire et guides de la conversation au XIXe siècle en Algérie: temps, aspect, concomitance, implication?",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Aziza",
+                "lastName": "Boucherit"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Dominique",
+                "lastName": "Caubet"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Martine",
+                "lastName": "Vanhove"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Actes des premières journées internationales de dialectologie arabe de Paris. (Colloque international tenu à Paris du 27 au 30 janvier 1993). Préface de David Cohen",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Paris",
+        "publisher": "INALCO, Publications Langues'O",
+        "date": "1994",
+        "pages": "161-172",
+        "language": "",
+        "ISBN": "2-85831-045-9",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:boucherit_caubet_1994_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

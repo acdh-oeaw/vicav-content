@@ -1,0 +1,101 @@
+{
+    "key": "NB2HLKGD",
+    "version": 3655,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/NB2HLKGD",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/NB2HLKGD",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Cantineau",
+        "parsedDate": "1936",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "NB2HLKGD",
+        "version": 3655,
+        "itemType": "journalArticle",
+        "title": "Etudes sur quelques parles de nomades arabes d'Orient 1",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jean",
+                "lastName": "Cantineau"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Annales de l’Institut d’Études Orientales",
+        "volume": "2",
+        "issue": "",
+        "pages": "1-118",
+        "date": "1936",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:cantineau_1937_0000)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/S7THPYWE"
+        },
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-01T13:16:59Z"
+    }
+}

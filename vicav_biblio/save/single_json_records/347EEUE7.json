@@ -1,0 +1,99 @@
+{
+    "key": "347EEUE7",
+    "version": 2296,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/347EEUE7",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/347EEUE7",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Schmitt-Brandt",
+        "parsedDate": "1982",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "347EEUE7",
+        "version": 2296,
+        "itemType": "bookSection",
+        "title": "Recherches Linguistiques au Maroc",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Robert",
+                "lastName": "Schmitt-Brandt"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Bernd",
+                "lastName": "Heine"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Recent German Research on Africa: Language and Culture",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Tübingen",
+        "publisher": "Institute for Scientific Co-Operation",
+        "date": "1982",
+        "pages": "87-90",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:schmitt-brandt_1982_3988)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

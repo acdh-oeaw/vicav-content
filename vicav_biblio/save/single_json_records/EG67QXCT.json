@@ -1,0 +1,91 @@
+{
+    "key": "EG67QXCT",
+    "version": 7334,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/EG67QXCT",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/EG67QXCT",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Massignon",
+        "parsedDate": "1911",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "EG67QXCT",
+        "version": 7334,
+        "itemType": "journalArticle",
+        "title": "Notes sur le dialecte arabe de Bagdad",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Louis",
+                "lastName": "Massignon"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "BIFAO",
+        "volume": "11",
+        "issue": "",
+        "pages": "1-24",
+        "date": "1911",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:massignon_1911_3234)",
+        "tags": [
+            {
+                "tag": "geo:Baghdad [33.30, 44.38]"
+            },
+            {
+                "tag": "cnt:Iraq"
+            },
+            {
+                "tag": "vt:Mesopotamia"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

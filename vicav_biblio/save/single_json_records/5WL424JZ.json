@@ -1,0 +1,84 @@
+{
+    "key": "5WL424JZ",
+    "version": 7362,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/5WL424JZ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/5WL424JZ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Vallaro",
+        "parsedDate": "1997",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "5WL424JZ",
+        "version": 7362,
+        "itemType": "book",
+        "title": "Parliamo arabo? Profilo dal vero d'uno spauracchio linguistico",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "M.",
+                "lastName": "Vallaro"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "Turin: Promolibri Magnanelli, 1997, (LEsperidio),",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Turin",
+        "publisher": "Magnanelli",
+        "date": "1997",
+        "numPages": "62",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:vallaro_1997_0000)",
+        "tags": [
+            {
+                "tag": "vt:textbook"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-11T16:54:37Z"
+    }
+}

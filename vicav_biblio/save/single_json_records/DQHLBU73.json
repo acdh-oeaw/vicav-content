@@ -1,0 +1,114 @@
+{
+    "key": "DQHLBU73",
+    "version": 7995,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/DQHLBU73",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/DQHLBU73",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Caubet et al.",
+        "parsedDate": "1990",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "DQHLBU73",
+        "version": 7995,
+        "itemType": "bookSection",
+        "title": "Genre et accord dans quelques dialectes arabes",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Dominique",
+                "lastName": "Caubet"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Marie-Claude",
+                "lastName": "Simeone-Senelle"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Martine",
+                "lastName": "Vanhove"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Eliane",
+                "lastName": "Koskas"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Danielle",
+                "lastName": "Leeman"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Genre et langage, Actes du colloque tenu à Paris X-Nanterre les 14, 15, 16 Décembre 1988",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "21",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Nanterre",
+        "publisher": "",
+        "date": "1990",
+        "pages": "39-66",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-02T11:10:11Z"
+    }
+}

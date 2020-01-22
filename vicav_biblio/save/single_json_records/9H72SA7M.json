@@ -1,0 +1,104 @@
+{
+    "key": "9H72SA7M",
+    "version": 6216,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/9H72SA7M",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/9H72SA7M",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Zimmermann",
+        "parsedDate": "2009",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "9H72SA7M",
+        "version": 6216,
+        "itemType": "encyclopediaArticle",
+        "title": "Uzbekistan Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Gerit",
+                "lastName": "Zimmermann"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Lutz",
+                "lastName": "Edzard"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Rudolf de",
+                "lastName": "Jong"
+            }
+        ],
+        "abstractNote": "",
+        "encyclopediaTitle": "Encyclopedia of Arabic Language and Linguistics",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "4",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leiden",
+        "publisher": "Brill",
+        "date": "2009",
+        "pages": "612–623",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "https://referenceworks-brillonline-com.uaccess.univie.ac.at/entries/encyclopedia-of-arabic-language-and-linguistics/uzbekistan-arabic-EALL_COM_0363?s.num=0&s.f.s2_parent=s.f.book.encyclopedia-of-arabic-language-and-linguistics&s.q=uzbekistan",
+        "accessDate": "",
+        "language": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Uzbekistan"
+            },
+            {
+                "tag": "vt:Central Asia"
+            },
+            {
+                "tag": "vt:Mesopotamia"
+            },
+            {
+                "tag": "vt:description of dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-10-24T08:47:14Z"
+    }
+}

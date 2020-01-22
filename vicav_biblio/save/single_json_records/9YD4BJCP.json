@@ -1,0 +1,117 @@
+{
+    "key": "9YD4BJCP",
+    "version": 3061,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/9YD4BJCP",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/9YD4BJCP",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Lamkhanter",
+        "parsedDate": "2015",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "9YD4BJCP",
+        "version": 3061,
+        "itemType": "bookSection",
+        "title": "Facing Communication breakdowns: The case of the Moroccan emigrants in France",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Fouzia",
+                "lastName": "Lamkhanter"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Enam",
+                "lastName": "Al-Wer"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Chryso",
+                "lastName": "Hadjimetriou"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Bruno",
+                "lastName": "Herin"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Uri",
+                "lastName": "Horesh"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Proceedings of the 8th Conference of Association Internationale de Dialectologie Arabe (AIDA) Colchester, UK, 2008",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Essex",
+        "publisher": "University of Essex",
+        "date": "2015",
+        "pages": "118-130",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:lamkhanter_al_wer_2015_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Diaspora"
+            },
+            {
+                "tag": "vt:pragmatics"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-18T17:04:42Z"
+    }
+}

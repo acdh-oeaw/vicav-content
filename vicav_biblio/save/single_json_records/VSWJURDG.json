@@ -1,0 +1,100 @@
+{
+    "key": "VSWJURDG",
+    "version": 6833,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/VSWJURDG",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/VSWJURDG",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Qachab",
+        "parsedDate": "1990",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "VSWJURDG",
+        "version": 6833,
+        "itemType": "thesis",
+        "title": "Etude Linguistique des proverbes de Safi",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Rachida",
+                "lastName": "Qachab"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "Mèmoire de Maîtrise non publié",
+        "university": "Paris III",
+        "place": "Paris",
+        "date": "1990",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:qachab_1990_3924)",
+        "tags": [
+            {
+                "tag": "geo:Safi [32.30, -9.22]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:proverbs"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

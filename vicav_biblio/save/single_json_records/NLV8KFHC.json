@@ -1,0 +1,100 @@
+{
+    "key": "NLV8KFHC",
+    "version": 7641,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/NLV8KFHC",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/NLV8KFHC",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Saporta",
+        "parsedDate": "1971",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "NLV8KFHC",
+        "version": 7641,
+        "itemType": "journalArticle",
+        "title": "Une enquête linguistique au XVIIIe siècle: le vocabulaire arabe et berbère recueilli par L. de Chenier, consul de France au Maroc",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "I.de",
+                "lastName": "Saporta"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Comptes Rendus du Groupe Linguistique d'Etudes Chamito-Sémitiques: G.L.E.C.S",
+        "volume": "15",
+        "issue": "1970-71",
+        "pages": "1-16",
+        "date": "1971",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:saporta_1971_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:berber languages"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:lexicon"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

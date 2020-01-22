@@ -1,0 +1,100 @@
+{
+    "key": "RP6S5MQU",
+    "version": 8509,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/RP6S5MQU",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/RP6S5MQU",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Jami?at Mu?ammad al-Khamis. Kulliyat al-Adab wa-al-?Ulum al-Insaniyah and Konrad-Adenauer-Stiftung",
+        "parsedDate": "1995",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "RP6S5MQU",
+        "version": 8509,
+        "itemType": "book",
+        "title": "Dialectologie et sciences humaines au Maroc",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "",
+                "lastName": "Jami?at Mu?ammad al-Khamis. Kulliyat al-Adab wa-al-?Ulum al-Insaniyah"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "",
+                "lastName": "Konrad-Adenauer-Stiftung"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Rabat",
+        "publisher": "Faculté des Lettres et des Sciences Humaines",
+        "date": "1995",
+        "numPages": "236",
+        "language": "French",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:anthropology"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/DII8H325"
+        },
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-10T18:36:28Z"
+    }
+}

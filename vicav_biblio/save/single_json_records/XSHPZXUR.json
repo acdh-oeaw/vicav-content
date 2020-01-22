@@ -1,0 +1,91 @@
+{
+    "key": "XSHPZXUR",
+    "version": 8182,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/XSHPZXUR",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/XSHPZXUR",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Khoury",
+        "parsedDate": "1984",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "XSHPZXUR",
+        "version": 8182,
+        "itemType": "book",
+        "title": "Arabisch",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "R. G.",
+                "lastName": "Khoury"
+            }
+        ],
+        "abstractNote": "",
+        "series": "Pons-Reisewörterbuch",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Stuttgart",
+        "publisher": "Klett",
+        "date": "1984",
+        "numPages": "276",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:khoury_1984_0000)",
+        "tags": [],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-05T20:54:50Z"
+    }
+}

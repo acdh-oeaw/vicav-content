@@ -1,0 +1,101 @@
+{
+    "key": "B8EQ7FD5",
+    "version": 2880,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/B8EQ7FD5",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/B8EQ7FD5",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Werner",
+        "parsedDate": "1995",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "B8EQ7FD5",
+        "version": 2880,
+        "itemType": "book",
+        "title": "Emphatische Syntax: zur Funktionalität oraler Syntagmen: eine komparative Studie am Beispiel des Bairischen und des Iraq-Arabischen mit einer einführenden Diskussion der relevanten Termini",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "J.",
+                "lastName": "Werner"
+            }
+        ],
+        "abstractNote": "",
+        "series": "Tübinger Beiträge zur Linguistik",
+        "seriesNumber": "414",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Tübingen",
+        "publisher": "Narr",
+        "date": "1995",
+        "numPages": "226",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:werner_1995_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Iraq"
+            },
+            {
+                "tag": "reg:Mesopotamia [35.14, 42.48]"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-07T16:39:09Z"
+    }
+}

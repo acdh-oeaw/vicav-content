@@ -1,0 +1,114 @@
+{
+    "key": "RWWZW9M7",
+    "version": 8838,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/RWWZW9M7",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/RWWZW9M7",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Borg",
+        "parsedDate": "1994",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "RWWZW9M7",
+        "version": 8838,
+        "itemType": "bookSection",
+        "title": "Observations on some evolutionary parallels and divergences in Cypriot Arabic and Maltese",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Alexander",
+                "lastName": "Borg"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Actas del congreso internacional sobre interferencias lingüísticas arabo-romances y paralelos extra-iberos",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Zaragoza",
+        "publisher": "Universidad de Zaragoza",
+        "date": "1994",
+        "pages": "21-40",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Cyprus [35.17, 33.36]"
+            },
+            {
+                "tag": "geo:Kormakitis [35.34, 33.00]"
+            },
+            {
+                "tag": "cnt:Malta"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-09-30T16:19:59Z",
+        "dateModified": "2019-03-20T15:29:44Z"
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "key": "7XGKZCFZ",
+    "version": 7134,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/7XGKZCFZ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/7XGKZCFZ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Geva-Kleinberger",
+        "parsedDate": "2000",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "7XGKZCFZ",
+        "version": 7134,
+        "itemType": "journalArticle",
+        "title": "Living amongst the spirits: death and superstition as reflected in the Arabic and Hebrew vocabulary of the Jews of Safed",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Aharon",
+                "lastName": "Geva-Kleinberger"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Mediterranean Language Review",
+        "volume": "12",
+        "issue": "",
+        "pages": "16-38",
+        "date": "2000",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "07247567",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:geva_kleinberger_2000_0000)",
+        "tags": [
+            {
+                "tag": "geo:Safed [32.96, 35.49]"
+            },
+            {
+                "tag": "cnt:Israel"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:ethnography"
+            },
+            {
+                "tag": "vt:folklore"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

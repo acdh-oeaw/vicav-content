@@ -1,0 +1,110 @@
+{
+    "key": "Q3NGPHVN",
+    "version": 3216,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/Q3NGPHVN",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/Q3NGPHVN",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Skik",
+        "parsedDate": "2000",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "Q3NGPHVN",
+        "version": 3216,
+        "itemType": "bookSection",
+        "title": "La prononciation de qâf Arabe en Tunisie",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Hichem",
+                "lastName": "Skik"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Manwel",
+                "lastName": "Mifsud"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Proceedings of the Third International Conference of AÏDA: Association Internationale de Dialectologie Arabe: held at Malta, 29 March – 2 April 1998",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Malta",
+        "publisher": "University of Malta Press",
+        "date": "2000",
+        "pages": "131-136",
+        "language": "",
+        "ISBN": "99932-0-044-1",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:skik_mifsud_2000_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Tunisia"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-07-26T18:16:34Z"
+    }
+}

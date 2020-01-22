@@ -1,0 +1,97 @@
+{
+    "key": "U7YJWYHV",
+    "version": 7933,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/U7YJWYHV",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/U7YJWYHV",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Benoliel",
+        "parsedDate": "1926",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "U7YJWYHV",
+        "version": 7933,
+        "itemType": "journalArticle",
+        "title": "Dialecto judío-hispano-marroquí o Hakitía",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "José",
+                "lastName": "Benoliel"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "BRAE",
+        "volume": "13-15",
+        "issue": "",
+        "pages": "361-518",
+        "date": "1926-1928",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:ben-oliel_1926-1928_3354)",
+        "tags": [
+            {
+                "tag": "reg:Andalusia [39.92, -3.02]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Jewish dialects"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:description of dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-07-19T18:06:09Z"
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "key": "2F4KCSVL",
+    "version": 2831,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/2F4KCSVL",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/2F4KCSVL",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Geva-Kleinberger",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "2F4KCSVL",
+        "version": 2831,
+        "itemType": "journalArticle",
+        "title": "Memories of Sea of Galilee: The Jewish Arabic Dialect of Tiberias",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Aharon",
+                "lastName": "Geva-Kleinberger"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Jerusalem Studies in Arabic and Islam",
+        "volume": "29",
+        "issue": "",
+        "pages": "145-165",
+        "date": "2004",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:geva-kleinberger_2004_3207)",
+        "tags": [
+            {
+                "tag": "geo:Tiberias [32.79, 35.53]"
+            },
+            {
+                "tag": "reg:Palestine [31.89, 35.25]"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-07T08:28:30Z"
+    }
+}

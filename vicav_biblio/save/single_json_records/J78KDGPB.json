@@ -1,0 +1,105 @@
+{
+    "key": "J78KDGPB",
+    "version": 8173,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/J78KDGPB",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/J78KDGPB",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Irving",
+        "parsedDate": "1962",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "J78KDGPB",
+        "version": 8173,
+        "itemType": "bookSection",
+        "title": "North African Arabic Studies",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Thomas Ballantine",
+                "lastName": "Irving"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Harvey",
+                "lastName": "Sobelman"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Arabic dialect studies: a selected bibliography",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Washington, D. C.",
+        "publisher": "Center for Applied Linguistics of the Modern Language Association and the Middle East Institute",
+        "date": "1962",
+        "pages": "58-88",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:irving_1962_3735)",
+        "tags": [
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "cnt:Libya"
+            },
+            {
+                "tag": "cnt:Tunisia"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-18T15:52:58Z"
+    }
+}

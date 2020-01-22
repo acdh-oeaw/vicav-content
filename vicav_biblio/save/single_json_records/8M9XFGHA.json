@@ -1,0 +1,107 @@
+{
+    "key": "8M9XFGHA",
+    "version": 8441,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/8M9XFGHA",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/8M9XFGHA",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Versteegh",
+        "parsedDate": "1984",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "8M9XFGHA",
+        "version": 8441,
+        "itemType": "book",
+        "title": "Pidginization and creolization: the case of Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Kees",
+                "lastName": "Versteegh"
+            }
+        ],
+        "abstractNote": "",
+        "series": "Current Issues in Linguistic Theory",
+        "seriesNumber": "33",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Amsterdam",
+        "publisher": "Benjamins",
+        "date": "1984",
+        "numPages": "194",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:versteegh_1984_0000)",
+        "tags": [
+            {
+                "tag": "vt:Central Africa"
+            },
+            {
+                "tag": "vt:East Africa"
+            },
+            {
+                "tag": "vt:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:creole"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-08T07:11:33Z"
+    }
+}

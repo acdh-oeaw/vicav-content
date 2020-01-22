@@ -1,0 +1,97 @@
+{
+    "key": "UMGTTA75",
+    "version": 8188,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/UMGTTA75",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/UMGTTA75",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Kujovic",
+        "parsedDate": "1991",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "UMGTTA75",
+        "version": 8188,
+        "itemType": "journalArticle",
+        "title": "Uporedna analiza kolokvijalizama u rjecnicima",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Dragana",
+                "lastName": "Kujovic"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Prilozi za Orijentalnu Filologiju",
+        "volume": "40",
+        "issue": "",
+        "pages": "19-24",
+        "date": "1991",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "05551153",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:kujovic_1991_0000)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:phraseology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

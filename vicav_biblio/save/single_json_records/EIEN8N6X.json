@@ -1,0 +1,112 @@
+{
+    "key": "EIEN8N6X",
+    "version": 2775,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/EIEN8N6X",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/EIEN8N6X",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Arnold",
+        "parsedDate": "2006",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "EIEN8N6X",
+        "version": 2775,
+        "itemType": "bookSection",
+        "title": "Arabic village and city dialects in the Tel Aviv area",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Werner",
+                "lastName": "Arnold"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Lutz",
+                "lastName": "Edzard"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Jan",
+                "lastName": "Retsö"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Current Issues in the Analysis of Semitic Grammar and Lexicon II. Oslo-Göteborg Cooperation 4th-5th November 2005",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrassowitz",
+        "date": "2006",
+        "pages": "34-39",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:arnold_2006_0000)",
+        "tags": [
+            {
+                "tag": "geo:Tel Aviv [32.08, 34.78]"
+            },
+            {
+                "tag": "cnt:Israel"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-05T16:58:46Z"
+    }
+}

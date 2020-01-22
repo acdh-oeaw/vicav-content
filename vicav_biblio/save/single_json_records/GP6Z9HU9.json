@@ -1,0 +1,91 @@
+{
+    "key": "GP6Z9HU9",
+    "version": 7655,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/GP6Z9HU9",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/GP6Z9HU9",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Watson",
+        "parsedDate": "2006",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "GP6Z9HU9",
+        "version": 7655,
+        "itemType": "journalArticle",
+        "title": "The language of Jabal Razi?: Arabic or something else?",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Janet C.E.",
+                "lastName": "Watson"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Proceedings of the Seminar for Arabian Studies",
+        "volume": "36",
+        "issue": "",
+        "pages": "35-41",
+        "date": "2006",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "03088421",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:watson_2006_0001)",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "cnt:Yemen"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

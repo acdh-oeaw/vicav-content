@@ -1,0 +1,94 @@
+{
+    "key": "4WPGGK4Q",
+    "version": 6416,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/4WPGGK4Q",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/4WPGGK4Q",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Goitein",
+        "parsedDate": "1934",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "4WPGGK4Q",
+        "version": 6416,
+        "itemType": "journalArticle",
+        "title": "Jemenische Geschichten II",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Fritz",
+                "lastName": "Goitein"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Zeitschrift für Semitistik und verwandte Gebiete",
+        "volume": "9",
+        "issue": "",
+        "pages": "19-43",
+        "date": "1934",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:goitein_1934_0000)",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "cnt:Yemen"
+            },
+            {
+                "tag": "vt:oral narratives"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T18:38:02Z"
+    }
+}

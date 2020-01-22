@@ -1,0 +1,96 @@
+{
+    "key": "4KPV8DX2",
+    "version": 7728,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/4KPV8DX2",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/4KPV8DX2",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Lahdo",
+        "parsedDate": "2010",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "4KPV8DX2",
+        "version": 7728,
+        "itemType": "book",
+        "title": "Tillo-Arabic: a dialectological study with emphasis on social-linguistic and language-contact phenomena",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ablahad",
+                "lastName": "Lahdo"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Saarbrücken",
+        "publisher": "Lambert Academic Publisher",
+        "date": "2010",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:lahdo_2010_3073)",
+        "tags": [
+            {
+                "tag": "geo:Tillo [37.94, 42.01]"
+            },
+            {
+                "tag": "reg:Mesopotamia [35.14, 42.48]"
+            },
+            {
+                "tag": "reg:Turkey [38.08, 41.10]"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:sedentary dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-02-26T19:32:08Z"
+    }
+}

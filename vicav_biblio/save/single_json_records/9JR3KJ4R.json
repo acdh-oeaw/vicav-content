@@ -1,0 +1,94 @@
+{
+    "key": "9JR3KJ4R",
+    "version": 6308,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/9JR3KJ4R",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/9JR3KJ4R",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Mohammad",
+        "parsedDate": "1999",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "9JR3KJ4R",
+        "version": 6308,
+        "itemType": "journalArticle",
+        "title": "Checking and licensing inside DP in Palestinian Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Mohammad A.",
+                "lastName": "Mohammad"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "",
+        "volume": "Amsterdam: Benjamins, 1999, (Amsterdam Studies in the Theory and History of Linguistic Science: Series IV, Current Issues in Linguistic Theory, 190),",
+        "issue": "",
+        "pages": "27-44",
+        "date": "1999",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:mohammad_1999_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Israel"
+            },
+            {
+                "tag": "reg:Palestine [31.89, 35.25]"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-25T10:18:47Z"
+    }
+}

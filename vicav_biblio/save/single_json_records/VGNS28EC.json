@@ -1,0 +1,97 @@
+{
+    "key": "VGNS28EC",
+    "version": 6521,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/VGNS28EC",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/VGNS28EC",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Lentin",
+        "parsedDate": "1982",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "VGNS28EC",
+        "version": 6521,
+        "itemType": "journalArticle",
+        "title": "Un ancien système à formes 'lento' et 'allegro' dans le dialecte de Damas?",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jérôme",
+                "lastName": "Lentin"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Bulletin d'Études Orientales",
+        "volume": "34",
+        "issue": "",
+        "pages": "111-139",
+        "date": "1982",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:lentin_1982_0000)",
+        "tags": [
+            {
+                "tag": "geo:Damascus [33.51, 36.27]"
+            },
+            {
+                "tag": "cnt:Syria"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:loanwords"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T11:28:55Z"
+    }
+}

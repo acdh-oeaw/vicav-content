@@ -1,0 +1,100 @@
+{
+    "key": "4RVVG2PF",
+    "version": 7143,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/4RVVG2PF",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/4RVVG2PF",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Hilili",
+        "parsedDate": "1990",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "4RVVG2PF",
+        "version": 7143,
+        "itemType": "journalArticle",
+        "title": "Contribution à l'étude fonctionnelle de l'arabe. (L'arabe classique et l'arabe fassi.)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Abdelaziz",
+                "lastName": "Hilili"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Revue de la Faculté des Lettres et des Sciences Humaines, Fès",
+        "volume": "11",
+        "issue": "",
+        "pages": "17-22",
+        "date": "1990",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:hilili_1990_0000)",
+        "tags": [
+            {
+                "tag": "geo:Fez [34.01, -5.00]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:classical"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:diglossia"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

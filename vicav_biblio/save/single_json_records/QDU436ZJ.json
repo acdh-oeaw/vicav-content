@@ -1,0 +1,95 @@
+{
+    "key": "QDU436ZJ",
+    "version": 2440,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/QDU436ZJ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/QDU436ZJ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Corriente",
+        "parsedDate": "1977",
+        "numChildren": 2
+    },
+    "data": {
+        "key": "QDU436ZJ",
+        "version": 2440,
+        "itemType": "book",
+        "title": "A Grammatical Sketch of the Spanish Arabic Dialect Bundle",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Federico",
+                "lastName": "Corriente"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Madrid",
+        "publisher": "Instituto Hispano-Árabe de Cultura",
+        "date": "1977",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:corriente_1977_0000)",
+        "tags": [
+            {
+                "tag": "reg:Andalusia [39.92, -3.02]"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "vt:description of dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": [
+                "http://zotero.org/groups/2165756/items/HZE6B846",
+                "http://zotero.org/groups/2165756/items/MBPIRKCP"
+            ]
+        },
+        "dateAdded": "2018-04-12T19:25:39Z",
+        "dateModified": "2018-04-21T09:01:51Z"
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "key": "KHBUFV6X",
+    "version": 2299,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/KHBUFV6X",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/KHBUFV6X",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Palva",
+        "parsedDate": "1994",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "KHBUFV6X",
+        "version": 2299,
+        "itemType": "bookSection",
+        "title": "Bedouin and sedentary elements in the dialect of es-Sal?. Diachronic notes on the sociolinguistic development",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Heikki",
+                "lastName": "Palva"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Dominique",
+                "lastName": "Caubet"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Martine",
+                "lastName": "Vanhove"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Actes des premières journées internationales de dialectologie arabe de Paris. (Colloque international tenu à Paris du 27 au 30 janvier 1993). Préface de David Cohen",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Paris",
+        "publisher": "INALCO, Publications Langues'O",
+        "date": "1994",
+        "pages": "459-470",
+        "language": "",
+        "ISBN": "2-85831-045-9",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:palva_caubet_1994_0000)",
+        "tags": [
+            {
+                "tag": "geo:Al-Salt [32.03, 35.72]"
+            },
+            {
+                "tag": "cnt:Jordan"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:bedouin dialect"
+            },
+            {
+                "tag": "vt:sedentary dialect"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

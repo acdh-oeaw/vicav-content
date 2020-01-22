@@ -1,0 +1,102 @@
+{
+    "key": "FPJYN4WM",
+    "version": 2735,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/FPJYN4WM",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/FPJYN4WM",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Angoujard",
+        "parsedDate": "1993",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "FPJYN4WM",
+        "version": 2735,
+        "itemType": "journalArticle",
+        "title": "Une analyse de la forme ?ahámar (parler du Hedjaz) dans le cadre de la phonologie déclarative",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jean-Pierre",
+                "lastName": "Angoujard"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Linguistica Communicatio / Al-Tawa?ul al-Lisani",
+        "volume": "5",
+        "issue": "i-ii",
+        "pages": "105-119",
+        "date": "1993",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:angoujard_1993_0001)",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "cnt:Saudi Arabia"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-05T15:53:26Z"
+    }
+}

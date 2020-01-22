@@ -1,0 +1,112 @@
+{
+    "key": "96BBSFR6",
+    "version": 2924,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/96BBSFR6",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/96BBSFR6",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Vanhove et al.",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "96BBSFR6",
+        "version": 2924,
+        "itemType": "bookSection",
+        "title": "Deixis et focalisation: la particule ta en arabe de Yafi? (Yemen)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Martine",
+                "lastName": "Vanhove"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "R. de",
+                "lastName": "Jong"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Kees",
+                "lastName": "Versteegh"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Approaches to Arabic Dialects: Collection of articles presented to Manfred Woidich on the Occasion of his Sixtieth Birthday",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Brill",
+        "publisher": "Leiden",
+        "date": "2004",
+        "pages": "329-342",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:vanhove_2004_0000)",
+        "tags": [
+            {
+                "tag": "geo:Yafa [14.56, 44.34]"
+            },
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "cnt:Yemen"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-08T14:34:47Z"
+    }
+}

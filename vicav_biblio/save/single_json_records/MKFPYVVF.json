@@ -1,0 +1,106 @@
+{
+    "key": "MKFPYVVF",
+    "version": 2316,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/MKFPYVVF",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/MKFPYVVF",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Benkaddour, Abdelfattah",
+        "parsedDate": "1990",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "MKFPYVVF",
+        "version": 2316,
+        "itemType": "bookSection",
+        "title": "Semi-vowels and high vowels in Moroccan Arabic: A nonlinear approach",
+        "creators": [
+            {
+                "creatorType": "author",
+                "name": "Benkaddour, Abdelfattah"
+            },
+            {
+                "creatorType": "editor",
+                "name": "Pleines, Jochen"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "La linguistique au Maghreb - Maghreb linguistics",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Rabat",
+        "publisher": "Editions Okad",
+        "date": "1990",
+        "pages": "127-143",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:benkaddour, abdelfattah_1990_3371)",
+        "tags": [
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:phonology"
+            },
+            {
+                "tag": "vt:prosody"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

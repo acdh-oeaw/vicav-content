@@ -1,0 +1,2232 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A VICAV Sample Text of Damascus Arabic.</title>
+            <author>Stephan Procházka</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher> </publisher>
+            <date>2019</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This document is part of a ...</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <div type="sampleText">
+            <p>
+               <s xml:id="id_s_0">
+                  <w xml:id="id_w_0" ana="#anid_1">
+                     <m xml:id="id_35" ana="#anid_1">yōm</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_50"> </seg>
+                  <w xml:id="id_w_1" ana="#anid_3">
+                     <m xml:id="id_52" ana="#anid_2">ǝs</m>
+                     <pc>-</pc>
+                     <m xml:id="id_60" ana="#anid_4">sabǝt</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_67"> </seg>
+                  <w xml:id="id_w_3" ana="#anid_5">
+                     <m xml:id="id_73" ana="#anid_5">baʕd</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_75"> </seg>
+                  <w xml:id="id_w_4" ana="#anid_21">
+                     <m xml:id="id_77" ana="#anid_6">ǝl</m>
+                     <pc>-</pc>
+                     <m xml:id="id_93" ana="#anid_7">fažᵊr</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_98"> </seg>
+                  <w xml:id="id_w_6" ana="#anid_62">
+                     <m xml:id="id_104" ana="#anid_8">rǝḥ</m>
+                     <pc>-</pc>
+                     <m xml:id="id_m_0">ᵊt</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_110"> </seg>
+                  <w xml:id="id_w_8">
+                     <m xml:id="id_139" ana="#anid_9">ʕa</m>
+                     <pc>-</pc>
+                     <m xml:id="id_158" ana="#anid_10">s</m>
+                     <pc>-</pc>
+                     <m xml:id="id_162" ana="#anid_11">sūʔ</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_168"> </seg>
+                  <w xml:id="id_w_11">
+                     <m xml:id="id_176" ana="#anid_12">ᵊmšān</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_178"> </seg>
+                  <w xml:id="id_w_12">
+                     <m xml:id="id_181" ana="#anid_13">ʔǝ</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_13">
+                     <m xml:id="id_m_1">štǝri</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_210"> </seg>
+                  <w xml:id="id_w_14">
+                     <m xml:id="id_212" ana="#anid_14">bēḍ</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_213"> </seg>
+                  <w xml:id="id_w_15">
+                     <m xml:id="id_214" ana="#anid_15">w</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_215"> </seg>
+                  <w xml:id="id_w_16">
+                     <m xml:id="id_216" ana="#anid_16">xǝḍra</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_217"> </seg>
+                  <w xml:id="id_w_17">
+                     <m xml:id="id_218" ana="#anid_17">mǝtl</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_219"> </seg>
+                  <w xml:id="id_w_18">
+                     <m xml:id="id_220" ana="#anid_6">ǝl</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_19">
+                     <m xml:id="id_222" ana="#anid_18">bētǝnžān</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_223"> </seg>
+                  <w xml:id="id_w_20">
+                     <m xml:id="id_224" ana="#anid_15">w</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_226"> </seg>
+                  <w xml:id="id_w_21">
+                     <m xml:id="id_235" ana="#anid_19">ǝt</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_22">
+                     <m xml:id="id_243" ana="#anid_20">tūm</m>
+                  </w>
+                  <pc>.</pc>
+               </s>
+
+               <s xml:id="id_s_1">
+                  <w xml:id="id_w_23">
+                     <m xml:id="id_245" ana="#anid_22">ᵊštarē</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_24">
+                     <m xml:id="id_m_2">t</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_246_"> </seg>
+                  <w xml:id="id_w_25">
+                     <m xml:id="id_246" ana="#anid_23">kamān</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_247"> </seg>
+                  <w xml:id="id_w_26">
+                     <m xml:id="id_248" ana="#anid_24">kīlīy</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_27">
+                     <m xml:id="id_m_12">ēn</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_249_"> </seg>
+                  <w xml:id="id_w_28">
+                     <m xml:id="id_249" ana="#anid_25">bǝrdʔān</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_250"> </seg>
+                  <w xml:id="id_w_29">
+                     <m xml:id="id_251" ana="#anid_26">bǝ</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_30">
+                     <m xml:id="id_253" ana="#anid_27">tmānīn</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_254"> </seg>
+                  <w xml:id="id_w_31">
+                     <m xml:id="id_255" ana="#anid_28">lēra</m>
+                  </w>
+                  <pc>.</pc>
+               </s>
+
+               <s xml:id="id_s_2">
+                  <w xml:id="id_w_32">
+                     <m xml:id="id_257" ana="#anid_15">w</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_258_"> </seg>
+                  <w xml:id="id_w_33">
+                     <m xml:id="id_258" ana="#anid_29">mā</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_259"> </seg>
+                  <w xml:id="id_w_34">
+                     <m xml:id="id_260" ana="#anid_30">ʔaxad</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_35">
+                     <m xml:id="id_m_13">ᵊt</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_261"> </seg>
+                  <w xml:id="id_w_36">
+                     <m xml:id="id_262" ana="#anid_31">bandōra</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_263"> </seg>
+                  <w xml:id="id_w_37">
+                     <m xml:id="id_264" ana="#anid_32">la-ʔanna</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_265"> </seg>
+                  <w xml:id="id_w_38">
+                     <m xml:id="id_266" ana="#anid_33">kān</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_39">
+                     <m xml:id="id_m_14">et</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_267"> </seg>
+                  <w xml:id="id_w_40">
+                     <m xml:id="id_268" ana="#anid_34">ktīr</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_269"> </seg>
+                  <w xml:id="id_w_41">
+                     <m xml:id="id_270" ana="#anid_35">ġāly</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_42">
+                     <m xml:id="id_m_3">e</m>
+                  </w>
+                  <pc>.</pc>
+               </s>
+
+               <s xml:id="id_s_3">
+                  <w xml:id="id_w_43">
+                     <m xml:id="id_272" ana="#anid_15">w</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_273_"> </seg>
+                  <w xml:id="id_w_44">
+                     <m xml:id="id_273" ana="#anid_23">kamān</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_274"> </seg>
+                  <w xml:id="id_w_45">
+                     <m xml:id="id_275" ana="#anid_36">marr</m>
+                  </w>
+                  <w xml:id="id_w_46">
+                     <m xml:id="id_m_4">-ēt</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_276"> </seg>
+                  <w xml:id="id_w_47">
+                     <m xml:id="id_277" ana="#anid_37">ʕala</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_278"> </seg>
+                  <w xml:id="id_w_48">
+                     <m xml:id="id_279" ana="#anid_38">ʔax</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_49">
+                     <m xml:id="id_m_5">i</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_280_"> </seg>
+                  <w xml:id="id_w_50">
+                     <m xml:id="id_280" ana="#anid_39">lǝ</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_51">
+                     <m xml:id="id_282" ana="#anid_40">kbīr</m>
+                  </w>
+                  <pc>,</pc>
+                  <seg type="ws" xml:space="preserve" xml:id="id_284"> </seg>
+                  <w xml:id="id_w_52">
+                     <m xml:id="id_285" ana="#anid_15">w</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_286"> </seg>
+                  <w xml:id="id_w_53">
+                     <m xml:id="id_287" ana="#anid_42">baʕdēn</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_288"> </seg>
+                  <w xml:id="id_w_54">
+                     <m xml:id="id_289" ana="#anid_43">ʔaxad</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_55">
+                     <m xml:id="id_m_6">ᵊt</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_290"> </seg>
+                  <w xml:id="id_w_56">
+                     <m xml:id="id_291" ana="#anid_44">taksi</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_292"> </seg>
+                  <w xml:id="id_w_57">
+                     <m xml:id="id_293" ana="#anid_15">w</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_294"> </seg>
+                  <w xml:id="id_w_58">
+                     <m xml:id="id_295" ana="#anid_45">ᵊržǝʕ</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_59">
+                     <m xml:id="id_m_15">ᵊt</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_296"> </seg>
+                  <w xml:id="id_w_60">
+                     <m xml:id="id_297" ana="#anid_9">ʕa</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_61">
+                     <m xml:id="id_299" ana="#anid_46">l</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_62">
+                     <m xml:id="id_301" ana="#anid_47">bēt</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_302"> </seg>
+                  <w xml:id="id_w_63">
+                     <m xml:id="id_303" ana="#anid_48">ʔabl</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_304"> </seg>
+                  <w xml:id="id_w_64">
+                     <m xml:id="id_305" ana="#anid_49">ǝḍ</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_65">
+                     <m xml:id="id_307" ana="#anid_50">ḍǝhᵊr</m>
+                  </w>
+                  <pc>.</pc>
+               </s>
+
+               <s xml:id="id_s_4">
+                  <w xml:id="id_w_66">
+                     <m xml:id="id_309" ana="#anid_51">baʕda</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_310_"> </seg>
+                  <w xml:id="id_w_67">
+                     <m xml:id="id_310" ana="#anid_52">b</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_68">
+                     <m xml:id="id_m_7">ᵊšwayy</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_311"> </seg>
+                  <w xml:id="id_w_69">
+                     <m xml:id="id_312" ana="#anid_53">ʔǝž</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_70">
+                     <m xml:id="id_m_8">u</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_313"> </seg>
+                  <w xml:id="id_w_71">
+                     <m xml:id="id_314" ana="#anid_39">lǝ</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_72">
+                     <m xml:id="id_316" ana="#anid_54">wlād</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_317"> </seg>
+                  <w xml:id="id_w_73">
+                     <m xml:id="id_318" ana="#anid_55">mn</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_74">
+                     <m xml:id="id_320" ana="#anid_6">ǝl</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_75">
+                     <m xml:id="id_322" ana="#anid_56">madrase</m>
+                  </w>
+                  <pc>,</pc>
+                  <seg type="ws" xml:space="preserve" xml:id="id_324"> </seg>
+                  <w xml:id="id_w_76">
+                     <m xml:id="id_325" ana="#anid_15">w</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_326"> </seg>
+                  <w xml:id="id_w_77">
+                     <m xml:id="id_327" ana="#anid_57">ʔakal</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_78">
+                     <m xml:id="id_m_9">na</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_328"> </seg>
+                  <w xml:id="id_w_79">
+                     <m xml:id="id_329" ana="#anid_58">xǝbᵊz</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_330"> </seg>
+                  <w xml:id="id_w_80">
+                     <m xml:id="id_331" ana="#anid_15">w</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_332"> </seg>
+                  <w xml:id="id_w_81">
+                     <m xml:id="id_333" ana="#anid_59">fūl</m>
+                  </w>
+                  <pc>.</pc>
+               </s>
+
+               <s xml:id="id_s_5">
+                  <w xml:id="id_w_82">
+                     <m xml:id="id_335" ana="#anid_5">baʕd</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_336_"> </seg>
+                  <w xml:id="id_w_83">
+                     <m xml:id="id_336" ana="#anid_6">ǝl</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_84">
+                     <m xml:id="id_338" ana="#anid_60">ġada</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_339"> </seg>
+                  <w xml:id="id_w_85">
+                     <m xml:id="id_340" ana="#anid_61">saʔal</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_86">
+                     <m xml:id="id_m_10">t</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_87">
+                     <m xml:id="id_m_11">on</m>
+                  </w>
+                  <pc>:</pc>
+                  <seg type="ws" xml:space="preserve" xml:id="id_342"> </seg>
+                  <w xml:id="id_w_88">
+                     <m xml:id="id_343" ana="#anid_63">šū</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_344"> </seg>
+                  <w xml:id="id_w_89">
+                     <m xml:id="id_345" ana="#anid_64">raḥ</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_90">
+                     <m xml:id="id_347" ana="#anid_65">ᵊt</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_91">
+                     <m xml:id="id_m_16">sāw</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_92">
+                     <m xml:id="id_m_17">u</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_348"> </seg>
+                  <w xml:id="id_w_93">
+                     <m xml:id="id_349" ana="#anid_46">l</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_94">
+                     <m xml:id="id_351" ana="#anid_66">masa</m>
+                  </w>
+                  <pc>?</pc>
+               </s>
+
+               <s xml:id="id_s_6">
+                  <w xml:id="id_w_95">
+                     <m xml:id="id_353" ana="#anid_68">ʔāl</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_96">
+                     <m xml:id="id_m_18">ū</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_97">
+                     <m xml:id="id_m_19">li</m>
+                  </w>
+                  <pc>:</pc>
+                  <seg type="ws" xml:space="preserve" xml:id="id_354_"> </seg>
+                  <w xml:id="id_w_98">
+                     <m xml:id="id_354" ana="#anid_69">ǝl-yōm</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_355"> </seg>
+                  <w xml:id="id_w_99">
+                     <m xml:id="id_356" ana="#anid_70">ḍāll</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_100">
+                     <m xml:id="id_m_20">īn</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_357"> </seg>
+                  <w xml:id="id_w_101">
+                     <m xml:id="id_358" ana="#anid_86">b</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_102">
+                     <m xml:id="id_359" ana="#anid_6">ǝl</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_103">
+                     <m xml:id="id_360" ana="#anid_47">bēt</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_361"> </seg>
+                  <w xml:id="id_w_104">
+                     <m xml:id="id_362" ana="#anid_73">bass</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_363"> </seg>
+                  <w xml:id="id_w_105">
+                     <m xml:id="id_364" ana="#anid_74">bukra</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_365"> </seg>
+                  <w xml:id="id_w_106">
+                     <m xml:id="id_366" ana="#anid_75">bǝdd</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_107">
+                     <m xml:id="id_m_21">na</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_367"> </seg>
+                  <w xml:id="id_w_108">
+                     <m xml:id="id_368" ana="#anid_76">nǝ</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_109">
+                     <m xml:id="id_m_22">ltǝʔi</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_369"> </seg>
+                  <w xml:id="id_w_110">
+                     <m xml:id="id_370" ana="#anid_77">maʕ</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_371"> </seg>
+                  <w xml:id="id_w_111">
+                     <m xml:id="id_372" ana="#anid_78">rǝfʔāt</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_112">
+                     <m xml:id="id_m_23">na</m>
+                  </w>
+                  <pc>.</pc>
+               </s>
+
+               <s xml:id="id_s_7">
+                  <w xml:id="id_w_113">
+                     <m xml:id="id_375" ana="#anid_64">raḥ</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_114">
+                     <m xml:id="id_377" ana="#anid_79">ᵊn</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_115">
+                     <m xml:id="id_m_25">rūḥ</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_378"> </seg>
+                  <w xml:id="id_w_116">
+                     <m xml:id="id_379" ana="#anid_80">maʕ</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_117">
+                     <m xml:id="id_m_24">on</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_380"> </seg>
+                  <w xml:id="id_w_118">
+                     <m xml:id="id_381" ana="#anid_81">la</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_119">
+                     <m xml:id="id_m_26">ʕand</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_382"> </seg>
+                  <w xml:id="id_w_120">
+                     <m xml:id="id_383" ana="#anid_82">ʔǝbᵊn</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_384"> </seg>
+                  <w xml:id="id_w_121">
+                     <m xml:id="id_385" ana="#anid_83">ʕamm</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_122">
+                     <m xml:id="id_m_27">na</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_386"> </seg>
+                  <w xml:id="id_w_123">
+                     <m xml:id="id_387" ana="#anid_84">yǝlli</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_388"> </seg>
+                  <w xml:id="id_w_124">
+                     <m xml:id="id_389" ana="#anid_85">sāken</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_390"> </seg>
+                  <w xml:id="id_w_125">
+                     <m xml:id="id_391" ana="#anid_86">b</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_126">
+                     <m xml:id="id_393" ana="#anid_6">ǝl</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_127">
+                     <m xml:id="id_395" ana="#anid_87">Mīdān</m>
+                  </w>
+                  <pc>.</pc>
+               </s>
+
+               <s xml:id="id_s_8">
+                  <w xml:id="id_w_128">
+                     <m xml:id="id_397" ana="#anid_15">w</m>
+                  </w>
+                  <w xml:id="id_w_129">
+                     <m xml:id="id_398" ana="#anid_88">ᵊhnīk</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_399"> </seg>
+                  <w xml:id="id_w_130">
+                     <m xml:id="id_400" ana="#anid_64">raḥ</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_131">
+                     <m xml:id="id_402" ana="#anid_89">nǝ-šrab</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_403"> </seg>
+                  <w xml:id="id_w_132">
+                     <m xml:id="id_404" ana="#anid_90">ʔahwe</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_405"> </seg>
+                  <w xml:id="id_w_133">
+                     <m xml:id="id_406" ana="#anid_15">w</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_407"> </seg>
+                  <w xml:id="id_w_134">
+                     <m xml:id="id_408" ana="#anid_91">n-dardeš</m>
+                  </w>
+                  <pc>.</pc>
+               </s>
+
+               <s xml:id="id_s_9">
+                  <w xml:id="id_w_135">
+                     <m xml:id="id_410" ana="#anid_92">ʔǝl-t-ǝllon</m>
+                  </w>
+                  <pc>:</pc>
+                  <seg type="ws" xml:space="preserve" xml:id="id_412"> </seg>
+                  <w xml:id="id_w_136">
+                     <m xml:id="id_413" ana="#anid_93">ᵊmnīḥ</m>
+                  </w>
+                  <pc>,</pc>
+                  <seg type="ws" xml:space="preserve" xml:id="id_415"> </seg>
+                  <w xml:id="id_w_137">
+                     <m xml:id="id_416" ana="#anid_73">bass</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_417"> </seg>
+                  <w xml:id="id_w_138">
+                     <m xml:id="id_418" ana="#anid_94">lā</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_419"> </seg>
+                  <w xml:id="id_w_139">
+                     <m xml:id="id_420" ana="#anid_95">tǝ-ns-u</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_421"> </seg>
+                  <w xml:id="id_w_140">
+                     <m xml:id="id_422" ana="#anid_96">tā-xd-u</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_423"> </seg>
+                  <w xml:id="id_w_141">
+                     <m xml:id="id_424" ana="#anid_97">mōbaylāt-kon</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_425"> </seg>
+                  <w xml:id="id_w_142">
+                     <m xml:id="id_426" ana="#anid_98">maʕ-kon</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_427"> </seg>
+                  <w xml:id="id_w_143">
+                     <m xml:id="id_428" ana="#anid_15">w</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_429"> </seg>
+                  <w xml:id="id_w_144">
+                     <m xml:id="id_430" ana="#anid_99">t-ḥāk-ū-ni</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_431"> </seg>
+                  <w xml:id="id_w_145">
+                     <m xml:id="id_432" ana="#anid_100">ʔǝza</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_433"> </seg>
+                  <w xml:id="id_w_146">
+                     <m xml:id="id_434" ana="#anid_101">kān</m>
+                  </w>
+                  <seg type="ws" xml:space="preserve" xml:id="id_435"> </seg>
+                  <w xml:id="id_w_147">
+                     <m xml:id="id_436" ana="#anid_64">raḥ</m>
+                  </w>
+                  <pc>-</pc>
+                  <w xml:id="id_w_148">
+                     <m xml:id="id_438" ana="#anid_102">tǝ-tʔaxxar-u</m>
+                  </w>
+                  <pc>!</pc>
+               </s>
+
+            </p>
+         </div>
+
+         <div type="translations">
+            <p>
+               <s xml:lang="en" xml:id="id_s_10">On Monday after dawn I went to the market to buy eggs and vegetables such as aubergines and garlic.</s>
+               <s xml:lang="en" xml:id="id_s_11">I also bought 2 kilograms of oranges for 80 Lira.</s>
+               <s xml:lang="en" xml:id="id_s_12">I didn’t take tomatoes because they were very expensive.</s>
+               <s xml:lang="en" xml:id="id_s_13">I passed by my elder brother, then I took a taxi and came back home before noon.</s>
+               <s xml:lang="en" xml:id="id_s_14">A little later the kids returned from school and we ate some bread and beans.</s>
+               <s xml:lang="en" xml:id="id_s_15">After lunch I asked them, “What will you do this evening?”</s>
+               <s xml:lang="en" xml:id="id_s_16">They said, “Today we’ll stay at home but tomorrow we want to meet our friends.</s>
+               <s xml:lang="en" xml:id="id_s_17">We’ll go with them to our cousin, who lives in the Midan neighbourhood.</s>
+               <s xml:lang="en" xml:id="id_s_18">There we’ll drink coffee and have a talk.”</s>
+               <s xml:lang="en" xml:id="id_s_19">“Okay, but don’t forget your mobile phones and call me if you come back late”, I said to them.</s>
+            </p>
+         </div>
+
+         <div type="annotations">
+            <fs xml:id="anid_1">
+               <f name="match">
+                  <string>yōm</string>
+               </f>
+               <f name="lemma">
+                  <string>yōm</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>day</string>
+               </f>
+               <f name="LGR">
+                  <string>day</string>
+               </f>
+            </fs><fs xml:id="anid_2">
+               <f name="match">
+                  <string>ǝs</string>
+               </f>
+               <f name="lemma">
+                  <string/>
+               </f>
+               <f name="pos">
+                  <string>article</string>
+               </f>
+               <f name="translation">
+                  <string/>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_4">
+               <f name="match">
+                  <string>sabǝt</string>
+               </f>
+               <f name="lemma">
+                  <string>əs-sabǝt</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>Saturday</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_5">
+               <f name="match">
+                  <string>baʕd</string>
+               </f>
+               <f name="lemma">
+                  <string>baʕd</string>
+               </f>
+               <f name="pos">
+                  <string>preposition</string>
+               </f>
+               <f name="translation">
+                  <string>after</string>
+               </f>
+               <f name="LGR">
+                  <string>baʕd</string>
+               </f>
+            </fs><fs xml:id="anid_6">
+               <f name="match">
+                  <string>ǝl</string>
+               </f>
+               <f name="lemma">
+                  <string>ǝl</string>
+               </f>
+               <f name="pos">
+                  <string>article</string>
+               </f>
+               <f name="translation">
+                  <string>the</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_7">
+               <f name="match">
+                  <string>fažᵊr</string>
+               </f>
+               <f name="lemma">
+                  <string>fažᵊr</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>dawn</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_8">
+               <f name="match">
+                  <string>rǝḥ-ᵊt</string>
+               </f>
+               <f name="lemma">
+                  <string>rāḥ</string>
+               </f>
+               <f name="pos">
+                  <string>verb</string>
+               </f>
+               <f name="translation">
+                  <string>to go</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_9">
+               <f name="match">
+                  <string>ʕa</string>
+               </f>
+               <f name="lemma">
+                  <string>ʕa</string>
+               </f>
+               <f name="pos">
+                  <string>preposition</string>
+               </f>
+               <f name="translation">
+                  <string>on, to</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_10">
+               <f name="match">
+                  <string>s</string>
+               </f>
+               <f name="lemma">
+                  <string/>
+               </f>
+               <f name="pos">
+                  <string>article</string>
+               </f>
+               <f name="translation">
+                  <string/>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_11">
+               <f name="match">
+                  <string>sūʔ</string>
+               </f>
+               <f name="lemma">
+                  <string>sūʔ</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>market</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_12">
+               <f name="match">
+                  <string>ᵊmšān</string>
+               </f>
+               <f name="lemma">
+                  <string>ᵊmšān</string>
+               </f>
+               <f name="pos">
+                  <string>conjunction</string>
+               </f>
+               <f name="translation">
+                  <string>in order to</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_13">
+               <f name="match">
+                  <string>ʔǝ-štǝri</string>
+               </f>
+               <f name="lemma">
+                  <string>štara</string>
+               </f>
+               <f name="pos">
+                  <string>verb</string>
+               </f>
+               <f name="translation">
+                  <string>to buy</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_14">
+               <f name="match">
+                  <string>bēḍ</string>
+               </f>
+               <f name="lemma">
+                  <string>bēḍ</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>eggs</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_15">
+               <f name="match">
+                  <string>w</string>
+               </f>
+               <f name="lemma">
+                  <string>w</string>
+               </f>
+               <f name="pos">
+                  <string>conjunction</string>
+               </f>
+               <f name="translation">
+                  <string>and</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_16">
+               <f name="match">
+                  <string>xǝḍra</string>
+               </f>
+               <f name="lemma">
+                  <string>xǝḍra</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>vegetables</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_17">
+               <f name="match">
+                  <string>mǝtl</string>
+               </f>
+               <f name="lemma">
+                  <string>mǝtl</string>
+               </f>
+               <f name="pos">
+                  <string>preposition</string>
+               </f>
+               <f name="translation">
+                  <string>like</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_18">
+               <f name="match">
+                  <string>bētǝnžān</string>
+               </f>
+               <f name="lemma">
+                  <string>bētǝnžān</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>aubergines</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_19">
+               <f name="match">
+                  <string>ǝt</string>
+               </f>
+               <f name="lemma">
+                  <string/>
+               </f>
+               <f name="pos">
+                  <string>article</string>
+               </f>
+               <f name="translation">
+                  <string/>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_20">
+               <f name="match">
+                  <string>tūm</string>
+               </f>
+               <f name="lemma">
+                  <string>tūm</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>garlic</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_22">
+               <f name="match">
+                  <string>ᵊštarē-t</string>
+               </f>
+               <f name="lemma">
+                  <string>štara</string>
+               </f>
+               <f name="pos">
+                  <string>verb</string>
+               </f>
+               <f name="translation">
+                  <string>to buy</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_23">
+               <f name="match">
+                  <string>kamān</string>
+               </f>
+               <f name="lemma">
+                  <string>kamān</string>
+               </f>
+               <f name="pos">
+                  <string>adverb</string>
+               </f>
+               <f name="translation">
+                  <string>also</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_24">
+               <f name="match">
+                  <string>kīlīy-ēn</string>
+               </f>
+               <f name="lemma">
+                  <string>kīlo</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>kilo</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_25">
+               <f name="match">
+                  <string>bǝrdʔān</string>
+               </f>
+               <f name="lemma">
+                  <string>bǝrdʔān</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>oranges</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_26">
+               <f name="match">
+                  <string>bǝ</string>
+               </f>
+               <f name="lemma">
+                  <string>bǝ</string>
+               </f>
+               <f name="pos">
+                  <string>preposition</string>
+               </f>
+               <f name="translation">
+                  <string>in, for</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_27">
+               <f name="match">
+                  <string>tmānīn</string>
+               </f>
+               <f name="lemma">
+                  <string>tmānīn</string>
+               </f>
+               <f name="pos">
+                  <string>numeral</string>
+               </f>
+               <f name="translation">
+                  <string>eighty</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_28">
+               <f name="match">
+                  <string>lēra</string>
+               </f>
+               <f name="lemma">
+                  <string>lēra</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>pound</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_29">
+               <f name="match">
+                  <string>mā</string>
+               </f>
+               <f name="lemma">
+                  <string>mā</string>
+               </f>
+               <f name="pos">
+                  <string>negation</string>
+               </f>
+               <f name="translation">
+                  <string>not</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_30">
+               <f name="match">
+                  <string>ʔaxad-ᵊt</string>
+               </f>
+               <f name="lemma">
+                  <string>ʔaxad</string>
+               </f>
+               <f name="pos">
+                  <string>verb</string>
+               </f>
+               <f name="translation">
+                  <string>to take, to buy</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_31">
+               <f name="match">
+                  <string>bandōra</string>
+               </f>
+               <f name="lemma">
+                  <string>bandōra</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>tomatoes</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_32">
+               <f name="match">
+                  <string>la-ʔanna</string>
+               </f>
+               <f name="lemma">
+                  <string>la-ʔanna</string>
+               </f>
+               <f name="pos">
+                  <string>conjunction</string>
+               </f>
+               <f name="translation">
+                  <string>because</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_33">
+               <f name="match">
+                  <string>kān-et</string>
+               </f>
+               <f name="lemma">
+                  <string>kān</string>
+               </f>
+               <f name="pos">
+                  <string>verb</string>
+               </f>
+               <f name="translation">
+                  <string>to be</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_34">
+               <f name="match">
+                  <string>ktīr</string>
+               </f>
+               <f name="lemma">
+                  <string>ktīr</string>
+               </f>
+               <f name="pos">
+                  <string>adverb</string>
+               </f>
+               <f name="translation">
+                  <string>very</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_35">
+               <f name="match">
+                  <string>ġāly-e</string>
+               </f>
+               <f name="lemma">
+                  <string>ġāli</string>
+               </f>
+               <f name="pos">
+                  <string>adjective</string>
+               </f>
+               <f name="translation">
+                  <string>expensive</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_36">
+               <f name="match">
+                  <string>marr-ēt</string>
+               </f>
+               <f name="lemma">
+                  <string>marr ʕala</string>
+               </f>
+               <f name="pos">
+                  <string>verb</string>
+               </f>
+               <f name="translation">
+                  <string>to pass by</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_37">
+               <f name="match">
+                  <string>ʕala</string>
+               </f>
+               <f name="lemma">
+                  <string/>
+               </f>
+               <f name="pos">
+                  <string>preposition</string>
+               </f>
+               <f name="translation">
+                  <string/>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_38">
+               <f name="match">
+                  <string>ʔax-i</string>
+               </f>
+               <f name="lemma">
+                  <string>ʔaxx</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>brother</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_39">
+               <f name="match">
+                  <string>lǝ</string>
+               </f>
+               <f name="lemma">
+                  <string/>
+               </f>
+               <f name="pos">
+                  <string>article</string>
+               </f>
+               <f name="translation">
+                  <string/>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_40">
+               <f name="match">
+                  <string>kbīr</string>
+               </f>
+               <f name="lemma">
+                  <string>kbīr</string>
+               </f>
+               <f name="pos">
+                  <string>adjective</string>
+               </f>
+               <f name="translation">
+                  <string>big, old</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_42">
+               <f name="match">
+                  <string>baʕdēn</string>
+               </f>
+               <f name="lemma">
+                  <string>baʕdēn</string>
+               </f>
+               <f name="pos">
+                  <string>adverb</string>
+               </f>
+               <f name="translation">
+                  <string>then</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_43">
+               <f name="match">
+                  <string>ʔaxadᵊt</string>
+               </f>
+               <f name="lemma">
+                  <string>ʔaxad</string>
+               </f>
+               <f name="pos">
+                  <string>verb</string>
+               </f>
+               <f name="translation">
+                  <string>to take, to buy</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_44">
+               <f name="match">
+                  <string>taksi</string>
+               </f>
+               <f name="lemma">
+                  <string>taksi</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>taxi</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_45">
+               <f name="match">
+                  <string>ᵊržǝʕ-ᵊt</string>
+               </f>
+               <f name="lemma">
+                  <string>rəžeʕ</string>
+               </f>
+               <f name="pos">
+                  <string>verb</string>
+               </f>
+               <f name="translation">
+                  <string>to return</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_46">
+               <f name="match">
+                  <string>l</string>
+               </f>
+               <f name="lemma">
+                  <string/>
+               </f>
+               <f name="pos">
+                  <string>article</string>
+               </f>
+               <f name="translation">
+                  <string/>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_47">
+               <f name="match">
+                  <string>bēt</string>
+               </f>
+               <f name="lemma">
+                  <string>bēt</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>house</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_48">
+               <f name="match">
+                  <string>ʔabl</string>
+               </f>
+               <f name="lemma">
+                  <string>ʔabl</string>
+               </f>
+               <f name="pos">
+                  <string>preposition</string>
+               </f>
+               <f name="translation">
+                  <string>before</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_49">
+               <f name="match">
+                  <string>ǝḍ</string>
+               </f>
+               <f name="lemma">
+                  <string/>
+               </f>
+               <f name="pos">
+                  <string>article</string>
+               </f>
+               <f name="translation">
+                  <string/>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_50">
+               <f name="match">
+                  <string>ḍǝhᵊr</string>
+               </f>
+               <f name="lemma">
+                  <string>ḍǝhᵊr</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>noon</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_51">
+               <f name="match">
+                  <string>baʕda</string>
+               </f>
+               <f name="lemma">
+                  <string>baʕda</string>
+               </f>
+               <f name="pos">
+                  <string>adverb</string>
+               </f>
+               <f name="translation">
+                  <string>then</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_52">
+               <f name="match">
+                  <string>b-ᵊšwayy</string>
+               </f>
+               <f name="lemma">
+                  <string>b-ᵊšwayy</string>
+               </f>
+               <f name="pos">
+                  <string>adverb</string>
+               </f>
+               <f name="translation">
+                  <string>a little</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_53">
+               <f name="match">
+                  <string>ʔǝž-u</string>
+               </f>
+               <f name="lemma">
+                  <string>ʔǝža</string>
+               </f>
+               <f name="pos">
+                  <string>verb</string>
+               </f>
+               <f name="translation">
+                  <string>to come</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_54">
+               <f name="match">
+                  <string>wlād</string>
+               </f>
+               <f name="lemma">
+                  <string>wlād</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>children</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_55">
+               <f name="match">
+                  <string>mn</string>
+               </f>
+               <f name="lemma">
+                  <string>mn</string>
+               </f>
+               <f name="pos">
+                  <string>preposition</string>
+               </f>
+               <f name="translation">
+                  <string>from</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_56">
+               <f name="match">
+                  <string>madrase</string>
+               </f>
+               <f name="lemma">
+                  <string>madrase</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>school</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_57">
+               <f name="match">
+                  <string>ʔakal-na</string>
+               </f>
+               <f name="lemma">
+                  <string>ʔakal</string>
+               </f>
+               <f name="pos">
+                  <string>verb</string>
+               </f>
+               <f name="translation">
+                  <string>to eat</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_58">
+               <f name="match">
+                  <string>xǝbᵊz</string>
+               </f>
+               <f name="lemma">
+                  <string>xǝbᵊz</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>bread</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_59">
+               <f name="match">
+                  <string>fūl</string>
+               </f>
+               <f name="lemma">
+                  <string>fūl</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>beans</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_60">
+               <f name="match">
+                  <string>ġada</string>
+               </f>
+               <f name="lemma">
+                  <string>ġada</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>lunch</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_61">
+               <f name="match">
+                  <string>saʔal-t-on</string>
+               </f>
+               <f name="lemma">
+                  <string>saʔal</string>
+               </f>
+               <f name="pos">
+                  <string>verb</string>
+               </f>
+               <f name="translation">
+                  <string>to ask</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_63">
+               <f name="match">
+                  <string>šū</string>
+               </f>
+               <f name="lemma">
+                  <string>šū</string>
+               </f>
+               <f name="pos">
+                  <string>interrogative</string>
+               </f>
+               <f name="translation">
+                  <string>what</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_64">
+               <f name="match">
+                  <string>raḥ</string>
+               </f>
+               <f name="lemma">
+                  <string>raḥ</string>
+               </f>
+               <f name="pos">
+                  <string>particle</string>
+               </f>
+               <f name="translation">
+                  <string>going to</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_65">
+               <f name="match">
+                  <string>ᵊt-sāw-u</string>
+               </f>
+               <f name="lemma">
+                  <string>sāwa</string>
+               </f>
+               <f name="pos">
+                  <string>verb</string>
+               </f>
+               <f name="translation">
+                  <string>to do, to make</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_66">
+               <f name="match">
+                  <string>masa</string>
+               </f>
+               <f name="lemma">
+                  <string>masa</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>evening</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_68">
+               <f name="match">
+                  <string>ʔāl-ū-li:</string>
+               </f>
+               <f name="lemma">
+                  <string>ʔāl</string>
+               </f>
+               <f name="pos">
+                  <string>verb</string>
+               </f>
+               <f name="translation">
+                  <string>to say</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_69">
+               <f name="match">
+                  <string>ǝl-yōm</string>
+               </f>
+               <f name="lemma">
+                  <string>ǝl-yōm</string>
+               </f>
+               <f name="pos">
+                  <string>adverb</string>
+               </f>
+               <f name="translation">
+                  <string>today</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_70">
+               <f name="match">
+                  <string>ḍāll-īn</string>
+               </f>
+               <f name="lemma">
+                  <string>ḍāll</string>
+               </f>
+               <f name="pos">
+                  <string>participle</string>
+               </f>
+               <f name="translation">
+                  <string>staying</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_73">
+               <f name="match">
+                  <string>bass</string>
+               </f>
+               <f name="lemma">
+                  <string>bass</string>
+               </f>
+               <f name="pos">
+                  <string>conjunction</string>
+               </f>
+               <f name="translation">
+                  <string>but</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_74">
+               <f name="match">
+                  <string>bukra</string>
+               </f>
+               <f name="lemma">
+                  <string>bukra</string>
+               </f>
+               <f name="pos">
+                  <string>adverb</string>
+               </f>
+               <f name="translation">
+                  <string>tomorrow</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_75">
+               <f name="match">
+                  <string>bǝdd-na</string>
+               </f>
+               <f name="lemma">
+                  <string>bǝdd</string>
+               </f>
+               <f name="pos">
+                  <string>modal verb</string>
+               </f>
+               <f name="translation">
+                  <string>to want</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_76">
+               <f name="match">
+                  <string>nǝ-ltǝʔi</string>
+               </f>
+               <f name="lemma">
+                  <string>ltaʔa</string>
+               </f>
+               <f name="pos">
+                  <string>verb</string>
+               </f>
+               <f name="translation">
+                  <string>to meet</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_77">
+               <f name="match">
+                  <string>maʕ</string>
+               </f>
+               <f name="lemma">
+                  <string>maʕ</string>
+               </f>
+               <f name="pos">
+                  <string>preposition</string>
+               </f>
+               <f name="translation">
+                  <string>with</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_78">
+               <f name="match">
+                  <string>rǝfʔāt-na</string>
+               </f>
+               <f name="lemma">
+                  <string>rǝfʔa</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>friends</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_79">
+               <f name="match">
+                  <string>ᵊn-rūḥ</string>
+               </f>
+               <f name="lemma">
+                  <string>rāḥ</string>
+               </f>
+               <f name="pos">
+                  <string>verb</string>
+               </f>
+               <f name="translation">
+                  <string>to go</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_80">
+               <f name="match">
+                  <string>maʕ-on</string>
+               </f>
+               <f name="lemma">
+                  <string>maʕ</string>
+               </f>
+               <f name="pos">
+                  <string>preposition</string>
+               </f>
+               <f name="translation">
+                  <string>with</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_81">
+               <f name="match">
+                  <string>la-ʕand</string>
+               </f>
+               <f name="lemma">
+                  <string>la-ʕand</string>
+               </f>
+               <f name="pos">
+                  <string>preposition</string>
+               </f>
+               <f name="translation">
+                  <string>to the place of</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_82">
+               <f name="match">
+                  <string>ʔǝbᵊn</string>
+               </f>
+               <f name="lemma">
+                  <string>ʔǝbᵊn</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>son</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_83">
+               <f name="match">
+                  <string>ʕamm-na</string>
+               </f>
+               <f name="lemma">
+                  <string>ʕamm</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>paternal uncle</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_84">
+               <f name="match">
+                  <string>yǝlli</string>
+               </f>
+               <f name="lemma">
+                  <string>yǝlli</string>
+               </f>
+               <f name="pos">
+                  <string>relative pronoun</string>
+               </f>
+               <f name="translation">
+                  <string>who, which</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_85">
+               <f name="match">
+                  <string>sāken</string>
+               </f>
+               <f name="lemma">
+                  <string>sāken</string>
+               </f>
+               <f name="pos">
+                  <string>participle</string>
+               </f>
+               <f name="translation">
+                  <string>living</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_86">
+               <f name="match">
+                  <string>b</string>
+               </f>
+               <f name="lemma">
+                  <string>b</string>
+               </f>
+               <f name="pos">
+                  <string>preposition</string>
+               </f>
+               <f name="translation">
+                  <string>in</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_87">
+               <f name="match">
+                  <string>Mīdān</string>
+               </f>
+               <f name="lemma">
+                  <string>Mīdān</string>
+               </f>
+               <f name="pos">
+                  <string>proper noun</string>
+               </f>
+               <f name="translation">
+                  <string>Midan</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_88">
+               <f name="match">
+                  <string>ᵊhnīk</string>
+               </f>
+               <f name="lemma">
+                  <string>ᵊhnīk</string>
+               </f>
+               <f name="pos">
+                  <string>adverb</string>
+               </f>
+               <f name="translation">
+                  <string>there</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_89">
+               <f name="match">
+                  <string>nǝ-šrab</string>
+               </f>
+               <f name="lemma">
+                  <string>šəreb</string>
+               </f>
+               <f name="pos">
+                  <string>verb</string>
+               </f>
+               <f name="translation">
+                  <string>drink</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_90">
+               <f name="match">
+                  <string>ʔahwe</string>
+               </f>
+               <f name="lemma">
+                  <string>ʔahwe</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>coffee</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_91">
+               <f name="match">
+                  <string>n-dardeš</string>
+               </f>
+               <f name="lemma">
+                  <string>dardaš</string>
+               </f>
+               <f name="pos">
+                  <string>verb</string>
+               </f>
+               <f name="translation">
+                  <string>to talk, to chat</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_92">
+               <f name="match">
+                  <string>ʔǝl-t-ǝllon</string>
+               </f>
+               <f name="lemma">
+                  <string>ʔāl</string>
+               </f>
+               <f name="pos">
+                  <string>verb</string>
+               </f>
+               <f name="translation">
+                  <string>to say</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_93">
+               <f name="match">
+                  <string>ᵊmnīḥ</string>
+               </f>
+               <f name="lemma">
+                  <string>mnīḥ</string>
+               </f>
+               <f name="pos">
+                  <string>adjective</string>
+               </f>
+               <f name="translation">
+                  <string>good</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_94">
+               <f name="match">
+                  <string>lā</string>
+               </f>
+               <f name="lemma">
+                  <string>lā</string>
+               </f>
+               <f name="pos">
+                  <string>negation</string>
+               </f>
+               <f name="translation">
+                  <string>no</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_95">
+               <f name="match">
+                  <string>tǝ-ns-u</string>
+               </f>
+               <f name="lemma">
+                  <string>nəsi</string>
+               </f>
+               <f name="pos">
+                  <string>verb</string>
+               </f>
+               <f name="translation">
+                  <string>to forget</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_96">
+               <f name="match">
+                  <string>tā-xd-u</string>
+               </f>
+               <f name="lemma">
+                  <string>ʔaxad</string>
+               </f>
+               <f name="pos">
+                  <string>verb</string>
+               </f>
+               <f name="translation">
+                  <string>to take</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_97">
+               <f name="match">
+                  <string>mōbaylāt-kon</string>
+               </f>
+               <f name="lemma">
+                  <string>mōbayl</string>
+               </f>
+               <f name="pos">
+                  <string>noun</string>
+               </f>
+               <f name="translation">
+                  <string>mobile phone</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_98">
+               <f name="match">
+                  <string>maʕ-kon</string>
+               </f>
+               <f name="lemma">
+                  <string>maʕ</string>
+               </f>
+               <f name="pos">
+                  <string>preposition</string>
+               </f>
+               <f name="translation">
+                  <string>with</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_99">
+               <f name="match">
+                  <string>t-ḥāk-ū-ni</string>
+               </f>
+               <f name="lemma">
+                  <string>ḥāka</string>
+               </f>
+               <f name="pos">
+                  <string>verb</string>
+               </f>
+               <f name="translation">
+                  <string>to call</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_100">
+               <f name="match">
+                  <string>ʔǝza</string>
+               </f>
+               <f name="lemma">
+                  <string>ʔǝza</string>
+               </f>
+               <f name="pos">
+                  <string>conjunction</string>
+               </f>
+               <f name="translation">
+                  <string>if</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_101">
+               <f name="match">
+                  <string>kān</string>
+               </f>
+               <f name="lemma">
+                  <string>kān</string>
+               </f>
+               <f name="pos">
+                  <string>verb</string>
+               </f>
+               <f name="translation">
+                  <string>to be</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_102">
+               <f name="match">
+                  <string>tǝ-tʔaxxar-u</string>
+               </f>
+               <f name="lemma">
+                  <string>tʔaxxar</string>
+               </f>
+               <f name="pos">
+                  <string>verb</string>
+               </f>
+               <f name="translation">
+                  <string>to be late</string>
+               </f>
+               <f name="LGR">
+                  <string>{lgr}</string>
+               </f>
+            </fs><fs xml:id="anid_3">
+               <f name="match">
+                  <string>ǝs-sabᵊt</string>
+               </f>
+               <f name="lemma">
+                  <string>{lemma}</string>
+               </f>
+               <f name="pos">
+                  <string>{pos}</string>
+               </f>
+               <f name="translation">
+                  <string>{translation}</string>
+               </f>
+               <f name="LGR">
+                  <string>DEF-Saturday</string>
+               </f>
+            </fs><fs xml:id="anid_21">
+               <f name="match">
+                  <string>ǝl-fažᵊr</string>
+               </f>
+               <f name="lemma">
+                  <string>{lemma}</string>
+               </f>
+               <f name="pos">
+                  <string>{pos}</string>
+               </f>
+               <f name="translation">
+                  <string>{translation}</string>
+               </f>
+               <f name="LGR">
+                  <string>DEF-dawn</string>
+               </f>
+            </fs><fs xml:id="anid_62">
+               <f name="match">
+                  <string>rǝḥ-ᵊt</string>
+               </f>
+               <f name="lemma">
+                  <string>{lemma}</string>
+               </f>
+               <f name="pos">
+                  <string>{pos}</string>
+               </f>
+               <f name="translation">
+                  <string>{translation}</string>
+               </f>
+               <f name="LGR">
+                  <string>go.PRF-1SG</string>
+               </f>
+            </fs></div>
+      </body>
+   </text>
+</TEI>

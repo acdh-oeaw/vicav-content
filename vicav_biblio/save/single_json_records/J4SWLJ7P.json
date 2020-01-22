@@ -1,0 +1,97 @@
+{
+    "key": "J4SWLJ7P",
+    "version": 2287,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/J4SWLJ7P",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/J4SWLJ7P",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "El-Idrissi",
+        "parsedDate": "1999",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "J4SWLJ7P",
+        "version": 2287,
+        "itemType": "thesis",
+        "title": "Recherche syntaxique sur les supports de nominalisation en arabe Marocain. Docotrat d'etat",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Abdeljalil",
+                "lastName": "El-Idrissi"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "",
+        "university": "Université Sidi Mohammed Ben Abdellah",
+        "place": "Fes",
+        "date": "1999",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:el-idrissi_1999_3594)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:syntax"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

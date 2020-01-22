@@ -1,0 +1,100 @@
+{
+    "key": "84QMEND9",
+    "version": 7130,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/84QMEND9",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/84QMEND9",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Fischer",
+        "parsedDate": "1899",
+        "numChildren": 2
+    },
+    "data": {
+        "key": "84QMEND9",
+        "version": 7130,
+        "itemType": "journalArticle",
+        "title": "Zum Wortton im Marokkanischen",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "August",
+                "lastName": "Fischer"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Mittheilungen des Seminars für Orientalische Sprachen",
+        "volume": "2",
+        "issue": "",
+        "pages": "275-286",
+        "date": "1899",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:fischer_1899_4374)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:phonology"
+            },
+            {
+                "tag": "vt:prosody"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

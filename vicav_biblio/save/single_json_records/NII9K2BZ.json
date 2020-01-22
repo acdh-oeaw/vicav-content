@@ -1,0 +1,104 @@
+{
+    "key": "NII9K2BZ",
+    "version": 6338,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/NII9K2BZ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/NII9K2BZ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Mejdell",
+        "parsedDate": "2006",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "NII9K2BZ",
+        "version": 6338,
+        "itemType": "bookSection",
+        "title": "The use of colloquial in modern Egyptian literature - a survey",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Gunvor",
+                "lastName": "Mejdell"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Lutz",
+                "lastName": "Edzard"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Jan",
+                "lastName": "Retsö"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Current issues in the analysis of Semitic grammar and lexicon II. Oslo-Göteborg Cooperation, 4th-5th November 2005",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrassowitz",
+        "date": "2006",
+        "pages": "195-213",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:mejdell_2006_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:oral literature"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-25T09:29:11Z"
+    }
+}

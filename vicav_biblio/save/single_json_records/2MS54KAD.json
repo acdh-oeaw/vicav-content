@@ -1,0 +1,98 @@
+{
+    "key": "2MS54KAD",
+    "version": 2531,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/2MS54KAD",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/2MS54KAD",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Akkus",
+        "parsedDate": "2016",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "2MS54KAD",
+        "version": 2531,
+        "itemType": "bookSection",
+        "title": "The Arabic Dialect of Mutki-Sason Areas",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Faruk",
+                "lastName": "Akkus"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "George",
+                "lastName": "Grigore"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Gabriel",
+                "lastName": "Bi?una"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Arabic Varieties: Far and Wide. Proceedings of the 11th International Conference of AIDA – Bucharest, 2015",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Bucharest",
+        "publisher": "Editura Universita?ii din Bucure?ti",
+        "date": "2016",
+        "pages": "29-40",
+        "language": "",
+        "ISBN": "978-606-16-0709-9",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:akkus_grigore_2016_0000)",
+        "tags": [
+            {
+                "tag": "reg:Turkey [38.08, 41.10]"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-24T11:08:03Z"
+    }
+}

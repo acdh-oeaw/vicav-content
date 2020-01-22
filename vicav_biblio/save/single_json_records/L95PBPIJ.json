@@ -1,0 +1,94 @@
+{
+    "key": "L95PBPIJ",
+    "version": 7135,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/L95PBPIJ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/L95PBPIJ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Gómez Barceló",
+        "parsedDate": "2001",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "L95PBPIJ",
+        "version": 7135,
+        "itemType": "journalArticle",
+        "title": "El relato marroquí: fronteras geográficas, históricas e idiomáticas",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "José Luis",
+                "lastName": "Gómez Barceló"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Transfretana: Revista del Instituto de Estudios Ceutíes",
+        "volume": "7",
+        "issue": "",
+        "pages": "39-60",
+        "date": "2001",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "Spanish",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:gomez barcelo_2001_3654)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

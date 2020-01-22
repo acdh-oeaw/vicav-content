@@ -1,0 +1,85 @@
+{
+    "key": "6KNX5NGA",
+    "version": 2209,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/6KNX5NGA",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/6KNX5NGA",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Rhaiem",
+        "parsedDate": "1994",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "6KNX5NGA",
+        "version": 2209,
+        "itemType": "journalArticle",
+        "title": "'Docteur Hakim' s'écoute comme on l'entend: les lieux d'une problématique de la réception",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Abdelkader",
+                "lastName": "Rhaiem"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Revue Tunisienne de Communication / Al-Majalla al-Tunisiya li-?Ulum al-Itti?al",
+        "volume": "25",
+        "issue": "",
+        "pages": "75-82",
+        "date": "1994",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:rhaiem_1994_0000)",
+        "tags": [
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

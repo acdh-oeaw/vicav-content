@@ -1,0 +1,99 @@
+{
+    "key": "4GKELTEC",
+    "version": 8421,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/4GKELTEC",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/4GKELTEC",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Taine-Cheikh",
+        "parsedDate": "2013",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "4GKELTEC",
+        "version": 8421,
+        "itemType": "bookSection",
+        "title": "Grammaticalized uses of the verb  a(a) in Arabic: a Maghrebian specificity?",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Catherine",
+                "lastName": "Taine-Cheikh"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Mena",
+                "lastName": "Lafkioui"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "African Arabic : approaches to dialectology",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Berlin",
+        "publisher": "Mouton de Gruyter",
+        "date": "2013",
+        "pages": "121-160",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:taine-cheikh_2013_2947)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-21T16:44:05Z"
+    }
+}

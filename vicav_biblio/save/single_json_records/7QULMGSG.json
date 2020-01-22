@@ -1,0 +1,93 @@
+{
+    "key": "7QULMGSG",
+    "version": 6241,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/7QULMGSG",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/7QULMGSG",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Ibn Azzuz Haquim",
+        "parsedDate": "1953",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "7QULMGSG",
+        "version": 6241,
+        "itemType": "book",
+        "title": "Glosario de mil quinientas voces españolas usadas entre los marroquíes en el árabe vulgar",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Mohammad",
+                "lastName": "Ibn Azzuz Haquim"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Madrid",
+        "publisher": "Instituto de Estudios Africanos (CSIC).",
+        "date": "1953",
+        "numPages": "132",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:ibn_azzuz_haquim_1953_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:glossary"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-10-08T07:56:56Z"
+    }
+}

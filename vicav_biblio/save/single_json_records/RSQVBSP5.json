@@ -1,0 +1,91 @@
+{
+    "key": "RSQVBSP5",
+    "version": 2217,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/RSQVBSP5",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/RSQVBSP5",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Moscoso García",
+        "parsedDate": "2007",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "RSQVBSP5",
+        "version": 2217,
+        "itemType": "journalArticle",
+        "title": "Cuatro cuadernillos para el aprendizaje del árabe marroquí escritos por Carlos Murciano Mesa",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Francisco",
+                "lastName": "Moscoso García"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Al-Andalus Magreb",
+        "volume": "14",
+        "issue": "",
+        "pages": "277-283",
+        "date": "2007",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "11338571",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:moscoso_garcia_2007_0001)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:textbook"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

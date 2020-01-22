@@ -1,0 +1,88 @@
+{
+    "key": "S9GK2VZP",
+    "version": 6829,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/S9GK2VZP",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/S9GK2VZP",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Rhiati",
+        "parsedDate": "1984",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "S9GK2VZP",
+        "version": 6829,
+        "itemType": "thesis",
+        "title": "Etude de l'interrogation en arabe marocain",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Najib",
+                "lastName": "Rhiati"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "Thèse de 3ème cycle non publiée",
+        "university": "Paris II",
+        "place": "Paris",
+        "date": "1984",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:rhiati_1984_3935)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "key": "WLEUTCXP",
+    "version": 2310,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/WLEUTCXP",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/WLEUTCXP",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Gabsi and Dallaji",
+        "parsedDate": "2016",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "WLEUTCXP",
+        "version": 2310,
+        "itemType": "bookSection",
+        "title": "Overabundance in the Arabic Dialect of Tunis: a Diachronic Study of Plural Formation",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ines",
+                "lastName": "Gabsi"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Ines",
+                "lastName": "Dallaji"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "George",
+                "lastName": "Grigore"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Gabriel",
+                "lastName": "Bi?una"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Arabic Varieties: Far and Wide. Proceedings of the 11th International Conference of AIDA – Bucharest, 2015",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Bucharest",
+        "publisher": "Editura Universita?ii din Bucure?ti",
+        "date": "2016",
+        "pages": "185-191",
+        "language": "",
+        "ISBN": "978-606-16-0709-9",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:gabsi_dallaji_2016_0000)",
+        "tags": [
+            {
+                "tag": "geo:Tunis [36.80, 10.18]"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Tunisia"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

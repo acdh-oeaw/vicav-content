@@ -1,0 +1,115 @@
+{
+    "key": "QKRIBKWM",
+    "version": 8649,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/QKRIBKWM",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/QKRIBKWM",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "De Blasio",
+        "parsedDate": "2016",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "QKRIBKWM",
+        "version": 8649,
+        "itemType": "bookSection",
+        "title": "A linguistic study about Syrian rap songs",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Emanuela",
+                "lastName": "De Blasio"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "George",
+                "lastName": "Grigore"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Gabriel",
+                "lastName": "Bi?una"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Arabic Varieties: Far and Wide. Proceedings of the 11th International Conference of AIDA – Bucharest, 2015",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Bucharest",
+        "publisher": "Editura Universita?ii din Bucure?ti",
+        "date": "2016",
+        "pages": "203-210",
+        "language": "",
+        "ISBN": "978-606-16-0709-9",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:blasio_grigore_2016_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Syria"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:songs"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-15T16:49:09Z"
+    }
+}

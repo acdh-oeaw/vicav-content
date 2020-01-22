@@ -1,0 +1,121 @@
+{
+    "key": "P3Y5PLB2",
+    "version": 7729,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/P3Y5PLB2",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/P3Y5PLB2",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Canova",
+        "parsedDate": "2016",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "P3Y5PLB2",
+        "version": 7729,
+        "itemType": "bookSection",
+        "title": "Hand-mill women's songs from Upper Egypt",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Giovanni",
+                "lastName": "Canova"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Zuzana",
+                "lastName": "Gažáková"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Jaroslav",
+                "lastName": "Drobný"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Arabic and Islamic Studies in Honour of Ján Pauliny",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Bratislava",
+        "publisher": "Comenius University",
+        "date": "2016",
+        "pages": "49–61",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:prochazka_2016_3250)",
+        "tags": [
+            {
+                "tag": "reg:Turkey [38.08, 41.10]"
+            },
+            {
+                "tag": "vt:Mesopotamia"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:oral literature"
+            },
+            {
+                "tag": "vt:oral narratives"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2019-02-15T07:43:20Z",
+        "dateModified": "2019-02-26T19:29:33Z"
+    }
+}

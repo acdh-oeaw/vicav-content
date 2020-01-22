@@ -1,0 +1,94 @@
+{
+    "key": "XLLRNKUU",
+    "version": 7121,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/XLLRNKUU",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/XLLRNKUU",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Eid",
+        "parsedDate": "1988",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "XLLRNKUU",
+        "version": 7121,
+        "itemType": "journalArticle",
+        "title": "Principles for code-switching between Standard and Egyptian Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Mushira",
+                "lastName": "Eid"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Al'Arabiyya",
+        "volume": "21",
+        "issue": "",
+        "pages": "51-79",
+        "date": "1988",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:eid_1988_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

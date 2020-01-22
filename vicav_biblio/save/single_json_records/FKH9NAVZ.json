@@ -1,0 +1,107 @@
+{
+    "key": "FKH9NAVZ",
+    "version": 6929,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/FKH9NAVZ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/FKH9NAVZ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Procházka-Eisl and Procházka",
+        "parsedDate": "2017",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "FKH9NAVZ",
+        "version": 6929,
+        "itemType": "bookSection",
+        "title": "Notes on the cultural and linguistic legacy of the Ottomans in Yemen",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Gisela",
+                "lastName": "Procházka-Eisl"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Stephan",
+                "lastName": "Procházka"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Roswitha G.",
+                "lastName": "Stiegner"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Süd-Arabien / South Arabia: A Great “Lost Corridor” of Mankind. A Collection of Papers dedicated to the re-establishment of South Arabian Studies in Austria",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "1",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Münster",
+        "publisher": "Ugarit-Verlag",
+        "date": "2017",
+        "pages": "297-312",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:prochazka-eisl_2017_3248)",
+        "tags": [
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "cnt:Yemen"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

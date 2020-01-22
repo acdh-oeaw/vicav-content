@@ -1,0 +1,112 @@
+{
+    "key": "B9QMMN3U",
+    "version": 2312,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/B9QMMN3U",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/B9QMMN3U",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Caubet et al.",
+        "parsedDate": "1985",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "B9QMMN3U",
+        "version": 2312,
+        "itemType": "bookSection",
+        "title": "Système aspecto-temporel en arabe maghrébin",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Dominique",
+                "lastName": "Caubet"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Marie-Claude",
+                "lastName": "Simeone-Senelle"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Aline",
+                "lastName": "Tauzin"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "David",
+                "lastName": "Cohen"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Matériaux Arabes et Sudarabiques",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Paris",
+        "publisher": "Centre de littérature et de linguistique arabes",
+        "date": "1985-1986",
+        "pages": "57-132",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:caubet_1985-1986_3516)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

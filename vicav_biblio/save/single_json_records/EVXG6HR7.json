@@ -1,0 +1,114 @@
+{
+    "key": "EVXG6HR7",
+    "version": 5645,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/EVXG6HR7",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/EVXG6HR7",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4621144,
+            "username": "Bettina_Leit",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/bettina_leit",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Albarracín",
+        "parsedDate": "1967",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "EVXG6HR7",
+        "version": 5645,
+        "itemType": "bookSection",
+        "title": "Un substrato léxico románico en el árabe de Yebala (Marruecos)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Navarro J.",
+                "lastName": "Albarracín"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "XIV Congresso Internazionale de Linguistica e Filologia Romanza",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Nápoles",
+        "publisher": "",
+        "date": "1967",
+        "pages": "643-652",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Chefchaouen [35.16, -5.26]"
+            },
+            {
+                "tag": "geo:Ouazzane [34.79, -5.56]"
+            },
+            {
+                "tag": "geo:Tétouan [35.58, -5.36]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:lexicon"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-10-31T11:36:42Z"
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "key": "WHGASK8Y",
+    "version": 8376,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/WHGASK8Y",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/WHGASK8Y",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Shachmon and Marmorstein",
+        "parsedDate": "2018",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "WHGASK8Y",
+        "version": 8376,
+        "itemType": "journalArticle",
+        "title": "badhacak dahic \"I'll smash you altogether!\" The unmodified cognate complement in rural Palestinian Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ori",
+                "lastName": "Shachmon"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Michal",
+                "lastName": "Marmorstein"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Zeitschrift für Arabische Linguistik",
+        "volume": "68",
+        "issue": "",
+        "pages": "31-62",
+        "date": "2018",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "reg:Palestine [31.89, 35.25]"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:phraseology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2019-01-07T08:59:40Z",
+        "dateModified": "2019-01-07T09:01:47Z"
+    }
+}

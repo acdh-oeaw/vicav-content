@@ -1,0 +1,108 @@
+{
+    "key": "QBZWYCND",
+    "version": 8791,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/QBZWYCND",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/QBZWYCND",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Waltisberg",
+        "parsedDate": "2012",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "QBZWYCND",
+        "version": 8791,
+        "itemType": "journalArticle",
+        "title": "Zur Syntax eines arabischen Beduinendialekts",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Michael",
+                "lastName": "Waltisberg"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Mediterranean Language Review",
+        "volume": "19",
+        "issue": "",
+        "pages": "35-58",
+        "date": "2012",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Douz [33.46, 9.02]"
+            },
+            {
+                "tag": "cnt:Tunisia"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:bedouin dialect"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2019-03-14T10:41:36Z",
+        "dateModified": "2019-03-14T10:42:19Z"
+    }
+}

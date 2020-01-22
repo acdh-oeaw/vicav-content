@@ -1,0 +1,108 @@
+{
+    "key": "9IV7ATAF",
+    "version": 6126,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/9IV7ATAF",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/9IV7ATAF",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Geva-Kleinberger",
+        "parsedDate": "2017",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "9IV7ATAF",
+        "version": 6126,
+        "itemType": "journalArticle",
+        "title": "Language death among the Jews of Singapore: the case of obsolescence of the Arabic dialect",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Aharon",
+                "lastName": "Geva-Kleinberger"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Journal Asiatique",
+        "volume": "305",
+        "issue": "1",
+        "pages": "137-143",
+        "date": "2017",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Singapore [1.31, 103.83]"
+            },
+            {
+                "tag": "vt:Jewish dialects"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-09-22T18:39:45Z",
+        "dateModified": "2018-09-22T18:40:45Z"
+    }
+}

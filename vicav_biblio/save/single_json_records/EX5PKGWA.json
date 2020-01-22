@@ -1,0 +1,111 @@
+{
+    "key": "EX5PKGWA",
+    "version": 6276,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/EX5PKGWA",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/EX5PKGWA",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Nasyrov",
+        "parsedDate": "1976",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "EX5PKGWA",
+        "version": 6276,
+        "itemType": "bookSection",
+        "title": "Mestoimeniya v chadskom dialekte arabskogo yazyka",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "K.",
+                "lastName": "Nasyrov"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "V.P.",
+                "lastName": "Starinin"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Vostochnoe Yazykoznanie",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Moscow",
+        "publisher": "Nauka",
+        "date": "1976",
+        "pages": "54-58",
+        "language": "Russisch",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:nasyrov_1976_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Chad"
+            },
+            {
+                "tag": "vt:Central Africa"
+            },
+            {
+                "tag": "vt:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-25T10:45:26Z"
+    }
+}

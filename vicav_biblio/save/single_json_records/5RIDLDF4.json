@@ -1,0 +1,104 @@
+{
+    "key": "5RIDLDF4",
+    "version": 6198,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/5RIDLDF4",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/5RIDLDF4",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Benmamoun, Elabbas",
+        "parsedDate": "1996",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "5RIDLDF4",
+        "version": 6198,
+        "itemType": "bookSection",
+        "title": "Negative Polarity and Presupposition in Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "name": "Benmamoun, Elabbas"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Papers From the Eighth Annual Symposium on Arabic Linguistics",
+        "series": "Perspectives on Arabic Linguistics",
+        "seriesNumber": "8",
+        "volume": "134",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Amsterdam",
+        "publisher": "John Benjamins Publishing Company",
+        "date": "1996",
+        "pages": "",
+        "language": "English",
+        "ISBN": "978-90-272-3638-8",
+        "shortTitle": "",
+        "url": "http://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=400875&site=ehost-live",
+        "accessDate": "",
+        "archive": "nlebk",
+        "archiveLocation": "",
+        "libraryCatalog": "EBSCOhost",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-26T07:05:53Z",
+        "dateModified": "2018-04-26T07:07:31Z"
+    }
+}

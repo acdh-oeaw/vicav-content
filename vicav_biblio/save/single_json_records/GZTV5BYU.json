@@ -1,0 +1,121 @@
+{
+    "key": "GZTV5BYU",
+    "version": 6361,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/GZTV5BYU",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/GZTV5BYU",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Geva-Kleinberger",
+        "parsedDate": "2013",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "GZTV5BYU",
+        "version": 6361,
+        "itemType": "bookSection",
+        "title": "Wild basil and cheese: Reminiscences from Safed",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Aharon",
+                "lastName": "Geva-Kleinberger"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Renaud",
+                "lastName": "Kuty"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Ulrich",
+                "lastName": "Seeger"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Shabo",
+                "lastName": "Talay"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Nicht nur mit Engelszungen: Beiträge zur semitischen Dialektologie. Festschrift für Werner Arnold zum 60. Geburtstag",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrasowitz",
+        "date": "2013",
+        "pages": "109-112",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:prochazka_2013_3246)",
+        "tags": [
+            {
+                "tag": "geo:Safed [33.28, 67.58]"
+            },
+            {
+                "tag": "cnt:Israel"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:Arabic as a minority language"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:culinary"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-23T07:45:25Z"
+    }
+}

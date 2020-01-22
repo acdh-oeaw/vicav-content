@@ -1,0 +1,101 @@
+{
+    "key": "ZPN9R7IV",
+    "version": 2893,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ZPN9R7IV",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ZPN9R7IV",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Watson",
+        "parsedDate": "2003",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ZPN9R7IV",
+        "version": 2893,
+        "itemType": "conferencePaper",
+        "title": "Insiders, outsiders, and language change in San'a today",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Janet C.E.",
+                "lastName": "Watson"
+            }
+        ],
+        "abstractNote": "",
+        "date": "2003",
+        "proceedingsTitle": "AIDA: 5 th  Conference Proceedings, Association Internationale de  Dialectologie Arabe (AIDA): Cádiz, September 2002",
+        "conferenceName": "AIDA",
+        "place": "Cádiz",
+        "publisher": "Servicio de Publ., Univ. de Cádiz",
+        "volume": "",
+        "pages": "561-570",
+        "series": "",
+        "language": "",
+        "DOI": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:watson_2003_0000)",
+        "tags": [
+            {
+                "tag": "geo:Sanaa [15.36, 44.19]"
+            },
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "cnt:Yemen"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-08T10:20:42Z"
+    }
+}

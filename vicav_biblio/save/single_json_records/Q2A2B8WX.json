@@ -1,0 +1,108 @@
+{
+    "key": "Q2A2B8WX",
+    "version": 8885,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/Q2A2B8WX",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/Q2A2B8WX",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Ingham",
+        "parsedDate": "1994",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "Q2A2B8WX",
+        "version": 8885,
+        "itemType": "bookSection",
+        "title": "Ethnolinguistic Links between Southern Iraq and Khuzistan",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Bruce",
+                "lastName": "Ingham"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Keith Stanley",
+                "lastName": "McLachlan"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "The Boundaries of Modern Iran",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "London",
+        "publisher": "London University College Press",
+        "date": "1994",
+        "pages": "93-100",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:ingham_1994_3172)",
+        "tags": [
+            {
+                "tag": "geo:Basra [30.50, 47.78]"
+            },
+            {
+                "tag": "geo:Khuzestan"
+            },
+            {
+                "tag": "cnt:Iran"
+            },
+            {
+                "tag": "cnt:Iraq"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:ethnic minorities"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-21T07:58:31Z"
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "key": "Z8VJVGFT",
+    "version": 7916,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/Z8VJVGFT",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/Z8VJVGFT",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Benhallam, Abderrafî and Dahbi, Mohammed",
+        "parsedDate": "1990",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "Z8VJVGFT",
+        "version": 7916,
+        "itemType": "bookSection",
+        "title": "Accents of Moroccan Arabic: A preliminary study",
+        "creators": [
+            {
+                "creatorType": "author",
+                "name": "Benhallam, Abderrafî and Dahbi, Mohammed"
+            },
+            {
+                "creatorType": "editor",
+                "name": "Pleines, Jochen"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "La linguistique au Maghreb - Maghreb linguistics",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Rabat",
+        "publisher": "Editions Okad",
+        "date": "1990",
+        "pages": "111-125",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:benhallam, abderrafi and dahbi, mohammed_1990_3365)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

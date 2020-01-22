@@ -1,0 +1,109 @@
+{
+    "key": "S6H8XNTV",
+    "version": 3291,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/S6H8XNTV",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/S6H8XNTV",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Salem",
+        "parsedDate": "2005",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "S6H8XNTV",
+        "version": 3291,
+        "itemType": "bookSection",
+        "title": "Phonological processes in connected speech in colloquial Egyptian Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Hanaa",
+                "lastName": "Salem"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Mohammad T.",
+                "lastName": "Alhawary"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Elabbas",
+                "lastName": "Benmamoun"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Perspectives on Arabic Linguistics: Papers from the annual symposium on Arabic linguistics. Volume XVII–XVIII: Alexandria, 2003 and Norman, Oklahoma 2004",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Amsterdam",
+        "publisher": "John Benjamins Publishing Company",
+        "date": "2005",
+        "pages": "69-84",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:salem_2005_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-08T14:56:59Z"
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "key": "YE2FXXZL",
+    "version": 8885,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/YE2FXXZL",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/YE2FXXZL",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Matras and Shabibi",
+        "parsedDate": "2007",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "YE2FXXZL",
+        "version": 8885,
+        "itemType": "bookSection",
+        "title": "Grammatical Borrowing in Khuzistani Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Yaron",
+                "lastName": "Matras"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Maryam",
+                "lastName": "Shabibi"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Grammatical Borrowing in Cross-linguistic Perspective",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Berlin",
+        "publisher": "Walter de Gruyter",
+        "date": "2007",
+        "pages": "137-149",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:matras_2007_3090)",
+        "tags": [
+            {
+                "tag": "geo:Khuzestan"
+            },
+            {
+                "tag": "cnt:Iran"
+            },
+            {
+                "tag": "vt:Mesopotamia"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:loanwords"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-21T08:00:24Z"
+    }
+}

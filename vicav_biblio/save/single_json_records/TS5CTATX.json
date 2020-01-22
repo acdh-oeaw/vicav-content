@@ -1,0 +1,110 @@
+{
+    "key": "TS5CTATX",
+    "version": 6431,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/TS5CTATX",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/TS5CTATX",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Majdi",
+        "parsedDate": "1993",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "TS5CTATX",
+        "version": 6431,
+        "itemType": "bookSection",
+        "title": "Gemination and antigemination in Iraqi",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Basim",
+                "lastName": "Majdi"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Mushira",
+                "lastName": "Eid"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Clive",
+                "lastName": "Holes"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Perspectives on Arabic linguistics V:papers from the fifth annual symposium on Arabic linguistics",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Amsterdam",
+        "publisher": "Benjamins",
+        "date": "1993",
+        "pages": "163-191",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:majdi_1993_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Iraq"
+            },
+            {
+                "tag": "reg:Mesopotamia [35.14, 42.48]"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T13:46:06Z"
+    }
+}

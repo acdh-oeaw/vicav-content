@@ -1,0 +1,94 @@
+{
+    "key": "IKM3XQRB",
+    "version": 7646,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/IKM3XQRB",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/IKM3XQRB",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Schen",
+        "parsedDate": "1972",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "IKM3XQRB",
+        "version": 7646,
+        "itemType": "journalArticle",
+        "title": "Usama ibn Munqidh's memoirs: some further light on Muslim Middle Arabic. pt. 1",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "I.",
+                "lastName": "Schen"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Journal of Semitic Studies",
+        "volume": "17",
+        "issue": "",
+        "pages": "218-236",
+        "date": "1972",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:schen_1972_0000)",
+        "tags": [
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:manuscripts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "key": "8BVNERN4",
+    "version": 7467,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/8BVNERN4",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/8BVNERN4",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Müller-Kessler",
+        "parsedDate": "2003",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "8BVNERN4",
+        "version": 7467,
+        "itemType": "journalArticle",
+        "title": "Aramaic 'k', lyk' and Iraqi Arabic 'aku, maku: the Mesopotamian particles of existence",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Christa",
+                "lastName": "Müller-Kessler"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Journal of the American Oriental Society",
+        "volume": "123",
+        "issue": "iii",
+        "pages": "641-646",
+        "date": "2003",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:muller_kessler_2003_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Iraq"
+            },
+            {
+                "tag": "reg:Mesopotamia [35.14, 42.48]"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:loanwords"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

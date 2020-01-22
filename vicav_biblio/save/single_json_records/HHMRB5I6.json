@@ -1,0 +1,90 @@
+{
+    "key": "HHMRB5I6",
+    "version": 2331,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/HHMRB5I6",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/HHMRB5I6",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Marçais",
+        "parsedDate": "2001",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "HHMRB5I6",
+        "version": 2331,
+        "itemType": "book",
+        "title": "Parlers arabes du Fezzân. Textes, traductions et éléments de morphologie rassemblés et présentés par Dominique Caubet, Aubert Martin et Laurence Denooz",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Philippe",
+                "lastName": "Marçais"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Geneva",
+        "publisher": "",
+        "date": "2001",
+        "numPages": "287",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:marcais_2001_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Libya"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "vt:description of dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

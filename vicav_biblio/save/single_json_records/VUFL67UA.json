@@ -1,0 +1,105 @@
+{
+    "key": "VUFL67UA",
+    "version": 6962,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/VUFL67UA",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/VUFL67UA",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 5116658,
+            "username": "erceg2018",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/erceg2018",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Palva",
+        "parsedDate": "1969",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "VUFL67UA",
+        "version": 6962,
+        "itemType": "journalArticle",
+        "title": "Balgawi Arabic. 2. Texts in the dialect of the Yigul-group",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Heikki",
+                "lastName": "Palva"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Studia Orientalia",
+        "volume": "40",
+        "issue": "ii",
+        "pages": "1-15",
+        "date": "1969",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:palva_1969_0000)",
+        "tags": [
+            {
+                "tag": "geo:Madaba [31.71, 35.79]"
+            },
+            {
+                "tag": "cnt:Jordan"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-01-16T12:29:37Z"
+    }
+}

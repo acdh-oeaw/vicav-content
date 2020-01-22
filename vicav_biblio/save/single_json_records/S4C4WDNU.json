@@ -1,0 +1,112 @@
+{
+    "key": "S4C4WDNU",
+    "version": 8594,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/S4C4WDNU",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/S4C4WDNU",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Simeone-Senelle",
+        "parsedDate": "1995",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "S4C4WDNU",
+        "version": 8594,
+        "itemType": "bookSection",
+        "title": "Le fonctionnement de certains verbes de mouvement dans les dialectes de la Tihama du Yémen",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Marie-Claude",
+                "lastName": "Simeone-Senelle"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Joe",
+                "lastName": "Cremona"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Clive",
+                "lastName": "Holes"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Geoffrey",
+                "lastName": "Khan"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Proceedings of the 2nd International Conference of l’Association Internationale pour la Dialectologie Arabe (AIDA): held at Trinity Hall in the University of Cambridge, 10 – 14 September 1995",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Cambridge",
+        "publisher": "University Publications Centre",
+        "date": "1995",
+        "pages": "227-236",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:simeone_senelle_cremona_1995_0000)",
+        "tags": [
+            {
+                "tag": "geo:Tihamat al Yaman"
+            },
+            {
+                "tag": "reg:Arabian Peninsula [22.36, 46.81]"
+            },
+            {
+                "tag": "cnt:Yemen"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-15T15:53:41Z"
+    }
+}

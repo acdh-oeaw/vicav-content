@@ -1,0 +1,100 @@
+{
+    "key": "6QHBPANH",
+    "version": 7419,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/6QHBPANH",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/6QHBPANH",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Larsen",
+        "parsedDate": "2009",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "6QHBPANH",
+        "version": 7419,
+        "itemType": "journalArticle",
+        "title": "Precedence and Innovation in the Bilingual Nabataean Inscription at ?En ?Avdat",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "David",
+                "lastName": "Larsen"
+            }
+        ],
+        "abstractNote": "Most readings of the &#x2bf;En &#x2bf;Avdat inscription take its first Arabic line as a statement of the dedicant's motives, whether in abnegation or pursuit of some \"benefit\" (Arabic l&#x101;/li-fid&#x101;). This reading takes it instead as an assertion of cultic legitimacy, in which the dedication of a statue (Aramaic &#x1e63;lm) to Obodas the God is defended as \"no departure\" (Arabic l&#x101; forran) from legitimate Nabataean worship. Where many have scanned its lines for primitive forms of Arabic poetry, it is here suggested that the inscription's \"poetic\" content has more in common with Arabic &#x1e2b;u&#x1e6d;ba and sa&#x11f; than the verse forms known from the pre-Islamic corpus.",
+        "publicationTitle": "Zeitschrift für Arabische Linguistik",
+        "volume": "",
+        "issue": "50",
+        "pages": "5-21",
+        "date": "2009",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "0170026X",
+        "shortTitle": "",
+        "url": "http://www.jstor.org.uaccess.univie.ac.at/stable/43525845",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:larsen_2009_2821)",
+        "tags": [
+            {
+                "tag": "geo:Avdat [30.79, 34.77]"
+            },
+            {
+                "tag": "cnt:Israel"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:language of a tribe"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

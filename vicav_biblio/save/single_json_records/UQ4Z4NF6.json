@@ -1,0 +1,97 @@
+{
+    "key": "UQ4Z4NF6",
+    "version": 8069,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/UQ4Z4NF6",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/UQ4Z4NF6",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "El Awd",
+        "parsedDate": "1990",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "UQ4Z4NF6",
+        "version": 8069,
+        "itemType": "thesis",
+        "title": "Étude Sociolinguistique du Parler Arabe de Fès, Traitement statistique de la variation inter et intra-linguistique",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Omar",
+                "lastName": "El Awd"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "Thèse de doctorat non publiée",
+        "university": "Paris III",
+        "place": "Paris",
+        "date": "1990",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:el awd_1990_3585)",
+        "tags": [
+            {
+                "tag": "geo:Fez [34.01, -5.00]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:sedentary dialect"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-13T14:09:41Z"
+    }
+}

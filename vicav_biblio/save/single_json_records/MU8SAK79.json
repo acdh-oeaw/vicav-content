@@ -1,0 +1,105 @@
+{
+    "key": "MU8SAK79",
+    "version": 3261,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/MU8SAK79",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/MU8SAK79",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Lecerf",
+        "parsedDate": "1974",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "MU8SAK79",
+        "version": 3261,
+        "itemType": "bookSection",
+        "title": "L'accent de mot en arabe d'Orient",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jean",
+                "lastName": "Lecerf"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "David",
+                "lastName": "Cohen"
+            },
+            {
+                "creatorType": "editor",
+                "name": "Caquot, Andre"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Actes du premier congres international de linguistique semitique et chamito-semitique, Paris, 16-19 juillet 1969",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "The Hague",
+        "publisher": "Mouton",
+        "date": "1974",
+        "pages": "322-328",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:lecerf_1974_0000)",
+        "tags": [
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-05T09:45:27Z"
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "key": "ZYECXALA",
+    "version": 7020,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ZYECXALA",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ZYECXALA",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Michalski",
+        "parsedDate": "2016",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ZYECXALA",
+        "version": 7020,
+        "itemType": "bookSection",
+        "title": "Spelling Moroccan Arabic in Arabic Script: the Case of Literary Texts",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Marcin",
+                "lastName": "Michalski"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "George",
+                "lastName": "Grigore"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Gabriel",
+                "lastName": "Bi?una"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Arabic Varieties: Far and Wide. Proceedings of the 11th International Conference of AIDA – Bucharest, 2015",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Bucharest",
+        "publisher": "Editura Universita?ii din Bucure?ti",
+        "date": "2016",
+        "pages": "385-394",
+        "language": "",
+        "ISBN": "978-606-16-0709-9",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:michalski_grigore_2016_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:oral literature"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

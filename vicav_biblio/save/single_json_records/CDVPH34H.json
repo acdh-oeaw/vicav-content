@@ -1,0 +1,94 @@
+{
+    "key": "CDVPH34H",
+    "version": 7593,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/CDVPH34H",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/CDVPH34H",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Provençal",
+        "parsedDate": "1997",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "CDVPH34H",
+        "version": 7593,
+        "itemType": "journalArticle",
+        "title": "Animal names gathered by interviews with members of the Muzin tribe in Sinai",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "P.",
+                "lastName": "Provençal"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Acta Orientalia (Copenhagen)",
+        "volume": "58",
+        "issue": "",
+        "pages": "35-46",
+        "date": "1997",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:provencal_1997_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "vt:bedouin dialect"
+            },
+            {
+                "tag": "vt:language of a tribe"
+            },
+            {
+                "tag": "vt:lexicon"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

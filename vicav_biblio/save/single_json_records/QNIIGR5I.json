@@ -1,0 +1,108 @@
+{
+    "key": "QNIIGR5I",
+    "version": 6717,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/QNIIGR5I",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/QNIIGR5I",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Benmamoun",
+        "parsedDate": "1992",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "QNIIGR5I",
+        "version": 6717,
+        "itemType": "thesis",
+        "title": "Inflectional and Functional Morphology: Problems of Projection, Representation and Derivation",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Elabbas",
+                "lastName": "Benmamoun"
+            }
+        ],
+        "abstractNote": "This dissertation investigates the properties of functional and inflectional categories such as tense, agreement, negation and question morphemes. Two central issues are discussed. The first issue revolves around the problem of projection, representation and derivation of these categories. The second issue focuses on the effects of the interaction between these morphemes and the categories they relate to or license (such as Negative Polarity Items, Wh-phrases, Subject agreement). Much of the data come from Standard Arabic and Moroccan Arabic in addition to English and French. Conceptual and empirical arguments are given to substantiate the claim that inflectional and functional morphemes and particularly Tense, Agreement and Negation should be projected independently of the predicate. Moreover, it is argued that, in accordance with the Strict Projectionist Hypothesis, each morpheme occupies its own independent projection. As far as the problem of derivation is concerned it is argued on conceptual grounds that derivation of inflectional categories is subject to minimality. The same categories that block derivation of inflectional morphemes seem to block other relations (binding and antecedent government) that involve maximal projections. For example, negation blocks verb movement and seems to interact with extraction and binding. This provides a general account for failure of verb movement to tense in the context of the sentential negative laa in Standard Arabic and for the same effects in the context of Neg and Qu in English. What is specific to head movement is its sensitivity to the morphological status of the intervening categories. The solutions provided to the problems of projection, representation and derivation suggest possible accounts for some asymmetries that characterize the relation between certain functional morphemes and the categories they are related to or they license. For example, it is observed that preverbal NPI subjects, argued to be licensed under Spec- head agreement, are not allowed in languages like Standard Arabic and English while they are possible in Moroccan Arabic. Similarly, extraction of subjects in English and French does not trigger Do-support and Complex Inversion while extraction of complements and adjuncts does. (Copies available exclusively from Micrographics Department, Doheny Library, USC, Los Angeles, CA 90089-0182.)",
+        "thesisType": "",
+        "university": "University of Southern California",
+        "place": "",
+        "date": "1992",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:benmamoun_1992_3377)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-01-06T09:53:22Z"
+    }
+}

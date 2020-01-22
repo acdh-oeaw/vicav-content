@@ -1,0 +1,103 @@
+{
+    "key": "7HHWV6AM",
+    "version": 6518,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/7HHWV6AM",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/7HHWV6AM",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Labarta",
+        "parsedDate": "1985",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "7HHWV6AM",
+        "version": 6518,
+        "itemType": "bookSection",
+        "title": "Algunos aspectos del dialecto árabe valenciano en el s.XVI a la luz del fondo de documentos del AHN",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ana",
+                "lastName": "Labarta"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Actas de las II Jornadas de Cultura Arabe e Islámica (1980)",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Madrid",
+        "publisher": "Instituto Hispano-Arabe de Cultura",
+        "date": "1985",
+        "pages": "281-315",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:labarta_1985_0000)",
+        "tags": [
+            {
+                "tag": "geo:Valencia [39.46, -0.37]"
+            },
+            {
+                "tag": "reg:Andalusia [39.92, -3.02]"
+            },
+            {
+                "tag": "reg:Spain [39.92, -3.02]"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T12:01:46Z"
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "key": "L95FF5Q9",
+    "version": 2210,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/L95FF5Q9",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/L95FF5Q9",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Rasmussen",
+        "parsedDate": "1985",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "L95FF5Q9",
+        "version": 2210,
+        "itemType": "journalArticle",
+        "title": "Om 'Arabisk-dansk ordbog': pinde til en leksikografs ligkiste",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "S. T.",
+                "lastName": "Rasmussen"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Meddelelser fra Rigsbibliotekaren",
+        "volume": "1985",
+        "issue": "ii",
+        "pages": "25-34",
+        "date": "1985",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:rasmussen_1985_0000)",
+        "tags": [
+            {
+                "tag": "vt:dictionary"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

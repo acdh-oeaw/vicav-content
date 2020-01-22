@@ -1,0 +1,117 @@
+{
+    "key": "YXJS3BH7",
+    "version": 7864,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/YXJS3BH7",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/YXJS3BH7",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Louriz",
+        "parsedDate": "2015",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "YXJS3BH7",
+        "version": 7864,
+        "itemType": "bookSection",
+        "title": "Loanword Adaptation: Phonetics or Phonology?",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Nabila",
+                "lastName": "Louriz"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Enam",
+                "lastName": "Al-Wer"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Chryso",
+                "lastName": "Hadjimetriou"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Bruno",
+                "lastName": "Herin"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Uri",
+                "lastName": "Horesh"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Proceedings of the 8th Conference of Association Internationale de Dialectologie Arabe (AIDA) Colchester, UK, 2008",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Essex",
+        "publisher": "University of Essex",
+        "date": "2015",
+        "pages": "47-64",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:louriz_al_wer_2015_0000)",
+        "tags": [
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:loanwords"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

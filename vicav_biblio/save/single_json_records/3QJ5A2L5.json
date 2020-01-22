@@ -1,0 +1,94 @@
+{
+    "key": "3QJ5A2L5",
+    "version": 2530,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/3QJ5A2L5",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/3QJ5A2L5",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Arnold",
+        "parsedDate": "2006",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "3QJ5A2L5",
+        "version": 2530,
+        "itemType": "journalArticle",
+        "title": "The Arabic dialect of the Jews of Iskenderun",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Werner",
+                "lastName": "Arnold"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Romano-Arabica",
+        "volume": "6-7",
+        "issue": "",
+        "pages": "7-12",
+        "date": "2006",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "15826953",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:arnold_2006_0001)",
+        "tags": [
+            {
+                "tag": "geo:Iskenderun [36.58, 36.17]"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "reg:Turkey [38.08, 41.10]"
+            },
+            {
+                "tag": "vt:description of dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-24T11:10:37Z"
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "key": "UQJ7TH8Z",
+    "version": 6243,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/UQJ7TH8Z",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/UQJ7TH8Z",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Hasbane and Maas",
+        "parsedDate": "2005",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "UQJ7TH8Z",
+        "version": 6243,
+        "itemType": "journalArticle",
+        "title": "\"Dialecte\" et langue en arabe marocain. La leçon de la publicité marocaine",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Redoine",
+                "lastName": "Hasbane"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Utz",
+                "lastName": "Maas"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Estudios de Dialectología Norteafricana y Andalusí",
+        "volume": "9",
+        "issue": "",
+        "pages": "181-204",
+        "date": "2005",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:hasbane_2005_3683)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:broadcasting"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-10-04T18:44:17Z"
+    }
+}

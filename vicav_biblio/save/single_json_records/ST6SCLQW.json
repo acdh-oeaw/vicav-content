@@ -1,0 +1,125 @@
+{
+    "key": "ST6SCLQW",
+    "version": 6113,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ST6SCLQW",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ST6SCLQW",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Abu-Shams",
+        "parsedDate": "2002",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ST6SCLQW",
+        "version": 6113,
+        "itemType": "book",
+        "title": "Estudio lingüístico y textual del léxico relativo a la cocina y la alimentación en el dialecto árabe de Rabat (Marruecos)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Leila [VerfasserIn]",
+                "lastName": "Abu-Shams"
+            }
+        ],
+        "abstractNote": "",
+        "series": "Área de Estudios Árabes e Islámicos / Universidad de Zaragoza",
+        "seriesNumber": "7",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Zaragoza",
+        "publisher": "Universidad de Zaragoza",
+        "date": "2002",
+        "numPages": "461 S.",
+        "language": "",
+        "ISBN": "84-607-4447-7",
+        "shortTitle": "",
+        "url": "https://ubdata.univie.ac.at/AC05394044",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Rabat [33.971590, -6.84]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:culinary"
+            },
+            {
+                "tag": "vt:ethnographic record"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:jargon"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:sedentary dialect"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-09-28T11:09:17Z",
+        "dateModified": "2018-09-28T11:10:17Z"
+    }
+}

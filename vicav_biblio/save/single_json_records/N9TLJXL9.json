@@ -1,0 +1,108 @@
+{
+    "key": "N9TLJXL9",
+    "version": 6284,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/N9TLJXL9",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/N9TLJXL9",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Myers-Scotton",
+        "parsedDate": "2010",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "N9TLJXL9",
+        "version": 6284,
+        "itemType": "bookSection",
+        "title": "Patterns and predictions for code-switching with Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Carol",
+                "lastName": "Myers-Scotton"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Reem",
+                "lastName": "Bassiouney"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Arabic and the Media: Linguistic Analyses and Applications",
+        "series": "Studies in Semitic Languages and Linguistic",
+        "seriesNumber": "57",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leiden & Boston",
+        "publisher": "Brill",
+        "date": "2010",
+        "pages": "81-95",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:myers_scotton_2010_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "vt:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:newspaper & journalism"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-25T10:38:52Z"
+    }
+}

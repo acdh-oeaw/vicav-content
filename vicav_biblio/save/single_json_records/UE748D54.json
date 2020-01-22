@@ -1,0 +1,109 @@
+{
+    "key": "UE748D54",
+    "version": 7949,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/UE748D54",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/UE748D54",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Bettini",
+        "parsedDate": "2012",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "UE748D54",
+        "version": 7949,
+        "itemType": "bookSection",
+        "title": "Deux texts arabes de la Haute Jézireh syrienne",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Lidia",
+                "lastName": "Bettini"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Johannes",
+                "lastName": "Den Heijer"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Paolo",
+                "lastName": "La Spisa"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Laurence",
+                "lastName": "Tuerlinckx"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Autour de la langue arabe : études présentées à Jacques Grand'Henry à l'occasion de son 70e anniversaire",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Louvain",
+        "publisher": "Peeters",
+        "date": "2012",
+        "pages": "39-72",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:bettini_2012_2957)",
+        "tags": [
+            {
+                "tag": "cnt:Syria"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-07-20T19:02:22Z"
+    }
+}

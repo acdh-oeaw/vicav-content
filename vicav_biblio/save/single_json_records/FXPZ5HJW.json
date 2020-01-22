@@ -1,0 +1,101 @@
+{
+    "key": "FXPZ5HJW",
+    "version": 7940,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/FXPZ5HJW",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/FXPZ5HJW",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Berjaoui",
+        "parsedDate": "2001",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "FXPZ5HJW",
+        "version": 7940,
+        "itemType": "bookSection",
+        "title": "Aspects of the Moroccan Arabic Orthography with Preliminary Insights from the Moroccan Computer-Mediated Communication",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Nasser",
+                "lastName": "Berjaoui"
+            },
+            {
+                "creatorType": "editor",
+                "name": "Beiﬂwenger, Michael"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Chat Kommunikation. Sprache, Interaktion, Sozialit‰t & Identit‰t in synchroner computervermittelter Kommunikation. Perspektiven auf ein interdisziplin‰res Forschungsfeld",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Stuttgart",
+        "publisher": "",
+        "date": "2001",
+        "pages": "431-465",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:berjaoui_2001_3391)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-07-19T18:25:00Z"
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "key": "ZJHBXCAA",
+    "version": 8145,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/ZJHBXCAA",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/ZJHBXCAA",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Harrell and Sobelman",
+        "parsedDate": "1963",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "ZJHBXCAA",
+        "version": 8145,
+        "itemType": "book",
+        "title": "A dictionary of Moroccan Arabic, English-Arabic",
+        "creators": [
+            {
+                "creatorType": "editor",
+                "firstName": "Richard Slade",
+                "lastName": "Harrell"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Harvey",
+                "lastName": "Sobelman"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Washington, D.C.",
+        "publisher": "Georgetown University Press",
+        "date": "1963",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:dictionary"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/YSM26JVV"
+        },
+        "dateAdded": "2018-04-12T19:25:39Z",
+        "dateModified": "2018-04-16T15:07:48Z"
+    }
+}

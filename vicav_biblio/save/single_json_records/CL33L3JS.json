@@ -1,0 +1,97 @@
+{
+    "key": "CL33L3JS",
+    "version": 6911,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/CL33L3JS",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/CL33L3JS",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Amara",
+        "parsedDate": "2005",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "CL33L3JS",
+        "version": 6911,
+        "itemType": "journalArticle",
+        "title": "Language, migration,and urbanization: the case of Bethlehem",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Muhammad",
+                "lastName": "Amara"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Linguistics: an Interdisciplinary Journal of the Language Sciences",
+        "volume": "43",
+        "issue": "v",
+        "pages": "883-901",
+        "date": "2005",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "00243949",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:amara_2005_0000)",
+        "tags": [
+            {
+                "tag": "geo:Bethlehem [31.70, 35.20]"
+            },
+            {
+                "tag": "reg:Palestine [31.89, 35.25]"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

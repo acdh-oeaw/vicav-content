@@ -1,0 +1,111 @@
+{
+    "key": "N3FFYQEH",
+    "version": 6545,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/N3FFYQEH",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/N3FFYQEH",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Johnstone",
+        "parsedDate": "1967",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "N3FFYQEH",
+        "version": 6545,
+        "itemType": "book",
+        "title": "Eastern Arabian Dialect Studies",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Thomas M.",
+                "lastName": "Johnstone"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "London",
+        "publisher": "",
+        "date": "1967",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:johnstone_1967_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Bahrain"
+            },
+            {
+                "tag": "reg:Gulf [26.57, 49.55]"
+            },
+            {
+                "tag": "cnt:Kuweit"
+            },
+            {
+                "tag": "reg:Mesopotamia [35.14, 42.48]"
+            },
+            {
+                "tag": "cnt:Oman"
+            },
+            {
+                "tag": "cnt:Qatar"
+            },
+            {
+                "tag": "cnt:Saudi Arabia"
+            },
+            {
+                "tag": "vt:// (Kuwayt, Bahrain, Qatar, UAE)"
+            },
+            {
+                "tag": "vt:UAE"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T09:15:18Z"
+    }
+}

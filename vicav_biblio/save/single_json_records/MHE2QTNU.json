@@ -1,0 +1,97 @@
+{
+    "key": "MHE2QTNU",
+    "version": 6602,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/MHE2QTNU",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/MHE2QTNU",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Kenstowicz",
+        "parsedDate": "1980",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "MHE2QTNU",
+        "version": 6602,
+        "itemType": "journalArticle",
+        "title": "Notes on Cairene Arabic syncope",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Michael",
+                "lastName": "Kenstowicz"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Studies in the Linguistic Sciences",
+        "volume": "10",
+        "issue": "ii",
+        "pages": "39-53",
+        "date": "1980",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:kenstowicz_1980_0002)",
+        "tags": [
+            {
+                "tag": "geo:Cairo [30.04, 31.23]"
+            },
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-19T10:17:12Z"
+    }
+}

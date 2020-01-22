@@ -1,0 +1,87 @@
+{
+    "key": "FT7D3P3J",
+    "version": 7775,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/FT7D3P3J",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/FT7D3P3J",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Yoda",
+        "parsedDate": "2005",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "FT7D3P3J",
+        "version": 7775,
+        "itemType": "book",
+        "title": "The Arabic dialect of the Jews of Tripoli (Libya): Grammar, text and glossary.",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Sumikazu",
+                "lastName": "Yoda"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrasowitz",
+        "date": "2005",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:yoda_2005_3130)",
+        "tags": [
+            {
+                "tag": "geo:Tripoli (Libya) [32.88, 13.19]"
+            },
+            {
+                "tag": "cnt:Libya"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-02T13:00:18Z"
+    }
+}

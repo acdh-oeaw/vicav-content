@@ -1,0 +1,101 @@
+{
+    "key": "QCGWQ23P",
+    "version": 3093,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/QCGWQ23P",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/QCGWQ23P",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Taifi",
+        "parsedDate": "1996",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "QCGWQ23P",
+        "version": 3093,
+        "itemType": "journalArticle",
+        "title": "Etude sémantique comparative du terme \"cœur\" en arabe dialectal (qelb) et en Berbère (ul)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Miloud",
+                "lastName": "Taifi"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Etudes et Documents Berbere",
+        "volume": "Rabat: Université Mohammed V, 1996, (Publications de la Faculté es Lettres et des Sciences Humaines - Rabat. Série: Colloques et Séminaires, 51),",
+        "issue": "",
+        "pages": "139-147",
+        "date": "1996",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:taifi_1996_0000)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "vt:semantics"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/CX2K8CY4"
+        },
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-22T11:51:29Z"
+    }
+}

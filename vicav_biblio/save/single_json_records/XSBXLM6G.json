@@ -1,0 +1,103 @@
+{
+    "key": "XSBXLM6G",
+    "version": 7882,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/XSBXLM6G",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/XSBXLM6G",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Bar-Asher",
+        "parsedDate": "1986",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "XSBXLM6G",
+        "version": 7882,
+        "itemType": "journalArticle",
+        "title": "Le diminutif dans les dialectes judéo-arabes du Tafilalet",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Moshé",
+                "lastName": "Bar-Asher"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Massorot",
+        "volume": "2",
+        "issue": "",
+        "pages": "1-14",
+        "date": "1986",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:bar-asher_1986_3331)",
+        "tags": [
+            {
+                "tag": "geo:Tafilalet [31.95, -4.40]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Jewish dialects"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:pragmatics"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-07T13:24:00Z"
+    }
+}

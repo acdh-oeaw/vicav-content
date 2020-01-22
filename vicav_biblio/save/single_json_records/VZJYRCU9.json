@@ -1,0 +1,96 @@
+{
+    "key": "VZJYRCU9",
+    "version": 5511,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/VZJYRCU9",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/VZJYRCU9",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Kofler",
+        "parsedDate": "1940",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "VZJYRCU9",
+        "version": 5511,
+        "itemType": "journalArticle",
+        "title": "Reste altarabischer Dialekte",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Hans",
+                "lastName": "Kofler"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Wiener Zeitschrift für die Kunde des Morgenlandes",
+        "volume": "47",
+        "issue": "",
+        "pages": "61-130, 233-262",
+        "date": "1940",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:kofler_1940_0000)",
+        "tags": [
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-10-22T14:42:44Z"
+    }
+}

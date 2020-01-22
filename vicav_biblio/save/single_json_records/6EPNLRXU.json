@@ -1,0 +1,101 @@
+{
+    "key": "6EPNLRXU",
+    "version": 6936,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/6EPNLRXU",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/6EPNLRXU",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Retsö",
+        "parsedDate": "2009",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "6EPNLRXU",
+        "version": 6936,
+        "itemType": "bookSection",
+        "title": "Nominal Attribution in Semitic: Typology and Diachrony",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jan",
+                "lastName": "Retsö"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Janet",
+                "lastName": "Watson"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Jan",
+                "lastName": "Retsö"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Relative Clauses and Genitive Constructions in Semitic",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Oxford; New York",
+        "publisher": "Oxford University Press",
+        "date": "2009",
+        "pages": "3-33",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:retso_2009_3175)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

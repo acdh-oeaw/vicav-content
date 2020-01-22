@@ -1,0 +1,103 @@
+{
+    "key": "6IZ5X9FZ",
+    "version": 7778,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/6IZ5X9FZ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/6IZ5X9FZ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Akka",
+        "parsedDate": "1991",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "6IZ5X9FZ",
+        "version": 7778,
+        "itemType": "thesis",
+        "title": "Contact inter-dialectes variation intra-dialecte : permeabilite au berbere du parler d'une population arabophone du Haoux de Marrakech : les nouasser de chichaoua",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Mohammed",
+                "lastName": "Akka"
+            }
+        ],
+        "abstractNote": "Available from Center for Research Libraries http://www.crl.edu/content/ DissLinkPQDD.asp",
+        "thesisType": "",
+        "university": "Universite Rene Descartes (Paris 5)",
+        "place": "Paris",
+        "date": "1991",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:akka_1991_3302)",
+        "tags": [
+            {
+                "tag": "geo:Marrakesh [31.62, -7.98]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:berber languages"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:ethnic minorities"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-02T13:16:24Z"
+    }
+}

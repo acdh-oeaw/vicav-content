@@ -1,0 +1,91 @@
+{
+    "key": "FS7QMEAD",
+    "version": 6672,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/FS7QMEAD",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/FS7QMEAD",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Khabir",
+        "parsedDate": "1998",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "FS7QMEAD",
+        "version": 6672,
+        "itemType": "thesis",
+        "title": "Issues in Arabic morphology and phonology: Theoretical implications",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Moulay Ahmed",
+                "lastName": "Khabir"
+            }
+        ],
+        "abstractNote": "This study is an attempt to address some problems in Arabic morphology and phonology which have serious consequences for morphological and phonological theories. As regards morphology, it is argued in contradistinction to orthodox treatments that roots and patterns are not appropriate for Arabic word formation, and that the so-called Semitic root is not the basic unit of lexical organisation as it has traditionally been assumed. Several arguments are adduced to support this claim. First it is shown that the concept of a consonantal (mostly triliteral) root without vowels is a legacy of Sanskrit-based Boppian methodology that was latter taken up by Western grammarians and Structurialists alike in their analyses of Arabic grammar after a long tradition in which the basic unit had been the verbum pefectum . It is shown that the theoretical mutation that resulted from this did not go unquestioned. Several kinds of evidence that the root is at most a fictitious entity that has no reality outside the words in which it exists are adduced. Further evidence is based on the late Arab grammarians' views of the organisation of morphology in which word formation is not a simple association of roots and patterns. It is also shown that the pattern system is not relevant to morphology because of its erosion in so many Semitic and Arabic dialects alike. We conclude that Arabic confirms the validity of the Word-Based Hypothesis. The status of morphological alternations is also examined on the basis of Moroccan Arabic nominal plurals. It is argued that a unified treatment of morphophonology is inadequate. We propose instead an account in which automatic alternations belong in the phonology, and non-automatic alternations in the morphology along the lines of the Integrated Theory of Phonology and Morphology of Ford and Singh. In phonology it is argued in line with the principles of Generative Phonotactics that generalisations can be successfully expressed without recourse to the mechanisms called rules. It is shown that rules are problematic devices because of their excessive power and arbitrariness. We propose instead that surface generalisations can be captured in terms of the principles of metrical organisation together with a set of tactics (WFCs) which act as triggers of phonological repair strategies whenever violations of the tactics arise. we offer an analysis of the phonological behaviour of MA triliteral verbal and nominal morphology which confirms these views.",
+        "thesisType": "",
+        "university": "Université de Montreal (Canada)",
+        "place": "Montreal",
+        "date": "1998",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:khabir_1998_3757)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:phonology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

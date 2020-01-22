@@ -1,0 +1,123 @@
+{
+    "key": "7AFS9LWU",
+    "version": 2203,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/7AFS9LWU",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/7AFS9LWU",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Sánchez Sandoval",
+        "parsedDate": "2004",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "7AFS9LWU",
+        "version": 2203,
+        "itemType": "journalArticle",
+        "title": "Patio de honor: memoria y literatura en Marruecos",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Juan José",
+                "lastName": "Sánchez Sandoval"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Jordi",
+                "lastName": "Aguadé"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Frederico",
+                "lastName": "Corriente"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Ángeles",
+                "lastName": "Vicente"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Mohamed",
+                "lastName": "Meouak"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Estudios de Dialectología Norteafricana y Andalusí",
+        "volume": "8",
+        "issue": "",
+        "pages": "207-213",
+        "date": "2004",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:sanchez sandoval_2004_3982)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:folklore"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:oral literature"
+            },
+            {
+                "tag": "vt:oral narratives"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

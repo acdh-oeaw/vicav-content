@@ -1,0 +1,101 @@
+{
+    "key": "VCGA9JAU",
+    "version": 2531,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/VCGA9JAU",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/VCGA9JAU",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Grigore",
+        "parsedDate": "2003",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "VCGA9JAU",
+        "version": 2531,
+        "itemType": "bookSection",
+        "title": "L’assimilation des emprunts par le système paradigmatique de l’arabe mardinien (Turquie)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "George",
+                "lastName": "Grigore"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Ignacio",
+                "lastName": "Ferrando"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Juan José Sánchez",
+                "lastName": "Sandoval"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "AIDA: 5th Conference Proceedings, Association Internationale de Dialectologie Arabe (AIDA): Cádiz, September 2002",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Cadiz",
+        "publisher": "",
+        "date": "2003",
+        "pages": "13-20",
+        "language": "",
+        "ISBN": "84-7786-777-1",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:grigore_ferrando_2003_0000)",
+        "tags": [
+            {
+                "tag": "geo:Mardin [37.31, 40.73]"
+            },
+            {
+                "tag": "reg:Mesopotamia [35.14, 42.48]"
+            },
+            {
+                "tag": "reg:Turkey [38.08, 41.10]"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-24T11:12:05Z"
+    }
+}

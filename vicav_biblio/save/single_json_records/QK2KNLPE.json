@@ -1,0 +1,121 @@
+{
+    "key": "QK2KNLPE",
+    "version": 8706,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/QK2KNLPE",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/QK2KNLPE",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Vicente and Naciri-Azzouz",
+        "parsedDate": "2018",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "QK2KNLPE",
+        "version": 8706,
+        "itemType": "bookSection",
+        "title": "The social value of linguistic practices in Tetouan and Ghomara (Northwestern Morocco)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ángeles",
+                "lastName": "Vicente"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Amina",
+                "lastName": "Naciri-Azzouz"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Reem",
+                "lastName": "Bassiouney"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Identity and dialect performance: A study of communities and dialects",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "London & New York",
+        "publisher": "Routledge",
+        "date": "2018",
+        "pages": "192-209",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Tétouan [35.58, -5.36]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:pragmatics"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2019-03-14T10:34:19Z",
+        "dateModified": "2019-03-14T10:38:35Z"
+    }
+}

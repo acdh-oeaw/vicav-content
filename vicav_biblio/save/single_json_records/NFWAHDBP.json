@@ -1,0 +1,91 @@
+{
+    "key": "NFWAHDBP",
+    "version": 2201,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/NFWAHDBP",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/NFWAHDBP",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Sirat",
+        "parsedDate": "1973",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "NFWAHDBP",
+        "version": 2201,
+        "itemType": "journalArticle",
+        "title": "Notes on the Arabic dialect spoken in the Balkh region of Afghanistan. Annotated by E.E.Knudsen",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Abdul-Sattar",
+                "lastName": "Sirat"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Acta Orientalia (Copenhagen)",
+        "volume": "35",
+        "issue": "",
+        "pages": "89-101",
+        "date": "1973",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:sirat_1973_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Afghanistan"
+            },
+            {
+                "tag": "reg:Mesopotamia [35.14, 42.48]"
+            },
+            {
+                "tag": "vt:description of dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "key": "IV8KK7VT",
+    "version": 3187,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/IV8KK7VT",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/IV8KK7VT",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Bettini",
+        "parsedDate": "1985",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "IV8KK7VT",
+        "version": 3187,
+        "itemType": "bookSection",
+        "title": "Note sull'arabo parlato al Baraddun (Yemen del Nord)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Lidia",
+                "lastName": "Bettini"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "P.",
+                "lastName": "Fronzaroli"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Studi Yemeniti",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Firenze",
+        "publisher": "Istituto di Linguistica e di Lingue Orientali",
+        "date": "1985",
+        "pages": "116-159",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:bettini_1985_0000)",
+        "tags": [
+            {
+                "tag": "geo:Al Baraddun [14.72, 44.58]"
+            },
+            {
+                "tag": "vt:description of dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-07-20T18:57:01Z"
+    }
+}

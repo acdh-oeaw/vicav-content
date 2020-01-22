@@ -1,0 +1,92 @@
+{
+    "key": "LBA5K42T",
+    "version": 7996,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/LBA5K42T",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/LBA5K42T",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Charhadi",
+        "parsedDate": "1999",
+        "numChildren": 6
+    },
+    "data": {
+        "key": "LBA5K42T",
+        "version": 7996,
+        "itemType": "book",
+        "title": "A life full of holes: a novel tape-recorded in Moghrebi & translated into English by Paul Bowles",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Driss ben Hamed",
+                "lastName": "Charhadi"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Edinburgh",
+        "publisher": "Rebel Inc",
+        "date": "1999",
+        "numPages": "",
+        "language": "English",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:charhadi_1999_4551)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:oral narratives"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "dc:replaces": "http://zotero.org/groups/2165756/items/NN6ZWA8R"
+        },
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-02T11:13:25Z"
+    }
+}

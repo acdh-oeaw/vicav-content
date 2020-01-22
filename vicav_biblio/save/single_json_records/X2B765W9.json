@@ -1,0 +1,108 @@
+{
+    "key": "X2B765W9",
+    "version": 3427,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/X2B765W9",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/X2B765W9",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Piamenta",
+        "parsedDate": "1981",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "X2B765W9",
+        "version": 3427,
+        "itemType": "bookSection",
+        "title": "Selected syntactic phenomena of Jerusalem Arabic narrative style in 1900",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "M.",
+                "lastName": "Piamenta"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Studies in Judaism and Islam / Goitein Shlomo Dov.",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Jerusalem",
+        "publisher": "The Magnes Press (Hebrew University)",
+        "date": "1981",
+        "pages": "203-230",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:piamenta_1981_0000)",
+        "tags": [
+            {
+                "tag": "geo:Jerusalem [31.76, 35.21]"
+            },
+            {
+                "tag": "cnt:Israel"
+            },
+            {
+                "tag": "reg:Palestine [31.89, 35.25]"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-24T08:12:45Z"
+    }
+}

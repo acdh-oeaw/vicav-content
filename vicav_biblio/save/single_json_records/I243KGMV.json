@@ -1,0 +1,100 @@
+{
+    "key": "I243KGMV",
+    "version": 2210,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/I243KGMV",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/I243KGMV",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Ratcliffe",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "I243KGMV",
+        "version": 2210,
+        "itemType": "journalArticle",
+        "title": "Sonority-based parsing at the margins of Arabic morphology: in response to Prunet, Beland, and Idrissi (2000) and Davis and Zawaydeh (1999, 2001)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Robert R.",
+                "lastName": "Ratcliffe"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Al-?Arabiyya: Journal of the American Association of Teachers of Arabic",
+        "volume": "37",
+        "issue": "",
+        "pages": "53-75",
+        "date": "2004",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "English",
+        "DOI": "",
+        "ISSN": "0889-8731",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:ratcliffe_2004_4122)",
+        "tags": [
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:phonology"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

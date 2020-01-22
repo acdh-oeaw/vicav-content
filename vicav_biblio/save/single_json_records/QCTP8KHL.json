@@ -1,0 +1,106 @@
+{
+    "key": "QCTP8KHL",
+    "version": 7838,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/QCTP8KHL",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/QCTP8KHL",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Mohamed-Baba",
+        "parsedDate": "2003",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "QCTP8KHL",
+        "version": 7838,
+        "itemType": "bookSection",
+        "title": "Emprunts du dialect ?assaniyyä à la langue français. Lexique des institutions, produits manufacturés, marques et ustensiles inconnus pour les nomades (aspects morphologiques et sémantiques)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ahmed Salem Ould",
+                "lastName": "Mohamed-Baba"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Conference Proceedings, Association Internationale de Dialectologie Arabe",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Cadiz",
+        "publisher": "Servicio de Publicaciones de la Universidad de Cádiz",
+        "date": "2003",
+        "pages": "61-74",
+        "language": "",
+        "ISBN": "84-7786-777-1",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:ould_mohamed_baba_2003_0001)",
+        "tags": [
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Mauritania"
+            },
+            {
+                "tag": "vt:bedouin dialect"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:loanwords"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:semantics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-03T11:45:20Z"
+    }
+}

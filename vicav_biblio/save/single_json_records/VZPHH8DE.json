@@ -1,0 +1,100 @@
+{
+    "key": "VZPHH8DE",
+    "version": 8356,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/VZPHH8DE",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/VZPHH8DE",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Ruiter",
+        "parsedDate": "1998",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "VZPHH8DE",
+        "version": 8356,
+        "itemType": "journalArticle",
+        "title": "Language and religion: Moroccan and Turkish communities in Europe",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jan Jaap de",
+                "lastName": "Ruiter"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "ISIM Newsletter",
+        "volume": "1",
+        "issue": "",
+        "pages": "28-28",
+        "date": "1998",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "English",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:ruiter_1998_3961)",
+        "tags": [
+            {
+                "tag": "reg:Mesopotamia [35.14, 42.48]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt://e.g. Europe, Americas"
+            },
+            {
+                "tag": "vt:Arabic as a minority language"
+            },
+            {
+                "tag": "vt:Diaspora"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-08T19:02:10Z"
+    }
+}

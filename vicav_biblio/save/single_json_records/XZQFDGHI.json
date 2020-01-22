@@ -1,0 +1,118 @@
+{
+    "key": "XZQFDGHI",
+    "version": 3356,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/XZQFDGHI",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/XZQFDGHI",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Ritt-Benmimoun",
+        "parsedDate": "2008",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "XZQFDGHI",
+        "version": 3356,
+        "itemType": "bookSection",
+        "title": "A Lexical Study on Composite Nouns with bu and umm in Tunisian Bedouin Dialects",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Veronika",
+                "lastName": "Ritt-Benmimoun"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Stephan",
+                "lastName": "Procházka"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Veronika",
+                "lastName": "Ritt-Benmimoun"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Between the Atlantic and Indian Oceans. Studies on Contemporary Arabic Dialects. Proceedings of the 7th AIDA Conference held in Vienna from 5-9 September 2006",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wien-Münster",
+        "publisher": "LIT Verlag",
+        "date": "2008",
+        "pages": "pages: 19, start pages: 363",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:ritt_benmimoun_prochazka_2008_0001)",
+        "tags": [
+            {
+                "tag": "geo:Douz [33.46, 9.02]"
+            },
+            {
+                "tag": "reg:Maghreb []"
+            },
+            {
+                "tag": "cnt:Tunisia"
+            },
+            {
+                "tag": "vt:bedouin dialect"
+            },
+            {
+                "tag": "vt:lexicon"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-15T13:20:15Z"
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "key": "Z6GM27MS",
+    "version": 7906,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/Z6GM27MS",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/Z6GM27MS",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Bellout",
+        "parsedDate": "1987",
+        "numChildren": 2
+    },
+    "data": {
+        "key": "Z6GM27MS",
+        "version": 7906,
+        "itemType": "thesis",
+        "title": "The syllable structure in Moroccan Arabic: a nonlinear approach",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Zoubida",
+                "lastName": "Bellout"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "D.E.S.",
+        "university": "Faculty of Letters - Casablanca / Aïn Chock",
+        "place": "Casablanca",
+        "date": "1987",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:bellout_1987_4486)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-07-19T17:49:48Z"
+    }
+}

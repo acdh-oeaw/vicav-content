@@ -1,0 +1,112 @@
+{
+    "key": "6ED5WE2T",
+    "version": 2280,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/6ED5WE2T",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/6ED5WE2T",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Bennis",
+        "parsedDate": "2003",
+        "numChildren": 2
+    },
+    "data": {
+        "key": "6ED5WE2T",
+        "version": 2280,
+        "itemType": "conferencePaper",
+        "title": "Accent arabe et insécurité linguistique (cad de l'accent arabe du Tadla: Centre du Maroc)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Saïd",
+                "lastName": "Bennis"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Igancio",
+                "lastName": "Ferrando"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Juan José",
+                "lastName": "Sánchez Sandoval"
+            }
+        ],
+        "abstractNote": "",
+        "date": "2003",
+        "proceedingsTitle": "AIDA 5thConference Proceedings Cádiz, September 2002",
+        "conferenceName": "",
+        "place": "Cádiz",
+        "publisher": "Servicio de publicaciones, Universidad de Cádiz",
+        "volume": "",
+        "pages": "349-362",
+        "series": "",
+        "language": "",
+        "DOI": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Tadla [32.18, -6.70]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:phonology"
+            },
+            {
+                "tag": "vt:prosody"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

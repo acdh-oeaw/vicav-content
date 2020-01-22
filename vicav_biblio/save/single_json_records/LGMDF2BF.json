@@ -1,0 +1,102 @@
+{
+    "key": "LGMDF2BF",
+    "version": 3358,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/LGMDF2BF",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/LGMDF2BF",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Rifaat",
+        "parsedDate": "1995",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "LGMDF2BF",
+        "version": 3358,
+        "itemType": "journalArticle",
+        "title": "The pitch accent of Egyptian Arab children",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Khaled",
+                "lastName": "Rifaat"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Bu?uth Al-muqaddamah Fi Nadwat Al-Lisaniyat Wa-al-Lughah Al-?Arabiyah",
+        "volume": "",
+        "issue": "",
+        "pages": "219-232",
+        "date": "1995",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:rifaat_1995_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:phonology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-15T13:23:39Z"
+    }
+}

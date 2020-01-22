@@ -1,0 +1,111 @@
+{
+    "key": "9GXKGHS2",
+    "version": 5783,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/9GXKGHS2",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/9GXKGHS2",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Rattcliffe",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "9GXKGHS2",
+        "version": 5783,
+        "itemType": "bookSection",
+        "title": "Bukhara Arabic: A Metatypized Dialect of Arabic in Central Asia",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Robert",
+                "lastName": "Rattcliffe"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Linguistic Convergence and Areal Diffusion: Case Studies fron Iranian, Semitic and Turkic",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "London - New York",
+        "publisher": "Routledge Curzon",
+        "date": "2004",
+        "pages": "141-160",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Bukhara [39.76, 64.45]"
+            },
+            {
+                "tag": "cnt:Uzbekistan"
+            },
+            {
+                "tag": "vt:Central Asia"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-14T16:27:08Z",
+        "dateModified": "2018-10-14T16:28:28Z"
+    }
+}

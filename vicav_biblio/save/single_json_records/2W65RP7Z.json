@@ -1,0 +1,119 @@
+{
+    "key": "2W65RP7Z",
+    "version": 2243,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/2W65RP7Z",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/2W65RP7Z",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Gámez Rovira et al.",
+        "parsedDate": "2000",
+        "numChildren": 3
+    },
+    "data": {
+        "key": "2W65RP7Z",
+        "version": 2243,
+        "itemType": "journalArticle",
+        "title": "Una gramática y un léxicon de árabe marroquí escritos por Antonio Almagro Cárdenas en 1882",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "María",
+                "lastName": "Gámez Rovira"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Francisco",
+                "lastName": "Moscoso García"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Lucía",
+                "lastName": "Ruíz Roman"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "al-Andalus-Magreb",
+        "volume": "8-9",
+        "issue": "",
+        "pages": "241-272",
+        "date": "2000-2001",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:gamez rovira_2000-2001_4440)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:dictionary"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:syntax"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

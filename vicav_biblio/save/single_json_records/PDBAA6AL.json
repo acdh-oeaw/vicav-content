@@ -1,0 +1,114 @@
+{
+    "key": "PDBAA6AL",
+    "version": 7747,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/PDBAA6AL",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/PDBAA6AL",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Palva",
+        "parsedDate": "1996",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "PDBAA6AL",
+        "version": 7747,
+        "itemType": "bookSection",
+        "title": "The unconditioned affrication of *k in central Palestinian Arabic: A Bedouin feature or a spontaneous development",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Heikki",
+                "lastName": "Palva"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Proceedings of the 2nd International Conference of l’Association Internationale pour la Dialectologie Arabe (AIDA): held at Trinity Hall in the University of Cambridge, 10 – 14 September 1995",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Cambridge",
+        "publisher": "Cambridge University Press",
+        "date": "1996",
+        "pages": "181-187",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "reg:Palestine [31.89, 35.25]"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:bedouin dialect"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:language of a tribe"
+            },
+            {
+                "tag": "vt:phonology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-13T15:25:46Z",
+        "dateModified": "2019-02-09T19:14:22Z"
+    }
+}

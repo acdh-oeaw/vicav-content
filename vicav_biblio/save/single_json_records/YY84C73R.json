@@ -1,0 +1,106 @@
+{
+    "key": "YY84C73R",
+    "version": 8837,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/YY84C73R",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/YY84C73R",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Benítez Fernández",
+        "parsedDate": "2009",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "YY84C73R",
+        "version": 8837,
+        "itemType": "conferencePaper",
+        "title": "Árabe marroquí como proyecto editorial '?Es una experiencia posible?",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Montserrat",
+                "lastName": "Benítez Fernández"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Leila",
+                "lastName": "Abu-Shams"
+            }
+        ],
+        "abstractNote": "",
+        "date": "2009",
+        "proceedingsTitle": "Actas del III Congresso Internacional de Árabe Marroquí: Estudio, enseñanza y aprendizaje",
+        "conferenceName": "",
+        "place": "Bilbao",
+        "publisher": "Servicio Editorial de la Universida del País Vasco / Euskal Herriko Unibertsitatea Argitalpen Zerbitzua",
+        "volume": "",
+        "pages": "37-54",
+        "series": "",
+        "language": "",
+        "DOI": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-03-20T14:23:55Z"
+    }
+}

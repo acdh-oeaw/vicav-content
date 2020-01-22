@@ -1,0 +1,108 @@
+{
+    "key": "KBX34PG9",
+    "version": 7752,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/KBX34PG9",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/KBX34PG9",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4621144,
+            "username": "Bettina_Leit",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/bettina_leit",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Behnstedt and Woidich",
+        "parsedDate": "2014",
+        "numChildren": 2
+    },
+    "data": {
+        "key": "KBX34PG9",
+        "version": 7752,
+        "itemType": "book",
+        "title": "Wortatlas der arabischen Dialekte III: Verben, Adjektive, Zeit und Zahlen",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Peter",
+                "lastName": "Behnstedt"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Manfred",
+                "lastName": "Woidich"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leiden",
+        "publisher": "Brill",
+        "date": "2014",
+        "numPages": "",
+        "language": "ger eng ara fre ita spa",
+        "ISBN": "978-90-04-18664-4 978-90-04-21156-8 978-90-04-24812-0",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "Library of Congress ISBN",
+        "callNumber": "G1786.E3 B4 2011",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:lexicon"
+            }
+        ],
+        "collections": [],
+        "relations": {
+            "owl:sameAs": "http://zotero.org/groups/2065664/items/UFA9WBM2"
+        },
+        "dateAdded": "2019-02-07T11:07:17Z",
+        "dateModified": "2019-02-07T11:07:17Z"
+    }
+}

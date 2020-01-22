@@ -1,0 +1,107 @@
+{
+    "key": "7SVT2852",
+    "version": 7243,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/7SVT2852",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/7SVT2852",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Nishio",
+        "parsedDate": "1994",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "7SVT2852",
+        "version": 7243,
+        "itemType": "book",
+        "title": "The Arabic dialect of Qift (Upper Egypt): grammar and classified vocabulary",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Tetsuo",
+                "lastName": "Nishio"
+            }
+        ],
+        "abstractNote": "",
+        "series": "Asian and African Lexicon",
+        "seriesNumber": "27",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Tokyo",
+        "publisher": "Institute for the Study of Languages and Cultures of Asia and Africa",
+        "date": "1994",
+        "numPages": "332",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:nishio_1994_0000)",
+        "tags": [
+            {
+                "tag": "geo:Qift [25.99, 32.81]"
+            },
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:glossary"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2019-01-24T11:33:36Z"
+    }
+}

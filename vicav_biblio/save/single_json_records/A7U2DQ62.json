@@ -1,0 +1,115 @@
+{
+    "key": "A7U2DQ62",
+    "version": 8846,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/A7U2DQ62",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/A7U2DQ62",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4621144,
+            "username": "Bettina_Leit",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/bettina_leit",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Vicente",
+        "parsedDate": "2011",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "A7U2DQ62",
+        "version": 8846,
+        "itemType": "journalArticle",
+        "title": "La presencia de la lengua española en el norte de África y su interacción con el árabe marroquí",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ángeles",
+                "lastName": "Vicente"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "L.",
+                "lastName": "Morgenthaler"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "M.",
+                "lastName": "Tilmatine"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Revista Internacional de Lingüística Iberoamericana. Sección temática: Español-árabe-amazige (bereber): actualidad y pasado reciente de un antiguo contacto",
+        "volume": "28",
+        "issue": "",
+        "pages": "59-84",
+        "date": "2011",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "reg:Spain [39.92, -3.02]"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2019-01-08T10:17:28Z",
+        "dateModified": "2019-03-20T15:42:17Z"
+    }
+}

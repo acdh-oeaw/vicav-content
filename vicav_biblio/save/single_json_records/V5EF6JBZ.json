@@ -1,0 +1,115 @@
+{
+    "key": "V5EF6JBZ",
+    "version": 7847,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/V5EF6JBZ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/V5EF6JBZ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Akkus and Benmamoun",
+        "parsedDate": "2016",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "V5EF6JBZ",
+        "version": 7847,
+        "itemType": "bookSection",
+        "title": "Clause Structure in Contact Contexts: the Case of Sason Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Faruk",
+                "lastName": "Akkus"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Elabbas",
+                "lastName": "Benmamoun"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Youssef",
+                "lastName": "Haddad"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Eric",
+                "lastName": "Potsdam"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Perspectives on Arabic Linguistics XXVII",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Amsterdam",
+        "publisher": "John Benjamins",
+        "date": "2016",
+        "pages": "153-172",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:akkus_2016_3140)",
+        "tags": [
+            {
+                "tag": "geo:Sason [38.33, 41.42]"
+            },
+            {
+                "tag": "cnt:Turkey"
+            },
+            {
+                "tag": "vt:Mesopotamia"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

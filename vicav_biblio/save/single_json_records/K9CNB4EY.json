@@ -1,0 +1,102 @@
+{
+    "key": "K9CNB4EY",
+    "version": 3282,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/K9CNB4EY",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/K9CNB4EY",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Sartori",
+        "parsedDate": "2009",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "K9CNB4EY",
+        "version": 3282,
+        "itemType": "journalArticle",
+        "title": "L'évolution des conditionnelles en arabe égyptien contemporain",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Manuel",
+                "lastName": "Sartori"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Bulletin d'Études Orientales",
+        "volume": "58",
+        "issue": "2008-09",
+        "pages": "233-257",
+        "date": "2009",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "02531623",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:sartori_2009_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Egypt"
+            },
+            {
+                "tag": "reg:Egypt-Sudan"
+            },
+            {
+                "tag": "vt:syntax"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-08-07T18:59:19Z"
+    }
+}

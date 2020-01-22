@@ -1,0 +1,130 @@
+{
+    "key": "HG4U8NGW",
+    "version": 3822,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/HG4U8NGW",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/HG4U8NGW",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Hachimi",
+        "parsedDate": "2001",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "HG4U8NGW",
+        "version": 3822,
+        "itemType": "bookSection",
+        "title": "Shifting Sands: Language and Gender in Moroccan Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Atiqa",
+                "lastName": "Hachimi"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Marlis",
+                "lastName": "Hellinger"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Hadumod",
+                "lastName": "Buﬂmann"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Gender Across Languages",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "1",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Amsterdam/Philadelphia",
+        "publisher": "John Benjamins Publishing Company",
+        "date": "2001",
+        "pages": "27-51",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:hachimi_2001_3669)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:ethnography"
+            },
+            {
+                "tag": "vt:gender aspects"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-05T07:57:57Z"
+    }
+}

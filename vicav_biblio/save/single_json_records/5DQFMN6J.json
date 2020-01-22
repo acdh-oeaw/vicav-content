@@ -1,0 +1,104 @@
+{
+    "key": "5DQFMN6J",
+    "version": 3953,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/5DQFMN6J",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/5DQFMN6J",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Farghaly",
+        "parsedDate": "2005",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "5DQFMN6J",
+        "version": 3953,
+        "itemType": "bookSection",
+        "title": "A case for an inter-Arabic grammar",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ali",
+                "lastName": "Farghaly"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Alaa",
+                "lastName": "Elgibali"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Investigating Arabic: current parameters in analysis and learning",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leiden",
+        "publisher": "Brill",
+        "date": "2005",
+        "pages": "29-49",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:farghaly_2005_0000)",
+        "tags": [
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-15T08:48:24Z"
+    }
+}

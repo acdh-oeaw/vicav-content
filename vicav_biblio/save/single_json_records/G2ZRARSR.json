@@ -1,0 +1,116 @@
+{
+    "key": "G2ZRARSR",
+    "version": 6935,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/G2ZRARSR",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/G2ZRARSR",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Prunet and Idrissi",
+        "parsedDate": "2014",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "G2ZRARSR",
+        "version": 6935,
+        "itemType": "bookSection",
+        "title": "Overlapping morphologies in Arabic hypocoristics",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Jean-François",
+                "lastName": "Prunet"
+            },
+            {
+                "creatorType": "author",
+                "firstName": "Ali",
+                "lastName": "Idrissi"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Sabrina",
+                "lastName": "Bendjaballah"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Noam",
+                "lastName": "Faust"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Mohamed",
+                "lastName": "Lahrouchi"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Nicola",
+                "lastName": "Lampitelli"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "The form of structure, the structure of form: Essays in honor of Jean Lowenstamm",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Amsterdam/Philadelphia",
+        "publisher": "John Benjamins",
+        "date": "2014",
+        "pages": "177-192",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:prunet_2014_3201)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

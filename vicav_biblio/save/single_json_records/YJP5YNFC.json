@@ -1,0 +1,104 @@
+{
+    "key": "YJP5YNFC",
+    "version": 5976,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/YJP5YNFC",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/YJP5YNFC",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Tsereteli",
+        "parsedDate": "1956",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "YJP5YNFC",
+        "version": 5976,
+        "itemType": "book",
+        "title": "Arabskie dialekty Srednej Azii. I. Buxarskij Arabskij dialekt [Los dialectos árabes del Asia Central. I. El dialecto árabe de Bukhara]",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "G.V.",
+                "lastName": "Tsereteli"
+            }
+        ],
+        "abstractNote": "",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Tiflis",
+        "publisher": "Izdatel’stvo Akademii Nauk Gruzinskoj SSSR",
+        "date": "1956",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Uzbekistan"
+            },
+            {
+                "tag": "vt:conversation/dialogue"
+            },
+            {
+                "tag": "vt:description of dialect"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-09-30T18:10:41Z",
+        "dateModified": "2018-09-30T18:12:48Z"
+    }
+}

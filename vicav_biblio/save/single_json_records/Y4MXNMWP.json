@@ -1,0 +1,110 @@
+{
+    "key": "Y4MXNMWP",
+    "version": 2317,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/Y4MXNMWP",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/Y4MXNMWP",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Bar-Asher",
+        "parsedDate": "2004",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "Y4MXNMWP",
+        "version": 2317,
+        "itemType": "bookSection",
+        "title": "Couches linguistique dans le šar? marocain",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Moshé",
+                "lastName": "Bar-Asher"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "N. S.",
+                "lastName": "Serfaty"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Joseph",
+                "lastName": "Tedghi"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Présence juive au Maghreb. Hommage à Haïm Zafrani",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Paris",
+        "publisher": "Bouchène",
+        "date": "2004",
+        "pages": "245-257",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:bar-asher_2004_4269)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

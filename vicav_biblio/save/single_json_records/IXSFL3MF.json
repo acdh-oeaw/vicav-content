@@ -1,0 +1,115 @@
+{
+    "key": "IXSFL3MF",
+    "version": 2317,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/IXSFL3MF",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/IXSFL3MF",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Arnold",
+        "parsedDate": "2014",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "IXSFL3MF",
+        "version": 2317,
+        "itemType": "bookSection",
+        "title": "Il-Lidd in earlier times: A text in the Arabic dialect of Lydda (Israel)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Werner",
+                "lastName": "Arnold"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Tel",
+                "lastName": "Davidovich"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Ablahad",
+                "lastName": "Lahdo"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Torkel",
+                "lastName": "Lindquist"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "From Tur Abdin to Hadramawt: Semitic Studies. Festschrift in Honour of Bo Isaksson on the occasion of his retirement",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrassowitz",
+        "date": "2014",
+        "pages": "15-21",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:arnold_davidovich_2014_0000)",
+        "tags": [
+            {
+                "tag": "geo:Lod [31.95, 34.88]"
+            },
+            {
+                "tag": "cnt:Israel"
+            },
+            {
+                "tag": "reg:Palestine [31.89, 35.25]"
+            },
+            {
+                "tag": "reg:Syro-Palestine [32.93, 36.53]"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            },
+            {
+                "tag": "vt:urban dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

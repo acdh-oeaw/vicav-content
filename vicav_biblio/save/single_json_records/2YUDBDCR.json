@@ -1,0 +1,110 @@
+{
+    "key": "2YUDBDCR",
+    "version": 7998,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/2YUDBDCR",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/2YUDBDCR",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Chekayri",
+        "parsedDate": "2006",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "2YUDBDCR",
+        "version": 7998,
+        "itemType": "bookSection",
+        "title": "Diglossia or tri-glossia in Morocco: reality and facts",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Abdellah",
+                "lastName": "Chekayri"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Francisco",
+                "lastName": "Moscoso García"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Nadi Hamdi",
+                "lastName": "Nouaouri"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Actas del primer congreso Árabe marroquí: estudio, enseñanza y aprendizaje. Cádiz 2006. Ed. Nadi Hamdi Nouaouri, Francisco Moscoso García Cádiz: Universidad de Cádiz.",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Cádiz",
+        "publisher": "Universidad de Cádiz",
+        "date": "2006",
+        "pages": "",
+        "language": "English",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:berber languages"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:french language"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-02T11:14:13Z"
+    }
+}

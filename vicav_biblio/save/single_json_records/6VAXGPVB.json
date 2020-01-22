@@ -1,0 +1,129 @@
+{
+    "key": "6VAXGPVB",
+    "version": 6353,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/6VAXGPVB",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/6VAXGPVB",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Martínez Ruiz",
+        "parsedDate": "1982",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "6VAXGPVB",
+        "version": 6353,
+        "itemType": "bookSection",
+        "title": "Lenguas en contacto: judeo-español y árabe marroquí. Interferencias léxicas, fonéticas y sintácticas",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Juan",
+                "lastName": "Martínez Ruiz"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Eugenio de",
+                "lastName": "Bustos Tovar"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Actas del cuarto Congreso Internacional de Hispanistas, celebrado en Salamanca en agosto de 1971",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "2",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Salamanca",
+        "publisher": "Asociación Internacional de Hispanistas",
+        "date": "1982",
+        "pages": "237-249",
+        "language": "Spanish",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "reg:Andalusia [39.92, -3.02]"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "reg:Spain [39.92, -3.02]"
+            },
+            {
+                "tag": "vt:Jewish dialects"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:ethnic minorities"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:lexicon"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:phonology"
+            },
+            {
+                "tag": "vt:syntax"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-25T09:10:39Z"
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "key": "33W5DVQF",
+    "version": 8446,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/33W5DVQF",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/33W5DVQF",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Versteegh",
+        "parsedDate": "2010",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "33W5DVQF",
+        "version": 8446,
+        "itemType": "bookSection",
+        "title": "Contact and the Development of Arabic",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Kees",
+                "lastName": "Versteegh"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Raymond",
+                "lastName": "Hickey"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "The Handbook of Language Contact",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Oxford",
+        "publisher": "Wiley-Blackwell",
+        "date": "2010",
+        "pages": "634-651",
+        "language": "en",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "2018-01-17T16:56:31Z",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "CrossRef",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:versteegh_2010-04-09_3178)",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-08T14:09:26Z"
+    }
+}

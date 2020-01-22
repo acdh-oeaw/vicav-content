@@ -1,0 +1,105 @@
+{
+    "key": "XMMPZK5E",
+    "version": 5623,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/XMMPZK5E",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/XMMPZK5E",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Turner",
+        "parsedDate": "2013",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "XMMPZK5E",
+        "version": 5623,
+        "itemType": "thesis",
+        "title": "Definiteness Marking in Moroccan Arabic: Contact, Divergence, and Semantic Change. MA thesis",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Michael Lee",
+                "lastName": "Turner"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "",
+        "university": "University of Texas at Austin",
+        "place": "Austin/Texas",
+        "date": "2013",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:loanwords"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-10-27T14:11:32Z",
+        "dateModified": "2018-10-27T14:13:06Z"
+    }
+}

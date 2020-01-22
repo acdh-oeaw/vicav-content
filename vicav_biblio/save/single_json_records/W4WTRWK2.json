@@ -1,0 +1,97 @@
+{
+    "key": "W4WTRWK2",
+    "version": 6845,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/W4WTRWK2",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/W4WTRWK2",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Zaidane",
+        "parsedDate": "1980",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "W4WTRWK2",
+        "version": 6845,
+        "itemType": "thesis",
+        "title": "Emprunt et mélange: produits d'une situation de contact de langues au Maroc",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Karima",
+                "lastName": "Zaidane"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "Thèse de 3ème cycle non publiée",
+        "university": "Paris III",
+        "place": "Paris",
+        "date": "1980",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:zaidane_1980_4103)",
+        "tags": [
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:berber languages"
+            },
+            {
+                "tag": "vt:contact linguistics"
+            },
+            {
+                "tag": "vt:french language"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

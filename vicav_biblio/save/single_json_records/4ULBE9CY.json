@@ -1,0 +1,85 @@
+{
+    "key": "4ULBE9CY",
+    "version": 6244,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/4ULBE9CY",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/4ULBE9CY",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Harrama",
+        "parsedDate": "1993",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "4ULBE9CY",
+        "version": 6244,
+        "itemType": "thesis",
+        "title": "Libyan Arabic Morphology: Al-Jabal Dialect",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Abdulgialil Mohamed",
+                "lastName": "Harrama"
+            }
+        ],
+        "abstractNote": "",
+        "thesisType": "",
+        "university": "",
+        "place": "Arizona",
+        "date": "1993",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:harrama_1993_0000)",
+        "tags": [
+            {
+                "tag": "cnt:Lebanon"
+            },
+            {
+                "tag": "cnt:Libya"
+            },
+            {
+                "tag": "vt:morphology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-10-04T18:43:33Z"
+    }
+}

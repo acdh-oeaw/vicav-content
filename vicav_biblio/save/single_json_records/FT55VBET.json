@@ -1,0 +1,129 @@
+{
+    "key": "FT55VBET",
+    "version": 3519,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/FT55VBET",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/FT55VBET",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Biarnay",
+        "parsedDate": "1924",
+        "numChildren": 1
+    },
+    "data": {
+        "key": "FT55VBET",
+        "version": 3519,
+        "itemType": "book",
+        "title": "Notes d'ethnographie et de linguistique nord-africaines",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Simon",
+                "lastName": "Biarnay"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Louis",
+                "lastName": "Brunot"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Emile",
+                "lastName": "Laoust"
+            }
+        ],
+        "abstractNote": "",
+        "series": "Publications de l'Institut des Hautes Études Marocaines",
+        "seriesNumber": "",
+        "volume": "12",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Rabat",
+        "publisher": "Ernest Leroux",
+        "date": "1924",
+        "numPages": "",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:biarnay_1924_3399)",
+        "tags": [
+            {
+                "tag": "cnt:Algeria"
+            },
+            {
+                "tag": "cnt:Morocco"
+            },
+            {
+                "tag": "cnt:Tunisia"
+            },
+            {
+                "tag": "vt:Maghreb"
+            },
+            {
+                "tag": "vt:ethnography"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            },
+            {
+                "tag": "vt:sociolinguistics"
+            },
+            {
+                "tag": "vt:transcribed texts"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-01T09:28:34Z"
+    }
+}

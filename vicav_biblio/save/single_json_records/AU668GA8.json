@@ -1,0 +1,91 @@
+{
+    "key": "AU668GA8",
+    "version": 7588,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/AU668GA8",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/AU668GA8",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Rasmussen",
+        "parsedDate": "1977",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "AU668GA8",
+        "version": 7588,
+        "itemType": "journalArticle",
+        "title": "An analysis of colloquial elements in the orthography and morphology of Hadî? 'u?fûr al-mulaqqab bi-'Abi Disah",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "St.",
+                "lastName": "Rasmussen"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Acta Orientalia (Copenhagen)",
+        "volume": "38",
+        "issue": "",
+        "pages": "135-146",
+        "date": "1977",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:rasmussen_1977_0000)",
+        "tags": [
+            {
+                "tag": "vt:diachronic perspective"
+            },
+            {
+                "tag": "vt:diglossia"
+            },
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-04-15T16:02:33Z"
+    }
+}

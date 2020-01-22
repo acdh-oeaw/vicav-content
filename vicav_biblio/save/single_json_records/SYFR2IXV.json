@@ -1,0 +1,96 @@
+{
+    "key": "SYFR2IXV",
+    "version": 2906,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/SYFR2IXV",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/SYFR2IXV",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 4438625,
+            "username": "Terlan",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/terlan",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Walle",
+        "parsedDate": "1985",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "SYFR2IXV",
+        "version": 2906,
+        "itemType": "bookSection",
+        "title": "Survivances de l'ancien égyptien dans la langue et la toponymie actuelle de l'Égypte",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "B. van de",
+                "lastName": "Walle"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Mélanges à la mémoire de Philippe Marçais",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Paris",
+        "publisher": "Libr. d'Amérique et d'Orient",
+        "date": "1985",
+        "pages": "113-121",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:walle_1985_0000)",
+        "tags": [
+            {
+                "tag": "vt:linguistics/dialectology"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-05-08T10:52:41Z"
+    }
+}

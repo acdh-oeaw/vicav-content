@@ -1,0 +1,114 @@
+{
+    "key": "TMNXE5WZ",
+    "version": 8374,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/TMNXE5WZ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/TMNXE5WZ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Seeger",
+        "parsedDate": "2009",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "TMNXE5WZ",
+        "version": 8374,
+        "itemType": "bookSection",
+        "title": "Khalaf – Ein arabisches Dorf in Khorasan",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Ulrich",
+                "lastName": "Seeger"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Werner",
+                "lastName": "Arnold"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Michael",
+                "lastName": "Jursa"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Walter W.",
+                "lastName": "Müller"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Stephan",
+                "lastName": "Procházka"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Philologisches und Historisches zwischen Anatolien und Sokotra: Analecta Semitica in Memoriam Alexander Sima",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Wiesbaden",
+        "publisher": "Harrassowitz",
+        "date": "2009",
+        "pages": "307–317",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:prochazka_2009_3258)",
+        "tags": [
+            {
+                "tag": "geo:Khorasan [42.32, 69.72]"
+            },
+            {
+                "tag": "cnt:Iran"
+            },
+            {
+                "tag": "vt:Mesopotamia"
+            },
+            {
+                "tag": "vt:description of dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-03T12:22:57Z"
+    }
+}

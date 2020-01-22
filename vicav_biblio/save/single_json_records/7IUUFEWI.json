@@ -1,0 +1,97 @@
+{
+    "key": "7IUUFEWI",
+    "version": 8204,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/7IUUFEWI",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/7IUUFEWI",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4621144,
+            "username": "Bettina_Leit",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/bettina_leit",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Lorimer",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "7IUUFEWI",
+        "version": 8204,
+        "itemType": "manuscript",
+        "title": "A Notebook on the Arabic of Ahwaz",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "David Lockhart Robertson",
+                "lastName": "Lorimer"
+            }
+        ],
+        "abstractNote": "",
+        "manuscriptType": "",
+        "place": "Unpublished MS deposited in the library of the School of Oriental and African Studies, London University",
+        "date": "n.d.",
+        "numPages": "",
+        "language": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "geo:Ahwaz [31.32, 48.68]"
+            },
+            {
+                "tag": "cnt:Iran"
+            },
+            {
+                "tag": "vt:Mesopotamia"
+            },
+            {
+                "tag": "vt:description of dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-18T14:31:40Z",
+        "dateModified": "2018-09-19T12:54:33Z"
+    }
+}

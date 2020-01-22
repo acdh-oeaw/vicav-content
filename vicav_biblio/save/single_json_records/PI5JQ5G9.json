@@ -1,0 +1,105 @@
+{
+    "key": "PI5JQ5G9",
+    "version": 7754,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/PI5JQ5G9",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/PI5JQ5G9",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 4622760,
+            "username": "StephanPro",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/stephanpro",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Ambros",
+        "parsedDate": "1982",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "PI5JQ5G9",
+        "version": 7754,
+        "itemType": "journalArticle",
+        "title": "Beobachtungen zu den arabischen Präpositionen min and ?an",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Arne A.",
+                "lastName": "Ambros"
+            }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Wiener Zeitschrift für die Kunde des Morgenlandes",
+        "volume": "74",
+        "issue": "",
+        "pages": "95-102",
+        "date": "1982",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "language": "",
+        "DOI": "",
+        "ISSN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+            {
+                "tag": "vt:Arab World general"
+            },
+            {
+                "tag": "vt:general/comparative study"
+            },
+            {
+                "tag": "vt:morphology"
+            },
+            {
+                "tag": "vt:semantics"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2019-02-04T16:39:53Z",
+        "dateModified": "2019-02-04T16:41:02Z"
+    }
+}

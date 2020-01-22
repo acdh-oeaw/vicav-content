@@ -1,0 +1,115 @@
+{
+    "key": "JSXU3KSZ",
+    "version": 4062,
+    "library": {
+        "type": "group",
+        "id": 2165756,
+        "name": "VICAV",
+        "links": {
+            "alternate": {
+                "href": "https://www.zotero.org/groups/vicav",
+                "type": "text/html"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://api.zotero.org/groups/2165756/items/JSXU3KSZ",
+            "type": "application/json"
+        },
+        "alternate": {
+            "href": "https://www.zotero.org/groups/vicav/items/JSXU3KSZ",
+            "type": "text/html"
+        }
+    },
+    "meta": {
+        "createdByUser": {
+            "id": 2136239,
+            "username": "CMoerth",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/cmoerth",
+                    "type": "text/html"
+                }
+            }
+        },
+        "lastModifiedByUser": {
+            "id": 5116658,
+            "username": "erceg2018",
+            "name": "",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/erceg2018",
+                    "type": "text/html"
+                }
+            }
+        },
+        "creatorSummary": "Herin",
+        "parsedDate": "2005",
+        "numChildren": 0
+    },
+    "data": {
+        "key": "JSXU3KSZ",
+        "version": 4062,
+        "itemType": "bookSection",
+        "title": "Le parler arabe de Der ez-Zor (Syrie)",
+        "creators": [
+            {
+                "creatorType": "author",
+                "firstName": "Bruno",
+                "lastName": "Herin"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Xavier",
+                "lastName": "Luffin"
+            },
+            {
+                "creatorType": "editor",
+                "firstName": "Sylvie",
+                "lastName": "Vanséveren"
+            }
+        ],
+        "abstractNote": "",
+        "bookTitle": "Orientalia d'hier et d'aujourd'hui",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "place": "Leuven",
+        "publisher": "Peeters",
+        "date": "2005",
+        "pages": "49-57",
+        "language": "",
+        "ISBN": "",
+        "shortTitle": "",
+        "url": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "(biblid:herin_2005_0000)",
+        "tags": [
+            {
+                "tag": "geo:Deir ez-Zor [35.32, 40.13]"
+            },
+            {
+                "tag": "reg:Mesopotamia [35.14, 42.48]"
+            },
+            {
+                "tag": "cnt:Syria"
+            },
+            {
+                "tag": "vt:description of dialect"
+            }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2018-04-15T16:02:33Z",
+        "dateModified": "2018-09-18T12:24:55Z"
+    }
+}
