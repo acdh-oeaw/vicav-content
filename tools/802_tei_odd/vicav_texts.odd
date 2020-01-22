@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ODD for the VICAV Dialect Sample Texts</title>
+            <author>Charly Mörth</author>
+            <author>Daniel Schopper</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>ACDH-OeAW</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date>2019</date>
+            <availability status="restricted">
+               <p><ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/></p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This is an original digital text.</p>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <listPrefixDef>
+           <prefixDef ident="sample" matchPattern="^sample:(.+)/.+$" replacementPattern="vicav_sample_text_002.xml#\1"/>
+        </listPrefixDef>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <head>Sample Texts (Explanation)</head>
+         <p  xml:space="preserve">The sample texts are translations of the same <ref  target="sample:msa_sample_01">source text</ref>. They vary slightly with respect to regional differences. However, they are homogeneous enough to allow students to compare the numerous linguistic phenomena displayed in the texts.</p>
+         
+         <p  xml:space="preserve">Sofar we provide sample texts for six locations: <list>
+            <item><ref  target="sample:baghdad_sample_01/Baghdad">Baghdad</ref></item>
+            <item><ref  target="sample:cairo_sample_01/Cairo">Cairo</ref></item>
+            <item><ref  target="sample:damascus_sample_01/Damascus">Damascus</ref></item>
+            <item><ref  target="sample:douz_sample_01/Douz">Douz</ref></item>
+            <item><ref  target="sample:urfa_sample_01/Şanlıurfa">Şanlıurfa</ref></item>
+            <item><ref  target="sample:tunis_sample_01/Tunis">Tunis</ref></item>
+          </list>
+        </p>
+         <schemaSpec ident="vicav_texts" start="teiCorpus">
+            <moduleRef key="tei"/>
+            <moduleRef key="core" include="author date head name p publisher pubPlace ref teiCorpus title"/>
+            <moduleRef key="header" include="availability fileDesc publicationStmt publisher profileDesc sourceDesc titleStmt teiHeader"/>
+            <moduleRef key="textstructure" include="TEI div body text"/>
+            <moduleRef key="iso-fs" include="fs f"/>
+            <moduleRef key="corpus" include="particDesc"/>
+            <moduleRef key="analysis" include="w s c"/>
+            <moduleRef key="namesdates" include="geo"/>
+            <elementSpec ident="body" mode="change">
+               <constraintSpec ident="body-content" scheme="schematron">
+                  <desc>assert that the body of a sample text contains a heading, the geo coordinates and the text itself.</desc>
+                  <constraint>
+                     <s:rule context="tei:body">
+                        <s:assert test="*[1]/self::tei:head">the first child element of the body must be a head element</s:assert>
+                        <s:assert test="*[2]/self::tei:div[@type = 'positioning'][tei:p/tei:geo]">the second child element of the body must be a p containing a geo element element</s:assert>
+                     </s:rule>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            
+            <elementSpec ident="geo" module="namesdates" mode="change">
+               <content>
+                  <textNode/>
+               </content>
+               <constraintSpec ident="geo-coordinates" scheme="schematron">
+                  <constraint>
+                     <s:rule context="tei:geo">
+                        <s:assert test="matches(.,'^-?\d+\.\d+,\s+-?\d+\.\d+$')">the geo element must contain valid coordinates in decimal notation</s:assert>
+                        <s:assert test="parent::tei:p/parent::tei:div[@type = 'positioning'][parent::tei:body]">the geo element must be placed inside the first div with an appropariate type attribute</s:assert>
+                     </s:rule>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+
+            <elementSpec ident="date" module="core" mode="change">
+               <content>
+                  <textNode/>
+               </content>
+               <constraintSpec ident="date-non-empty" scheme="schematron">
+                  <constraint>
+                     <s:rule context="tei:date[parent::tei:publicationStmt]">
+                        <s:assert test="matches(., '^\d{4,4}(-\d{2,2}-\d{2,2})?$')">date in publication statement must be either YYYY or YYYY-MM-DD</s:assert>
+                     </s:rule>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+
+            <elementSpec ident="author" module="core" mode="change">
+               <content>
+                  <textNode/>
+               </content>
+               <constraintSpec ident="author" scheme="schematron">
+                  <constraint>
+                     <s:rule context="tei:author">
+                        <s:assert test=". != ''">author must be non-empty</s:assert>
+                     </s:rule>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            
+            <elementSpec ident="div" module="textstructure" mode="change">
+               <attList>
+                  <attDef ident="type" mode="replace">
+                     <valList type="closed" mode="change">
+                        <valItem ident="positioning">
+                           <desc>contains a <gi>p</gi> with the geo coordinates of the place where the sample is taken from.</desc>
+                        </valItem>
+                        <valItem ident="sampleText">
+                           <desc>contains the sample Text</desc>
+                        </valItem>
+                        <valItem ident="dvTranslations">
+                           <desc>contains the sentence-based translations</desc>
+                        </valItem>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            
+            
+            
+            <elementSpec ident="s" module="analysis" mode="change">
+               <constraintSpec ident="s-alignment" scheme="schematron">
+                  <constraint>
+                     <s:rule context="tei:s[ancestor::tei:div[@type = 'sampleText']]">
+                        <s:assert test="@n = ancestor::tei:body/tei:div[@type = 'dvTranslations']/tei:p/tei:s/@n">no translationSentence found for s[@n = '<s:value-of select="current()/@n"/>']</s:assert>
+                     </s:rule>
+                  </constraint>
+               </constraintSpec>
+               <attList>
+                  <attDef ident="type" mode="replace" usage="opt">
+                     <valList type="closed">
+                        <valItem ident="translationSentence">
+                           <desc>the translation of a sentence in div[@type="sample"]</desc>
+                        </valItem>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="fs" module="iso-fs" mode="change">
+               <content>
+                  <elementRef key="f" minOccurs="6" maxOccurs="6"/>
+               </content>
+            </elementSpec>
+            
+            <elementSpec ident="f" module="iso-fs" mode="change">
+               <attList>
+                  <attDef ident="name" mode="replace">
+                     <valList type="closed">
+                        <valItem ident="wordform">
+                           <desc>the surfaceform of one token</desc>
+                        </valItem>
+                        <valItem ident="pos">
+                           <desc>the part-of-speech type of the token</desc>
+                        </valItem>
+                        <valItem ident="lemma">
+                           <desc>the lemma of the token</desc>
+                        </valItem>
+                        <valItem ident="lemmaRef">
+                           <desc>the ID of the lemma in the dictionary</desc>
+                        </valItem>
+                        <valItem ident="translation">
+                           <desc>the english translation of the token</desc>
+                        </valItem>
+                        <valItem ident="other">
+                           <desc>any information other than wordform, pos, lemma or translation</desc>
+                        </valItem>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+         </schemaSpec>
+      </body>
+  </text>
+</TEI>

@@ -1,687 +1,1144 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:dct="http://purl.org/dc/terms/"
-  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322934">
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:30.919398+00:00</dct:modified>
-    <skos:prefLabel xml:lang="en">Kozluk-Sason Group</skos:prefLabel>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:30.799407+00:00</dct:created>
-    <skos:broader>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322931">
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:39.678015+00:00</dct:modified>
-        <skos:notation>anatolia-1</skos:notation>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324646"/>
+  <skos:Collection rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#collection246">
+    <skos:member>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322824">
         <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322821"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322827"/>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:36.132240+00:00</dct:created>
+        <skos:notation>northeastern-syria-qəltu</skos:notation>
         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322934"/>
-        <skos:prefLabel xml:lang="en">Anatolia</skos:prefLabel>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:39.428447+00:00</dct:created>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T15:40:23.025898+00:00</dct:modified>
+        <skos:prefLabel xml:lang="en">Northeastern Syria</skos:prefLabel>
       </skos:Concept>
-    </skos:broader>
-    <skos:inScheme>
-      <skos:ConceptScheme rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects">
-        <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322458"/>
-        <rdfs:label xml:lang="en">VICAV Taxonomy of Arabic Dialects</rdfs:label>
-        <dc:title xml:lang="en">VICAV Taxonomy of Arabic Dialects</dc:title>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:12.486628+00:00</dct:created>
-        <dc:language>en</dc:language>
-        <dc:creator>Charly Mörth</dc:creator>
-        <dc:description xml:lang="en">The „VICAV Taxonomy of Arabic Dialects“ provides a classification scheme for Arabic dialects used in the VICAV application and sources.</dc:description>
-        <dc:publisher>Austrian Centre for Digital Humanities</dc:publisher>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:09:29.874357+00:00</dct:modified>
-        <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322488"/>
-      </skos:ConceptScheme>
-    </skos:inScheme>
-    <skos:notation>kozluk-sason-group</skos:notation>
-  </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322503">
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:24.322023+00:00</dct:modified>
-    <skos:narrower>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324539">
+    </skos:member>
+    <skos:scopeNote xml:lang="en">Mesopotamian dialects</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">qəltu</skos:prefLabel>
+    <skos:member>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324646">
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:27.781811+00:00</dct:created>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322931"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16849"/>
+        <skos:notation>mardin-group</skos:notation>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16850"/>
         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:notation>eastern-dialects</skos:notation>
-        <skos:prefLabel xml:lang="en">Eastern dialects</skos:prefLabel>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:25.773876+00:00</dct:modified>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:25.591840+00:00</dct:created>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322503"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16851"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T13:35:32.995770+00:00</dct:modified>
+        <skos:prefLabel xml:lang="en">Mardin group</skos:prefLabel>
       </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322506">
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16852">
         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:32.245546+00:00</dct:modified>
-        <skos:prefLabel xml:lang="en">Western dialects</skos:prefLabel>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:32.213292+00:00</dct:created>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322503"/>
-        <skos:notation>western-dialects</skos:notation>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T13:34:55.398408+00:00</dct:modified>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T16:11:41.422728+00:00</dct:created>
+        <skos:prefLabel xml:lang="en">Diyarbakir group</skos:prefLabel>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322931"/>
+        <skos:altLabel xml:lang="tur">Diyarbakır</skos:altLabel>
+        <skos:notation>diyarbakir-group</skos:notation>
       </skos:Concept>
-    </skos:narrower>
-    <skos:broader>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322488">
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:25.156209+00:00</dct:modified>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324318"/>
-        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322884"/>
-        <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:25.117620+00:00</dct:created>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322503"/>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324164"/>
-        <skos:prefLabel xml:lang="en">West (Maghreb)</skos:prefLabel>
-        <skos:notation>west-maghreb</skos:notation>
-      </skos:Concept>
-    </skos:broader>
-    <skos:narrower>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322650">
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:21.399386+00:00</dct:created>
-        <skos:notation>northern-dialects</skos:notation>
-        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:21.460089+00:00</dct:modified>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322503"/>
-        <skos:prefLabel xml:lang="en">Northern dialects</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:notation>algeria</skos:notation>
-    <skos:prefLabel xml:lang="en">Algeria</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:24.112635+00:00</dct:created>
-    <skos:narrower>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323357">
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322503"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:30.023656+00:00</dct:modified>
-        <skos:notation>saharan-dialects</skos:notation>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:29.949742+00:00</dct:created>
-        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:prefLabel xml:lang="en">Saharan dialects</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-  </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323200">
-    <skos:broader>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323197">
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322964"/>
-        <skos:prefLabel xml:lang="en">Northern group</skos:prefLabel>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322771"/>
-        <skos:notation>northern-group-1</skos:notation>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322777"/>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323200"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-15T07:24:04.478019+00:00</dct:modified>
-        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:23.510704+00:00</dct:created>
-      </skos:Concept>
-    </skos:broader>
-    <skos:narrower>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323203">
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:39.988354+00:00</dct:created>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323200"/>
-        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:prefLabel xml:lang="en">Gulf</skos:prefLabel>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:40.154533+00:00</dct:modified>
-        <skos:notation>gulf-1</skos:notation>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:prefLabel xml:lang="en">Central Najd</skos:prefLabel>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:36.952439+00:00</dct:created>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:37.198311+00:00</dct:modified>
-    <skos:notation>central-najd</skos:notation>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323782">
-    <skos:prefLabel xml:lang="en">Southern Tunisia</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <skos:broader>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324318">
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323782"/>
-        <skos:notation>tunisia-1</skos:notation>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324509"/>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324321"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:34.468031+00:00</dct:modified>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322488"/>
-        <skos:prefLabel xml:lang="en">Tunisia</skos:prefLabel>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:34.367079+00:00</dct:created>
-        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-      </skos:Concept>
-    </skos:broader>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:35.191734+00:00</dct:created>
-    <skos:notation>southern-tunisia</skos:notation>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:15:06.350230+00:00</dct:modified>
-  </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324509">
-    <skos:notation>northern-tunisia</skos:notation>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:41.787074+00:00</dct:created>
-    <skos:prefLabel xml:lang="en">Northern Tunisia</skos:prefLabel>
-    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324318"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:14:17.882639+00:00</dct:modified>
-  </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324321">
-    <skos:prefLabel xml:lang="en">Southwestern Tunisia</skos:prefLabel>
-    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324318"/>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:39.245481+00:00</dct:created>
-    <skos:notation>southwestern-tunisia</skos:notation>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:39.334409+00:00</dct:modified>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324415">
-    <skos:prefLabel xml:lang="en">Northern group</skos:prefLabel>
-    <skos:broader>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322550">
-        <skos:prefLabel xml:lang="en">Lebanon</skos:prefLabel>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322553"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:38.154491+00:00</dct:modified>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:38.038711+00:00</dct:created>
-        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322547"/>
-        <skos:notation>lebanon</skos:notation>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324415"/>
-      </skos:Concept>
-    </skos:broader>
-    <skos:notation>northern-group-1</skos:notation>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:31.122838+00:00</dct:modified>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:31.030809+00:00</dct:created>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324365">
-    <skos:narrower>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324368">
-        <skos:notation>galilee</skos:notation>
-        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324365"/>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:26.160257+00:00</dct:created>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:26.336729+00:00</dct:modified>
-        <skos:prefLabel xml:lang="en">Galilee</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:27.552354+00:00</dct:modified>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <skos:notation>palestine</skos:notation>
-    <skos:broader>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322547">
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324134"/>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323933"/>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322458"/>
-        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:prefLabel xml:lang="en">Levant</skos:prefLabel>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324365"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-15T07:20:12.470521+00:00</dct:modified>
-        <skos:notation>levant-1</skos:notation>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323294"/>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322550"/>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:39.023741+00:00</dct:created>
-      </skos:Concept>
-    </skos:broader>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:27.479066+00:00</dct:created>
-    <skos:prefLabel xml:lang="en">Palestine</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323856">
-    <skos:broader>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322821">
-        <skos:prefLabel xml:lang="en">Mesopotamia</skos:prefLabel>
-        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322931"/>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323856"/>
-        <skos:notation>mesopotamia</skos:notation>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322458"/>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323622"/>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:21.568394+00:00</dct:created>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323024"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-15T07:21:20.649428+00:00</dct:modified>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322824"/>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322694"/>
-      </skos:Concept>
-    </skos:broader>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:29.365257+00:00</dct:created>
-    <skos:narrower>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323859">
-        <skos:notation>kozluk-sason-muș-group</skos:notation>
-        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323856"/>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:28.550812+00:00</dct:created>
-        <skos:prefLabel xml:lang="en">Kozluk-Sason-Muș group</skos:prefLabel>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:28.642233+00:00</dct:modified>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:notation>anatolia-qəltu</skos:notation>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <skos:narrower>
+    </skos:member>
+    <skos:member>
       <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324291">
-        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:23:58.144243+00:00</dct:modified>
-        <skos:prefLabel xml:lang="en">Siirt/Mardin group</skos:prefLabel>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T13:35:55.544966+00:00</dct:modified>
         <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:41.046929+00:00</dct:created>
-        <skos:notation>siirtmardin-group</skos:notation>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323856"/>
-      </skos:Concept>
-    </skos:narrower>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:29.571481+00:00</dct:modified>
-    <skos:prefLabel xml:lang="en">Anatolia (qəltu)</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324164">
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:23.369670+00:00</dct:modified>
-    <skos:notation>libya</skos:notation>
-    <skos:prefLabel xml:lang="en">Libya</skos:prefLabel>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:23.256429+00:00</dct:created>
-    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322488"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324167">
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:37.464376+00:00</dct:modified>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324164"/>
         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:37.314559+00:00</dct:created>
-        <skos:prefLabel xml:lang="en">North Eastern Libya</skos:prefLabel>
-        <skos:notation>north-eastern-libya</skos:notation>
+        <skos:prefLabel xml:lang="en">Siirt group</skos:prefLabel>
+        <skos:notation>siirt-group</skos:notation>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322931"/>
       </skos:Concept>
-    </skos:narrower>
-  </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323622">
-    <skos:notation>iraq-qəltu</skos:notation>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:34.980586+00:00</dct:created>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:35.099365+00:00</dct:modified>
-    <skos:prefLabel xml:lang="en">Iraq (qəltu)</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322821"/>
-    <skos:narrower>
+    </skos:member>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T15:59:55.081680+00:00</dct:modified>
+    <skos:member>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16847">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T13:30:47.500632+00:00</dct:modified>
+        <skos:prefLabel xml:lang="en">Euphrates group</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <skos:notation>iraq-euphrates</skos:notation>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T16:08:16.059951+00:00</dct:created>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323622"/>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
       <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323625">
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <skos:notation>tigris-group</skos:notation>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T13:31:29.633208+00:00</dct:modified>
         <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:28.736469+00:00</dct:created>
         <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323622"/>
-        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:28.776768+00:00</dct:modified>
         <skos:prefLabel xml:lang="en">Tigris group</skos:prefLabel>
-        <skos:notation>tigris-group</skos:notation>
       </skos:Concept>
-    </skos:narrower>
-  </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323572">
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:31.557335+00:00</dct:created>
-    <skos:prefLabel xml:lang="en">Sudan</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323575">
-        <skos:notation>eastern-group</skos:notation>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322827">
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:27.960247+00:00</dct:created>
+        <skos:prefLabel xml:lang="en">Euphrates group</skos:prefLabel>
         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:prefLabel xml:lang="en">Eastern group</skos:prefLabel>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323578"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:25.012646+00:00</dct:modified>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323572"/>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:24.818308+00:00</dct:created>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T13:37:20.582222+00:00</dct:modified>
+        <skos:notation>northeastern-syria-euphrates</skos:notation>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322824"/>
       </skos:Concept>
-    </skos:narrower>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322931">
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324646"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324291"/>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322821"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16852"/>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <skos:notation>anatolia</skos:notation>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323859"/>
+        <skos:prefLabel xml:lang="en">Anatolia</skos:prefLabel>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T16:01:04.419951+00:00</dct:modified>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:39.428447+00:00</dct:created>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323859">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T13:35:16.369017+00:00</dct:modified>
+        <skos:prefLabel xml:lang="en">Kozluk-Sason-Muș group</skos:prefLabel>
+        <skos:notation>kozluk-sason-muș-group</skos:notation>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:28.550812+00:00</dct:created>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322931"/>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+      </skos:Concept>
+    </skos:member>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T15:58:56.552922+00:00</dct:created>
+    <skos:member>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16848">
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T16:08:41.799305+00:00</dct:created>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <skos:prefLabel xml:lang="en">Kurdistan group</skos:prefLabel>
+        <skos:notation>iraq-kurdistan</skos:notation>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T13:31:06.553764+00:00</dct:modified>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323622"/>
+      </skos:Concept>
+    </skos:member>
+  </skos:Collection>
+  <skos:Collection rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#collection247">
+    <skos:member>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322697">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T13:33:11.093556+00:00</dct:modified>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:39.801471+00:00</dct:created>
+        <skos:prefLabel xml:lang="en">South</skos:prefLabel>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323622"/>
+        <skos:notation>iraq-south</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T16:00:18.749000+00:00</dct:created>
+    <skos:prefLabel xml:lang="en">gilit</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Mesopotamian dialects</skos:scopeNote>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T16:00:18.775188+00:00</dct:modified>
+    <skos:member>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16845">
+        <skos:notation>iraq-north</skos:notation>
+        <skos:prefLabel xml:lang="en">North</skos:prefLabel>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T16:06:55.567538+00:00</dct:created>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323622"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T13:32:50.535866+00:00</dct:modified>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16846">
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T16:07:19.536493+00:00</dct:created>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T13:32:25.217241+00:00</dct:modified>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323622"/>
+        <skos:prefLabel xml:lang="en">Centre</skos:prefLabel>
+        <skos:notation>iraq-centre</skos:notation>
+      </skos:Concept>
+    </skos:member>
+  </skos:Collection>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16840">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T15:50:01.441126+00:00</dct:modified>
     <skos:broader>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322611">
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-15T07:19:31.773098+00:00</dct:modified>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322614"/>
-        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:notation>egypt-sudan</skos:notation>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323572"/>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:32.528263+00:00</dct:created>
-        <skos:prefLabel xml:lang="en">Egypt-Sudan</skos:prefLabel>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322547">
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323933"/>
+        <skos:notation>levant-1</skos:notation>
         <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322458"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324365"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-15T07:20:12.470521+00:00</dct:modified>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323294"/>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:39.023741+00:00</dct:created>
+        <skos:prefLabel xml:lang="en">Levant</skos:prefLabel>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16840"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322550"/>
       </skos:Concept>
     </skos:broader>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:31.633174+00:00</dct:modified>
-    <skos:notation>sudan</skos:notation>
-  </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322777">
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-15T07:25:17.803100+00:00</dct:modified>
-    <skos:prefLabel xml:lang="en">Central Najd (ˁAnaza)</skos:prefLabel>
-    <skos:notation>central-najd-ˁanaza</skos:notation>
     <skos:narrower>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322780">
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:24.417560+00:00</dct:created>
-        <skos:notation>gulf</skos:notation>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16841">
+        <skos:notation>jordan-north</skos:notation>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T15:50:36.204631+00:00</dct:created>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T16:04:08.733264+00:00</dct:modified>
         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:prefLabel xml:lang="en">Gulf</skos:prefLabel>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322777"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:24.511078+00:00</dct:modified>
+        <skos:prefLabel xml:lang="en">North</skos:prefLabel>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16840"/>
       </skos:Concept>
     </skos:narrower>
-    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323197"/>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:22.209940+00:00</dct:created>
-  </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322476">
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-15T07:24:26.248305+00:00</dct:modified>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:41.570488+00:00</dct:created>
-    <skos:notation>oman</skos:notation>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <skos:prefLabel xml:lang="en">Oman</skos:prefLabel>
-    <skos:broader>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322771">
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323197"/>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323401"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-14T12:43:25.220150+00:00</dct:modified>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324569"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16843">
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T15:51:42.773293+00:00</dct:created>
+        <skos:prefLabel xml:lang="en">South</skos:prefLabel>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16840"/>
+        <skos:notation>jordan-south</skos:notation>
         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:notation>arabia</skos:notation>
-        <skos:prefLabel xml:lang="en">Arabia</skos:prefLabel>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322476"/>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:20.985399+00:00</dct:created>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322458"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T16:04:24.328551+00:00</dct:modified>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">Jordan</skos:prefLabel>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T15:50:01.399652+00:00</dct:created>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects">
+        <dc:language>en</dc:language>
+        <rdfs:label xml:lang="en">VICAV Taxonomy of Arabic Dialects</rdfs:label>
+        <dc:publisher>Austrian Centre for Digital Humanities</dc:publisher>
+        <dc:description xml:lang="en">The „VICAV Taxonomy of Arabic Dialects“ provides a classification scheme for Arabic dialects used in the VICAV application and sources.</dc:description>
+        <dc:creator>Charly Mörth</dc:creator>
+        <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322488"/>
+        <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322458"/>
+        <dc:title xml:lang="en">VICAV Taxonomy of Arabic Dialects</dc:title>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:12.486628+00:00</dct:created>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:09:29.874357+00:00</dct:modified>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:notation>jordan</skos:notation>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16842">
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16840"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T16:03:47.552289+00:00</dct:modified>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T15:50:51.735480+00:00</dct:created>
+        <skos:prefLabel xml:lang="en">Centre</skos:prefLabel>
+        <skos:notation>jordan-centre</skos:notation>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16875">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:15:07.233940+00:00</dct:modified>
+    <skos:broader>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322620">
+        <skos:notation>western-delta</skos:notation>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322617"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16875"/>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:40.687994+00:00</dct:created>
+        <skos:prefLabel xml:lang="en">Western Delta</skos:prefLabel>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16874"/>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16876"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:14:45.267483+00:00</dct:modified>
       </skos:Concept>
     </skos:broader>
-  </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323933">
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:27.687597+00:00</dct:modified>
-    <skos:narrower>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323936">
-        <skos:prefLabel xml:lang="en">Cilicia (Çukurova)</skos:prefLabel>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:36.627302+00:00</dct:created>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:36.840858+00:00</dct:modified>
-        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323933"/>
-        <skos:notation>cilicia-çukurova</skos:notation>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322547"/>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:27.646688+00:00</dct:created>
-    <skos:notation>turkey</skos:notation>
-    <skos:prefLabel xml:lang="en">Turkey</skos:prefLabel>
+    <skos:notation>rosetta</skos:notation>
     <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:prefLabel xml:lang="en">Rosetta</skos:prefLabel>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:15:07.191963+00:00</dct:created>
   </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323401">
-    <skos:prefLabel xml:lang="en">Yemen</skos:prefLabel>
-    <skos:narrower>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323672">
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:29.259056+00:00</dct:modified>
-        <skos:prefLabel xml:lang="en">Sa’da region</skos:prefLabel>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323401"/>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:29.182555+00:00</dct:created>
-        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:notation>sada-region</skos:notation>
-      </skos:Concept>
-    </skos:narrower>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:30.667173+00:00</dct:created>
-    <skos:narrower>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324214">
-        <skos:prefLabel xml:lang="en">Western Highlands</skos:prefLabel>
-        <skos:notation>western-highlands</skos:notation>
-        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:38.540278+00:00</dct:created>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323401"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-15T07:26:17.211807+00:00</dct:modified>
-      </skos:Concept>
-    </skos:narrower>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:30.701086+00:00</dct:modified>
-    <skos:notation>yemen-1</skos:notation>
-    <skos:narrower>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323404">
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:28.876689+00:00</dct:created>
-        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:29.085301+00:00</dct:modified>
-        <skos:notation>aden</skos:notation>
-        <skos:prefLabel xml:lang="en">Aden</skos:prefLabel>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323401"/>
-      </skos:Concept>
-    </skos:narrower>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16824">
+    <skos:altLabel xml:lang="ara">Tihāma</skos:altLabel>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T14:15:03.322378+00:00</dct:created>
+    <skos:notation>tihama</skos:notation>
     <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322771"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T14:15:26.762528+00:00</dct:modified>
+    <skos:prefLabel xml:lang="en">Tihama</skos:prefLabel>
+    <skos:broader>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323401">
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16829"/>
+        <skos:prefLabel xml:lang="en">Yemen</skos:prefLabel>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16826"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16830"/>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322771"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16828"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16831"/>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323404"/>
+        <skos:notation>yemen-1</skos:notation>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:30.667173+00:00</dct:created>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16824"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16825"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324214"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16827"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:30.701086+00:00</dct:modified>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323672"/>
+      </skos:Concept>
+    </skos:broader>
   </skos:Concept>
   <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323294">
-    <skos:notation>syria</skos:notation>
     <skos:narrower>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323451">
-        <skos:prefLabel xml:lang="en">Coast</skos:prefLabel>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323294"/>
-        <skos:notation>coast</skos:notation>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323297">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T16:04:42.584410+00:00</dct:modified>
         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:22.935308+00:00</dct:created>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:23.127905+00:00</dct:modified>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:32.840195+00:00</dct:created>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323294"/>
+        <skos:notation>syria-centre</skos:notation>
+        <skos:prefLabel xml:lang="en">Centre</skos:prefLabel>
       </skos:Concept>
     </skos:narrower>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:35.671820+00:00</dct:created>
     <skos:prefLabel xml:lang="en">Syria</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322547"/>
+    <skos:notation>syria</skos:notation>
     <skos:narrower>
       <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324090">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T15:41:52.027351+00:00</dct:modified>
         <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323294"/>
-        <skos:prefLabel xml:lang="en">Oases and Steppe Dialects</skos:prefLabel>
         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:40.593601+00:00</dct:modified>
         <skos:notation>oases-and-steppe-dialects-1</skos:notation>
+        <skos:prefLabel xml:lang="en">Oases and Steppe</skos:prefLabel>
         <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:40.481736+00:00</dct:created>
       </skos:Concept>
     </skos:narrower>
-    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322547"/>
     <skos:narrower>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323297">
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:32.840195+00:00</dct:created>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:33.130629+00:00</dct:modified>
-        <skos:notation>centre</skos:notation>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16835">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T15:43:21.609307+00:00</dct:modified>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323294"/>
+        <skos:notation>qalamun-and-damascus</skos:notation>
+        <skos:prefLabel xml:lang="en">Qalamun and Damascus</skos:prefLabel>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T15:43:21.549545+00:00</dct:created>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16834">
+        <skos:prefLabel xml:lang="en">North</skos:prefLabel>
+        <skos:notation>syria-north</skos:notation>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T15:42:49.893310+00:00</dct:created>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T16:04:57.088729+00:00</dct:modified>
         <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323294"/>
         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:prefLabel xml:lang="en">Centre</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:35.671820+00:00</dct:created>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16836">
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323294"/>
+        <skos:altLabel xml:lang="ara">Ḥawrān</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Horan</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T15:44:03.964237+00:00</dct:created>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T15:44:42.117827+00:00</dct:modified>
+        <skos:notation>hawran</skos:notation>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323451">
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323294"/>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <skos:notation>coast</skos:notation>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:23.127905+00:00</dct:modified>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:22.935308+00:00</dct:created>
+        <skos:prefLabel xml:lang="en">Coast</skos:prefLabel>
       </skos:Concept>
     </skos:narrower>
     <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:35.738557+00:00</dct:modified>
   </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322553">
-    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322550"/>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <skos:prefLabel xml:lang="en">Central-north group</skos:prefLabel>
-    <skos:notation>central-north-group</skos:notation>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:31.431303+00:00</dct:modified>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:31.219301+00:00</dct:created>
-  </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324599">
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16823">
+    <skos:notation>hedjaz</skos:notation>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T14:13:37.339747+00:00</dct:modified>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T14:13:37.294807+00:00</dct:created>
     <skos:broader>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322617">
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322771">
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323401"/>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322458"/>
+        <skos:prefLabel xml:lang="en">Arabia</skos:prefLabel>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16822"/>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:20.985399+00:00</dct:created>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323203"/>
+        <skos:notation>arabia</skos:notation>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323197"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322476"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-14T12:43:25.220150+00:00</dct:modified>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16823"/>
         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324599"/>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:25.876797+00:00</dct:created>
-        <skos:notation>delta</skos:notation>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322620"/>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322614"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:26.064964+00:00</dct:modified>
-        <skos:prefLabel xml:lang="en">Delta</skos:prefLabel>
       </skos:Concept>
     </skos:broader>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:13:00.929161+00:00</dct:modified>
-    <skos:notation>central-delta</skos:notation>
-    <skos:prefLabel xml:lang="en">Central Delta</skos:prefLabel>
     <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:21.930589+00:00</dct:created>
+    <skos:prefLabel xml:lang="en">Hedjaz</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322620">
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16830">
     <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:40.687994+00:00</dct:created>
-    <skos:notation>western-delta</skos:notation>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:40.729489+00:00</dct:modified>
-    <skos:prefLabel xml:lang="en">Western delta</skos:prefLabel>
-    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322617"/>
+    <skos:notation>hadramawt</skos:notation>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T14:42:47.374576+00:00</dct:created>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323401"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T14:42:47.412463+00:00</dct:modified>
+    <skos:prefLabel xml:lang="en">Hadramawt</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322694">
-    <skos:notation>iraq</skos:notation>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:20.208391+00:00</dct:created>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322821"/>
-    <skos:prefLabel xml:lang="en">Iraq</skos:prefLabel>
-    <skos:narrower>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322697">
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:39.801471+00:00</dct:created>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322694"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:39.896062+00:00</dct:modified>
-        <skos:prefLabel xml:lang="en">South Iraq</skos:prefLabel>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322821">
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322824"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322931"/>
+    <skos:broader>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322458">
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322547"/>
         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:notation>south-iraq</skos:notation>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322771"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322611"/>
+        <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:19.893827+00:00</dct:created>
+        <skos:prefLabel xml:lang="en">East (Mashriq)</skos:prefLabel>
+        <skos:notation>east-mashriq</skos:notation>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:20.100380+00:00</dct:modified>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322821"/>
+      </skos:Concept>
+    </skos:broader>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-15T07:21:20.649428+00:00</dct:modified>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323622">
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16847"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16848"/>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322821"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16845"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322697"/>
+        <skos:notation>iraq</skos:notation>
+        <skos:prefLabel xml:lang="en">Iraq</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323625"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T13:31:59.346861+00:00</dct:modified>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:34.980586+00:00</dct:created>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16846"/>
       </skos:Concept>
     </skos:narrower>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-14T12:40:48.899241+00:00</dct:modified>
+    <skos:notation>mesopotamia</skos:notation>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:21.568394+00:00</dct:created>
+    <skos:prefLabel xml:lang="en">Mesopotamia</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322458">
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323508">
-        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323511"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-15T07:22:10.192836+00:00</dct:modified>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322458"/>
-        <skos:notation>syro-palestinian</skos:notation>
-        <skos:prefLabel xml:lang="en">Syro-Palestinian</skos:prefLabel>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:23.752519+00:00</dct:created>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323130">
-        <skos:notation>sudan-1</skos:notation>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:33.535884+00:00</dct:created>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-15T07:21:44.782879+00:00</dct:modified>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322458"/>
-        <skos:prefLabel xml:lang="en">Sudan</skos:prefLabel>
-        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323133"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <skos:prefLabel xml:lang="en">East (Mashriq)</skos:prefLabel>
-    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322771"/>
-    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322547"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:20.100380+00:00</dct:modified>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:19.893827+00:00</dct:created>
-    <skos:notation>east-mashriq</skos:notation>
-    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322821"/>
-    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322611"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322824">
-    <skos:prefLabel xml:lang="en">Eastern Syria (qəltu)</skos:prefLabel>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:36.345605+00:00</dct:modified>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322821"/>
-    <skos:notation>eastern-syria-qəltu</skos:notation>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:36.132240+00:00</dct:created>
-    <skos:narrower>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322827">
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:28.140603+00:00</dct:modified>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322824"/>
-        <skos:notation>euphrates-group</skos:notation>
-        <skos:prefLabel xml:lang="en">Euphrates group</skos:prefLabel>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:27.960247+00:00</dct:created>
-        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-      </skos:Concept>
-    </skos:narrower>
-  </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323133">
-    <skos:narrower>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323136">
-        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323133"/>
-        <skos:prefLabel xml:lang="en">Central Sudan</skos:prefLabel>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:30.326661+00:00</dct:modified>
-        <skos:notation>central-sudan</skos:notation>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:30.116332+00:00</dct:created>
-      </skos:Concept>
-    </skos:narrower>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:33.230380+00:00</dct:created>
-    <skos:prefLabel xml:lang="en">Eastern group</skos:prefLabel>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:33.442348+00:00</dct:modified>
-    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323130"/>
-    <skos:notation>eastern-group-1</skos:notation>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16828">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323401"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T14:21:30.403739+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T15:38:33.435752+00:00</dct:modified>
+    <skos:prefLabel xml:lang="en">Southeastern group</skos:prefLabel>
+    <skos:notation>southeastern-group</skos:notation>
     <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
   </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324134">
-    <skos:prefLabel xml:lang="en">Palestine/Syria</skos:prefLabel>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322550">
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:38.038711+00:00</dct:created>
     <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322547"/>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <skos:notation>palestinesyria</skos:notation>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:37.838741+00:00</dct:created>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:37.945451+00:00</dct:modified>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:38.154491+00:00</dct:modified>
     <skos:narrower>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324137">
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16833">
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322550"/>
+        <skos:prefLabel xml:lang="en">Central south group</skos:prefLabel>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T15:41:28.386930+00:00</dct:created>
         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:22.508167+00:00</dct:created>
-        <skos:prefLabel xml:lang="en">Horan dialects</skos:prefLabel>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:22.658207+00:00</dct:modified>
-        <skos:notation>horan-dialects</skos:notation>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324134"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T15:39:58.961376+00:00</dct:modified>
+        <skos:notation>central-south-group</skos:notation>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324415">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:31.122838+00:00</dct:modified>
+        <skos:notation>northern-group-1</skos:notation>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322550"/>
+        <skos:prefLabel xml:lang="en">Northern group</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:31.030809+00:00</dct:created>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">Lebanon</skos:prefLabel>
+    <skos:notation>lebanon</skos:notation>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16832">
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T15:40:53.546502+00:00</dct:created>
+        <skos:prefLabel xml:lang="en">Southern group</skos:prefLabel>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322550"/>
+        <skos:notation>southern-group</skos:notation>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T15:40:53.590135+00:00</dct:modified>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322553">
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:31.219301+00:00</dct:created>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322550"/>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <skos:notation>central-north-group</skos:notation>
+        <skos:prefLabel xml:lang="en">Central north group</skos:prefLabel>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T15:39:47.761058+00:00</dct:modified>
       </skos:Concept>
     </skos:narrower>
   </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324569">
-    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322771"/>
-    <skos:notation>gulf-1</skos:notation>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <skos:prefLabel xml:lang="en">Gulf</skos:prefLabel>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-15T07:23:40.632472+00:00</dct:modified>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:29.672656+00:00</dct:created>
-  </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324646">
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:27.781811+00:00</dct:created>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <skos:notation>mardin-group</skos:notation>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:27.864954+00:00</dct:modified>
-    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322931"/>
-    <skos:prefLabel xml:lang="en">Mardin group</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323024">
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:40.956752+00:00</dct:modified>
-    <skos:prefLabel xml:lang="en">Iraq (gilit)</skos:prefLabel>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324365">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322547"/>
+    <skos:prefLabel xml:lang="en">Palestine</skos:prefLabel>
     <skos:narrower>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323250">
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:21.824416+00:00</dct:modified>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16838">
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T15:45:28.272812+00:00</dct:created>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324365"/>
+        <skos:prefLabel xml:lang="en">South Palestine</skos:prefLabel>
+        <skos:notation>south-palestine</skos:notation>
         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323024"/>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:21.769090+00:00</dct:created>
-        <skos:prefLabel xml:lang="en">South</skos:prefLabel>
-        <skos:notation>south</skos:notation>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T15:45:28.314491+00:00</dct:modified>
       </skos:Concept>
     </skos:narrower>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:40.818267+00:00</dct:created>
-    <skos:notation>iraq-gilit</skos:notation>
-    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322821"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:27.552354+00:00</dct:modified>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16837">
+        <skos:prefLabel xml:lang="en">Central Palestine</skos:prefLabel>
+        <skos:notation>central-palestine</skos:notation>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T15:45:08.354377+00:00</dct:created>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324365"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T15:45:08.395301+00:00</dct:modified>
+      </skos:Concept>
+    </skos:narrower>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:27.479066+00:00</dct:created>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:notation>palestine</skos:notation>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324368">
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <skos:prefLabel xml:lang="en">Galilee</skos:prefLabel>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324365"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:26.336729+00:00</dct:modified>
+        <skos:notation>galilee</skos:notation>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:26.160257+00:00</dct:created>
+      </skos:Concept>
+    </skos:narrower>
   </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322887">
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16850">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324646"/>
+    <skos:notation>mardin-villages</skos:notation>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T16:10:36.625404+00:00</dct:created>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T16:10:36.668696+00:00</dct:modified>
+    <skos:prefLabel xml:lang="en">Mardin villages</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16826">
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T14:18:39.952307+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T14:18:52.072714+00:00</dct:modified>
+    <skos:prefLabel xml:lang="en">Mahabisha and Jabal Washha</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:notation>mahabisha-and-jabal-washha</skos:notation>
+    <skos:altLabel xml:lang="ara">Maḥābiša, Jabal Wašḥa</skos:altLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323401"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323782">
     <skos:broader>
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322884">
-        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322488"/>
-        <skos:prefLabel xml:lang="en">Morocco</skos:prefLabel>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324318">
+        <dc:source xml:lang="en">Talmoudi 1980</dc:source>
         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322887"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:28.328442+00:00</dct:modified>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:28.245609+00:00</dct:created>
-        <skos:notation>morocco</skos:notation>
+        <skos:notation>tunisia</skos:notation>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324509"/>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322488"/>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:34.367079+00:00</dct:created>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16858"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T15:42:15.396411+00:00</dct:modified>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16859"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324321"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323782"/>
+        <skos:prefLabel xml:lang="en">Tunisia</skos:prefLabel>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16853"/>
+      </skos:Concept>
+    </skos:broader>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T15:45:48.683317+00:00</dct:modified>
+    <skos:notation>southern-tunisia</skos:notation>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:35.191734+00:00</dct:created>
+    <skos:prefLabel xml:lang="en">Southern group</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323672">
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:29.182555+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T14:15:44.757818+00:00</dct:modified>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323401"/>
+    <skos:altLabel xml:lang="ara">Ṣaˁdah</skos:altLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:prefLabel xml:lang="en">Sa’da region</skos:prefLabel>
+    <skos:notation>sada-region</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16866">
+    <skos:prefLabel xml:lang="en">Chad</skos:prefLabel>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:10:15.665043+00:00</dct:modified>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:10:15.615494+00:00</dct:created>
+    <skos:notation>chad</skos:notation>
+    <skos:broader>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16865">
+        <skos:prefLabel xml:lang="en">Western group</skos:prefLabel>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16867"/>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323572"/>
+        <skos:notation>sudan-western-group</skos:notation>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16866"/>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:07:35.598326+00:00</dct:created>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:07:58.225211+00:00</dct:modified>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+      </skos:Concept>
+    </skos:broader>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16869">
+    <skos:broader>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323575">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:25.012646+00:00</dct:modified>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323136"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16869"/>
+        <skos:notation>eastern-group</skos:notation>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323578"/>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:24.818308+00:00</dct:created>
+        <skos:prefLabel xml:lang="en">Eastern group</skos:prefLabel>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323572"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16868"/>
       </skos:Concept>
     </skos:broader>
     <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <skos:prefLabel xml:lang="en">Northern type</skos:prefLabel>
-    <skos:notation>northern-type</skos:notation>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:38.669731+00:00</dct:created>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:38.770201+00:00</dct:modified>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:11:58.900287+00:00</dct:modified>
+    <skos:prefLabel xml:lang="en">Western Sudan</skos:prefLabel>
+    <skos:notation>western-sudan</skos:notation>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:11:58.851464+00:00</dct:created>
   </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323578">
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:27.210085+00:00</dct:created>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:27.382984+00:00</dct:modified>
-    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323575"/>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16864">
+    <skos:broader>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324164">
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:23.256429+00:00</dct:created>
+        <skos:prefLabel xml:lang="en">Libya</skos:prefLabel>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:23.369670+00:00</dct:modified>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324167"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16864"/>
+        <skos:notation>libya</skos:notation>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322488"/>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+      </skos:Concept>
+    </skos:broader>
+    <skos:notation>western-group</skos:notation>
+    <skos:example xml:lang="en">Tripolitania and Fezzan</skos:example>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T16:13:18.565027+00:00</dct:created>
     <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <skos:notation>eastern-sudan</skos:notation>
-    <skos:prefLabel xml:lang="en">Eastern Sudan</skos:prefLabel>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T16:13:18.606567+00:00</dct:modified>
+    <skos:prefLabel xml:lang="en">Western group</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323511">
-    <skos:notation>central-syrian</skos:notation>
-    <skos:prefLabel xml:lang="en">Central Syrian</skos:prefLabel>
-    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323508"/>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16857">
+    <skos:notation>sedentary-group-2</skos:notation>
+    <skos:broader>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322476">
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16854"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16857"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16856"/>
+        <skos:prefLabel xml:lang="en">Oman</skos:prefLabel>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16855"/>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322771"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-15T07:24:26.248305+00:00</dct:modified>
+        <skos:notation>oman</skos:notation>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:41.570488+00:00</dct:created>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+      </skos:Concept>
+    </skos:broader>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T13:03:45.575052+00:00</dct:created>
+    <skos:prefLabel xml:lang="en">Sedentary group I</skos:prefLabel>
     <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:35.827231+00:00</dct:created>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:36.039371+00:00</dct:modified>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T13:03:45.618681+00:00</dct:modified>
   </skos:Concept>
-  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322614">
-    <skos:notation>egypt</skos:notation>
-    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322611"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:26.806064+00:00</dct:modified>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322503">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323357">
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <skos:notation>saharan-algeria</skos:notation>
+        <skos:prefLabel xml:lang="en">Saharan group</skos:prefLabel>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322503"/>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:29.949742+00:00</dct:created>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T16:07:42.685875+00:00</dct:modified>
+      </skos:Concept>
+    </skos:narrower>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:24.112635+00:00</dct:created>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324539">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T16:03:40.211517+00:00</dct:modified>
+        <skos:prefLabel xml:lang="en">Eastern group</skos:prefLabel>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322503"/>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:25.591840+00:00</dct:created>
+        <skos:notation>eastern-group</skos:notation>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322650">
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322503"/>
+        <skos:notation>northern-algeria</skos:notation>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <skos:prefLabel xml:lang="en">Northern group</skos:prefLabel>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:21.399386+00:00</dct:created>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T16:07:25.234942+00:00</dct:modified>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">Algeria</skos:prefLabel>
+    <skos:broader>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322488">
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324164"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322884"/>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:25.117620+00:00</dct:created>
+        <skos:prefLabel xml:lang="en">West (Maghreb)</skos:prefLabel>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322503"/>
+        <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324318"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16860"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:25.156209+00:00</dct:modified>
+        <skos:notation>west-maghreb</skos:notation>
+      </skos:Concept>
+    </skos:broader>
     <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:26.624186+00:00</dct:created>
-    <skos:prefLabel xml:lang="en">Egypt</skos:prefLabel>
-    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322617"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:24.322023+00:00</dct:modified>
+    <skos:notation>algeria</skos:notation>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322506">
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322503"/>
+        <skos:notation>western-algeria</skos:notation>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T16:08:39.723939+00:00</dct:modified>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:32.213292+00:00</dct:created>
+        <skos:prefLabel xml:lang="en">Western group</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323200">
+    <skos:altLabel xml:lang="ara">ˁAnaza</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Central Najd</skos:prefLabel>
+    <skos:notation>central-najd</skos:notation>
+    <skos:broader>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323197">
+        <skos:notation>northern-group-1</skos:notation>
+        <skos:prefLabel xml:lang="en">Northern group</skos:prefLabel>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:23.510704+00:00</dct:created>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16821"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322964"/>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322771"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-15T07:24:04.478019+00:00</dct:modified>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323200"/>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+      </skos:Concept>
+    </skos:broader>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T12:58:35.088431+00:00</dct:modified>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:36.952439+00:00</dct:created>
   </skos:Concept>
   <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322964">
-    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323197"/>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T12:57:07.565613+00:00</dct:modified>
+    <skos:altLabel xml:lang="ara">Šāwi</skos:altLabel>
     <skos:notation>syro-mesopotamian-fringe</skos:notation>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323197"/>
     <skos:prefLabel xml:lang="en">Syro-Mesopotamian fringe</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
     <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:36.450249+00:00</dct:created>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-15T07:18:12.412499+00:00</dct:modified>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324167">
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:37.314559+00:00</dct:created>
+    <skos:notation>northeastern-libya</skos:notation>
+    <skos:prefLabel xml:lang="en">Northeastern Libya</skos:prefLabel>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T15:40:44.381206+00:00</dct:modified>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324164"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16831">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323401"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T14:43:06.885120+00:00</dct:modified>
+    <skos:prefLabel xml:lang="en">Dhofar</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T14:43:06.843599+00:00</dct:created>
+    <skos:notation>dhofar</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16871">
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16878">
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:16:01.296358+00:00</dct:created>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16871"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:16:01.332665+00:00</dct:modified>
+        <skos:prefLabel xml:lang="en">Cairo</skos:prefLabel>
+        <skos:notation>cairo</skos:notation>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:broader>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322614">
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16871"/>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322611"/>
+        <skos:prefLabel xml:lang="en">Egypt</skos:prefLabel>
+        <skos:notation>egypt</skos:notation>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:26.624186+00:00</dct:created>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16870"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:26.806064+00:00</dct:modified>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322617"/>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+      </skos:Concept>
+    </skos:broader>
+    <skos:prefLabel xml:lang="en">Nile Valley</skos:prefLabel>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:12:44.332272+00:00</dct:modified>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16880">
+        <skos:prefLabel xml:lang="en">Upper Egypt</skos:prefLabel>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:16:31.610042+00:00</dct:created>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16871"/>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:16:31.654181+00:00</dct:modified>
+        <skos:notation>upper-egypt</skos:notation>
+      </skos:Concept>
+    </skos:narrower>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:12:44.293284+00:00</dct:created>
+    <skos:notation>nile-valley</skos:notation>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16879">
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16871"/>
+        <skos:prefLabel xml:lang="en">Middle Egypt</skos:prefLabel>
+        <skos:notation>middle-egypt</skos:notation>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:16:15.834581+00:00</dct:modified>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:16:15.792165+00:00</dct:created>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16829">
+    <skos:prefLabel xml:lang="en">Dathina</skos:prefLabel>
+    <skos:notation>dathina</skos:notation>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323401"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T14:42:16.486765+00:00</dct:modified>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T14:42:16.436448+00:00</dct:created>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16851">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T16:10:59.165308+00:00</dct:modified>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324646"/>
+    <skos:notation>mhallamiyye</skos:notation>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T16:10:59.127559+00:00</dct:created>
+    <skos:prefLabel xml:lang="en">Mhallamiyye</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323203">
+    <skos:prefLabel xml:lang="en">Gulf</skos:prefLabel>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:39.988354+00:00</dct:created>
+    <skos:notation>gulf</skos:notation>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:altLabel xml:lang="en">Eastern group</skos:altLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322771"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T13:00:46.431926+00:00</dct:modified>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16873">
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:14:18.730210+00:00</dct:created>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:14:18.775921+00:00</dct:modified>
+    <skos:broader>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322617">
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322620"/>
+        <skos:notation>delta</skos:notation>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16873"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:26.064964+00:00</dct:modified>
+        <skos:prefLabel xml:lang="en">Delta</skos:prefLabel>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:25.876797+00:00</dct:created>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16877"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16872"/>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322614"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324599"/>
+      </skos:Concept>
+    </skos:broader>
+    <skos:notation>northeastern-delta</skos:notation>
+    <skos:prefLabel xml:lang="en">Northeastern Delta</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323404">
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:notation>aden</skos:notation>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:29.085301+00:00</dct:modified>
+    <skos:prefLabel xml:lang="en">Aden</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323401"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:28.876689+00:00</dct:created>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323136">
+    <skos:prefLabel xml:lang="en">Central Sudan</skos:prefLabel>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:30.116332+00:00</dct:created>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323575"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:09:08.169896+00:00</dct:modified>
+    <skos:notation>central-sudan</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16827">
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T14:19:12.540886+00:00</dct:created>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:notation>central-plains</skos:notation>
+    <skos:prefLabel xml:lang="en">Central plains</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323401"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T14:19:25.973652+00:00</dct:modified>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324509">
+    <skos:notation>northern-tunisia</skos:notation>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:41.787074+00:00</dct:created>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324318"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T15:44:00.873667+00:00</dct:modified>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:prefLabel xml:lang="en">Northern group</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323578">
+    <skos:prefLabel xml:lang="en">Eastern Sudan</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323575"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:27.210085+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:27.382984+00:00</dct:modified>
+    <skos:notation>eastern-sudan</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322611">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-15T07:19:31.773098+00:00</dct:modified>
+    <skos:prefLabel xml:lang="en">Egypt-Sudan</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322458"/>
+    <skos:notation>egypt-sudan</skos:notation>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323572">
+        <skos:notation>sudan</skos:notation>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323575"/>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:31.633174+00:00</dct:modified>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16865"/>
+        <skos:prefLabel xml:lang="en">Sudan</skos:prefLabel>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:31.557335+00:00</dct:created>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322611"/>
+      </skos:Concept>
+    </skos:narrower>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:32.528263+00:00</dct:created>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322614"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324214">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323401"/>
+    <skos:altLabel xml:lang="en">Western mountains</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Western Highlands</skos:prefLabel>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T14:14:33.752494+00:00</dct:modified>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:notation>western-highlands</skos:notation>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:38.540278+00:00</dct:created>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323933">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16839">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T15:48:57.826230+00:00</dct:modified>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <skos:prefLabel xml:lang="en">Hatay</skos:prefLabel>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T15:48:57.788943+00:00</dct:created>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323933"/>
+        <skos:notation>hatay</skos:notation>
+      </skos:Concept>
+    </skos:narrower>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:27.687597+00:00</dct:modified>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322547"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:27.646688+00:00</dct:created>
+    <skos:notation>turkey</skos:notation>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323936">
+        <skos:altLabel xml:lang="tur">Çukurova</skos:altLabel>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T15:49:16.487613+00:00</dct:modified>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:36.627302+00:00</dct:created>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323933"/>
+        <skos:prefLabel xml:lang="en">Cilicia</skos:prefLabel>
+        <skos:notation>cilicia-çukurova</skos:notation>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">Turkey</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322887">
+    <skos:notation>northern-morocco</skos:notation>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T15:58:47.097766+00:00</dct:modified>
+    <skos:broader>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322884">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:28.328442+00:00</dct:modified>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:28.245609+00:00</dct:created>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322887"/>
+        <skos:notation>morocco</skos:notation>
+        <skos:prefLabel xml:lang="en">Morocco</skos:prefLabel>
+        <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322488"/>
+        <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16863"/>
+        <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16861"/>
+      </skos:Concept>
+    </skos:broader>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:prefLabel xml:lang="en">Northern group</skos:prefLabel>
+    <skos:example xml:lang="en">dialects of Tangier, Tetouan, Jbala, ancient medina of Rabat, Fes, Sefrou, Taza</skos:example>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:38.669731+00:00</dct:created>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16849">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324646"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T16:10:16.877385+00:00</dct:created>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:prefLabel xml:lang="en">Mardin town</skos:prefLabel>
+    <skos:notation>mardin-town</skos:notation>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T16:10:16.915665+00:00</dct:modified>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16863">
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T16:05:20.244539+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T16:05:20.283081+00:00</dct:modified>
+    <skos:example xml:lang="en">dialects of Oujda, Atlantic coast south of Rabat, Casablanca, rural dialects around Fes and Sidi Kasem, Atlantic coast south of Casablanca, El Jadida, Essaouira, Marrakech, Skura, etc.</skos:example>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322884"/>
+    <skos:notation>central-morocco</skos:notation>
+    <skos:prefLabel xml:lang="en">Central group</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16877">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:15:45.509081+00:00</dct:modified>
+    <skos:notation>bedouin-group</skos:notation>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:15:45.469918+00:00</dct:created>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:prefLabel xml:lang="en">Bedouin group</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322617"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16860">
+    <skos:prefLabel xml:lang="en">Mauritania</skos:prefLabel>
+    <skos:notation>mauritania</skos:notation>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322488"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T15:56:56.791291+00:00</dct:modified>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T15:56:56.746015+00:00</dct:created>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16856">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322476"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T13:03:07.891958+00:00</dct:modified>
+    <skos:prefLabel xml:lang="en">Sedentary group I</skos:prefLabel>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T13:03:07.845889+00:00</dct:created>
+    <skos:notation>sedentary-group-1</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16855">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T12:48:55.894872+00:00</dct:modified>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T12:48:15.309931+00:00</dct:created>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322476"/>
+    <skos:prefLabel xml:lang="en">Bedouin group II</skos:prefLabel>
+    <skos:notation>bedouin-group-2</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16859">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324318"/>
+    <skos:altLabel xml:lang="en">Sāḥil dialects</skos:altLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T15:47:55.520135+00:00</dct:modified>
+    <skos:notation>coastal-group</skos:notation>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T15:47:55.481555+00:00</dct:created>
+    <skos:prefLabel xml:lang="en">Coastal group</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16867">
+    <skos:notation>nigeria</skos:notation>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16865"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:10:38.835255+00:00</dct:modified>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:prefLabel xml:lang="en">Nigeria</skos:prefLabel>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:10:38.791456+00:00</dct:created>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16854">
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T12:48:02.571299+00:00</dct:created>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322476"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T12:49:23.181368+00:00</dct:modified>
+    <skos:prefLabel xml:lang="en">Bedouin group I</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:notation>bedouin-group-1</skos:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16870">
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322614"/>
+    <skos:prefLabel xml:lang="en">Oases</skos:prefLabel>
+    <skos:notation>oases</skos:notation>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:12:18.121875+00:00</dct:modified>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:12:18.077287+00:00</dct:created>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16874">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:14:37.284381+00:00</dct:modified>
+    <skos:notation>alexandria</skos:notation>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322620"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:prefLabel xml:lang="en">Alexandria</skos:prefLabel>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:14:37.245505+00:00</dct:created>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16876">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322620"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:15:24.422311+00:00</dct:created>
+    <skos:prefLabel xml:lang="en">Burullus</skos:prefLabel>
+    <skos:notation>burullus</skos:notation>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:15:24.480233+00:00</dct:modified>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16822">
+    <skos:prefLabel xml:lang="en">South-western group</skos:prefLabel>
+    <skos:notation>south-western-group</skos:notation>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T14:13:15.285693+00:00</dct:modified>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322771"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T14:13:15.242001+00:00</dct:created>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16861">
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T16:00:34.747828+00:00</dct:created>
+    <skos:notation>saharan-morocco</skos:notation>
+    <skos:example xml:lang="en">according to EALL Ḥassāniyya in Saharan towns like Mhamid, Tata, Goulimine, Bedouin dialects like that of the Zʿīr in the plains between Rabat and Casablanca.</skos:example>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322884"/>
+    <skos:prefLabel xml:lang="en">Saharan group</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T16:06:34.981869+00:00</dct:modified>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324599">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322617"/>
+    <skos:prefLabel xml:lang="en">Central Delta</skos:prefLabel>
+    <skos:notation>central-delta</skos:notation>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:21.930589+00:00</dct:created>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:13:00.929161+00:00</dct:modified>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16858">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T15:45:00.616816+00:00</dct:modified>
+    <skos:notation>northeastern-group</skos:notation>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324318"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T15:45:00.563073+00:00</dct:created>
+    <skos:prefLabel xml:lang="en">Northeastern group</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324321">
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T12:06:39.245481+00:00</dct:created>
+    <skos:prefLabel xml:lang="en">Central western group</skos:prefLabel>
+    <skos:notation>central western-tunisia</skos:notation>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T15:46:31.913960+00:00</dct:modified>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324318"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16853">
+    <skos:prefLabel xml:lang="en">Northwestern group</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:notation>northwestern-group</skos:notation>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T12:44:52.365525+00:00</dct:created>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171324318"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T15:44:24.596095+00:00</dct:modified>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16868">
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:11:24.773359+00:00</dct:created>
+    <skos:notation>northern-sudan</skos:notation>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323575"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:11:24.814006+00:00</dct:modified>
+    <skos:prefLabel xml:lang="en">Northern Sudan</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16872">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171322617"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:13:58.415791+00:00</dct:modified>
+    <skos:notation>eastern-delta</skos:notation>
+    <skos:prefLabel xml:lang="en">Eastern Delta</skos:prefLabel>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T09:13:58.368907+00:00</dct:created>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16825">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T14:16:24.624094+00:00</dct:modified>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T14:16:24.584529+00:00</dct:created>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:altLabel xml:lang="ara">Ḥugariyyah</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Hugariyya</skos:prefLabel>
+    <skos:notation>hugariyya</skos:notation>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323401"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/dialects#concept16821">
+    <skos:altLabel xml:lang="ara">Šammar</skos:altLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects/id171323197"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T13:02:08.176831+00:00</dct:modified>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/dialects"/>
+    <skos:prefLabel xml:lang="en">Northern Najd</skos:prefLabel>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-29T13:02:08.111565+00:00</dct:created>
+    <skos:notation>northern-najd</skos:notation>
   </skos:Concept>
 </rdf:RDF>

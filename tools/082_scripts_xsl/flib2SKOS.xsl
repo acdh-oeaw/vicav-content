@@ -12,14 +12,11 @@
     <xsl:template match="/">
         <rdf:RDF>
             <skos:ConceptScheme rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features">
-                <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-13T14:10:54.518574+00:00</dct:created>
-                <dc:description xml:lang="en">This concept scheme provides lists for grammatical and semantic features tagged in the various VICAV resources.</dc:description>
-                <rdfs:label xml:lang="en">VICAV Features Scheme</rdfs:label>
-                <dc:creator>Charly Mörth</dc:creator>
-                <dc:contributor>Stephan Procházka</dc:contributor>
-                <dc:publisher>Austrian Centre for Digital Humanities</dc:publisher>
-                <dc:title xml:lang="en">VICAV Features Scheme</dc:title>
-                <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_lex"/>
+                <dc:description xml:lang="en"><xsl:value-of select="//tei:body/tei:div[tei:head = 'Introduction']/tei:p[1]"/></dc:description>
+                <xsl:apply-templates select="//tei:author|//tei:respStmt"/>
+                <xsl:apply-templates select="//tei:title"/>
+                <xsl:apply-templates select="//tei:publisher"/>
+                
                 <xsl:for-each select="//tei:fLib">
                     <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_{@n}"/>
                 </xsl:for-each>
@@ -27,6 +24,29 @@
             </skos:ConceptScheme>
             <xsl:apply-templates select="//tei:fLib"/>
         </rdf:RDF>
+    </xsl:template>
+    
+    <xsl:template match="tei:author">
+        <dc:creator><xsl:value-of select="."/></dc:creator>
+    </xsl:template>
+    
+    
+    <xsl:template match="tei:publisher">
+        <dc:publisher><xsl:value-of select="."/></dc:publisher>
+    </xsl:template>
+    
+    <xsl:template match="tei:titleStmt/tei:title">
+        <dc:title xml:lang="en"><xsl:value-of select="."/></dc:title>
+        <rdfs:label xml:lang="en"><xsl:value-of select="."/></rdfs:label>
+    </xsl:template>
+    
+    <xsl:template match="tei:respStmt">
+        <dc:contributor>
+            <!--<xsl:if test="tei:persName/@ref">
+                <xsl:attribute name="rdf:resource" select="tei:persName/@ref"/>
+            </xsl:if>-->
+            <xsl:value-of select="tei:persName"/>
+        </dc:contributor>
     </xsl:template>
     
     <xsl:template match="tei:fLib">

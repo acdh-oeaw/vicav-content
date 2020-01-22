@@ -27,3 +27,7 @@ data from a list of toponyms enhanced with geo coordinates (vicav_geo_data.xml).
 ##Todo in vigolo:
 1. assign geo coordinates to items of taxonomy
 2. Save this data and proceed as described above  
+
+##Transforming vigolo output into a TEI place list
+
+open `vicav_geo_data.xml` and run the attached transformation scenario named `vicav_geo_data vigolo2TEI` (which just calls the vigoo2TEIxsl and saves the output to vocabs/places.xml)

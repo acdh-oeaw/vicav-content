@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
-  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -23,7 +21,7 @@
   <text>
     <body>
       <schemaSpec ident="vicav_profiles" start="TEI">
-        <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt availability rendition sourceDesc encodingDesc tagsDecl revisionDesc change"/>
+        <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt availability rendition sourceDesc encodingDesc tagsDecl revisionDesc change listPrefixDef prefixDef"/>
         <moduleRef key="core" include="address author bibl date editor desc graphic head hi label listBibl name note p publisher pubPlace ref respStmt resp rs series title"/>
         <moduleRef key="tei"/>
         <moduleRef key="namesdates" include="geo"/>
@@ -71,10 +69,14 @@
             <desc>Enforce that the profile head contains all required names.</desc>
             <constraint>
               <s:rule context="tei:head[parent::tei:div[parent::tei:body]]">
-                <s:assert test="tei:name[@xml:lang = 'eng']">An english version of the location name must be provided (name element with xml:lang 'eng').</s:assert>
-                <s:assert test="tei:name[@xml:lang = 'ara']">A Fuṣḥā transcription of the location name must be provided (name element with xml:lang 'ara').</s:assert>
-                <s:assert test="tei:name[@xml:lang = 'ara-x-DMG']">A transcription of the local name of location must be provided (name element with xml:lang 'ara-x-DMG').</s:assert>
-                <s:assert test="tei:name[@xml:lang = 'ajp']">A standard arabic name of the location must be provided (name element with xml:lang 'ajp').</s:assert>
+                <s:assert test="tei:name[@xml:lang = 'eng']">An english version of the location name
+                  must be provided (name element with xml:lang 'eng').</s:assert>
+                <s:assert test="tei:name[@xml:lang = 'ara']">A Fuṣḥā transcription of the location
+                  name must be provided (name element with xml:lang 'ara').</s:assert>
+                <s:assert test="tei:name[@xml:lang = 'ara-x-DMG']">A transcription of the local name
+                  of location must be provided (name element with xml:lang 'ara-x-DMG').</s:assert>
+                <s:assert test="tei:name[@xml:lang = 'ajp']">A standard arabic name of the location
+                  must be provided (name element with xml:lang 'ajp').</s:assert>
               </s:rule>
             </constraint>
           </constraintSpec>
@@ -87,19 +89,22 @@
                   <desc>lists dictionaries available for the variety described by the profile</desc>
                 </valItem>
                 <valItem ident="audioData">
-                  <desc>lists audia material available for the variety described by the profile</desc>
+                  <desc>lists audia material available for the variety described by the
+                    profile</desc>
                 </valItem>
                 <valItem ident="sampleText">
                   <desc>contains a sample text of the variety described by the profile</desc>
                 </valItem>
                 <valItem ident="lingFeatures">
-                  <desc>contains a formal description of the linguistic features of the variety described by the profile</desc>
+                  <desc>contains a formal description of the linguistic features of the variety
+                    described by the profile</desc>
                 </valItem>
                 <valItem ident="bibliography">
                   <desc>contains a bibliography of the variety described by the profile</desc>
                 </valItem>
                 <valItem ident="researchHistory">
-                  <desc>describes the research history on the variety described by the profile</desc>
+                  <desc>describes the research history on the variety described by the
+                    profile</desc>
                 </valItem>
                 <valItem ident="typology">
                   <desc>describes the typology of the variety described by the profile</desc>
@@ -108,10 +113,12 @@
                   <desc>lists text books available for the variety described by the profile</desc>
                 </valItem>
                 <valItem ident="general">
-                  <desc>provides a general description of the variety described by the profile</desc>
+                  <desc>provides a general description of the variety described by the
+                    profile</desc>
                 </valItem>
                 <valItem ident="positioning">
-                  <desc>contains geographic coordinates of the variety described by the profile</desc>
+                  <desc>contains geographic coordinates of the variety described by the
+                    profile</desc>
                 </valItem>
               </valList>
             </attDef>
@@ -126,9 +133,21 @@
                 <s:let name="zotero-prefix" value="'zotID:'"/>
                 <s:let name="zotero-id" value="substring-after(@ref,$zotero-prefix)"/>
                 <s:let name="zotero-entry" value="doc('../../../vicav_biblio/VICAV.xml')//tei:biblStruct[ends-with(@corresp,$zotero-id)]"/>
-                <s:assert test="starts-with(@ref, $zotero-prefix)">ref must start with the Zotero prefix '<s:value-of select="$zotero-prefix"/>' prefix</s:assert>
-                <s:assert test="exists($zotero-entry)"><s:value-of select="$zotero-id"/> is not a valid Zotero ID!</s:assert>
+                <s:assert test="starts-with(@ref, $zotero-prefix)">ref must start with the Zotero
+                  prefix '<s:value-of select="$zotero-prefix"/>' prefix</s:assert>
+                <s:assert test="exists($zotero-entry)"><s:value-of select="$zotero-id"/> is not a
+                  valid Zotero ID!</s:assert>
               </s:rule>
+            </constraint>
+          </constraintSpec>
+        </elementSpec>
+        <elementSpec ident="p" module="core" mode="change">
+          <constraintSpec ident="p-typology" scheme="schematron">
+            <desc>Enforce that the value in the typology paragraph matches a path in
+              vicav_dialects.rdf.</desc>
+            <constraint>
+              <s:ns uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#" prefix="rdf"/>
+              <s:rule context="tei:div[@type = 'typology']/tei:p[1]"><!--inserted by injectSKOS.xsl--><s:assert test=". = ('West (Maghreb) › Morocco', 'West (Maghreb) › Algeria', 'East (Mashriq) › Levant › Lebanon', 'East (Mashriq) › Levant › Lebanon', 'East (Mashriq) › Egypt-Sudan › Eastern group › Sudan', 'East (Mashriq) › Mesopotamia › Iraq (qəltu)', 'East (Mashriq) › Levant › Palestine/Syria', 'East (Mashriq) › Arabia › Northern group', 'East (Mashriq) › Egypt-Sudan › Delta › Egypt', 'East (Mashriq) › Mesopotamia › Iraq', 'East (Mashriq) › Arabia', 'East (Mashriq) › Mesopotamia › Anatolia (qəltu)', 'East (Mashriq) › Mesopotamia › Iraq (gilit)', 'West (Maghreb) › Tunisia', 'East (Mashriq) › Levant › Syria', 'East (Mashriq) › Levant › Syria', 'East (Mashriq) › Levant › Syria', 'East (Mashriq) › Sudan › Eastern group', 'East (Mashriq) › Arabia › Yemen', 'West (Maghreb) › Algeria', 'West (Maghreb) › Tunisia', 'East (Mashriq) › Mesopotamia › Anatolia', 'East (Mashriq) › Levant › Turkey', 'West (Maghreb) › Tunisia', 'West (Maghreb) › Libya', 'East (Mashriq) › Levant › Palestine', 'East (Mashriq) › Mesopotamia › Anatolia (qəltu)', 'West (Maghreb) › Algeria', 'East (Mashriq) › Arabia › Yemen', 'East (Mashriq) › Arabia › Northern group › Central Najd', 'East (Mashriq) › Mesopotamia › Eastern Syria (qəltu)', 'East (Mashriq) › Syro-Palestinian', 'East (Mashriq) › Mesopotamia › Anatolia', 'East (Mashriq) › Arabia', 'West (Maghreb) › Algeria', 'East (Mashriq) › Arabia › Northern group › Central Najd (ˁAnaza)', 'East (Mashriq) › Egypt-Sudan › Delta › Egypt', 'East (Mashriq) › Arabia › Yemen')">typology must match one path of the SKOS Taxonomy of dialects</s:assert></s:rule>
             </constraint>
           </constraintSpec>
         </elementSpec>
