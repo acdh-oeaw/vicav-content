@@ -480,7 +480,8 @@
    
    
       <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#existential">
-         <skos:prefLabel xml:lang="en">existential</skos:prefLabel>
+         <skos:prefLabel xml:lang="en">existential</skos:prefLabel>    
+         <skos:altLabel xml:lang="en">existential (there is, there are)</skos:altLabel>
        
          <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
       </skos:Concept>
@@ -498,4 +499,17 @@
        
          <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
       </skos:Concept>
+
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#presentative_m">
+       <skos:prefLabel xml:lang="en">here is (m)</skos:prefLabel>        
+       <skos:altLabel xml:lang="en">there is (m)</skos:altLabel>     
+       <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#presentative_f">
+         <skos:prefLabel xml:lang="en">here is (f)</skos:prefLabel>        
+         <skos:altLabel xml:lang="en">there is (f)</skos:altLabel>     
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+   
 </rdf:RDF>
