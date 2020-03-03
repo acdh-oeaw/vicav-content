@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<project version="19.0">
+<project version="20.1">
     <meta>
         <filters directoryPatterns="" filePatterns="vicav.xpr" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="19.0" xml:space="preserve">
-=======
-<project version="21.1">
-    <meta>
-        <filters directoryPatterns="" filePatterns="vicav.xpr" positiveFilePatterns="" showHiddenFiles="false"/>
-        <options>
-            <serialized version="21.1" xml:space="preserve">
->>>>>>> 016bf1a9b5558e311839dce4f1eaf9801087596e
+            <serialized version="20.1" xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>code-templates</String>
@@ -9824,6 +9816,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                             <field name="openInBrowser">
                                                 <Boolean>true</Boolean>
                                             </field>
+                                            <field name="outputFile">
+                                                <null/>
+                                            </field>
                                             <field name="outputResource">
                                                 <String>${cfd}/${cfn}.html</String>
                                             </field>
@@ -9906,6 +9901,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                             </field>
                                             <field name="openInBrowser">
                                                 <Boolean>true</Boolean>
+                                            </field>
+                                            <field name="outputFile">
+                                                <null/>
                                             </field>
                                             <field name="outputResource">
                                                 <String>${cfd}/${cfn}.pdf</String>
@@ -10138,6 +10136,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                             </field>
                                             <field name="openInBrowser">
                                                 <Boolean>true</Boolean>
+                                            </field>
+                                            <field name="outputFile">
+                                                <null/>
                                             </field>
                                             <field name="outputResource">
                                                 <null/>
@@ -10385,6 +10386,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                             <field name="openInBrowser">
                                                 <Boolean>true</Boolean>
                                             </field>
+                                            <field name="outputFile">
+                                                <null/>
+                                            </field>
                                             <field name="outputResource">
                                                 <null/>
                                             </field>
@@ -10630,6 +10634,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                             </field>
                                             <field name="openInBrowser">
                                                 <Boolean>true</Boolean>
+                                            </field>
+                                            <field name="outputFile">
+                                                <null/>
                                             </field>
                                             <field name="outputResource">
                                                 <null/>
@@ -11051,6 +11058,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
                                 <field name="outputResource">
                                     <String>${cfn}.xml</String>
                                 </field>
@@ -11098,9 +11108,6 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                 <String>${currentFileURL}</String>
                                             </field>
                                             <field name="hasXPathValue">
-                                                <Boolean>false</Boolean>
-                                            </field>
-                                            <field name="isStatic">
                                                 <Boolean>false</Boolean>
                                             </field>
                                         </transformationParameter>
@@ -11161,6 +11168,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
                                 <field name="outputResource">
                                     <String>vicav_${cfn}.xml</String>
                                 </field>
@@ -11210,9 +11220,6 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                             <field name="hasXPathValue">
                                                 <Boolean>true</Boolean>
                                             </field>
-                                            <field name="isStatic">
-                                                <Boolean>false</Boolean>
-                                            </field>
                                         </transformationParameter>
                                         <transformationParameter>
                                             <field name="paramDescription">
@@ -11234,9 +11241,6 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                             <field name="hasXPathValue">
                                                 <Boolean>false</Boolean>
                                             </field>
-                                            <field name="isStatic">
-                                                <Boolean>false</Boolean>
-                                            </field>
                                         </transformationParameter>
                                         <transformationParameter>
                                             <field name="paramDescription">
@@ -11256,9 +11260,6 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                 <String>${pdu}/vicav_biblio/vicav_biblio_tei.xml</String>
                                             </field>
                                             <field name="hasXPathValue">
-                                                <Boolean>false</Boolean>
-                                            </field>
-                                            <field name="isStatic">
                                                 <Boolean>false</Boolean>
                                             </field>
                                         </transformationParameter>
@@ -11319,6 +11320,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
                                 <field name="outputResource">
                                     <String>${cfn}.xml</String>
                                 </field>
@@ -11366,9 +11370,6 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                 <String>${currentFileURL}</String>
                                             </field>
                                             <field name="hasXPathValue">
-                                                <Boolean>false</Boolean>
-                                            </field>
-                                            <field name="isStatic">
                                                 <Boolean>false</Boolean>
                                             </field>
                                         </transformationParameter>
@@ -11429,6 +11430,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
                                 <field name="outputResource">
                                     <String>${cfne}</String>
                                 </field>
@@ -11476,9 +11480,6 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                 <String>${pdu}/vicav_biblio/vicav_bibliography.csv</String>
                                             </field>
                                             <field name="hasXPathValue">
-                                                <Boolean>false</Boolean>
-                                            </field>
-                                            <field name="isStatic">
                                                 <Boolean>false</Boolean>
                                             </field>
                                         </transformationParameter>
@@ -11536,6 +11537,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <String>${cfn}.rdf</String>
@@ -11620,6 +11624,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
                                 <field name="outputResource">
                                     <String>../grammar_html/${cfn}.html</String>
                                 </field>
@@ -11702,6 +11709,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <String>${cfne}</String>
@@ -11786,6 +11796,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
                                 <field name="outputResource">
                                     <String>${cfne}</String>
                                 </field>
@@ -11868,6 +11881,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <String>${cf}/vicav_${cfn}.xml</String>
@@ -11952,6 +11968,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
                                 <field name="outputResource">
                                     <String>${pd}/vocabs/places.xml</String>
                                 </field>
@@ -12034,6 +12053,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <String>${currentFileURL}</String>
