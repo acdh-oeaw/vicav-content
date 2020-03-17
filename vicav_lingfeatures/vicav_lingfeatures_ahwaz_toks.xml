@@ -470,7 +470,7 @@
                      <w xml:id="wid_00254">banāt</w>
                      <w xml:id="wid_00255" join="right">w</w>
                      <pc xml:id="id_pc_798" join="right">-</pc>
-                     <w xml:id="wid_00256" ana="semlib:three vt_phon_CA_th">ṯəlṯ</w>
+                     <w xml:id="wid_00256" ana="semlib:three fvlib:phon.CA_th">ṯəlṯ</w>
                      <w xml:id="wid_00257" join="right">awlād</w>
                      <pc xml:id="id_pc_802">.</pc>
                   </quote>
@@ -1514,7 +1514,7 @@
                      <w xml:id="wid_00841">təšrəb</w>
                      <w xml:id="wid_00842" ana="semlib:tea">čāy</w>
                      <w xml:id="wid_00843">lō</w>
-                     <w xml:id="wid_00844" ana="semlib:coffee vt_phon_CA_q" join="right">gahwa</w>
+                     <w xml:id="wid_00844" ana="semlib:coffee fvlib:phon.CA_q" join="right">gahwa</w>
                      <pc xml:id="id_pc_2481">?</pc>
                      <pc xml:id="id_pc_2483">–</pc>
                      <w xml:id="wid_00845">čāy</w>
@@ -1857,7 +1857,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="semlib:possibility" type="featureSample">
+            <cit ana="fvlib:subc.posbl" type="featureSample">
                <lbl xml:space="preserve">possibility</lbl>
                <quote xml:lang="en">Can you come tomorrow?</quote>
                <cit type="translation">
@@ -1903,7 +1903,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="semlib:existential" type="featureSample">
+            <cit ana="fvlib:subc.exist" type="featureSample">
                <lbl xml:space="preserve">existential (there is, there are)</lbl>
                <quote xml:lang="en">There are 18 new students in our class.</quote>
                <cit type="translation">

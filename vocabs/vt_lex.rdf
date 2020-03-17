@@ -478,24 +478,4 @@
          <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
       </skos:Concept>
    
-   
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#existential">
-         <skos:prefLabel xml:lang="en">existential</skos:prefLabel>
-       
-         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
-      </skos:Concept>
-   
-   
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#gen_explicative">
-         <skos:prefLabel xml:lang="en">gen explicative</skos:prefLabel>
-       
-         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
-      </skos:Concept>
-   
-   
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#possibility">
-         <skos:prefLabel xml:lang="en">possibility</skos:prefLabel>
-       
-         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
-      </skos:Concept>
 </rdf:RDF>

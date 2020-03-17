@@ -390,7 +390,7 @@
 							<seg type="ws" xml:space="preserve" xml:id="id_seg_356"> </seg>
 							<w xml:id="wid_00101">w</w>
 							<seg type="ws" xml:space="preserve" xml:id="id_seg_358"> </seg>
-							<w xml:id="wid_00102" ana="#vt_lex_three #vt_phon_CA_th">tlata</w>
+							<w xml:id="wid_00102" ana="#vt_lex_three #fvlib:phon.CA_th">tlata</w>
 							<seg type="ws" xml:space="preserve" xml:id="id_seg_360"> </seg>
 							<w xml:id="wid_00103">dyal</w>
 							<seg type="ws" xml:space="preserve" xml:id="id_seg_362"> </seg>
@@ -1328,7 +1328,7 @@
 							<seg type="ws" xml:space="preserve" xml:id="id_seg_1198"> </seg>
 							<w xml:id="wid_00327">l</w>
 							<pc type="ws" xml:space="preserve" xml:id="id_pc_1200">-</pc>
-							<w xml:id="wid_00328" ana="#vt_lex_coffee #vt_phon_CA_q">qəhwa</w>
+							<w xml:id="wid_00328" ana="#vt_lex_coffee #fvlib:phon.CA_q">qəhwa</w>
 							<pc type="ws" xml:space="preserve" xml:id="id_pc_1202">?</pc>
 							<seg type="ws" xml:space="preserve" xml:id="id_seg_1203"> </seg>
 							<w xml:id="wid_00329">‒</w>

@@ -306,7 +306,7 @@
                      <w xml:id="wid_00085">bǝntēn</w>
                      <w xml:id="wid_00086" join="right">w</w>
                      <pc type="ws" xml:id="id_pc_313" join="right">-</pc>
-                     <w ana="vt_phon_CA_th semlib:three" xml:id="wid_00087">tlǝt</w>
+                     <w ana="fvlib:phon.CA_th semlib:three" xml:id="wid_00087">tlǝt</w>
                      <w xml:id="wid_00088" join="right">ǝwlād</w>
                      <pc type="ws" xml:id="id_pc_317">.</pc>
                   </quote>
@@ -1049,7 +1049,7 @@
                      <w xml:id="wid_00310_a">tǝšrabi</w>
                      <w ana="semlib:tea" xml:id="wid_00311">šāy</w>
                      <w xml:id="wid_00312">walla</w>
-                     <w ana="semlib:coffee vt_phon_CA_q" xml:id="wid_00313" join="right">ʔahwe</w>
+                     <w ana="semlib:coffee fvlib:phon.CA_q" xml:id="wid_00313" join="right">ʔahwe</w>
                      <pc type="ws" xml:id="id_pc_1093">?</pc>
                      <w xml:id="wid_00314">–</w>
                      <w xml:id="wid_00315" join="right">šāy</w>
@@ -1301,7 +1301,7 @@
                   <quote xml:lang="de"/>
                </cit>
             </cit>
-            <cit ana="semlib:possibility" type="featureSample">
+            <cit ana="fvlib:subc.posbl" type="featureSample">
                <lbl xml:space="preserve">possibility</lbl>
                <quote xml:lang="en">Can you come tomorrow?</quote>
                <cit type="translation">
@@ -1338,7 +1338,7 @@
                   <quote xml:lang="de"/>
                </cit>
             </cit>
-            <cit ana="semlib:existential" type="featureSample">
+            <cit ana="fvlib:subc.exist" type="featureSample">
                <lbl xml:space="preserve">existential (there is, there are)</lbl>
                <quote xml:lang="en">There are 18 new students in our class.</quote>
                <cit type="translation">
@@ -1346,7 +1346,7 @@
                      <w xml:id="wid_00397" join="right">b</w>
                      <pc type="ws" xml:id="id_pc_1413" join="right">-</pc>
                      <w xml:id="wid_00398">ṣaffna</w>
-                        <w ana="semlib:existential" xml:id="wid_00399">fī</w>
+                        <w ana="fvlib:subc.exist" xml:id="wid_00399">fī</w>
                      <w xml:id="wid_00400_a">tmǝnṭaʕšar</w>
                      <w xml:id="wid_00401" join="right">ṭāleb</w>
                      <w xml:id="wid_00402" join="right">ǝždīd</w>

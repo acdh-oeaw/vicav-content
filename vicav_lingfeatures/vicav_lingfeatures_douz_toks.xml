@@ -478,7 +478,7 @@
                      <w xml:id="id_677">banāwīt</w>
                      <w xml:id="id_679" join="right">w</w>
                      <pc type="ws" xml:id="id_680" join="right">-</pc>
-                     <w ana="semlib:three vt_phon_CA_th" xml:id="id_681">ṯilṯ</w>
+                     <w ana="semlib:three fvlib:phon.CA_th" xml:id="id_681">ṯilṯ</w>
                      <w xml:id="id_683" join="right">awlād</w>
                      <pc type="ws" xml:id="id_684">.</pc>
                   </quote>
@@ -1496,7 +1496,7 @@
                      <w xml:id="id_2124_a">tašṛab</w>
                      <w ana="semlib:tea" xml:id="id_2126">tāy</w>
                      <w xml:id="id_2128">walla</w>
-                     <w ana="semlib:coffee vt_phon_CA_q" xml:id="id_2130" join="right">qahwa</w>
+                     <w ana="semlib:coffee fvlib:phon.CA_q" xml:id="id_2130" join="right">qahwa</w>
                      <pc type="ws" xml:id="id_2131">?</pc>
                      <w xml:id="id_2133">–</w>
                      <w xml:id="id_2135" join="right">tāy</w>
@@ -1855,7 +1855,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="semlib:possibility" type="featureSample">
+            <cit ana="fvlib:subc.posbl" type="featureSample">
                <lbl xml:space="preserve">possibility</lbl>
                <quote xml:lang="en">Can you come tomorrow?</quote>
                <cit type="translation">
@@ -1906,13 +1906,13 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="semlib:existential" type="featureSample">
+            <cit ana="fvlib:subc.exist" type="featureSample">
                <lbl xml:space="preserve">existential (there is, there are)</lbl>
                <quote xml:lang="en">There are 18 new students in our class.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
                      <w xml:id="id_2729">qisǝmna</w>
-                        <w ana="semlib:existential" xml:id="id_2731">fīh</w>
+                        <w ana="fvlib:subc.exist" xml:id="id_2731">fīh</w>
                      <w xml:id="id_2732_a" join="right">ṯumǝnṭāš</w>
                      <pc type="ws" xml:id="id_2733" join="right">-</pc>
                      <w xml:id="id_2734">in</w>
