@@ -337,7 +337,7 @@
                      <w xml:id="id_216">bintēn</w>
                      <w xml:id="id_216a" ana="{ana}" join="right">w</w>
                      <w xml:id="id_216b" join="right">-</w>
-                     <w ana="#vt_phon_CA_th #vt_lex_three">talat</w>
+                     <w ana="fvlib:phon.CA_th semlib:three">talat</w>
                      <w xml:id="id_221" join="right">wilād</w>
                      <pc type="ws" xml:id="id_222">.</pc>
                   </quote>
@@ -1070,7 +1070,7 @@
                      <w xml:id="id_666">tišrabi</w>
                      <w ana="semlib:tea" xml:id="id_668">šāy</w>
                      <w xml:id="id_670">walla</w>
-                     <w ana="semlib:coffee #vt_phon_CA_q" xml:id="id_672" join="right">ʔahwa</w>
+                     <w ana="semlib:coffee fvlib:phon.CA_q" xml:id="id_672" join="right">ʔahwa</w>
                      <pc type="ws" xml:id="id_673">?</pc>
                      <w xml:id="id_675">–</w>
                      <w xml:id="id_677" join="right">šāy</w>
@@ -1281,12 +1281,12 @@
                   <quote xml:lang="de"/>
                </cit>
             </cit>
-            <cit ana="semlib:possibility" type="featureSample">
+            <cit ana="fvlib:subc.posbl" type="featureSample">
                <lbl xml:space="preserve">possibility</lbl>
                <quote xml:lang="en">Can you come tomorrow?</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                     <w ana="semlib:possibility" xml:id="id_781">tiʔdaṛ</w>
+                     <w ana="fvlib:subc.posbl" xml:id="id_781">tiʔdaṛ</w>
                                                                             <w xml:id="id_782_a">tīgi</w>
                      <w xml:id="id_784" join="right">bukṛa</w>
                      <pc type="ws" xml:id="id_785">?</pc>
@@ -1317,14 +1317,14 @@
                   <quote xml:lang="de"/>
                </cit>
             </cit>
-            <cit ana="semlib:existential" type="featureSample">
+            <cit ana="fvlib:subc.exist" type="featureSample">
                <lbl xml:space="preserve">existential (there is, there are)</lbl>
                <quote xml:lang="en">There are 18 new students in our class.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
                      <w xml:id="id_796">fi</w>
                      <w xml:id="id_798">faṣlina</w>
-                        <w ana="semlib:existential" xml:id="id_800">fīh</w>
+                        <w ana="fvlib:subc.exist" xml:id="id_800">fīh</w>
                      <w xml:id="id_801">tamantāšar</w>
                      <w xml:id="id_803" join="right">ṭālib</w>
                      <w xml:id="id_804" join="right">gidīd</w>

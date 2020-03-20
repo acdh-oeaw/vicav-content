@@ -240,6 +240,11 @@
                <f xml:id="pers.2" name="secondPerson"><symbol value="2nd"/></f>
                <f xml:id="pers.3" name="thirdPerson"><symbol value="3rd"/></f>
            </fLib>
+             
+             <fLib n="Phonological">   
+                 <f xml:id="phon.CA_q" name="classicalArabicQ"><symbol value="classicalArabicQ"/></f>
+                 <f xml:id="phon.CA_th" name="classicalArabicTh"><symbol value="classicalArabicTh"/></f>
+             </fLib>
             
             <fLib n="Other Subcategories">
                <!-- Discuss the term --> 
@@ -252,7 +257,10 @@
                <f xml:id="subc.unitNoun" name="unitNoun"><symbol value="unitNoun"/></f>               
                <f xml:id="subc.prox" name="proximal"><symbol value="proximal"/></f>               
                <f xml:id="subc.dist" name="distal"><symbol value="distal"/></f>               
-               <f xml:id="subc.vicis" name="nomenVicis"><symbol value="nomenVicis"/></f>               
+               <f xml:id="subc.vicis" name="nomenVicis"><symbol value="nomenVicis"/></f>  
+               <f xml:id="subc.posbl" name="possibility"><symbol value="possibility"/></f>  
+               <f xml:id="subc.exist" name="existential"><symbol value="existential"/></f> 
+               <f xml:id="subc.genexp" name="genitiveExplicative"><symbol value="genitiveExplicative"/></f> 
             </fLib>                          
          </div>
       </body>

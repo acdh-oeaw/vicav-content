@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   <ConceptScheme xmlns="http://www.w3.org/2004/02/skos/core#"
                        rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features">
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">This document contains the feature value library used in all VICAV dictionaries.</dc:description>
       <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Charly Mörth</dc:creator>
@@ -9,16 +9,16 @@
       <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">VICAV feature-value library</dc:title>
       <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">VICAV feature-value library</rdfs:label>
       <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Austrian Centre for Digital Humanities</dc:publisher>
-      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Part of Speech"/>
-      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Derived Verb Class"/>
-      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Tense"/>
-      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Mood"/>
-      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Number"/>
-      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Gender"/>
-      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Person"/>
-      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Other Subcategories"/>
+      <hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Part of Speech"/>
+      <hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Derived Verb Class"/>
+      <hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Tense"/>
+      <hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Mood"/>
+      <hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Number"/>
+      <hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Gender"/>
+      <hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Person"/>
+      <hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Other Subcategories"/>
       <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en</dc:language>
-   </skos:ConceptScheme>
+   </ConceptScheme>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
             rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Part_of_Speech">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
@@ -348,6 +348,34 @@
       <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Person"/>
       <prefLabel xml:lang="en">3rd</prefLabel>
    </Concept>
+
+   <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
+      rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_phon">
+      <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
+      <topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
+      <prefLabel xml:lang="en">Phonological</prefLabel>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_phon.CA_q"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_phon.CA_th"/>
+   </Concept>
+   
+   <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
+      rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.CA_q">
+      <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_phon"/>
+      <prefLabel xml:lang="en">ClassicalArabicQ</prefLabel>
+      <definition>Reflexes of Classical Arabic Q phoneme</definition>
+   </Concept>
+   
+   <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
+      rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.CA_th">
+      <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_phon"/>
+      <prefLabel xml:lang="en">ClassicalArabicTh</prefLabel>
+      <definition>Reflexes of Classical Arabic Th phoneme</definition>
+   </Concept>
+   
+   
+
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
             rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Other_Subcategories">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
@@ -363,6 +391,9 @@
       <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.prox"/>
       <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.dist"/>
       <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.vicis"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.genexp"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.posbl"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.exist"/>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
             rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.artPl">
@@ -423,5 +454,27 @@
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
       <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Other_Subcategories"/>
       <prefLabel xml:lang="en">nomenVicis</prefLabel>
+   </Concept>
+   
+   
+   <Concept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.exist">
+      <prefLabel xml:lang="en">existential</prefLabel>
+      <altLabel xml:lang="en">existential (there is, there are)</altLabel>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Other_Subcategories"/>
+      <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
+   </Concept>
+   
+   
+   <Concept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.genexp">
+      <prefLabel xml:lang="en">genitiveExplicative</prefLabel>
+      <prefLabel xml:lang="en">Genitive explicative</prefLabel>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Other_Subcategories"/>
+      <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
+   </Concept>
+   
+   <Concept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.posbl">
+      <prefLabel xml:lang="en">possibility</prefLabel>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Other_Subcategories"/>
+      <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
    </Concept>
 </rdf:RDF>

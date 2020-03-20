@@ -451,7 +451,7 @@
                      <w xml:id="wid_00274">bǝntēn</w>
                      <w xml:id="wid_00275">wǝ</w>
                      <pc type="ws" xml:id="id_pc_741" join="right">-</pc>
-                     <w ana="semlib:three #vt_phon_CA_th" xml:id="wid_00276">tlaṯ</w>
+                     <w ana="semlib:three fvlib:phon.CA_th" xml:id="wid_00276">tlaṯ</w>
                      <w xml:id="wid_00277">wǝlǝd</w>
                      <pc type="ws" xml:id="id_pc_745">.</pc>
                   </quote>
@@ -1480,7 +1480,7 @@
                      <pc type="ws" xml:id="id_pc_2363" join="right">-</pc>
                         <w ana="semlib:to_want" xml:id="wid_00882">trīd</w>
                      <w xml:id="wid_00883">tišrab</w>
-                     <w ana="semlib:coffee #vt_phon_CA_q" xml:id="wid_00884">gahwa</w>
+                     <w ana="semlib:coffee fvlib:phon.CA_q" xml:id="wid_00884">gahwa</w>
                      <w xml:id="wid_00885">lō</w>
                      <w ana="semlib:tea" xml:id="wid_00886">čāy</w>
                      <pc type="ws" xml:id="id_pc_2373" join="right">?</pc>
@@ -1842,7 +1842,7 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="semlib:possibility" type="featureSample">
+            <cit ana="fvlib:subc.posbl" type="featureSample">
                <lbl xml:space="preserve">possibility</lbl>
                <quote xml:lang="en">Can you come tomorrow?</quote>
                <cit type="translation">
