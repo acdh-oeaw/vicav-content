@@ -9,475 +9,475 @@
       <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">VICAV feature-value library</dc:title>
       <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">VICAV feature-value library</rdfs:label>
       <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Austrian Centre for Digital Humanities</dc:publisher>
-      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Part of Speech"/>
-      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Derived Verb Class"/>
-      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Tense"/>
-      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Mood"/>
-      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Number"/>
-      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Gender"/>
-      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Person"/>
-      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Phonological"/>
-      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Other Subcategories"/>
+      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Part of Speech"/>
+      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Derived Verb Class"/>
+      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Tense"/>
+      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Mood"/>
+      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Number"/>
+      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Gender"/>
+      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Person"/>
+      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Phonological"/>
+      <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Other Subcategories"/>
       <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en</dc:language>
    </skos:ConceptScheme>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Part_of_Speech">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#Part_of_Speech">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
       <topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
       <prefLabel xml:lang="en">Part of Speech</prefLabel>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.adj"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.ap"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.adv"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.dm"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.presn"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.mwu"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.num"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.ord"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.prep"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.pron"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.np"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.n"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.pp"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.verb"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.vn"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.adj"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.ap"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.adv"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.dm"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.presn"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.mwu"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.num"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.ord"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.prep"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.pron"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.np"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.n"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.pp"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.verb"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.vn"/>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.adj">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.adj">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Part_of_Speech"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Part_of_Speech"/>
       <prefLabel xml:lang="en">adjective</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.ap">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.ap">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Part_of_Speech"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Part_of_Speech"/>
       <prefLabel xml:lang="en">activeParticiple</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.adv">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.adv">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Part_of_Speech"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Part_of_Speech"/>
       <prefLabel xml:lang="en">adverb</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.dm">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.dm">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Part_of_Speech"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Part_of_Speech"/>
       <prefLabel xml:lang="en">demonstrative</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.presn">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.presn">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Part_of_Speech"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Part_of_Speech"/>
       <prefLabel xml:lang="en">presentative</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.mwu">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.mwu">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Part_of_Speech"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Part_of_Speech"/>
       <prefLabel xml:lang="en">multiWordUnit</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.num">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.num">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Part_of_Speech"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Part_of_Speech"/>
       <prefLabel xml:lang="en">cardinalNumber</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.ord">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.ord">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Part_of_Speech"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Part_of_Speech"/>
       <prefLabel xml:lang="en">ordinalNumber</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.prep">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.prep">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Part_of_Speech"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Part_of_Speech"/>
       <prefLabel xml:lang="en">preposition</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.pron">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.pron">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Part_of_Speech"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Part_of_Speech"/>
       <prefLabel xml:lang="en">pronoun</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.np">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.np">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Part_of_Speech"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Part_of_Speech"/>
       <prefLabel xml:lang="en">pluralNoun</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.n">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.n">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Part_of_Speech"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Part_of_Speech"/>
       <prefLabel xml:lang="en">noun</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.pp">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.pp">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Part_of_Speech"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Part_of_Speech"/>
       <prefLabel xml:lang="en">passiveParticiple</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.verb">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.verb">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Part_of_Speech"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Part_of_Speech"/>
       <prefLabel xml:lang="en">verb</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pos.vn">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#pos.vn">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Part_of_Speech"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Part_of_Speech"/>
       <prefLabel xml:lang="en">verbalNoun</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Derived_Verb_Class">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#Derived_Verb_Class">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
       <topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
       <prefLabel xml:lang="en">Derived Verb Class</prefLabel>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.I"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.Iq"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.II"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.IIq"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.III"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.IV"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.V"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.VI"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.VIw"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.VII"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.VIII"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.IX"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.X"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.I"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.Iq"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.II"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.IIq"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.III"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.IV"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.V"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.VI"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.VIw"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.VII"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.VIII"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.IX"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.X"/>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.I">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.I">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Derived_Verb_Class"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Derived_Verb_Class"/>
       <prefLabel xml:lang="en">derivedVerbClass1</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.Iq">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.Iq">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Derived_Verb_Class"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Derived_Verb_Class"/>
       <prefLabel xml:lang="en">derivedVerbClass1_quadriliteralVerb</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.II">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.II">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Derived_Verb_Class"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Derived_Verb_Class"/>
       <prefLabel xml:lang="en">derivedVerbClass2</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.IIq">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.IIq">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Derived_Verb_Class"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Derived_Verb_Class"/>
       <prefLabel xml:lang="en">derivedVerbClass2_quadriliteralVerb</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.III">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.III">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Derived_Verb_Class"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Derived_Verb_Class"/>
       <prefLabel xml:lang="en">derivedVerbClass3</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.IV">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.IV">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Derived_Verb_Class"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Derived_Verb_Class"/>
       <prefLabel xml:lang="en">derivedVerbClass4</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.V">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.V">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Derived_Verb_Class"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Derived_Verb_Class"/>
       <prefLabel xml:lang="en">derivedVerbClass5</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.VI">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.VI">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Derived_Verb_Class"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Derived_Verb_Class"/>
       <prefLabel xml:lang="en">derivedVerbClass6</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.VIw">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.VIw">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Derived_Verb_Class"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Derived_Verb_Class"/>
       <prefLabel xml:lang="en">derivedVerbClass6w</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.VII">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.VII">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Derived_Verb_Class"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Derived_Verb_Class"/>
       <prefLabel xml:lang="en">derivedVerbClass7</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.VIII">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.VIII">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Derived_Verb_Class"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Derived_Verb_Class"/>
       <prefLabel xml:lang="en">derivedVerbClass8</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.IX">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.IX">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Derived_Verb_Class"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Derived_Verb_Class"/>
       <prefLabel xml:lang="en">derivedVerbClass9</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_vc.X">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vc.X">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Derived_Verb_Class"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Derived_Verb_Class"/>
       <prefLabel xml:lang="en">derivedVerbClass10</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Tense">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#Tense">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
       <topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
       <prefLabel xml:lang="en">Tense</prefLabel>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_tns.pres"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_tns.past"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_tns.future"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#tns.pres"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#tns.past"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#tns.future"/>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_tns.pres">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#tns.pres">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Tense"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Tense"/>
       <prefLabel xml:lang="en">presentTense</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_tns.past">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#tns.past">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Tense"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Tense"/>
       <prefLabel xml:lang="en">pastTense</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_tns.future">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#tns.future">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Tense"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Tense"/>
       <prefLabel xml:lang="en">futureTense</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Mood">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#Mood">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
       <topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
       <prefLabel xml:lang="en">Mood</prefLabel>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_mood.ind"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_mood.imp"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#mood.ind"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#mood.imp"/>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_mood.ind">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#mood.ind">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Mood"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Mood"/>
       <prefLabel xml:lang="en">indicative</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_mood.imp">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#mood.imp">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Mood"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Mood"/>
       <prefLabel xml:lang="en">imperative</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Number">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#Number">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
       <topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
       <prefLabel xml:lang="en">Number</prefLabel>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_num.sg"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_num.pl"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_num.dual"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#num.sg"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#num.pl"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#num.dual"/>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_num.sg">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#num.sg">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Number"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Number"/>
       <prefLabel xml:lang="en">singular</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_num.pl">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#num.pl">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Number"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Number"/>
       <prefLabel xml:lang="en">plural</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_num.dual">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#num.dual">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Number"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Number"/>
       <prefLabel xml:lang="en">dual</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Gender">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#Gender">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
       <topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
       <prefLabel xml:lang="en">Gender</prefLabel>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_gender.m"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_gender.f"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_gender.n"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#gender.m"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#gender.f"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#gender.n"/>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_gender.m">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#gender.m">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Gender"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Gender"/>
       <prefLabel xml:lang="en">male</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_gender.f">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#gender.f">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Gender"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Gender"/>
       <prefLabel xml:lang="en">female</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_gender.n">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#gender.n">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Gender"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Gender"/>
       <prefLabel xml:lang="en">neutral</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Person">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#Person">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
       <topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
       <prefLabel xml:lang="en">Person</prefLabel>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pers.1"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pers.2"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pers.3"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#pers.1"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#pers.2"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#pers.3"/>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pers.1">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#pers.1">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Person"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Person"/>
       <prefLabel xml:lang="en">1st</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pers.2">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#pers.2">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Person"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Person"/>
       <prefLabel xml:lang="en">2nd</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_pers.3">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#pers.3">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Person"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Person"/>
       <prefLabel xml:lang="en">3rd</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Phonological">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#Phonological">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
       <topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
       <prefLabel xml:lang="en">Phonological</prefLabel>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_phon.CA_q"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_phon.CA_th"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#phon.CA_q"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#phon.CA_th"/>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_phon.CA_q">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#phon.CA_q">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Phonological"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Phonological"/>
       <prefLabel xml:lang="en">classicalArabicQ</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_phon.CA_th">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#phon.CA_th">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Phonological"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Phonological"/>
       <prefLabel xml:lang="en">classicalArabicTh</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Other_Subcategories">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#Other_Subcategories">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
       <topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
       <prefLabel xml:lang="en">Other Subcategories</prefLabel>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.artPl"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.const"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.countPl"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.dim"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.dipt"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.elative"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.unitNoun"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.prox"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.dist"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.vicis"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.posbl"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.abil"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.exist"/>
-      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.genexp"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.artPl"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.const"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.countPl"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.dim"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.dipt"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.elative"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.unitNoun"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.prox"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.dist"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.vicis"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.posbl"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.abil"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.exist"/>
+      <narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.genexp"/>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.artPl">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.artPl">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Other_Subcategories"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Other_Subcategories"/>
       <prefLabel xml:lang="en">articlePlural</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.const">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.const">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Other_Subcategories"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Other_Subcategories"/>
       <prefLabel xml:lang="en">constructState</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.countPl">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.countPl">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Other_Subcategories"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Other_Subcategories"/>
       <prefLabel xml:lang="en">countPlural</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.dim">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.dim">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Other_Subcategories"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Other_Subcategories"/>
       <prefLabel xml:lang="en">diminutive</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.dipt">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.dipt">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Other_Subcategories"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Other_Subcategories"/>
       <prefLabel xml:lang="en">diptotic</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.elative">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.elative">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Other_Subcategories"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Other_Subcategories"/>
       <prefLabel xml:lang="en">elative</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.unitNoun">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.unitNoun">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Other_Subcategories"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Other_Subcategories"/>
       <prefLabel xml:lang="en">unitNoun</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.prox">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.prox">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Other_Subcategories"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Other_Subcategories"/>
       <prefLabel xml:lang="en">proximal</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.dist">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.dist">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Other_Subcategories"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Other_Subcategories"/>
       <prefLabel xml:lang="en">distal</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.vicis">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.vicis">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Other_Subcategories"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Other_Subcategories"/>
       <prefLabel xml:lang="en">nomenVicis</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.posbl">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.posbl">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Other_Subcategories"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Other_Subcategories"/>
       <prefLabel xml:lang="en">possibility</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.abil">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.abil">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Other_Subcategories"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Other_Subcategories"/>
       <prefLabel xml:lang="en">ability</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.exist">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.exist">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Other_Subcategories"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Other_Subcategories"/>
       <prefLabel xml:lang="en">existential</prefLabel>
    </Concept>
    <Concept xmlns="http://www.w3.org/2004/02/skos/core#"
-            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_subc.genexp">
+            rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/features#subc.genexp">
       <inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features"/>
-      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#vt_Other_Subcategories"/>
+      <broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/features#Other_Subcategories"/>
       <prefLabel xml:lang="en">genitiveExplicative</prefLabel>
    </Concept>
 </rdf:RDF>
