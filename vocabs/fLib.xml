@@ -160,13 +160,14 @@
              </fvLib>
 
              <fvLib n="Pronoun">
-                 <fs xml:id="pron_sg_1" n="I" feats="#pos.pp #gender.f #num.sg #pers.1"/>
+                 <fs xml:id="pron_sg_p1" n="I" feats="#pos.pp #gender.n #num.sg #pers.1"/>
                  <fs xml:id="pron_f_sg_p2" n="you f" feats="#pos.pp #gender.f #num.sg #pers.2"/>
                  <fs xml:id="pron_m_sg_p2" n="you m" feats="#pos.pp #gender.m #num.sg #pers.2"/>
                  <fs xml:id="pron_m_sg_p3" n="he" feats="#pos.pp #gender.m #num.sg #pers.3"/>                
                  <fs xml:id="pron_f_sg_p3" n="she" feats="#pos.pp #gender.m #num.sg #pers.3"/>
                  
-                 <fs xml:id="pron_pl_1" n="we" feats="#pos.pp #gender.f #num.pl #pers.1"/>
+                 <fs xml:id="pron_pl_p1" n="we" feats="#pos.pp #gender.n #num.pl #pers.1"/>
+                 <fs xml:id="pron_pl_p2" n="you pl" feats="#pos.pp #gender.n #num.pl #pers.2"/>
                  <fs xml:id="pron_f_pl_p2" n="you f pl" feats="#pos.pp #gender.f #num.pl #pers.2"/>
                  <fs xml:id="pron_m_pl_p2" n="you m pl" feats="#pos.pp #gender.m #num.pl #pers.2"/>
                  <fs xml:id="pron_m_pl_p3" n="they m pl" feats="#pos.pp #gender.m #num.pl #pers.3"/>                

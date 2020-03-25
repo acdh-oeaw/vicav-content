@@ -52,7 +52,7 @@
                      <w ana="semlib:man" xml:id="wid_00003">rǝǧǧāl</w>
                      <pc type="ws" xml:id="id_pc_54" join="right">?</pc>
                      <w xml:id="wid_00004">–</w>
-                     <w ana="fvlib:perspron_3_sg_m" xml:id="wid_00005">huwwa</w>
+                     <w ana="fvlib:pron_m_sg_p3" xml:id="wid_00005">huwwa</w>
                      <w xml:id="wid_00006">ṣadīq</w>
                      <w xml:id="id_w_1">i</w>
                      <pc type="ws" xml:id="id_pc_61">.</pc>
@@ -275,19 +275,19 @@
                <cit type="translation">
                   <quote xml:lang="ar">
                         <w ana="semlib:where_from" xml:id="wid_00148">ǝmmēn</w>
-                     <w ana="fvlib:perspron_2_sg_m" xml:id="wid_00149">ǝnta</w>
+                     <w ana="fvlib:pron_m_sg_p2" xml:id="wid_00149">ǝnta</w>
                      <w xml:id="wid_00150">/</w>
-                     <w ana="fvlib:perspron_2_sg_f" xml:id="wid_00151">ǝnti</w>
+                     <w ana="fvlib:pron_f_sg_p2" xml:id="wid_00151">ǝnti</w>
                      <w xml:id="wid_00152">/</w>
-                     <w ana="fvlib:perspron_2_pl" xml:id="wid_00153">ǝntu</w>
+                     <w ana="fvlib:pron_pl_p2" xml:id="wid_00153">ǝntu</w>
                      <pc type="ws" xml:id="id_pc_439" join="right">?</pc>
                      <w xml:id="wid_00154">–</w>
-                     <w ana="fvlib:perspron_1_sg" xml:id="wid_00155">ʔāni</w>
+                     <w ana="fvlib:pron_sg_p1" xml:id="wid_00155">ʔāni</w>
                      <w xml:id="wid_00156">mǝn</w>
                      <w xml:id="wid_00157">baġdād</w>
                      <pc type="ws" xml:id="id_pc_448" join="right">.</pc>
                      <w xml:id="wid_00158">/</w>
-                     <w ana="fvlib:perspron_1_pl" xml:id="wid_00159">ǝḥna</w>
+                     <w ana="fvlib:pron_pl_p1" xml:id="wid_00159">ǝḥna</w>
                      <w xml:id="wid_00160">mǝn</w>
                      <w xml:id="wid_00161">baġdād</w>
                      <pc type="ws" xml:id="id_pc_457">.</pc>
@@ -555,7 +555,7 @@
          </div>
          <div type="featureGroup">
             <head>Pronouns</head>
-            <cit type="featureSample" ana="fvlib:perspron_1_sg">
+            <cit type="featureSample" ana="fvlib:pron_sg_p1">
                <lbl xml:space="preserve">I</lbl>
                <quote xml:lang="en">I am a teacher.</quote>
                <cit type="translation">

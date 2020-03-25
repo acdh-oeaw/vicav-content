@@ -62,7 +62,7 @@
                      <pc xml:id="id_pc_68">/</pc>
                      <w xml:id="wid_00008">zəlma</w>
                      <pc xml:id="id_pc_71">–</pc>
-                     <w xml:id="wid_00009" ana="fvlib:perspron_3_sg_m">əhwa</w>
+                     <w xml:id="wid_00009" ana="fvlib:pron_m_sg_p3">əhwa</w>
                      <w xml:id="wid_00010" join="right">ṣāḥbi</w>
                      <pc xml:id="id_pc_76">.</pc>
                   </quote>
@@ -295,13 +295,13 @@
                <quote xml:lang="en">Where are you (m./f.; sg./pl.) from? – I am/ We are from Cairo.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                     <w xml:id="wid_00149" ana="fvlib:perspron_2_sg_m">ənta</w>
+                     <w xml:id="wid_00149" ana="fvlib:pron_m_sg_p2">ənta</w>
                      <pc xml:id="id_pc_481">(m.)</pc>
                      <pc xml:id="id_pc_484">/</pc>
-                     <w xml:id="wid_00151" ana="fvlib:perspron_2_sg_f">ənti</w>
+                     <w xml:id="wid_00151" ana="fvlib:pron_f_sg_p2">ənti</w>
                      <pc xml:id="id_pc_488">(f.)</pc>
                      <pc xml:id="id_pc_491">/</pc>
-                     <w xml:id="wid_00153" ana="fvlib:perspron_2_pl" join="right">əntu</w>
+                     <w xml:id="wid_00153" ana="fvlib:pron_pl_p2" join="right">əntu</w>
                      <pc xml:id="id_pc_494">(m.pl.)</pc>
                      <pc xml:id="id_pc_501">/</pc>
                      <w xml:id="wid_00156">əntan</w>
@@ -309,9 +309,9 @@
                         <w xml:id="wid_00158" ana="semlib:where_from">əmnīən</w>
                      <pc xml:id="id_pc_510">?</pc>
                      <pc xml:id="id_pc_512">–</pc>
-                     <w xml:id="wid_00159" ana="fvlib:perspron_1_sg">āne</w>
+                     <w xml:id="wid_00159" ana="fvlib:pron_sg_p1">āne</w>
                      <pc xml:id="id_pc_515">/</pc>
-                     <w xml:id="wid_00160" ana="fvlib:perspron_1_pl">əḥna</w>
+                     <w xml:id="wid_00160" ana="fvlib:pron_pl_p1">əḥna</w>
                      <w xml:id="wid_00161" join="right">mən</w>
                      <pc xml:id="id_pc_515a">…</pc>
                   </quote>
@@ -577,7 +577,7 @@
                <quote xml:lang="en">I am a teacher.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w xml:id="wid_00320" ana="fvlib:perspron_1_sg">āne</w>
+                        <w xml:id="wid_00320" ana="fvlib:pron_sg_p1">āne</w>
                      <w xml:id="wid_00321" join="right">məʕalləm</w>
                      <pc xml:id="id_pc_994">.</pc>
                   </quote>
