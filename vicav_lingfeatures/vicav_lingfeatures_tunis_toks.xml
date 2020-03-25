@@ -1835,12 +1835,12 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="semlib:ability" type="featureSample">
+            <cit ana="fvlib:subc.abil" type="featureSample">
                <lbl xml:space="preserve">ability</lbl>
                <quote xml:lang="en">Can you (~do you know how to) play Shqubba? – Yes.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                     <w ana="semlib:ability" xml:id="wid_01104">taʕraf</w>
+                     <w ana="fvlib:subc.abil" xml:id="wid_01104">taʕraf</w>
                      <pc type="ws" xml:id="id_pc_2935" join="right">-</pc>
                      <w xml:id="wid_01105">ši</w>
                      <w xml:id="wid_01106">talʕab</w>

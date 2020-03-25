@@ -1277,12 +1277,12 @@
                   <quote xml:lang="de"/>
                </cit>
             </cit>
-            <cit ana="semlib:ability" type="featureSample">
+            <cit ana="fvlib:subc.abil" type="featureSample">
                <lbl xml:space="preserve">ability</lbl>
                <quote xml:lang="en">Can you (~do you know how to) play barsīs? – Yes.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                     <phr ana="semlib:ability">
+                     <phr ana="fvlib:subc.abil">
                         <w xml:id="wid_00386" join="right">fī</w>  
                         <w xml:id="wid_00386_a">k</w>
                      </phr>

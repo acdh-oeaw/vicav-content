@@ -1696,13 +1696,13 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="semlib:ability" type="featureSample">
+            <cit ana="fvlib:subc.abil" type="featureSample">
                <lbl xml:space="preserve">ability</lbl>
                <quote xml:lang="en">Can you (~do you know how to) play OK / Mangala? –
                      Yes.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semlib:ability" xml:id="wid_01006">itʕarif</w>
+                        <w ana="fvlib:subc.abil" xml:id="wid_01006">itʕarif</w>
                      <w xml:id="wid_01007">tilʕab</w>
                      <w xml:id="wid_01008" join="right">ōkēy/mǝngala</w>
                      <pc type="ws" xml:id="id_pc_2732">?</pc>

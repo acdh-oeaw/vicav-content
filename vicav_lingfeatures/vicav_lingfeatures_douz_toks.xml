@@ -1811,13 +1811,13 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="semlib:ability" type="featureSample">
+            <cit ana="fvlib:subc.abil" type="featureSample">
                <lbl xml:space="preserve">ability</lbl>
                <quote xml:lang="en">Can you (~do you know how to) play chess/domino? –
                      Yes.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w ana="semlib:ability" xml:id="id_2602" join="right">ǝtgidd</w>
+                        <w ana="fvlib:subc.abil" xml:id="id_2602" join="right">ǝtgidd</w>
                         <pc type="ws" xml:id="id_2603" join="right">-</pc>
                         <w xml:id="id_2604">ǝš</w>
                      <pc type="ws" xml:space="preserve">/</pc>
