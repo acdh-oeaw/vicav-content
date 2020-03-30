@@ -58,7 +58,7 @@
                      <w ana="fvlib:suffix_1_sg" join="right">i</w>
                      <pc type="ws" xml:id="id_13">.</pc>
                      <pc type="ws" xml:id="id_15" join="right">(</pc>
-                     <w ana="fvlib:perspron_3_sg_m" xml:id="id_16">huwwa</w>
+                     <w ana="fvlib:pron_m_sg_p3" xml:id="id_16">huwwa</w>
                      <w xml:id="id_16_a" join="right">ṣaḥb</w>
                      <w join="right">i</w>
                      <pc type="ws" xml:id="id_19">)</pc>
@@ -86,7 +86,7 @@
                      <w xml:id="id_35" join="right">btaʕitna</w>
                      <pc type="ws" xml:id="id_36">.</pc>
                      <pc type="ws" xml:id="id_38" join="right">(</pc>
-                     <w ana="fvlib:perspron_3_sg_f" xml:id="id_39" join="right">hiyya</w>
+                     <w ana="fvlib:pron_f_sg_p3" xml:id="id_39" join="right">hiyya</w>
                      <pc type="ws" xml:id="id_40">)</pc>
                      <w xml:id="id_42">ṣġayyara</w>
                      <w xml:id="id_44">bassᴵ</w>
@@ -208,17 +208,17 @@
                      Cairo.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                     <w ana="fvlib:perspron_2_sg_m" xml:id="id_115" join="right">ʔinta</w>
+                     <w ana="fvlib:pron_m_sg_p2" xml:id="id_115" join="right">ʔinta</w>
                      <w xml:id="id_115_a" join="right">/</w>
-                     <w ana="fvlib:perspron_2_sg_f" xml:id="id_115_a_a" join="right">ʔinti</w>
+                     <w ana="fvlib:pron_f_sg_p2" xml:id="id_115_a_a" join="right">ʔinti</w>
                      <w xml:id="id_115_a_a_a" join="right">/</w>
-                     <w ana="fvlib:perspron_2_pl" xml:id="id_115_a_a_a_a">ʔintu</w>
+                     <w ana="fvlib:pron_pl_p2" xml:id="id_115_a_a_a_a">ʔintu</w>
                         <w ana="semlib:where_from" xml:id="id_117">mnēn</w>
                      <pc type="ws" xml:id="id_118">?</pc>
                      <w xml:id="id_120">–</w>
-                     <w ana="fvlib:perspron_1_sg" xml:id="id_122" join="right">ʔana</w>
+                     <w ana="fvlib:pron_sg_p1" xml:id="id_122" join="right">ʔana</w>
                      <w xml:id="id_122_a" join="right">/</w>
-                     <w ana="fvlib:perspron_1_pl" xml:id="id_122_a_a">ʔiḥna</w>
+                     <w ana="fvlib:pron_pl_p1" xml:id="id_122_a_a">ʔiḥna</w>
                      <w xml:id="id_124">min</w>
                      <w xml:id="id_126" join="right">maṣr</w>
                      <pc type="ws" xml:id="id_127">.</pc>
@@ -401,12 +401,12 @@
          </div>
          <div type="featureGroup">
             <head>Pronouns</head>
-            <cit type="featureSample" ana="fvlib:perspron_1_sg">
+            <cit type="featureSample" ana="fvlib:pron_sg_p1">
                <lbl xml:space="preserve">I</lbl>
                <quote xml:lang="en">I am a teacher.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                        <w xml:id="id_263" ana="fvlib:perspron_1_sg">ʔana</w>
+                        <w xml:id="id_263" ana="fvlib:pron_sg_p1">ʔana</w>
                       <w xml:id="id_264" join="right">mudarris</w>
                      <pc type="ws" xml:id="id_265">.</pc>
                   </quote>
@@ -1265,7 +1265,7 @@
                   <quote xml:lang="de"/>
                </cit>
             </cit>
-            <cit ana="semlib:ability" type="featureSample">
+            <cit ana="fvlib:subc.abil" type="featureSample">
                <lbl xml:space="preserve">ability</lbl>
                <quote xml:lang="en">Can you (~do you know how to) play chess? – Yes.</quote>
                <cit type="translation">

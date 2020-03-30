@@ -160,30 +160,37 @@
              </fvLib>
 
              <fvLib n="Pronoun">
-                 <fs xml:id="pron_sg_1" feats="#pos.pp #gender.f #num.sg #pers.1"/>
-                 <fs xml:id="pron_f_sg_p2" feats="#pos.pp #gender.f #num.sg #pers.2"/>
-                 <fs xml:id="pron_m_sg_p2" feats="#pos.pp #gender.m #num.sg #pers.2"/>
-                 <fs xml:id="pron_m_sg_p3" feats="#pos.pp #gender.m #num.sg #pers.3"/>                
-                 <fs xml:id="pron_f_sg_p3" feats="#pos.pp #gender.m #num.sg #pers.3"/>
+                 <fs xml:id="pron_sg_p1" n="I" feats="#pos.pp #gender.n #num.sg #pers.1"/>
+                 <fs xml:id="pron_f_sg_p2" n="you f" feats="#pos.pp #gender.f #num.sg #pers.2"/>
+                 <fs xml:id="pron_m_sg_p2" n="you m" feats="#pos.pp #gender.m #num.sg #pers.2"/>
+                 <fs xml:id="pron_m_sg_p3" n="he" feats="#pos.pp #gender.m #num.sg #pers.3"/>                
+                 <fs xml:id="pron_f_sg_p3" n="she" feats="#pos.pp #gender.m #num.sg #pers.3"/>
                  
-                 <fs xml:id="pron_pl_1" feats="#pos.pp #gender.f #num.pl #pers.1"/>
-                 <fs xml:id="pron_f_pl_p2" feats="#pos.pp #gender.f #num.pl #pers.2"/>
-                 <fs xml:id="pron_m_pl_p2" feats="#pos.pp #gender.m #num.pl #pers.2"/>
-                 <fs xml:id="pron_m_pl_p3" feats="#pos.pp #gender.m #num.pl #pers.3"/>                
-                 <fs xml:id="pron_f_pl_p3" feats="#pos.pp #gender.m #num.pl #pers.3"/>                
+                 <fs xml:id="pron_pl_p1" n="we" feats="#pos.pp #gender.n #num.pl #pers.1"/>
+                 <fs xml:id="pron_pl_p2" n="you pl" feats="#pos.pp #gender.n #num.pl #pers.2"/>
+                 <fs xml:id="pron_f_pl_p2" n="you f pl" feats="#pos.pp #gender.f #num.pl #pers.2"/>
+                 <fs xml:id="pron_m_pl_p2" n="you m pl" feats="#pos.pp #gender.m #num.pl #pers.2"/>
+                 <fs xml:id="pron_m_pl_p3" n="they m pl" feats="#pos.pp #gender.m #num.pl #pers.3"/>                
+                 <fs xml:id="pron_f_pl_p3" n="they f pl" feats="#pos.pp #gender.m #num.pl #pers.3"/>                
              </fvLib>
              
              <fvLib n="Verbal noun">
                  <fs xml:id="vn" feats="#pos.vn"/>
              </fvLib>
-            
              
+             <fvLib n="Presentative">
+                 <fs xml:id="pres_m_sg" n="there is m" feats="#pos.presn #num.sg #gender.m"></fs>
+                 <fs xml:id="pres_f_sg" n="there is f" feats="#pos.presn #num.sg #gender.f"></fs>
+                 <fs xml:id="pres_m_pl" n="there are m" feats="#pos.presn #num.pl #gender.m"></fs>
+                 <fs xml:id="pres_f_pl" n="there are f" feats="#pos.presn #num.pl #gender.f"></fs>
+             </fvLib>
 
             <fLib n="Part of Speech">
                <f xml:id="pos.adj" name="adjective"><symbol value="adjective"/></f>
                <f xml:id="pos.ap" name="adjective"><symbol value="activeParticiple"/></f>
                <f xml:id="pos.adv" name="adverb"><symbol value="adverb"/></f>
                <f xml:id="pos.dm" name="demonstrative"><symbol value="demonstrative"/></f>
+               <f xml:id="pos.presn" name="presentative" n="presentative"><symbol value="presentative"/></f>  
                <f xml:id="pos.mwu" name="multiWordUnit"><symbol value="multiWordUnit"/></f>
                <f xml:id="pos.num" name="cardinalNumber"><symbol value="cardinalNumber"/></f>
                <f xml:id="pos.ord" name="ordinalNumber"><symbol value="ordinalNumber"/></f>
@@ -193,7 +200,7 @@
                <f xml:id="pos.n" name="noun"><symbol value="noun"/></f>
                <f xml:id="pos.pp" name="passiveParticiple"><symbol value="passiveParticiple"/></f>
                <f xml:id="pos.verb" name="verb"><symbol value="verb"/></f>
-                <f xml:id="pos.vn" name="vn"><symbol value="verbalNoun"/></f>
+               <f xml:id="pos.vn" name="vn"><symbol value="verbalNoun"/></f>
             </fLib>
             
             <fLib n="Derived Verb Class">
@@ -258,9 +265,10 @@
                <f xml:id="subc.prox" name="proximal"><symbol value="proximal"/></f>               
                <f xml:id="subc.dist" name="distal"><symbol value="distal"/></f>               
                <f xml:id="subc.vicis" name="nomenVicis"><symbol value="nomenVicis"/></f>  
-               <f xml:id="subc.posbl" name="possibility"><symbol value="possibility"/></f>  
-               <f xml:id="subc.exist" name="existential"><symbol value="existential"/></f> 
-               <f xml:id="subc.genexp" name="genitiveExplicative"><symbol value="genitiveExplicative"/></f> 
+               <f xml:id="subc.posbl" name="possibility" n="possibility"><symbol value="possibility"/></f>  
+               <f xml:id="subc.abil" name="ability" n="ability"><symbol value="ability"/></f> 
+               <f xml:id="subc.exist" name="existential" n="existential there is there are"><symbol value="existential"/></f> 
+               <f xml:id="subc.genexp" name="genitiveExplicative" n="genitive explicative"><symbol value="genitiveExplicative"/></f> 
             </fLib>                          
          </div>
       </body>

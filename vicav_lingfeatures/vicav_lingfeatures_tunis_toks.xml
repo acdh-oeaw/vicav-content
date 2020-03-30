@@ -299,15 +299,15 @@
                <cit type="translation">
                   <quote xml:lang="ar">
                      <w ana="semlib:where_from" xml:id="wid_00163">mnīn</w>
-                     <w ana="fvlib:perspron_2_sg_m fvlib:perspron_2_sg_f" xml:id="wid_00164"
+                     <w ana="fvlib:pron_m_sg_p2 fvlib:pron_f_sg_p2" xml:id="wid_00164"
                         >inti</w>
                      <w xml:id="wid_00165">/</w>
-                     <w ana="fvlib:perspron_2_pl" xml:id="wid_00166" join="right">intūma</w>
+                     <w ana="fvlib:pron_pl_p2" xml:id="wid_00166" join="right">intūma</w>
                      <pc type="ws" xml:id="id_pc_466">?</pc>
                      <w xml:id="wid_00167">–</w>
-                     <w ana="fvlib:perspron_1_sg" xml:id="wid_00168">āna</w>
+                     <w ana="fvlib:pron_sg_p1" xml:id="wid_00168">āna</w>
                      <w xml:id="wid_00169">/</w>
-                     <w ana="fvlib:perspron_1_pl" xml:id="wid_00170">aḥna</w>
+                     <w ana="fvlib:pron_pl_p1" xml:id="wid_00170">aḥna</w>
                      <w xml:id="wid_00171">min</w>
                      <w xml:id="wid_00172">…</w>
                   </quote>
@@ -1835,12 +1835,12 @@
                   </quote>
                </cit>
             </cit>
-            <cit ana="semlib:ability" type="featureSample">
+            <cit ana="fvlib:subc.abil" type="featureSample">
                <lbl xml:space="preserve">ability</lbl>
                <quote xml:lang="en">Can you (~do you know how to) play Shqubba? – Yes.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                     <w ana="semlib:ability" xml:id="wid_01104">taʕraf</w>
+                     <w ana="fvlib:subc.abil" xml:id="wid_01104">taʕraf</w>
                      <pc type="ws" xml:id="id_pc_2935" join="right">-</pc>
                      <w xml:id="wid_01105">ši</w>
                      <w xml:id="wid_01106">talʕab</w>

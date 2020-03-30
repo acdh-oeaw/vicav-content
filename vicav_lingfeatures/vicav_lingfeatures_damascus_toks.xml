@@ -198,16 +198,16 @@
                <cit type="translation">
                   <quote xml:lang="ar">
                         <w ana="semlib:where_from" xml:id="wid_00049">mnēn</w>
-                     <w ana="fvlib:perspron_2_sg_m" xml:id="wid_00050_a" join="right">ʔənte</w>
+                     <w ana="fvlib:pron_m_sg_p2" xml:id="wid_00050_a" join="right">ʔənte</w>
                      <pc type="ws" xml:space="preserve" join="right">/</pc>
-                     <w ana="fvlib:perspron_2_sg_f" xml:id="wid_00050_a_a_a" join="right">ʔǝnti</w>
+                     <w ana="fvlib:pron_f_sg_p2" xml:id="wid_00050_a_a_a" join="right">ʔǝnti</w>
                      <pc type="ws" xml:space="preserve" join="right">/</pc>
-                     <w ana="fvlib:perspron_2_pl" xml:id="wid_00050_a_a_a_a_a" join="right">ʔǝntu</w>
+                     <w ana="fvlib:pron_pl_p2" xml:id="wid_00050_a_a_a_a_a" join="right">ʔǝntu</w>
                      <pc type="ws" xml:space="preserve">?</pc>
                      <w xml:id="wid_00051">–</w>
-                     <w ana="fvlib:perspron_1_sg" xml:id="wid_00052" join="right">ʔana</w>
+                     <w ana="fvlib:pron_sg_p1" xml:id="wid_00052" join="right">ʔana</w>
                      <pc type="ws" xml:space="preserve" join="right">/</pc>
-                     <w ana="fvlib:perspron_1_pl" xml:id="wid_00052_a_a">nǝḥna</w>
+                     <w ana="fvlib:pron_pl_p1" xml:id="wid_00052_a_a">nǝḥna</w>
                      <w xml:id="id_pc_207" join="right">(</w>
                      <w xml:id="wid_00053" join="right">naḥna</w>
                      <w xml:id="id_pc_209">)</w>
@@ -1217,7 +1217,7 @@
                      <w xml:id="wid_00369" join="right">i</w>
                      <pc type="ws" xml:id="id_pc_1279">.</pc>
                      <pc type="ws" xml:id="id_pc_1281" join="right">(</pc>
-                     <w ana="fvlib:perspron_3_sg_m" xml:id="wid_00370">huwwe</w>
+                     <w ana="fvlib:pron_m_sg_p3" xml:id="wid_00370">huwwe</w>
                         <w xml:id="wid_00371">rfīʔ</w>
                      <w xml:id="wid_00372" join="right">i</w>
                      <pc type="ws" xml:id="id_pc_1286">)</pc>
@@ -1277,12 +1277,12 @@
                   <quote xml:lang="de"/>
                </cit>
             </cit>
-            <cit ana="semlib:ability" type="featureSample">
+            <cit ana="fvlib:subc.abil" type="featureSample">
                <lbl xml:space="preserve">ability</lbl>
                <quote xml:lang="en">Can you (~do you know how to) play barsīs? – Yes.</quote>
                <cit type="translation">
                   <quote xml:lang="ar">
-                     <phr ana="semlib:ability">
+                     <phr ana="fvlib:subc.abil">
                         <w xml:id="wid_00386" join="right">fī</w>  
                         <w xml:id="wid_00386_a">k</w>
                      </phr>
