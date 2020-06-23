@@ -23,14 +23,6 @@
          <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
       </skos:Concept>
    
-   
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#ability">
-         <skos:prefLabel xml:lang="en">ability</skos:prefLabel>
-       
-         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
-      </skos:Concept>
-   
-   
       <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#being_unable">
          <skos:prefLabel xml:lang="en">being unable</skos:prefLabel>
        
