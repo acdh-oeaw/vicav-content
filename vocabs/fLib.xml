@@ -160,7 +160,7 @@
              </fvLib>
 
              <fvLib n="Pronoun">
-                 <fs xml:id="pron_sg_p1" n="I" feats="#pos.pp #gender.n #num.sg #pers.1"/>
+                 <fs xml:id="pron_sg_p1" n="i" feats="#pos.pp #gender.n #num.sg #pers.1"/>
                  <fs xml:id="pron_f_sg_p2" n="you f" feats="#pos.pp #gender.f #num.sg #pers.2"/>
                  <fs xml:id="pron_m_sg_p2" n="you m" feats="#pos.pp #gender.m #num.sg #pers.2"/>
                  <fs xml:id="pron_m_sg_p3" n="he" feats="#pos.pp #gender.m #num.sg #pers.3"/>                
