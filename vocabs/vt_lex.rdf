@@ -470,4 +470,44 @@
          <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
       </skos:Concept>
    
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#how_are_you_m_f">
+         <skos:prefLabel xml:lang="en">how are you m f</skos:prefLabel>
+         
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+
+   <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#i_m_fine">
+      <skos:prefLabel xml:lang="en">i m fine</skos:prefLabel>
+      
+      <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+   </skos:Concept>
+   
+   <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_eat">
+      <skos:prefLabel xml:lang="en">to eat</skos:prefLabel>
+      
+      <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+   </skos:Concept>
+
+   <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_hand_over">
+      <skos:prefLabel xml:lang="en">to hand over</skos:prefLabel>
+      
+      <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+   </skos:Concept>   
+   <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#very_a_lot">
+      <skos:prefLabel xml:lang="en">very a lot</skos:prefLabel>
+      
+      <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+   </skos:Concept>
+
+   <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#polar_question_marker">
+      <skos:prefLabel xml:lang="en">polar question marker</skos:prefLabel>
+      
+      <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+   </skos:Concept>
+   
+   <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#faaliil_vs_faalil">
+      <skos:prefLabel xml:lang="en">fʕālīl vs fʕālil</skos:prefLabel>
+      
+      <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+   </skos:Concept>
 </rdf:RDF>
