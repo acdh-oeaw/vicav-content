@@ -11,8 +11,8 @@
 	<menu>
     <main>
       <dropdown xml:id="dropdown00" title="Project">
-        <item xml:id="liVicavMission">Mission</item>
-        <item xml:id="liVicavNews">News</item>
+        <item xml:id="liVicavMission" type="vicavTexts" target="vicavMission">Mission</item>
+        <item xml:id="liVicavNews" type="vicavTexts" target="vicavNews">News</item>
         <separator/>
         <item xml:id="liVicavTypesOfText">Types of Text/Data</item>
         <item xml:id="liVicavContributors">Contributors</item>    
@@ -32,14 +32,14 @@
         <item xml:id="liVicavContributeBibliography">Contribute to the Bibliography</item>
       </dropdown>
       <dropdown xml:id="dropdown02" title="Profiles">
-        <item xml:id="liProfilesExplanation">Explanation + List</item>
+        <item xml:id="liProfilesExplanation" type="vicavTexts" target="vicavExplanationProfiles">Explanation + List</item>
         <separator/>
         <item xml:id="navProfilesGeoRegMarkers">Show All Locations</item>
         <separator/>
         <item xml:id="liVicavContributeProfile">Contribute a Profile</item>
       </dropdown>
       <dropdown xml:id="dropdown03" title="Feature Lists">
-        <item xml:id="liFeaturesExplanation">Explanation</item>
+        <item xml:id="liFeaturesExplanation" type="vicavTexts" target="vicavExplanationFeatures">Explanation</item>
         <item xml:id="liVicavCrossFeatureQuery">Cross-examine the VICAV Feature Lists</item>
         <separator></separator>
         <item xml:id="navFeaturesGeoRegMarkers">Show All Locations</item>
@@ -47,7 +47,7 @@
         <item xml:id="liVicavContributeFeature">Contribute a Feature List</item>
       </dropdown>
       <dropdown xml:id="dropdown04" title="Samples">
-        <item xml:id="liSamplesExplanation">Explanation</item>
+        <item xml:id="liSamplesExplanation"  type="vicavTexts" target="vicavExplanationSampleTexts">Explanation</item>
         <separator></separator>
         <item xml:id="navSamplesGeoRegMarkers">Show All Locations</item>
         <item xml:id="liExploreSamples">Compare Locations</item>
