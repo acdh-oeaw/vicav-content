@@ -64,11 +64,11 @@
         <separator/>
         <item xml:id="liVicavCrossDictQuery">Query the VICAV Dictionaries</item>
         <separator/>
-        <item xml:id="liVicavDict_Tunis">TUNICO Dictionary</item>
-        <item xml:id="liVicavDict_Damascus">Damascus Dictionary</item>
-        <item xml:id="liVicavDict_Cairo">Cairo Dictionary</item>
-        <item xml:id="liVicavDict_Baghdad">Baghdad Dictionary</item>
-        <item xml:id="liVicavDict_MSA">MSA Dictionary</item>
+        <item xml:id="liVicavDict_Tunis" type="vicavTexts" target="dictFrontPage_Tunis">TUNICO Dictionary</item>
+        <item xml:id="liVicavDict_Damascus" type="vicavTexts" target="dictFrontPage_Damascus">Damascus Dictionary</item>
+        <item xml:id="liVicavDict_Cairo" type="vicavTexts" target="dictFrontPage_Cairo">Cairo Dictionary</item>
+        <item xml:id="liVicavDict_Baghdad" type="vicavTexts" target="dictFrontPage_Baghdad">Baghdad Dictionary</item>
+        <item xml:id="liVicavDict_MSA" type="vicavTexts" target="dictFrontPage_MSA">MSA Dictionary</item>
         <separator/>
         <item xml:id="liVicavDictionariesTechnicalities" type="vicavTexts" target="vicavDictionariesTechnicalities">Technicalities</item>
         <item xml:id="liVicavContributeDictionary" type="vicavTexts" target="vicavContributeDictionary">Contribute a Dictionary/Glossary</item>
