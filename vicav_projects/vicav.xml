@@ -11,12 +11,12 @@
 	<menu>
     <main>
       <dropdown xml:id="dropdown00" title="Project">
-        <item xml:id="liVicavMission">Mission</item>
-        <item xml:id="liVicavNews">News</item>
+        <item xml:id="liVicavMission" type="vicavTexts" target="vicavMission">Mission</item>
+        <item xml:id="liVicavNews" type="vicavTexts" target="vicavNews">News</item>
         <separator/>
-        <item xml:id="liVicavTypesOfText">Types of Text/Data</item>
-        <item xml:id="liVicavContributors">Contributors</item>    
-        <item xml:id="liVicavLinguistics">Linguistics</item>    
+        <item xml:id="liVicavTypesOfText" type="vicavTexts" target="vicavTypesOfText">Types of Text/Data</item>
+        <item xml:id="liVicavContributors" type="vicavTexts" target="vicavContributors">Contributors</item>    
+        <item xml:id="liVicavLinguistics" type="vicavTexts" target="vicavLinguistics">Linguistics</item>    
       </dropdown>
       <dropdown xml:id="dropdown01" title="Bibliographies">
         <item xml:id="liBibliographyExplanation">Explanation</item>
@@ -29,33 +29,33 @@
         <separator/>
         <item xml:id="liBiblNewQuery">Query Bibliography</item>
         <separator/>
-        <item xml:id="liVicavContributeBibliography">Contribute to the Bibliography</item>
+        <item xml:id="liVicavContributeBibliography" type="vicavTexts" target="vicavContributionBibliography">Contribute to the Bibliography</item>
       </dropdown>
       <dropdown xml:id="dropdown02" title="Profiles">
-        <item xml:id="liProfilesExplanation">Explanation + List</item>
+        <item xml:id="liProfilesExplanation" type="vicavTexts" target="vicavExplanationProfiles">Explanation + List</item>
         <separator/>
         <item xml:id="navProfilesGeoRegMarkers">Show All Locations</item>
         <separator/>
-        <item xml:id="liVicavContributeProfile">Contribute a Profile</item>
+        <item xml:id="liVicavContributeProfile" type="vicavTexts" target="vicavContributeProfile">Contribute a Profile</item>
       </dropdown>
       <dropdown xml:id="dropdown03" title="Feature Lists">
-        <item xml:id="liFeaturesExplanation">Explanation</item>
+        <item xml:id="liFeaturesExplanation" type="vicavTexts" target="vicavExplanationFeatures">Explanation</item>
         <item xml:id="liVicavCrossFeatureQuery">Cross-examine the VICAV Feature Lists</item>
         <separator></separator>
         <item xml:id="navFeaturesGeoRegMarkers">Show All Locations</item>
         <separator></separator>
-        <item xml:id="liVicavContributeFeature">Contribute a Feature List</item>
+        <item xml:id="liVicavContributeFeature" type="vicavTexts" target="vicavContributeFeature">Contribute a Feature List</item>
       </dropdown>
       <dropdown xml:id="dropdown04" title="Samples">
-        <item xml:id="liSamplesExplanation">Explanation</item>
+        <item xml:id="liSamplesExplanation"  type="vicavTexts" target="vicavExplanationSampleTexts">Explanation</item>
         <separator></separator>
         <item xml:id="navSamplesGeoRegMarkers">Show All Locations</item>
         <item xml:id="liExploreSamples">Compare Locations</item>
         <separator></separator>
-        <item xml:id="liVicavContributeSampleText">Contribute a Sample Text</item>        
+        <item xml:id="liVicavContributeSampleText" type="vicavTexts" target="vicavContributeSampleText">Contribute a Sample Text</item>        
       </dropdown>
       <dropdown xml:id="dropdown05" title="Texts">
-        <item xml:id="liCorpusTextsExplanation">Explanation and Overview</item>
+        <item xml:id="liCorpusTextsExplanation" target="vicavExplanationCorpusTexts" type="vicavTexts">Explanation and Overview</item>
       </dropdown>
       <dropdown xml:id="dropdown06" title="Dictionaries">
         <item xml:id="navDictGeoRegMarkers1">Bibliography (Dictionaries)</item>
@@ -64,32 +64,32 @@
         <separator/>
         <item xml:id="liVicavCrossDictQuery">Query the VICAV Dictionaries</item>
         <separator/>
-        <item xml:id="liVicavDict_Tunis">TUNICO Dictionary</item>
-        <item xml:id="liVicavDict_Damascus">Damascus Dictionary</item>
-        <item xml:id="liVicavDict_Cairo">Cairo Dictionary</item>
-        <item xml:id="liVicavDict_Baghdad">Baghdad Dictionary</item>
-        <item xml:id="liVicavDict_MSA">MSA Dictionary</item>
+        <item xml:id="liVicavDict_Tunis" type="vicavTexts" target="dictFrontPage_Tunis">TUNICO Dictionary</item>
+        <item xml:id="liVicavDict_Damascus" type="vicavTexts" target="dictFrontPage_Damascus">Damascus Dictionary</item>
+        <item xml:id="liVicavDict_Cairo" type="vicavTexts" target="dictFrontPage_Cairo">Cairo Dictionary</item>
+        <item xml:id="liVicavDict_Baghdad" type="vicavTexts" target="dictFrontPage_Baghdad">Baghdad Dictionary</item>
+        <item xml:id="liVicavDict_MSA" type="vicavTexts" target="dictFrontPage_MSA">MSA Dictionary</item>
         <separator/>
-        <item xml:id="liVicavDictionariesTechnicalities">Technicalities</item>
-        <item xml:id="liVicavContributeDictionary">Contribute a Dictionary/Glossary</item>
+        <item xml:id="liVicavDictionariesTechnicalities" type="vicavTexts" target="vicavDictionariesTechnicalities">Technicalities</item>
+        <item xml:id="liVicavContributeDictionary" type="vicavTexts" target="vicavContributeDictionary">Contribute a Dictionary/Glossary</item>
       </dropdown>
       <dropdown xml:id="dropdown07" title="Tools &amp; Technology">
-        <item xml:id="liVicavDictionaryEncoding">Dictionary Encoding</item>
-        <item xml:id="liVicavVLE">Dictionary Editor (VLE)</item>
-        <item xml:id="liVicavArabicTools">Arabic Research Tools</item>
-        <item xml:id="liVicavOverview_corpora_spoken"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Corpora (Spoken Varieties)]]></item>
-        <item xml:id="liVicavOverview_corpora_msa"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Corpora (MSA)]]></item>
-        <item xml:id="liVicavOverview_special_corpora"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Special Corpora]]></item>
-        <item xml:id="liVicavOverview_corpora_historical_varieties"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Corpora (Historical Varieties)]]></item>
-        <item xml:id="liVicavOverview_dictionaries"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dictionaries]]></item>
-        <item xml:id="liVicavOverview_nlp"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Language Processing Tools]]></item>
-        <item xml:id="liVicavOverview_otherStuff"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other Websites &amp; Projects]]></item>                                
-        <item xml:id="liVicavLearning">Learning Materials</item>
-        <item xml:id="liVicavLearningTextbookDamascus"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Materials for Textbook of Syrian Arabic]]></item>
-        <item xml:id="liVicavLearningSmartphone"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vocabularies on Smartphones]]></item>
-        <item xml:id="liVicavLearningPrograms"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Available Programs]]></item>
-        <item xml:id="liVicavLearningData"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Available Data]]></item>
-        <item xml:id="liVicavKeyboards">Keyboard Layouts</item>
+        <item xml:id="liVicavDictionaryEncoding" type="vicavTexts" target="vicavDictionaryEncoding">Dictionary Encoding</item>
+        <item xml:id="liVicavVLE" type="vicavTexts" target="vicavVLE">Dictionary Editor (VLE)</item>
+        <item xml:id="liVicavArabicTools" type="vicavTexts" target="vicavArabicTools">Arabic Research Tools</item>
+        <item xml:id="liVicavOverview_corpora_spoken" type="vicavTexts" target="vicavOverview_corpora_spoken"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Corpora (Spoken Varieties)]]></item>
+        <item xml:id="liVicavOverview_corpora_msa" type="vicavTexts" target="vicavOverview_corpora_msa"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Corpora (MSA)]]></item>
+        <item xml:id="liVicavOverview_special_corpora" type="vicavTexts" target="vicavOverview_special_corpora"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Special Corpora]]></item>
+        <item xml:id="liVicavOverview_corpora_historical_varieties" type="vicavTexts" target="vicavOverview_corpora_historical_varieties"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Corpora (Historical Varieties)]]></item>
+        <item xml:id="liVicavOverview_dictionaries" type="vicavTexts" target="vicavOverview_dictionaries"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dictionaries]]></item>
+        <item xml:id="liVicavOverview_nlp" type="vicavTexts" target="vicavOverview_nlp"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Language Processing Tools]]></item>
+        <item xml:id="liVicavOverview_otherStuff" type="vicavTexts" target="vicavOverview_otherStuff"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other Websites &amp; Projects]]></item>                                
+        <item xml:id="liVicavLearning" type="vicavTexts" target="vicavLearning">Learning Materials</item>
+        <item xml:id="liVicavLearningTextbookDamascus" type="vicavTexts" target="vicavLearning_tb_damascus"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Materials for Textbook of Syrian Arabic]]></item>
+        <item xml:id="liVicavLearningSmartphone" type="vicavTexts" target="vicavLearningSmartphone"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vocabularies on Smartphones]]></item>
+        <item xml:id="liVicavLearningPrograms" type="vicavTexts" target="vicavLearningPrograms"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Available Programs]]></item>
+        <item xml:id="liVicavLearningData" type="vicavTexts" target="vicavLearningData"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Available Data]]></item>
+        <item xml:id="liVicavKeyboards" type="vicavTexts" target="vicavKeyboards">Keyboard Layouts</item>
       </dropdown>
     </main>
     <subnav>
