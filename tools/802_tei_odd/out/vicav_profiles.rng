@@ -5,10 +5,10 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-09-17T11:09:33Z. .
-TEI Edition: Version 3.4.0. Last updated on
-	23rd July 2018, revision 1fa0b54
-TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.4.0/
+Schema generated from ODD source 2020-09-24T09:51:00Z. .
+TEI Edition: Version 4.1.0. Last updated on
+	19th August 2020, revision b414ba550
+TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.1.0/
   
 --><!---->
    <define name="macro.paraContent">
@@ -38,6 +38,7 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.4.0/
          <choice>
             <text/>
             <ref name="model.gLike"/>
+            <ref name="model.attributable"/>
             <ref name="model.phrase"/>
             <ref name="model.global"/>
          </choice>
@@ -169,7 +170,7 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.4.0/
    <define name="att.ranging.attribute.confidence">
       <optional>
          <attribute name="confidence">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the degree of statistical confidence (between zero and one) that a value falls within the range specified by min and max, or the proportion of observed values that fall within that range.</a:documentation>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the degree of statistical confidence (between zero and one) that a value falls within the range specified by <code xmlns="http://www.w3.org/1999/xhtml">@min</code> and <code xmlns="http://www.w3.org/1999/xhtml">@max</code>, or the proportion of observed values that fall within that range.</a:documentation>
             <data type="double"/>
          </attribute>
       </optional>
@@ -186,7 +187,7 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.4.0/
       <optional>
          <attribute name="unit">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">names the unit used for the measurement
-Suggested values include: 1] cm (centimetres) ; 2] mm (millimetres) ; 3] in (inches) ; 4] lines; 5] chars (characters) </a:documentation>
+Suggested values include: 1] cm (centimetres); 2] mm (millimetres); 3] in (inches); 4] line; 5] char (characters)</a:documentation>
             <choice>
                <value>cm</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(centimetres) </a:documentation>
@@ -194,12 +195,12 @@ Suggested values include: 1] cm (centimetres) ; 2] mm (millimetres) ; 3] in (inc
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(millimetres) </a:documentation>
                <value>in</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(inches) </a:documentation>
-               <value>lines</value>
+               <value>line</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">lines of text</a:documentation>
-               <value>chars</value>
+               <value>char</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(characters) characters of text</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </choice>
          </attribute>
@@ -250,7 +251,7 @@ Suggested values include: 1] cm (centimetres) ; 2] mm (millimetres) ; 3] in (inc
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">where the measurement summarizes more than one observation, specifies the applicability of this measurement.
 Sample values include: 1] all; 2] most; 3] range</a:documentation>
             <data type="token">
-               <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
             </data>
          </attribute>
       </optional>
@@ -261,7 +262,7 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
    <define name="att.written.attribute.hand">
       <optional>
          <attribute name="hand">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to a handNote element describing the hand considered responsible for the content of the element concerned.</a:documentation>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to a <code xmlns="http://www.w3.org/1999/xhtml">&lt;handNote&gt;</code> element describing the hand considered responsible for the content of the element concerned.</a:documentation>
             <data type="anyURI"/>
          </attribute>
       </optional>
@@ -272,7 +273,7 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
    <define name="att.cReferencing.attribute.cRef">
       <optional>
          <attribute name="cRef">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(canonical reference) specifies the destination of the pointer by supplying a canonical reference expressed using the scheme defined in a refsDecl element in the TEI header</a:documentation>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(canonical reference) specifies the destination of the pointer by supplying a canonical reference expressed using the scheme defined in a <code xmlns="http://www.w3.org/1999/xhtml">&lt;refsDecl&gt;</code> element in the TEI header</a:documentation>
             <data type="string"/>
          </attribute>
       </optional>
@@ -433,9 +434,9 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@calendar]">
-            <sch:assert test="string-length(.) gt 0">
-@calendar indicates the system or calendar to which the date represented by the content of this element
-belongs, but this <sch:name/> element has no textual content.</sch:assert>
+            <sch:assert test="string-length(.) gt 0"> @calendar indicates the system or calendar to
+              which the date represented by the content of this element belongs, but this
+              <sch:name/> element has no textual content.</sch:assert>
           </sch:rule>
    </pattern>
    <define name="att.datable.attribute.period">
@@ -555,7 +556,7 @@ belongs, but this <sch:name/> element has no textual content.</sch:assert>
             <a:documentation>describes the status of a document either currently or, when associated with a dated element, at the time indicated.
 Sample values include: 1] approved; 2] candidate; 3] cleared; 4] deprecated; 5] draft; 6] embargoed; 7] expired; 8] frozen; 9] galley; 10] proposed; 11] published; 12] recommendation; 13] submitted; 14] unfinished; 15] withdrawn</a:documentation>
             <data type="token">
-               <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
             </data>
          </attribute>
       </optional>
@@ -615,7 +616,7 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
                      <value>conjecture</value>
                      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the intervention or interpretation has been made by the editor, cataloguer, or scholar on the basis of their expertise.</a:documentation>
                      <data type="token">
-                        <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
                      </data>
                   </choice>
                </oneOrMore>
@@ -653,7 +654,7 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -724,7 +725,8 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
    <define name="att.global.attribute.xmllang">
       <optional>
          <attribute name="xml:lang">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(language) indicates the language of the element content using a tag generated according to BCP 47.</a:documentation>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(language) indicates the language of the element content using a tag generated according to <a xmlns="http://www.w3.org/1999/xhtml"
+                  href="http://www.rfc-editor.org/rfc/bcp/bcp47.txt">BCP 47</a>.</a:documentation>
             <choice>
                <data type="language"/>
                <choice>
@@ -766,7 +768,7 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -834,7 +836,7 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -885,7 +887,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
                      <value>inspace</value>
                      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">in a predefined space, for example left by an earlier scribe.</a:documentation>
                      <data type="token">
-                        <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
                      </data>
                   </choice>
                </oneOrMore>
@@ -902,7 +904,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
          <attribute name="type">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
             <data type="token">
-               <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
             </data>
          </attribute>
       </optional>
@@ -912,7 +914,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
          <attribute name="subtype">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a sub-categorization of the element, if needed</a:documentation>
             <data type="token">
-               <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
             </data>
          </attribute>
       </optional>
@@ -938,7 +940,8 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
    <define name="att.pointing.attribute.targetLang">
       <optional>
          <attribute name="targetLang">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the language of the content to be found at the destination referenced by target, using a language tag generated according to BCP 47.</a:documentation>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the language of the content to be found at the destination referenced by <code xmlns="http://www.w3.org/1999/xhtml">@target</code>, using a language tag generated according to <a xmlns="http://www.w3.org/1999/xhtml"
+                  href="http://www.rfc-editor.org/rfc/bcp/bcp47.txt">BCP 47</a>.</a:documentation>
             <choice>
                <data type="language"/>
                <choice>
@@ -997,7 +1000,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
          <attribute name="sortKey">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the sort key for this element in an index, list or group which contains it.</a:documentation>
             <data type="token">
-               <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
             </data>
          </attribute>
       </optional>
@@ -1026,7 +1029,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
    <define name="att.styleDef.attribute.schemeVersion">
       <optional>
          <attribute name="schemeVersion">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a version number for the style language provided in scheme.</a:documentation>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a version number for the style language provided in <code xmlns="http://www.w3.org/1999/xhtml">@scheme</code>.</a:documentation>
             <data type="token">
                <param name="pattern">[\d]+[a-z]*[\d]*(\.[\d]+[a-z]*[\d]*){0,3}</param>
             </data>
@@ -1634,30 +1637,30 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
    <define name="model.quoteLike_sequenceRepeatable">
       <notAllowed/>
    </define>
-   <define name="model.qLike">
+   <define name="model.attributable">
       <choice>
          <ref name="model.quoteLike"/>
       </choice>
    </define>
-   <define name="model.qLike_alternation">
+   <define name="model.attributable_alternation">
       <choice>
          <ref name="model.quoteLike_alternation"/>
       </choice>
    </define>
-   <define name="model.qLike_sequence">
+   <define name="model.attributable_sequence">
       <ref name="model.quoteLike_sequence"/>
    </define>
-   <define name="model.qLike_sequenceOptional">
+   <define name="model.attributable_sequenceOptional">
       <optional>
          <ref name="model.quoteLike_sequenceOptional"/>
       </optional>
    </define>
-   <define name="model.qLike_sequenceOptionalRepeatable">
+   <define name="model.attributable_sequenceOptionalRepeatable">
       <zeroOrMore>
          <ref name="model.quoteLike_sequenceOptionalRepeatable"/>
       </zeroOrMore>
    </define>
-   <define name="model.qLike_sequenceRepeatable">
+   <define name="model.attributable_sequenceRepeatable">
       <oneOrMore>
          <ref name="model.quoteLike_sequenceRepeatable"/>
       </oneOrMore>
@@ -1841,7 +1844,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
          <ref name="model.labelLike"/>
          <ref name="model.listLike"/>
          <ref name="model.stageLike"/>
-         <ref name="model.qLike"/>
+         <ref name="model.attributable"/>
       </choice>
    </define>
    <define name="model.common">
@@ -1897,9 +1900,10 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
    <define name="model.encodingDescPart">
       <choice>
          <ref name="tagsDecl"/>
+         <ref name="listPrefixDef"/>
       </choice>
    </define>
-   <define name="model.resourceLike">
+   <define name="model.resource">
       <choice>
          <ref name="text"/>
       </choice>
@@ -1946,18 +1950,18 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
                <ref name="geo"/>
             </choice>
          </oneOrMore>
-         <ns xmlns="http://purl.oclc.org/dsdl/schematron"
-             prefix="rdf"
-             uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+         <s:ns xmlns:xi="http://www.w3.org/2001/XInclude"
+               xmlns:svg="http://www.w3.org/2000/svg"
+               xmlns:math="http://www.w3.org/1998/Math/MathML"
+               xmlns="http://www.tei-c.org/ns/1.0"
+               xmlns:s="http://purl.oclc.org/dsdl/schematron"
+               uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+               prefix="rdf"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="vicav_profiles-p-p-typology-constraint-rule-8">
-            <s:rule xmlns:xi="http://www.w3.org/2001/XInclude"
-                    xmlns:svg="http://www.w3.org/2000/svg"
-                    xmlns:math="http://www.w3.org/1998/Math/MathML"
-                    xmlns="http://www.tei-c.org/ns/1.0"
-                    xmlns:s="http://purl.oclc.org/dsdl/schematron"
+            <s:rule xmlns:s="http://purl.oclc.org/dsdl/schematron"
                     context="tei:div[@type = 'typology']/tei:p[1]">
-               <s:assert test=". = ('East (Mashriq) › Mesopotamia › Anatolia', 'Algeria › West (Maghreb)', 'Algeria › West (Maghreb)', 'Algeria › West (Maghreb)', 'Algeria › West (Maghreb)', 'East (Mashriq) › Arabia › Central Najd › Northern group', 'Tunisia › West (Maghreb)', 'Tunisia › West (Maghreb)', 'Tunisia › West (Maghreb)', 'East (Mashriq) › Levant › Lebanon', 'East (Mashriq) › Palestine › Levant', 'East (Mashriq) › Anatolia (qəltu) › Mesopotamia', 'East (Mashriq) › Anatolia (qəltu) › Mesopotamia', 'Libya › West (Maghreb)', 'East (Mashriq) › Iraq (qəltu) › Mesopotamia', 'East (Mashriq) › Arabia › Central Najd (ˁAnaza) › Northern group', 'East (Mashriq) › Arabia', 'East (Mashriq) › Turkey › Levant', 'East (Mashriq) › Yemen › Arabia', 'East (Mashriq) › Yemen › Arabia', 'East (Mashriq) › Yemen › Arabia', 'East (Mashriq) › Syria › Levant', 'East (Mashriq) › Syria › Levant', 'East (Mashriq) › Syria › Levant', 'East (Mashriq) › Levant › Lebanon', 'Egypt › East (Mashriq) › Delta › Egypt-Sudan', 'Egypt › East (Mashriq) › Delta › Egypt-Sudan', 'East (Mashriq) › Iraq › Mesopotamia', 'Eastern Syria (qəltu) › East (Mashriq) › Mesopotamia', 'Eastern group › East (Mashriq) › Sudan', 'Palestine/Syria › East (Mashriq) › Levant', 'East (Mashriq) › Arabia', 'East (Mashriq) › Mesopotamia › Anatolia', 'Iraq (gilit) › East (Mashriq) › Mesopotamia', 'Morocco › West (Maghreb)', 'East (Mashriq) › Egypt-Sudan › Eastern group › Sudan', 'East (Mashriq) › Syro-Palestinian', 'East (Mashriq) › Arabia › Northern group')">typology must match one path of the SKOS Taxonomy of dialects</s:assert>
+               <s:assert test=". = ('Anatolia › East (Mashriq) › Mesopotamia', 'Anatolia › East (Mashriq) › Mesopotamia', 'East (Mashriq) › Iraq › Mesopotamia', 'East (Mashriq) › Iraq › Mesopotamia', 'Northeastern Syria › East (Mashriq) › Mesopotamia', 'Anatolia › East (Mashriq) › Mesopotamia', 'East (Mashriq) › Iraq › Mesopotamia', 'East (Mashriq) › Iraq › Mesopotamia', 'East (Mashriq) › Iraq › Mesopotamia', 'East (Mashriq) › Iraq › Mesopotamia', 'Levant › Jordan › East (Mashriq)', 'Levant › Jordan › East (Mashriq)', 'Levant › Jordan › East (Mashriq)', 'Western Delta › East (Mashriq) › Egypt › Delta › Egypt-Sudan', 'Yemen › Arabia › East (Mashriq)', 'Levant › Syria › East (Mashriq)', 'Levant › Syria › East (Mashriq)', 'Levant › Syria › East (Mashriq)', 'Levant › Syria › East (Mashriq)', 'Levant › Syria › East (Mashriq)', 'Levant › Syria › East (Mashriq)', 'Arabia › East (Mashriq)', 'Yemen › Arabia › East (Mashriq)', 'Yemen › Arabia › East (Mashriq)', 'Levant › East (Mashriq) › Lebanon', 'Levant › East (Mashriq) › Lebanon', 'Levant › East (Mashriq) › Lebanon', 'Levant › East (Mashriq) › Lebanon', 'Levant › East (Mashriq) › Palestine', 'Levant › East (Mashriq) › Palestine', 'Levant › East (Mashriq) › Palestine', 'Mardin group › Anatolia › East (Mashriq) › Mesopotamia', 'Yemen › Arabia › East (Mashriq)', 'Tunisia › West (Maghreb)', 'Yemen › Arabia › East (Mashriq)', 'East (Mashriq) › Western group › Egypt-Sudan › Sudan', 'East (Mashriq) › Eastern group › Egypt-Sudan › Sudan', 'Libya › West (Maghreb)', 'Arabia › East (Mashriq) › Oman', 'Algeria › West (Maghreb)', 'Algeria › West (Maghreb)', 'Algeria › West (Maghreb)', 'Algeria › West (Maghreb)', 'Arabia › East (Mashriq) › Northern group', 'Arabia › East (Mashriq) › Northern group', 'Libya › West (Maghreb)', 'Yemen › Arabia › East (Mashriq)', 'East (Mashriq) › Egypt › Nile Valley › Egypt-Sudan', 'East (Mashriq) › Egypt › Nile Valley › Egypt-Sudan', 'East (Mashriq) › Egypt › Nile Valley › Egypt-Sudan', 'Yemen › Arabia › East (Mashriq)', 'Mardin group › Anatolia › East (Mashriq) › Mesopotamia', 'Arabia › East (Mashriq)', 'East (Mashriq) › Egypt › Delta › Egypt-Sudan', 'Yemen › Arabia › East (Mashriq)', 'East (Mashriq) › Eastern group › Egypt-Sudan › Sudan', 'Yemen › Arabia › East (Mashriq)', 'Tunisia › West (Maghreb)', 'East (Mashriq) › Eastern group › Egypt-Sudan › Sudan', 'Yemen › Arabia › East (Mashriq)', 'Levant › East (Mashriq) › Turkey', 'Levant › East (Mashriq) › Turkey', 'West (Maghreb) › Morocco', 'Mardin group › Anatolia › East (Mashriq) › Mesopotamia', 'West (Maghreb) › Morocco', 'East (Mashriq) › Egypt › Delta › Egypt-Sudan', 'West (Maghreb)', 'Arabia › East (Mashriq) › Oman', 'Arabia › East (Mashriq) › Oman', 'Tunisia › West (Maghreb)', 'East (Mashriq) › Western group › Egypt-Sudan › Sudan', 'Arabia › East (Mashriq) › Oman', 'East (Mashriq) › Egypt › Egypt-Sudan', 'Western Delta › East (Mashriq) › Egypt › Delta › Egypt-Sudan', 'Western Delta › East (Mashriq) › Egypt › Delta › Egypt-Sudan', 'Arabia › East (Mashriq)', 'West (Maghreb) › Morocco', 'East (Mashriq) › Egypt › Delta › Egypt-Sudan', 'Tunisia › West (Maghreb)', 'Tunisia › West (Maghreb)', 'Tunisia › West (Maghreb)', 'East (Mashriq) › Eastern group › Egypt-Sudan › Sudan', 'East (Mashriq) › Egypt › Delta › Egypt-Sudan', 'Yemen › Arabia › East (Mashriq)', 'Arabia › East (Mashriq) › Northern group')">typology must match one path of the SKOS Taxonomy of dialects</s:assert>
             </s:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -2004,9 +2008,34 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
       <element name="desc">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(description) contains a brief description of the object documented by its parent element, typically a documentation element or an entity. [22.4.1. Description of Components]</a:documentation>
          <ref name="macro.limitedContent"/>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="vicav_profiles-desc-deprecationInfo-only-in-deprecated-constraint-rule-9">
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:svg="http://www.w3.org/2000/svg"
+                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
+                      context="tei:desc[ @type eq 'deprecationInfo']">
+               <sch:assert test="../@validUntil">Information about a
+        deprecation should only be present in a specification element
+        that is being deprecated: that is, only an element that has a
+        @validUntil attribute should have a child &lt;desc
+        type="deprecationInfo"&gt;.</sch:assert>
+            </sch:rule>
+         </pattern>
          <ref name="att.global.attributes"/>
          <ref name="att.translatable.attributes"/>
-         <ref name="att.typed.attributes"/>
+         <ref name="att.typed.attribute.subtype"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>
@@ -2026,24 +2055,26 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
       <element name="rs">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(referencing string) contains a general purpose name or referring string. [13.2.1. Personal Names 3.5.1. Referring Strings]</a:documentation>
          <ref name="macro.phraseSeq"/>
-         <ns xmlns="http://purl.oclc.org/dsdl/schematron"
-             prefix="rdf"
-             uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+         <s:ns xmlns:xi="http://www.w3.org/2001/XInclude"
+               xmlns:svg="http://www.w3.org/2000/svg"
+               xmlns:math="http://www.w3.org/1998/Math/MathML"
+               xmlns="http://www.tei-c.org/ns/1.0"
+               xmlns:s="http://purl.oclc.org/dsdl/schematron"
+               uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+               prefix="rdf"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="vicav_profiles-rs-rs-zotero-id-constraint-rule-9">
-            <s:rule xmlns:xi="http://www.w3.org/2001/XInclude"
-                    xmlns:svg="http://www.w3.org/2000/svg"
-                    xmlns:math="http://www.w3.org/1998/Math/MathML"
-                    xmlns="http://www.tei-c.org/ns/1.0"
-                    xmlns:s="http://purl.oclc.org/dsdl/schematron"
+                  id="vicav_profiles-rs-rs-zotero-id-constraint-rule-10">
+            <s:rule xmlns:s="http://purl.oclc.org/dsdl/schematron"
                     context="tei:rs[@type = 'bibl']">
                 <s:let name="zotero-prefix" value="'zotID:'"/>
                 <s:let name="zotero-id" value="substring-after(@ref,$zotero-prefix)"/>
                 <s:let name="zotero-entry"
                       value="doc('../../../vicav_biblio/VICAV.xml')//tei:biblStruct[ends-with(@corresp,$zotero-id)]"/>
-                <s:assert test="starts-with(@ref, $zotero-prefix)">ref must start with the Zotero prefix '<s:value-of select="$zotero-prefix"/>' prefix</s:assert>
+                <s:assert test="starts-with(@ref, $zotero-prefix)">ref must start with the Zotero
+                  prefix '<s:value-of select="$zotero-prefix"/>' prefix</s:assert>
                 <s:assert test="exists($zotero-entry)">
-                  <s:value-of select="$zotero-id"/> is not a valid Zotero ID!</s:assert>
+                  <s:value-of select="$zotero-id"/> is not a
+                  valid Zotero ID!</s:assert>
               </s:rule>
          </pattern>
          <ref name="att.global.attributes"/>
@@ -2080,7 +2111,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
    </define>
    <define name="date">
       <element name="date">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a date in any format. [3.5.4. Dates and Times 2.2.4. Publication, Distribution, Licensing, etc. 2.6. The Revision Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.3.6. Dates and Times]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a date in any format. [3.5.4. Dates and Times 2.2.4. Publication, Distribution, Licensing, etc. 2.6. The Revision Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.3.7. Dates and Times]</a:documentation>
          <zeroOrMore>
             <choice>
                <text/>
@@ -2090,6 +2121,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
             </choice>
          </zeroOrMore>
          <ref name="att.global.attributes"/>
+         <ref name="att.canonical.attributes"/>
          <ref name="att.datable.attributes"/>
          <ref name="att.editLike.attributes"/>
          <ref name="att.dimensions.attributes"/>
@@ -2113,12 +2145,12 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
                </report>
             </rule>
          </pattern>
-         <ref name="att.global.attributes"/>
-         <ref name="att.pointing.attributes"/>
-         <ref name="att.internetMedia.attributes"/>
-         <ref name="att.typed.attributes"/>
-         <ref name="att.declaring.attributes"/>
          <ref name="att.cReferencing.attributes"/>
+         <ref name="att.declaring.attributes"/>
+         <ref name="att.global.attributes"/>
+         <ref name="att.internetMedia.attributes"/>
+         <ref name="att.pointing.attributes"/>
+         <ref name="att.typed.attributes"/>
          <empty/>
       </element>
    </define>
@@ -2135,32 +2167,41 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
    </define>
    <define name="head">
       <element name="head">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(heading) contains any type of heading, for example the title of a section, or the heading of a list, glossary, manuscript description, etc. [4.2.1. Headings and Trailers]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(heading) head elements are either: (1) VICAV Profile headings (containing 1 profile image + 1-n names with optional labels), (2) figure captions (containing plain text or a hyperlink pointing to the source of the image)  [4.2.1. Headings and Trailers]</a:documentation>
          <choice>
             <group>
                <ref name="figure"/>
-               <group>
-                  <optional>
-                     <ref name="label"/>
-                  </optional>
-                  <ref name="name"/>
-               </group>
+               <oneOrMore>
+                  <group>
+                     <optional>
+                        <ref name="label"/>
+                     </optional>
+                     <ref name="name"/>
+                  </group>
+               </oneOrMore>
             </group>
             <text/>
             <ref name="ref"/>
          </choice>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="vicav_profiles-head-head-labels-constraint-rule-10">
+                  id="vicav_profiles-head-head-labels-constraint-rule-11">
             <s:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                     xmlns:svg="http://www.w3.org/2000/svg"
                     xmlns:math="http://www.w3.org/1998/Math/MathML"
                     xmlns="http://www.tei-c.org/ns/1.0"
                     xmlns:s="http://purl.oclc.org/dsdl/schematron"
                     context="tei:head[parent::tei:div[parent::tei:body]]">
-                <s:assert test="tei:name[@xml:lang = 'eng']">An english version of the location name must be provided (name element with xml:lang 'eng').</s:assert>
-                <s:assert test="tei:name[@xml:lang = 'ara']">A Fuṣḥā transcription of the location name must be provided (name element with xml:lang 'ara').</s:assert>
-                <s:assert test="tei:name[@xml:lang = 'ara-x-DMG']">A transcription of the local name of location must be provided (name element with xml:lang 'ara-x-DMG').</s:assert>
-                <s:assert test="tei:name[@xml:lang = 'ajp']">A standard arabic name of the location must be provided (name element with xml:lang 'ajp').</s:assert>
+                <s:assert test="tei:name[@xml:lang = 'eng']">At least an english version of the location name
+                  must be provided (name element with xml:lang 'eng').</s:assert>
+              </s:rule>
+            <s:rule xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xmlns:svg="http://www.w3.org/2000/svg"
+                    xmlns:math="http://www.w3.org/1998/Math/MathML"
+                    xmlns="http://www.tei-c.org/ns/1.0"
+                    xmlns:s="http://purl.oclc.org/dsdl/schematron"
+                    context="tei:head[parent::tei:div[parent::tei:body]]/tei:name">
+                  <s:let name="lang" value="@xml:lang"/>  
+                  <s:report test="not($lang = doc('../../082_scripts_xsl/profile_fields.xml')//property[@name = 'lang']/@value)">Unexpected value '<s:value-of select="$lang"/>' in @xml:lang </s:report>
               </s:rule>
          </pattern>
          <ref name="att.global.attributes"/>
@@ -2307,15 +2348,15 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a title for any kind of work. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.5. The Series Statement]</a:documentation>
          <ref name="macro.paraContent"/>
          <ref name="att.global.attributes"/>
-         <ref name="att.canonical.attributes"/>
          <ref name="att.typed.attribute.subtype"/>
+         <ref name="att.canonical.attributes"/>
          <ref name="att.datable.attributes"/>
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">classifies the title according to some convenient typology.
-Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] short; 5] desc (descriptive) </a:documentation>
+Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] short; 5] desc (descriptive)</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </attribute>
          </optional>
@@ -2389,6 +2430,9 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
             <zeroOrMore>
                <ref name="model.headLike"/>
             </zeroOrMore>
+            <zeroOrMore>
+               <ref name="desc"/>
+            </zeroOrMore>
       
       
             <oneOrMore>
@@ -2411,21 +2455,33 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
          <empty/>
       </element>
    </define>
+   <define name="att.patternReplacement.attributes">
+      <ref name="att.patternReplacement.attribute.matchPattern"/>
+      <ref name="att.patternReplacement.attribute.replacementPattern"/>
+   </define>
+   <define name="att.patternReplacement.attribute.matchPattern">
+      <attribute name="matchPattern">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies a regular expression against which the values of other attributes can be matched.</a:documentation>
+         <data type="token"/>
+      </attribute>
+   </define>
+   <define name="att.patternReplacement.attribute.replacementPattern">
+      <attribute name="replacementPattern">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies a replacement pattern, that is, the skeleton of a relative or absolute URI containing references to groups in the <code xmlns="http://www.w3.org/1999/xhtml">@matchPattern</code> which, once subpattern substitution has been performed, complete the URI.</a:documentation>
+         <text/>
+      </attribute>
+   </define>
    <define name="teiHeader">
       <element name="teiHeader">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI header) supplies descriptive and declarative metadata associated with a digital resource or set of resources. [2.1.1. The TEI Header and Its Components 15.1. Varieties of Composite Text]</a:documentation>
          <group>
             <ref name="fileDesc"/>
-      
             <zeroOrMore>
                <ref name="model.teiHeaderPart"/>
             </zeroOrMore>
-      
-      
             <optional>
                <ref name="revisionDesc"/>
             </optional>
-      
          </group>
          <ref name="att.global.attributes"/>
          <empty/>
@@ -2537,14 +2593,11 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
    </define>
    <define name="sourceDesc">
       <element name="sourceDesc">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(source description) describes the source from which an electronic text was derived or generated, typically a bibliographic description in the case of a digitized text, or a phrase such as "born digital" for a text which has no previous existence. [2.2.7. The Source Description]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(source description) describes the source(s) from which an electronic text was derived or generated, typically a bibliographic description in the case of a digitized text, or a phrase such as "born digital" for a text which has no previous existence. [2.2.7. The Source Description]</a:documentation>
          <choice>
-      
             <oneOrMore>
                <ref name="model.pLike"/>
             </oneOrMore>
-      
-      
             <oneOrMore>
                <choice>
                   <ref name="model.biblLike"/>
@@ -2552,7 +2605,6 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
                   <ref name="model.listLike"/>
                </choice>
             </oneOrMore>
-      
          </choice>
          <ref name="att.global.attributes"/>
          <ref name="att.declarable.attributes"/>
@@ -2584,7 +2636,7 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
          <ref name="att.global.attributes"/>
          <optional>
             <attribute name="partial">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates whether the element types listed exhaustively include all those found within text, or represent only a subset.</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates whether the element types listed exhaustively include all those found within <code xmlns="http://www.w3.org/1999/xhtml">&lt;text&gt;</code>, or represent only a subset.</a:documentation>
                <data type="boolean"/>
             </attribute>
          </optional>
@@ -2602,16 +2654,51 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">where CSS is used, provides a way of defining pseudo-elements, that is, styling rules applicable to specific sub-portions of an element.
 Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </attribute>
          </optional>
          <optional>
             <attribute name="selector">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a selector or series of selectors specifying the elements to which the contained style description applies, expressed in the language specified in the scheme attribute.</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a selector or series of selectors specifying the elements to which the contained style description applies, expressed in the language specified in the <code xmlns="http://www.w3.org/1999/xhtml">@scheme</code> attribute.</a:documentation>
                <data type="string"/>
             </attribute>
          </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="prefixDef">
+      <element name="prefixDef">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(prefix definition) defines a prefixing scheme used in teidata.pointer values, showing how abbreviated URIs using the scheme may be expanded into full URIs. [16.2.3. Using Abbreviated Pointers]</a:documentation>
+         <zeroOrMore>
+            <ref name="model.pLike"/>
+         </zeroOrMore>
+         <ref name="att.global.attributes"/>
+         <ref name="att.patternReplacement.attributes"/>
+         <attribute name="ident">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a name which functions as the prefix for an abbreviated pointing scheme such as a private URI scheme. The prefix constitutes the text preceding the first colon.</a:documentation>
+            <data type="token">
+               <param name="pattern">[a-z][a-z0-9\+\.\-]*</param>
+            </data>
+         </attribute>
+         <empty/>
+      </element>
+   </define>
+   <define name="listPrefixDef">
+      <element name="listPrefixDef">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(list of prefix definitions) contains a list of definitions of prefixing schemes used in teidata.pointer values, showing how abbreviated URIs using each scheme may be expanded into full URIs. [16.2.3. Using Abbreviated Pointers]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <ref name="desc"/>
+            </zeroOrMore>
+            <oneOrMore>
+               <choice>
+                  <ref name="prefixDef"/>
+                  <ref name="listPrefixDef"/>
+               </choice>
+            </oneOrMore>
+         </group>
+         <ref name="att.global.attributes"/>
          <empty/>
       </element>
    </define>
@@ -2634,7 +2721,7 @@ Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:do
    </define>
    <define name="change">
       <element name="change">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">documents a change or set of changes made during the production of a source document, or during the revision of an electronic file. [2.6. The Revision Description 2.4.1. Creation 11.7. Identifying Changes and Revisions]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">documents a change or set of changes made during the production of a source document, or during the revision of an electronic file. [2.6. The Revision Description 2.4.1. Creation 11.6. Identifying Changes and Revisions]</a:documentation>
          <ref name="macro.specialPara"/>
          <ref name="att.ascribed.attributes"/>
          <ref name="att.datable.attributes"/>
@@ -2670,7 +2757,7 @@ Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:do
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -2684,7 +2771,7 @@ Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:do
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -2698,7 +2785,7 @@ Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:do
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -2712,7 +2799,7 @@ Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:do
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -2726,7 +2813,7 @@ Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:do
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -2744,7 +2831,7 @@ Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:do
    <define name="att.datable.custom.attribute.datingMethod">
       <optional>
          <attribute name="datingMethod">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a pointer to a calendar element or other means of interpreting the values of the custom dating attributes.</a:documentation>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a pointer to a <code xmlns="http://www.w3.org/1999/xhtml">&lt;calendar&gt;</code> element or other means of interpreting the values of the custom dating attributes.</a:documentation>
             <data type="anyURI"/>
          </attribute>
       </optional>
@@ -2885,22 +2972,50 @@ Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:do
    </define>
    <define name="TEI">
       <element name="TEI">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI document) contains a single TEI-conformant document, combining a single TEI header with one or more members of the model.resourceLike class. Multiple TEI elements may be combined to form a teiCorpus element. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI document) contains a single TEI-conformant document, combining a single TEI header with one or more members of the model.resource class. Multiple <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> elements may be combined within a <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> (or <code xmlns="http://www.w3.org/1999/xhtml">&lt;teiCorpus&gt;</code>) element. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
          <group>
             <ref name="teiHeader"/>
-            <oneOrMore>
-               <ref name="model.resourceLike"/>
-            </oneOrMore>
+            <choice>
+	              <group>
+	                 <oneOrMore>
+                     <ref name="model.resource"/>
+                  </oneOrMore>
+	                 <zeroOrMore>
+                     <ref name="TEI"/>
+                  </zeroOrMore>
+	              </group>
+	              <oneOrMore>
+                  <ref name="TEI"/>
+               </oneOrMore>
+            </choice>
          </group>
-         <ns xmlns="http://purl.oclc.org/dsdl/schematron"
-             prefix="tei"
-             uri="http://www.tei-c.org/ns/1.0"/>
-         <ns xmlns="http://purl.oclc.org/dsdl/schematron"
-             prefix="xs"
-             uri="http://www.w3.org/2001/XMLSchema"/>
-         <ns xmlns="http://purl.oclc.org/dsdl/schematron"
-             prefix="rng"
-             uri="http://relaxng.org/ns/structure/1.0"/>
+         <sch:ns xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 xmlns:xi="http://www.w3.org/2001/XInclude"
+                 xmlns:svg="http://www.w3.org/2000/svg"
+                 xmlns:math="http://www.w3.org/1998/Math/MathML"
+                 xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
+                 prefix="tei"
+                 uri="http://www.tei-c.org/ns/1.0"/>
+         <sch:ns xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 xmlns:xi="http://www.w3.org/2001/XInclude"
+                 xmlns:svg="http://www.w3.org/2000/svg"
+                 xmlns:math="http://www.w3.org/1998/Math/MathML"
+                 xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
+                 prefix="xs"
+                 uri="http://www.w3.org/2001/XMLSchema"/>
+         <sch:ns xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 xmlns:xi="http://www.w3.org/2001/XInclude"
+                 xmlns:svg="http://www.w3.org/2000/svg"
+                 xmlns:math="http://www.w3.org/1998/Math/MathML"
+                 xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
+                 prefix="rng"
+                 uri="http://relaxng.org/ns/structure/1.0"/>
          <ref name="att.global.attributes"/>
          <ref name="att.typed.attributes"/>
          <optional>
@@ -2919,30 +3034,22 @@ Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:do
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a single text of any kind, whether unitary or composite, for example a poem or drama, a collection of essays, a novel, a dictionary, or a corpus sample. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
          <group>
       
-        
-      
       
         
-        
-            <zeroOrMore>
+	           <zeroOrMore>
                <ref name="model.global"/>
             </zeroOrMore>
-        
       
             <choice>
                <ref name="body"/>
         
             </choice>
       
-        
-      
       
         
-        
-            <zeroOrMore>
+	           <zeroOrMore>
                <ref name="model.global"/>
             </zeroOrMore>
-        
       
          </group>
          <ref name="att.global.attributes"/>
@@ -3176,7 +3283,7 @@ Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:do
             </optional>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="vicav_profiles-div-abstractModel-structure-l-constraint-report-7">
+                  id="vicav_profiles-div-abstractModel-structure-l-constraint-report-8">
             <rule context="tei:div">
                <report xmlns:xi="http://www.w3.org/2001/XInclude"
                        xmlns:svg="http://www.w3.org/2000/svg"
@@ -3188,7 +3295,7 @@ Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:do
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="vicav_profiles-div-abstractModel-structure-p-constraint-report-8">
+                  id="vicav_profiles-div-abstractModel-structure-p-constraint-report-9">
             <rule context="tei:div">
                <report xmlns:xi="http://www.w3.org/2001/XInclude"
                        xmlns:svg="http://www.w3.org/2000/svg"

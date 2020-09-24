@@ -39,25 +39,19 @@
           </content>
         </elementSpec>
         <elementSpec ident="head" module="core" mode="change">
+          <desc>head elements are either: 
+            (1) VICAV Profile headings (containing 1 profile image + 1-n names with optional labels), 
+            (2) figure captions (containing plain text or a hyperlink pointing to the source of the image)
+          </desc>
           <content>
-            <!-- either allow one figure + 4 names with optional labels -->
-            <alternate minOccurs="1">
-              <sequence preserveOrder="true" minOccurs="1" maxOccurs="1">
+            <alternate>
+              <sequence preserveOrder="true">
+                <!-- profile image -->
                 <elementRef key="figure" minOccurs="1" maxOccurs="1"/>
-                <sequence preserveOrder="true" minOccurs="1" maxOccurs="6">
+                <sequence preserveOrder="true" maxOccurs="unbounded">
                   <elementRef key="label" minOccurs="0" maxOccurs="1"/>
-                  <elementRef key="name" minOccurs="1" maxOccurs="1"/>
+                  <elementRef key="name" minOccurs="1" maxOccurs="1"/>  
                 </sequence>
-                <!--
-                <elementRef key="label" minOccurs="0" maxOccurs="1"/>
-                
-                <elementRef key="name" minOccurs="1" maxOccurs="1"/>
-                <elementRef key="label" minOccurs="0" maxOccurs="1"/>
-                <elementRef key="name" minOccurs="1" maxOccurs="1"/>
-                <elementRef key="label" minOccurs="0" maxOccurs="1"/>
-                <elementRef key="name" minOccurs="1" maxOccurs="1"/>
-                <elementRef key="label" minOccurs="0" maxOccurs="1"/>
-                <elementRef key="name" minOccurs="1" maxOccurs="1"/>-->
               </sequence>
               <!-- or just (non-empty) plain text -->
               <textNode/>
@@ -69,14 +63,9 @@
             <desc>Enforce that the profile head contains all required names.</desc>
             <constraint>
               <s:rule context="tei:head[parent::tei:div[parent::tei:body]]">
-                <s:assert test="tei:name[@xml:lang = 'eng']">An english version of the location name
+                <s:assert test="tei:name[@xml:lang = 'eng']">At least an english version of the location name
                   must be provided (name element with xml:lang 'eng').</s:assert>
-                <s:assert test="tei:name[@xml:lang = 'ara']">A Fuṣḥā transcription of the location
-                  name must be provided (name element with xml:lang 'ara').</s:assert>
-                <s:assert test="tei:name[@xml:lang = 'ara-x-DMG']">A transcription of the local name
-                  of location must be provided (name element with xml:lang 'ara-x-DMG').</s:assert>
-                <s:assert test="tei:name[@xml:lang = 'ajp']">A standard arabic name of the location
-                  must be provided (name element with xml:lang 'ajp').</s:assert>
+              </s:rule>
               <s:rule context="tei:head[parent::tei:div[parent::tei:body]]/tei:name">
                   <s:let name="lang" value="@xml:lang"/>  
                   <s:report test="not($lang = doc('../../082_scripts_xsl/profile_fields.xml')//property[@name = 'lang']/@value)">Unexpected value '<s:value-of select="$lang"/>' in @xml:lang </s:report>
