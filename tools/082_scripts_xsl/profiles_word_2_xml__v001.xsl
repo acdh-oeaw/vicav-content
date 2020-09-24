@@ -314,7 +314,7 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="text()[not(ancestor::tei:rs[@type = 'bibl'])]" mode="pass2" priority="1">
+    <xsl:template match="text()[not(ancestor::tei:rs[@type = 'bibl']|ancestor::tei:head[@type = 'imgCaption'])]" mode="pass2" priority="1">
         <xsl:analyze-string select="." regex="{$bibl-entry-keys-regex}">
             <xsl:matching-substring>
                 <xsl:variable name="string" select="."/>
