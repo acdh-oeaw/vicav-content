@@ -77,24 +77,30 @@
         </xsl:if>
     </xsl:function>
     
-    <!-- returns the content of the cell -->
+    <!-- returns the content of the cell (1-n paragraphs) -->
     <xsl:function name="acdh:field-value" as="element()*">
         <xsl:param name="key" as="xs:string"/>
         <xsl:if test="$debug">
-            <xsl:message>getting field value for key '<xsl:value-of select="$key"/>'</xsl:message>
+            <xsl:message>getting field values for key '<xsl:value-of select="$key"/>'</xsl:message>
         </xsl:if>
-        <xsl:variable name="label" select="acdh:label-by-key($key)" as="element(field)"/>
-        <xsl:variable name="cell" select="acdh:cell-by-label($table, $label, 2)/*"/>
+        <xsl:variable name="label" select="acdh:label-by-key($key)" as="attribute(label)"/>
+        <xsl:variable name="cell-content" select="acdh:cell-by-label($table, $label, 2)/*"/>
         <xsl:if test="$debug">
             <xsl:message select="$label"/>
-            <xsl:message select="$cell"/>
+            <xsl:message select="$cell-content"/>
+            <xsl:message select="concat(count($cell-content),' items')"/>
         </xsl:if>
-        <xsl:sequence select="$cell"/>
+        <xsl:sequence select="$cell-content"/>
     </xsl:function>
     
     <xsl:function name="acdh:label-by-key">
         <xsl:param name="key" as="xs:string"/>
-        <xsl:sequence select="($fields//field[@key = $key],$key)[1]"/>
+        <xsl:sequence select="($fields//field[@key = $key],$key)[1]/@label"/>
+    </xsl:function>
+    
+    <xsl:function name="acdh:properties-by-key">
+        <xsl:param name="key" as="xs:string"/>
+        <xsl:sequence select="($fields//field[@key = $key],$key)[1]/property"/>
     </xsl:function>
     
     <xsl:function name="acdh:cell-by-label" as="element(tei:cell)*">
@@ -113,10 +119,10 @@
     <xsl:variable name="author" select="acdh:field-value('author')"/>
     <xsl:variable name="id" select="acdh:field-value('id')"/>
     
-    <xsl:variable name="locNameEng" select="acdh:field-value('locNameEng')"/>
-    <xsl:variable name="locNameFushaAr" select="acdh:field-value('locNameFushaAr')"/>
-    <xsl:variable name="locNameFusha" select="acdh:field-value('locNameFusha')"/>
-    <xsl:variable name="locNameLoc" select="acdh:field-value('locNameLoc')"/>
+    <xsl:variable name="locNameEng" select="acdh:field-value('locNameEng')" as="item()*"/>
+    <xsl:variable name="locNameFushaAr" select="acdh:field-value('locNameFushaAr')" as="item()*"/>
+    <xsl:variable name="locNameFusha" select="acdh:field-value('locNameFusha')" as="item()*"/>
+    <xsl:variable name="locNameLoc" select="acdh:field-value('locNameLoc')" as="item()*"/>
     
     <xsl:variable name="imageCopyright" select="acdh:field-value('imageCopyright')"/>
     <xsl:variable name="image" select="acdh:field-value('image')//tei:figure"/>
@@ -180,21 +186,26 @@
                         <div>
                             <head>
                                 <xsl:apply-templates select="$image"/>
-                                <label><xsl:value-of select="acdh:label-by-key('locNameEng')"/></label>
-                                <name xml:lang="eng"><xsl:value-of select="$locNameEng"/></name>
+                                <xsl:call-template name="tei-location-name">
+                                    <xsl:with-param name="key">locNameEng</xsl:with-param>
+                                    <xsl:with-param name="value" select="$locNameEng" as="item()*"/>
+                                </xsl:call-template>
                                 
-                                <xsl:if test="string-length($locNameFusha)&gt;0">
-                                    <label><xsl:value-of select="acdh:label-by-key('locNameFusha')"/></label>
-                                    <name xml:lang="ara"><xsl:value-of select="$locNameFusha"/></name>
-                                </xsl:if>
-                                <xsl:if test="string-length($locNameLoc)&gt;0">
-                                    <label><xsl:value-of select="acdh:label-by-key('locNameLoc')"/></label>
-                                    <name xml:lang="ara-x-DMG"><xsl:value-of select="$locNameLoc"/></name>
-                                </xsl:if>
-                                <xsl:if test="string-length($locNameFushaAr)&gt;0">
-                                    <label><xsl:value-of select="acdh:label-by-key('locNameFushaAr')"/></label>
-                                    <name xml:lang="ajp" ><xsl:value-of select="$locNameFushaAr"/></name>
-                                </xsl:if>                                                        
+                                <xsl:call-template name="tei-location-name">
+                                    <xsl:with-param name="key">locNameFusha</xsl:with-param>
+                                    <xsl:with-param name="value" select="$locNameFusha" as="item()*"/>
+                                </xsl:call-template>
+                            
+                            
+                                <xsl:call-template name="tei-location-name">
+                                    <xsl:with-param name="key">locNameLoc</xsl:with-param>
+                                    <xsl:with-param name="value" select="$locNameLoc" as="item()*"/>
+                                </xsl:call-template>
+                            
+                                <xsl:call-template name="tei-location-name">
+                                    <xsl:with-param name="key">locNameFushaAr</xsl:with-param>
+                                    <xsl:with-param name="value" select="$locNameFushaAr" as="item()*"/>
+                                </xsl:call-template>                                
                             </head>
                             
                             <xsl:if test="$geo">
@@ -375,6 +386,18 @@
             <xsl:copy-of select="*"/>
             <change when="{current-dateTime()}" status="draft"/>
         </xsl:copy>
+    </xsl:template>
+    
+    <xsl:template name="tei-location-name">
+        <xsl:param name="key"/>
+        <xsl:param name="value" as="item()*"/>
+        <xsl:variable name="field-properties" select="acdh:properties-by-key($key)" as="item()*"/>
+        <xsl:variable name="label" select="acdh:label-by-key($key)"/>
+        <xsl:variable name="lang" select="($field-properties[@name = 'lang']/@value, 'CHANGEME')[1]"/>
+        <xsl:for-each select="$value[normalize-space(.) != '']">
+            <label><xsl:value-of select="$label"/></label>
+            <name xml:lang="{$lang}"><xsl:value-of select="."/></name>
+        </xsl:for-each>
     </xsl:template>
     
 </xsl:stylesheet>

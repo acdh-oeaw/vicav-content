@@ -77,6 +77,9 @@
                   of location must be provided (name element with xml:lang 'ara-x-DMG').</s:assert>
                 <s:assert test="tei:name[@xml:lang = 'ajp']">A standard arabic name of the location
                   must be provided (name element with xml:lang 'ajp').</s:assert>
+              <s:rule context="tei:head[parent::tei:div[parent::tei:body]]/tei:name">
+                  <s:let name="lang" value="@xml:lang"/>  
+                  <s:report test="not($lang = doc('../../082_scripts_xsl/profile_fields.xml')//property[@name = 'lang']/@value)">Unexpected value '<s:value-of select="$lang"/>' in @xml:lang </s:report>
               </s:rule>
             </constraint>
           </constraintSpec>

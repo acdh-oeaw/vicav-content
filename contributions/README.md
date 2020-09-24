@@ -32,9 +32,9 @@ Probably the field name has changed in the Word table, thus the program does not
 
 **I want to add a new field in the Word template / TEI output. What do I have to do?** 
 
-(1) add a new `<field>` element in `082_scripts_xsl/profile_fields.xml` containing the label as it is found in the Word template document and a `@key` attribute providing the short name for the field value which will be used in the transformation stylesheet. E.g.
+(1) add a new `<field>` element in `082_scripts_xsl/profile_fields.xml` with two attributes: `@label` containing the field name as it is found in the Word template document, and `@key` providing the short name for the field value which will be used in the transformation stylesheet. E.g.
    
-    <field key="myNewField">My New Field</field>
+    <field key="myNewField" label=">My New Field"/>
     
    
 (2) add a new variable in `profiles_word_2_xml__v001.xsl`, which uses the key of the new field and pulls in the information from the Word table. E.g. 
@@ -50,6 +50,13 @@ Probably the field name has changed in the Word table, thus the program does not
         </div>
     </xsl:if>
 
+(4) In case you want to pass some additional static configuration parameter to the XSLT script for a given field, add a `<property name="" value=""/>` element inside of the `<field>`. E.g. 
+
+    <field key="locNameFushaAr" label="Name (Fuṣḥā, Arabic)">
+        <property name="lang" value="ajp"/>
+    </field>
+    
+These static properties can then be accessed in the XSLT program using the function `acdh:properties-by-key($key)`. 
 
 # Post processing Ling-features
 

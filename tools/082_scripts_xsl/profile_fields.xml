@@ -20,7 +20,7 @@
    If a bit of information / new field is added to the Word table:
    (1) a new field must be added here, e.g.
    
-       <field key="myNewField">Field label as given in the Word document</field>
+       <field key="myNewField" label="Field label as given in the Word document"/>
    
    (2) a new variable should be added in profiles_word_2_xml__v001.xsl,
    addresssing the key of the new field, e.g. 
@@ -36,25 +36,38 @@
                      <xsl:apply-templates select="$myNewField"/>
                 </div>
              </xsl:if>
+             
+    (4) In case you want to pass some additional static configuration parameter to the XSLT script 
+    for a given field, add a <property name="" value=""/> element inside of the <field>.  
 -->
 <fields xmlns="">
-    <field key="id">ID</field>
-    <field key="author">Author of this profile</field>
-    <field key="locNameEng">Name (English)</field>
-    <field key="locNameFushaAr">Name (Fuṣḥā, Arabic)</field>
-    <field key="locNameFusha">Name (Fuṣḥā, transcription)</field>
-    <field key="locNameLoc">Name in local variety (in transcription)</field>
-    <field key="geo">Geo location</field>
-    <field key="typology">Typology (Local)</field>
-    <field key="typologyGen">Typology (General)</field>
-    <field key="imageCopyright">Copyright of image</field>
-    <field key="general">General</field>
-    <field key="researchHistory">Research history</field>
-    <field key="dicts">Dictionaries</field>
-    <field key="textbooks">Text books</field>
-    <field key="audio">Audio data</field>
-    <field key="image">Image</field>
-    <field key="biblio">Bibliography</field>
-    <field key="sample">Sample text</field>
-    <field key="lingfeatures">Linguistic features</field>
+    <field key="id" label="ID"/>
+    <field key="author" label="Author of this profile"/>
+    <field key="locNameEng" label="Name (English)">
+        <property name="lang" value="eng"/>
+    </field>
+    <field key="locNameFushaAr" label="Name (Fuṣḥā, Arabic)">
+        <property name="lang" value="ajp"/>
+    </field>
+    <field key="locNameFusha" label="Name (Fuṣḥā, transcription)">
+        <property name="lang" value="ara"/>
+    </field>
+    
+    <field key="locNameLoc" label="Name in local variety (in transcription)">
+        <property name="lang" value="ara-x-DMG"/>
+    </field>
+    
+    <field key="geo" label="Geo location"/>
+    <field key="typology" label="Typology (Local)"/>
+    <field key="typologyGen" label="Typology (General)"/>
+    <field key="imageCopyright" label="Copyright of image"/>
+    <field key="general" label="General"/>
+    <field key="researchHistory" label="Research history"/>
+    <field key="dicts" label="Dictionaries"/>
+    <field key="textbooks" label="Text books"/>
+    <field key="audio" label="Audio data"/>
+    <field key="image" label="Image"/>
+    <field key="biblio" label="Bibliography"/>
+    <field key="sample" label="Sample text"/>
+    <field key="lingfeatures" label="Linguistic features"/>
 </fields>
