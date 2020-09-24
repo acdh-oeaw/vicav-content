@@ -117,7 +117,6 @@
     <xsl:variable name="fields" select="doc('profile_fields.xml')"/>
         
     
-
     <xsl:variable name="author" select="acdh:field-value('author')"/>
     <xsl:variable name="id" select="acdh:field-value('id')"/>
     
@@ -158,10 +157,12 @@
                     <fileDesc>
                         <titleStmt>
                             <title>A machine-readable profile of <xsl:value-of select="$locNameEng"/> Arabic</title>
-                            <respStmt>
-                                <resp>document preparation</resp>
-                                <xsl:copy-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author/node()"/>
-                            </respStmt>
+                            <xsl:if test="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author != ''">
+                                <respStmt>
+                                    <resp>document preparation</resp>
+                                    <xsl:copy-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author/node()"/>
+                                </respStmt>
+                            </xsl:if>
                             <xsl:for-each select="$author">
                                 <author><xsl:value-of select="."/></author>
                             </xsl:for-each>
