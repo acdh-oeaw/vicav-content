@@ -104,29 +104,11 @@
         <xsl:sequence select="$table//tei:cell[normalize-space(.) = $label]/parent::tei:row/tei:cell[$cell-number]"/>
     </xsl:function>
     
-    <xsl:variable name="fields">
-        <fields xmlns="">
-            <field key="id">ID</field>
-            <field key="author">Author of this profile</field>
-            <field key="locNameEng">Name of location (English)</field>
-            <field key="locNameFushaAr">Name of location (Fuṣḥā, Arabic)</field>
-            <field key="locNameFusha">Name of location (Fuṣḥā, transcription)</field>
-            <field key="locNameLoc">Name in local variety (in transcription)</field>
-            <field key="geo">Geo location</field>
-            <field key="typology">Typology (Local)</field>
-            <field key="typologyGen">Typology (General)</field>
-            <field key="imageCopyright">Copyright of image</field>
-            <field key="general">General</field>
-            <field key="researchHistory">Research history</field>
-            <field key="dicts">Dictionaries</field>
-            <field key="textbooks">Text books</field>
-            <field key="audio">Audio data</field>
-            <field key="image">Image</field>
-            <field key="biblio">Bibliography</field>
-            <field key="sample">Sample text</field>
-            <field key="lingfeatures">Linguistic features</field>
-        </fields>
-    </xsl:variable>
+    
+    <!-- The word-table-to-TEI mapping configuration resides in the `profile_fields.xml' file. -->
+    <xsl:variable name="fields" select="doc('profile_fields.xml')"/>
+        
+    
 
     <xsl:variable name="author" select="acdh:field-value('author')"/>
     <xsl:variable name="id" select="acdh:field-value('id')"/>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    PROFILE FIELDs MAPPING TABLE
+    =====================================
+    
+    New VICAV Profiles can be submitted to the project by using the
+    Microsoft Word templates available on the website. This template 
+    allows editors to collect structured information in a table. 
+    
+    When the Word document is transformed into TEI (using the XSLT
+    stylesheet profiles_word_2_xml__v001.xsl), the information in the table 
+    is mapped to predefined fields which are then used to populate 
+    a TEI document template: The name of the field is in the first 
+    column of the Word table, the value of the second column is inserted 
+    in the TEI document.
+   
+   If a field name has changed in the Word document, the respective field 
+   name must be updated in this file. 
+   
+   If a bit of information / new field is added to the Word table:
+   (1) a new field must be added here, e.g.
+   
+       <field key="myNewField">Field label as given in the Word document</field>
+   
+   (2) a new variable should be added in profiles_word_2_xml__v001.xsl,
+   addresssing the key of the new field, e.g. 
+   
+        <xsl:variable name="myNewField" select="acdh:field-value('myNewField')"/>
+    
+   (3) the new field must be added in the at some place to be output in the 
+   resulting TEI, e.g.
+   
+             <xsl:if test="exists($myNewField)">
+                <div type="myNewField">
+                     <head><xsl:value-of select="acdh:label-by-key('myNewField')"/></head>
+                     <xsl:apply-templates select="$myNewField"/>
+                </div>
+             </xsl:if>
+-->
+<fields xmlns="">
+    <field key="id">ID</field>
+    <field key="author">Author of this profile</field>
+    <field key="locNameEng">Name (English)</field>
+    <field key="locNameFushaAr">Name (Fuṣḥā, Arabic)</field>
+    <field key="locNameFusha">Name (Fuṣḥā, transcription)</field>
+    <field key="locNameLoc">Name in local variety (in transcription)</field>
+    <field key="geo">Geo location</field>
+    <field key="typology">Typology (Local)</field>
+    <field key="typologyGen">Typology (General)</field>
+    <field key="imageCopyright">Copyright of image</field>
+    <field key="general">General</field>
+    <field key="researchHistory">Research history</field>
+    <field key="dicts">Dictionaries</field>
+    <field key="textbooks">Text books</field>
+    <field key="audio">Audio data</field>
+    <field key="image">Image</field>
+    <field key="biblio">Bibliography</field>
+    <field key="sample">Sample text</field>
+    <field key="lingfeatures">Linguistic features</field>
+</fields>
