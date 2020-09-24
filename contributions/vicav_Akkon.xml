@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_{location}_01">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A machine-readable profile of Akko/Acre Arabic</title>
+            <author>Claudia Laaber</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>ACDH-OeAW</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date>2019</date>
+            <availability status="restricted">
+               <p>
+                  <ref type="license"
+                       target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This is an original digital text</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef ident="zotID"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://www.zotero.org/groups/2165756/vicav/items/itemKey/#$1">
+               <p>Private URIs with the prefix "zotID" point to the respective bibliographic record in the VICAV Zotero library and/or to a local copy of it.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change status="created" when="2018-05-02T08:20:00Z" who="#">created</change>
+         <change status="draft" when="2020-03-10T10:00:00Z" who="#">last modified (revision 1)</change>
+         <change status="draft" when="2020-09-24T13:08:26.55+02:00">transformed to TEI-XML</change>
+         <change when="2020-09-24T13:08:27.557+02:00" status="draft"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>
+               <figure>
+                  <graphic url="Akkon/media/image1.jpeg"/>
+                  <head type="imgCaption">Stephan Prochazka 2003</head>
+               </figure>
+               <label>Name (English)</label>
+               <name xml:lang="eng">Akko/Acre</name>
+               <label>Name (Fuṣḥā, transcription)</label>
+               <name xml:lang="ara">ʕAkkā</name>
+               <label>Name (Fuṣḥā, transcription)</label>
+               <name xml:lang="ara">ʕAkka</name>
+               <label>Name (Fuṣḥā, transcription)</label>
+               <name xml:lang="ara">ʕAkkāʔ</name>
+               <label>Name in local variety (in transcription)</label>
+               <name xml:lang="ara-x-DMG">ʕAkka</name>
+               <label>Name (Fuṣḥā, Arabic)</label>
+               <name xml:lang="ajp">عكّا</name>
+               <label>Name (Fuṣḥā, Arabic)</label>
+               <name xml:lang="ajp">عكّة</name>
+               <label>Name (Fuṣḥā, Arabic)</label>
+               <name xml:lang="ajp">عكّاء</name>
+            </head>
+            <div type="positioning">
+               <head>Geo location</head>
+               <p>
+                  <geo>32°55‘ N 35°04‘ E</geo>
+               </p>
+            </div>
+            <div type="typology">
+               <head>Typology (Local)</head>
+               <p rend="typology">East (Mashreq)&gt;Levant&gt;Palestine&gt;Galilee</p>
+               <p>urban dialect </p>
+            </div>
+            <div type="general">
+               <head>General</head>
+               <p xml:space="preserve">The first settlements in this area date back to the Bronze Age: The city was part of the Hellenistic, Ptolemaic, Seleucid, Roman, and Byzantine Empires before the Arabs conquered it in the 7th century. During the time of the Crusades, Akkon was the most important harbour town of the region. </p>
+               <p xml:space="preserve">The city was almost completely destroyed in the 13th century by the Mamluks and only regained some of its importance as a port under Ottoman rule.</p>
+               <p xml:space="preserve">In 1918 British forces captured Akko and Jewish migrants started to settle in it. Israeli forces took control of the city in 1948. Today Akko has approximately 50,000 inhabitants, nearly a third of whom are Arabs, most living in the town’s old centre.</p>
+            </div>
+            <div type="researchHistory">
+               <head>Research history</head>
+               <p xml:space="preserve">The only record of the Arabic variety of Akko is Geva-Kleinberger &amp; Tavor (2003), who provide a short overview of the dialect’s specific characteristics with a transcribed sample text including an English translation. </p>
+            </div>
+            <div type="audioData">
+               <head>Audio data</head>
+               <p xml:space="preserve">One audio recording from <lb/>Akko is found in SemArch (<ref target="http://semarch.ub.uni-heidelberg.de/portal-ssr/">http://semarch.ub.uni-heidelberg.de/portal-ssr/</ref>)</p>
+               <p xml:space="preserve"><hi rendition="#b">ʿAkka</hi><hi rendition="#b"> Edna7 Text</hi></p>
+            </div>
+            <div type="bibliography">
+               <head>Bibliography</head>
+               <p xml:space="preserve">{leave empty}</p>
+            </div>
+            <div type="sampleText">
+               <head>Sample text</head>
+               <p xml:space="preserve">{leave empty}</p>
+            </div>
+            <div type="lingFeatures">
+               <head>Linguistic features</head>
+               <p xml:space="preserve">{leave empty}</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

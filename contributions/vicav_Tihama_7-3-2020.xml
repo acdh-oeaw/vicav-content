@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A machine-readable profile of  Arabic</title>
+            <author>Stephan Procházka</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>ACDH-OeAW</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date>2019</date>
+            <availability status="restricted">
+               <p>
+                  <ref type="license"
+                       target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This is an original digital text</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef ident="zotID"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://www.zotero.org/groups/2165756/vicav/items/itemKey/#$1">
+               <p>Private URIs with the prefix "zotID" point to the respective bibliographic record in the VICAV Zotero library and/or to a local copy of it.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change status="created" when="2018-04-06T13:00:00Z" who="#">created</change>
+         <change status="draft" when="2020-03-07T10:55:00Z" who="#">last modified (revision 1)</change>
+         <change status="draft" when="2020-09-24T12:35:36.054+02:00">transformed to TEI-XML</change>
+         <change when="2020-09-24T12:35:36.678+02:00" status="draft"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>
+               <figure>
+                  <graphic url="Tihama_7-3-2020/media/image1.jpeg"/>
+                  <head type="imgCaption"/>
+               </figure>
+               <label>Name in local variety (in transcription)</label>
+               <name xml:lang="ara-x-DMG">Tihāma</name>
+            </head>
+            <div type="positioning">
+               <head>Geo location</head>
+               <p>
+                  <geo>14.06 | 43.21 (region sw of Zabid)</geo>
+               </p>
+            </div>
+            <div type="typology">
+               <head>Typology (Local)</head>
+               <p>East (Mashriq) › Arabia › Yemen › Tihama</p>
+               <p>Mainly rural dialects with many peculiar lexical developments</p>
+            </div>
+            <div type="general">
+               <head>General</head>
+               <p xml:space="preserve">Tihama is the name of the narrow coastal strip along the Red Sea stretching from the Gulf of Aqaba in the north to Bab al-Mandab in the south. This entry only deals with the dialects spoken in the Yemeni part of the Tihama, particularly with its central part from al-Hudayda to Mocha.</p>
+            </div>
+            <div type="researchHistory">
+               <head>Research history</head>
+               <p xml:space="preserve">Though first remarks on the vocabulary were already provided by Carsten <rs type="bibl" ref="zotID:U4ULAB4L">Niebuhr 1772</rs> (pp. 85-88), the dialects of the Yemeni Tihama have not been studied in detail yet. Some information is found in <?oxy_comment_start author="VIACV Profile transformer" timestamp="2020-09-24T12:35:36.678+02:00 " comment="Found 2 keys for 'Rossi 1938': 
+https://www.zotero.org/groups/2165756/vicav/items/itemKey/JHPL3R7Ehttps://www.zotero.org/groups/2165756/vicav/items/itemKey/NSD7SUSS"
+                        ?><rs type="bibl" ref="">Rossi 1938</rs><?oxy_comment_end?>a (pp. 263-265) and <?oxy_comment_start author="VIACV Profile transformer" timestamp="2020-09-24T12:35:36.678+02:00 " comment="Found 2 keys for 'Rossi 1938': 
+https://www.zotero.org/groups/2165756/vicav/items/itemKey/JHPL3R7Ehttps://www.zotero.org/groups/2165756/vicav/items/itemKey/NSD7SUSS"
+                        ?><rs type="bibl" ref="">Rossi 1938</rs><?oxy_comment_end?>b (pp. 464-469). <?oxy_comment_start author="VIACV Profile transformer" timestamp="2020-09-24T12:35:36.678+02:00 " comment="Found 2 keys for 'Diem 1973': 
+https://www.zotero.org/groups/2165756/vicav/items/itemKey/SPGEW23Phttps://www.zotero.org/groups/2165756/vicav/items/itemKey/NDLBEDXI"
+                        ?><rs type="bibl" ref="">Diem 1973</rs><?oxy_comment_end?> has a short chapter (pp. 65-70) on the Tihama and summarizes also previous studies. A few phonological and morphological features are analysed in Greenman (1979). <?oxy_comment_start author="VIACV Profile transformer" timestamp="2020-09-24T12:35:36.678+02:00 " comment="Found 3 keys for 'Simeone-Senelle et al. 1994': 
+https://www.zotero.org/groups/2165756/vicav/items/itemKey/RKDZJNLVhttps://www.zotero.org/groups/2165756/vicav/items/itemKey/CMXNAIFRhttps://www.zotero.org/groups/2165756/vicav/items/itemKey/9MEX632W"
+                        ?><rs type="bibl" ref="">Simeone-Senelle et al. 1994</rs><?oxy_comment_end?> present a good overview of the most important grammatical features including remarks on the lexicon. Simeone-Senelle 1995 focuses on verbs of motion, <rs type="bibl" ref="zotID:2RCHKVZC">Simeone-Senelle 1996</rs> on negation. A collection of seven short texts from the dialects of two villages (as-Suwayq and aš-Šiǧān, both near Zabīd) is found in Behnstedt (1996). The same author’s <hi rendition="#i">Dialect Atlas of North Yemen and </hi><hi rendition="#i">A</hi><hi rendition="#i">djacent Areas</hi> 2017 (based on the first edition 1985) also provides information on lexical and grammatical features of several dialects spoken in the Tihama.</p>
+            </div>
+            <div type="dictionaries">
+               <head>Dictionaries</head>
+               <p xml:space="preserve">Vocabulary related to the Tihama is found in Peter Behnstedt’s <hi rendition="#i">Glossar</hi> (1992-2006), <rs type="bibl" ref="zotID:XEZAEM3H">Piamenta 1990</rs>-1991, and <?oxy_comment_start author="VIACV Profile transformer" timestamp="2020-09-24T12:35:36.678+02:00 " comment="Found 3 keys for 'Simeone-Senelle et al. 1994': 
+https://www.zotero.org/groups/2165756/vicav/items/itemKey/RKDZJNLVhttps://www.zotero.org/groups/2165756/vicav/items/itemKey/CMXNAIFRhttps://www.zotero.org/groups/2165756/vicav/items/itemKey/9MEX632W"
+                        ?><rs type="bibl" ref="">Simeone-Senelle et al. 1994</rs><?oxy_comment_end?> (pp. 225-228).</p>
+            </div>
+            <div type="bibliography">
+               <head>Bibliography</head>
+               <p xml:space="preserve">Behnstedt, P. 1996. „Texte aus der jemenitischen Tihāmah“. <hi rendition="#i">Quaderni di Studi Arabi</hi> 14: 137–163.</p>
+               <p xml:space="preserve">Diem, Werner. 1973. <hi rendition="#i">Skizzen jemenitischer Dialekte</hi>. Beirut.</p>
+               <p xml:space="preserve">Greenman, Joseph. 1979. „A Sketch of the Arabic Dialect of the Central Yamani Tihāma" <hi rendition="#i"> Zeitschrift für Arabische Linguistik</hi>, Nr. 3: 47–61.</p>
+               <p xml:space="preserve"> Peter Behnstedt’s <hi rendition="#i">Dialect Atlas of North Yemen and Adjacent </hi><hi rendition="#i">Areas</hi> (2017)</p>
+               <p xml:space="preserve">Behnstedt’s <hi rendition="#i">Glossar</hi> (1992-2006).</p>
+               <p xml:space="preserve"><rs type="bibl" ref="zotID:U4ULAB4L">Niebuhr 1772</rs></p>
+               <p xml:space="preserve">Simeone-Senelle 1994/1995/1996</p>
+               <p xml:space="preserve"><rs type="bibl" ref="zotID:XEZAEM3H">Piamenta 1990</rs>-1991</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

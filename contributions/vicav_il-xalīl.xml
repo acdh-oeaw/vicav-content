@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_{location}_01">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A machine-readable profile of Hebron Arabic</title>
+            <author>Claudia Laaber</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>ACDH-OeAW</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date>2019</date>
+            <availability status="restricted">
+               <p>
+                  <ref type="license"
+                       target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This is an original digital text</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef ident="zotID"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://www.zotero.org/groups/2165756/vicav/items/itemKey/#$1">
+               <p>Private URIs with the prefix "zotID" point to the respective bibliographic record in the VICAV Zotero library and/or to a local copy of it.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change status="created" when="2018-05-02T08:20:00Z" who="#">created</change>
+         <change status="draft" when="2020-03-10T09:26:00Z" who="#">last modified (revision 1)</change>
+         <change status="draft" when="2020-09-24T12:34:58.437+02:00">transformed to TEI-XML</change>
+         <change when="2020-09-24T12:34:59.346+02:00" status="draft"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>
+               <label>Name (English)</label>
+               <name xml:lang="eng">Hebron</name>
+               <label>Name (Fuṣḥā, transcription)</label>
+               <name xml:lang="ara">al-Xalīl</name>
+               <label>Name in local variety (in transcription)</label>
+               <name xml:lang="ara-x-DMG">il-Xalīl</name>
+               <label>Name (Fuṣḥā, Arabic)</label>
+               <name xml:lang="ajp">الخليل</name>
+            </head>
+            <div type="positioning">
+               <head>Geo location</head>
+               <p>
+                  <geo>31°31‘ N 35°05‘ E</geo>
+               </p>
+            </div>
+            <div type="typology">
+               <head>Typology (Local)</head>
+               <p rend="typology">East (Mashreq)&gt;Levant&gt;Palestine&gt;South Palestine</p>
+               <p>urban </p>
+            </div>
+            <div type="general">
+               <head>General</head>
+               <p xml:space="preserve">The city of Hebron, located in the Judean mountains, is among the oldest continuously inhabited settlements in the world. It is in the rainiest part of the West Bank and therefore an important agricultural region.</p>
+               <p xml:space="preserve">Hebron has the Cave of the Patriarchs, a significant religious site for all the Abrahamic religions. Legends states that the Cave contains the graves of Abraham, Sarah, Isaak, Rebecca, Jacob, and Leah. Consequently Hebron is a highly contested city in the Israeli-Palestinian conflict.</p>
+               <p xml:space="preserve">Hebron is famous for its glass blowing industry in the Old City. The practice of this handicraft in this region dates back past the Romans to the Phoenicians. </p>
+            </div>
+            <div type="researchHistory">
+               <head>Research history</head>
+               <p xml:space="preserve">Research on the dialect of Hebron has not been abundant yet. The linguistic atlas of Bergsträsser (1915) provides some data.</p>
+               <p xml:space="preserve">In his MA thesis, Seeger (1998) focused on Hebron Arabic, providing a short linguistic sketch and a collection of texts with German translations.</p>
+            </div>
+            <div type="dictionaries">
+               <head>Dictionaries</head>
+               <p xml:space="preserve">Denizeau (1960) is a useful source for the Palestinian varieties of Arabic. </p>
+               <p xml:space="preserve">Seeger (2017) is a Palestinian Arabic- German dictionary with recent data collected by Seeger himself as well as older vocabulary taken from earlier research.</p>
+            </div>
+            <div type="audioData">
+               <head>Audio data</head>
+               <p xml:space="preserve">SemArch</p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 01 Hast du heute Nacht gut geschlafen?</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 02 Bis auf die Unterhosen</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 03 </hi><hi rendition="#b">Kiryat</hi><hi rendition="#b"> </hi><hi rendition="#b">Aṛbaʿa</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 04 Der eitle Ge</hi><hi rendition="#b">ck</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 05 Der Dornbusch</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 06 Er begann plötzlich zu schießen</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 07 Deutsche Saubohnen</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 08 Zwei Alte aus dem Hause Abu </hi><hi rendition="#b">Snēne</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 09 Ich bin um die 100 Jahre alt</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 10 Der Mehlsack</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 11 Der </hi><hi rendition="#b">Ṭarbūš</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 12 Möge es auch deinen Kindern beschieden sein</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 13 Die Friedensfrist</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 14 Bei uns ist es nicht wie bei euch</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 5/01 Zungenbrecher</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 5/02 Zungenbrecher</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 5/03 Witz</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 5/04 Witz</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 5/05 Wortspiel</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 5/06 Wortspiel</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 5/07 Wortspiel</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 5/08 Wortspiel</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 5/09 Witz</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 5/10 Witz</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 5/11 Witz</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 5/12 Witz</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 5/13 Witz</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 5/14 Witz</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 5/15 Witz</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 5/16 Witz</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 5/17 Witz</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 5/18 Witz</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 5/19 Witz</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 5/20 Witz</hi></p>
+               <p xml:space="preserve"><hi rendition="#b">Xalīl</hi><hi rendition="#b"> 5/21 Witz</hi></p>
+            </div>
+            <div type="bibliography">
+               <head>Bibliography</head>
+               <p xml:space="preserve">{leave empty}</p>
+            </div>
+            <div type="sampleText">
+               <head>Sample text</head>
+               <p xml:space="preserve">{leave empty}</p>
+            </div>
+            <div type="lingFeatures">
+               <head>Linguistic features</head>
+               <p xml:space="preserve">{leave empty}</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

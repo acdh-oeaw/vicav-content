@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_{location}_01">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A machine-readable profile of Salt Arabic</title>
+            <author>Claudia Laaber</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>ACDH-OeAW</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date>2019</date>
+            <availability status="restricted">
+               <p>
+                  <ref type="license"
+                       target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This is an original digital text</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef ident="zotID"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://www.zotero.org/groups/2165756/vicav/items/itemKey/#$1">
+               <p>Private URIs with the prefix "zotID" point to the respective bibliographic record in the VICAV Zotero library and/or to a local copy of it.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change status="created" when="2019-12-03T09:28:00Z" who="#">created</change>
+         <change status="draft" when="2020-04-19T12:33:00Z" who="#">last modified (revision 1)</change>
+         <change status="draft" when="2020-09-24T12:35:23.324+02:00">transformed to TEI-XML</change>
+         <change when="2020-09-24T12:35:24.144+02:00" status="draft"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>
+               <figure>
+                  <graphic url="Salt/media/image1.jpeg"/>
+                  <head type="imgCaption">Claudia Laaber © 2019</head>
+               </figure>
+               <label>Name (English)</label>
+               <name xml:lang="eng">Salt</name>
+               <label>Name (Fuṣḥā, transcription)</label>
+               <name xml:lang="ara">as-Salṭ</name>
+               <label>Name in local variety (in transcription)</label>
+               <name xml:lang="ara-x-DMG">əs-Salṭ</name>
+               <label>Name (Fuṣḥā, Arabic)</label>
+               <name xml:lang="ajp">السلط</name>
+            </head>
+            <div type="positioning">
+               <head>Geo location</head>
+               <p>
+                  <geo>32° 03’ N 35° 72’ E</geo>
+               </p>
+            </div>
+            <div type="typology">
+               <head>Typology (Local)</head>
+               <p rend="typology">East (Mashreq) &gt; Jordan &gt; Centre</p>
+               <p>Mixed-type dialect</p>
+            </div>
+            <div type="general">
+               <head>General</head>
+               <p xml:space="preserve">Salt, the administrative capital of the al-Balqāʔ governorate, is located about 30 km northwest of Amman and 20 km east of the Jordan River in the Balqāʔ highlands. </p>
+               <p xml:space="preserve">Historically, the city of Salt was an important trade centre in the region, especially during Ottoman rule. After World War I Salt was initially announced as the region’s capital, but because of disagreements, Amman was chosen instead. </p>
+               <p xml:space="preserve">Linguistically the Salṭī dialect has been pressured by the proximity and fast urbanization of Amman and is therefore an endangered variety now spoken by only a small minority of the city’s inhabitants.</p>
+               <p xml:space="preserve">The dialect of Salt, as is the case with many other Jordanian varieties, has not been clearly classified. especially diachronically. It is considered a sedentary dialect of mixed type and assumed to be related to the dialects of the south Syrian Hawrān group.</p>
+            </div>
+            <div type="researchHistory">
+               <head>Research history</head>
+               <p xml:space="preserve">As a sort of prelude to the study of the Arabic of Salt, <rs type="bibl" ref="zotID:WYI25YGZ">Palva 1992</rs> is a short overview on the problems classifying individual Jordanian dialects as sedentary or Bedouin.</p>
+               <p xml:space="preserve">Palva (1994) then provides a short diachronic overview of the Salt’s dialect, mentioning specific sedentary and Bedouin traits</p>
+               <p xml:space="preserve">Palva (2003) is a description of negations from the standpoint of the Salti vernacular as an example for mixed type dialects.</p>
+               <p xml:space="preserve">Palva (2007) offers a collection of transcribed and translated texts about various topics.</p>
+               <p xml:space="preserve">Palva (2008) focuses on the classification of the dialect and the language contact in the city between sedentary and Bedouin type dialects. The article also contains lists of specific features and characteristics of the dialect.</p>
+               <p xml:space="preserve">A concise linguistic sketch of Salt’s dialect can be found in EALL (Herin 2011).</p>
+               <p xml:space="preserve">The PhD thesis Herin (2010) is on the Arabic dialect of Salt, with a grammatical description. Al-Wer and Herin (2013) investigate the depalatalization of [č] and its morphological and syntactic consequences in the dialect.</p>
+               <p xml:space="preserve">Al-Wer, Horesh, Herin and Fanis (2015) is a sociolinguistic study on the role of religious affiliation in linguistic variation. The investigation has been done in Salt and concentrates on the differences between Muslim and Christian speakers.</p>
+               <p xml:space="preserve">VICAV also provides a profile of the dialects in the <ref target="https://vicav.acdh.oeaw.ac.at/">Ḥawrān group</ref>. </p>
+            </div>
+            <div type="bibliography">
+               <head>Bibliography</head>
+               <p xml:space="preserve">{leave empty}</p>
+            </div>
+            <div type="sampleText">
+               <head>Sample text</head>
+               <p xml:space="preserve">{leave empty}</p>
+            </div>
+            <div type="lingFeatures">
+               <head>Linguistic features</head>
+               <p xml:space="preserve">{leave empty}</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
