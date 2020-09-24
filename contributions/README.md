@@ -23,7 +23,9 @@ In case these transformation scenarios do not show up, click on the gear wheel s
 
 ## VICAV Profiles
 
-**The transformation of scenario fails, complaining about a missing bibliography file.**
+**The transformation of Profile fails, with an error like: `Document has been marked not available: file: …/vicav-content/vicav_biblio/vicav_biblio_tei_zotero.xml`.**
+
+Make sure you have an up-to-date TEI export of the VICAV bibliography under `vicav-content/vicav_biblio/vicav_biblio_tei_zotero.xml` or change the value of the XSLT Parameter `path-to-zotero-rdf` in the transformation scenario. 
 
 
 **Some fields which contain information in the Word document of my profile are empty in the resulting TEI document.**

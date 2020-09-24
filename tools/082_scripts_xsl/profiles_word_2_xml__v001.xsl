@@ -36,6 +36,8 @@
             </xsl:for-each>
         </bibl-keys>
     </xsl:variable>
+    <xsl:param name="zotero-prefix">zotID</xsl:param>
+    <xsl:param name="zotero-group-url">https://www.zotero.org/groups/2165756/vicav/items/itemKey/</xsl:param>
     
     <xsl:variable name="bibl-entry-keys-regex" select="concat('(',string-join($bibl-entry-keys//key/text(),'|'),')')"/>
     
@@ -178,8 +180,7 @@
                             <p>This is an original digital text</p>
                         </sourceDesc>
                     </fileDesc>
-                    <xsl:sequence select="//tei:encodingDesc"/>
-                    <xsl:apply-templates select="//tei:revisionDesc"/>
+                    <xsl:apply-templates select="//tei:encodingDesc | //tei:revisionDesc"/>
                 </teiHeader>
                 <text>
                     <body>
@@ -312,28 +313,25 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="text()" mode="pass2" priority="1">
+    <xsl:template match="text()[not(ancestor::tei:rs[@type = 'bibl'])]" mode="pass2" priority="1">
         <xsl:analyze-string select="." regex="{$bibl-entry-keys-regex}">
             <xsl:matching-substring>
                 <xsl:variable name="string" select="."/>
                 <xsl:variable name="biblid" select="$bibl-entry-keys//key[matches($string,.)]/@about"/>
-                <xsl:if test="count($biblid) gt 1">
-                    
-                </xsl:if>
                 <xsl:choose>
                     <xsl:when test="count($biblid) gt 1">
                         <xsl:variable name="comment">Found <xsl:value-of select="count($biblid)"/> keys for '<xsl:value-of select="$string"/>': &#x0A;<xsl:for-each select="$biblid">
-                            https://www.zotero.org/groups/2165756/vicav/items/itemKey/<xsl:value-of select="."/>&#x0A;
+                            <xsl:value-of select="$zotero-group-url"/><xsl:value-of select="."/>&#x0A;
                             </xsl:for-each></xsl:variable>
                         <xsl:variable name="content">
-                            author="A machine" timestamp="<xsl:value-of select="current-dateTime()"/> " comment="<xsl:value-of select="$comment"/>"
+                            author="VIACV Profile transformer" timestamp="<xsl:value-of select="current-dateTime()"/> " comment="<xsl:value-of select="$comment"/>"
                         </xsl:variable>
                         <xsl:processing-instruction name="oxy_comment_start"><xsl:value-of select="$content"/></xsl:processing-instruction>
                         <rs type="bibl" ref=""><xsl:value-of select="."/></rs>
                         <xsl:processing-instruction name="oxy_comment_end"/>
                     </xsl:when>
                     <xsl:when test="$string != '' and exists($biblid)">
-                        <rs type="bibl" ref="zotero:{$biblid}"><xsl:value-of select="."/></rs>
+                        <rs type="bibl" ref="{$zotero-prefix}:{$biblid}"><xsl:value-of select="."/></rs>
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:value-of select="$string"/>
@@ -385,6 +383,18 @@
         <xsl:copy>
             <xsl:copy-of select="*"/>
             <change when="{current-dateTime()}" status="draft"/>
+        </xsl:copy>
+    </xsl:template>
+    
+    <xsl:template match="tei:encodingDesc[not(tei:listPrefixDef)]">
+        <xsl:copy>
+            <xsl:copy-of select="@*"/>
+            <xsl:copy-of select="*"/>
+            <listPrefixDef>
+                <prefixDef ident="{$zotero-prefix}" matchPattern="([a-z]+)" replacementPattern="{$zotero-group-url}#$1">
+                    <p>Private URIs with the prefix "<xsl:value-of select="$zotero-prefix"/>" point to the respective bibliographic record in the VICAV Zotero library and/or to a local copy of it.</p>
+                </prefixDef>
+            </listPrefixDef>
         </xsl:copy>
     </xsl:template>
     
