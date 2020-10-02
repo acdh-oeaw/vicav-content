@@ -1,4 +1,5 @@
-<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_khabura_01">
+<?xml version="1.0"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_khabura_01">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -53,7 +54,7 @@
 
         <div type="positioning">
           <p>
-              <geo>23°96′N 57°09′E</geo>
+              <geo>23°58′N 57°05′E</geo>
             </p>
         </div>
         <div type="typology">
@@ -80,6 +81,11 @@
               on agricultural terms. No texts have been published in Khaburah
               Arabic nor are there any sound files available.</p>
         </div>
+            <div type="bibliography">
+               <head>Bibliography</head>
+         <p>To get a list of items in the bibliography regarding Oman click <rs type="bibl" ref="bibl:reg:Oman">here</rs>.</p>
+
+            </div>
 
       </div>
     </body>

@@ -1,4 +1,5 @@
-<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_taza_01">
+<?xml version="1.0"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_taza_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -33,64 +34,53 @@
          <change when="2019-02-23T19:15:21.577+01:00" status="draft"/>
       </revisionDesc>
    </teiHeader>
-   
    <text>
       <body>
          <div>
             <head>
                <figure>
                   <graphic url="taza.jpg"/>
-                     <head type="imgCaption" xml:space="preserve">
-                        <ref target="https://ar.wikipedia.org/wiki/%D8%AA%D8%A7%D8%B2%D8%A9#/media/File:Taza_-_Maroc.jpg">Wikimedia</ref>
-                     </head>
+                  <head type="imgCaption">
+                     <ref target="https://ar.wikipedia.org/wiki/%D8%AA%D8%A7%D8%B2%D8%A9#/media/File:Taza_-_Maroc.jpg">Wikimedia</ref>
+                  </head>
                </figure>
-               
-               <label>Name (English)</label>                                                                                  
+               <label>Name (English)</label>
                <name xml:lang="eng">Taza</name>
-   
                <label>MSA name</label>
                <name xml:lang="ara">تازة</name>
-
                <label>MSA name (trans.)</label>
                <name xml:lang="ara-x-DMG">Tāza</name>
-   
             </head>
-
             <div type="positioning">
                <head>Geo location</head>
-               <p xml:space="preserve">
+               <p>
                   <geo>34°21′N 4°00′W</geo>
+                  <geo decls="decimal">34.350000 -4.000000</geo>
                </p>
             </div>
-            
             <div type="typology">
                <head>Typology (Local)</head>
-               <p rend="typology" xml:space="preserve">West (Maghreb) › Morocco › Northern type</p>
-               <p xml:space="preserve">Sedentary pre-Hilalian dialect</p>
+               <p rend="typology">West (Maghreb) › Morocco › Northern type</p>
+               <p>Sedentary pre-Hilalian dialect</p>
             </div>
-            
-            <div type="general">   
-               <p xml:space="preserve">Tāza is a city in northeastern Morocco between the Rif and the middle Atlas mountains.</p>
-               <p xml:space="preserve">The city is composed of two formerly distinct towns built on separate terraces overlooking a mountain valley. The old town of Tāza is at an elevation of 585 m above sea level and is surrounded by fortifications; the newer town, established by the French in 1920, is on the fertile plain below.</p>
-               <p xml:space="preserve">Tāza was founded in the late 7th century by the Miknasa Berber tribe. Because the town was on a major east-west route, and the valley of Taza was the main trade route down to the fertile plains of the Atlantic coast, the city was a strategic town during Roman and Islamic times.</p>
+            <div type="general">
+               <p>Tāza is a city in northeastern Morocco between the Rif and the middle Atlas mountains.</p>
+               <p>The city is composed of two formerly distinct towns built on separate terraces overlooking a mountain valley. The old town of Tāza is at an elevation of 585 m above sea level and is surrounded by fortifications; the newer town, established by the French in 1920, is on the fertile plain below.</p>
+               <p>Tāza was founded in the late 7th century by the Miknasa Berber tribe. Because the town was on a major east-west route, and the valley of Taza was the main trade route down to the fertile plains of the Atlantic coast, the city was a strategic town during Roman and Islamic times.</p>
             </div>
-            
-            <div type="researchHistory">   
-               <p xml:space="preserve"><rs type="bibl" ref="zotID:VJW5GUUD">Rguibi 2001</rs> discusses phonological variation and 
-               change in Moroccan Arabic on the basis of the Tāzi dialect.</p>
-               <p xml:space="preserve"><rs type="bibl" ref="zotID:AG7AVI5Y">Behnstedt/Benabbou 2002</rs> offers a sketch of the phonological, 
-               morphological, and lexical features of the dialects of the Tāza region, including that of the city itself. They 
-               distinguish three dialects: one of the new town and two of the old town.</p>
-               
-               <p xml:space="preserve"><rs type="bibl" ref="zotID:HCBQQZZN">Behnstedt 2003</rs> presents two texts with German 
-               translation in  one of the old town dialects, which the author says is spoken only by a minority in Tāza and 
-               will soon go extinct .</p>
+            <div type="researchHistory">
+               <p><rs type="bibl" ref="zotID:VJW5GUUD">Rguibi 2001</rs> discusses phonological variation and
+                  change in Moroccan Arabic on the basis of the Tāzi dialect.</p>
+               <p><rs type="bibl" ref="zotID:AG7AVI5Y">Behnstedt/Benabbou 2002</rs> offers a sketch of the phonological,
+                  morphological, and lexical features of the dialects of the Tāza region, including that of the city itself. They
+                  distinguish three dialects: one of the new town and two of the old town.</p>
+               <p><rs type="bibl" ref="zotID:HCBQQZZN">Behnstedt 2003</rs> presents two texts with German
+                  translation in  one of the old town dialects, which the author says is spoken only by a minority in Tāza and
+                  will soon go extinct .</p>
             </div>
-            
             <div type="bibliography">
-               <p xml:space="preserve">For a list of publications on Moroccan Arabic click <rs type="bibl" ref="bibl:reg:Morocco">here</rs>.</p>
+               <p>For a list of publications on Moroccan Arabic click <rs type="bibl" ref="bibl:reg:Morocco">here</rs>.</p>
             </div>
-   
          </div>
       </body>
    </text>

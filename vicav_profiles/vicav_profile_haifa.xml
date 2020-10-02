@@ -1,4 +1,5 @@
-<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_haifa_01">
+<?xml version="1.0"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_haifa_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,7 +44,7 @@
             <head>
                <figure>
                   <graphic url="haifa.jpg"/>
-                  <head type="imgCaption" xml:space="preserve">Courtesy by Stephan Procházka, 2003</head>
+                  <head type="imgCaption">Courtesy by Stephan Procházka, 2003</head>
                </figure>
                <label>Name (English)</label>
                <name xml:lang="eng">Haifa</name>
@@ -56,40 +57,35 @@
             </head>
             <div type="positioning">
                <head>Geo location</head>
-               <p xml:space="preserve">
-                  <geo>32°82′N 34°98′E</geo>
+               <p>
+                  <geo>32°49'N 34°59'E</geo>
                </p>
             </div>
-
             <div type="typology">
                <head>Typology (Local)</head>
-               <p rend="typology" xml:space="preserve">East (Mashreq) › Levant › Palestine › Galilee</p>
-               <p xml:space="preserve">Originally an urban sedentary dialect, today a mixture of urban and rural dialects.</p>
+               <p rend="typology">East (Mashreq) › Levant › Palestine › Galilee</p>
+               <p>Originally an urban sedentary dialect, today a mixture of urban and rural dialects.</p>
             </div>
-
             <div type="general">
-               <p xml:space="preserve">Presently only about 10 per cent of the inhabitants of Israel’s third-largest city 
-               are Arabs. According to Geva-Kleinberger 2004 the original urban dialect was spoken by Muslims, Christians, 
-               and Jews. It has been preserved only in the speech of very old people. Because of migration from the 
-               countryside the contemporary dialect is a mixture of different, particularly North Palestinian, varieties.</p>
+               <p>Presently only about 10 per cent of the inhabitants of Israel’s third-largest city
+                  are Arabs. According to Geva-Kleinberger 2004 the original urban dialect was spoken by Muslims, Christians,
+                  and Jews. It has been preserved only in the speech of very old people. Because of migration from the
+                  countryside the contemporary dialect is a mixture of different, particularly North Palestinian, varieties.</p>
             </div>
-
             <div type="researchHistory">
-               <p xml:space="preserve">Some data on Haifa can be found in Bergsträsser’s linguistic atlas of Syria and 
-               Palestine (<rs type="bibl" ref="zotID:S2N4A7KD">Bergsträsser 1915</rs>, no. 30 on the maps). The only 
-               comprehensive study on the original dialect is <rs type="bibl" ref="zotID:5BT83454">Geva-Kleinberger 2004</rs>, 
-               which provides a complete description of the phonology and morphology plus 34 texts in transcription and German 
-               translation from Christian, Jewish, and Muslim speakers.</p>
+               <p>Some data on Haifa can be found in Bergsträsser’s linguistic atlas of Syria and
+                  Palestine (<rs type="bibl" ref="zotID:S2N4A7KD">Bergsträsser 1915</rs>, no. 30 on the maps). The only
+                  comprehensive study on the original dialect is <rs type="bibl" ref="zotID:5BT83454">Geva-Kleinberger 2004</rs>,
+                  which provides a complete description of the phonology and morphology plus 34 texts in transcription and German
+                  translation from Christian, Jewish, and Muslim speakers.</p>
             </div>
-
             <div type="dictionaries">
-               <p xml:space="preserve"><rs type="bibl" ref="zotID:5BT83454">Geva-Kleinberger 2004</rs> contains a 75-page 
-               glossary and lists of loanwords from Aramaic, German, English, Ottoman-Turkish etc.</p>
+               <p><rs type="bibl" ref="zotID:5BT83454">Geva-Kleinberger 2004</rs> contains a 75-page
+                  glossary and lists of loanwords from Aramaic, German, English, Ottoman-Turkish etc.</p>
             </div>
-
             <div type="bibliography">
-               <p xml:space="preserve">For a list of publications concerning Arabic in 
-                 the area of Israel click <rs ref="bibl:reg:Israel">here</rs>, for Palestine click <rs ref="bibl:reg:Palestine">here</rs></p>
+               <p>For a list of publications concerning Arabic in
+                  the area of Israel click <rs ref="bibl:reg:Israel">here</rs>, for Palestine click <rs ref="bibl:reg:Palestine">here</rs></p>
             </div>
          </div>
       </body>

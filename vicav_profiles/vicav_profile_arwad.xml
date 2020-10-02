@@ -1,4 +1,7 @@
-<?xml version="1.0"?><?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_arwad_01">
+<?xml version="1.0"?>
+<?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_arwad_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,45 +46,38 @@
             <head>
                <figure>
                   <graphic url="profile_arwad.jpg"/>
-                  <head type="imgCaption" xml:space="preserve">Courtesy of Stephan Procházka, 2008</head>
+                  <head type="imgCaption">Courtesy of Stephan Procházka, 2008</head>
                </figure>
-               
                <label>Name (English)</label>
                <name xml:lang="eng">Arwad</name>
-
                <label>MSA name</label>
                <name xml:lang="ara">أرواد</name>
-
                <label>MSA name (trans.)</label>
                <name xml:lang="ara-x-DMG">Arwād</name>
-               
                <label>Local name (trans.)</label>
                <name xml:lang="ara-Latn" type="latLoc">Arwēd</name>
-
             </head>
             <div type="positioning">
                <head>Geo location</head>
-               <p xml:space="preserve">
-                  <geo>34°85′N  35°85′E</geo>
+               <p>
+                  <geo>34°85′N 35°85′E</geo>
                </p>
             </div>
-            
             <div type="typology">
                <head>Typology (Local)</head>
-               <p rend="typology" xml:space="preserve">East (Mashreq) › Levant › Syria › Coast</p>
-               <p xml:space="preserve">Sedentary dialect with characteristic features distinguishing it from mainland varieties</p>
+               <p rend="typology">East (Mashreq) › Levant › Syria › Coast</p>
+               <p>Sedentary dialect with characteristic features distinguishing it from mainland varieties</p>
             </div>
-            
-            <div type="general">               
-               <p xml:space="preserve">Arwad is Syria’s only inhabited island. It is situated three kilometres off the coast 
-               opposite the port town of Tartous. Its population is about 2,000. The island is one of the last places in the 
-               Eastern Mediterranean where traditional wooden ships are built.</p>
+            <div type="general">
+               <p>Arwad is Syria’s only inhabited island. It is situated three kilometres off the coast
+                  opposite the port town of Tartous. Its population is about 2,000. The island is one of the last places in the
+                  Eastern Mediterranean where traditional wooden ships are built.</p>
             </div>
-            <div type="researchHistory">               
-               <p xml:space="preserve">The Linguistic Atlas of Syria (<rs type="bibl" ref="zotID:Y5WWYMLB">Behnstedt 1997</rs>) contains 
-               some important data on Arwad (no. 256 on the maps). <rs type="bibl" ref="zotID:UQFLSCBA">Solaÿmân and Charles 1972</rs> is 
-               a detailed lexical study on sailing and maritime life. <rs type="bibl" ref="zotID:XJFHMUQM">Procházka 2013</rs> includes 
-               a short grammatical sketch and two texts on boat-building, with English translation.</p>
+            <div type="researchHistory">
+               <p>The Linguistic Atlas of Syria (<rs type="bibl" ref="zotID:Y5WWYMLB">Behnstedt 1997</rs>) contains
+                  some important data on Arwad (no. 256 on the maps). <rs type="bibl" ref="zotID:UQFLSCBA">Solaÿmân and Charles 1972</rs> is
+                  a detailed lexical study on sailing and maritime life. <rs type="bibl" ref="zotID:XJFHMUQM">Procházka 2013</rs> includes
+                  a short grammatical sketch and two texts on boat-building, with English translation.</p>
             </div>
          </div>
       </body>

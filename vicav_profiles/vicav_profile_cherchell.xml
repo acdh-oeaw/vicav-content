@@ -1,4 +1,5 @@
-<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_cherchell_01">
+<?xml version="1.0"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_cherchell_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -37,62 +38,53 @@
          <change when="2019-02-19T23:28:17.16+01:00" status="draft"/>
       </revisionDesc>
    </teiHeader>
-   
    <text>
       <body>
          <div>
             <head>
                <figure>
                   <graphic url="cherchell.jpg"/>
-                  <head type="imgCaption" xml:space="preserve"><ref target="https://fr.wikipedia.org/wiki/Cherchell#/media/File:CherchellsPort.JPG ">Wikimedia</ref>
+                  <head type="imgCaption"><ref target="https://fr.wikipedia.org/wiki/Cherchell#/media/File:CherchellsPort.JPG ">Wikimedia</ref>
                   </head>
                </figure>
-
                <label>Name (English)</label>
                <name xml:lang="eng">Cherchell</name>
-
                <label>MSA name</label>
                <name xml:lang="ara">شرشال</name>
-
                <label>MSA name (trans.)</label>
                <name xml:lang="ara-x-DMG">Šaršāl</name>
-
                <label>Local name (trans.)</label>
                <name xml:lang="ara-Latn" type="latLoc">Šaršāl </name>
-
             </head>
             <div type="positioning">
                <head>Geo location</head>
-               <p xml:space="preserve">
+               <p>
                   <geo>36°60′N 2°25′E</geo>
                </p>
             </div>
             <div type="typology">
                <head>Typology (Local)</head>
-               <p rend="typology" xml:space="preserve">West (Maghreb) › Algeria › Northern dialects</p>
-               <p xml:space="preserve">Archaic urban dialect of the pre-Hilalian-type</p>
-            </div>            
-            
-            <div type="general">               
-               <p xml:space="preserve">Cherchell is a small port town located about 100 km west of Algiers. It is on 
-               the dividing line between the Eastern and Western regions of Algeria.</p>
-               <p xml:space="preserve">Because Cherchell is situated between the sea and the hill country 
-               inhabited by Berbers, its dialect has been rather insulated from Bedouin Arabic influences 
-               and is among the urban Algerian dialects which have preserved many linguistic features from 
-               the initial period of Arabization. It is one of the few non-Bedouin Algerian dialects which possess interdentals. </p>
+               <p rend="typology">West (Maghreb) › Algeria › Northern dialects</p>
+               <p>Archaic urban dialect of the pre-Hilalian-type</p>
             </div>
-            
-            <div type="researchHistory">               
-               <p xml:space="preserve">The only existing description of the dialect of Cherchell is 
-               <rs type="bibl" ref="zotID:AVBNUMUL">Grand'Henry 1972</rs>. This monograph, which focuses 
-               on the phonology and morphology of the dialect, consists of three parts: about 40 pages on 
-               phonology; 140 pages on morphology (including verbal and a nominal sections); and three 
-               texts in Arabic script (with transcription and French translation), one about a religious 
-               building dedicated to a local saint, one about marriage customs, and the third a collection of short anecdotes.</p>
+            <div type="general">
+               <p>Cherchell is a small port town located about 100 km west of Algiers. It is on
+                  the dividing line between the Eastern and Western regions of Algeria.</p>
+               <p>Because Cherchell is situated between the sea and the hill country
+                  inhabited by Berbers, its dialect has been rather insulated from Bedouin Arabic influences
+                  and is among the urban Algerian dialects which have preserved many linguistic features from
+                  the initial period of Arabization. It is one of the few non-Bedouin Algerian dialects which possess interdentals. </p>
             </div>
-            
-            <div type="bibliography">               
-               <p xml:space="preserve">For a list of publications concerning Algeria click <rs ref="bibl:reg:Algeria">here</rs>.</p>
+            <div type="researchHistory">
+               <p>The only existing description of the dialect of Cherchell is
+                  <rs type="bibl" ref="zotID:AVBNUMUL">Grand'Henry 1972</rs>. This monograph, which focuses
+                  on the phonology and morphology of the dialect, consists of three parts: about 40 pages on
+                  phonology; 140 pages on morphology (including verbal and a nominal sections); and three
+                  texts in Arabic script (with transcription and French translation), one about a religious
+                  building dedicated to a local saint, one about marriage customs, and the third a collection of short anecdotes.</p>
+            </div>
+            <div type="bibliography">
+               <p>For a list of publications concerning Algeria click <rs ref="bibl:reg:Algeria">here</rs>.</p>
             </div>
          </div>
       </body>
