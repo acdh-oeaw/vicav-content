@@ -1,4 +1,7 @@
-<?xml version="1.0"?><?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_baskinta_01">
+<?xml version="1.0"?>
+<?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_baskinta_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,50 +46,43 @@
             <head>
                <figure>
                   <graphic url="baskinta_profile.jpg"/>
-                  <head type="imgCaption" xml:space="preserve"> 
+                  <head type="imgCaption">
                      <ref target="https://en.wikipedia.org/wiki/Baskinta#/media/File:Baskinta_village.jpg">Wikimedia</ref>
                   </head>
                </figure>
                <label>Name (English)</label>
                <name xml:lang="eng">Baskinta</name>
-
                <label>MSA name</label>
                <name xml:lang="ara">بسكنتا</name>
-
                <label>MSA name (trans.)</label>
                <name xml:lang="ara">Baskintā</name>
-               
                <label>Local name (trans.)</label>
                <name xml:lang="ara-x-DMG">Baskinta</name>
             </head>
             <div type="positioning">
                <head>Geo location</head>
-               <p xml:space="preserve">
+               <p>
                   <geo>33°94′N 35°78′E</geo>
                </p>
             </div>
             <div type="typology">
                <head>Typology (Local)</head>
-               <p rend="typology" xml:space="preserve">East (Mashreq) › Levant › Lebanon › Central-north group</p>
-               <p xml:space="preserve">Rural dialect</p>
+               <p rend="typology">East (Mashreq) › Levant › Lebanon › Central-north group</p>
+               <p>Rural dialect</p>
             </div>
-            
-            <div type="general">               
-               <p xml:space="preserve">Baskinta is one of the highest villages of Lebanon, laying at the foot 
-               of Mount Ṣannīn 43 kilometers northeast of Beirut. The inhabitants are Christians, 70% Maronite and 30% Greek Orthodox.</p>
+            <div type="general">
+               <p>Baskinta is one of the highest villages of Lebanon, laying at the foot
+                  of Mount Ṣannīn 43 kilometers northeast of Beirut. The inhabitants are Christians, 70% Maronite and 30% Greek Orthodox.</p>
             </div>
-            
-            <div type="researchHistory">               
-               <p xml:space="preserve"><rs type="bibl" ref="zotID:4L7WKRNK">Abu-Haidar 1979</rs> is still the only description 
-               of the dialect of Baskinta. The study is divided into three major sections on phonology, morphology, and syntax. 
-               The section on syntax is relatively detailed in comparison to other dialectological studies of that era.</p>
-               
-               <p xml:space="preserve">The study also includes 12 texts with translation, a collection of 30 sayings, five 
-               folk-songs, and notes. The appendices include paradigms of the conjugation of verbs as well as notes on non-Arabic loan words, especially those of Aramaic origin.</p>
+            <div type="researchHistory">
+               <p><rs type="bibl" ref="zotID:4L7WKRNK">Abu-Haidar 1979</rs> is still the only description
+                  of the dialect of Baskinta. The study is divided into three major sections on phonology, morphology, and syntax.
+                  The section on syntax is relatively detailed in comparison to other dialectological studies of that era.</p>
+               <p>The study also includes 12 texts with translation, a collection of 30 sayings, five
+                  folk-songs, and notes. The appendices include paradigms of the conjugation of verbs as well as notes on non-Arabic loan words, especially those of Aramaic origin.</p>
             </div>
-            
-            <div type="bibliography">              
-               <p xml:space="preserve">To get all our bibliographical records related to Lebanon, click <rs type="bibl" ref="bibl:reg:Lebanon">here</rs>.</p>
+            <div type="bibliography">
+               <p>To get all our bibliographical records related to Lebanon, click <rs type="bibl" ref="bibl:reg:Lebanon">here</rs>.</p>
             </div>
          </div>
       </body>
