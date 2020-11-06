@@ -41,6 +41,7 @@
          <change when="2020-09-24T13:02:38.543+02:00" status="draft"/>
       </revisionDesc>
    </teiHeader>
+
    <text>
       <body>
          <div>
@@ -51,7 +52,8 @@
                </figure>
                <label>Name (English)</label>
                <name xml:lang="eng">Kerak</name>
-               <label>Name (Fuṣḥā, transcription)</label>
+               <name xml:lang="ara">الكرك</name>
+               <label>MSA Name (transcription)</label>
                <name xml:lang="ara">Al-Karak</name>
                <label>Name in local variety (in transcription)</label>
                <name xml:lang="ara-x-DMG">əl-Karak</name>
@@ -59,7 +61,7 @@
             <div type="positioning">
                <head>Geo location</head>
                <p>
-                  <geo>31°10′N 35°42′E</geo>
+                  <geo>31°10'N 35°45'E</geo>
                </p>
             </div>
             <div type="typology">
@@ -80,8 +82,7 @@
                <p><rs type="bibl" ref="zotID:GA588AQ8">Palva (2008)</rs> contains lists of sedentary and Bedouin elements, including comments on their distribution in Palestine and Jordan as well as a provisional diachronic and synchronic classification of the dialects spoken in Kerak and Salt.</p>
             </div>
             <div type="bibliography">
-               <p>For a list of publications concerning Arabic in
-                  the area of Jordan click <rs ref="bibl:reg:Jordan">here</rs>, for Palestine click <rs ref="bibl:reg:Palestine">here</rs></p>
+               <p>To view publications on this variety click <rs type="bibl" ref="bibl:geo:Al-Karak">here</rs>.</p>
             </div>
          </div>
       </body>

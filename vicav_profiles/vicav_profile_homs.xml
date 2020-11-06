@@ -60,7 +60,7 @@
             <div type="positioning">
                <head>Geo location</head>
                <p>
-                  <geo>34°73’N 36°71’E</geo>
+                  <geo>34°43'N 36°43'E</geo>
                </p>
             </div>
 
@@ -79,6 +79,8 @@
                <head>Research history</head>
                <p><rs type="bibl" ref="zotID:Y5WWYMLB">Behnstedt’s (1997)</rs> linguistic
                atlas of Syria contains relevant, but likely out-of-date, data on Homs Arabic.</p>
+                
+               <p><rs type="bibl" ref="zotID:EJG8V488">Habib (2010)</rs> is a sociolinguistic study examining the phonological adaption of rural migrants to the urban variety.</p>
 
                <p><rs type="bibl" ref="zotID:485JVSZD">Kalach (2016)</rs> is a short
                overview of important phonetic and morphological features in Homs Arabic.
@@ -86,9 +88,7 @@
             </div>
             <div type="bibliography">
                <head>Bibliography</head>
-          <p>To see important publications on the area of Syria
-                <rs type="bibl" ref="bibl:reg:Syria">follow this link</rs>.</p>
-
+          <p xml:space="preserve">To view publications on this variety click <rs type="bibl" ref="bibl:geo:Homs">here</rs>.</p>
             </div>
          </div>
       </body>

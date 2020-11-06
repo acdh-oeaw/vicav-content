@@ -62,7 +62,7 @@
             <div type="positioning">
                <head>Geo location</head>
                <p>
-                  <geo>32°40’N 35°19’E</geo>
+                  <geo>32°40'N 35°19'E</geo>
                </p>
             </div>
 
@@ -86,8 +86,7 @@
                <p><rs type="bibl" ref="zotID:3EPF3B6L">Nevo (2006)</rs> presents a detailed linguistic description of the local Arabic.</p>
             </div>
       <div type="bibliography">
-               <p>For a list of publications concerning Arabic in
-                  the area of Israel click <rs ref="bibl:reg:Israel">here</rs>, for Palestine click <rs ref="bibl:reg:Palestine">here</rs></p>
+               <p xml:space="preserve">To view publications on this variety click <rs type="bibl" ref="bibl:geo:Iksal">here</rs>.</p>
             </div>
    </div>
       </body>

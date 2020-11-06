@@ -58,8 +58,8 @@
 				<div type="positioning">
 					<head>Geo location</head>
 					<p>
-                  <geo>31°19′N 29°89′E</geo>
-               </p>
+                 			 <geo>31°12'N 29°54'E</geo>
+               			</p>
 				</div>
 				<div type="typology">
 					<head>Typology (Local)</head>
@@ -77,16 +77,19 @@
 				</div>
 				<div type="researchHistory">
 					<p>Considering the importance of Alexandria, surprisingly little research 
-               has been done on its dialect. <rs type="bibl" ref="zotID:TJ6S6VCQ">Behnstedt 1980</rs> deals 
+               has been done on its dialect. <rs type="bibl" ref="zotID:TJ6S6VCQ">Behnstedt (1980)</rs> deals 
                with the original port dialect as spoken in Anfūši and Rās it-Tīn: the article describes the 
                port dialect's most salient phonological, morphological, and lexical features and compares 
                these with the most common contemporary dialect of Alexandria. The atlas 
-               by <rs type="bibl" ref="zotID:ZIDMACCX zotID:DFWZE9I9">Behnstedt/Woidich 1985</rs> also 
+               by <rs type="bibl" ref="zotID:ZIDMACCX zotID:DFWZE9I9">Behnstedt/Woidich (1985)</rs> also 
                includes data on Alexandria. <rs type="bibl" ref="zotID:MCMLVLRI">Behnstedt/Woidich 1987</rs> includes 
-               five texts with German translation and linguistic notes. <rs type="bibl" ref="zotID:NV8YPQLB">Wahba 1996</rs> deals with linguistic 
+               five texts with German translation and linguistic notes. <rs type="bibl" ref="zotID:NV8YPQLB">Wahba (1996)</rs> deals with linguistic 
                variation in the dialect of Alexandria, analyzing the phonetic variation of emphasis as a 
                function of factors like education, sex, and age.</p>
 				</div>
+                <div type="bibliography">               
+               <p>To view publications on this variety click <rs type="bibl" ref="bibl:geo:Alexandria">here</rs>.</p>
+           </div>
 			</div>
 		</body>
 	</text>

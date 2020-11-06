@@ -62,7 +62,7 @@
             <div type="positioning">
                <head>Geo location</head>
                <p>
-                  <geo>31°52’N 34°44’E</geo>
+                  <geo>31°30'N 34°28'E</geo>
                </p>
             </div>
             <div type="typology">
@@ -92,7 +92,7 @@
                volume (1980)</rs> contains various transcribed texts as well as notes
                on specific grammatical features. Another concise linguistic sketch on
                Palestinian Arabic, including notes on the Arabic in Gaza, can be
-               found in the EALL (Shahin 2008).</p>
+               found in the <rs type="bibl" ref="zotID:QPHTGYNG">EALL (Shahin 2011)</rs>.</p>
                <p><rs type="bibl" ref="zotID:NYWCAYSK">Horesh and Cotter (2011)</rs> give
                an overview of the sociolinguistics of Palestinian Arabic, focusing
                on the influence of the Israeli occupation, migration movements, and
@@ -103,11 +103,11 @@
                <p>There are also a few investigations on sociophonetics in Gazan
                Arabic: <rs type="bibl" ref="zotID:9SPZYEAI">Cotter and Horesh (2015)</rs> is
                a study on how refugees from Jaffa adapted their language to Gaza’s dialect.
-               <rs type="bibl" ref="zotID:LYFERR5R">Cotter (2016a)</rs> discusses [q]
+               <rs type="bibl" ref="zotID:EN55PMI6">Cotter (2016a)</rs> discusses [q]
                as a sociolinguistic variable due to the dialect contact between
                the residents of Gaza City and refugees from Jaffa. <rs type="bibl" ref="zotID:LYFERR5R">Cotter (2016b)</rs> is
                an investigation on the realization of interdental fricatives in Gaza City.</p>
-               <p>Werner (2008) is a text sample of the Arabic outside Gaza City by
+               <p><rs type="bibl" ref="zotID:IEUQEMKM">Werner (2008)</rs> is a text sample of the Arabic outside Gaza City by
                a speaker from, with a German translation. </p>
             </div>
                <div type="dictionaries">
@@ -120,8 +120,7 @@
                <rs type="bibl" ref="zotID:NGFE3X6J">Elihai (2004)</rs> are dictionaries of Palestinian Arabic with example sentences and phrases.</p>
             </div>
             <div type="bibliography">
-               <p>For a list of publications concerning Arabic in
-                  the area of Israel click <rs ref="bibl:reg:Israel">here</rs>, for Palestine click <rs ref="bibl:reg:Palestine">here</rs></p>
+                <p xml:space="preserve">To view publications on this variety click <rs type="bibl" ref="bibl:geo:Gaza">here</rs>.</p>
             </div>
 
          </div>

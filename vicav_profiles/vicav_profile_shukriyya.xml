@@ -1,88 +1,88 @@
 <?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_shukriyya_01">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>A machine-readable profile of  Arabic</title>
-
-            <author xml:id="bettina">Bettina Leitner</author>
-         </titleStmt>
-         <publicationStmt>
-            <publisher>ACDH-OeAW</publisher>
-            <pubPlace>Vienna</pubPlace>
-            <date>2019</date>
-            <availability status="restricted">
-               <p>
-                  <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <p>This is an original digital text</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <tagsDecl partial="true">
-            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
-            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
-            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
-         </tagsDecl>
-      </encodingDesc>
-      <revisionDesc>
-         <change status="created" when="2019-01-08T09:49:00Z" who="#bettina">created</change>
-         <change status="draft" when="2019-01-08T09:54:00Z" who="#bettina">last modified (revision 4)</change>
-         <change status="draft" when="2019-02-19T23:31:03.845+01:00">transformed to TEI-XML</change>
-         <change when="2019-02-19T23:31:04.943+01:00" status="draft"/>
-      </revisionDesc>
-   </teiHeader>
-
-   <text>
-      <body>
-         <div>
-            <head>
-               <figure>
-                  <graphic url="butana_steppe.jpg"/>
-                  <head type="imgCaption" xml:space="preserve"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A machine-readable profile of  Arabic</title>
+                
+                <author xml:id="bettina">Bettina Leitner</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>ACDH-OeAW</publisher>
+                <pubPlace>Vienna</pubPlace>
+                <date>2019</date>
+                <availability status="restricted">
+                    <p>
+                        <ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This is an original digital text</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl partial="true">
+                <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+                <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+                <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change status="created" when="2019-01-08T09:49:00Z" who="#bettina">created</change>
+            <change status="draft" when="2019-01-08T09:54:00Z" who="#bettina">last modified (revision 4)</change>
+            <change status="draft" when="2019-02-19T23:31:03.845+01:00">transformed to TEI-XML</change>
+            <change when="2019-02-19T23:31:04.943+01:00" status="draft"/>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div>
+                <head>
+                    <figure>
+                        <graphic url="butana_steppe.jpg"/>
+                        <head type="imgCaption" xml:space="preserve"> 
                      <ref target="https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D9%86%D8%A9#/media/File:Butana_steppe.jpg">Wikimedia</ref>
                   </head>
-               </figure>
-               <label>Name (English)</label>
-               <name xml:lang="eng">Shukria tribe</name>
-               <label>Local name (trans.)</label>
-               <name xml:lang="ara-x-DMG">aš-Šukriyya</name>
-            </head>
-
-            <div type="positioning">
-               <head>Geo location</head>
-               <p xml:space="preserve">
-                  <geo>14°00′N 35°00′E</geo>
+                    </figure>
+                    <label>Name (English)</label>
+                    <name xml:lang="eng">Shukria tribe</name>
+                    <label>Local name (trans.)</label>
+                    <name xml:lang="ara-x-DMG">aš-Šukriyya</name>
+                </head>
+                
+                <div type="positioning">
+                    <head>Geo location</head>
+                    <p xml:space="preserve">
+                  <geo>15°33'N 35°01'E</geo>
                </p>
-            </div>
-
-            <div type="typology">
-               <head>Typology (Local)</head>
-               <p xml:space="preserve">East (Mashreq) › Egypt-Sudan › Sudan › Eastern group › Eastern Sudan</p>
-               <p xml:space="preserve">Bedouin-type dialect</p>
-            </div>
-
-            <div type="general">
-               <p xml:space="preserve">The Shukriyya, who themselves trace their ancestry back to Arabia and Ǧaʿfar b. Abī Ṭālib, are one of the most important tribes in Sudan and the largest tribe in the Buṭāna, a region between the Nile, the Blue Nile, and the Atbara. In the 1980s their number was estimated to be 150,000 – 300,000. At that time their way of life was still nomadic or semi-nomadic.</p>
-               <p xml:space="preserve">During the Turkish rule in the 19th century, some sections of the Shukriyya, particularly the Blue Nile Shukriyya, inclined toward agriculture and sedentary life.</p>
-            </div>
-
-            <div type="researchHistory">
-               <p xml:space="preserve"><rs type="bibl" ref="zotID:BPSVRP3E">Hillelson 1920</rs> is an article on the historical poems and 
+                </div>
+                
+                <div type="typology">
+                    <head>Typology (Local)</head>
+                    <p xml:space="preserve">East (Mashreq) › Egypt-Sudan › Sudan › Eastern group › Eastern Sudan</p>
+                    <p xml:space="preserve">Bedouin-type dialect</p>
+                </div>
+                
+                <div type="general">
+                    <p xml:space="preserve">The Shukriyya, who themselves trace their ancestry back to Arabia and Ǧaʿfar b. Abī Ṭālib, are one of the most important tribes in Sudan and the largest tribe in the Buṭāna, a region between the Nile, the Blue Nile, and the Atbara. In the 1980s their number was estimated to be 150,000 – 300,000. At that time their way of life was still nomadic or semi-nomadic.</p>
+                    <p xml:space="preserve">During the Turkish rule in the 19th century, some sections of the Shukriyya, particularly the Blue Nile Shukriyya, inclined toward agriculture and sedentary life.</p>
+                </div>
+                
+                <div type="researchHistory">
+                    <p xml:space="preserve"><rs type="bibl" ref="zotID:BPSVRP3E">Hillelson (1920)</rs> is an article on the historical poems and 
                traditions of the Shukriyya. In the 1960s and 1970s Hurreiz published three articles on Shukriyya oral poetry 
-               (<rs type="bibl" ref="zotID:IVPHVA6X">Hurreiz 1969</rs>, <rs type="bibl" ref="zotID:HNVYN783">Hurreiz 1974</rs>, 
-               <rs type="bibl" ref="zotID:HNVYN783">Hurreiz 1978</rs>).</p>
-               <p xml:space="preserve"><rs type="bibl" ref="zotID:6YFNZ4E4">Reichmuth 1983</rs> is still the only monograph on 
+               (<rs type="bibl" ref="zotID:IMP8HEXA">Hurreiz (1969)</rs>, <rs type="bibl" ref="zotID:HNVYN783">Hurreiz (1974)</rs>, 
+               <rs type="bibl" ref="zotID:GVY7YK5A">Hurreiz (1978)</rs>).</p>
+                    <p xml:space="preserve"><rs type="bibl" ref="zotID:6YFNZ4E4">Reichmuth (1983)</rs> is still the only monograph on 
                the Arabic spoken by the Šukriyya. It offers a comprehensive description of the variety’s phonology and morphology, 
                plus some background information on the tribe and the position of the dialect within the Arabic varieties of Sudan.</p>
+                </div>
+                
+                <div type="bibliography">
+                    <p xml:space="preserve">To view publications on this variety click <rs type="bibl" ref="bibl:geo:Butana">here</rs>.</p>
+                </div>
             </div>
-
-            <div type="bibliography">
-               <p xml:space="preserve">For a list of publications on the varieties of Sudan click <rs type="bibl" ref="bibl:reg:Sudan">here</rs>.</p>
-            </div>
-         </div>
-      </body>
-   </text>
+        </body>
+    </text>
 </TEI>

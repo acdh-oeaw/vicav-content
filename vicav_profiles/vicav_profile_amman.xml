@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
-<?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../tools/802_tei_odd/out/vicav_profiles.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/tei_2_html__v006.xsl"?>
 <TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_amman_01">
    <teiHeader>
       <fileDesc>
@@ -45,9 +44,10 @@
          <div>
             <head>
                <figure>
-                  <graphic url="amman.jpg"/>
-                  <head type="imgCaption"><ref target="https://commons.wikimedia.org/w/index.php?curid=28842365">Wikimedia; Tareq Ibrahim Hadi</ref></head>
+                  <graphic url="amman_sp__2017.jpg"/>
+                  <head type="imgCaption">Courtesy of Stephan Procházka, 2017</head>
                </figure>
+
                <label>Name (English)</label>
                <name xml:lang="eng">Amman</name>
                <label>Name (Fuṣḥā, transcription)</label>
@@ -65,12 +65,10 @@
             </div>
 
             <div type="typology">
-               <head>Typology (Local)</head>
                <p rend="typology">East (Mashreq)&gt;Levant&gt;Jordan&gt;North</p>
                <p>Mixed type dialect</p>
             </div>
             <div type="general">
-               <head>General</head>
                <p>Jordanian dialects have been a widely neglected area in the field of Arabic dialectology.</p>
                <p>The linguistic situation is due to the city’s and countries history a
                very special one and cannot be investigated without taking a closer look at it.
@@ -94,7 +92,6 @@
             </div>
 
             <div type="researchHistory">
-               <head>Research history</head>
                <p>As the koine is still evolving, there is no detailed grammar of Amman Arabic existing right now.</p>
                <p>Al-Wer (2011, EALL) is a concise linguistic sketch giving an overview
                about the most common features. Sawaie (EALL) provides further information

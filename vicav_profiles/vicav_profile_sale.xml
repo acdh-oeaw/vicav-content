@@ -49,7 +49,7 @@
           <label>Name (MSA)</label>
           <name xml:lang="ara">سلا</name>
           <label>Name (MSA, trans.)</label>
-          <name xml:lang="ara-x-DMG">Sala</name>
+          <name xml:lang="ara-x-DMG">Salā</name>
           <label>Local name</label>
           <name xml:lang="ary" type="araLoc">سلا</name>
           <label>Local name (trans.)</label>
@@ -57,7 +57,7 @@
         </head>
         <div type="positioning">
           <p>
-              <geo>34°02′N 6°83′W</geo>
+              <geo>34°03'N 06°47'E</geo>
             </p>
         </div>
 
@@ -80,18 +80,17 @@
               assumed that the old dialect of Salé (as is stated for Rabat) had
               similar basic features as Tanger and Tetouan speech. The
               development from an „urban“ to a „mixed rural-urban“ dialect is
-              described by <rs type="bibl" ref="zotID:QEG433QR">Messaoudi 2002</rs>. Recent grammatical and lexical studies on
-              Rabat/Salé have been undertaken by <rs type="bibl" ref="zotID:LMDE3E4E">Heath 2002</rs> and 
-              <rs type="bibl" ref="zotID:CG324JCW">Behnstedt 2011-14</rs>.</p>
+              described by <rs type="bibl" ref="zotID:QEG433QR">Messaoudi (2002)</rs>. Recent grammatical and lexical studies on
+              Rabat/Salé have been undertaken by <rs type="bibl" ref="zotID:LMDE3E4E">Heath (2002)</rs> and 
+              <rs type="bibl" ref="zotID:CG324JCW">Behnstedt (2011-14)</rs>.</p>
         </div>
 
-        <div type="bibliography">
-          <p>To get a list of publications relating to Morocco click <rs type="bibl" ref="bibl:reg:Morocco">here</rs>.</p>
-        </div>
+       <div type="bibliography">               
+                    <p xml:space="preserve">To view publications on this variety click <rs type="bibl" ref="bibl:geo:Sale">here</rs>.</p>
+                </div>
 
         <div type="dictionaries">
-          <p>To get a more general list of dictionaries for the study
-              of Moroccan Arabic click <rs type="bibl" ref="bibl:reg:Morocco+bibl:vt:dictionary">here</rs>.</p>
+                              <p xml:space="preserve">To view publications on this variety click <rs type="bibl" ref="bibl:geo:Sale">here</rs>.</p>
         </div>
       </div>
     </body>

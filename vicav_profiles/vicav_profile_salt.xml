@@ -60,7 +60,7 @@
             <div type="positioning">
                <head>Geo location</head>
                <p>
-                  <geo>32°03′N 35°72′E</geo>
+                  <geo>32°02'N 35°43'E</geo>
                </p>
             </div>
             <div type="typology">
@@ -77,10 +77,10 @@
             </div>
             <div type="researchHistory">
                <head>Research history</head>
-               <p>As a sort of prelude to the study of the Arabic of Salt, <rs type="bibl" ref="zotID:WYI25YGZ">Palva 1992</rs> is a short overview on the problems classifying individual Jordanian dialects as sedentary or Bedouin.</p>
+               <p>As a sort of prelude to the study of the Arabic of Salt, <rs type="bibl" ref="zotID:22WA4M38">Palva (1992)</rs> is a short overview on the problems classifying individual Jordanian dialects as sedentary or Bedouin.</p>
                <p><rs type="bibl" ref="zotID:KHBUFV6X">Palva (1994)</rs> then provides a
                short diachronic overview of the Salt’s dialect, mentioning specific
-               sedentary and Bedouin traits. Palva (2003) is a description of negations
+               sedentary and Bedouin traits. <rs type="bibl" ref="zotID:MMAH7BGI">Palva (2004)</rs> is a description of negations
                from the standpoint of the Salti vernacular as an example for mixed
                type dialects.</p>
                <p><rs type="bibl" ref="zotID:XZ44H3N6">Palva (2007)</rs> offers
@@ -92,7 +92,7 @@
                <p>A concise linguistic sketch of Salt’s dialect can be found in
                <rs type="bibl" ref="zotID:MFKQBWAL">EALL (Herin 2011)</rs>.</p>
                <p>The PhD thesis <rs type="bibl" ref="zotID:EDZTHJNN">Herin (2010)</rs> is
-               on the Arabic dialect of Salt, with a grammatical description.
+               on the Arabic dialect of Salt, with a more detailed grammatical description.
                <rs type="bibl" ref="zotID:A9LIHWLN">Al-Wer and Herin (2013)</rs> investigate
                the depalatalization of [č] and its morphological and syntactic consequences
                in the dialect.</p>
@@ -105,8 +105,7 @@
             </div>
 
             <div type="bibliography">
-               <p>For a list of publications concerning Arabic in
-                  Jordan click <rs ref="bibl:reg:Jordan">here</rs>, for Palestine click <rs ref="bibl:reg:Palestine">here</rs></p>
+                 <p xml:space="preserve">To view publications on this variety click <rs type="bibl" ref="bibl:geo:Al-Salt">here</rs>.</p>
             </div>
          </div>
       </body>

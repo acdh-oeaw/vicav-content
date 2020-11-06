@@ -56,7 +56,7 @@
             </head>
             <div type="positioning">
                <head>Geo location</head>
-               <p><geo>36°12′N 37°9′E</geo></p>
+               <p><geo>36°12'N 37°09'E</geo></p>
             </div>
 
             <div type="typology">
@@ -79,7 +79,7 @@
                <p><rs type="bibl" ref="zotID:VHCQBXAG">Sabuni (1980)</rs> is a comprehensive
                description of the phonology and morphology of Aleppo’s Arabic and includes a few texts at the end. </p>
 
-               <p>Bar-Moshe and Arnold (2017) is a comparative study of the Jewish dialects
+               <p><rs type="bibl" ref="zotID:KZIMKKKE">Bar-Moshe and Arnold (2017)</rs> is a comparative study of the Jewish dialects
                of Aleppo and Baghdad, specifying numerous shared linguistic features and comparing the two dialects to others in the region. </p>
 
                <p><rs type="bibl" ref="zotID:T2BB8GWD">Nevo (1991)</rs> wrote his PhD thesis
@@ -90,14 +90,14 @@
 
                <p><rs type="bibl" ref="zotID:DJVFBMPN">Levin (2002)</rs> dealt with the imāla in Aleppine Arabic. </p>
 
-               <p><rs type="bibl" ref="zotID:EGHYA4K7">Jastrow &amp; Kazzarah (1980)</rs> is the text
+               <p><rs type="bibl" ref="zotID:EGHYA4K7">Jastrow &amp; Kazzarah (1980)</rs> is a text
                (including notes on special features) of a then 80-year-old speaker talking about his
                memories of his youth during Ottoman rule. <rs type="bibl" ref="zotID:HC5TLP34">Jastrow &amp; Kazzarah (1984)</rs> contains
                texts from different speakers, translated into German with notes. <rs type="bibl" ref="zotID:246E566F">Behnstedt
                (1989)</rs> focuses on the Christian variety of Aleppine Arabic and includes texts
                with German translations: this study also provides information about the classification
                of the varieties spoken in the city and describes the different phonological and
-               morphological features of the Christians’ dialect. <rs type="bibl" ref="zotID:">Behnstedt (2000)</rs> offers
+               morphological features of the Christians’ dialect. <rs type="bibl" ref="zotID:6E64PF2M">Behnstedt (2000)</rs> offers
                texts of both Muslim and Christian Aleppine Arabic.</p>
             </div>
             <div type="dictionaries">
@@ -113,13 +113,14 @@
                <head>Text books</head>
                <p>There is no textbook focusing on Aleppine Arabic in particular. However, the
                Damascene vernacular is definitely helpful for communicating with Aleppine speakers.
-               A comprehensive two-volume textbook containing numerous texts and exercised
+               A comprehensive two-volume textbook containing numerous texts and exercises
                is <rs type="bibl" ref="zotID:8NKI26ZJ">Aldoukhi et al. (2014)</rs>. A list of
-               other textbooks for Syrian Arabic can be found <ref target="https://vicav.acdh.oeaw.ac.at/">here</ref>. </p>
+               other textbooks for Syrian Arabic can be found
+               <ref target="https://vicav.acdh.oeaw.ac.at/#map=[biblMarkers,vt:textbook,geo_reg]&amp;1=[biblQuery,reg:Syria,vt:textbook,open]">here</ref>. </p>
             </div>
 
             <div type="bibliography">
-               <p>For a list of publications concerning Arabic in Syria click <rs ref="bibl:reg:Syria">here</rs>.</p>
+               <p>To view publications on this variety click <rs type="bibl" ref="bibl:geo:Aleppo">here</rs>.</p>
             </div>
          </div>
       </body>

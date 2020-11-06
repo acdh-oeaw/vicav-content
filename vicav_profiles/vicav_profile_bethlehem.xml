@@ -61,7 +61,7 @@
             <div type="positioning">
                <head>Geo location</head>
                <p>
-                  <geo>31°42′N 35°12′E</geo>
+                  <geo>31°42'N 35°12'E</geo>
                </p>
             </div>
             <div type="typology">
@@ -96,13 +96,12 @@
 
             <div type="textBooks">
                <head>Text books</head>
-               <p><rs type="bibl" ref="zotero:XKFCJ32J">Halloun 1988</rs> is a collection of verb conjugations with a small glossary.
-               <rs type="bibl" ref="zotID:4EF8WEPI">Halloun (1989</rs>, 1991) and his other series (<rs type="bibl" ref="zotID:PZE96FG5">2001</rs>,
-               <rs type="bibl" ref="zotID:PI8ZCGB5">2006</rs>) are textbooks with various exercises, vocabulary lists, and sample texts. </p>
+               <p><rs type="bibl" ref="zotero:XKFCJ32J">Halloun (1988)</rs> is a collection of verb conjugations with a small glossary.
+               <rs type="bibl" ref="zotID:4EF8WEPI">Halloun (1989</rs>, <rs type="bibl" ref="zotID:FBB8EIQK">1991)</rs> and his other series <rs type="bibl" ref="zotID:PZE96FG5">(2001</rs>,
+               <rs type="bibl" ref="zotID:PI8ZCGB5">2006)</rs> are textbooks with various exercises, vocabulary lists, and sample texts. </p>
             </div>
       <div type="bibliography">
-               <p>For a list of publications concerning Arabic in
-                  the area of Israel click <rs ref="bibl:reg:Israel">here</rs>, for Palestine click <rs ref="bibl:reg:Palestine">here</rs></p>
+               <p>To view publications on this variety click <rs type="bibl" ref="bibl:geo:Bethlehem">here</rs>.</p>
             </div>
                </div>
       </body>

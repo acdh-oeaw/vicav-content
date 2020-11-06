@@ -55,7 +55,7 @@
 
         <div type="positioning">
           <p xml:space="preserve">
-              <geo>33°51′N 36°29′E</geo>
+              <geo>33°30'N 36°17'E</geo>
             </p>
         </div>
 
@@ -77,17 +77,17 @@
               the 18th century when the German orientalist and theologian Johann
               Heinrich Callenberg published his description of Damascus Arabic
               in Latin (<rs type="bibl" ref="zotID:GG6XYXC6">Callenberg 
-              1720-1740</rs>). Collections of texts and short grammatical notes 
+              (1720-1740)</rs>). Collections of texts and short grammatical notes 
               were published at the end of the 19th and the first half of the 
-              20th centuries (<rs type="bibl" ref="zotID:VXHF6ZPT">Huart 1883</rs>, 
-              <rs type="bibl" ref="zotID:X86GW8EH">Oestrup 1897</rs> (although 
+              20th centuries (<rs type="bibl" ref="zotID:VXHF6ZPT">Huart (1883)</rs>, 
+              <rs type="bibl" ref="zotID:X86GW8EH">Oestrup (1897)</rs> (although 
               mostly not real Damascene dialect), <rs type="bibl" ref="zotID:LGA5WUHA">Malinjoud
-                1924</rs>, <rs type="bibl" ref="zotID:3BR6IJ4W">Bergsträßer 1924</rs>, 
-                <rs type="bibl" ref="zotID:HW2DTBZ4">Saussey 1937-38</rs>),
-              <rs type="bibl" ref="zotID:BDAZ542L">Cantineau 1956</rs>, <rs type="bibl" ref="zotID:PQ8XUWR8">Dietrich 1956</rs>) but the first comprehensive
+                (1924)</rs>, <rs type="bibl" ref="zotID:3BR6IJ4W">Bergsträßer (1924)</rs>, 
+                <rs type="bibl" ref="zotID:HW2DTBZ4">Saussey (1937-38)</rs>),
+              <rs type="bibl" ref="zotID:BDAZ542L">Cantineau (1956)</rs>, <rs type="bibl" ref="zotID:PQ8XUWR8">Dietrich (1956)</rs>) but the first comprehensive
               description of the dialect appeared only in the 1960s: <rs type="bibl" ref="zotID:5TVK2DLA">Cowell
-              1964</rs>, <rs type="bibl" ref="zotID:FKULEZZ6">Grotzfeld 1964</rs>, 
-              <rs type="bibl" ref="zotID:ZA9VUR43">Grotzfeld 1965</rs>, <rs type="bibl" ref="zotID:2IIY3IYY">Ambros 1977</rs>. 
+              (1964)</rs>, <rs type="bibl" ref="zotID:FKULEZZ6">Grotzfeld (1964)</rs>, 
+              <rs type="bibl" ref="zotID:ZA9VUR43">Grotzfeld (1965)</rs>, <rs type="bibl" ref="zotID:2IIY3IYY">Ambros (1977)</rs>. 
               Today Damascus Arabic is certainly among the Arabic dialects which are best
               described.</p>
 
@@ -98,10 +98,10 @@
         <div type="dictionaries">
           <p>
               <rs type="bibl" ref="zotID:6XVCYDUK">Barthélemy
-                1935-54</rs> is still unmatched as the dictionary for Syrian
+                (1935-54)</rs> is still unmatched as the dictionary for Syrian
               Arabic, but it is mainly based on the dialect of Aleppo.
               Nevertheless it is extremely useful for Damascus Arabic too, as is
-                <rs type="bibl" ref="zotID:TZMIRC4K">Denizeau 1960</rs>.</p>
+                <rs type="bibl" ref="zotID:TZMIRC4K">Denizeau (1960)</rs>.</p>
 
           <p>Very promising is the Dictionnaire d’arabe dialectal syrien (parler de Damas) by 
               Claude Salamé &amp; Jérôme Lentin, although until now only the letter B has been
@@ -122,8 +122,8 @@
               Cantineau/Helbaoui's <rs type="bibl" ref="zotID:UBW33YBT">Manuel 
               élémentaire d’arabe oriental (parler de Damas)</rs> 1953. Others to be
               mentioned are Ferguson's <rs type="bibl" ref="zotID:LSI6JDAS">Damascus 
-              Arabic 1965</rs>, Rice's <rs type="bibl" ref="zotID:C7C7U6HB">Eastern 
-              Arabic 1979</rs> and Liddicoat's 
+              Arabic (1965)</rs>, Rice's <rs type="bibl" ref="zotID:C7C7U6HB">Eastern 
+              Arabic (1979)</rs> and Liddicoat's 
               <rs type="bibl" ref="zotID:BZBT97SH">Syrian colloquial Arabic: 
                a functional course (1999)</rs>.</p>
 
@@ -141,10 +141,9 @@
             <ref target="http://www.youtube.com/results?search_query=kulna sawa">Kulna Sawa</ref>.</p>
         </div>
 
-        <div type="bibliography">
-          <p>To see some important publications on this variety 
-                <rs type="bibl" ref="bibl:geo:Damascus">follow this link</rs>.</p>
-        </div>
+        <div type="bibliography">               
+                    <p xml:space="preserve">To view publications on this variety click <rs type="bibl" ref="bibl:geo:Damascus">here</rs>.</p>
+                </div>
 
         <div type="sampleText">
           <p>A short sample text is provided <rs ref="sample:damascus_sample_01/Damascus">here</rs>.</p>

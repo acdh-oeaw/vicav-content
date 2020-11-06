@@ -65,7 +65,7 @@
             <div type="positioning">
                <head>Geo location</head>
                <p>
-                  <geo>35°10′N 5°16′W</geo>
+                  <geo>35°10'N 05°15'E</geo>
                </p>
             </div>
             
@@ -86,18 +86,18 @@
             </div>
             
             <div type="researchHistory">               
-               <p><rs type="bibl" ref="zotID:TY5HZUN2">Natividad &amp; Rahmouni 1996</rs> is a collection 
+               <p><rs type="bibl" ref="zotID:TY5HZUN2">Natividad &amp; Rahmouni (1996)</rs> is a collection 
                of texts, including several traditional recipes and one tale, in the dialect of Chefchaouen with attached glossary. 
-               <rs type="bibl" ref="zotID:WEZJZU2B">Natividad 1998</rs> described some phonological, morphological, syntactical, 
+               <rs type="bibl" ref="zotID:WEZJZU2B">Natividad (1998)</rs> described some phonological, morphological, syntactical, 
                and lexical characteristics of Chefchaouen Arabic.</p>
-               <p><rs type="bibl" ref="zotID:BPX2Q5D6">Moscoso 2002</rs> is a description of children’s games 
-               from Chefchaouen with linguistic remarks. Moscoso 2003a is a collection of short texts, with transcriptions and a glossary.</p>
-               <p><rs type="bibl" ref="zotID:48KMHNSI">Moscoso 2003b</rs> is a comprehensive grammar on the 
+               <p><rs type="bibl" ref="zotID:4RSMIKAU">Moscoso (2002)</rs> is a description of children’s games 
+               from Chefchaouen with linguistic remarks. Moscoso (2003a) is a collection of short texts, with transcriptions and a glossary.</p>
+               <p><rs type="bibl" ref="zotID:48KMHNSI">Moscoso (2003b)</rs> is a comprehensive grammar on the 
                dialect of Chefchaouen with texts. </p>
                <p>Moscoso also published a paper on the vernacular poetry and traditional songs from the Jbala region 
                in <rs type="bibl" ref="zotID:RWVYB2NH">2015</rs> based on data from Chefchaouen collected 
-               by <rs type="bibl" ref="zotID:9KALV54B">Pereda 2014</rs>.</p>
-               <p><rs type="bibl" ref="zotID:4DBW3ST4">Rahmouni 2015</rs> is a recent documentation of the oral 
+               by <rs type="bibl" ref="zotID:9KALV54B">Pereda (2014)</rs>.</p>
+               <p><rs type="bibl" ref="zotID:4DBW3ST4">Rahmouni (2015)</rs> is a recent documentation of the oral 
                tradition of storytelling in the town’s vernacular, including transliterations, translations, a 
                study of the mode of oral performance, and information on 
                cultural, literary, and linguistic background.</p>
@@ -108,13 +108,17 @@
             </div>
             
             <div type="dictionaries">               
-               <p><rs type="bibl" ref="zotID:48KMHNSI">Moscoso 2003c</rs> also contains a glossary.</p>
+               <p><rs type="bibl" ref="zotID:48KMHNSI">Moscoso (2003c)</rs> also contains a glossary.</p>
             </div>
             
             <div type="audioData">               
                <p>See the <ref target="http://corvam.unizar.es/en/">Corvam</ref> corpus for annotated texts 
                in the dialects of Jbala and Ghomara with Spanish  translations.</p>
             </div>
+            
+            <div type="bibliography">               
+                    <p xml:space="preserve">To view publications on this variety click <rs type="bibl" ref="bibl:geo:Chefchaouen">here</rs>.</p>
+                </div>
             
          </div>
       </body>

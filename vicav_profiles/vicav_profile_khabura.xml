@@ -50,11 +50,13 @@
           <name xml:lang="ara">الخابورة</name>
           <label>MSA name (trans.)</label>
           <name xml:lang="ara-x-DMG">ʔal-Ḫābūra</name>
+           <label>Local name (trans.)</label>
+          <name xml:lang="ajp-Latn" type="latLoc">al-Ḫābūra</name>
         </head>
 
         <div type="positioning">
           <p>
-              <geo>23°58′N 57°05′E</geo>
+              <geo>23°58'N 57°05'</geo>
             </p>
         </div>
         <div type="typology">
@@ -74,7 +76,7 @@
         <div type="researchHistory">
           <p>Hitherto the only description of the dialect of the town and its
               surroundings is <rs type="bibl" ref="zotID:G5BL9R3B">Brockett
-                1985</rs>. This book is based on fieldwork carried out in the
+                (1985)</rs>. This book is based on fieldwork carried out in the
               late 1970s/early 1980s. It offers a short introduction into
               phonology and morphology and discusses some special syntactical
               features. The main part is dedicated to lexicography with a focus
@@ -83,8 +85,7 @@
         </div>
             <div type="bibliography">
                <head>Bibliography</head>
-         <p>To get a list of items in the bibliography regarding Oman click <rs type="bibl" ref="bibl:reg:Oman">here</rs>.</p>
-
+                <p xml:space="preserve">To view publications on this variety click <rs type="bibl" ref="bibl:geo:Al-Khaburah">here</rs>.</p>
             </div>
 
       </div>
