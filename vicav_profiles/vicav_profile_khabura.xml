@@ -45,7 +45,7 @@
             <head type="imgCaption">Courtesy by Stephan Procházka, 2012</head>
           </figure>
           <label>Name (English)</label>
-          <name xml:lang="eng">al-Khaburah</name>
+          <name type="geo" xml:lang="eng">al-Khaburah</name>
           <label>MSA name</label>
           <name xml:lang="ara">الخابورة</name>
           <label>MSA name (trans.)</label>
@@ -56,7 +56,8 @@
 
         <div type="positioning">
           <p>
-              <geo>23°58'N 57°05'</geo>
+              <geo>23°58'N 57°05'E</geo>
+<country></country>
             </p>
         </div>
         <div type="typology">
@@ -75,7 +76,7 @@
 
         <div type="researchHistory">
           <p>Hitherto the only description of the dialect of the town and its
-              surroundings is <rs type="bibl" ref="zotID:G5BL9R3B">Brockett
+              surroundings is <rs type="bibl" ref="zotid:G5BL9R3B">Brockett
                 (1985)</rs>. This book is based on fieldwork carried out in the
               late 1970s/early 1980s. It offers a short introduction into
               phonology and morphology and discusses some special syntactical
@@ -85,7 +86,7 @@
         </div>
             <div type="bibliography">
                <head>Bibliography</head>
-                <p xml:space="preserve">To view publications on this variety click <rs type="bibl" ref="bibl:geo:Al-Khaburah">here</rs>.</p>
+                <p>To view publications on this variety click <rs type="bibl" ref="bibl:geo:Al-Khaburah">here</rs>.</p>
             </div>
 
       </div>

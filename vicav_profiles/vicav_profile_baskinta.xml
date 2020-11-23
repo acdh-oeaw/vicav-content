@@ -51,7 +51,7 @@
                   </head>
                </figure>
                <label>Name (English)</label>
-               <name xml:lang="eng">Baskinta</name>
+               <name type="geo" xml:lang="eng">Baskinta</name>
                <label>MSA name</label>
                <name xml:lang="ara">بسكنتا</name>
                <label>MSA name (trans.)</label>
@@ -62,6 +62,7 @@
             <div type="positioning">
                <p>
                   <geo>33°56'N 35°47'E</geo>
+<country></country>
                </p>
             </div>
 
@@ -75,7 +76,7 @@
                   of Mount Ṣannīn 43 kilometers northeast of Beirut. The inhabitants are Christians, 70% Maronite and 30% Greek Orthodox.</p>
             </div>
             <div type="researchHistory">
-               <p><rs type="bibl" ref="zotID:4L7WKRNK">Abu-Haidar (1979)</rs> is still the only description
+               <p><rs type="bibl" ref="zotid:4L7WKRNK">Abu-Haidar (1979)</rs> is still the only description
                   of the dialect of Baskinta. The study is divided into three major sections on phonology, morphology, and syntax.
                   The section on syntax is relatively detailed in comparison to other dialectological studies of that era.</p>
                <p>The study also includes 12 texts with translation, a collection of 30 sayings, five

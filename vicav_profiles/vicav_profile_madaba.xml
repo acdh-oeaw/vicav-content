@@ -32,8 +32,8 @@
             <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
          </tagsDecl>
          <listPrefixDef>
-            <prefixDef ident="zotID" matchPattern="([a-z]+)" replacementPattern="https://www.zotero.org/groups/2165756/vicav/items/itemKey/#$1">
-               <p>Private URIs with the prefix "zotID" point to the respective bibliographic record in the VICAV Zotero library and/or to a local copy of it.</p>
+            <prefixDef ident="zotid" matchPattern="([a-z]+)" replacementPattern="https://www.zotero.org/groups/2165756/vicav/items/itemKey/#$1">
+               <p>Private URIs with the prefix "zotid" point to the respective bibliographic record in the VICAV Zotero library and/or to a local copy of it.</p>
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
@@ -58,7 +58,8 @@
             </head>
             <div type="positioning">
                <p>
-                  <geo>31.71 N; 35.80 E</geo>
+                  <geo>31°71'N 35°80'E</geo>
+<country></country>
                </p>
             </div>
 
@@ -73,11 +74,11 @@
 
             <div type="researchHistory">
                <p>There are no comprehensive grammatical studies on the dialect of Mādabā. The existing studies date back to the 1960s and focus on texts, providing only basic information on grammatical features.</p>
-               <p><rs type="bibl" ref="zotID:TUV9WXF7">Czapkiewicz 1960</rs> is a selection
+               <p><rs type="bibl" ref="zotid:TUV9WXF7">Czapkiewicz 1960</rs> is a selection
                of nine ethnographic texts and 45 sayings with a German translation.
                It includes information on customs and traditions, houses and occupations, and
                is accompanied by a 12-page grammatical sketch of the so-called Balgāwī-dialects.
-               <rs type="bibl" ref="zotID:9JFJG7LP">Hamarne 1963</rs> is a collection of
+               <rs type="bibl" ref="zotid:9JFJG7LP">Hamarne 1963</rs> is a collection of
                ethnographic texts describing children’s songs and games. <rs type="bibl" ref="">Palva
                1969</rs> consists of twelve short texts, mainly folk tales and anecdotes,
                followed by three pages of grammatical notes. The speakers of these

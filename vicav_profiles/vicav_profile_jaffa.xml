@@ -6,10 +6,6 @@
       <fileDesc>
          <titleStmt>
             <title>A machine-readable profile of Jaffa/ Tel Aviv-Jaffa Arabic</title>
-            <respStmt>
-               <resp>document preparation</resp>
-               <name xml:id=""/>
-            </respStmt>
             <author>Claudia Laaber</author>
          </titleStmt>
          <publicationStmt>
@@ -49,7 +45,7 @@
                   <head type="imgCaption">Courtesy of Stephan Procházka, 2004</head>
                </figure>
                <label>Name (English)</label>
-               <name xml:lang="eng">Jaffa/ Tel Aviv-Jaffa</name>
+               <name type="geo" xml:lang="eng">Jaffa/ Tel Aviv-Jaffa</name>
                <label>Name (Fuṣḥā, transcription)</label>
                <name xml:lang="ara">Yāfā</name>
                <label>Name in local variety (in transcription)</label>
@@ -61,6 +57,7 @@
                <head>Geo location</head>
                <p>
                   <geo>32°03'N 34°45'E</geo>
+<country></country>
                </p>
             </div>
             <div type="typology">
@@ -77,15 +74,15 @@
             <div type="researchHistory">
                <head>Research history</head>
                <p>The linguistic investigations of Uri Horesh
-                 mainly deal with phonology. In one of his publications <rs type="bibl" ref="zotID:RLZKWZVZ">(Horesh
+                 mainly deal with phonology. In one of his publications <rs type="bibl" ref="zotid:RLZKWZVZ">(Horesh
                  2000)</rs> he considers the question of whether or not, based upon
                  phonemic and phonetic criteria, the city’s variety is a typical urban
                  Palestinian dialect. In another article, he examines the influence of
-                 Modern Hebrew on the Arabic of Jaffe <rs type="bibl" ref="zotID:48VWC9IQ">(Horesh 2014)</rs>.</p>
+                 Modern Hebrew on the Arabic of Jaffe <rs type="bibl" ref="zotid:48VWC9IQ">(Horesh 2014)</rs>.</p>
 
-               <p><rs type="bibl" ref="zotID:EBJYZ3VH">Arnold (2004)</rs> is
+               <p><rs type="bibl" ref="zotid:EBJYZ3VH">Arnold (2004)</rs> is
                a short phonological and morphological overview of the Arabic in Jaffa
-               and surrounding villages. <rs type="bibl" ref="zotID:NPJ679RJ">Arnold (2015)</rs> provides
+               and surrounding villages. <rs type="bibl" ref="zotid:NPJ679RJ">Arnold (2015)</rs> provides
                a sample text with English translation.</p>
 
                <p>Because of the founding of Israel in 1948, the
@@ -95,7 +92,7 @@
             </div>
 
             <div type="bibliography">
-               <p xml:space="preserve">To view publications on this variety click <rs type="bibl" ref="bibl:geo:Jaffa">here</rs>.</p>
+               <p>To view publications on this variety click <rs type="bibl" ref="bibl:geo:Jaffa">here</rs>.</p>
             </div>
          </div>
       </body>

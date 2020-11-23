@@ -6,10 +6,6 @@
       <fileDesc>
          <titleStmt>
             <title>A machine-readable profile of Bethlehem Arabic</title>
-            <respStmt>
-               <resp>document preparation</resp>
-               <name xml:id=""/>
-            </respStmt>
             <author>Claudia Laaber</author>
          </titleStmt>
          <publicationStmt>
@@ -50,7 +46,7 @@
                </figure>
 
                <label>Name (English)</label>
-               <name xml:lang="eng">Bethlehem</name>
+               <name type="geo" xml:lang="eng">Bethlehem</name>
                <label>Name (Fuṣḥā, transcription)</label>
                <name xml:lang="ara">bayt laḥm</name>
                <label>Name in local variety (in transcription)</label>
@@ -62,6 +58,7 @@
                <head>Geo location</head>
                <p>
                   <geo>31°42'N 35°12'E</geo>
+<country></country>
                </p>
             </div>
             <div type="typology">
@@ -77,28 +74,28 @@
             <div type="researchHistory">
                <head>Research history</head>
                <p>Until now, the Arabic spoken in Bethlehem did not receive much attention.
-               Two recent studies on it focus on sociophonetics. <rs type="bibl" ref="zotID:JUKDF3KF">Amara, Spolsky and Tushyeh (1999)</rs> is
+               Two recent studies on it focus on sociophonetics. <rs type="bibl" ref="zotid:JUKDF3KF">Amara, Spolsky and Tushyeh (1999)</rs> is
                an investigation on the pronunciation of various consonants as a function
-               of level of education, gender, and religion. <rs type="bibl" ref="zotID:CL33L3JS">Amara (2005)</rs> describes
+               of level of education, gender, and religion. <rs type="bibl" ref="zotid:CL33L3JS">Amara (2005)</rs> describes
                the influence of urbanization and migration on the Arabic spoken in the town.</p>
 
-               <p><rs type="bibl" ref="zotID:DBVEXYIT">Shachmon (2013)</rs> deals with
+               <p><rs type="bibl" ref="zotid:DBVEXYIT">Shachmon (2013)</rs> deals with
                the formation, distribution and functions of extended pronouns in Palestinian Arabic.</p>
             </div>
 
             <div type="dictionaries">
                <head>Dictionaries</head>
-               <p><rs type="bibl" ref="zotID:N56VQEHN">Halloun (2000)</rs> and <rs type="bibl" ref="zotID:NGFE3X6J">Elihai (2004)</rs> are
+               <p><rs type="bibl" ref="zotid:N56VQEHN">Halloun (2000)</rs> and <rs type="bibl" ref="zotid:NGFE3X6J">Elihai (2004)</rs> are
                dictionaries with example sentences and phrases.</p>
-               <p><rs type="bibl" ref="zotID:6XVCYDUK">Barthélemy’s (1935)</rs> and <rs type="bibl" ref="zotID:TZMIRC4K">Denizeau’s (1960)</rs> Levantine
+               <p><rs type="bibl" ref="zotid:6XVCYDUK">Barthélemy’s (1935)</rs> and <rs type="bibl" ref="zotid:TZMIRC4K">Denizeau’s (1960)</rs> Levantine
                Arabic dictionaries are also very useful for the study of the Arabic of Bethlehem. </p>
             </div>
 
             <div type="textBooks">
                <head>Text books</head>
                <p><rs type="bibl" ref="zotero:XKFCJ32J">Halloun (1988)</rs> is a collection of verb conjugations with a small glossary.
-               <rs type="bibl" ref="zotID:4EF8WEPI">Halloun (1989</rs>, <rs type="bibl" ref="zotID:FBB8EIQK">1991)</rs> and his other series <rs type="bibl" ref="zotID:PZE96FG5">(2001</rs>,
-               <rs type="bibl" ref="zotID:PI8ZCGB5">2006)</rs> are textbooks with various exercises, vocabulary lists, and sample texts. </p>
+               <rs type="bibl" ref="zotid:4EF8WEPI">Halloun (1989</rs>, <rs type="bibl" ref="zotid:FBB8EIQK">1991)</rs> and his other series <rs type="bibl" ref="zotid:PZE96FG5">(2001</rs>,
+               <rs type="bibl" ref="zotid:PI8ZCGB5">2006)</rs> are textbooks with various exercises, vocabulary lists, and sample texts. </p>
             </div>
       <div type="bibliography">
                <p>To view publications on this variety click <rs type="bibl" ref="bibl:geo:Bethlehem">here</rs>.</p>

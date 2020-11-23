@@ -32,8 +32,8 @@
             <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
          </tagsDecl>
          <listPrefixDef>
-            <prefixDef ident="zotID" matchPattern="([a-z]+)" replacementPattern="https://www.zotero.org/groups/2165756/vicav/items/itemKey/#$1">
-               <p>Private URIs with the prefix "zotID" point to the respective bibliographic record in the VICAV Zotero library and/or to a local copy of it.</p>
+            <prefixDef ident="zotid" matchPattern="([a-z]+)" replacementPattern="https://www.zotero.org/groups/2165756/vicav/items/itemKey/#$1">
+               <p>Private URIs with the prefix "zotid" point to the respective bibliographic record in the VICAV Zotero library and/or to a local copy of it.</p>
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
@@ -49,7 +49,7 @@
          <div>
             <head>
                <label>Name (English)</label>
-               <name xml:lang="eng">Ghazaouet</name>
+               <name type="geo" xml:lang="eng">Ghazaouet</name>
                <label>MSA name</label>
                <name xml:lang="ara">الغزوات</name>
                <label>MSA name (trans.)</label>
@@ -59,6 +59,7 @@
             <div type="positioning">
                <p>
                   <geo>35°05'N 01°51'E</geo>
+<country></country>
                </p>
             </div>
             <div type="typology">
@@ -71,7 +72,7 @@
             </div>
 
             <div type="researchHistory">
-               <p>The dialect of Ghazaouet is still poorly investigated. <rs type="bibl" ref="zotID:96YK24BH">Siagh (1976)</rs> offers some information on the phonology and provides morpho-syntactic and lexical comparative data with the dialects of Oran and Tlemcen. <rs type="bibl" ref="zotID:9EIJJNHS">Hocini (2010)</rs>-2011 is a sociolinguistic study on phonological, morphological, and lexical variation in the dialects of Ghazaoet and nearby villages.</p>
+               <p>The dialect of Ghazaouet is still poorly investigated. <rs type="bibl" ref="zotid:96YK24BH">Siagh (1976)</rs> offers some information on the phonology and provides morpho-syntactic and lexical comparative data with the dialects of Oran and Tlemcen. <rs type="bibl" ref="zotid:9EIJJNHS">Hocini (2010)</rs>-2011 is a sociolinguistic study on phonological, morphological, and lexical variation in the dialects of Ghazaoet and nearby villages.</p>
             </div>
             <div type="bibliography">               
                     <p xml:space="preserve">To view publications on this variety click <rs type="bibl" ref="bibl:geo:Ghazaouet">here</rs>.</p>

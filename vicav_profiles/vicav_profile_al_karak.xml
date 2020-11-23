@@ -29,8 +29,8 @@
             <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
          </tagsDecl>
          <listPrefixDef>
-            <prefixDef ident="zotID" matchPattern="([a-z]+)" replacementPattern="https://www.zotero.org/groups/2165756/vicav/items/itemKey/#$1">
-               <p>Private URIs with the prefix "zotID" point to the respective bibliographic record in the VICAV Zotero library and/or to a local copy of it.</p>
+            <prefixDef ident="zotid" matchPattern="([a-z]+)" replacementPattern="https://www.zotero.org/groups/2165756/vicav/items/itemKey/#$1">
+               <p>Private URIs with the prefix "zotid" point to the respective bibliographic record in the VICAV Zotero library and/or to a local copy of it.</p>
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
@@ -51,7 +51,7 @@
                   <head type="imgCaption">Stephan Procházka 2011</head>
                </figure>
                <label>Name (English)</label>
-               <name xml:lang="eng">Kerak</name>
+               <name type="geo" xml:lang="eng">Kerak</name>
                <name xml:lang="ara">الكرك</name>
                <label>MSA Name (transcription)</label>
                <name xml:lang="ara">Al-Karak</name>
@@ -62,6 +62,7 @@
                <head>Geo location</head>
                <p>
                   <geo>31°10'N 35°45'E</geo>
+<country></country>
                </p>
             </div>
             <div type="typology">
@@ -76,10 +77,10 @@
             <div type="researchHistory">
                <head>Research history</head>
                <p>Like many other Jordanian cities, Kerak has been neglected in dialectological research.</p>
-               <p><rs type="bibl" ref="zotID:S2N4A7KD">Bergsträsser’s dialectological atlas (1915)</rs> does give some old data on the dialect there.</p>
-               <p><rs type="bibl" ref="zotID:JPUJDDQR">Palva (1989)</rs> provided a linguistic sketch of the city’s dialect, mainly dealing with its phonology and morphology. Appended to it are various transcribed texts with English translation.</p>
-               <p><rs type="bibl" ref="zotID:22WA4M38">Palva (1992)</rs> discussed the problems encountered in attempting to classify Jordanian Arabic dialects.</p>
-               <p><rs type="bibl" ref="zotID:GA588AQ8">Palva (2008)</rs> contains lists of sedentary and Bedouin elements, including comments on their distribution in Palestine and Jordan as well as a provisional diachronic and synchronic classification of the dialects spoken in Kerak and Salt.</p>
+               <p><rs type="bibl" ref="zotid:S2N4A7KD">Bergsträsser’s dialectological atlas (1915)</rs> does give some old data on the dialect there.</p>
+               <p><rs type="bibl" ref="zotid:JPUJDDQR">Palva (1989)</rs> provided a linguistic sketch of the city’s dialect, mainly dealing with its phonology and morphology. Appended to it are various transcribed texts with English translation.</p>
+               <p><rs type="bibl" ref="zotid:22WA4M38">Palva (1992)</rs> discussed the problems encountered in attempting to classify Jordanian Arabic dialects.</p>
+               <p><rs type="bibl" ref="zotid:GA588AQ8">Palva (2008)</rs> contains lists of sedentary and Bedouin elements, including comments on their distribution in Palestine and Jordan as well as a provisional diachronic and synchronic classification of the dialects spoken in Kerak and Salt.</p>
             </div>
             <div type="bibliography">
                <p>To view publications on this variety click <rs type="bibl" ref="bibl:geo:Al-Karak">here</rs>.</p>

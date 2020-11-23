@@ -32,8 +32,8 @@
             <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
          </tagsDecl>
          <listPrefixDef>
-            <prefixDef ident="zotID" matchPattern="([a-z]+)" replacementPattern="https://www.zotero.org/groups/2165756/vicav/items/itemKey/#$1">
-               <p>Private URIs with the prefix "zotID" point to the respective bibliographic record in the VICAV Zotero library and/or to a local copy of it.</p>
+            <prefixDef ident="zotid" matchPattern="([a-z]+)" replacementPattern="https://www.zotero.org/groups/2165756/vicav/items/itemKey/#$1">
+               <p>Private URIs with the prefix "zotid" point to the respective bibliographic record in the VICAV Zotero library and/or to a local copy of it.</p>
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
@@ -50,7 +50,7 @@
          <div>
             <head>
                <label>Name (English)</label>
-               <name xml:lang="eng">Anjra</name>
+               <name type="geo" xml:lang="eng">Anjra</name>
                <label>MSA name</label>
                <name xml:lang="ara">أنجرة</name>
                <label>MSA name (trans.)</label>
@@ -62,6 +62,7 @@
             <div type="positioning">
                <p>
                   <geo>35°39'N 05°30'E</geo>
+<country></country>
                </p>
             </div>
 
@@ -75,11 +76,11 @@
             </div>
 
             <div type="researchHistory">
-               <p>All available studies on the dialect of Anjra have been made by the Spanish dialectologist Ángeles Vicente. Vicente 1996 presents six texts in the dialect of Anjra, with Spanish translation. Vicente 1998 is a short grammatical sketch of the dialect. The most comprehensive study on Anjra’s dialect is <rs type="bibl" ref="zotID:IINYFKZM">Vicente (2000)</rs>, which includes chapters on phonology as well as verbal and nominal morphology: it also has 110 texts with Spanish translation. <rs type="bibl" ref="zotID:KMS4RHAT">Vicente (2002)</rs> is a brief article on gender-specific speech in the dialect of Anjra.</p>
+               <p>All available studies on the dialect of Anjra have been made by the Spanish dialectologist Ángeles Vicente. Vicente 1996 presents six texts in the dialect of Anjra, with Spanish translation. Vicente 1998 is a short grammatical sketch of the dialect. The most comprehensive study on Anjra’s dialect is <rs type="bibl" ref="zotid:IINYFKZM">Vicente (2000)</rs>, which includes chapters on phonology as well as verbal and nominal morphology: it also has 110 texts with Spanish translation. <rs type="bibl" ref="zotid:KMS4RHAT">Vicente (2002)</rs> is a brief article on gender-specific speech in the dialect of Anjra.</p>
             </div>
 
             <div type="dictionaries">
-               <p><rs type="bibl" ref="zotID:IINYFKZM">Vicente (2000)</rs> includes a 43-page glossary.</p>
+               <p><rs type="bibl" ref="zotid:IINYFKZM">Vicente (2000)</rs> includes a 43-page glossary.</p>
             </div>
             
             <div type="bibliography">               

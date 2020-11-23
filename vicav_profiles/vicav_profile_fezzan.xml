@@ -45,7 +45,7 @@
          <div>
             <head>
                <label>Name (English)</label>
-               <name xml:lang="eng">Fezzan</name>
+               <name type="geo" xml:lang="eng">Fezzan</name>
                 <label>MSA name</label>
                <name xml:lang="ara">فزان</name>
                <label>MSA name (trans.)</label>
@@ -56,7 +56,8 @@
 
             <div type="positioning">
                <head>Geo location</head>
-               <p><geo>26°00'N 14°00'E</geo> (Sebha)</p>
+               <p><geo>26°00'N 14°00'E</geo>
+<country></country> (Sebha)</p>
             </div>
 
             <div type="typology">
@@ -78,14 +79,14 @@
                number of texts in the Arabic dialects of the Fezzan which were collected in the 1950s.</p>
 
                <p>All further publications on Fezzani Arabic are based on Marçais’ prose
-               texts published in 2001. Grammatical remarks are found in <rs type="bibl" ref="zotID:LDAZFZIW">Bettini (2004)</rs>.
+               texts published in 2001. Grammatical remarks are found in <rs type="bibl" ref="zotid:LDAZFZIW">Bettini (2004)</rs>.
                <rs type="bibl" ref="zotero:Z8BXD2S8">Caubet (2004)</rs> is a concise description
                of the phonology, morphology, syntax, and lexicon of both the nomadic and sedentary dialects of the Fezzan.</p>
 
-               <p><rs type="bibl" ref="zotID:FUWPTPV9">D’Anna (2017a)</rs> deals with
-               the development of conditional particles in Fezzani Arabic, and <rs type="bibl" ref="zotID:ZZG85PP5">D’Anna (2017b)</rs> is on agreement patterns.</p>
+               <p><rs type="bibl" ref="zotid:FUWPTPV9">D’Anna (2017a)</rs> deals with
+               the development of conditional particles in Fezzani Arabic, and <rs type="bibl" ref="zotid:ZZG85PP5">D’Anna (2017b)</rs> is on agreement patterns.</p>
 
-               <p><rs type="bibl" ref="zotID:JXGBYNFC">D’Anna &amp; Marmorstein (2018)</rs>
+               <p><rs type="bibl" ref="zotid:JXGBYNFC">D’Anna &amp; Marmorstein (2018)</rs>
                is the most recent article on Fezzani Arabic, discussing verbal negation in the dialects.</p>
             </div>
             <div type="bibliography">

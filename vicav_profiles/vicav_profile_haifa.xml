@@ -47,7 +47,7 @@
                   <head type="imgCaption">Courtesy by Stephan Procházka, 2003</head>
                </figure>
                <label>Name (English)</label>
-               <name xml:lang="eng">Haifa</name>
+               <name type="geo" xml:lang="eng">Haifa</name>
                <label>MSA name</label>
                <name xml:lang="ara">حيفا</name>
                <label>MSA name (trans.)</label>
@@ -59,6 +59,7 @@
                <head>Geo location</head>
                <p>
                   <geo>32°49'N 34°59'E</geo>
+<country></country>
                </p>
             </div>
             <div type="typology">
@@ -74,13 +75,13 @@
             </div>
             <div type="researchHistory">
                <p>Some data on Haifa can be found in Bergsträsser’s linguistic atlas of Syria and
-                  Palestine (<rs type="bibl" ref="zotID:S2N4A7KD">Bergsträsser (1915)</rs>, no. 30 on the maps). The only
-                  comprehensive study on the original dialect is <rs type="bibl" ref="zotID:UE7YLQCS">Geva-Kleinberger (2004)</rs>,
+                  Palestine (<rs type="bibl" ref="zotid:S2N4A7KD">Bergsträsser (1915)</rs>, no. 30 on the maps). The only
+                  comprehensive study on the original dialect is <rs type="bibl" ref="zotid:UE7YLQCS">Geva-Kleinberger (2004)</rs>,
                   which provides a complete description of the phonology and morphology plus 34 texts in transcription and German
                   translation from Christian, Jewish, and Muslim speakers.</p>
             </div>
             <div type="dictionaries">
-               <p><rs type="bibl" ref="zotID:UE7YLQCS">Geva-Kleinberger (2004)</rs> contains a 75-page
+               <p><rs type="bibl" ref="zotid:UE7YLQCS">Geva-Kleinberger (2004)</rs> contains a 75-page
                   glossary and lists of loanwords from Aramaic, German, English, Ottoman-Turkish etc.</p>
             </div>
             <div type="bibliography">

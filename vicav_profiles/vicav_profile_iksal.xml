@@ -6,10 +6,6 @@
       <fileDesc>
          <titleStmt>
             <title>A machine-readable profile of Iksal Arabic</title>
-            <respStmt>
-               <resp>document preparation</resp>
-               <name xml:id=""/>
-            </respStmt>
             <author>Claudia Laaber</author>
          </titleStmt>
          <publicationStmt>
@@ -50,7 +46,7 @@
                </figure>
 
                <label>Name (English)</label>
-               <name xml:lang="eng">Iksal</name>
+               <name type="geo" xml:lang="eng">Iksal</name>
                <label>Name (Fuṣḥā, transcription)</label>
                <name xml:lang="ara">Iksāl</name>
                <label>Name in local variety (in transcription)</label>
@@ -63,6 +59,7 @@
                <head>Geo location</head>
                <p>
                   <geo>32°40'N 35°19'E</geo>
+<country></country>
                </p>
             </div>
 
@@ -79,14 +76,14 @@
 
             <div type="researchHistory">
                <head>Research history</head>
-               <p><rs type="bibl" ref="zotID:8TTHJC3M">Palva (1965)</rs> is an investigation
+               <p><rs type="bibl" ref="zotid:8TTHJC3M">Palva (1965)</rs> is an investigation
                on anaptyctic and prothetic vowels in Lower Galilean Arabic, which also
                provides information on the dialect of Iksal and contains a collection of sample texts.</p>
 
-               <p><rs type="bibl" ref="zotID:3EPF3B6L">Nevo (2006)</rs> presents a detailed linguistic description of the local Arabic.</p>
+               <p><rs type="bibl" ref="zotid:3EPF3B6L">Nevo (2006)</rs> presents a detailed linguistic description of the local Arabic.</p>
             </div>
       <div type="bibliography">
-               <p xml:space="preserve">To view publications on this variety click <rs type="bibl" ref="bibl:geo:Iksal">here</rs>.</p>
+               <p>To view publications on this variety click <rs type="bibl" ref="bibl:geo:Iksal">here</rs>.</p>
             </div>
    </div>
       </body>

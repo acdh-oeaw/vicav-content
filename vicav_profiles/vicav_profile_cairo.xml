@@ -44,7 +44,7 @@
                   </head>
                </figure>
                <label>Name (English)</label>
-               <name xml:lang="eng">Cairo</name>
+               <name type="geo" xml:lang="eng">Cairo</name>
                <label>Name (MSA)</label>
                <name xml:lang="ara">القاهیرة</name>
                <label>Name (MSA, trans.)</label>
@@ -57,6 +57,7 @@
             <div type="positioning">
                <p>
                   <geo>30°03'N 31°14'E</geo>
+<country></country>
                </p>
             </div>
             <div type="typology">
@@ -77,41 +78,41 @@
             <div type="researchHistory">
                <p>The first serious reliable descriptions of Egyptian Arabic were
                   written in the 19th century: Wilhelm Spitta published his
-                  <rs type="bibl" ref="zotID:G3NGRC2E">grammar</rs> in 1880
+                  <rs type="bibl" ref="zotid:G3NGRC2E">grammar</rs> in 1880
                   (which can be <ref target="https://archive.org/details/grammatikdesara00spitgoog">read
                      online at the Internet Archive</ref>) and Vollers’
-                  <rs type="bibl" ref="zotID:CRGLAHHI">German textbook in 1890</rs>
-                  (<rs type="bibl" ref="zotID:8RP2NLSP">English translation 1895</rs>,
+                  <rs type="bibl" ref="zotid:CRGLAHHI">German textbook in 1890</rs>
+                  (<rs type="bibl" ref="zotid:8RP2NLSP">English translation 1895</rs>,
                   available at the <ref target="https://archive.org/details/cu31924026886816">Internet
-                     Archive</ref>). These were followed by <rs type="bibl" ref="zotID:ZK8JBU8G">Nallino
+                     Archive</ref>). These were followed by <rs type="bibl" ref="zotid:ZK8JBU8G">Nallino
                      (1900)</rs> (full
                   text at the <ref target="https://archive.org/details/laraboparlatoine00nalluoft">Internet Archive</ref>)
-                  and <rs type="bibl" ref="zotID:5AFNLSXC">Willmore (1901)</rs> (full
+                  and <rs type="bibl" ref="zotid:5AFNLSXC">Willmore (1901)</rs> (full
                   text at the <ref target="https://archive.org/details/cu31924026887152">Internet
                      Archive</ref>).</p>
                <p>The great bulk of publications was written after World War II.
-                  Interesting information was provided by <rs type="bibl" ref="zotID:DLFC8LUQ">Mitchell
-                     (1956)</rs>, <rs type="bibl" ref="zotID:Z592GTRW">Tomiche (1962)</rs> and
-                  <rs type="bibl" ref="zotID:QEEWK83P">Salib (1981)</rs>. Most studies
+                  Interesting information was provided by <rs type="bibl" ref="zotid:DLFC8LUQ">Mitchell
+                     (1956)</rs>, <rs type="bibl" ref="zotid:Z592GTRW">Tomiche (1962)</rs> and
+                  <rs type="bibl" ref="zotid:QEEWK83P">Salib (1981)</rs>. Most studies
                   followed rather traditional approaches. An exception is
-                  <rs type="bibl" ref="zotID:FTSGHYMH">Wise’s transformational grammar
+                  <rs type="bibl" ref="zotid:FTSGHYMH">Wise’s transformational grammar
                      (1975)</rs>. Another very informative monography is Parkinson’s
                   socio-linguistic study on terms
-                     of address in Egyptian Arabic <rs type="bibl" ref="zotID:HAB8VRQG">(Parkinson 1985)</rs>.</p>
+                     of address in Egyptian Arabic <rs type="bibl" ref="zotid:HAB8VRQG">(Parkinson 1985)</rs>.</p>
                <p>The most substantial scholarly contributions to our knowledge of
                   the Egyptian dialects were made by the German dialectologists Behnstedt
                   and Woidich. Most of their work was done in the 80’s and 90’s of
-                  the 20th century. Woidich’s <rs type="bibl" ref="zotID:3QNH63BL">grammar
+                  the 20th century. Woidich’s <rs type="bibl" ref="zotid:3QNH63BL">grammar
                      (2006) of Cairo Arabic </rs>is the so far most comprehensive in-depth study of this
                   variety.</p>
             </div>
             <div type="dictionaries">
                <p>There exist several dictionaries for those who want to study
                   Egyptian Arabic. The hitherto most comprehensive one is
-                  <rs type="bibl" ref="zotID:VSM7I4KA">Hinds/Badawi
+                  <rs type="bibl" ref="zotid:VSM7I4KA">Hinds/Badawi
                      (Arabic-English)</rs>. It was published in 1986. </p>
                <p>
-                  <rs type="bibl" ref="zotID:UJJGAZQR">Socrates Spiro’s dictionary
+                  <rs type="bibl" ref="zotid:UJJGAZQR">Socrates Spiro’s dictionary
                      (1895)</rs> is pretty old. As there is not much available in
                   digital form, it is still worth looking at. To access an online
                   reading interface made up of digital images
@@ -124,19 +125,19 @@
             </div>
             <div type="textBooks">
                <p>For generations of learners of spoken Egyptian the course
-                  material compiled by <rs type="bibl" ref="zotID:IEMVQUR6 zotID:XB97YPPN zotID:LGYKDLM3 zotID:26MPUVYC">Abdel-Massih
+                  material compiled by <rs type="bibl" ref="zotid:IEMVQUR6 zotid:XB97YPPN zotid:LGYKDLM3 zotid:26MPUVYC">Abdel-Massih
                      (1978-9)</rs> was the main guidance. A more
                   up-to-date textbook is Woidich/Heinen’s
-                  <rs type="bibl" ref="zotID:47PCBCU2">Kullu tamām!
+                  <rs type="bibl" ref="zotid:47PCBCU2">Kullu tamām!
                      (2004)</rs>. Furthermore, a graded series of textbooks by
-                  <rs type="bibl" ref="zotID:SIDXEU22">Samia Louis</rs> has to be
+                  <rs type="bibl" ref="zotid:SIDXEU22">Samia Louis</rs> has to be
                   mentioned. In these books, all the reading material is presented
                   in the Arabic script. In addition, they come with high quality
                   CDs.</p>
                <p>Two German textbooks should also be highlighted: Woidich’s
-                  <rs type="bibl" ref="zotID:N556I5K6">Ahlan wa Sahlan (2002)</rs>
+                  <rs type="bibl" ref="zotid:N556I5K6">Ahlan wa Sahlan (2002)</rs>
                   actually predates his Kullu tamām!. The sesond one is Ahmed’s
-                  <rs type="bibl" ref="zotID:NBIIXEN3">Lehrbuch des
+                  <rs type="bibl" ref="zotid:NBIIXEN3">Lehrbuch des
                      Ägyptisch-Arabischen (1981)</rs> which unfortunately contains
                   countless typos. Nevertheless, the texts collected there are very
                   helpful, especially for advanced learners.</p>

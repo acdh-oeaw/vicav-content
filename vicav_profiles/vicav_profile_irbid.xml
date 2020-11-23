@@ -6,10 +6,6 @@
       <fileDesc>
          <titleStmt>
             <title>A machine-readable profile of Irbid Arabic</title>
-            <respStmt>
-               <resp>document preparation</resp>
-               <name xml:id=""/>
-            </respStmt>
             <author>Claudia Laaber</author>
          </titleStmt>
          <publicationStmt>
@@ -50,7 +46,7 @@
                   <head type="imgCaption"><ref target="https://en.wikipedia.org/wiki/Irbid#/media/File:Irbid1.jpg">Wikimedia</ref></head>
                </figure>
                <label>Name (English)</label>
-               <name xml:lang="eng">Irbid</name>
+               <name type="geo" xml:lang="eng">Irbid</name>
                <label>Name (Fuṣḥā, transcription)</label>
                <name xml:lang="ara">Irbid</name>
                <label>Name in local variety (in transcription)</label>
@@ -62,6 +58,7 @@
                <head>Geo location</head>
                <p>
                   <geo>32°33'N 35°51'E</geo>
+<country></country>
                </p>
             </div>
             <div type="typology">
@@ -77,20 +74,20 @@
             </div>
             <div type="researchHistory">
                <head>Research history</head>
-               <p><rs type="bibl" ref="zotID:7CVE5557">Bani-Yasin &amp; Owen (1987)</rs> is
+               <p><rs type="bibl" ref="zotid:7CVE5557">Bani-Yasin &amp; Owen (1987)</rs> is
                a detailed study on the phonology of the Arabic varieties spoken in
                the three small villages Kufr el-Maʔ, Dēr Yūsef, and Hartha.</p>
-               <p><rs type="bibl" ref="zotID:SMK2SIMI">Abd-el-Jawad‘s (1986)</rs> investigation
+               <p><rs type="bibl" ref="zotid:SMK2SIMI">Abd-el-Jawad‘s (1986)</rs> investigation
                on the emergence of urban dialects in Jordanian cities contains sociophonetic information about Irbid.</p>
 
-               <p><rs type="bibl" ref="zotID:QR9YAG5">Al-Khatib’s (1988)</rs> PhD thesis
+               <p><rs type="bibl" ref="zotid:QR9YAG5">Al-Khatib’s (1988)</rs> PhD thesis
                is a sociolinguistic study on phonological variables in Irbid City
                (The full text is available <ref target="https://core.ac.uk/download/pdf/108873.pdf">here</ref>).</p>
-               <p><rs type="bibl" ref="zotID:E3CV6PS7">Ababneh (2009)</rs> investigated
+               <p><rs type="bibl" ref="zotid:E3CV6PS7">Ababneh (2009)</rs> investigated
                the etymology and grammar of place names in the governorate of Irbid. </p>
             </div>
             <div type="bibliography">
-               <p xml:space="preserve">To view publications on this variety click <rs type="bibl" ref="bibl:geo:Irbid">here</rs>.</p>
+               <p>To view publications on this variety click <rs type="bibl" ref="bibl:geo:Irbid">here</rs>.</p>
             </div>
          </div>
       </body>

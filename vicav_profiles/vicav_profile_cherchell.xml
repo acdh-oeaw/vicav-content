@@ -48,7 +48,7 @@
                   </head>
                </figure>
                <label>Name (English)</label>
-               <name xml:lang="eng">Cherchell</name>
+               <name type="geo" xml:lang="eng">Cherchell</name>
                <label>MSA name</label>
                <name xml:lang="ara">شرشال</name>
                <label>MSA name (trans.)</label>
@@ -60,6 +60,7 @@
                <head>Geo location</head>
                <p>
                   <geo>36°36'N 02°11'E</geo>
+<country></country>
                </p>
             </div>
             <div type="typology">
@@ -77,7 +78,7 @@
             </div>
             <div type="researchHistory">
                <p>The only existing description of the dialect of Cherchell is
-                  <rs type="bibl" ref="zotID:AVBNUMUL">Grand'Henry (1972)</rs>. This monograph, which focuses
+                  <rs type="bibl" ref="zotid:AVBNUMUL">Grand'Henry (1972)</rs>. This monograph, which focuses
                   on the phonology and morphology of the dialect, consists of three parts: about 40 pages on
                   phonology; 140 pages on morphology (including verbal and a nominal sections); and three
                   texts in Arabic script (with transcription and French translation), one about a religious

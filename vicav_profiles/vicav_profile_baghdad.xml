@@ -1,4 +1,5 @@
-<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_baghdad_01">
+<?xml version="1.0"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_baghdad_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -40,11 +41,11 @@
             <head>
                <figure>
                   <graphic url="320px_Haifa_street_as_seen_from_the_medical_city_hospital_across_the_tigres.jpg"/>
-                  <head type="imgCaption" xml:space="preserve"><ref target="https://commons.wikimedia.org/wiki/File:Haifa_street,_as_seen_from_the_medical_city_hospital_across_the_tigres.jpg">Wikimedia</ref>
+                  <head type="imgCaption"><ref target="https://commons.wikimedia.org/wiki/File:Haifa_street,_as_seen_from_the_medical_city_hospital_across_the_tigres.jpg">Wikimedia</ref>
                   </head>
                </figure>
                <label>Name (English)</label>
-               <name xml:lang="eng">Baghdad</name>
+               <name type="geo" xml:lang="eng">Baghdad</name>
                <label>MSA name</label>
                <name xml:lang="ara">بغداد</name>
                <label>MSA name (trans.)</label>
@@ -52,18 +53,19 @@
             </head>
 
             <div type="positioning">
-               <p xml:space="preserve">
-                  <geo>33°33′N 44°38′E</geo>
+               <p>
+                  <geo>33°33'N 44°38'E</geo>
+<country></country>
                </p>
             </div>
 
             <div type="typology">
-               <p xml:space="preserve">East (Mashriq) › Mesopotamia › Iraq</p>
-               <p xml:space="preserve">Urban gilit-type bedouin dialect with significant sedentary substrate, high-prestige variety</p>
+               <p>East (Mashriq) › Mesopotamia › Iraq</p>
+               <p>Urban gilit-type bedouin dialect with significant sedentary substrate, high-prestige variety</p>
             </div>
 
             <div type="researchHistory">
-               <p xml:space="preserve">The dialect of the Iraqi capital can be regarded as the prestige variety of
+               <p>The dialect of the Iraqi capital can be regarded as the prestige variety of
                   the whole country. It is frequently used in the media and widely understood not only in Iraq, but
                   also in the adjacent Gulf region, in Eastern Syria, and in the Iranian province of Khuzestan. The
                   linguistic setting of Baghdad is special for its so-called “communal
@@ -73,17 +75,17 @@
                   the so-called <hi rendition="#i">qǝltu</hi> type, which is much closer to Northern Iraq and
                   not influenced by Bedouin features.</p>
 
-               <p xml:space="preserve">The first comprehensive descriptions of the Arabic dialect of Baghdad did
-                  not appear before the 1960s. Before that only some very brief remarks (<rs type="bibl" ref="zotID:PPUJCX35">Jeannier (1888)</rs>,
-                  <rs type="bibl" ref="zotID:EG67QXCT">Massignon (1912)</rs>) and a few textbooks and glossaries
-                  were published, particularly Van Ess 1917 (second edition 1938, many <rs type="bibl" ref="zotID:BKRGRGZL">reprints</rs> until 1989) and van
+               <p>The first comprehensive descriptions of the Arabic dialect of Baghdad did
+                  not appear before the 1960s. Before that only some very brief remarks (<rs type="bibl" ref="zotid:PPUJCX35">Jeannier (1888)</rs>,
+                  <rs type="bibl" ref="zotid:EG67QXCT">Massignon (1912)</rs>) and a few textbooks and glossaries
+                  were published, particularly Van Ess 1917 (second edition 1938, many <rs type="bibl" ref="zotid:BKRGRGZL">reprints</rs> until 1989) and van
                   Wagoner 1949, but both contain a mixture of various Iraqi dialects and cannot be
                   regarded as dialectological descriptions. The first scholarly monographs published
-                  were <rs type="bibl" ref="zotID:Z9QMK224">Malaika 1963</rs> and <rs type="bibl" ref="zotID:BMI8BKRI">Erwin 1963</rs>,
-                  shortly followed by <rs type="bibl" ref="zotID:DJXKPUNA">Blanc 1964</rs>. Blanc, who coined the term “communal dialects”,
+                  were <rs type="bibl" ref="zotid:Z9QMK224">Malaika 1963</rs> and <rs type="bibl" ref="zotid:BMI8BKRI">Erwin 1963</rs>,
+                  shortly followed by <rs type="bibl" ref="zotid:DJXKPUNA">Blanc 1964</rs>. Blanc, who coined the term “communal dialects”,
                   presented a rather concise but excellent description of Muslim, Christian, and
-                  Jewish Baghdadi. <rs type="bibl" ref="zotID:7HXLWVN3">Abu-Haidar 1991 </rs> deals
-                  with the Christian variety. <rs type="bibl" ref="zotID:K5KFYH5L">Palva 2009</rs> convincingly
+                  Jewish Baghdadi. <rs type="bibl" ref="zotid:7HXLWVN3">Abu-Haidar 1991 </rs> deals
+                  with the Christian variety. <rs type="bibl" ref="zotid:K5KFYH5L">Palva 2009</rs> convincingly
                   argues that the Bedouin (= <hi rendition="#i">gilit</hi> type) character of present-day Muslim
                   Baghdadi is mainly the result of a process of bedouinization during the past 300 years. Thus,
                   for a considerable time after the Mongol sack of Baghdad in 1258, the dialect of Baghdad had
@@ -91,24 +93,24 @@
                   countryside. In spite of its importance, Baghdad Arabic has not been intensively studied (compared
                   to, e.g., Cairo or Damascus) and almost all reference works date back to the 1960s.
                   A concise grammatical sketch of the dialect is “Baghdad Arabic” (Abu-Haidar 2006),
-                  in <rs type="bibl" ref="zotID:AZIMWCKB">EALL I, 222-231</rs>.</p>
+                  in <rs type="bibl" ref="zotid:AZIMWCKB">EALL I, 222-231</rs>.</p>
             </div>
 
             <div type="dictionaries">
                <p>
-                   <rs type="bibl" ref="zotID:88WYQUHI">Woodhead/Beene 1967</rs> is a very good and comprehensive 
+                   <rs type="bibl" ref="zotid:88WYQUHI">Woodhead/Beene 1967</rs> is a very good and comprehensive 
                    Arabic-English dictionary (509 pp.) but reflects the dialect as spoken in the 1960s. A 
-                   concise English-Arabic dictionary is <rs type="bibl" ref="zotID:UZVKGFVG">Clarity/Stowasser/Wolfe 1964</rs>. 
+                   concise English-Arabic dictionary is <rs type="bibl" ref="zotid:UZVKGFVG">Clarity/Stowasser/Wolfe 1964</rs>. 
                    (202 pp.)</p>
-               <p xml:space="preserve"> To obtain a list of Iraqi dictionaries contained in our
+               <p> To obtain a list of Iraqi dictionaries contained in our
                   database <rs type="bibl" ref="bibl:vt:dictionary+bibl:reg:Iraq">click here</rs>.
                </p>
             </div>
             
             <div type="textBooks">
-               <p>Apart from the out-dated books by <rs type="bibl" ref="zotID:BKRGRGZL">Van Ess</rs> and 
-                  <rs type="bibl" ref="zotID:9FTC27H3">Van Wagoner</rs> there are <rs type="bibl" ref="zotID:ZS6ZHF5M">Erwin's Basic Course in Iraqi Arabic 1969</rs> 
-                  and <rs type="bibl" ref="zotID:3FAFZWDI">Alkalesi's Modern Iraqi Arabic: A textbook 2001</rs>.
+               <p>Apart from the out-dated books by <rs type="bibl" ref="zotid:BKRGRGZL">Van Ess</rs> and 
+                  <rs type="bibl" ref="zotid:9FTC27H3">Van Wagoner</rs> there are <rs type="bibl" ref="zotid:ZS6ZHF5M">Erwin's Basic Course in Iraqi Arabic 1969</rs> 
+                  and <rs type="bibl" ref="zotid:3FAFZWDI">Alkalesi's Modern Iraqi Arabic: A textbook 2001</rs>.
                </p> 
 
                <p> To obtain a list of textbooks  <rs type="bibl" ref="bibl:vt:textbook+bibl:reg:Iraq">click here</rs>.</p>
@@ -116,25 +118,24 @@
             
             <div type="audioData">
                <p><ref target="http://semarch.ub.uni-heidelberg.de/portal-ssr/">SemArch</ref> contains only one text in Muslim 
-               Baghdadi [printed in <rs type="bibl" ref="zotID:TISX8KF8">Fischer/Jastrow 1980:155ff</rs>.]. There are 
+               Baghdadi [printed in <rs type="bibl" ref="zotid:TISX8KF8">Fischer/Jastrow 1980:155ff</rs>.]. There are 
                18 recordings of Jewish Baghdadi and no recordings of Christian Baghdadi. 
                </p>
             </div>
 
             <div type="bibliography">
-               <p xml:space="preserve">Our database contains <rs type="bibl" ref="bibl:geo:Baghdad">a number of publications </rs>
+               <p>Our database contains <rs type="bibl" ref="bibl:geo:Baghdad">a number of publications </rs>
                   that deal with Baghdad. To get a wider picture look in the bibliography by clicking <rs type="bibl" ref="bibl:reg:Iraq">here</rs>.</p>
             </div>
             <div type="sampleText">
-               <p xml:space="preserve">VICAV provides a <rs ref="sample:baghdad_sample_01/Baghdad">Sample Text of Baghdad </rs> of Baghdad Arabic. </p>
+               <p>VICAV provides a <rs ref="sample:baghdad_sample_01/Baghdad">Sample Text of Baghdad </rs> of Baghdad Arabic. </p>
             </div>
 
             <div type="lingFeatures">
-               <p xml:space="preserve">There is also a <rs ref="feature:ling_features_baghdad/Baghdad">list of linguistic features</rs> with example sentences.</p>
+               <p>There is also a <rs ref="feature:ling_features_baghdad/Baghdad">list of linguistic features</rs> with example sentences.</p>
             </div>
 
          </div>
       </body>
    </text>
 </TEI>
-

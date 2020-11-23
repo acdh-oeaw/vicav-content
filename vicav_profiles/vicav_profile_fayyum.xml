@@ -6,10 +6,6 @@
       <fileDesc>
          <titleStmt>
             <title>A machine-readable profile of Fayyum Arabic</title>
-            <respStmt>
-               <resp>document preparation</resp>
-               <name xml:id=""/>
-            </respStmt>
             <author>Claudia Laaber</author>
          </titleStmt>
          <publicationStmt>
@@ -49,7 +45,7 @@
                   <head type="imgCaption">Courtesy by Stephan Procházka, 2019</head>
                </figure>
                <label>Name (English)</label>
-               <name xml:lang="eng">Fayyum</name>
+               <name type="geo" xml:lang="eng">Fayyum</name>
                <label>Name (Fuṣḥā, transcription)</label>
                <name xml:lang="ara">al-Fayyūm</name>
                <label>Name in local variety (in transcription)</label>
@@ -61,6 +57,7 @@
                <head>Geo location</head>
                <p>
                   <geo>29°18'N 30°30'E</geo>
+<country></country>
                </p>
             </div>
             <div type="typology">
@@ -78,17 +75,17 @@
 
             <div type="researchHistory">
                <head>Research history</head>
-               <p>The Atlas of Egyptian Arabic Dialects by <rs type="bibl" ref="zotID:ZIDMACCX zotID:DFWZE9I9 zotID:MCMLVLRI zotID:SIGLEM5B zotID:Z4KGUBTB">Behnstedt
+               <p>The Atlas of Egyptian Arabic Dialects by <rs type="bibl" ref="zotid:ZIDMACCX zotid:DFWZE9I9 zotid:MCMLVLRI zotid:SIGLEM5B zotid:Z4KGUBTB">Behnstedt
                and Woidich (1985-1999)</rs> contains data on the Arabic of the governorate of Fayyūm.</p>
-               <p><rs type="bibl" ref="zotID:L7HN6K7L">De Jong (1996)</rs> is a
+               <p><rs type="bibl" ref="zotid:L7HN6K7L">De Jong (1996)</rs> is a
                detailed linguistic sketch, partly based on preliminary work of
-               Behnstedt and Woidich and focusing on phonology and morphology. The second part (<rs type="bibl" ref="zotID:WWURN579">1996</rs>) of
+               Behnstedt and Woidich and focusing on phonology and morphology. The second part (<rs type="bibl" ref="zotid:WWURN579">1996</rs>) of
                his study contains several text samples with English translations.</p>
             </div>
 
             <div type="bibliography">
                <head>Bibliography</head>
-               <p xml:space="preserve">To view publications on this variety click <rs type="bibl" ref="bibl:geo:Faiyum">here</rs>.</p>
+               <p>To view publications on this variety click <rs type="bibl" ref="bibl:geo:Faiyum">here</rs>.</p>
             </div>
          </div>
       </body>

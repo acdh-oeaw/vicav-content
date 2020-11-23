@@ -1,4 +1,5 @@
-<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_damascus_01">
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_damascus_01">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -42,7 +43,7 @@
             <head type="imgCaption" xml:space="preserve">Courtesy by Stephan Procházka, 1985</head>
           </figure>
           <label>Name (English)</label>
-          <name xml:lang="eng">Damascus</name>
+          <name type="geo" xml:lang="eng">Damascus</name>
           <label>MSA name</label>
           <name xml:lang="ara">دمشق</name>
           <label>MSA name (trans.)</label>
@@ -56,6 +57,7 @@
         <div type="positioning">
           <p xml:space="preserve">
               <geo>33°30'N 36°17'E</geo>
+<country></country>
             </p>
         </div>
 
@@ -76,32 +78,32 @@
           <p>Descriptions of the Arabic dialect of Damascus go back as far as
               the 18th century when the German orientalist and theologian Johann
               Heinrich Callenberg published his description of Damascus Arabic
-              in Latin (<rs type="bibl" ref="zotID:GG6XYXC6">Callenberg 
+              in Latin (<rs type="bibl" ref="zotid:GG6XYXC6">Callenberg 
               (1720-1740)</rs>). Collections of texts and short grammatical notes 
               were published at the end of the 19th and the first half of the 
-              20th centuries (<rs type="bibl" ref="zotID:VXHF6ZPT">Huart (1883)</rs>, 
-              <rs type="bibl" ref="zotID:X86GW8EH">Oestrup (1897)</rs> (although 
-              mostly not real Damascene dialect), <rs type="bibl" ref="zotID:LGA5WUHA">Malinjoud
-                (1924)</rs>, <rs type="bibl" ref="zotID:3BR6IJ4W">Bergsträßer (1924)</rs>, 
-                <rs type="bibl" ref="zotID:HW2DTBZ4">Saussey (1937-38)</rs>),
-              <rs type="bibl" ref="zotID:BDAZ542L">Cantineau (1956)</rs>, <rs type="bibl" ref="zotID:PQ8XUWR8">Dietrich (1956)</rs>) but the first comprehensive
-              description of the dialect appeared only in the 1960s: <rs type="bibl" ref="zotID:5TVK2DLA">Cowell
-              (1964)</rs>, <rs type="bibl" ref="zotID:FKULEZZ6">Grotzfeld (1964)</rs>, 
-              <rs type="bibl" ref="zotID:ZA9VUR43">Grotzfeld (1965)</rs>, <rs type="bibl" ref="zotID:2IIY3IYY">Ambros (1977)</rs>. 
+              20th centuries (<rs type="bibl" ref="zotid:VXHF6ZPT">Huart (1883)</rs>, 
+              <rs type="bibl" ref="zotid:X86GW8EH">Oestrup (1897)</rs> (although 
+              mostly not real Damascene dialect), <rs type="bibl" ref="zotid:LGA5WUHA">Malinjoud
+                (1924)</rs>, <rs type="bibl" ref="zotid:3BR6IJ4W">Bergsträßer (1924)</rs>, 
+                <rs type="bibl" ref="zotid:HW2DTBZ4">Saussey (1937-38)</rs>),
+              <rs type="bibl" ref="zotid:BDAZ542L">Cantineau (1956)</rs>, <rs type="bibl" ref="zotid:PQ8XUWR8">Dietrich (1956)</rs>) but the first comprehensive
+              description of the dialect appeared only in the 1960s: <rs type="bibl" ref="zotid:5TVK2DLA">Cowell
+              (1964)</rs>, <rs type="bibl" ref="zotid:FKULEZZ6">Grotzfeld (1964)</rs>, 
+              <rs type="bibl" ref="zotid:ZA9VUR43">Grotzfeld (1965)</rs>, <rs type="bibl" ref="zotid:2IIY3IYY">Ambros (1977)</rs>. 
               Today Damascus Arabic is certainly among the Arabic dialects which are best
               described.</p>
 
           <p>A concise grammatical sketch of the dialect is Jérôme Lentin’s
-              “Damascus Arabic”, in <rs type="bibl" ref="zotID:JM4EGMCH">EALL I, 546-555</rs>.</p>
+              “Damascus Arabic”, in <rs type="bibl" ref="zotid:JM4EGMCH">EALL I, 546-555</rs>.</p>
         </div>
 
         <div type="dictionaries">
           <p>
-              <rs type="bibl" ref="zotID:6XVCYDUK">Barthélemy
+              <rs type="bibl" ref="zotid:6XVCYDUK">Barthélemy
                 (1935-54)</rs> is still unmatched as the dictionary for Syrian
               Arabic, but it is mainly based on the dialect of Aleppo.
               Nevertheless it is extremely useful for Damascus Arabic too, as is
-                <rs type="bibl" ref="zotID:TZMIRC4K">Denizeau (1960)</rs>.</p>
+                <rs type="bibl" ref="zotid:TZMIRC4K">Denizeau (1960)</rs>.</p>
 
           <p>Very promising is the Dictionnaire d’arabe dialectal syrien (parler de Damas) by 
               Claude Salamé &amp; Jérôme Lentin, although until now only the letter B has been
@@ -119,15 +121,15 @@
 
         <div type="textBooks">
           <p>The earliest evidence of a textbook in our database is
-              Cantineau/Helbaoui's <rs type="bibl" ref="zotID:UBW33YBT">Manuel 
+              Cantineau/Helbaoui's <rs type="bibl" ref="zotid:UBW33YBT">Manuel 
               élémentaire d’arabe oriental (parler de Damas)</rs> 1953. Others to be
-              mentioned are Ferguson's <rs type="bibl" ref="zotID:LSI6JDAS">Damascus 
-              Arabic (1965)</rs>, Rice's <rs type="bibl" ref="zotID:C7C7U6HB">Eastern 
+              mentioned are Ferguson's <rs type="bibl" ref="zotid:LSI6JDAS">Damascus 
+              Arabic (1965)</rs>, Rice's <rs type="bibl" ref="zotid:C7C7U6HB">Eastern 
               Arabic (1979)</rs> and Liddicoat's 
-              <rs type="bibl" ref="zotID:BZBT97SH">Syrian colloquial Arabic: 
+              <rs type="bibl" ref="zotid:BZBT97SH">Syrian colloquial Arabic: 
                a functional course (1999)</rs>.</p>
 
-          <p>The Viennese textbook <rs type="bibl" ref="zotID:8NKI26ZJ">Lehrbuch 
+          <p>The Viennese textbook <rs type="bibl" ref="zotid:8NKI26ZJ">Lehrbuch 
               des Syrisch-Arabischen</rs> in two volumes by Aldoukhi, Procházka 
               and Telič is the most recent introduction to the dialect of Damascus.</p>
 

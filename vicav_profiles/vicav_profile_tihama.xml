@@ -27,8 +27,8 @@
             <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
          </tagsDecl>
          <listPrefixDef>
-            <prefixDef ident="zotID" matchPattern="([a-z]+)" replacementPattern="https://www.zotero.org/groups/2165756/vicav/items/itemKey/#$1">
-               <p>Private URIs with the prefix "zotID" point to the respective bibliographic record in the VICAV Zotero library and/or to a local copy of it.</p>
+            <prefixDef ident="zotid" matchPattern="([a-z]+)" replacementPattern="https://www.zotero.org/groups/2165756/vicav/items/itemKey/#$1">
+               <p>Private URIs with the prefix "zotid" point to the respective bibliographic record in the VICAV Zotero library and/or to a local copy of it.</p>
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
@@ -48,7 +48,7 @@
                   <head type="imgCaption">Courtesy of Stephan Procházka, 2009</head>
                </figure>
                <label>Name (English)</label>
-               <name xml:lang="eng">Tihama (Yemen)</name>
+               <name type="geo" xml:lang="eng">Tihama (Yemen)</name>
                <label>Name (MSA)</label>
                <name xml:lang="ara">تهامة</name>
                <label>Name (Fuṣḥā, transcription)</label>
@@ -60,6 +60,7 @@
                <head>Geo location</head>
                <p>
                   <geo>22°00'N 40°00'E</geo>
+<country></country>
                </p>
             </div>
             <div type="typology">
@@ -74,30 +75,30 @@
             <div type="researchHistory">
                <head>Research history</head>
                <p>Though first remarks on the vocabulary were already provided by
-               Carsten <rs type="bibl" ref="zotID:U4ULAB4L">Niebuhr (1772)</rs> (pp. 85-88), the dialects of the
+               Carsten <rs type="bibl" ref="zotid:U4ULAB4L">Niebuhr (1772)</rs> (pp. 85-88), the dialects of the
                Yemeni Tihama have not been studied in detail yet. Some information is found
-               in <rs type="bibl" ref="zotID:JHPL3R7E">Rossi (1938a)</rs> (pp. 263-265) and
-               <rs type="bibl" ref="zotID:NSD7SUSS">Rossi (1938b)</rs> (pp. 464-469).
-               <rs type="bibl" ref="zotID:SPGEW23P">Diem (1973)</rs> has a short
+               in <rs type="bibl" ref="zotid:JHPL3R7E">Rossi (1938a)</rs> (pp. 263-265) and
+               <rs type="bibl" ref="zotid:NSD7SUSS">Rossi (1938b)</rs> (pp. 464-469).
+               <rs type="bibl" ref="zotid:SPGEW23P">Diem (1973)</rs> has a short
                chapter (pp. 65-70) on the Tihama and summarizes also previous studies.
                A few phonological and morphological features are analysed
-               in <rs type="bibl" ref="zotID:GR346BUZ">Greenman (1979)</rs>.
-               <rs type="bibl" ref="zotID:9MEX632W">Simeone-Senelle et al. (1994)</rs> present
+               in <rs type="bibl" ref="zotid:GR346BUZ">Greenman (1979)</rs>.
+               <rs type="bibl" ref="zotid:9MEX632W">Simeone-Senelle et al. (1994)</rs> present
                a good overview of the most important grammatical features including
-               remarks on the lexicon. <rs type="bibl" ref="zotID:S4C4WDNU">Simeone-Senelle (1995)</rs>
-               focuses on verbs of motion, <rs type="bibl" ref="zotID:2RCHKVZC">Simeone-Senelle (1996)</rs> on
+               remarks on the lexicon. <rs type="bibl" ref="zotid:S4C4WDNU">Simeone-Senelle (1995)</rs>
+               focuses on verbs of motion, <rs type="bibl" ref="zotid:2RCHKVZC">Simeone-Senelle (1996)</rs> on
                negation. A collection of seven short texts from the dialects of
                two villages (as-Suwayq and aš-Šiǧān, both near Zabīd) is found
-               in <rs type="bibl" ref="zotID:BAXVDAL5">Behnstedt (1996)</rs>. The
-               same author’s <rs type="bibl" ref="zotID:BPWSNIY2">Dialect Atlas of North Yemen and adjacent Areas (2017)</rs>
+               in <rs type="bibl" ref="zotid:BAXVDAL5">Behnstedt (1996)</rs>. The
+               same author’s <rs type="bibl" ref="zotid:BPWSNIY2">Dialect Atlas of North Yemen and adjacent Areas (2017)</rs>
                (based on the first edition 1985) also provides information on
                lexical and grammatical features of several dialects spoken in the Tihama.</p>
             </div>
             <div type="dictionaries">
                <head>Dictionaries</head>
-               <p>Vocabulary related to the Tihama is found in <rs type="bibl" ref="zotID:RNJVZ5ZY">Peter
-               Behnstedt’s Glossar (1992-2006)</rs>, <rs type="bibl" ref="zotID:XEZAEM3H">Piamenta (1990-1991)</rs>,
-               and <rs type="bibl" ref="zotID:9MEX632W">Simeone-Senelle et al. (1994)</rs> (pp. 225-228).</p>
+               <p>Vocabulary related to the Tihama is found in <rs type="bibl" ref="zotid:RNJVZ5ZY">Peter
+               Behnstedt’s Glossar (1992-2006)</rs>, <rs type="bibl" ref="zotid:XEZAEM3H">Piamenta (1990-1991)</rs>,
+               and <rs type="bibl" ref="zotid:9MEX632W">Simeone-Senelle et al. (1994)</rs> (pp. 225-228).</p>
             </div>
             <div type="bibliography">
                <head>Bibliography</head>

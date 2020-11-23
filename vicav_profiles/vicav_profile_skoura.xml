@@ -32,8 +32,8 @@
             <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
          </tagsDecl>
          <listPrefixDef>
-            <prefixDef ident="zotID" matchPattern="([a-z]+)" replacementPattern="https://www.zotero.org/groups/2165756/vicav/items/itemKey/#$1">
-               <p>Private URIs with the prefix "zotID" point to the respective bibliographic record in the VICAV Zotero library and/or to a local copy of it.</p>
+            <prefixDef ident="zotid" matchPattern="([a-z]+)" replacementPattern="https://www.zotero.org/groups/2165756/vicav/items/itemKey/#$1">
+               <p>Private URIs with the prefix "zotid" point to the respective bibliographic record in the VICAV Zotero library and/or to a local copy of it.</p>
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
@@ -54,7 +54,7 @@
                   <head type="imgCaption">Courtesy of Stephan Procházka, 2012</head>
                </figure>
            <label>Name (English)</label>
-          <name xml:lang="eng">Skoura</name>
+          <name type="geo" xml:lang="eng">Skoura</name>
           <label>MSA name</label>
           <name xml:lang="ara">سكورة</name>
           <label>MSA name (trans.)</label>
@@ -67,6 +67,7 @@
                <head>Geo location</head>
                <p>
                   <geo>31°03'N 06°33'E</geo>
+<country></country>
                </p>
             </div>
             <div type="typology">
@@ -80,11 +81,11 @@
             </div>
 
             <div type="researchHistory">
-               <p>All available data on the dialect of Skūra is from the work of Jorge Aguadé and Mohammad Elyaâcoubi. <rs type="bibl" ref="zotID:8SISG2GK">Aguadé 1994</rs> is a brief study on the formation of the reflexive-passive forms of the verb. <rs type="bibl" ref="zotID:E3T3HBCD">Aguadé and Elyaacoubi 1995</rs> is a monograph on the dialect with chapters on phonology, nominal and verbal morphology, and verb paradigms. <rs type="bibl" ref="zotID:I3FIKENT">Aguadé et al. 1996</rs> deals with the irrigation system in the oasis of Skūra, and the technical terminology concerning irrigation in the dialect of Skūra. Elyaâcoubi 1998 treats the topic of the classification of south Moroccan Arabic dialects on the example of Skūra, where a three page-grammatical sketch of the dialect is also provided.</p>
+               <p>All available data on the dialect of Skūra is from the work of Jorge Aguadé and Mohammad Elyaâcoubi. <rs type="bibl" ref="zotid:8SISG2GK">Aguadé 1994</rs> is a brief study on the formation of the reflexive-passive forms of the verb. <rs type="bibl" ref="zotid:E3T3HBCD">Aguadé and Elyaacoubi 1995</rs> is a monograph on the dialect with chapters on phonology, nominal and verbal morphology, and verb paradigms. <rs type="bibl" ref="zotid:I3FIKENT">Aguadé et al. 1996</rs> deals with the irrigation system in the oasis of Skūra, and the technical terminology concerning irrigation in the dialect of Skūra. Elyaâcoubi 1998 treats the topic of the classification of south Moroccan Arabic dialects on the example of Skūra, where a three page-grammatical sketch of the dialect is also provided.</p>
             </div>
 
             <div type="dictionaries">
-               <p><rs type="bibl" ref="zotID:I3FIKENT">Aguadé et al. 1996</rs> includes a 2-page glossary of terminology related to the irrigation system (<hi rendition="#i">xiṭṭāra</hi>).</p>
+               <p><rs type="bibl" ref="zotid:I3FIKENT">Aguadé et al. 1996</rs> includes a 2-page glossary of terminology related to the irrigation system (<hi rendition="#i">xiṭṭāra</hi>).</p>
             </div>
             <div type="bibliography">               
                     <p xml:space="preserve">To view publications on this variety click <rs type="bibl" ref="bibl:geo:Skoura">here</rs>.</p>

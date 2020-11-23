@@ -1,4 +1,5 @@
-<?xml version="1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_palmyra_01">
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_palmyra_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,7 +47,7 @@
                </figure>
                
                <label>Name (English)</label>
-               <name xml:lang="eng">Palmyra</name>
+               <name type="geo" xml:lang="eng">Palmyra</name>
                
                <label>MSA name</label>
                <name xml:lang="ara">تدمر </name>
@@ -62,6 +63,7 @@
                <head>Geo location</head>
                <p>
                   <geo>34°33'N 38°17'E</geo>
+<country></country>
                </p>
             </div>
             
@@ -78,19 +80,19 @@
             </div>
             
             <div type="researchHistory">               
-               <p><rs type="bibl" ref="zotID:T9A5XABK">Cantineau (1934a)</rs> and <rs type="bibl" ref="zotID:BQ82V9MN">(1934b)</rs> are 
+               <p><rs type="bibl" ref="zotid:T9A5XABK">Cantineau (1934a)</rs> and <rs type="bibl" ref="zotid:BQ82V9MN">(1934b)</rs> are 
                still the most comprehensive studies of the dialect of Palmyra: the former covers the grammar and includes extensive descriptions of the 
                phonology, morphology, and syntax of the dialect; the latter offers vocabulary and texts, starting with a short glossary on topics like 
                body parts and verbs, followed by 41 texts describing marriage, building construction, agriculture, and similar subjects. The article 
                also includes illustrations of several agricultural tools.</p>
                
-               <p><rs type="bibl" ref="zotID:MZI8DJ3B">Cantineau (1956)</rs> is a short article with notes about the 
-               dialects of the Syrian oases Qaritēn, Palmyra, and Soukhne. <rs type="bibl" ref="zotID:6E64PF2M">Behnstedt (2000)</rs> offers a collection of texts in dialect, including 
+               <p><rs type="bibl" ref="zotid:MZI8DJ3B">Cantineau (1956)</rs> is a short article with notes about the 
+               dialects of the Syrian oases Qaritēn, Palmyra, and Soukhne. <rs type="bibl" ref="zotid:6E64PF2M">Behnstedt (2000)</rs> offers a collection of texts in dialect, including 
                topics like everyday life, tribes, sheep breeding, and five cooking recipes.</p>
             </div>
             
             <div type="dictionaries">               
-               <p>A modest glossary is found in <rs type="bibl" ref="zotID:BQ82V9MN">Cantineau (1934b)</rs>.</p>
+               <p>A modest glossary is found in <rs type="bibl" ref="zotid:BQ82V9MN">Cantineau (1934b)</rs>.</p>
             </div>
 
             <div type="bibliography">

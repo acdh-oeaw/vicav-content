@@ -6,10 +6,6 @@
       <fileDesc>
          <titleStmt>
             <title>A machine-readable profile of Salt Arabic</title>
-            <respStmt>
-               <resp>document preparation</resp>
-               <name xml:id=""/>
-            </respStmt>
             <author>Claudia Laaber</author>
          </titleStmt>
          <publicationStmt>
@@ -49,7 +45,7 @@
                   <head type="imgCaption">Courtesy of Claudia Laaber, 2019</head>
                </figure>
                <label>Name (English)</label>
-               <name xml:lang="eng">Salt</name>
+               <name type="geo" xml:lang="eng">Salt</name>
                <label>Name (Fuṣḥā, transcription)</label>
                <name xml:lang="ara">as-Salṭ</name>
                <label>Name in local variety (in transcription)</label>
@@ -61,6 +57,7 @@
                <head>Geo location</head>
                <p>
                   <geo>32°02'N 35°43'E</geo>
+<country></country>
                </p>
             </div>
             <div type="typology">
@@ -77,26 +74,26 @@
             </div>
             <div type="researchHistory">
                <head>Research history</head>
-               <p>As a sort of prelude to the study of the Arabic of Salt, <rs type="bibl" ref="zotID:22WA4M38">Palva (1992)</rs> is a short overview on the problems classifying individual Jordanian dialects as sedentary or Bedouin.</p>
-               <p><rs type="bibl" ref="zotID:KHBUFV6X">Palva (1994)</rs> then provides a
+               <p>As a sort of prelude to the study of the Arabic of Salt, <rs type="bibl" ref="zotid:22WA4M38">Palva (1992)</rs> is a short overview on the problems classifying individual Jordanian dialects as sedentary or Bedouin.</p>
+               <p><rs type="bibl" ref="zotid:KHBUFV6X">Palva (1994)</rs> then provides a
                short diachronic overview of the Salt’s dialect, mentioning specific
-               sedentary and Bedouin traits. <rs type="bibl" ref="zotID:MMAH7BGI">Palva (2004)</rs> is a description of negations
+               sedentary and Bedouin traits. <rs type="bibl" ref="zotid:MMAH7BGI">Palva (2004)</rs> is a description of negations
                from the standpoint of the Salti vernacular as an example for mixed
                type dialects.</p>
-               <p><rs type="bibl" ref="zotID:XZ44H3N6">Palva (2007)</rs> offers
+               <p><rs type="bibl" ref="zotid:XZ44H3N6">Palva (2007)</rs> offers
                a collection of transcribed and translated texts about various topics.</p>
-               <p><rs type="bibl" ref="zotID:GA588AQ8">Palva (2008)</rs> focuses
+               <p><rs type="bibl" ref="zotid:GA588AQ8">Palva (2008)</rs> focuses
                on the classification of the dialect and the language contact in the city
                between sedentary and Bedouin type dialects. The article also contains
                lists of specific features and characteristics of the dialect.</p>
                <p>A concise linguistic sketch of Salt’s dialect can be found in
-               <rs type="bibl" ref="zotID:MFKQBWAL">EALL (Herin 2011)</rs>.</p>
-               <p>The PhD thesis <rs type="bibl" ref="zotID:EDZTHJNN">Herin (2010)</rs> is
+               <rs type="bibl" ref="zotid:MFKQBWAL">EALL (Herin 2011)</rs>.</p>
+               <p>The PhD thesis <rs type="bibl" ref="zotid:EDZTHJNN">Herin (2010)</rs> is
                on the Arabic dialect of Salt, with a more detailed grammatical description.
-               <rs type="bibl" ref="zotID:A9LIHWLN">Al-Wer and Herin (2013)</rs> investigate
+               <rs type="bibl" ref="zotid:A9LIHWLN">Al-Wer and Herin (2013)</rs> investigate
                the depalatalization of [č] and its morphological and syntactic consequences
                in the dialect.</p>
-               <p><rs type="bibl" ref="zotID:R9R57J7F">Al-Wer, Horesh, Herin and
+               <p><rs type="bibl" ref="zotid:R9R57J7F">Al-Wer, Horesh, Herin and
                Fanis (2015)</rs> is a sociolinguistic study on the role of religious
                affiliation in linguistic variation. The investigation has been done in
                Salt and concentrates on the differences between Muslim and Christian speakers.</p>
@@ -105,7 +102,7 @@
             </div>
 
             <div type="bibliography">
-                 <p xml:space="preserve">To view publications on this variety click <rs type="bibl" ref="bibl:geo:Al-Salt">here</rs>.</p>
+                 <p>To view publications on this variety click <rs type="bibl" ref="bibl:geo:Al-Salt">here</rs>.</p>
             </div>
          </div>
       </body>

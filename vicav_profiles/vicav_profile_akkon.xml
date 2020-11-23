@@ -43,7 +43,7 @@
                   <head type="imgCaption">Stephan Prochazka 2003</head>
                </figure>
                <label>Name (English)</label>
-               <name xml:lang="eng">Akko/Acre</name>
+               <name type="geo" xml:lang="eng">Akko/Acre</name>
                <label>Name (Fuṣḥā, transcription)</label>
                <name xml:lang="ara">ʕAkkā/ʕAkka/ʕAkkāʔ</name>
                <label>Name in local variety (in transcription)</label>
@@ -54,7 +54,8 @@
             <div type="positioning">
                <head>Geo location</head>
                <p>
-                 <geo>32°55'N 35°04'E</geo>
+                  <geo>32°55'N 35°04'E</geo>
+                  <country>Israel</country>
                </p>
             </div>
             <div type="typology">
@@ -70,12 +71,12 @@
             </div>
             <div type="researchHistory">
                <head>Research history</head>
-               <p>The only record of the Arabic variety of Akko is <rs type="bibl" ref="zotID:5M3S5YFG">Geva-Kleinberger &amp; Tavor (2003)</rs>, who provide a short overview of the dialect’s specific characteristics with a transcribed sample text including an English translation. </p>
+               <p>The only record of the Arabic variety of Akko is <rs type="bibl" ref="zotid:5M3S5YFG">Geva-Kleinberger &amp; Tavor (2003)</rs>, who provide a short overview of the dialect’s specific characteristics with a transcribed sample text including an English translation. </p>
             </div>
             <div type="audioData">
                <head>Audio data</head>
                <p>One audio recording from <lb/>Akko is found in SemArch (<ref target="http://semarch.ub.uni-heidelberg.de/portal-ssr/">http://semarch.ub.uni-heidelberg.de/portal-ssr/</ref>)
-               <hi rendition="b"> Edna7 Text</hi></p>
+                  <hi rendition="b"> Edna7 Text</hi></p>
             </div>
             <div type="bibliography">
                <p>To view publications on this variety click <rs ref="bibl:geo:Akko">here</rs>.</p>

@@ -6,10 +6,6 @@
       <fileDesc>
          <titleStmt>
             <title>A machine-readable profile of Ramla Arabic</title>
-            <respStmt>
-               <resp>document preparation</resp>
-               <name xml:id=""/>
-            </respStmt>
             <author>Claudia Laaber</author>
          </titleStmt>
          <publicationStmt>
@@ -45,7 +41,7 @@
          <div>
             <head>
                <label>Name (English)</label>
-               <name xml:lang="eng">Ramla</name>
+               <name type="geo" xml:lang="eng">Ramla</name>
                <label>Name (Fuṣḥā, transcription)</label>
                <name xml:lang="ara">ar-Ramla</name>
                <label>Name in local variety (in transcription)</label>
@@ -57,6 +53,7 @@
                <head>Geo location</head>
                <p>
                   <geo>31°56′N 34°52′E</geo>
+                  <country></country>
                </p>
             </div>
             <div type="general">
@@ -68,10 +65,10 @@
             <div type="researchHistory">
                <head>Research history</head>
                <p>Werner (2004) gives an insight on the phonology and morphology
-               of the dialects spoken in Yaffa and its surrounding villages including
-               information on the variety in Ramla. </p>
+                  of the dialects spoken in Yaffa and its surrounding villages including
+                  information on the variety in Ramla. </p>
                <p>Werner (2004) is a collection of four short humorous anecdotes
-               with German translations.</p>
+                  with German translations.</p>
             </div>
             <div type="bibliography">
                <p>For a list of publications concerning Arabic in
