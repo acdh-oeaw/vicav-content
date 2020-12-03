@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -15,44 +15,42 @@
    </teiHeader>
    <text>
       <body>
-          
-<div xml:id="vicavNews">
-    <head type="newsHeader">News</head>
+         <div xml:id="vicavNews">
+            <head type="newsHeader">News</head>
 
-<div type="newsItem">
-    <p xml:space="preserve"><hi rendition="#b">5.4.2019:</hi> Bettina Leitner has contributed a new feature list for <ref target="feature:ling_features_ahwaz/Ahwaz">Ahwaz (Iran)</ref>.</p></div>             
-     
-<div type="newsItem"><p xml:space="preserve"><hi rendition="#b">18.3.2019:</hi> Our bibliography has just gone beyond the 4000 entries mark. The 4028 bibliographic items contain 6304 geo-tags and 13.045 taxonomy labels.</p></div>             
-     
-     <div type="newsItem">
-         <p xml:space="preserve">
-             <hi rendition="#b">15.3.2019:</hi> New function to <rs ref="text:vicav_explore_features func:insertFeatureMarkers()">compare features</rs>.</p>
-     </div>             
-     
-     <div type="newsItem">
-         <p xml:space="preserve">
-             <hi rendition="#b">1.3.2019:</hi> The <rs ref="text:dictFrontPage_Baghdad">Baghdad dictionary</rs> goes online.</p>
-     </div>             
-     
-     <div type="newsItem">
-         <p xml:space="preserve"><hi rendition="#b">28.2.2019:</hi> VICAV has 41 new profiles, all in 
-             all <rs ref="text:vicavExplanationProfiles func:insertProfileMarkers()">58 profiles </rs> now!</p>
-     </div>
-     
-     <div type="newsItem">
-         <p xml:space="preserve"><hi rendition="#b">2.2.2019:</hi> The <rs ref="text:vicavExplanationBibliography">VICAV 
-             Bibliography</rs> has undergone a substantial rebuild. All the bibliographical data is now also encoded in TEI 
-             (P5), all the VICAV data now being available in TEI.
-         </p>
-     </div>
-     
-     <div type="newsItem">
-         <p xml:space="preserve"><hi rendition="#b">3.12.2018:</hi> The cross <rs ref="func:createNewCrossDictQueryPanel()">dictionary search</rs> is finished. 
-             It is now possible to query all dictionaries simultaneously.
-         </p>
-     </div>
- </div>
+            <div type="newsItem">
+               <p><hi rendition="#b">5.4.2019:</hi> Bettina Leitner has contributed a new feature list for <ref target="feature:ling_features_ahwaz/Ahwaz">Ahwaz (Iran)</ref>.</p>
+            </div>
 
+            <div type="newsItem">
+               <p><hi rendition="#b">5.4.2019:</hi> Bettina Leitner has contributed a new feature list for <ref target="feature:ling_features_ahwaz/Ahwaz">Ahwaz (Iran)</ref>.</p>
+            </div>
+
+            <div type="newsItem"><p><hi rendition="#b">18.3.2019:</hi> Our bibliography has just gone beyond the 4000 entries mark. The 4028 bibliographic items contain 6304 geo-tags and 13.045 taxonomy labels.</p></div>
+            <div type="newsItem">
+               <p>
+                  <hi rendition="#b">15.3.2019:</hi> New function to <rs ref="text:vicav_explore_features func:insertFeatureMarkers()">compare features</rs>.</p>
+            </div>
+            <div type="newsItem">
+               <p>
+                  <hi rendition="#b">1.3.2019:</hi> The <rs ref="text:dictFrontPage_Baghdad">Baghdad dictionary</rs> goes online.</p>
+            </div>
+            <div type="newsItem">
+               <p><hi rendition="#b">28.2.2019:</hi> VICAV has 41 new profiles, all in
+                  all <rs ref="text:vicavExplanationProfiles func:insertProfileMarkers()">58 profiles </rs> now!</p>
+            </div>
+            <div type="newsItem">
+               <p><hi rendition="#b">2.2.2019:</hi> The <rs ref="text:vicavExplanationBibliography">VICAV
+                     Bibliography</rs> has undergone a substantial rebuild. All the bibliographical data is now also encoded in TEI
+                  (P5), all the VICAV data now being available in TEI.
+               </p>
+            </div>
+            <div type="newsItem">
+               <p><hi rendition="#b">3.12.2018:</hi> The cross <rs ref="func:createNewCrossDictQueryPanel()">dictionary search</rs> is finished.
+                  It is now possible to query all dictionaries simultaneously.
+               </p>
+            </div>
+         </div>
       </body>
    </text>
 </TEI>

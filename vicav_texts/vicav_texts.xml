@@ -1,1445 +1,999 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>VICAV Paratexts</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>Information about the source</p>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="flashcards" matchPattern="(+),(.+),(.+)"
-          replacementPattern="https://cs.acdh.oeaw.ac.at/modules/fcs-aggregator/switch.php?version=1.2&amp;operation=searchRetrieve&amp;query=unit=$1&amp;x-context=$2&amp;startRecord=1&amp;maximumRecords=1000&amp;x-format=$3&amp;x-dataview=kwic,title';"
-        />
-      </listPrefixDef>
-    </encodingDesc>
-  </teiHeader>
-  <text>
-    <body>
-
-      <div xml:id="vicavExplanationCorpusTexts">
-        <head>Texts (Explanation and Overview)</head>
-
-        <p xml:space="preserve">The texts being displayed come from very different ressources. We
-      have tried to mould them in a homogeneous form, retaining structural
-      differences.</p>
-
-        <div>
-          <head>Morocco</head>
-
-          <p xml:space="preserve">
-          <ref target="corpus:killing_jackal/Morocco">Den Schakal töten "Killing the
-          Jackal"</ref> by <hi rend="italics"> Georg Böhm</hi>
-      </p>
-        </div>
-
-        <div>
-          <head>Tunis</head>
-
-          <p xml:space="preserve"> The <ref target="https://tunico.acdh.oeaw.ac.at/about_corpus.html">TUNICO 
-          Corpus</ref> was put together as part of the project 
-          <hi rend="italic">Linguistic dynamics in the Greater Tunis Area: a
-          corpus-based approach </hi> which ran from August 2013 until July
-        2016. </p>
-        </div>
-
-        <div>
-          <head>Anatolia</head>
-
-          <p xml:space="preserve">
-        <ref target="corpus:cukurova_001/Cukurova">The 
-        Seven Brothers</ref>, contributed by <hi rend="italic">Stefan Procházka</hi>
-      </p>
-        </div>
-      </div>
-
-
-      <div xml:id="vicavContributionBibliography">
-        <head>Contributing</head>
-
-        <p xml:space="preserve">If you want to help us enhance the bibliography there are different
-    possibilities to proceed. Either you start your own ZOTERO group and
-    grant us access or you write directly into the VICAV-Zotero-group.</p>
-
-        <p xml:space="preserve">If you have data in Word documents, spread-sheets or whatever and
-    would like us to integrate it in VICAV, get in touch and we will find
-    a way to do it.</p>
-      </div>
-
-      <div xml:id="vicavContributeProfile">
-        <head>Contributing</head>
-
-        <p xml:space="preserve">If you would like to contribute a profile, simply  download 
-    the <ref target="downloads/vicav_profiles_template__001.docx">template</ref>,
-    fill in the form and return the document to us.</p>
-      </div>
-
-      <div xml:id="vicavContributeFeature">
-        <head>Contributing</head>
-
-        <p xml:space="preserve">If you would like to contribute a feature list, simply download the
-      <ref target="downloads/vicav_features_template__001.docx">template</ref>, 
-    fill in the form and return the document to us.</p>
-      </div>
-
-      <div xml:id="vicavContributeSampleText">
-        <head>Contributing</head>
-
-        <p xml:space="preserve">If you would like to contribute a sample text, simply download the
-      <ref target="downloads/vicav_sampletext_template__001.docx">template</ref>, 
-    fill in the form and return the document to us.</p>
-      </div>
-
-      <div xml:id="vicavContributeCorpusText">
-        <head>Contributing</head>
-
-        <p xml:space="preserve">If you would like to contribute a corpus, get in touch with us.</p>
-      </div>
-
-      <div xml:id="vicavContributeDictionary">
-        <head>Contributing</head>
-
-        <p xml:space="preserve">If you would like to contribute a dictionary or a glossary, get in touch
-    with us. Tell us about the data you have and we will discuss how to
-    proceed best.</p>
-      </div>
-
-
-      <div xml:id="dictFrontPage_TuniscrossDictQuery">
-        <head>
-          <hi rend="italic">VICAV</hi> Dictionaries Query</head>
-      </div>
-
-
-      <div xml:id="vicavLearning">
-        <head>Learning Materials</head>
-
-        <p xml:space="preserve">Some of the data on this website have been developed as part of 
-    teaching activities being used in university courses of the Institute 
-    of Oriental Studies of the University of Vienna.</p>
-
-        <p xml:space="preserve">
-        <ref target="text:vicavLearningSmartphone/SMARTPHONES">Vocabularies on the Smartphone</ref>
-          <lb/>
-        <ref target="text:vicavLearningPrograms/PROGRAMS">Available Programs</ref>
-          <lb/>
-        <ref target="text:vicavLearningData/VOCABULARIES - DATA">Vocabularies - Data</ref>
-     </p>
-
-
-      </div>
-
-      <div xml:id="vicavLearningSmartphone">
-        <head>Vocabularies on the Smartphone</head>
-
-        <p xml:space="preserve">One way to learn vocabularies is to use 
-        <ref target="https://en.wikipedia.org/wiki/Flashcard">flashcards</ref>. 
-        The ubiquitous smartphones make it possible to carry around 
-        thousands of vocabulary cards in your pocket. Before we started 
-        to cary around a computer in our pockets, the 
-        most common way to carry them around as paper flashcards. The problem 
-        with this approach is that they can take up quite some space if 
-        you want to repeat cards from say 20 units of some language course 
-        at least now and then. Now we only have to decide on what software to use. </p>
-      </div>
-
-      <div xml:id="vicavLearningPrograms">
-        <head>Available Programs</head>
-
-        <p xml:space="preserve">There are several programs that help you repeat vocabularies on the 
-        smartphone. To get an overview of available tools have a look at 
-        <ref target="https://en.wikipedia.org/wiki/List_of_flashcard_software">Wikipedia</ref>. 
-        We provide some data for <hi rend="italic">ANKI</hi> and 
-        <hi rend="italic">Flashcards Deluxe</hi>. 
-    </p>
-
-        <div>
-          <head>ANKI</head>
-
-          <p xml:space="preserve">... is a spaced repetition flashcard program. "Anki" is Japanese 
-            for <hi rend="italic">memorization</hi>. You can find details about 
-            the program on <ref target="https://en.wikipedia.org/wiki/Anki_(software)">
-                Wikipedia</ref>.</p>
-
-          <p xml:space="preserve">You can download the program from the <ref target="https://apps.ankiweb.net/">
-            AnkiWeb webiste</ref>. If you want to synch your learning progress over the 
-            internet you might consider registering with ankiweb.</p>
-
-          <p xml:space="preserve">As a quick start we provide a template "deck" with all the required settings 
-          called <ref target="https://minerva.arz.oeaw.ac.at/static/anki/Empty_4_by_4.apkg">Empty 
-          4 by 4</ref>. By importing this template into Anki you get 
-            <list>
-                <item>the <hi rend="italic">andika 
-                    font</hi> installed (doesn't show on OS X though) and </item>
-                <item>a "note" design with 4 fields 
-                    on the front side and 4 on the back side of a card. </item>
-            </list> 
-          After the setup you can start importing vocabulary data.</p>
-
-        </div>
-        <div>
-          <head>Flashcards Deluxe</head>
-
-          <p xml:space="preserve">The program for is available for iOS and for Android. 
-          <ref target="http://orangeorapple.com/Flashcards/">Their homepage</ref> has 
-          some advice on how to use the software in different scenarios.</p>
-
-          <p xml:space="preserve">You can use Dropbox or Google Drive as a cloud storage to quickly up- 
-         and download new vocabularies and keep a copy of your learning progress 
-         on the internet.</p>
-
-          <list>
-            <item>Open Flashcards Deluxe and touch the + sign on top of the screen.</item>
-            <item>Choose Dropbox or Google Drive and supply your respective user credentials.</item>
-            <item>Flashcards Deluxe creates a folder in either cloud storage that will 
-                contain the vocabulary data and your progress statistics.</item>
-          </list>
-
-          <p xml:space="preserve">For iOS there fortunately is no need to do any further Setup. All characters 
-          are present in the fonts preinstalled on every iOS device. With the fonts installed 
-          on Android, you will usually not be able to see all the letters used in the 
-          VICAV or DMG transcriptions. However Flashcards deluxe can use a font provided by 
-          the user. A font that can be used is the <hi rend="italic">Andika</hi> font provided 
-            by <ref target="https://software.sil.org/andika/">SIL</ref>. </p>
-
-          <list>
-            <item>Download and unzip it.</item>
-            <item>The file Andika-R.ttf should go into the following directory on 
-                your phone: <lb/>
-              <hi rend="italic">/Android/data/com.orangeorapple.flashcards/files/fonts</hi>
-            </item>
-            <item>If you only try the demo the folder is: <lb/>
-              <hi rend="italic">/Android/data//com.orangeorapple.flashcardslite/files/fonts</hi>
-            </item>
-            <item>If <hi rend="italic"
-              >Flashcards Deluxe</hi> is running you have to restart it.</item>
-          </list>
-
-        </div>
-
-      </div>
-
-      <div xml:id="vicavLearningData">
-        <head>Vocabularies (Data)</head>
-        <p xml:space="preserve">We provide some data in support of particular language courses 
-        being taught at the University of Vienna. For the time being, we 
-        only have flashcards for German.</p>
-
-        <p xml:space="preserve">After you did the initial steps (refer to the Tools menu above 
-        if you haven't) you only have to download the dictionary data that 
-        corresponds to the vocabulary used in the different language 
-        courses of the Institut for Near Eastern Studies of the University 
-        of Vienna. We provide the data in formats suitable for importing 
-        and using it in Anki or Flashcards Deluxe. </p>
-
-        <div>
-          <head>140037 UE Arabischer Dialekt - Kurs F: Konversation / Texte 2: Syrisch-Arabisch der Universität Wien</head>
-
-          <p xml:space="preserve">These flashcards support the textbook of Syrian Arabic by Rima Aldoukhi, Stephan Procházka, Anna Telič und Narine Grigoryan:    
-            <hi rend="italic">Lehrbuch des Syrisch-Arabischen 1: Praxisnaher Einstieg in den Dialekt von Damaskus. – 1. Auflage, 2014 und 2. Auflage, 2016.</hi>
-            and 
-            <hi rend="italic">Lehrbuch des Syrisch-Arabischen 2: Damaszenisch für Fortgeschrittene. 1. Auflage, 2014.</hi>
-        </p>
-
-          <p xml:space="preserve">
-            ANKI: Lesson
-            <ref target="flashcards:apc_eng_002/1/csv-anki">1</ref>,
-            <ref target="flashcards:apc_eng_002/2/csv-anki">2</ref>,
-            <ref target="flashcards:apc_eng_002/3/csv-anki">3</ref>,
-            <ref target="flashcards:apc_eng_002/4/csv-anki">4</ref>,
-            <ref target="flashcards:apc_eng_002/5/csv-anki">5</ref>,
-            <ref target="flashcards:apc_eng_002/6/csv-anki">6</ref>,
-            <ref target="flashcards:apc_eng_002/7/csv-anki">7</ref>,
-            <ref target="flashcards:apc_eng_002/8/csv-anki">8</ref>,
-            <ref target="flashcards:apc_eng_002/9/csv-anki">9</ref>,
-            <ref target="flashcards:apc_eng_002/10/csv-anki">10</ref>,
-            <ref target="flashcards:apc_eng_002/11/csv-anki">11</ref>,
-            <ref target="flashcards:apc_eng_002/12/csv-anki">12</ref>,
-            <ref target="flashcards:apc_eng_002/13/csv-anki">13</ref>,
-            <ref target="flashcards:apc_eng_002/14/csv-anki">14</ref>,
-            <ref target="flashcards:apc_eng_002/15/csv-anki">15</ref>,
-            <ref target="flashcards:apc_eng_002/16/csv-anki">16</ref>,
-            <ref target="flashcards:apc_eng_002/17/csv-anki">17</ref>,
-            <ref target="flashcards:apc_eng_002/18/csv-anki">18</ref>,
-            <ref target="flashcards:apc_eng_002/19/csv-anki">19</ref>,
-            <ref target="flashcards:apc_eng_002/20/csv-anki">20</ref>,
-            <ref target="flashcards:apc_eng_002/21/csv-anki">21</ref>,
-            <ref target="flashcards:apc_eng_002/22/csv-anki">22</ref>,
-            <ref target="flashcards:apc_eng_002/23/csv-anki">23</ref>,
-            <ref target="flashcards:apc_eng_002/24/csv-anki">24</ref>,
-            <ref target="flashcards:apc_eng_002/25/csv-anki">25</ref>
-        </p>
-
-          <p xml:space="preserve">
-            Flashcards Deluxe: Lesson 
-            <ref target="flashcards:apc_eng_002/1/csv-fcdeluxe">1</ref>,
-            <ref target="flashcards:apc_eng_002/2/csv-fcdeluxe">2</ref>,
-            <ref target="flashcards:apc_eng_002/3/csv-fcdeluxe">3</ref>,
-            <ref target="flashcards:apc_eng_002/4/csv-fcdeluxe">4</ref>,
-            <ref target="flashcards:apc_eng_002/5/csv-fcdeluxe">5</ref>,
-            <ref target="flashcards:apc_eng_002/6/csv-fcdeluxe">6</ref>,
-            <ref target="flashcards:apc_eng_002/7/csv-fcdeluxe">7</ref>,
-            <ref target="flashcards:apc_eng_002/8/csv-fcdeluxe">8</ref>,
-            <ref target="flashcards:apc_eng_002/9/csv-fcdeluxe">9</ref>,
-            <ref target="flashcards:apc_eng_002/10/csv-fcdeluxe">10</ref>,
-            <ref target="flashcards:apc_eng_002/11/csv-fcdeluxe">11</ref>,
-            <ref target="flashcards:apc_eng_002/12/csv-fcdeluxe">12</ref>,
-            <ref target="flashcards:apc_eng_002/13/csv-fcdeluxe">13</ref>,
-            <ref target="flashcards:apc_eng_002/14/csv-fcdeluxe">14</ref>,
-            <ref target="flashcards:apc_eng_002/15/csv-fcdeluxe">15</ref>,
-            <ref target="flashcards:apc_eng_002/16/csv-fcdeluxe">16</ref>,
-            <ref target="flashcards:apc_eng_002/17/csv-fcdeluxe">17</ref>,
-            <ref target="flashcards:apc_eng_002/18/csv-fcdeluxe">18</ref>,
-            <ref target="flashcards:apc_eng_002/19/csv-fcdeluxe">19</ref>,
-            <ref target="flashcards:apc_eng_002/20/csv-fcdeluxe">20</ref>,
-            <ref target="flashcards:apc_eng_002/21/csv-fcdeluxe">21</ref>,
-            <ref target="flashcards:apc_eng_002/22/csv-fcdeluxe">22</ref>,
-            <ref target="flashcards:apc_eng_002/23/csv-fcdeluxe">23</ref>,
-            <ref target="flashcards:apc_eng_002/24/csv-fcdeluxe">24</ref>,
-            <ref target="flashcards:apc_eng_002/25/csv-fcdeluxe">25</ref>
-        </p>
-        </div>
-
-        <div>
-          <head>140292 VO Arabischer Dialekt - Kurs A: Tunesisch-Arabisch + 140029 UE Arabischer Dialekt - 
-            Kurs B: Tunesisch-Arabisch</head>
-
-          <p xml:space="preserve">These flashcards support the teaching materials of Tunisian Arabic A and B, 
-            revised version 2014/15, by Veronika Ritt-Benmimoun in cooperation with 
-            Emna Labidi, Mabrouka Rayachi and Ines Dallaji.
-        </p>
-
-          <p xml:space="preserve">
-            ANKI: Lesson 
-            <ref target="flashcards:aeb_eng_001__v001/1/csv-anki">1</ref>,
-            <ref target="flashcards:aeb_eng_001__v001/2/csv-anki">2</ref>,
-            <ref target="flashcards:aeb_eng_001__v001/3/csv-anki">3</ref>,
-            <ref target="flashcards:aeb_eng_001__v001/4/csv-anki">4</ref>,
-            <ref target="flashcards:aeb_eng_001__v001/5/csv-anki">5</ref>,
-            <ref target="flashcards:aeb_eng_001__v001/6/csv-anki">6</ref>,
-            <ref target="flashcards:aeb_eng_001__v001/7/csv-anki">7</ref>
-        </p>
-
-          <p xml:space="preserve">
-            Flashcards Deluxe: Lesson 
-            <ref target="flashcards:aeb_eng_001__v001/1/csv-fcdeluxe">1</ref>,
-            <ref target="flashcards:aeb_eng_001__v001/2/csv-fcdeluxe">2</ref>,
-            <ref target="flashcards:aeb_eng_001__v001/3/csv-fcdeluxe">3</ref>,
-            <ref target="flashcards:aeb_eng_001__v001/4/csv-fcdeluxe">4</ref>,
-            <ref target="flashcards:aeb_eng_001__v001/5/csv-fcdeluxe">5</ref>,
-            <ref target="flashcards:aeb_eng_001__v001/6/csv-fcdeluxe">6</ref>,
-            <ref target="flashcards:aeb_eng_001__v001/7/csv-fcdeluxe">7</ref>
-        </p>
-        </div>
-
-        <div>
-          <head>140028 VO Arabischer Dialekt - Kurs C: Tunesisch-Arabisch + 140029 UE Arabischer Dialekt - Kurs D: Tunesisch Arabisch</head>
-
-          <p xml:space="preserve">These flashcards support the teaching materials of Tunisian Arabic C and D, 
-            revised version 15, by Veronika Ritt-Benmimoun in cooperation with 
-            Emna Labidi, Mabrouka Rayachi and Ines Dallaji.
-        </p>
-
-          <p xml:space="preserve">
-            ANKI: Lesson 
-            <ref target="flashcards:aeb_eng_001__v001/8/csv-anki">8</ref>,
-            <ref target="flashcards:aeb_eng_001__v001/9/csv-anki">9</ref>,
-            <ref target="flashcards:aeb_eng_001__v001/10/csv-anki">10</ref>,
-            <ref target="flashcards:aeb_eng_001__v001/11/csv-anki">11</ref>,
-            <ref target="flashcards:aeb_eng_001__v001/12/csv-anki">12</ref>
-            
-        </p>
-
-          <p xml:space="preserve">
-            Flashcards Deluxe: Lesson 
-            <ref target="flashcards:aeb_eng_001__v001/8/csv-fcdeluxe">8</ref>,
-            <ref target="flashcards:aeb_eng_001__v001/9/csv-fcdeluxe">9</ref>,
-            <ref target="flashcards:aeb_eng_001__v001/10/csv-fcdeluxe">10</ref>,
-            <ref target="flashcards:aeb_eng_001__v001/11/csv-fcdeluxe">11</ref>,
-            <ref target="flashcards:aeb_eng_001__v001/12/csv-fcdeluxe">12</ref>
-        </p>
-        </div>
-
-        <div>
-          <head>140270 VO STEOP: OR2b/AR1 Einführung in das Arabische I</head>
-
-          <p xml:space="preserve">
-            ANKI: Lesson 
-            <ref target="flashcards:ar_de__v001/1/csv-anki">1</ref>,
-            <ref target="flashcards:ar_de__v001/2/csv-anki">2</ref>,
-            <ref target="flashcards:ar_de__v001/3/csv-anki">3</ref>,
-            <ref target="flashcards:ar_de__v001/4/csv-anki">4</ref>,
-            <ref target="flashcards:ar_de__v001/5/csv-anki">5</ref>,
-            <ref target="flashcards:ar_de__v001/6/csv-anki">6</ref> 
-        </p>
-
-          <p xml:space="preserve">
-            Flashcards Deluxe: Lesson 
-            <ref target="flashcards:ar_de__v001/1/csv-fcdeluxe">1</ref>,
-            <ref target="flashcards:ar_de__v001/2/csv-fcdeluxe">2</ref>,
-            <ref target="flashcards:ar_de__v001/3/csv-fcdeluxe">3</ref>,
-            <ref target="flashcards:ar_de__v001/4/csv-fcdeluxe">4</ref>,
-            <ref target="flashcards:ar_de__v001/5/csv-fcdeluxe">5</ref>,
-            <ref target="flashcards:ar_de__v001/6/csv-fcdeluxe">6</ref>  
-        </p>
-        </div>
-
-        <div>
-          <head>140426 VO+UE Arabisch B + 140027 UE Arabisch C (und Parallelversanstaltungen)</head>
-
-          <p xml:space="preserve">
-            ANKI: Lesson 
-            <ref target="flashcards:ar_de__v001/7/csv-anki">7</ref>,
-            <ref target="flashcards:ar_de__v001/8/csv-anki">8</ref>,
-            <ref target="flashcards:ar_de__v001/9/csv-anki">9</ref>,
-            <ref target="flashcards:ar_de__v001/10/csv-anki">10</ref>,
-            <ref target="flashcards:ar_de__v001/11/csv-anki">11</ref>
-            
-        </p>
-
-          <p xml:space="preserve">
-            Flashcards Deluxe: Lesson 
-            <ref target="flashcards:ar_de__v001/7/csv-fcdeluxe">7</ref>,
-            <ref target="flashcards:ar_de__v001/8/csv-fcdeluxe">8</ref>,
-            <ref target="flashcards:ar_de__v001/9/csv-fcdeluxe">9</ref>,
-            <ref target="flashcards:ar_de__v001/10/csv-fcdeluxe">10</ref>,
-            <ref target="flashcards:ar_de__v001/11/csv-fcdeluxe">11</ref>
-
-        </p>
-        </div>
-
-      </div>
-
-      <div xml:id="vicavKeyboards">
-        <head>Keyboard Layouts for our Transcription</head>
-
-        <p xml:space="preserve">We have created installable keyboard layouts for Windows using 
-    the <ref target="http://go.microsoft.com/fwlink/?LinkId=82315&amp;clcid=0x409">
-    Microsoft Keyboard Layout Creator</ref>. We can offer them for 
-    German keyboards (y &lt;-&gt; z Position). They are inspired by DMG 
-    transcription. There is a Writer document in the archives that 
-    shows how it works. For Mac OSX we found SIL's 
-    <ref target="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;id=ukelele">
-    Ukulele</ref> very useful.</p>
-
-        <p xml:space="preserve">
-       <ref target="https://minerva.arz.oeaw.ac.at/static/vicavarz.zip">Keyboard</ref> 
-       for transcribing Egyptian Arabic or Modern Standard Arabic in VICAV 
-       transcription (' -&gt; ʔ, ʿ -&gt; ʕ)</p>
-
-        <p xml:space="preserve">
-       <ref target="https://minerva.arz.oeaw.ac.at/static/vicavapc.zip">Keyboard</ref> 
-       for transcribing Damascene Arabic (ž &lt;-&gt; ǧ)</p>
-
-        <p xml:space="preserve">
-       <ref target="https://minerva.arz.oeaw.ac.at/static/victuerw.zip">Keyboard</ref> 
-        for transcribing Tunisian Arabic</p>
-      </div>
-
-      <div xml:id="vicavArabicTools">
-        <head>Arabic Research Tools</head>
-
-        <p xml:space="preserve">The intention of this section of VICAV is to bring together the most
-    important tools needed by digitally working linguists in the field of
-    Arabic studies. In compiling this list, we have proceded from a very
-    wide understanding of the term "tool" considering a varied range of
-    digital applications that are typically used in doing linguistic
-    research. This comprises all relevant digital language resources as
-    well as pertaining documentation, standards and best practices.</p>
-
-        <p xml:space="preserve">While there have not been around many NLP tools to process Arabic
-    language data in the past, the situation has definitely changed in
-    recent years. The following list is a first attempt to create a list
-    of tools used by the VICAV crew and other relevant projects.</p>
-
-        <p xml:space="preserve">A very interesting overview of digital Arabic language ressources is
-    Wajdi Zaghouani's <ref target="https://arxiv.org/ftp/arxiv/papers/1702/1702.07835.pdf">
-    Critical Survey of the Freely Available Arabic Corpora</ref>. </p>
-
-        <p xml:space="preserve">We have put together some reference material which is not meant to be
-    exhaustive. The focus is on freely available resources. We do not list 
-    details from the many resources available through the  
-    <ref target="https://www.ldc.upenn.edu/">Linguistic Data Consortium 
-    (LDC)</ref> and the <ref target="http://www.elra.info/en/">European 
-    Language Resource Association (ELRA)</ref>. The material has been organised 
-    in the following groups: <list>
-      <item>
-        <ref target="text:vicavOverview_corpora_spoken/ARABIC TOOLS (Corpora - Spoken Varieties)"> Corpora (Spoken Varieties)</ref>
-      </item>
-      <item>
-        <ref target="text:vicavOverview_corpora_msa/Corpora (Modern Written Language)"> Corpora (Modern Written Language)</ref>
-      </item>
-      <item>
-        <ref target="text:vicavOverview_corpora_historical_varieties/Corpora (Historical Varieties))"> Corpora (Historical Varieties)</ref>
-      </item>
-        <item>
-            <ref target="text:vicavOverview_special_corpora/Special Corpora)"> Special Corpora</ref>
-        </item>
-        <item>
-        <ref target="text:vicavOverview_dictionaries/Dictionaries"> Dictionaries</ref>
-      </item>
-      <item>
-        <ref target="text:vicavOverview_nlp/Language Processing Tools"> Language Processing Tools</ref>
-      </item>
-      <item>
-        <ref target="text:vicavOverview_otherStuff/Other Websites &amp; Projects"> Other Websites &amp; Projects</ref>
-      </item>
-
-    </list>
-  </p>
-      </div>
-
-      <div xml:id="vicavOverview_corpora_spoken">
-        <head>Resources for Spoken Varieties</head>
-
-        <p xml:space="preserve">The number of digitally encoded Arabic language corpora has been on
-    the rise in recent years. The following list is an attempt at listing  
-    those that are relevant to linguistic research and is by no means meant 
-    to be exhaustive. Please let us know about missing items.</p>
-
-        <div>
-          <head>CorpAfroAs</head>
-
-          <p xml:space="preserve">CorpAfroAs was an integrated pilot project that also produced Arabic
-      data. On the <ref target="http://corpafroas.huma-num.fr">project web
-        site</ref>, you can find extensive information on how to build
-      corpora of spoken language. The data is available.</p>
-        </div>
-
-        <div>
-          <head>CORVAM Speech corpus of Maghrebi varieties</head>
-          <p xml:space="preserve">This very recent development is a tool for the study of Arabic and
-      Berber varieties in the Maghreb in terms of teaching and research
-      and for the preservation of language and culture in the Maghreb. The
-      corpus is a result of the research team <hi rend="italic">nhəḍṛu.
-        Dialectología y sociolingüística del Magreb</hi>, and has been
-      conducted at the University of Zaragoza with the participation of
-      members from other universities and research institutes both from
-      Spain and abroad. The project has been been developed under the lead 
-      of <ref target="bibl:Vicente">Ángeles Vicente</ref> and the <ref target="http://corvam.unizar.es/en/">website</ref> 
-      is being hosted by the University of Zaragoza.</p>
-        </div>
-
-        <div>
-          <head>TUNICO</head>
-
-          <p xml:space="preserve">The <ref target="https://tunico.acdh.oeaw.ac.at/about_corpus.html">TUNICO 
-      Corpus</ref> was created as part of the project <hi rend="italic">
-      Linguistic dynamics in the Greater Tunis Area: a corpus-based 
-      approach</hi> which ran from August 2013 until July 2016. TUNICO grew 
-      as a satellite project out of the VICAV project.</p>
-        </div>
-
-        <div>
-          <head>Tunisian Arabic Corpus</head>
-
-          <p xml:space="preserve">This is a comparatively large corpus of Tunisian Arabic mainly
-      collected from the Internet. The corpus has a very nice 
-      <ref target="http://tunisiya.org">web interface</ref>.</p>
-        </div>
-
-        <div>
-          <head>Corpus of Moroccan Arabic Writers of Short Stories and Literary
-      Reviews</head>
-
-          <p xml:space="preserve">Information on this corpus can be found 
-          <ref target="http://www.ugr.es/~dgb/corpus/">here</ref>.</p>
-        </div>
-
-        <div>
-          <head>In their own voices, in their own words: A
-      sociolinguistically-informed corpus of Nigerian Arabic</head>
-
-          <p xml:space="preserve">This <ref target="http://www.neu.uni-bayreuth.de/de/Uni_Bayreuth/Fakultaeten/4_Sprach_und_Literaturwissenschaft/islamwissenschaft/arabistik/en/Idiomaticity__lexical_realignment__and_semantic_change_in_spoken_arabic/Nigerian_Arabic/index.html"/>corpus which is hosted by the university of Bayreuth has been
-      created by <ref target="bibl:Owens">Jonathan Owens</ref> who has
-      also published extensively about <ref target="bibl:reg:Nigeria">Nigerian
-        Arabic</ref>.</p>
-        </div>
-          
-<div>
-    <head>Curras: Corpus for Palestinian Arabic</head>
-    <p>This corpus of 60k words consists in texts collected from Facebook, Twitter, "Watan Aa Water" scripts, and others. Every word in the corpus was manually annotated with a set of metadata attributes to describe the orthographical, morphological, and semantic features of the word such as part of speech, prefixes, stem, suffixes, dialect lemma, MSA lemma, surface, gender, number, mode, and a gloss in English. </p>
-</div>
-          
-        <div>
-          <head>Gumar Corpus</head>
-
-          <p xml:space="preserve"> The <ref target="https://camel.abudhabi.nyu.edu/gumar/">Gulf
-        Arabic Corpus</ref> (Gumar) was created as part of the
-      Computational Approaches to Modeling Languages CAMeL lab in New York
-      University Abu Dhabi NYUAD. The corpus contains a unique genre of
-      written material, anonymous publicly published long conversational
-      novels. A a huge collection of these novels was found online in one
-      place. 1,200 MS Word documents were automatically downloaded. </p>
-        </div>
-          
-          <div>
-              <head>Database of Arabic Dialects</head>
-              <p xml:space="preserve">The <ref target="http://www.arabic.humanities.manchester.ac.uk/database-of-arabic-dialects/">Database of Arabic Dialects</ref> was created through interviews conducted with informants 
-                  from Algeria, Egypt, Iran, Iraq, Jordan, Kuwait, 
-                  Lebanon, Morocco, Oman, Palestine, Saudi Arabia, Sudan and Syria. On the basis
-                  of a quite exhaustive questionnaire, the website allows to explore linguistic 
-                  phenomena and to compare a wide range of dialects. The project was set up and organised 
-                  by <ref target="https://en.wikipedia.org/wiki/Yaron_Matras">Yaron Matras</ref> at the University of Manchester.  
-              </p>
-          </div>
-
-        <div>
-          <head>Arabic Dialects Dataset</head>
-
-          <p xml:space="preserve">This <ref target="http://www.lancaster.ac.uk/staff/elhaj/corpora.htm">collection</ref> 
-        is one of several corpora being provided by Mahmoud El-Haj 
-        (Lancaster University). It consists in transcriptions of Arabic 
-        script of Gulf, Egypt, Levantine and Tunisian Arabic dialects in 
-        addition to MSA.</p>
-        </div>
-
-        <div>
-          <head>Arabic Speech Corpus</head>
-
-          <p xml:space="preserve">The <ref target="http://en.arabicspeechcorpus.com/">Arabic Speech
-      Corpus</ref> was developed by Nawar Halabi at the University of
-      Southampton. It was recorded in south Levantine Arabic (Damascian
-      accent) using a professional studio. Synthesized speech as an output
-      using this corpus has produced a high quality, natural voice. It is
-      released here under a non-commercial creative commons license.</p>
-        </div>
-      </div>
-
-      <div xml:id="vicavOverview_special_corpora">
-        <head>Special Corpora</head>
-
-        <div>
-          <head>Arabic Learner Corpus (ALC)</head>
-          <p xml:space="preserve">The <ref target="http://www.arabiclearnercorpus.com/">ALC</ref>
-        aims to provide a collection of written and spoken materials
-        produced by learners of Arabic in Saudi Arabia.</p>
-        </div>
-      </div>
-
-
-
-      <div xml:id="vicavOverview_otherStuff">
-        <head>Other Websites &amp; Projects</head>
-
-        <div>
-          <head>Database of Arabic Dialects (ضاد)</head>
-          <p xml:space="preserve">This database collects published and unpublished data on Arabic
-        dialects in a searchable electronic format. The 
-        <ref target="https://www.database-of-arabic-dialects.org">frontend</ref> 
-        allows to formulate quite complex queries. There is also a 
-        <ref target="https://www.youtube.com/watch?v=UIdGAvu8ZpA">YouTube 
-        presentation</ref> of the functionalities of this database.</p>
-        </div>
-
-        <div>
-          <head>Arabic Concordance Sampler</head>
-
-          <p xml:space="preserve">This is a <ref target="https://prokamus.wordpress.com/bibliography/english/">
-          website</ref> that brings together a lot of information
-        concerning digital language resources for teaching and research.</p>
-        </div>
-        <div>
-          <head>KITAB</head>
-
-          <p xml:space="preserve">
-        <ref target="http://kitab-project.org">KITAB</ref> provides a
-        digital tool-box and a forum for discussions about Arabic texts. We
-        wish to empower users to explore Arabic texts in completely new ways
-        and to expand the frontiers of knowledge about one of the world’s
-        largest and most complex textual traditions.</p>
-        </div>
-
-        <div>
-          <head>al-Raqmiyyāt </head>
-
-          <p xml:space="preserve">
-        <ref target="https://maximromanov.github.io/">Website</ref>
-      </p>
-        </div>
-
-        <div>
-          <head>Arabographic Optical Character Recognition (OCR) </head>
-          <p xml:space="preserve">
-        <ref target="https://maximromanov.github.io/2016/10-05.html">Website</ref>
-      </p>
-        </div>
-
-        <div>
-          <head>Cambridge Digital Library: Islamic Manuscripts</head>
-          <p xml:space="preserve">
-        <ref target="https://cudl.lib.cam.ac.uk/collections/islamic/1">Website</ref>
-      </p>
-        </div>
-
-        <div>
-          <head>British Library: Arabic Manuscripts</head>
-          <p xml:space="preserve">
-        <ref target="https://www.bl.uk/collection-guides/arabic-manuscripts">Website</ref>
-      </p>
-        </div>
-
-        <div>
-          <head>Wellcome Arabic Manuscripts Online</head>
-          <p xml:space="preserve">The <ref target="http://wamcp.bibalex.org/">Arabic manuscripts
-          collection </ref> of the Wellcome Library (London) comprises
-        around 1000 manuscript books and fragments relating to the history
-        of medicine. For the first time this website enables a substantial
-        proportion of this collection to be consulted online via
-        high-quality digital images of entire manuscripts and associated
-        rich metadata. </p>
-        </div>
-
-      </div>
-
-
-      <div xml:id="vicavExplBar_openParadigms">
-        <head>Open Source &amp; Open Access</head>
-
-        <p xml:space="preserve">VICAV is all about sharing. You can reuse both the code and the
-        data used on this website under . We strongly believe that sharing 
-        digital tools and data is an efficient way to accelerate 
-        knowledge transfer in the field and to make many research 
-        processes more efficient.</p>
-
-        <p xml:space="preserve">The code for the website can be found on 
-        <ref target="https://github.com/acdh-oeaw/vicav-app">GitHub</ref>.</p>
-
-        <p xml:space="preserve">All the texts are made available through the 
-        <ref target="https://arche.acdh.oeaw.ac.at">ARCHE</ref> repository and 
-        are available under <ref target="https://creativecommons.org/licenses/by/4.0/">
-        CC BY-SA 4.0.</ref>
-      </p>
-
-        <p xml:space="preserve">
-          <graphic url="attribution_icon_white_x2.png"/>
-      </p>
-      </div>
-
-      <div xml:id="vicavExplBar_textTechnology">
-        <head>Digital Humaniteis &amp; Text Technology</head>
-
-        <p xml:space="preserve">VICAV has been designed from the very beginning as a project bridging
-    the gap between traditional concepts in the humanities and innovative 
-    technological approaches. We have been building our work on the paradigms 
-    of the digital humanity community: digital tools and data, collaborative 
-    settings and open science are the basis of our work.</p>
-
-        <p xml:space="preserve">By text technology we understand a broad spectrum of methods and tools 
-    being applied to a wide range of applications beyond the narrower field 
-    of computational linguistics with its focus on large corpora and mainly  
-    statistical approaches. </p>
-      </div>
-
-      <div xml:id="vicavExplBar_Contributions">
-        <head>Contributing</head>
-
-        <p xml:space="preserve">VICAV is a group effort. Your support is highly welcome. Write a
-    <hi rend="italic">profile</hi>, write a <hi rend="italic">sample text</hi>, 
-    share your <hi rend="italic">lexical data</hi> or help us in
-    improving the <hi rend="italic">bibliography</hi>.</p>
-
-        <p xml:space="preserve">We highly value our cooperators and do our best to credit them. The 
-    author of a text is always mentioned in all the <hi rend="italic">profiles</hi>,
-    the <hi rend="italic">sample texts</hi>, <hi rend="italic">feature 
-    lists</hi> and <hi rend="italic">dictionary entries</hi>. Unfortunately, 
-    we did not find a way to preserve who did what in ZOTERO while transfering 
-    data not the VICAV database. However, your name will still be mentioned 
-    in the <ref target="text:vicavContributors/CONTRIBUTORS">list of contributors</ref>.</p>
-      </div>
-
-      <div xml:id="vicavExplBar_DesignPrinciples">
-        <head>Design Principles</head>
-
-        <p xml:space="preserve">Displaying complexly structured scholarly contents on screens has 
-    always been a design challenge. What has made the situation even more 
-    complicated is that these days web applications are supposed to run on 
-    any kind of device. VICAV is basically built on responsive technology. 
-    However, the website has not been optimised for use on smaller mobile 
-    devices yet.</p>
-
-        <p xml:space="preserve">Research environments have to work on the Internet these days, which 
-     means they need to be implemented as web interfaces that run in browsers. 
-     By doing this, one forgoes the powerful possibilities of the windows 
-     based systems, on the other side you attaina higher degree of systemic 
-     interoperability, reusability and will definitely be able to address a much 
-     larger audience.</p>
-
-        <p xml:space="preserve">One drawback of the browser approach has been, that it is usually not 
-     possible to have several tabs next to each other which hampers any 
-     processes aiming at comparing texts. Whenever you want to juxtapose 
-     data one has to find other approaches. One possibility to create a 
-     flexible solution to the issue of structuring data on a single surface  
-     has been "panelification", visualising data in smaller units that  
-     actually emulate forms or windows. We have been experimenting with 
-     several approaches. In previous versions of VICAV, the panels were 
-     freely movable on the screen which gave users a lot of flexibility 
-     to arrange the materials they were interested in on the screen. 
-     However, experience has shown that the screen tends to
-     get cluttered easily.</p>
-
-        <p xml:space="preserve">The current approach strikes a balance between a structure where 
-     the user has full control over the psoition and size of panels and 
-     a static approach where particualr types of text have a fixed position 
-     on the screen. Most data on the VICAV website is now displayed in 
-     collapsible panels which have a fixed size and fixed positions. 
-     Users can open and close these panels, has some control over their 
-     size and has full control over the order in whcih he accesses 
-     particular contens. Like this, it is still possible to juxtapose 
-     particular items and compare them by open them in the right order.</p>
-
-        <p xml:space="preserve">
-      <graphic url="vicav_panels__001.jpg"/>
-  </p>
-
-        <p xml:space="preserve">'Overcrowding' of the screen is avoided by a simple mechanisms that  
-   collapses panels when there are more than three panels open. The collapsed 
-   panels still remain on the screen and can be reopened at any time.
-   Panels which trigger queries stay open as long as they serve this 
-   purpose.</p>
-
-        <p xml:space="preserve">
-      <graphic url="vicav_panels__002.jpg"/>
-  </p>
-
-
-        <p xml:space="preserve">You can open and close any of these panels making use of the controls on the 
-    purple bar on the left side. The X in the circle closes the panel completely. 
-    The arrow-dash sign allows to open and close it.</p>
-        <p xml:space="preserve">
-      <graphic url="vicav_panel_collapse.jpg"/>
-  </p>
-
-        <p xml:space="preserve">The relativley small display area of the panels can be enlarged by 
-    clicking on "Expand Panels over Map".</p>
-
-        <p xml:space="preserve">
-      <graphic url="vicav_expand_panels__001.jpg"/>
-  </p>
-
-        <p xml:space="preserve">To make space for new queries you can "Close All Panels".</p>
-
-        <p xml:space="preserve">
-      <graphic url="vicav_close_all_panels__001.jpg"/>
-  </p>
-      </div>
-
-      <div xml:id="vicavLearning_tb_damascus">
-        <head>VIVAC Learning Materials: <hi rend="italic">Textbook Syrian Arabic (Sound files)</hi>
-        </head>
-
-        <p xml:space="preserve">Rima Aldoukhi, Stephan Procházka, Anna Telic.
-        Unter Mitarbeit von Narine Grigoryan
-        Harrassowitz 2014.
-        
-        Alle Rechte für die den Aufnahmen zugrunde liegenden Texte liegen beim Otto Harrassowitz Verlag, Wiesbaden.
-        Die Audioaufnahmen sind lizensiert als CC BY-NC-SA 3.0 AT. </p>
-
-        <div>
-          <head>Lehrbuch des Syrisch-Arabischen 1</head>
-
-          <table type="soundTable">
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 1, text 1</cell>
-              <cell>Begrüßung und Verabschiedung</cell>
-              <cell>əs-salām w-ǝl-wadāʕ</cell>
-              <cell>
-                <ptr type="sound" target="1_L01_T01.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 1, text 2</cell>
-              <cell>Sich vorstellen</cell>
-              <cell>ət-taʕarrof</cell>
-              <cell>
-                <ptr type="sound" target="1_L01_T02.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 1, text 3</cell>
-              <cell>Am Telefon</cell>
-              <cell>ʕa-t-talifōn</cell>
-              <cell>
-                <ptr type="sound" target="1_L01_T03.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 2, text 1</cell>
-              <cell>Wie heißt du?</cell>
-              <cell>šū ʔǝsmak?</cell>
-              <cell>
-                <ptr type="sound" target="1_L02_T01.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 2, text 2</cell>
-              <cell>Woher bist du?</cell>
-              <cell>mnēn ʔənti?</cell>
-              <cell>
-                <ptr type="sound" target="1_L02_T02.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 2, text 3</cell>
-              <cell>Wie geht’s?</cell>
-              <cell>šlōnak? kīfek?</cell>
-              <cell>
-                <ptr type="sound" target="1_L02_T03.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 2, text 4</cell>
-              <cell>Wo wohnt ihr?</cell>
-              <cell>wēn bētkon?</cell>
-              <cell>
-                <ptr type="sound" target="1_L02_T04.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 2, text 5</cell>
-              <cell>Wo ist …?</cell>
-              <cell>wēn …?</cell>
-              <cell>
-                <ptr type="sound" target="1_L02_T05.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 3, text 1</cell>
-              <cell>Im Kaffeehaus</cell>
-              <cell>b-ǝl-ʔahwe</cell>
-              <cell>
-                <ptr type="sound" target="1_L03_T01.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 3, text 2</cell>
-              <cell>Ich bin hungrig</cell>
-              <cell>ʔana žūʕāne</cell>
-              <cell>
-                <ptr type="sound" target="1_L03_T02.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 3, text 3</cell>
-              <cell>Studium oder Arbeit?</cell>
-              <cell>dirāse walla šǝġᵊl?</cell>
-              <cell>
-                <ptr type="sound" target="1_L03_T03.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 3, text 4</cell>
-              <cell>Wo ist das Hotel?</cell>
-              <cell>wēn ǝl-fǝndoʔ?</cell>
-              <cell>
-                <ptr type="sound" target="1_L03_T04.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 4, text 1</cell>
-              <cell>Damaszenisches Frühstück</cell>
-              <cell>fṭūr šāmi</cell>
-              <cell>
-                <ptr type="sound" target="1_L04_T01.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 4, text 3</cell>
-              <cell>Ein gewöhnlicher Tag</cell>
-              <cell>yōm ʕādi</cell>
-              <cell>
-                <ptr type="sound" target="1_L04_T03.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 5, text 1</cell>
-              <cell>Frühstück im Café</cell>
-              <cell>fṭūr b-ǝl-ʔahwe</cell>
-              <cell>
-                <ptr type="sound" target="1_L05_T01.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 5, text 3</cell>
-              <cell>Meine Familie</cell>
-              <cell>ʕēlti</cell>
-              <cell>
-                <ptr type="sound" target="1_L05_T03.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 6, text 1</cell>
-              <cell>Alis Tochter</cell>
-              <cell>bәnt ʕAli</cell>
-              <cell>
-                <ptr type="sound" target="1_L06_T01.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 6, text 2</cell>
-              <cell>In der Ḥalbūni-Straße</cell>
-              <cell>b-әl-ḥalbūni</cell>
-              <cell>
-                <ptr type="sound" target="1_L06_T02.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 6, text 3</cell>
-              <cell>Am ʕAṣrūniyye-Markt</cell>
-              <cell>b-әl-ʕaṣrūniyye</cell>
-              <cell>
-                <ptr type="sound" target="1_L06_T03.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 7, text 1</cell>
-              <cell>Die Stadt Damaskus</cell>
-              <cell>madīnet Dimašᵊq</cell>
-              <cell>
-                <ptr type="sound" target="1_L07_T01.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 7, text 3</cell>
-              <cell>Am Telefon 2</cell>
-              <cell>talifōn 2</cell>
-              <cell>
-                <ptr type="sound" target="1_L07_T03.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 7, text 4</cell>
-              <cell>Die Familie</cell>
-              <cell>әl-ʕēle</cell>
-              <cell>
-                <ptr type="sound" target="1_L07_T04.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 8, text 1</cell>
-              <cell>Wie ist der Weg …?</cell>
-              <cell>kīf əṭ-ṭarīʔ …?</cell>
-              <cell>
-                <ptr type="sound" target="1_L08_T01.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 8, text 2</cell>
-              <cell>Eine Wegbeschreibung</cell>
-              <cell>waṣᵊf ṭarīʔ</cell>
-              <cell>
-                <ptr type="sound" target="1_L08_T02.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 8, text 3</cell>
-              <cell>Wo gibt es eine Apotheke?</cell>
-              <cell>wēn fī ṣēdaliyye?</cell>
-              <cell>
-                <ptr type="sound" target="1_L08_T03.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 8, text 5</cell>
-              <cell>Verkehrsmittel in Damaskus</cell>
-              <cell>lǝ-mwāṣalāt b-əš-Šām</cell>
-              <cell>
-                <ptr type="sound" target="1_L08_T05.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 9, text 4</cell>
-              <cell>Im Handygeschäft</cell>
-              <cell>b-maḥall ǝl-mōbāylāt</cell>
-              <cell>
-                <ptr type="sound" target="1_L09_T04.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 10, text 1</cell>
-              <cell>In der Bibliothek</cell>
-              <cell>b-əl-maktabe</cell>
-              <cell>
-                <ptr type="sound" target="1_L10_T01.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 10, text 2</cell>
-              <cell>Im Kaffeehaus</cell>
-              <cell>b-ǝl-ʔahwe</cell>
-              <cell>
-                <ptr type="sound" target="1_L10_T02.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 11, text 1</cell>
-              <cell>Im Damenschuhgeschäft</cell>
-              <cell>b-maḥall əl-ʔaḥziye n-nəswāniyye</cell>
-              <cell>
-                <ptr type="sound" target="1_L11_T01.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 11, text 3</cell>
-              <cell>Umtausch</cell>
-              <cell>tabdīl</cell>
-              <cell>
-                <ptr type="sound" target="1_L11_T03.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 11, text 4</cell>
-              <cell>Am Kleidermarkt</cell>
-              <cell>b-sūʔ ǝl-malābes</cell>
-              <cell>
-                <ptr type="sound" target="1_L11_T04.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 12, text 2</cell>
-              <cell>Stadteile von Damaskus</cell>
-              <cell>manāṭeʔ ᵊmhǝmme b-ǝš-Šām</cell>
-              <cell>
-                <ptr type="sound" target="1_L12_T02.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 13, text 4</cell>
-              <cell>Syrisches Essen 2</cell>
-              <cell>ʔakᵊl Šāmi 2</cell>
-              <cell>
-                <ptr type="sound" target="1_L13_T04.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 14, text 2</cell>
-              <cell>Nochmals am Gemüsemarkt</cell>
-              <cell>marra tānye b-sūʔ ǝl-xǝḍra</cell>
-              <cell>
-                <ptr type="sound" target="1_L14_T02.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 14, text 3</cell>
-              <cell>In der Moschee</cell>
-              <cell>b-ǝž-žāmeʕ</cell>
-              <cell>
-                <ptr type="sound" target="1_L14_T03.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 14, text 4</cell>
-              <cell>Syrisches Essen 3: Maqlūbe</cell>
-              <cell>ʔakᵊl šāmi 3: maʔlūbe</cell>
-              <cell>
-                <ptr type="sound" target="1_L14_T04.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>Lesson 15, text 1</cell>
-              <cell>Im Internetcafé</cell>
-              <cell>b-ǝl-ʔǝntǝrnetkafē</cell>
-              <cell>
-                <ptr type="sound" target="1_L15_T01.m4a"/>
-              </cell>
-            </row>
-          </table>
-        </div>
-
-        <div>
-          <head>Lehrbuch des Syrisch-Arabischen 1</head>
-
-          <table type="soundTable">
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 1, text 1</cell>
-              <cell>Der Monat Ramadan</cell>
-              <cell>šahᵊr Ramaḍān</cell>
-              <cell>
-                <ptr type="sound" target="2_L01_T01_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 1, text 2</cell>
-              <cell>Der Termin</cell>
-              <cell>ǝl-mawʕed</cell>
-              <cell>
-                <ptr type="sound" target="2_L01_T02_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 1, text 3</cell>
-              <cell>Syrisches Essen 4: Gefülltes</cell>
-              <cell>ʔakᵊl Šāmi 4: ǝl-maḥāši</cell>
-              <cell>
-                <ptr type="sound" target="2_L01_T03_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 2, text 1</cell>
-              <cell>Die Syrisch-Arabische Republik</cell>
-              <cell>ǝž-žǝmhūriyye s-sūriyye</cell>
-              <cell>
-                <ptr type="sound" target="2_L02_T01_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 2, text 2</cell>
-              <cell>Es ist lange her</cell>
-              <cell>kān mǝn zamān</cell>
-              <cell>
-                <ptr type="sound" target="2_L02_T02_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 2, text 3</cell>
-              <cell>Am Stoffmarkt</cell>
-              <cell>b-sūʔ lǝ-ʔmāš</cell>
-              <cell>
-                <ptr type="sound" target="2_L02_T03_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 3, text 1</cell>
-              <cell>Mein heutiger Tag</cell>
-              <cell>nhāri</cell>
-              <cell>
-                <ptr type="sound" target="2_L03_T01_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 3, text 2</cell>
-              <cell>Die Jahreszeiten in Damaskus</cell>
-              <cell>lǝ-fṣūl b-ǝš-Šām</cell>
-              <cell>
-                <ptr type="sound" target="2_L03_T02_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 3, text 3</cell>
-              <cell>Handwerksbetriebe im Suq</cell>
-              <cell>kārāt əs-sūʔ</cell>
-              <cell>
-                <ptr type="sound" target="2_L03_T03_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 4, text 2</cell>
-              <cell>Die Zitadelle von Aleppo</cell>
-              <cell>ʔalʕet Ḥalab</cell>
-              <cell>
-                <ptr type="sound" target="2_L04_T02_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 5, text 1</cell>
-              <cell>Anna besucht Dāna zu Hause</cell>
-              <cell>zyāret ʔAnna bi-bēt Dāna</cell>
-              <cell>
-                <ptr type="sound" target="2_L05_T01_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 5, text 2</cell>
-              <cell>Im öffentlichen Bad</cell>
-              <cell>b-ḥammām əs-sūʔ</cell>
-              <cell>
-                <ptr type="sound" target="2_L05_T02_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 5, text 3</cell>
-              <cell>Rimas Geburtstag</cell>
-              <cell>ʕīd mīlād Rīma</cell>
-              <cell>
-                <ptr type="sound" target="2_L05_T03_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 6, text 4</cell>
-              <cell>Telefonnummern</cell>
-              <cell>ʔarʔām әt-talifōn</cell>
-              <cell>
-                <ptr type="sound" target="2_L06_T04_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 7, text 1a</cell>
-              <cell>Beim Arzt</cell>
-              <cell>ʕand әd-dәktōr</cell>
-              <cell>
-                <ptr type="sound" target="2_L07_T01a.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 7, text 1b</cell>
-              <cell>Beim Arzt</cell>
-              <cell>ʕand әd-dәktōr</cell>
-              <cell>
-                <ptr type="sound" target="2_L07_T01b.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 7, text 2</cell>
-              <cell>Visum verlängern</cell>
-              <cell>tamdīd ǝl-vīza</cell>
-              <cell>
-                <ptr type="sound" target="2_L07_T02_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 7, text 3</cell>
-              <cell>Islamische Feste</cell>
-              <cell>lə-ʕyād ǝl-ʔǝslāmiyye</cell>
-              <cell>
-                <ptr type="sound" target="2_L07_T03_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 7, text 4</cell>
-              <cell>Syrisches Essen 9: Süßigkeiten</cell>
-              <cell>ʔakᵊl Šāmi 9: ḥəlwiyyāt</cell>
-              <cell>
-                <ptr type="sound" target="2_L07_T04_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 8, text 2</cell>
-              <cell>Die Verlobung von Sāmi und Dāna</cell>
-              <cell>xəṭbet Sāmi w Dāna</cell>
-              <cell>
-                <ptr type="sound" target="2_L08_T02_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 8, text 3</cell>
-              <cell>Christliche Feste</cell>
-              <cell>lǝ-ʕyād ǝl-masīḥiyye</cell>
-              <cell>
-                <ptr type="sound" target="2_L08_T03_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 8, text 4</cell>
-              <cell>Ein paar syrische Witze</cell>
-              <cell>kam nǝkte šāmiyye</cell>
-              <cell>
-                <ptr type="sound" target="2_L08_T04_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 9, text 1</cell>
-              <cell>Die Hochzeit</cell>
-              <cell>əl-ʕərᵊs</cell>
-              <cell>
-                <ptr type="sound" target="2_L09_T01_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 9, text 3</cell>
-              <cell>Syrisches Essen 10: Muluchije</cell>
-              <cell>ʔakᵊl Šāmi 10: lǝ-mlūxiyye</cell>
-              <cell>
-                <ptr type="sound" target="2_L09_T03_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 9, text 4</cell>
-              <cell>Fußball</cell>
-              <cell>kuret əl-qadam</cell>
-              <cell>
-                <ptr type="sound" target="2_L09_T04_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 10, text 2</cell>
-              <cell>Das Wetter und die vier Jahreszeiten in Damaskus</cell>
-              <cell>әž-žaww w-ᵊfṣūl әs-sәne l-ʔarbʕa b-ǝš-Šām</cell>
-              <cell>
-                <ptr type="sound" target="2_L10_T02_.m4a"/>
-              </cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>Lesson 11, text 1</cell>
-              <cell>Revolution und Krieg</cell>
-              <cell>əs-sawra w-əl-ḥarᵊb</cell>
-              <cell>
-                <ptr type="sound" target="2_L11_T01_.m4a"/>
-              </cell>
-            </row>
-          </table>
-        </div>
-      </div>
-
-    </body>
-  </text>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICAV Paratexts</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="flashcards" matchPattern="(+),(.+),(.+)" replacementPattern="https://cs.acdh.oeaw.ac.at/modules/fcs-aggregator/switch.php?version=1.2&amp;operation=searchRetrieve&amp;query=unit=$1&amp;x-context=$2&amp;startRecord=1&amp;maximumRecords=1000&amp;x-format=$3&amp;x-dataview=kwic,title';"/>
+         </listPrefixDef>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="dictFrontPage_TuniscrossDictQuery">
+            <head>
+               <hi rend="italic">VICAV</hi> Dictionaries Query</head>
+         </div>
+
+         <div xml:id="vicavLearning">
+            <head>Learning Materials</head>
+            <p>Some of the data on this website have been developed as part of
+               teaching activities being used in university courses of the Institute
+               of Oriental Studies of the University of Vienna.</p>
+            <p>
+               <ref target="text:vicavLearningSmartphone/SMARTPHONES">Vocabularies on the Smartphone</ref>
+               <lb/>
+               <ref target="text:vicavLearningPrograms/PROGRAMS">Available Programs</ref>
+               <lb/>
+               <ref target="text:vicavLearningData/VOCABULARIES - DATA">Vocabularies - Data</ref>
+            </p>
+         </div>
+
+         <div xml:id="vicavLearningSmartphone">
+            <head>Vocabularies on the Smartphone</head>
+            <p>One way to learn vocabularies is to use
+               <ref target="https://en.wikipedia.org/wiki/Flashcard">flashcards</ref>.
+               The ubiquitous smartphones make it possible to carry around
+               thousands of vocabulary cards in your pocket. Before we started
+               to cary around a computer in our pockets, the
+               most common way to carry them around as paper flashcards. The problem
+               with this approach is that they can take up quite some space if
+               you want to repeat cards from say 20 units of some language course
+               at least now and then. Now we only have to decide on what software to use. </p>
+         </div>
+
+         <div xml:id="vicavLearningPrograms">
+            <head>Available Programs</head>
+            <p>There are several programs that help you repeat vocabularies on the
+               smartphone. To get an overview of available tools have a look at
+               <ref target="https://en.wikipedia.org/wiki/List_of_flashcard_software">Wikipedia</ref>.
+               We provide some data for <hi rend="italic">ANKI</hi> and
+               <hi rend="italic">Flashcards Deluxe</hi>.
+            </p>
+            <div>
+               <head>ANKI</head>
+               <p>... is a spaced repetition flashcard program. "Anki" is Japanese
+                  for <hi rend="italic">memorization</hi>. You can find details about
+                  the program on <ref target="https://en.wikipedia.org/wiki/Anki_(software)">
+                     Wikipedia</ref>.</p>
+               <p>You can download the program from the <ref target="https://apps.ankiweb.net/">
+                     AnkiWeb webiste</ref>. If you want to synch your learning progress over the
+                  internet you might consider registering with ankiweb.</p>
+               <p>As a quick start we provide a template "deck" with all the required settings
+                  called <ref target="https://minerva.arz.oeaw.ac.at/static/anki/Empty_4_by_4.apkg">Empty
+                     4 by 4</ref>. By importing this template into Anki you get
+                  <list>
+                     <item>the <hi rend="italic">andika
+                           font</hi> installed (doesn't show on OS X though) and </item>
+                     <item>a "note" design with 4 fields
+                        on the front side and 4 on the back side of a card. </item>
+                  </list>
+                  After the setup you can start importing vocabulary data.</p>
+            </div>
+            <div>
+               <head>Flashcards Deluxe</head>
+               <p>The program for is available for iOS and for Android.
+                  <ref target="http://orangeorapple.com/Flashcards/">Their homepage</ref> has
+                  some advice on how to use the software in different scenarios.</p>
+               <p>You can use Dropbox or Google Drive as a cloud storage to quickly up-
+                  and download new vocabularies and keep a copy of your learning progress
+                  on the internet.</p>
+               <list>
+                  <item>Open Flashcards Deluxe and touch the + sign on top of the screen.</item>
+                  <item>Choose Dropbox or Google Drive and supply your respective user credentials.</item>
+                  <item>Flashcards Deluxe creates a folder in either cloud storage that will
+                     contain the vocabulary data and your progress statistics.</item>
+               </list>
+               <p>For iOS there fortunately is no need to do any further Setup. All characters
+                  are present in the fonts preinstalled on every iOS device. With the fonts installed
+                  on Android, you will usually not be able to see all the letters used in the
+                  VICAV or DMG transcriptions. However Flashcards deluxe can use a font provided by
+                  the user. A font that can be used is the <hi rend="italic">Andika</hi> font provided
+                  by <ref target="https://software.sil.org/andika/">SIL</ref>. </p>
+               <list>
+                  <item>Download and unzip it.</item>
+                  <item>The file Andika-R.ttf should go into the following directory on
+                     your phone: <lb/>
+                     <hi rend="italic">/Android/data/com.orangeorapple.flashcards/files/fonts</hi>
+                  </item>
+                  <item>If you only try the demo the folder is: <lb/>
+                     <hi rend="italic">/Android/data//com.orangeorapple.flashcardslite/files/fonts</hi>
+                  </item>
+                  <item>If <hi rend="italic">Flashcards Deluxe</hi> is running you have to restart it.</item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="vicavLearningData">
+            <head>Vocabularies (Data)</head>
+            <p>We provide some data in support of particular language courses
+               being taught at the University of Vienna. For the time being, we
+               only have flashcards for German.</p>
+            <p>After you did the initial steps (refer to the Tools menu above
+               if you haven't) you only have to download the dictionary data that
+               corresponds to the vocabulary used in the different language
+               courses of the Institut for Near Eastern Studies of the University
+               of Vienna. We provide the data in formats suitable for importing
+               and using it in Anki or Flashcards Deluxe. </p>
+            <div>
+               <head>140037 UE Arabischer Dialekt - Kurs F: Konversation / Texte 2: Syrisch-Arabisch der Universität Wien</head>
+               <p>These flashcards support the textbook of Syrian Arabic by Rima Aldoukhi, Stephan Procházka, Anna Telič und Narine Grigoryan:
+                  <hi rend="italic">Lehrbuch des Syrisch-Arabischen 1: Praxisnaher Einstieg in den Dialekt von Damaskus. – 1. Auflage, 2014 und 2. Auflage, 2016.</hi>
+                  and
+                  <hi rend="italic">Lehrbuch des Syrisch-Arabischen 2: Damaszenisch für Fortgeschrittene. 1. Auflage, 2014.</hi>
+               </p>
+               <p>
+                  ANKI: Lesson
+                  <ref target="flashcards:apc_eng_002/1/csv-anki">1</ref>,
+                  <ref target="flashcards:apc_eng_002/2/csv-anki">2</ref>,
+                  <ref target="flashcards:apc_eng_002/3/csv-anki">3</ref>,
+                  <ref target="flashcards:apc_eng_002/4/csv-anki">4</ref>,
+                  <ref target="flashcards:apc_eng_002/5/csv-anki">5</ref>,
+                  <ref target="flashcards:apc_eng_002/6/csv-anki">6</ref>,
+                  <ref target="flashcards:apc_eng_002/7/csv-anki">7</ref>,
+                  <ref target="flashcards:apc_eng_002/8/csv-anki">8</ref>,
+                  <ref target="flashcards:apc_eng_002/9/csv-anki">9</ref>,
+                  <ref target="flashcards:apc_eng_002/10/csv-anki">10</ref>,
+                  <ref target="flashcards:apc_eng_002/11/csv-anki">11</ref>,
+                  <ref target="flashcards:apc_eng_002/12/csv-anki">12</ref>,
+                  <ref target="flashcards:apc_eng_002/13/csv-anki">13</ref>,
+                  <ref target="flashcards:apc_eng_002/14/csv-anki">14</ref>,
+                  <ref target="flashcards:apc_eng_002/15/csv-anki">15</ref>,
+                  <ref target="flashcards:apc_eng_002/16/csv-anki">16</ref>,
+                  <ref target="flashcards:apc_eng_002/17/csv-anki">17</ref>,
+                  <ref target="flashcards:apc_eng_002/18/csv-anki">18</ref>,
+                  <ref target="flashcards:apc_eng_002/19/csv-anki">19</ref>,
+                  <ref target="flashcards:apc_eng_002/20/csv-anki">20</ref>,
+                  <ref target="flashcards:apc_eng_002/21/csv-anki">21</ref>,
+                  <ref target="flashcards:apc_eng_002/22/csv-anki">22</ref>,
+                  <ref target="flashcards:apc_eng_002/23/csv-anki">23</ref>,
+                  <ref target="flashcards:apc_eng_002/24/csv-anki">24</ref>,
+                  <ref target="flashcards:apc_eng_002/25/csv-anki">25</ref>
+               </p>
+               <p>
+                  Flashcards Deluxe: Lesson
+                  <ref target="flashcards:apc_eng_002/1/csv-fcdeluxe">1</ref>,
+                  <ref target="flashcards:apc_eng_002/2/csv-fcdeluxe">2</ref>,
+                  <ref target="flashcards:apc_eng_002/3/csv-fcdeluxe">3</ref>,
+                  <ref target="flashcards:apc_eng_002/4/csv-fcdeluxe">4</ref>,
+                  <ref target="flashcards:apc_eng_002/5/csv-fcdeluxe">5</ref>,
+                  <ref target="flashcards:apc_eng_002/6/csv-fcdeluxe">6</ref>,
+                  <ref target="flashcards:apc_eng_002/7/csv-fcdeluxe">7</ref>,
+                  <ref target="flashcards:apc_eng_002/8/csv-fcdeluxe">8</ref>,
+                  <ref target="flashcards:apc_eng_002/9/csv-fcdeluxe">9</ref>,
+                  <ref target="flashcards:apc_eng_002/10/csv-fcdeluxe">10</ref>,
+                  <ref target="flashcards:apc_eng_002/11/csv-fcdeluxe">11</ref>,
+                  <ref target="flashcards:apc_eng_002/12/csv-fcdeluxe">12</ref>,
+                  <ref target="flashcards:apc_eng_002/13/csv-fcdeluxe">13</ref>,
+                  <ref target="flashcards:apc_eng_002/14/csv-fcdeluxe">14</ref>,
+                  <ref target="flashcards:apc_eng_002/15/csv-fcdeluxe">15</ref>,
+                  <ref target="flashcards:apc_eng_002/16/csv-fcdeluxe">16</ref>,
+                  <ref target="flashcards:apc_eng_002/17/csv-fcdeluxe">17</ref>,
+                  <ref target="flashcards:apc_eng_002/18/csv-fcdeluxe">18</ref>,
+                  <ref target="flashcards:apc_eng_002/19/csv-fcdeluxe">19</ref>,
+                  <ref target="flashcards:apc_eng_002/20/csv-fcdeluxe">20</ref>,
+                  <ref target="flashcards:apc_eng_002/21/csv-fcdeluxe">21</ref>,
+                  <ref target="flashcards:apc_eng_002/22/csv-fcdeluxe">22</ref>,
+                  <ref target="flashcards:apc_eng_002/23/csv-fcdeluxe">23</ref>,
+                  <ref target="flashcards:apc_eng_002/24/csv-fcdeluxe">24</ref>,
+                  <ref target="flashcards:apc_eng_002/25/csv-fcdeluxe">25</ref>
+               </p>
+            </div>
+            <div>
+               <head>140292 VO Arabischer Dialekt - Kurs A: Tunesisch-Arabisch + 140029 UE Arabischer Dialekt -
+                  Kurs B: Tunesisch-Arabisch</head>
+               <p>These flashcards support the teaching materials of Tunisian Arabic A and B,
+                  revised version 2014/15, by Veronika Ritt-Benmimoun in cooperation with
+                  Emna Labidi, Mabrouka Rayachi and Ines Dallaji.
+               </p>
+               <p>
+                  ANKI: Lesson
+                  <ref target="flashcards:aeb_eng_001__v001/1/csv-anki">1</ref>,
+                  <ref target="flashcards:aeb_eng_001__v001/2/csv-anki">2</ref>,
+                  <ref target="flashcards:aeb_eng_001__v001/3/csv-anki">3</ref>,
+                  <ref target="flashcards:aeb_eng_001__v001/4/csv-anki">4</ref>,
+                  <ref target="flashcards:aeb_eng_001__v001/5/csv-anki">5</ref>,
+                  <ref target="flashcards:aeb_eng_001__v001/6/csv-anki">6</ref>,
+                  <ref target="flashcards:aeb_eng_001__v001/7/csv-anki">7</ref>
+               </p>
+               <p>
+                  Flashcards Deluxe: Lesson
+                  <ref target="flashcards:aeb_eng_001__v001/1/csv-fcdeluxe">1</ref>,
+                  <ref target="flashcards:aeb_eng_001__v001/2/csv-fcdeluxe">2</ref>,
+                  <ref target="flashcards:aeb_eng_001__v001/3/csv-fcdeluxe">3</ref>,
+                  <ref target="flashcards:aeb_eng_001__v001/4/csv-fcdeluxe">4</ref>,
+                  <ref target="flashcards:aeb_eng_001__v001/5/csv-fcdeluxe">5</ref>,
+                  <ref target="flashcards:aeb_eng_001__v001/6/csv-fcdeluxe">6</ref>,
+                  <ref target="flashcards:aeb_eng_001__v001/7/csv-fcdeluxe">7</ref>
+               </p>
+            </div>
+            <div>
+               <head>140028 VO Arabischer Dialekt - Kurs C: Tunesisch-Arabisch + 140029 UE Arabischer Dialekt - Kurs D: Tunesisch Arabisch</head>
+               <p>These flashcards support the teaching materials of Tunisian Arabic C and D,
+                  revised version 15, by Veronika Ritt-Benmimoun in cooperation with
+                  Emna Labidi, Mabrouka Rayachi and Ines Dallaji.
+               </p>
+               <p>
+                  ANKI: Lesson
+                  <ref target="flashcards:aeb_eng_001__v001/8/csv-anki">8</ref>,
+                  <ref target="flashcards:aeb_eng_001__v001/9/csv-anki">9</ref>,
+                  <ref target="flashcards:aeb_eng_001__v001/10/csv-anki">10</ref>,
+                  <ref target="flashcards:aeb_eng_001__v001/11/csv-anki">11</ref>,
+                  <ref target="flashcards:aeb_eng_001__v001/12/csv-anki">12</ref>
+
+               </p>
+               <p>
+                  Flashcards Deluxe: Lesson
+                  <ref target="flashcards:aeb_eng_001__v001/8/csv-fcdeluxe">8</ref>,
+                  <ref target="flashcards:aeb_eng_001__v001/9/csv-fcdeluxe">9</ref>,
+                  <ref target="flashcards:aeb_eng_001__v001/10/csv-fcdeluxe">10</ref>,
+                  <ref target="flashcards:aeb_eng_001__v001/11/csv-fcdeluxe">11</ref>,
+                  <ref target="flashcards:aeb_eng_001__v001/12/csv-fcdeluxe">12</ref>
+               </p>
+            </div>
+            <div>
+               <head>140270 VO STEOP: OR2b/AR1 Einführung in das Arabische I</head>
+               <p>
+                  ANKI: Lesson
+                  <ref target="flashcards:ar_de__v001/1/csv-anki">1</ref>,
+                  <ref target="flashcards:ar_de__v001/2/csv-anki">2</ref>,
+                  <ref target="flashcards:ar_de__v001/3/csv-anki">3</ref>,
+                  <ref target="flashcards:ar_de__v001/4/csv-anki">4</ref>,
+                  <ref target="flashcards:ar_de__v001/5/csv-anki">5</ref>,
+                  <ref target="flashcards:ar_de__v001/6/csv-anki">6</ref>
+               </p>
+               <p>
+                  Flashcards Deluxe: Lesson
+                  <ref target="flashcards:ar_de__v001/1/csv-fcdeluxe">1</ref>,
+                  <ref target="flashcards:ar_de__v001/2/csv-fcdeluxe">2</ref>,
+                  <ref target="flashcards:ar_de__v001/3/csv-fcdeluxe">3</ref>,
+                  <ref target="flashcards:ar_de__v001/4/csv-fcdeluxe">4</ref>,
+                  <ref target="flashcards:ar_de__v001/5/csv-fcdeluxe">5</ref>,
+                  <ref target="flashcards:ar_de__v001/6/csv-fcdeluxe">6</ref>
+               </p>
+            </div>
+            <div>
+               <head>140426 VO+UE Arabisch B + 140027 UE Arabisch C (und Parallelversanstaltungen)</head>
+               <p>
+                  ANKI: Lesson
+                  <ref target="flashcards:ar_de__v001/7/csv-anki">7</ref>,
+                  <ref target="flashcards:ar_de__v001/8/csv-anki">8</ref>,
+                  <ref target="flashcards:ar_de__v001/9/csv-anki">9</ref>,
+                  <ref target="flashcards:ar_de__v001/10/csv-anki">10</ref>,
+                  <ref target="flashcards:ar_de__v001/11/csv-anki">11</ref>
+
+               </p>
+               <p>
+                  Flashcards Deluxe: Lesson
+                  <ref target="flashcards:ar_de__v001/7/csv-fcdeluxe">7</ref>,
+                  <ref target="flashcards:ar_de__v001/8/csv-fcdeluxe">8</ref>,
+                  <ref target="flashcards:ar_de__v001/9/csv-fcdeluxe">9</ref>,
+                  <ref target="flashcards:ar_de__v001/10/csv-fcdeluxe">10</ref>,
+                  <ref target="flashcards:ar_de__v001/11/csv-fcdeluxe">11</ref>
+
+               </p>
+            </div>
+         </div>
+
+         <div xml:id="vicavExplBar_openParadigms">
+            <head>Open Source &amp; Open Access</head>
+            <p>VICAV is all about sharing. You can reuse both the code and the
+               data used on this website under . We strongly believe that sharing
+               digital tools and data is an efficient way to accelerate
+               knowledge transfer in the field and to make many research
+               processes more efficient.</p>
+            <p>The code for the website can be found on
+               <ref target="https://github.com/acdh-oeaw/vicav-app">GitHub</ref>.</p>
+            <p>All the texts are made available through the
+               <ref target="https://arche.acdh.oeaw.ac.at">ARCHE</ref> repository and
+               are available under <ref target="https://creativecommons.org/licenses/by/4.0/">
+                  CC BY-SA 4.0.</ref>
+            </p>
+            <p>
+               <graphic url="attribution_icon_white_x2.png"/>
+            </p>
+         </div>
+         <div xml:id="vicavExplBar_textTechnology">
+            <head>Digital Humaniteis &amp; Text Technology</head>
+            <p>VICAV has been designed from the very beginning as a project bridging
+               the gap between traditional concepts in the humanities and innovative
+               technological approaches. We have been building our work on the paradigms
+               of the digital humanity community: digital tools and data, collaborative
+               settings and open science are the basis of our work.</p>
+            <p>By text technology we understand a broad spectrum of methods and tools
+               being applied to a wide range of applications beyond the narrower field
+               of computational linguistics with its focus on large corpora and mainly
+               statistical approaches. </p>
+         </div>
+         <div xml:id="vicavExplBar_Contributions">
+            <head>Contributing</head>
+            <p>VICAV is a group effort. Your support is highly welcome. Write a
+               <hi rend="italic">profile</hi>, write a <hi rend="italic">sample text</hi>,
+               share your <hi rend="italic">lexical data</hi> or help us in
+               improving the <hi rend="italic">bibliography</hi>.</p>
+            <p>We highly value our cooperators and do our best to credit them. The
+               author of a text is always mentioned in all the <hi rend="italic">profiles</hi>,
+               the <hi rend="italic">sample texts</hi>, <hi rend="italic">feature
+                  lists</hi> and <hi rend="italic">dictionary entries</hi>. Unfortunately,
+               we did not find a way to preserve who did what in ZOTERO while transfering
+               data not the VICAV database. However, your name will still be mentioned
+               in the <ref target="text:vicavContributors/CONTRIBUTORS">list of contributors</ref>.</p>
+         </div>
+         <div xml:id="vicavExplBar_DesignPrinciples">
+            <head>Design Principles</head>
+            <p>Displaying complexly structured scholarly contents on screens has
+               always been a design challenge. What has made the situation even more
+               complicated is that these days web applications are supposed to run on
+               any kind of device. VICAV is basically built on responsive technology.
+               However, the website has not been optimised for use on smaller mobile
+               devices yet.</p>
+            <p>Research environments have to work on the Internet these days, which
+               means they need to be implemented as web interfaces that run in browsers.
+               By doing this, one forgoes the powerful possibilities of the windows
+               based systems, on the other side you attaina higher degree of systemic
+               interoperability, reusability and will definitely be able to address a much
+               larger audience.</p>
+            <p>One drawback of the browser approach has been, that it is usually not
+               possible to have several tabs next to each other which hampers any
+               processes aiming at comparing texts. Whenever you want to juxtapose
+               data one has to find other approaches. One possibility to create a
+               flexible solution to the issue of structuring data on a single surface
+               has been "panelification", visualising data in smaller units that
+               actually emulate forms or windows. We have been experimenting with
+               several approaches. In previous versions of VICAV, the panels were
+               freely movable on the screen which gave users a lot of flexibility
+               to arrange the materials they were interested in on the screen.
+               However, experience has shown that the screen tends to
+               get cluttered easily.</p>
+            <p>The current approach strikes a balance between a structure where
+               the user has full control over the psoition and size of panels and
+               a static approach where particualr types of text have a fixed position
+               on the screen. Most data on the VICAV website is now displayed in
+               collapsible panels which have a fixed size and fixed positions.
+               Users can open and close these panels, has some control over their
+               size and has full control over the order in whcih he accesses
+               particular contens. Like this, it is still possible to juxtapose
+               particular items and compare them by open them in the right order.</p>
+            <p>
+               <graphic url="vicav_panels__001.jpg"/>
+            </p>
+            <p>'Overcrowding' of the screen is avoided by a simple mechanisms that
+               collapses panels when there are more than three panels open. The collapsed
+               panels still remain on the screen and can be reopened at any time.
+               Panels which trigger queries stay open as long as they serve this
+               purpose.</p>
+            <p>
+               <graphic url="vicav_panels__002.jpg"/>
+            </p>
+            <p>You can open and close any of these panels making use of the controls on the
+               purple bar on the left side. The X in the circle closes the panel completely.
+               The arrow-dash sign allows to open and close it.</p>
+            <p>
+               <graphic url="vicav_panel_collapse.jpg"/>
+            </p>
+            <p>The relativley small display area of the panels can be enlarged by
+               clicking on "Expand Panels over Map".</p>
+            <p>
+               <graphic url="vicav_expand_panels__001.jpg"/>
+            </p>
+            <p>To make space for new queries you can "Close All Panels".</p>
+            <p>
+               <graphic url="vicav_close_all_panels__001.jpg"/>
+            </p>
+         </div>
+         <div xml:id="vicavLearning_tb_damascus">
+            <head>VIVAC Learning Materials: <hi rend="italic">Textbook Syrian Arabic (Sound files)</hi>
+            </head>
+            <p>Rima Aldoukhi, Stephan Procházka, Anna Telic.
+               Unter Mitarbeit von Narine Grigoryan
+               Harrassowitz 2014.
+
+               Alle Rechte für die den Aufnahmen zugrunde liegenden Texte liegen beim Otto Harrassowitz Verlag, Wiesbaden.
+               Die Audioaufnahmen sind lizensiert als CC BY-NC-SA 3.0 AT. </p>
+            <div>
+               <head>Lehrbuch des Syrisch-Arabischen 1</head>
+               <table type="soundTable">
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 1, text 1</cell>
+                     <cell>Begrüßung und Verabschiedung</cell>
+                     <cell>əs-salām w-ǝl-wadāʕ</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L01_T01.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 1, text 2</cell>
+                     <cell>Sich vorstellen</cell>
+                     <cell>ət-taʕarrof</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L01_T02.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 1, text 3</cell>
+                     <cell>Am Telefon</cell>
+                     <cell>ʕa-t-talifōn</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L01_T03.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 2, text 1</cell>
+                     <cell>Wie heißt du?</cell>
+                     <cell>šū ʔǝsmak?</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L02_T01.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 2, text 2</cell>
+                     <cell>Woher bist du?</cell>
+                     <cell>mnēn ʔənti?</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L02_T02.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 2, text 3</cell>
+                     <cell>Wie geht’s?</cell>
+                     <cell>šlōnak? kīfek?</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L02_T03.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 2, text 4</cell>
+                     <cell>Wo wohnt ihr?</cell>
+                     <cell>wēn bētkon?</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L02_T04.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 2, text 5</cell>
+                     <cell>Wo ist …?</cell>
+                     <cell>wēn …?</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L02_T05.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 3, text 1</cell>
+                     <cell>Im Kaffeehaus</cell>
+                     <cell>b-ǝl-ʔahwe</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L03_T01.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 3, text 2</cell>
+                     <cell>Ich bin hungrig</cell>
+                     <cell>ʔana žūʕāne</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L03_T02.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 3, text 3</cell>
+                     <cell>Studium oder Arbeit?</cell>
+                     <cell>dirāse walla šǝġᵊl?</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L03_T03.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 3, text 4</cell>
+                     <cell>Wo ist das Hotel?</cell>
+                     <cell>wēn ǝl-fǝndoʔ?</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L03_T04.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 4, text 1</cell>
+                     <cell>Damaszenisches Frühstück</cell>
+                     <cell>fṭūr šāmi</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L04_T01.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 4, text 3</cell>
+                     <cell>Ein gewöhnlicher Tag</cell>
+                     <cell>yōm ʕādi</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L04_T03.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 5, text 1</cell>
+                     <cell>Frühstück im Café</cell>
+                     <cell>fṭūr b-ǝl-ʔahwe</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L05_T01.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 5, text 3</cell>
+                     <cell>Meine Familie</cell>
+                     <cell>ʕēlti</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L05_T03.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 6, text 1</cell>
+                     <cell>Alis Tochter</cell>
+                     <cell>bәnt ʕAli</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L06_T01.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 6, text 2</cell>
+                     <cell>In der Ḥalbūni-Straße</cell>
+                     <cell>b-әl-ḥalbūni</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L06_T02.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 6, text 3</cell>
+                     <cell>Am ʕAṣrūniyye-Markt</cell>
+                     <cell>b-әl-ʕaṣrūniyye</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L06_T03.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 7, text 1</cell>
+                     <cell>Die Stadt Damaskus</cell>
+                     <cell>madīnet Dimašᵊq</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L07_T01.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 7, text 3</cell>
+                     <cell>Am Telefon 2</cell>
+                     <cell>talifōn 2</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L07_T03.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 7, text 4</cell>
+                     <cell>Die Familie</cell>
+                     <cell>әl-ʕēle</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L07_T04.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 8, text 1</cell>
+                     <cell>Wie ist der Weg …?</cell>
+                     <cell>kīf əṭ-ṭarīʔ …?</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L08_T01.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 8, text 2</cell>
+                     <cell>Eine Wegbeschreibung</cell>
+                     <cell>waṣᵊf ṭarīʔ</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L08_T02.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 8, text 3</cell>
+                     <cell>Wo gibt es eine Apotheke?</cell>
+                     <cell>wēn fī ṣēdaliyye?</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L08_T03.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 8, text 5</cell>
+                     <cell>Verkehrsmittel in Damaskus</cell>
+                     <cell>lǝ-mwāṣalāt b-əš-Šām</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L08_T05.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 9, text 4</cell>
+                     <cell>Im Handygeschäft</cell>
+                     <cell>b-maḥall ǝl-mōbāylāt</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L09_T04.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 10, text 1</cell>
+                     <cell>In der Bibliothek</cell>
+                     <cell>b-əl-maktabe</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L10_T01.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 10, text 2</cell>
+                     <cell>Im Kaffeehaus</cell>
+                     <cell>b-ǝl-ʔahwe</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L10_T02.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 11, text 1</cell>
+                     <cell>Im Damenschuhgeschäft</cell>
+                     <cell>b-maḥall əl-ʔaḥziye n-nəswāniyye</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L11_T01.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 11, text 3</cell>
+                     <cell>Umtausch</cell>
+                     <cell>tabdīl</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L11_T03.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 11, text 4</cell>
+                     <cell>Am Kleidermarkt</cell>
+                     <cell>b-sūʔ ǝl-malābes</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L11_T04.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 12, text 2</cell>
+                     <cell>Stadteile von Damaskus</cell>
+                     <cell>manāṭeʔ ᵊmhǝmme b-ǝš-Šām</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L12_T02.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 13, text 4</cell>
+                     <cell>Syrisches Essen 2</cell>
+                     <cell>ʔakᵊl Šāmi 2</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L13_T04.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 14, text 2</cell>
+                     <cell>Nochmals am Gemüsemarkt</cell>
+                     <cell>marra tānye b-sūʔ ǝl-xǝḍra</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L14_T02.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 14, text 3</cell>
+                     <cell>In der Moschee</cell>
+                     <cell>b-ǝž-žāmeʕ</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L14_T03.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 14, text 4</cell>
+                     <cell>Syrisches Essen 3: Maqlūbe</cell>
+                     <cell>ʔakᵊl šāmi 3: maʔlūbe</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L14_T04.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 15, text 1</cell>
+                     <cell>Im Internetcafé</cell>
+                     <cell>b-ǝl-ʔǝntǝrnetkafē</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L15_T01.m4a"/>
+                     </cell>
+                  </row>
+               </table>
+            </div>
+            <div>
+               <head>Lehrbuch des Syrisch-Arabischen 1</head>
+               <table type="soundTable">
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 1, text 1</cell>
+                     <cell>Der Monat Ramadan</cell>
+                     <cell>šahᵊr Ramaḍān</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L01_T01_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 1, text 2</cell>
+                     <cell>Der Termin</cell>
+                     <cell>ǝl-mawʕed</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L01_T02_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 1, text 3</cell>
+                     <cell>Syrisches Essen 4: Gefülltes</cell>
+                     <cell>ʔakᵊl Šāmi 4: ǝl-maḥāši</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L01_T03_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 2, text 1</cell>
+                     <cell>Die Syrisch-Arabische Republik</cell>
+                     <cell>ǝž-žǝmhūriyye s-sūriyye</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L02_T01_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 2, text 2</cell>
+                     <cell>Es ist lange her</cell>
+                     <cell>kān mǝn zamān</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L02_T02_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 2, text 3</cell>
+                     <cell>Am Stoffmarkt</cell>
+                     <cell>b-sūʔ lǝ-ʔmāš</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L02_T03_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 3, text 1</cell>
+                     <cell>Mein heutiger Tag</cell>
+                     <cell>nhāri</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L03_T01_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 3, text 2</cell>
+                     <cell>Die Jahreszeiten in Damaskus</cell>
+                     <cell>lǝ-fṣūl b-ǝš-Šām</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L03_T02_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 3, text 3</cell>
+                     <cell>Handwerksbetriebe im Suq</cell>
+                     <cell>kārāt əs-sūʔ</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L03_T03_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 4, text 2</cell>
+                     <cell>Die Zitadelle von Aleppo</cell>
+                     <cell>ʔalʕet Ḥalab</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L04_T02_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 5, text 1</cell>
+                     <cell>Anna besucht Dāna zu Hause</cell>
+                     <cell>zyāret ʔAnna bi-bēt Dāna</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L05_T01_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 5, text 2</cell>
+                     <cell>Im öffentlichen Bad</cell>
+                     <cell>b-ḥammām əs-sūʔ</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L05_T02_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 5, text 3</cell>
+                     <cell>Rimas Geburtstag</cell>
+                     <cell>ʕīd mīlād Rīma</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L05_T03_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 6, text 4</cell>
+                     <cell>Telefonnummern</cell>
+                     <cell>ʔarʔām әt-talifōn</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L06_T04_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 7, text 1a</cell>
+                     <cell>Beim Arzt</cell>
+                     <cell>ʕand әd-dәktōr</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L07_T01a.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 7, text 1b</cell>
+                     <cell>Beim Arzt</cell>
+                     <cell>ʕand әd-dәktōr</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L07_T01b.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 7, text 2</cell>
+                     <cell>Visum verlängern</cell>
+                     <cell>tamdīd ǝl-vīza</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L07_T02_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 7, text 3</cell>
+                     <cell>Islamische Feste</cell>
+                     <cell>lə-ʕyād ǝl-ʔǝslāmiyye</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L07_T03_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 7, text 4</cell>
+                     <cell>Syrisches Essen 9: Süßigkeiten</cell>
+                     <cell>ʔakᵊl Šāmi 9: ḥəlwiyyāt</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L07_T04_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 8, text 2</cell>
+                     <cell>Die Verlobung von Sāmi und Dāna</cell>
+                     <cell>xəṭbet Sāmi w Dāna</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L08_T02_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 8, text 3</cell>
+                     <cell>Christliche Feste</cell>
+                     <cell>lǝ-ʕyād ǝl-masīḥiyye</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L08_T03_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 8, text 4</cell>
+                     <cell>Ein paar syrische Witze</cell>
+                     <cell>kam nǝkte šāmiyye</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L08_T04_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 9, text 1</cell>
+                     <cell>Die Hochzeit</cell>
+                     <cell>əl-ʕərᵊs</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L09_T01_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 9, text 3</cell>
+                     <cell>Syrisches Essen 10: Muluchije</cell>
+                     <cell>ʔakᵊl Šāmi 10: lǝ-mlūxiyye</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L09_T03_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 9, text 4</cell>
+                     <cell>Fußball</cell>
+                     <cell>kuret əl-qadam</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L09_T04_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 10, text 2</cell>
+                     <cell>Das Wetter und die vier Jahreszeiten in Damaskus</cell>
+                     <cell>әž-žaww w-ᵊfṣūl әs-sәne l-ʔarbʕa b-ǝš-Šām</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L10_T02_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 11, text 1</cell>
+                     <cell>Revolution und Krieg</cell>
+                     <cell>əs-sawra w-əl-ḥarᵊb</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L11_T01_.m4a"/>
+                     </cell>
+                  </row>
+               </table>
+            </div>
+         </div>
+      </body>
+   </text>
 </TEI>

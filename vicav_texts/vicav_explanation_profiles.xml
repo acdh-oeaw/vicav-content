@@ -1,208 +1,470 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Language profiles (Explanation)</title>
-                <title type="shortTitle">PROFILES</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Publication Information</p>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Information about the source</p>
-            </sourceDesc>
-        </fileDesc>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Language profiles (Explanation)</title>
+            <title type="shortTitle">PROFILES</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
       <encodingDesc>
-          <projectDesc>
-              <ab>The links for the profiles were assembled by scriptor.exe--&lt;createListOfVICAVProfiles</ab>
-          </projectDesc>
+         <projectDesc>
+            <ab>The links for the profiles were assembled by scriptor.exe:createListOfVICAVProfiles</ab>
+         </projectDesc>
       </encodingDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div xml:id="vicavExplanationProfiles" n="PROFILE">
-                <head>Language profiles</head>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="vicavExplanationProfiles" n="PROFILE1">
+            <head>Language profiles</head>
+            <p>
+               An important part of this website are information units which we call
+               <hi rendition="#i">language profiles</hi>
+               . This types of text consist in short sketches of varieties of spoken contemporary Arabic. The intention is to work in a complementary manner to similar endeavours (such as EALL). For the time being, we do not plan to provide detailed grammatical descriptions but rather focus on general information, research histories and available literature.
+            </p>
 
-                <p xml:space="preserve">At the heart of this website, there are what we call <hi rendition="#i">language
-                profiles</hi>. This type of text consists in short sketches of varieties of
-                spoken contemporary Arabic. The intention is to work in a
-                complementary manner to similar endeavours (such as EALL). For the
-                time being, we do not plan to give detailed grammatical descriptions
-                but rather focus on general information, research histories and available literature.</p>
-                
-                <div xml:id="profiles_algeria">
-                    <head>Algeria</head>
-                    <list>
-                        <item><rs ref="profile:profile_algiers_01/Algiers">Algiers</rs> (Aleksandra Ercegovčević )</item>
-                        <item><rs ref="profile:profile_cherchell_01/Cherchell">Cherchell</rs> (Aleksandra Ercegovčević)</item>
-                        <item><rs ref="profile:profile_constantine_01/Constantine">Constantine</rs> (Aleksandra Ercegovčević )</item>
-                        <item><rs ref="profile:profile_jijel_01/Jijel (formerly Djidjelli)">Jijel (formerly Djidjelli)</rs> (Aleksandra Ercegovčević)</item>                
-                        <item><rs ref="profile:profile_mazouna_01/Mazouna">Mazouna</rs> (Aleksandra Ercegovčević)</item>                                        
-                        <item><rs ref="profile:profile_mzab_01/Mzab">Mzab</rs> (Aleksandra Ercegovčević)</item>
-                        <item><rs ref="profile:profile_ouled_brahim_01/Ouled Brahim (Saïda)">Ouled Brahim (Saïda)</rs> (Aleksandra Ercegovčević)</item>
-                        <item><rs ref="profile:profile_oran_01/Oran">Oran</rs> (Aleksandra Ercegovčević)</item>
-                        <item><rs ref="profile:profile_saoura_01/Saoura">Saoura</rs> (Aleksandra Ercegovčević)</item>
-                        <item><rs ref="profile:profile_sid_bel_abbes_01/Sidi Bel Abbès">Sidi Bel Abbès</rs> (Aleksandra Ercegovčević)</item>
-                        <item><rs ref="profile:profile_tlemcen_01/Tlemcen">Tlemcen</rs> (Aleksandra Ercegovčević)</item>
-                    </list>
-                </div>
-                
-                <div xml:id="profiles_egypt">
-                    <head>Egypt</head>
-                    <list>
-                        <item><rs ref="profile:profile_alexandria_01/Alexandria">Alexandria</rs> (Aleksandra Ercegovčević)</item>
-                        <item><rs ref="profile:profile_cairo_01/Cairo">Cairo</rs> (Charly Moerth)</item>
-                    </list>
-                </div>
-                
-                <div>
-                    <head>Iran</head>
-                    <list>
-                        <item><rs ref="profile:profile_ahwaz_01/Ahwaz/Ahvaz">Ahwaz</rs> (Bettina Leitner)</item>
-                    </list>
-                </div>
-
-                <div>
-                    <head>Iraq</head>
-                    <list>
-                        <item><rs ref="profile:profile_baghdad_01/Baghdad">Baghdad</rs> (Stephan Procházka)</item>
-                        <item><rs ref="profile:profile_basra_01/Basra">Basra</rs> (Bettina Leitner)</item>
-                        <item><rs ref="profile:profile_mosul_01/Mosul">Mosul</rs> (Lea Bäumler)</item>
-                        <item><rs ref="profile:profile_shirqat_01/Al-Shirqat">Al-Shirqat</rs> (Aleksandra Ercegovčević)</item>                        
-                    </list>
-                </div>
-
-                <div>
-                    <head>Israel</head>
-                    <list>
-                        <item><rs ref="profile:profile_haifa_01/Haifa">Haifa</rs> (Stephan Procházka)</item>
-                        <item><rs ref="profile:profile_tiberias_01/Tiberias">Tiberias</rs> (Karoline Köster)</item>
-                    </list>
-                </div>
-
-                <div>
-                    <head>Kuwait</head>
-                    <list>
-                        <item><rs ref="profile:profile_kuwait_01/Kuwait">Kuwait</rs> (Bettina Leitner)</item>
-                    </list>
-                </div>
-                
-                <div>
-                    <head>Lebanon</head>
-                    <list>
-                        <item><rs ref="profile:profile_baskinta_01/Baskinta">Baskinta</rs> (Aleksandra Ercegovčević)</item>
-                        <item><rs ref="profile:profile_tripoli_leb_01/Tripoli">Tripoli</rs> (Aleksandra Ercegovčević)</item>
-                    </list>
-                </div>
-                
-                <div>
-                    <head>Libya</head>
-                    <list>
-                        <item><rs ref="profile:profile_benghazi_01/Benghazi">Benghazi</rs> (Sherin)</item>
-                    </list>
-                </div>
-                
-                <div>
-                    <head>Morocco</head>
-                    <list>                        
-                        <item><rs ref="profile:profile_chefchaouen_01/Chefchaouen, Chaouen">Chefchaouen, Chaouen</rs> (Bettina Leitner)</item>
-                        <item><rs ref="profile:profile_larache_01/Larache">Larache</rs> (Aleksandra Ercegovčević)</item>
-                        <item><rs ref="profile:profile_sale_01/Rabat (Salé)">Rabat (Salé)</rs> (Naima Sekiati)</item>
-                        <item><rs ref="profile:profile_taza_01/Taza">Taza</rs> (Aleksandra Ercegovčević)</item>
-                        <item><rs ref="profile:profile_tetouan_01/Tétouan">Tétouan</rs> (Bettina Leitner)</item>
-                    </list>
-                </div>
-
-                <div>
-                    <head>Oman</head>
-                    <list>
-                        <item><rs ref="profile:profile_khabura_01/al-Khaburah">al-Khaburah</rs> (Stephan Procházka)</item>
-                    </list>
-                </div>
-
-
-                <div>
-                    <head>Saudi Arabia</head>
-                    <list>
-                        <item><rs ref="profile:profile_al_qatif_01/al-Qatif">al-Qatif</rs> (Aleksandra Ercegovčević)</item>
-                    </list>
-                </div>
-                
-                <div>
-                    <head>Sudan</head>
-                    <list>
-                        <item><rs ref="profile:profile_khartoum_01/Khartoum">Khartoum</rs> (Aleksandra Ercegovčević)</item>
-                        <item><rs ref="profile:profile_shukriyya_01/Shukria tribe">Shukria tribe</rs> (Bettina Leitner)</item>                        
-                    </list>
-                </div>
-                
-                <div>
-                    <head>Syria</head>
-                    <list>
-                        <item><rs ref="profile:profile_arwad_01/Arwad">Arwad</rs> (Stephan Procházka)</item>
-                        <item><rs ref="profile:profile_damascus_01/Damascus">Damascus</rs> (Stephan Procházka)</item>
-                        <item><rs ref="profile:profile_derizzor_01/Deir ez-Zor">Deir ez-Zor</rs> (Aleksandra Ercegovčević)</item>
-                        <item><rs ref="profile:profile_hama_01/Hama">Hama</rs> (Stephan Procházka)</item>
-                        <item><rs ref="profile:profile_hawran_01/Hauran">Hauran</rs> (Aleksandra Ercegovčević)</item>
-                        <item><rs ref="profile:profile_mharde_01/Mhardeh">Mhardeh</rs> (Stephan Procházka)</item>
-                        <item><rs ref="profile:profile_palmyra_01/Palmyra">Palmyra</rs> (Aleksandra Ercegovčević)</item>
-                        <item><rs ref="profile:profile_qameshli_01/Qamishli">Qamishli</rs> (Maria El Fadel)</item>
-                        <item><rs ref="profile:profile_soukhne_01/Soukhne / Al-Sukhnah">Soukhne / Al-Sukhnah</rs> (Julia Baumgartner)</item>
-                    </list>
-                </div>
-
-                <div>
-                    <head>Tunesia</head>
-                    <list>
-                        <item><rs ref="profile:profile_douz_01/Douz">Douz</rs> (Veronika Ritt-Benmimoun)</item>
-                        <item><rs ref="profile:profile_sousse_001/Sousse">Sousse</rs> (Natanja Faschinger)</item>
-                        <item><rs ref="profile:profile_tozeur_01/Tozeur">Tozeur</rs> (Marlene Holzmann)</item>
-                        <item><rs ref="profile:profile_tunis_01/Tunis">Tunis</rs> (Ines Dallaji)</item>
-                    </list>
-                </div>
-
-                <div>
-                    <head>Turkey</head>
-                    <list>
-                        <item><rs ref="profile:profile_adana_01/Adana">Adana</rs> (Stephan Procházka)</item>
-                        <item><rs ref="profile:profile_daragozu_01/Daragözü (today Danagözü) ">Daragözü (today Danagözü) </rs> (Aleksandra Ercegovčević)</item>
-                        <item><rs ref="profile:profile_hasankeyf_01/Hasankeyf">Hasankeyf</rs> (Bettina Leitner)</item>
-                        <item><rs ref="profile:profile_haskoey_01/Hasköy">Hasköy</rs> (Bettina Leitner)</item>
-                        <item><rs ref="profile:profile_mardin_01/Mardin">Mardin</rs> (Aleksandra Ercegovčević)</item>
-                        <item><rs ref="profile:profile_urfa_01/Şanlıurfa">Şanlıurfa</rs> (Stephan Procházka)</item>
-                    </list>
-                </div>
-
-                <div>
-                    <head>UAE</head>
-                    <list>
-                        <item><rs ref="profile:profile_abu_dhabi_01/Abu Dhabi">Abu Dhabi</rs> (Stephanie)</item>
-                    </list>
-                </div>
-
-                <div>
-                    <head>Yemen</head>
-                    <list>
-                        <item><rs ref="profile:profile_aden_01/Aden">Aden</rs> (Aleksandra Ercegovčević)</item>
-                        <item><rs ref="profile:profile_sacda_01/Sa'dah">Sa'dah</rs> (Stephan Procházka)</item>                        
-                        <item><rs ref="profile:profile_taizz_01/Taizz">Taizz</rs> (Benjamin Suter)</item>                        
-                    </list>
-                </div>
+            <p>The following overview lists all profiles (85) according to political entities.</p>
+            <div xml:id="profiles_algeria">
+               <head>Algeria (12)</head>
+               <list>
+                  <item n="1">
+                     <rs ref="profile:profile_algiers_01/Algiers">Algiers</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="2">
+                     <rs ref="profile:profile_cherchell_01/Cherchell">Cherchell</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="3">
+                     <rs ref="profile:profile_constantine_01/Constantine">Constantine</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="4">
+                     <rs ref="profile:profile_ghazaouet_01/Ghazaouet">Ghazaouet</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="5">
+                     <rs ref="profile:profile_jijel_01/Jijel (formerly Djidjelli)">Jijel (formerly Djidjelli)</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="6">
+                     <rs ref="profile:profile_mazouna_01/Mazouna">Mazouna</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="7">
+                     <rs ref="profile:profile_mzab_01/Mzab">Mzab</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="8">
+                     <rs ref="profile:profile_oran_01/Oran">Oran</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="9">
+                     <rs ref="profile:profile_ouled_brahim_01/Ouled Brahim (Saïda)">Ouled Brahim (Saïda)</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="10">
+                     <rs ref="profile:profile_saoura_01/Saoura">Saoura</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="11">
+                     <rs ref="profile:profile_sid_bel_abbes_01/Sidi Bel Abbès">Sidi Bel Abbès</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="12">
+                     <rs ref="profile:profile_tlemcen_01/Tlemcen">Tlemcen</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+               </list>
             </div>
-        </body>
-    </text>
+            <div xml:id="profiles_egypt">
+               <head>Egypt (3)</head>
+               <list>
+                  <item n="1">
+                     <rs ref="profile:profile_alexandria_01/Alexandria">Alexandria</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="2">
+                     <rs ref="profile:profile_cairo_01/Cairo">Cairo</rs>
+                     (Charly Moerth)
+                  </item>
+                  <item n="3">
+                     <rs ref="profile:profile_fayyum_01/Fayyum">Fayyum</rs>
+                     (Claudia Laaber)
+                  </item>
+               </list>
+            </div>
+            <div xml:id="profiles_iran">
+               <head>Iran (1)</head>
+               <list>
+                  <item n="1">
+                     <rs ref="profile:profile_ahwaz_01/Ahwaz/Ahvaz">Ahwaz/Ahvaz</rs>
+                     (Bettina Leitner)
+                  </item>
+               </list>
+            </div>
+            <div xml:id="profiles_iraq">
+               <head>Iraq (5)</head>
+               <list>
+                  <item n="1">
+                     <rs ref="profile:profile_shirqat_01/Al-Shirqat">Al-Shirqat</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="2">
+                     <rs ref="profile:profile_baghdad_01/Baghdad">Baghdad</rs>
+                     (Stephan Procházka)
+                  </item>
+                  <item n="3">
+                     <rs ref="profile:profile_basra_01/Basra">Basra</rs>
+                     (Bettina LeitnerQasim Hassan)
+                  </item>
+                  <item n="4">
+                     <rs ref="profile:profile_al_hilla_01/Hilla">Hilla</rs>
+                     (Bettina Leitner)
+                  </item>
+                  <item n="5">
+                     <rs ref="profile:profile_mosul_01/Mosul">Mosul</rs>
+                     (Lea BäumlerStephan Procházka)
+                  </item>
+               </list>
+            </div>
+            <div xml:id="profiles_Israel">
+               <head>Israel (7)</head>
+               <list>
+                  <item n="1">
+                     <rs ref="profile:profile_akkon_01/Akko/Acre">Akko/Acre</rs>
+                     (Claudia Laaber)
+                  </item>
+                  <item n="2">
+                     <rs ref="profile:profile_haifa_01/Haifa">Haifa</rs>
+                     (Stephan Procházka)
+                  </item>
+                  <item n="3">
+                     <rs ref="profile:profile_iksal_01/Iksal">Iksal</rs>
+                     (Claudia Laaber)
+                  </item>
+                  <item n="4">
+                     <rs ref="profile:profile_jaffa_01/Jaffa/ Tel Aviv-Jaffa">Jaffa/ Tel Aviv-Jaffa</rs>
+                     (Claudia Laaber)
+                  </item>
+                  <item n="5">
+                     <rs ref="profile:profile_jerusalem_01/Jerusalem">Jerusalem</rs>
+                     (Claudia Laaber)
+                  </item>
+                  <item n="6">
+                     <rs ref="profile:profile_ramla_01/Ramla">Ramla</rs>
+                     (Claudia Laaber)
+                  </item>
+                  <item n="7">
+                     <rs ref="profile:profile_tiberias_01/Tiberias">Tiberias</rs>
+                     (Karoline Köster)
+                  </item>
+               </list>
+            </div>
+            <div xml:id="profiles_jordan">
+               <head>Jordan (5)</head>
+               <list>
+                  <item n="1">
+                     <rs ref="profile:profile_amman_01/Amman">Amman</rs>
+                     (Claudia Laaber)
+                  </item>
+                  <item n="2">
+                     <rs ref="profile:profile_irbid_01/Irbid">Irbid</rs>
+                     (Claudia Laaber)
+                  </item>
+                  <item n="3">
+                     <rs ref="profile:profile_al_karak_01/Kerak">Kerak</rs>
+                     (Claudia Laaber)
+                  </item>
+                  <item n="4">
+                     <rs ref="profile:profile_madaba_01/Madaba">Madaba</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="5">
+                     <rs ref="profile:profile_salt_01/Salt">Salt</rs>
+                     (Claudia Laaber)
+                  </item>
+               </list>
+            </div>
+            <div xml:id="profiles_kuweit">
+               <head>Kuweit (0)</head>
+               <list>
+                  <item n="1">
+                     <rs ref="profile:profile_kuwait_01/Kuwait">Kuwait</rs>
+                     (Bettina Leitner)
+                  </item>
+               </list>
+            </div>
+            <div xml:id="profiles_lebanon">
+               <head>Lebanon (2)</head>
+               <list>
+                  <item n="1">
+                     <rs ref="profile:profile_baskinta_01/Baskinta">Baskinta</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="2">
+                     <rs ref="profile:profile_tripoli_leb_01/Tripoli">Tripoli</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+               </list>
+            </div>
+            <div xml:id="profiles_libya">
+               <head>Libya (2)</head>
+               <list>
+                  <item n="1">
+                     <rs ref="profile:profile_benghazi_01/Benghazi">Benghazi</rs>
+                     (Sherin Elkaffas)
+                  </item>
+                  <item n="2">
+                     <rs ref="profile:profile_fezzan_01/Fezzan">Fezzan</rs>
+                     (Bettina Leitner)
+                  </item>
+               </list>
+            </div>
+            <div xml:id="profiles_morocco">
+               <head>Morocco (7)</head>
+               <list>
+                  <item n="1">
+                     <rs ref="profile:profile_anjra_01/Anjra">Anjra</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="2">
+                     <rs ref="profile:profile_chefchaouen_01/Chefchaouen, Chaouen">Chefchaouen, Chaouen</rs>
+                     (Bettina Leitner)
+                  </item>
+                  <item n="3">
+                     <rs ref="profile:profile_larache_01/Larache">Larache</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="4">
+                     <rs ref="profile:profile_sale_01/Rabat-Salé">Rabat-Salé</rs>
+                     (Naima Sekiati)
+                  </item>
+                  <item n="5">
+                     <rs ref="profile:profile_skoura_01/Skoura">Skoura</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="6">
+                     <rs ref="profile:profile_taza_01/Taza">Taza</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="7">
+                     <rs ref="profile:profile_tetouan_01/Tétouan">Tétouan</rs>
+                     (Bettina Leitner)
+                  </item>
+               </list>
+            </div>
+            <div xml:id="profiles_oman">
+               <head>Oman (2)</head>
+               <list>
+                  <item n="1">
+                     <rs ref="profile:profile_zufar_01/Dhofar">Dhofar</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="2">
+                     <rs ref="profile:profile_khabura_01/al-Khaburah">al-Khaburah</rs>
+                     (Stephan Procházka)
+                  </item>
+               </list>
+            </div>
+            <div xml:id="profiles_palestine">
+               <head>Palestine (4)</head>
+               <list>
+                  <item n="1">
+                     <rs ref="profile:profile_bethlehem_01/Bethlehem">Bethlehem</rs>
+                     (Claudia Laaber)
+                  </item>
+                  <item n="2">
+                     <rs ref="profile:profile_birzeit_01/Birzeit">Birzeit</rs>
+                     (Claudia Laaber)
+                  </item>
+                  <item n="3">
+                     <rs ref="profile:profile_gaza_01/Gaza">Gaza</rs>
+                     (Claudia Laaber)
+                  </item>
+                  <item n="4">
+                     <rs ref="profile:profile_il_khalil_01/Hebron">Hebron</rs>
+                     ()
+                  </item>
+               </list>
+            </div>
+            <div xml:id="profiles_saudi_arabia">
+               <head>Saudi Arabia (2)</head>
+               <list>
+                  <item n="1">
+                     <rs ref="profile:profile_mekka_01/Mecca">Mecca</rs>
+                     (Claudia Laaber)
+                  </item>
+                  <item n="2">
+                     <rs ref="profile:profile_al_qatif_01/al-Qatif">al-Qatif</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+               </list>
+            </div>
+            <div xml:id="profiles_sudan">
+               <head>Sudan (2)</head>
+               <list>
+                  <item n="1">
+                     <rs ref="profile:profile_khartoum_01/Khartoum">Khartoum</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="2">
+                     <rs ref="profile:profile_shukriyya_01/Shukria tribe">Shukria tribe</rs>
+                     (Bettina Leitner)
+                  </item>
+               </list>
+            </div>
+            <div xml:id="profiles_syria">
+               <head>Syria (12)</head>
+               <list>
+                  <item n="1">
+                     <rs ref="profile:profile_halab_01/Aleppo">Aleppo</rs>
+                     (Claudia Laaber)
+                  </item>
+                  <item n="2">
+                     <rs ref="profile:profile_arwad_01/Arwad">Arwad</rs>
+                     (Stephan Procházka)
+                  </item>
+                  <item n="3">
+                     <rs ref="profile:profile_damascus_01/Damascus">Damascus</rs>
+                     (Stephan Procházka)
+                  </item>
+                  <item n="4">
+                     <rs ref="profile:profile_derizzor_01/Deir ez-Zor">Deir ez-Zor</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="5">
+                     <rs ref="profile:profile_hama_01/Hama">Hama</rs>
+                     (Stephan Procházka)
+                  </item>
+                  <item n="6">
+                     <rs ref="profile:profile_hawran_01/Hauran">Hauran</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="7">
+                     <rs ref="profile:profile_homs_01/Homs">Homs</rs>
+                     (Claudia Laaber)
+                  </item>
+                  <item n="8">
+                     <rs ref="profile:profile_khawetna_01/Khawētna (tribe)">Khawētna (tribe)</rs>
+                     (Bettina Leitner)
+                  </item>
+                  <item n="9">
+                     <rs ref="profile:profile_mharde_01/Mhardeh">Mhardeh</rs>
+                     (Stephan Procházka)
+                  </item>
+                  <item n="10">
+                     <rs ref="profile:profile_palmyra_01/Palmyra">Palmyra</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="11">
+                     <rs ref="profile:profile_qameshli_01/Qamishli">Qamishli</rs>
+                     (Maria El Fadel)
+                  </item>
+                  <item n="12">
+                     <rs ref="profile:profile_soukhne_01/Soukhne / Al-Sukhnah">Soukhne / Al-Sukhnah</rs>
+                     (Julia Baumgartner)
+                  </item>
+               </list>
+            </div>
+            <div xml:id="profiles_tunisia">
+               <head>Tunisia (4)</head>
+               <list>
+                  <item n="1">
+                     <rs ref="profile:profile_douz_01/Douz">Douz</rs>
+                     (Veronika Ritt-Benmimoun)
+                  </item>
+                  <item n="2">
+                     <rs ref="profile:profile_sousse_001/Sousse">Sousse</rs>
+                     (Natanja Faschinger)
+                  </item>
+                  <item n="3">
+                     <rs ref="profile:profile_tozeur_01/Tozeur">Tozeur</rs>
+                     (Marlene Holzmann)
+                  </item>
+                  <item n="4">
+                     <rs ref="profile:profile_tunis_01/Tunis">Tunis</rs>
+                     (Ines Dallaji)
+                  </item>
+               </list>
+            </div>
+            <div xml:id="profiles_turkey">
+               <head>Turkey (7)</head>
+               <list>
+                  <item n="1">
+                     <rs ref="profile:profile_adana_01/Adana">Adana</rs>
+                     (Stephan Procházka)
+                  </item>
+                  <item n="2">
+                     <rs ref="profile:profile_daragozu_01/Daragözü (today: Danagözü)">Daragözü (today: Danagözü)</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="3">
+                     <rs ref="profile:profile_hasankeyf_01/Hasankeyf">Hasankeyf</rs>
+                     (Bettina Leitner)
+                  </item>
+                  <item n="4">
+                     <rs ref="profile:profile_haskoey_01/Hasköy">Hasköy</rs>
+                     (Bettina Leitner)
+                  </item>
+                  <item n="5">
+                     <rs ref="profile:profile_mardin_01/Mardin">Mardin</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="6">
+                     <rs ref="profile:profile_tillo_01/Tillo">Tillo</rs>
+                     (Bettina Leitner)
+                  </item>
+                  <item n="7">
+                     <rs ref="profile:profile_urfa_01/Şanlıurfa">Şanlıurfa</rs>
+                     (Stephan Procházka)
+                  </item>
+               </list>
+            </div>
+            <div xml:id="profiles_united_arab_emirates">
+               <head>United Arab Emirates (1)</head>
+               <list>
+                  <item n="1">
+                     <rs ref="profile:profile_abu_dhabi_01/Abu Dhabi">Abu Dhabi</rs>
+                     (Stephanie Sarg)
+                  </item>
+               </list>
+            </div>
+            <div xml:id="profiles_yemen">
+               <head>Yemen (6)</head>
+               <list>
+                  <item n="1">
+                     <rs ref="profile:profile_aden_01/Aden">Aden</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="2">
+                     <rs ref="profile:profile_sacda_01/Sa'dah">Sa'dah</rs>
+                     (Stephan Procházka)
+                  </item>
+                  <item n="3">
+                     <rs ref="profile:profile_sanaa_01/Sanaa">Sanaa</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="4">
+                     <rs ref="profile:profile_taizz_01/Taizz">Taizz</rs>
+                     (Benjamin Suter)
+                  </item>
+                  <item n="5">
+                     <rs ref="profile:profile_tihama_01/Tihama (Yemen)">Tihama (Yemen)</rs>
+                     (Stephan Procházka)
+                  </item>
+                  <item n="6">
+                     <rs ref="profile:profile_hadramawt_01/Ḥaḍramūt / Murah">Ḥaḍramūt / Murah</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
+               </list>
+            </div>
+         </div>
+      </body>
+   </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-

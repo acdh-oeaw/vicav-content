@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,54 +20,50 @@
       <body>
          <div xml:id="vicavTypesOfText">
             <head>Types of Text/Data</head>
-
-            <p xml:space="preserve">Apart from its linguistic goals, the project has been pursuing strong
-    interests in various aspects of text technology. The output of the
-    work of the contributors is published in form of different types of
-    digital language ressources. Our research interests in this
-    respect have been related to issues of digital lexicography, visualisation
-    of digital language resources in a multilingual environment and the
-    application of standards and de-facto standards such as TEI, LMF
-    and/or MAF in the creation of digital language resources.</p>
+            <p>Apart from its linguistic goals, the project has been pursuing strong
+               interests in various aspects of text technology. The output of the
+               work of the contributors is published in form of different types of
+               digital language ressources. Our research interests in this
+               respect have been related to issues of digital lexicography, visualisation
+               of digital language resources in a multilingual environment and the
+               application of standards and de-facto standards.</p>
 
             <div>
                <head>Language Profiles</head>
-
-               <p xml:space="preserve">At the heart of the website, there are what we have called language
-        profiles. This type of text consist in short sketches of varieties 
-        of spoken contemporary Arabic. The intention has been to work 
-        a complementary manner to similar endeavours (such as EALL). For the
-        time being, we do not plan to give detailed grammatical descriptions
-        but rather focus on general information, research histories and
-        available literature.</p>
+               <p>At the heart of the website, there are what we have called language
+                  profiles. This type of text consist in short sketches of varieties
+                  of spoken contemporary Arabic. The intention has been to proceed
+                  in a complementary manner to similar endeavours (such as EALL). For the
+                  time being, we do not plan to give detailed grammatical descriptions
+                  but rather focus on general information, research histories and
+                  available literature.</p>
             </div>
 
             <div>
                <head>Dictionaries</head>
-
-               <p xml:space="preserve">We have been working on several digital dictionaries which have 
-        been created as part of different projects. We call them dictionaries 
-        (and not glosaries) as they are made up of self-contained entries which are
-        not only used as glosses. All of these have been created to be used
-        as part of language teaching activities.</p>
+               <p>We have been working on several digital dictionaries which have
+                  been created as part of different projects. We call them dictionaries
+                  (and not glossaries) as they are made up of self-contained entries
+                  which are not only used as glosses. All of these have been created to be used
+                  as part of language teaching activities.</p>
             </div>
 
             <div>
                <head>Bibliography</head>
-
-               <p xml:space="preserve">The bibliography is an ongoing effort. Given the limitted
-        resources at our disposal, it can not be exhaustive. Here again, 
-        one of our intentions is to provide the community with readily reusable
-        standardised material.</p>
+               <p>The bibliography is an ongoing effort. Given the limited
+                  resources at our disposal, it can not be exhaustive. Here again,
+                  one of our intentions is to provide the community with readily reusable
+                  standardised material.</p>
             </div>
 
             <div>
                <head>Standards</head>
-
-               <p xml:space="preserve">An important part of our work is standards and de-facto standards.
-        The most important part of this toolbox are the 
-        <ref target="http://www.tei-c.org/Guidelines/P5/">Guidelines of the 
-        Text Encoding Initiative (P5)</ref>.</p>
+               <p>An important part of our work is standards and de-facto standards.
+                  The most important part of this toolbox are the
+                  <ref target="http://www.tei-c.org/Guidelines/P5/">Guidelines of the
+                     Text Encoding Initiative (P5)</ref>. All digital language
+                  resources used in this application have been encoded in accordance
+                  with TEI (P5).</p>
             </div>
          </div>
          <!-- End of vicavTypesOfText -->

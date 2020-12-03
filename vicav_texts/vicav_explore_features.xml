@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+<?xml version="1.0"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Explore the VICAV features</title>
@@ -12,192 +12,190 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-    
-  <text>
+   </teiHeader>
+   <text>
       <body>
-          <div xml:id="vicav_explore_features" xml:space="preserve">
-              <head>Features</head>
-              <p>The following list allows you to explore the particular phenomena across the available lists.</p>
-              
-              <div>
-                  <head>Phonology</head>                  
-                  <p>
-                      <rs ref="func:showLingFeatures('#vt_phon_CA_th','Reflexes of CA voiceless dental fricative')">Reflexes of CA  voiceless dental fricative</rs> <lb/> 
-                      <rs ref="func:showLingFeatures('#vt_phon_CA_q','Reflexes of CA q')">Reflexes of CA <hi rend="#i">q</hi></rs> <lb/> 
-                      <rs ref="func:showLingFeatures('#vt_phon_CA_dj','Reflexes of CA ǧīm')">Reflexes of CA <hi rend="#i">ǧīm</hi></rs> <lb/> 
-                  </p>
-              </div>
-              
-              <div>
-                  <head>Interrogatives</head>
-                  
-                  <p xml:space="preserve">
-                      <rs ref="func:showLingFeatures('semlib:who','who')">who?</rs> <lb/> 
-                      <rs ref="func:showLingFeatures('semlib:whose','whose')">whose?</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:what','what')">what?</rs> <lb/> 
-                      <rs ref="func:showLingFeatures('semlib:why','why')">why?</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:where','where')">where?</rs> <lb/> 
-                      <rs ref="func:showLingFeatures('semlib:where_to','where to')">where to?</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:where_from','where from')">where from?</rs> <lb/> 
-                      <rs ref="func:showLingFeatures('semlib:when','when')">when?</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:how','how')">how?</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:how_much','how much')">how much?</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:how_many','how many')">how many?</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:which','which')">which?</rs>
-                   </p>                                    
-              </div>
-              
-              <div>
-                  <head>Demonstratives</head>
-                  <p>
-                      <rs ref="func:showLingFeatures('fvlib:dempron_prox_m_sg','this (m.)')">this (m.)</rs> <lb/>
-                      <rs ref="func:showLingFeatures('fvlib:dempron_prox_f_sg','this (f.)')">this (f.)</rs> <lb/>
-                      <rs ref="func:showLingFeatures('fvlib:dempron_prox_pl','these')">these</rs> <lb/>
-                  </p>
-              </div>
-              
-              
-              <div>
-                  <head>Pronouns</head>
-                  <p>
-                      <rs ref="func:showLingFeatures('fvlib:perspron_1_sg','I')">I</rs> <lb/>
-                      <rs ref="func:showLingFeatures('fvlib:perspron_2_sg_m','you (sg., m.)')">you (sg., m.)</rs> <lb/>                  
-                      <rs ref="func:showLingFeatures('fvlib:perspron_2_sg_f','you (sg., f.)')">you (sg., f.)</rs> <lb/>                  
-                      <rs ref="func:showLingFeatures('fvlib:perspron_3_sg_m','he (sg., m.)')">he</rs> <lb/>                  
-                      <rs ref="func:showLingFeatures('fvlib:perspron_3_sg_f','she (sg., f.)')">she</rs> <lb/>                  
-                      <rs ref="func:showLingFeatures('fvlib:perspron_1_pl','we')">we</rs> <lb/>
-                      <rs ref="func:showLingFeatures('fvlib:perspron_2_pl','you (pl.)')">you (pl.)</rs> <lb/>
-                  </p>                 
-                  
-              </div>
-              <div>
-                  <head>Presentatives</head>
-                  <p>
-                      <rs ref="func:showLingFeatures('fvlib:pres_m_sg','there is … (m.)')">there is … (m.)</rs> <lb/>
-                      <rs ref="func:showLingFeatures('fvlib:pres_f_sg','there is … (f.)')">there is … (f.)</rs> <lb/>                  
-                  </p>                 
-                  
-              </div>
-              
-              <div>
-                  <head>Adverbs</head>
-                  <p>
-                      <rs ref="func:showLingFeatures('semlib:here','here')">here</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:now','now')">now</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:today','now')">today</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:yesterday','yesterday')">yesterday</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:tomorrow','tomorrow')">tomorrow</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:last_year','last year')">last year</rs> <lb/>                      
-                  </p>              
-              </div>
-              
-              <div>
-                  <head>Numerals</head>
-                  <p>
-                      <!-- <rs ref="func:showLingFeatures('semlib:two','two')">two</rs> <lb/> -->
-                      <rs ref="func:showLingFeatures('semlib:three','three')">three</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:eight','eight')">eight</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:eleven','eleven')">eleven</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:twelve','twelve')">twelve</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:eighteen','eighteen')">eighteen</rs> <lb/>
-                  </p>
-              </div>
-              
-              <div>
-                  <head>Adjectives</head>
-                  <p>
-                      <rs ref="func:showLingFeatures('semlib:good','good')">good</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:much','much')">much</rs> <lb/>
-                  </p>
-              </div>
-              
-              <div>
-                  <head>Colours</head>
-                  <p>
-                      <rs ref="func:showLingFeatures('semlib:white','white')">white</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:black','black')">black</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:pink','pink')">pink</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:grey','grey')">grey</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:orange','orange')">orange</rs> <lb/>
-                  </p>
-              </div>
-                           
-              <div>
-                  <head>Prepositions</head>
-                  <p>
-                      <rs ref="func:showLingFeatures('semlib:in','fi vs. bi')">fi vs. bi</rs> <lb/>
-                  </p>
-              </div>
-              
-              <div>
-                  <head>Important verbs</head>
-                  <p>
-                      <rs ref="func:showLingFeatures('semlib:to_do','to do')">to do</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:to_stay','to stay')">to stay</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:to_speak','to speak')">to speak</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:to_rain','to rain')">to rain</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:to_open','to open')">to open</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:to_close','to open')">to close</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:to_take','to take')">to take</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:to_give','to give')">to give</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:to_see','to see')">to see</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:to_want','to want')">to want</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:to_have','to have')">to have</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:to_bring','to bring')">to bring</rs> <lb/>
-                  </p>
-              </div>
-              
-              <div>
-                  <head>Nouns</head>
-                  <p>
-                      <rs ref="func:showLingFeatures('semlib:children','children')">children</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:coffee','coffee')">coffee</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:friend','friend')">friend</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:house','house')">house</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:husband','husband')">husband</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:lemon','lemon')">lemon</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:letter','letter')">letter</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:man','man')">man</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:money','money')">money</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:tea','tea')">tea</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:window','window')">window</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:women','women')">women</rs> <lb/>
-                  </p>
-              </div>
-              
-              <div>
-                  <head>Neologisms</head>
-                  <p>
-                      <rs ref="func:showLingFeatures('semlib:car','car')">car</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:mobile','mobile')">mobile vs. cellphone</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:TV','television')">television</rs> <lb/>
-                  </p>
-              </div>
-              
-              <div>
-                  <head>Modality</head>
-                  <p>
-                      <rs ref="func:showLingFeatures('semlib:being_unable','being unable')">being unable</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:ability','ability')">ability</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:possibility','possibility')">possibility</rs> <lb/>
-                      
-                  </p>
-              </div>
-              <div>
-                  <head>Other Items</head>
-                  <p>
-                      <rs ref="func:showLingFeatures('semlib:a_little','a little')">a little</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:existential','existential (there is, there are)')">existential (there is, there are)</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:gen_explicative','Genitive explicative')">Genitive explicative</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:please','please')">please</rs> <lb/>
-                      <rs ref="func:showLingFeatures('semlib:since_for','since/for')">since/for</rs> <lb/>
-                      
-                  </p>
-              </div>
-          </div>
-          <!-- End of vicavDictionaries -->
-      </body>
-  </text>
-</TEI>
+         <div xml:id="vicavExploreFeatures">
+            <head>Features</head>
+            <p>The following list allows you to explore the particular phenomena across the available lists.</p>
 
+            <div>
+               <head>Phonology</head>
+               <p>
+                  <rs ref="func:showLingFeatures('#vt_phon_CA_th','Reflexes of CA voiceless dental fricative')">Reflexes of CA  voiceless dental fricative</rs> <lb/>
+                  <rs ref="func:showLingFeatures('#vt_phon_CA_q','Reflexes of CA q')">Reflexes of CA <hi rend="#i">q</hi></rs> <lb/>
+                  <rs ref="func:showLingFeatures('#vt_phon_CA_dj','Reflexes of CA ǧīm')">Reflexes of CA <hi rend="#i">ǧīm</hi></rs> <lb/>
+               </p>
+            </div>
+
+            <div>
+               <head>Interrogatives</head>
+
+               <p>
+                  <rs ref="func:showLingFeatures('semlib:who','who')">who?</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:whose','whose')">whose?</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:what','what')">what?</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:why','why')">why?</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:where','where')">where?</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:where_to','where to')">where to?</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:where_from','where from')">where from?</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:when','when')">when?</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:how','how')">how?</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:how_much','how much')">how much?</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:how_many','how many')">how many?</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:which','which')">which?</rs>
+               </p>
+            </div>
+
+            <div>
+               <head>Demonstratives</head>
+               <p>
+                  <rs ref="func:showLingFeatures('fvlib:dempron_prox_m_sg','this (m.)')">this (m.)</rs> <lb/>
+                  <rs ref="func:showLingFeatures('fvlib:dempron_prox_f_sg','this (f.)')">this (f.)</rs> <lb/>
+                  <rs ref="func:showLingFeatures('fvlib:dempron_prox_pl','these')">these</rs> <lb/>
+               </p>
+            </div>
+
+
+            <div>
+               <head>Pronouns</head>
+               <p>
+                  <rs ref="func:showLingFeatures('fvlib:perspron_1_sg','I')">I</rs> <lb/>
+                  <rs ref="func:showLingFeatures('fvlib:perspron_2_sg_m','you (sg., m.)')">you (sg., m.)</rs> <lb/>
+                  <rs ref="func:showLingFeatures('fvlib:perspron_2_sg_f','you (sg., f.)')">you (sg., f.)</rs> <lb/>
+                  <rs ref="func:showLingFeatures('fvlib:perspron_3_sg_m','he (sg., m.)')">he</rs> <lb/>
+                  <rs ref="func:showLingFeatures('fvlib:perspron_3_sg_f','she (sg., f.)')">she</rs> <lb/>
+                  <rs ref="func:showLingFeatures('fvlib:perspron_1_pl','we')">we</rs> <lb/>
+                  <rs ref="func:showLingFeatures('fvlib:perspron_2_pl','you (pl.)')">you (pl.)</rs> <lb/>
+               </p>
+
+            </div>
+            <div>
+               <head>Presentatives</head>
+               <p>
+                  <rs ref="func:showLingFeatures('fvlib:pres_m_sg','there is … (m.)')">there is … (m.)</rs> <lb/>
+                  <rs ref="func:showLingFeatures('fvlib:pres_f_sg','there is … (f.)')">there is … (f.)</rs> <lb/>
+               </p>
+
+            </div>
+
+            <div>
+               <head>Adverbs</head>
+               <p>
+                  <rs ref="func:showLingFeatures('semlib:here','here')">here</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:now','now')">now</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:today','now')">today</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:yesterday','yesterday')">yesterday</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:tomorrow','tomorrow')">tomorrow</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:last_year','last year')">last year</rs> <lb/>
+               </p>
+            </div>
+
+            <div>
+               <head>Numerals</head>
+               <p>
+                  <!-- <rs ref="func:showLingFeatures('semlib:two','two')">two</rs> <lb/> -->
+                  <rs ref="func:showLingFeatures('semlib:three','three')">three</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:eight','eight')">eight</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:eleven','eleven')">eleven</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:twelve','twelve')">twelve</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:eighteen','eighteen')">eighteen</rs> <lb/>
+               </p>
+            </div>
+
+            <div>
+               <head>Adjectives</head>
+               <p>
+                  <rs ref="func:showLingFeatures('semlib:good','good')">good</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:much','much')">much</rs> <lb/>
+               </p>
+            </div>
+
+            <div>
+               <head>Colours</head>
+               <p>
+                  <rs ref="func:showLingFeatures('semlib:white','white')">white</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:black','black')">black</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:pink','pink')">pink</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:grey','grey')">grey</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:orange','orange')">orange</rs> <lb/>
+               </p>
+            </div>
+
+            <div>
+               <head>Prepositions</head>
+               <p>
+                  <rs ref="func:showLingFeatures('semlib:in','fi vs. bi')">fi vs. bi</rs> <lb/>
+               </p>
+            </div>
+
+            <div>
+               <head>Important verbs</head>
+               <p>
+                  <rs ref="func:showLingFeatures('semlib:to_do','to do')">to do</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:to_stay','to stay')">to stay</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:to_speak','to speak')">to speak</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:to_rain','to rain')">to rain</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:to_open','to open')">to open</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:to_close','to open')">to close</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:to_take','to take')">to take</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:to_give','to give')">to give</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:to_see','to see')">to see</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:to_want','to want')">to want</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:to_have','to have')">to have</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:to_bring','to bring')">to bring</rs> <lb/>
+               </p>
+            </div>
+
+            <div>
+               <head>Nouns</head>
+               <p>
+                  <rs ref="func:showLingFeatures('semlib:children','children')">children</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:coffee','coffee')">coffee</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:friend','friend')">friend</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:house','house')">house</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:husband','husband')">husband</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:lemon','lemon')">lemon</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:letter','letter')">letter</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:man','man')">man</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:money','money')">money</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:tea','tea')">tea</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:window','window')">window</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:women','women')">women</rs> <lb/>
+               </p>
+            </div>
+
+            <div>
+               <head>Neologisms</head>
+               <p>
+                  <rs ref="func:showLingFeatures('semlib:car','car')">car</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:mobile','mobile')">mobile vs. cellphone</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:TV','television')">television</rs> <lb/>
+               </p>
+            </div>
+
+            <div>
+               <head>Modality</head>
+               <p>
+                  <rs ref="func:showLingFeatures('semlib:being_unable','being unable')">being unable</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:ability','ability')">ability</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:possibility','possibility')">possibility</rs> <lb/>
+
+               </p>
+            </div>
+            <div>
+               <head>Other Items</head>
+               <p>
+                  <rs ref="func:showLingFeatures('semlib:a_little','a little')">a little</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:existential','existential (there is, there are)')">existential (there is, there are)</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:gen_explicative','Genitive explicative')">Genitive explicative</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:please','please')">please</rs> <lb/>
+                  <rs ref="func:showLingFeatures('semlib:since_for','since/for')">since/for</rs> <lb/>
+
+               </p>
+            </div>
+         </div>
+         <!-- End of vicavDictionaries -->
+      </body>
+   </text>
+</TEI>
