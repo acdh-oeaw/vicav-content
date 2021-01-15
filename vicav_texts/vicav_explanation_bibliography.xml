@@ -103,10 +103,10 @@
                               </cell>
                               <cell rend="tdQuery"/>
                               <cell rend="tdQuery">
-                        <ref target="bibl:vt:bedouin_dialect">→Text</ref>
+                        <ref target="bibl:vt:bedouin dialect">→Text</ref>
                      </cell>
                      <cell rend="tdQuery">
-                        <ref target="mapMarkers:vt:bedouin_dialect">→Map</ref>
+                        <ref target="mapMarkers:vt:bedouin dialect">→Map</ref>
                      </cell>
                   </row>
                   <row>
@@ -121,6 +121,7 @@
                         <ref target="mapMarkers:vt:dictionary">→Map</ref>
                      </cell>
                   </row>
+
                   <row>
                      <cell rend="tdQuery">
                         <hi rendition="#i">vt:morphology</hi>

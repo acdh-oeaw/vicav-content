@@ -1,52 +1,52 @@
 <?xml version="1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>Title</title>
-			</titleStmt>
-			<publicationStmt>
-				<p>Publication Information</p>
-			</publicationStmt>
-			<sourceDesc>
-				<p>Information about the source</p>
-			</sourceDesc>
-		</fileDesc>
-	</teiHeader>
-	<text>
-		<body>
-			<div xml:id="vicavMission">
-    <head>Vienna Corpus of Arabic Varieties (VICAV)</head>
-            
-    <p>VICAV is an international endeavour aiming at the collection of
-    digital language resources documenting varieties of spoken Arabic.
-    While in principle being open to any type of text, we currently focus
-    on bibliographical data, on so-called <hi rend="italic">language 
-    profiles</hi>, standardised <hi rend="italic">feature lists</hi> 
-    and <hi rend="italic">lexical data</hi>.</p>
-            
-    <p>
-    <graphic url="tei_banner.jpg" rend="inParagraph"/>
-    VICAV has a strong methodological component focusing on the 
-    development of digital data and tools. A large part of these
-    efforts is concentrated on modelling data and providing documentation
-    for developmental and pedagogical purposes. VICAV is strongly committed 
-    to the <hi rend="italic">Text Encoding Initiative</hi> (TEI). We provide 
-    a <ref target="text:vicavDictionaryEncoding/DICTIONARY_ENCODING">detailed
-    documentation of our lexical data</ref>.
-    </p>
-            
-    <p>VICAV has been started as a co-operation between the Department of
-    Oriental Studies of the University of Vienna and the Austrian Centre
-    for Digital Humanities of the Austrian Academy of Sciences (ACDH-OeAW).
-    The institutional frame of the project is defined by a repository for 
-    digital research data, a University and a national Academy, all of which 
-    is meant to ensure long-term availability of both data and the 
-    web-interface.</p>
-</div>
-		</body>
-	</text>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="vicavMission">
+            <head>Vienna Corpus of Arabic Varieties (VICAV)</head>
+
+            <p>VICAV is an international endeavour aiming at the collection of
+               digital language resources documenting varieties of spoken Arabic.
+               While in principle being open to any type of text, we currently focus
+               on bibliographical data, on so-called <hi rend="italic">language
+                  profiles</hi>, standardised <hi rend="italic">feature lists</hi>
+               and <hi rend="italic">lexical data</hi>.</p>
+
+            <p>
+               <graphic url="tei_banner.jpg" rend="inParagraph"/>
+               VICAV has a strong methodological component focusing on the
+               development of digital data and tools. A large part of these
+               efforts is concentrated on modelling data and providing documentation
+               for developmental and pedagogical purposes. VICAV is strongly committed
+               to the <hi rend="italic">Text Encoding Initiative</hi> (TEI). We provide
+               a <ref target="text:vicavDictionaryEncoding/DICTIONARY_ENCODING">detailed
+                  documentation of our lexical data</ref>.
+            </p>
+
+            <p>VICAV has been started as a co-operation between the Department of
+               Oriental Studies of the University of Vienna and the Austrian Centre
+               for Digital Humanities of the Austrian Academy of Sciences (ACDH-OeAW).
+               The institutional frame of the project is defined by a repository for
+               digital research data, a University and a national Academy, all of which
+               is meant to ensure long-term availability of both data and the
+               web-interface.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

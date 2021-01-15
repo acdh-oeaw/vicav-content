@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+<?xml version="1.0"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,11 +19,11 @@
           <div xml:id="dictFrontPage_Baghdad" n="BAGHDAD DICTIONARY">
             <head>A Machine-readable Dictionary of Baghdad Arabic</head>
             
-            <p xml:space="preserve">Compiled by <hi rend="italic">Stephan Procházka</hi> 
+            <p>Compiled by <hi rend="italic">Stephan Procházka</hi> 
                 and <hi rend="italic">Fady Yousuf</hi></p>
               
-            <p>The current version contains ~600 entries and examples.</p>
-            <p xml:space="preserve">To query the dictionary click <ref target="func:openDict_Baghdad()">here</ref>.</p>
+            <p>The current version contains ~1100 entries and examples.</p>
+            <p>To query the dictionary click <ref target="func:openDict_Baghdad()">here</ref>.</p>
             <p>For details as to how to formulate meaningful dictionary queries consult 
                 the <rs ref="text:dictFrontPage_Tunis"> examples of the TUNICO dictionary</rs>.</p>
               

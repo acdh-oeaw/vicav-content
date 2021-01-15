@@ -14,7 +14,6 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <ab>The links for the profiles were assembled by scriptor.exe--&lt;createListOfVICAVProfiles</ab>
          </projectDesc>
       </encodingDesc>
    </teiHeader>
@@ -65,21 +64,23 @@
             <div type="dvContributor">
                <head>Aleksandra Ercegovčević</head>
                <p><graphic url="alexandraE.jpg"/>… is a student assistent at the University of Vienna and
-                  prepared many of the language profiles (<rs ref="profile:profile_larache_01/Larache">Larache</rs>,
+                  prepared many of the language profiles (
                   <rs ref="profile:profile_aden_01/Aden">Aden</rs>, <rs ref="profile:profile_alexandria_01/Alexandria">Alexandria</rs>,
-                  <rs ref="profile:profile_al_qatif_01/al-Qatif">al-Qatif</rs>, <rs ref="profile:profile_shirqat_01/Al-Shirqat">Al-Shirqat</rs>,
+                  <rs ref="profile:profile_algiers_01/Algiers">Algiers</rs>, <rs ref="profile:profile_al_qatif_01/al-Qatif">al-Qatif</rs>,
+                  <rs ref="profile:profile_shirqat_01/Al-Shirqat">Al-Shirqat</rs>, <rs ref="profile:profile_anjra_01/Anjra">Anjra</rs>,
                   <rs ref="profile:profile_baskinta_01/Baskinta">Baskinta</rs>, <rs ref="profile:profile_cherchell_01/Cherchell">Cherchell</rs>,
-                  <rs ref="profile:profile_daragozu_01/Daragözü (today Danagözü)">Daragözü (today: Danagözü) </rs>,
-                  <rs ref="profile:profile_derizzor_01/Deir ez-Zor">Deir ez-Zor</rs>, <rs ref="profile:profile_hawran_01/Hauran">Hauran</rs>,
-                  <rs ref="profile:profile_jijel_01/Jijel (formerly Djidjelli)">Jijel (formerly Djidjelli)</rs>,
+                  <rs ref="profile:profile_constantine_01/Constantine">Constantine</rs>), <rs ref="profile:profile_daragozu_01/Daragözü (today Danagözü)">Daragözü (today: Danagözü) </rs>,
+                  <rs ref="profile:profile_derizzor_01/Deir ez-Zor">Deir ez-Zor</rs>, <rs ref="profile:profile_zufar_01/Dhofar">Dhofar</rs>,
+                  <rs ref="profile:profile_ghazaouet_01/Ghazaouet">Ghazaouet</rs>, <rs ref="profile:profile_hadramawt_01/Ḥaḍramūt / Murah">Ḥaḍramūt / Murah</rs>,
+                  <rs ref="profile:profile_hawran_01/Hauran">Hauran</rs>, <rs ref="profile:profile_jijel_01/Jijel (formerly Djidjelli)">Jijel (formerly Djidjelli)</rs>,
                   <rs ref="profile:profile_khartoum_01/Khartoum">Khartoum</rs>, <rs ref="profile:profile_larache_01/Larache">Larache</rs>,
-                  <rs ref="profile:profile_mardin_01/Mardin">Mardin</rs>, <rs ref="profile:profile_mazouna_01/Mazouna">Mazouna</rs>,
-                  <rs ref="profile:profile_mzab_01/Mzab">Mzab</rs>, <rs ref="profile:profile_oran_01/Oran">Oran</rs>,
-                  <rs ref="profile:profile_ouled_brahim_01/Ouled Brahim (Saïda)">Ouled Brahim (Saïda)</rs>,
-                  <rs ref="profile:profile_palmyra_01/Palmyra">Palmyra</rs>, <rs ref="profile:profile_saoura_01/Saoura">Saoura</rs>,
-                  <rs ref="profile:profile_sid_bel_abbes_01/Sidi Bel Abbès">Sidi Bel Abbès</rs>, <rs ref="profile:profile_taza_01/Taza">Taza</rs>,
-                  <rs ref="profile:profile_tlemcen_01/Tlemcen">Tlemcen</rs>, <rs ref="profile:profile_tripoli_leb_01/Tripoli">Tripoli</rs>,
-                  <rs ref="profile:profile_algiers_01/Algiers">Algiers</rs>, <rs ref="profile:profile_constantine_01/Constantine">Constantine</rs>).
+                  <rs ref="profile:profile_madaba_01/Madaba">Madaba</rs>, <rs ref="profile:profile_mardin_01/Mardin">Mardin</rs>,
+                  <rs ref="profile:profile_mazouna_01/Mazouna">Mazouna</rs>, <rs ref="profile:profile_mzab_01/Mzab">Mzab</rs>,
+                  <rs ref="profile:profile_oran_01/Oran">Oran</rs>, <rs ref="profile:profile_ouled_brahim_01/Ouled Brahim (Saïda)">Ouled Brahim (Saïda)</rs>,
+                  <rs ref="profile:profile_palmyra_01/Palmyra">Palmyra</rs>, <rs ref="profile:profile_sanaa_01/Sanaa">Sanaa</rs>,
+                  <rs ref="profile:profile_saoura_01/Saoura">Saoura</rs>, <rs ref="profile:profile_sid_bel_abbes_01/Sidi Bel Abbès">Sidi Bel Abbès</rs>,
+                  <rs ref="profile:profile_skoura_01/Skoura">Skoura</rs>, <rs ref="profile:profile_taza_01/Taza">Taza</rs>,
+                  <rs ref="profile:profile_tlemcen_01/Tlemcen">Tlemcen</rs>, <rs ref="profile:profile_tripoli_leb_01/Tripoli">Tripoli</rs>.
                </p>
             </div>
 
@@ -93,17 +94,27 @@
                <head>Bettina Leitner</head>
                <p><graphic url="dummy_f.png"/>… is working on Khuzistan and provided the profiles of
                   <rs ref="profile:profile_ahwaz_01/Ahwaz/Ahvaz">Ahwaz/Ahvaz</rs>, <rs ref="profile:profile_basra_01/Basra">Basra</rs>,
-                  <rs ref="profile:profile_chefchaouen_01/Chefchaouen, Chaouen">Chefchaouen, Chaouen</rs>,
+                  <rs ref="profile:profile_chefchaouen_01/Chefchaouen, Chaouen">Chefchaouen, Chaouen</rs>, <rs ref="profile:profile_fezzan_01/Fezzan">Fezzan</rs>,
                   <rs ref="profile:profile_hasankeyf_01/Hasankeyf">Hasankeyf</rs>, <rs ref="profile:profile_haskoey_01/Hasköy">Hasköy</rs>,
-                  <rs ref="profile:profile_kuwait_01/Kuwait">Kuwait</rs>, <rs ref="profile:profile_shukriyya_01/Shukria tribe">Shukria tribe</rs> and
-                  <rs ref="profile:profile_tetouan_01/Tétouan">Tétouan</rs>.
+                   <rs ref="profile:profile_al_hilla_01/Hilla">Hilla</rs>, <rs ref="profile:profile_khawetna_01/Khawētna (tribe)">Khawētna (tribe)</rs>,
+                  <rs ref="profile:profile_kuwait_01/Kuwait">Kuwait</rs>, <rs ref="profile:profile_shukriyya_01/Shukria tribe">Shukria tribe</rs>,
+                  <rs ref="profile:profile_tetouan_01/Tétouan">Tétouan</rs> and <rs ref="profile:profile_tillo_01/Tillo">Tillo</rs>.
                </p>
             </div>
 
             <div type="dvContributor">
                <head>Claudia Laaber</head>
                <p><graphic url="dummy_f.png"/>… is a student assistant working at
-                  the University of Vienna. She has been working tirelessly on the bibliography and the profiles.</p>
+                  the University of Vienna. She has been working tirelessly on the bibliography and the profiles. She provided the following profiles:
+                  <rs ref="profile:profile_akkon_01/Akko/Acre">Akko/Acre</rs>, <rs ref="profile:profile_halab_01/Aleppo">Aleppo</rs>,
+                  <rs ref="profile:profile_bethlehem_01/Bethlehem">Bethlehem</rs>, <rs ref="profile:profile_birzeit_01/Birzeit">Birzeit</rs>,
+                  <rs ref="profile:profile_fayyum_01/Fayyum">Fayyum</rs>, <rs ref="profile:profile_gaza_01/Gaza">Gaza</rs>,
+                  <rs ref="profile:profile_homs_01/Homs">Homs</rs>, <rs ref="profile:profile_iksal_01/Iksal">Iksal</rs>,
+                  <rs ref="profile:profile_irbid_01/Irbid">Irbid</rs>, <rs ref="profile:profile_jaffa_01/Jaffa/ Tel Aviv-Jaffa">Jaffa/ Tel Aviv-Jaffa</rs>,
+                  <rs ref="profile:profile_jerusalem_01/Jerusalem">Jerusalem</rs>, <rs ref="profile:profile_al_karak_01/Kerak">Kerak</rs>
+                  <rs ref="profile:profile_mekka_01/Mecca">Mecca</rs>, <rs ref="profile:profile_ramla_01/Ramla">Ramla</rs> and
+                  <rs ref="profile:profile_salt_01/Salt">Salt</rs>.
+               </p>
             </div>
 
             <div type="dvContributor">
@@ -111,7 +122,8 @@
                <p><graphic url="charlyM.png"/>… prepared some of our Egyptian material. He takes a great
                   interest in the interface between linguistics and digital language
                   ressources doing research in the fields of virtual research
-                  environments and language related standards.</p>
+                  environments and language related standards. Furthermore he contributed the profile for <rs ref="profile:profile_cairo_01/Cairo">Cairo</rs>.
+               </p>
             </div>
             <div type="dvContributor">
                <head>Lea Müller-Funk</head>
@@ -128,8 +140,8 @@
                   <rs ref="profile:profile_khabura_01/al-Khaburah">al-Khaburah</rs>, <rs ref="profile:profile_arwad_01/Arwad">Arwad</rs>,
                   <rs ref="profile:profile_baghdad_01/Baghdad">Baghdad</rs>, <rs ref="profile:profile_damascus_01/Damascus">Damascus</rs>,
                   <rs ref="profile:profile_haifa_01/Haifa">Haifa</rs>, <rs ref="profile:profile_hama_01/Hama">Hama</rs>,
-                  <rs ref="profile:profile_mharde_01/Mhardeh">Mhardeh</rs>, <rs ref="profile:profile_sacda_01/Sa'dah">Sa'dah</rs> and
-                  <rs ref="profile:profile_urfa_01/Şanlıurfa">Şanlıurfa</rs>.
+                  <rs ref="profile:profile_mharde_01/Mhardeh">Mhardeh</rs>, <rs ref="profile:profile_sacda_01/Sa'dah">Sa'dah</rs>,
+                  <rs ref="profile:profile_urfa_01/Şanlıurfa">Şanlıurfa</rs> and <rs ref="profile:profile_tihama_01/Tihama (Yemen)">Tihama (Yemen)</rs>.
                </p>
             </div>
 
@@ -177,10 +189,11 @@
                   Julia Baumgartner (<rs ref="profile:profile_soukhne_01/Soukhne / Al-Sukhnah">Soukhne / Al-Sukhnah</rs>),
                   Natanja Faschinger <rs ref="profile:profile_sousse_001/Sousse">Sousse</rs>,
                   Lea Bäumler <rs ref="profile:profile_mosul_01/Mosul">Mosul</rs>,
-                  Marlene Holzmann, <rs ref="profile:profile_tozeur_01/Tozeur">Tozeur</rs>
+                  Marlene Holzmann <rs ref="profile:profile_tozeur_01/Tozeur">Tozeur</rs>
                   Maria El Fadel <rs ref="profile:profile_qameshli_01/Qamishli">Qamishli</rs>,
-                  Karoline Köster, <rs ref="profile:profile_tiberias_01/Tiberias">Tiberias</rs>,
+                  Karoline Köster <rs ref="profile:profile_tiberias_01/Tiberias">Tiberias</rs>,
                   Sherin Elkaffas <rs ref="profile:profile_benghazi_01/Benghazi">Benghazi</rs>,
+                  Qasim Hassan <rs ref="profile:profile_basra_01/Basra">Basra</rs>,
                   Stephanie Sarg <rs ref="profile:profile_abu_dhabi_01/Abu Dhabi">Abu Dhabi</rs> and
                   Benjamin Suter <rs ref="profile:profile_taizz_01/Taizz">Taizz</rs>.</p>
             </div>
