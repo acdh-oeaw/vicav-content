@@ -45,7 +45,7 @@
          <div>
             <head>
                <label>Name (English)</label>
-               <name type="geo" xml:lang="eng">Hebron</name>
+               <name type="place" xml:lang="eng">Hebron</name>
                <label>Name (Fuṣḥā, transcription)</label>
                <name xml:lang="ara">al-Xalīl</name>
                <label>Name in local variety (in transcription)</label>
@@ -58,7 +58,7 @@
                <head>Geo location</head>
                <p>
                   <geo>31°31'N 35°05'E</geo>
-<country></country>
+                  <country>Palestine</country>
                </p>
             </div>
 

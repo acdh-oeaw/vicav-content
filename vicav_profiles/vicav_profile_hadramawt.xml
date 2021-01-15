@@ -57,7 +57,7 @@
                <name xml:lang="ara-x-DMG">Ḥaḍramūt / Murah</name>
 
                <label>Name (English)</label>
-               <name type="geo" xml:lang="eng">Hadramawt</name>
+               <name type="region" xml:lang="eng">Hadramawt</name>
                <label>MSA name</label>
                <name xml:lang="ara">حضرموت‎</name>
                <label>MSA name (trans.)</label>
@@ -70,7 +70,7 @@
                <head>Geo location</head>
                <p>
                   <geo>15°59'N 48°50'E</geo>
-<country></country>
+                  <country>Yemen</country>
                </p>
             </div>
             <div type="typology">

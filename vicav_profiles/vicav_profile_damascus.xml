@@ -43,7 +43,7 @@
             <head type="imgCaption" xml:space="preserve">Courtesy by Stephan Procházka, 1985</head>
           </figure>
           <label>Name (English)</label>
-          <name type="geo" xml:lang="eng">Damascus</name>
+          <name type="place" xml:lang="eng">Damascus</name>
           <label>MSA name</label>
           <name xml:lang="ara">دمشق</name>
           <label>MSA name (trans.)</label>
@@ -57,7 +57,7 @@
         <div type="positioning">
           <p xml:space="preserve">
               <geo>33°30'N 36°17'E</geo>
-<country></country>
+              <country>Syria</country>
             </p>
         </div>
 

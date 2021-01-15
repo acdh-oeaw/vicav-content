@@ -46,7 +46,7 @@
               </head>
           </figure>
           <label>Name (English)</label>
-          <name type="geo" xml:lang="eng">Rabat-Salé</name>
+          <name type="place" xml:lang="eng">Rabat-Salé</name>
           <label>Name (MSA)</label>
           <name xml:lang="ara">سلا</name>
           <label>Name (MSA, trans.)</label>
@@ -58,8 +58,8 @@
         </head>
         <div type="positioning">
           <p>
-              <geo>34°03'N 06°47'E</geo>
-<country></country>
+              <geo>34°03'N 06°47'W</geo>
+              <country>Morocco</country>
             </p>
         </div>
 

@@ -45,7 +45,7 @@
          <div>
             <head>
                <label>Name (English)</label>
-               <name type="geo" xml:lang="eng">Fezzan</name>
+               <name type="region" xml:lang="eng">Fezzan</name>
                 <label>MSA name</label>
                <name xml:lang="ara">فزان</name>
                <label>MSA name (trans.)</label>
@@ -57,7 +57,7 @@
             <div type="positioning">
                <head>Geo location</head>
                <p><geo>26°00'N 14°00'E</geo>
-<country></country> (Sebha)</p>
+               <country>Libya</country> (Sebha)</p>
             </div>
 
             <div type="typology">

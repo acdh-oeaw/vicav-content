@@ -48,7 +48,7 @@
                   <head type="imgCaption">Courtesy of Stephan Procházka, 2009</head>
                </figure>
                <label>Name (English)</label>
-               <name type="geo" xml:lang="eng">Tihama (Yemen)</name>
+               <name type="region" xml:lang="eng">Tihama (Yemen)</name>
                <label>Name (MSA)</label>
                <name xml:lang="ara">تهامة</name>
                <label>Name (Fuṣḥā, transcription)</label>
@@ -59,8 +59,8 @@
             <div type="positioning">
                <head>Geo location</head>
                <p>
-                  <geo>22°00'N 40°00'E</geo>
-<country></country>
+                  <geo>14°30'N 43°15'E</geo>
+                  <country>Yemen</country>
                </p>
             </div>
             <div type="typology">

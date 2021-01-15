@@ -45,7 +45,7 @@
                   <head type="imgCaption">Courtesy of Stephan Procházka, 2004</head>
                </figure>
                <label>Name (English)</label>
-               <name type="geo" xml:lang="eng">Jaffa/ Tel Aviv-Jaffa</name>
+               <name type="place" xml:lang="eng">Jaffa/ Tel Aviv-Jaffa</name>
                <label>Name (Fuṣḥā, transcription)</label>
                <name xml:lang="ara">Yāfā</name>
                <label>Name in local variety (in transcription)</label>
@@ -57,7 +57,7 @@
                <head>Geo location</head>
                <p>
                   <geo>32°03'N 34°45'E</geo>
-<country></country>
+                  <country>Israel</country>
                </p>
             </div>
             <div type="typology">

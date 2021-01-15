@@ -44,7 +44,7 @@
                   </head>
                </figure>
                <label>Name (English)</label>
-               <name type="geo" xml:lang="eng">Cairo</name>
+               <name type="place" xml:lang="eng">Cairo</name>
                <label>Name (MSA)</label>
                <name xml:lang="ara">القاهیرة</name>
                <label>Name (MSA, trans.)</label>
@@ -57,7 +57,7 @@
             <div type="positioning">
                <p>
                   <geo>30°03'N 31°14'E</geo>
-<country></country>
+                  <country>Egypt</country>
                </p>
             </div>
             <div type="typology">

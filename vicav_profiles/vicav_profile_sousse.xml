@@ -44,7 +44,7 @@
                   <head type="imgCaption">Courtesy by Stephan Procházka, 2007</head>
                </figure>
                <label>Name (English)</label>
-               <name type="geo" xml:lang="eng">Sousse</name>
+               <name type="place" xml:lang="eng">Sousse</name>
                <label>Name (MSA)</label>
                <name xml:lang="ara">سوسة</name>
                <label>Name (MSA, trans.)</label>
@@ -55,7 +55,7 @@
             <div type="positioning">
                <p>
                   <geo>35°49'N 10°38'E</geo>
-<country></country>
+                  <country>Tunisia</country>
                </p>
             </div>
             <div type="typology">

@@ -45,7 +45,7 @@
                   </head>
                </figure>
                <label>Name (English)</label>
-               <name type="geo" xml:lang="eng">Tiberias</name>
+               <name type="place" xml:lang="eng">Tiberias</name>
                <label>MSA Name</label>
                <name xml:lang="ara">طبرية</name>
                <label>MSA name (trans.)</label>
@@ -56,7 +56,7 @@
             <div type="positioning">
                <p>
                   <geo>32°47'N 35°31'E</geo>
-<country></country>
+                  <country>Israel</country>
                </p>
             </div>
             <div type="typology">

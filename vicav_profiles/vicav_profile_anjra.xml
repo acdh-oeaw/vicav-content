@@ -50,7 +50,7 @@
          <div>
             <head>
                <label>Name (English)</label>
-               <name type="geo" xml:lang="eng">Anjra</name>
+               <name type="place" xml:lang="eng">Anjra</name>
                <label>MSA name</label>
                <name xml:lang="ara">أنجرة</name>
                <label>MSA name (trans.)</label>
@@ -61,8 +61,8 @@
 
             <div type="positioning">
                <p>
-                  <geo>35°39'N 05°30'E</geo>
-<country></country>
+                  <geo>35°39'N 05°30'W</geo>
+                  <country>Morocco</country>
                </p>
             </div>
 

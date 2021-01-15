@@ -47,7 +47,7 @@
 						<head type="imgCaption">Courtesy of Stephan Procházka, 2009</head>
 					</figure>
 					<label>Name (English)</label>
-					<name type="geo" xml:lang="eng">Alexandria</name>
+					<name type="place" xml:lang="eng">Alexandria</name>
 					<label>MSA name</label>
 					<name xml:lang="ara">الإسكندرية</name>
 					<label>MSA name (trans.)</label>
@@ -59,7 +59,7 @@
 					<head>Geo location</head>
 					<p>
                  			 <geo>31°12'N 29°54'E</geo>
-<country></country>
+                                          <country>Egypt</country>
                			</p>
 				</div>
 				<div type="typology">

@@ -49,7 +49,7 @@
                   </head>
                </figure>
                <label>Name (English)</label>
-               <name type="geo" xml:lang="eng">Jijel (formerly Djidjelli)</name>
+               <name type="place" xml:lang="eng">Jijel (formerly Djidjelli)</name>
                <label>MSA name</label>
                <name xml:lang="ara">جيجل</name>
                <label>MSA name (trans.)</label>
@@ -61,8 +61,8 @@
             <div type="positioning">
                <head>Geo location</head>
                <p>
-                  <geo>36°49'N 05°46'E</geo>
-<country></country>
+                  <geo>36°49'N 05°45'E</geo>
+                  <country>Algeria</country>
                </p>
             </div>
 

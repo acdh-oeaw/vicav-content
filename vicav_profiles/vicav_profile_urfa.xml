@@ -48,7 +48,7 @@
                         
                     </figure>
                     <label>Name (English)</label>
-                    <name type="geo" xml:lang="eng">Şanlıurfa</name>
+                    <name type="place" xml:lang="eng">Şanlıurfa</name>
                     <label>MSA Name</label>
                     <name xml:lang="ara">الرها</name>
                     <label>MSA Name (trans.)</label>
@@ -58,8 +58,8 @@
                 </head>
                 <div type="positioning">
                     <p xml:space="preserve">
-                        <geo>37°12'N 38°46'E</geo>
-<country></country>
+                        <geo>37°10'N 38°47'E</geo>
+                       <country>Turkey</country>
                     </p>
                 </div>
 

@@ -55,7 +55,7 @@
                </figure>
 
                <label>Name (English)</label>
-                    <name type="geo" xml:lang="eng">Sanaa</name>
+                    <name type="place" xml:lang="eng">Sanaa</name>
                     
                     <label>MSA name</label>
                     <name xml:lang="ara">صنعاء</name>
@@ -70,7 +70,7 @@
             <div type="positioning">
                <p>
                   <geo>15°21'N 44°12'E</geo>
-<country></country>
+                  <country>Yemen</country>
                </p>
             </div>
 

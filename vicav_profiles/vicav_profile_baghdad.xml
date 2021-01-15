@@ -45,7 +45,7 @@
                   </head>
                </figure>
                <label>Name (English)</label>
-               <name type="geo" xml:lang="eng">Baghdad</name>
+               <name type="place" xml:lang="eng">Baghdad</name>
                <label>MSA name</label>
                <name xml:lang="ara">بغداد</name>
                <label>MSA name (trans.)</label>
@@ -54,8 +54,8 @@
 
             <div type="positioning">
                <p>
-                  <geo>33°33'N 44°38'E</geo>
-<country></country>
+                  <geo>33°20'N 44°24'E</geo>
+                  <country>Iraq</country>
                </p>
             </div>
 

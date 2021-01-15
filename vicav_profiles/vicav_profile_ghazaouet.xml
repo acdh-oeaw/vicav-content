@@ -49,7 +49,7 @@
          <div>
             <head>
                <label>Name (English)</label>
-               <name type="geo" xml:lang="eng">Ghazaouet</name>
+               <name type="place" xml:lang="eng">Ghazaouet</name>
                <label>MSA name</label>
                <name xml:lang="ara">الغزوات</name>
                <label>MSA name (trans.)</label>
@@ -58,8 +58,8 @@
 
             <div type="positioning">
                <p>
-                  <geo>35°05'N 01°51'E</geo>
-<country></country>
+                  <geo>35°05'N 01°51'W</geo>
+                  <country>Algeria</country>
                </p>
             </div>
             <div type="typology">

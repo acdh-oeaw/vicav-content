@@ -47,7 +47,7 @@
                   </head>
                </figure>
                <label>Name (English)</label>
-               <name type="geo" xml:lang="eng">Gaza</name>
+               <name type="place" xml:lang="eng">Gaza</name>
                <label>Name (Fuṣḥā, transcription)</label>
                <name xml:lang="ara">Ġazza</name>
                <label>Name in local variety (in transcription)</label>
@@ -59,7 +59,7 @@
                <head>Geo location</head>
                <p>
                   <geo>31°30'N 34°28'E</geo>
-<country></country>
+                  <country>Palestine</country>
                </p>
             </div>
             <div type="typology">

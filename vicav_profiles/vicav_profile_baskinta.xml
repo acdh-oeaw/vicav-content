@@ -51,7 +51,7 @@
                   </head>
                </figure>
                <label>Name (English)</label>
-               <name type="geo" xml:lang="eng">Baskinta</name>
+               <name type="place" xml:lang="eng">Baskinta</name>
                <label>MSA name</label>
                <name xml:lang="ara">بسكنتا</name>
                <label>MSA name (trans.)</label>
@@ -62,7 +62,7 @@
             <div type="positioning">
                <p>
                   <geo>33°56'N 35°47'E</geo>
-<country></country>
+                  <country>Lebanon</country>
                </p>
             </div>
 

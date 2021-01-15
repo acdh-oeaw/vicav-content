@@ -48,7 +48,7 @@
                </figure>
 
                <label>Name (English)</label>
-               <name xml:lang="eng">Abu Dhabi</name>
+               <name type="place" xml:lang="eng">Abu Dhabi</name>
                <label>MSA name</label>
                <name xml:lang="ara">أبو ظبي</name>
                <label>MSA name (trans.)</label>
@@ -58,7 +58,9 @@
             </head>
 
             <div type="positioning">
-               <p><geo>24°27'N 54°23'E</geo></p>
+               <p><geo>24°27'N 54°23'E</geo>
+               <country>United Arab Emirates</country>
+               </p>
             </div>
 
             <div type="typology">

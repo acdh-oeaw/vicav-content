@@ -50,7 +50,7 @@
                   </head>
                </figure>
                <label>Name (English)</label>
-               <name type="geo" xml:lang="eng">Kuwait</name>
+               <name type="place" xml:lang="eng">Kuwait</name>
                
                <label>MSA name</label>
                <name xml:lang="ara">الكويت</name>
@@ -65,7 +65,7 @@
                <head>Geo location</head>
                <p>
                   <geo>29°22'N 47°58'E</geo>
-<country></country>
+                  <country>Kuweit</country>
                </p>
             </div>
             

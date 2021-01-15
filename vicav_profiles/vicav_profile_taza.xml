@@ -45,7 +45,7 @@
                   </head>
                </figure>
                <label>Name (English)</label>
-               <name type="geo" xml:lang="eng">Taza</name>
+               <name type="place" xml:lang="eng">Taza</name>
                <label>MSA name</label>
                <name xml:lang="ara">تازة</name>
                <label>MSA name (trans.)</label>
@@ -57,7 +57,6 @@
                <head>Geo location</head>
                <p>
                   <geo>34°12'36"N 04°00'36"W</geo>
-<country></country>
                   <country>Morocco</country>
                </p>
             </div>

@@ -47,7 +47,7 @@
 
 
                <label>Name (English)</label>
-               <name type="geo" xml:lang="eng">Birzeit</name>
+               <name type="place" xml:lang="eng">Birzeit</name>
                <label>Name (Fuṣḥā, transcription)</label>
                <name xml:lang="ara">Bīr Zayt</name>
                <label>Name in local variety (in transcription)</label>
@@ -60,7 +60,7 @@
                <head>Geo location</head>
                <p>
                   <geo>31°58'N 35°11'E</geo>
-<country></country>
+                  <country>Palestine</country>
                </p>
             </div>
 

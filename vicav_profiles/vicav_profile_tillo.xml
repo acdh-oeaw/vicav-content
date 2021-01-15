@@ -56,6 +56,8 @@
                      <ref target="http://www.milliyet.com.tr/aydinlar-49-yil-sonra-tillo-oldu-siyaset-1785089/">http://www.milliyet.com.tr/aydinlar-49-yil-sonra-tillo-oldu-siyaset-1785089/</ref>
                   </head>
                </figure>
+                <label>Name (English)</label>
+               <name type="place" xml:lang="eng">Tillo</name>
                <label>Name in local variety (in transcription)</label>
                <name xml:lang="ara-x-DMG">Təllo (Turkish Aydınlar)</name>
             </head>
@@ -64,7 +66,7 @@
                <head>Geo location</head>
                <p>
                   <geo>37°56'N 42°00'E</geo>
-<country></country>
+                  <country>Turkey</country>
                </p>
             </div>
             <div type="typology">
