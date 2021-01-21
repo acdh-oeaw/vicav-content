@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_khartoum_01">
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_khartoum_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -86,7 +86,7 @@
                a grammatical study of the dialect of Khartoum with a collection of texts and dialogues. <rs type="bibl" ref="zotid:WNX9376C">Kaye (1976)</rs> is 
                a comparative study of Chadian and Sudanese Arabic. <rs type="bibl" ref="zotid:MIL24KQH">Krickler (1984)</rs> is a 
                dissertation giving a synchronic description of the phonological and morphological features of the dialect of Khartoum. 
-               <rs type="bibl" ref="zotid:7YU9VCJX">Miller (1991)</rs> addresses linguistic changes in Juba and Khartoum. 
+               <rs type="bibl" ref="zotid:V9CAWXD3">Miller (1991)</rs> addresses linguistic changes in Juba and Khartoum.
                <rs type="bibl" ref="zotid:CA8TUBRI">Bergman (2002)</rs> is a study on the grammar of Khartoum Arabic, followed 
                by 27 dialogues in transcription, Arabic script, and English translation.</p>
                
@@ -121,7 +121,7 @@
             </div>
             
             <div type="bibliography">
-               <p xml:space="preserve">To view publications on this variety click <rs type="bibl" ref="bibl:geo:Khartoum">here</rs>.</p>
+               <p>To view publications on this variety click <rs type="bibl" ref="bibl:geo:Khartoum">here</rs>.</p>
             </div>
          </div>
       </body>

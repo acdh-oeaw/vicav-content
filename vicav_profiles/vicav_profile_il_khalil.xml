@@ -8,7 +8,7 @@
             <title>A machine-readable profile of Hebron Arabic</title>
             <respStmt>
                <resp>document preparation</resp>
-               <name xml:id="claudia_laaber">Claudia Laaber</name>
+               <author xml:id="claudia_laaber">Claudia Laaber</author>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -96,7 +96,7 @@
             </div>
             <div type="audioData">
                <head>Audio data</head>
-               <p><ref target="http://semarch.ub.uni-heidelberg.de/portal-ssr/">SemArch</ref> holds the following items:</p>
+               <p><ref target="http://semarch.ub.uni-heidelberg.de/">SemArch</ref> holds the following items:</p>
                <list>
                   <item>Xalīl 01 Hast du heute Nacht gut geschlafen?</item>
                   <item>Xalīl 02 Bis auf die Unterhosen</item>
@@ -137,7 +137,7 @@
             </div>
 
             <div type="bibliography">
-               <p xml:space="preserve">To view publications on this variety click <rs type="bibl" ref="bibl:geo:Hebron">here</rs>.</p>
+               <p>To view publications on this variety click <rs type="bibl" ref="bibl:geo:Hebron">here</rs>.</p>
             </div>
          </div>
       </body>

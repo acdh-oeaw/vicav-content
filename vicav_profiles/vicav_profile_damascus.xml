@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_damascus_01">
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_damascus_01">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -40,7 +40,7 @@
         <head>
           <figure>
             <graphic url="damaskus-moschee-hof-1985.jpg"/>
-            <head type="imgCaption" xml:space="preserve">Courtesy by Stephan Procházka, 1985</head>
+            <head type="imgCaption">Courtesy by Stephan Procházka, 1985</head>
           </figure>
           <label>Name (English)</label>
           <name type="place" xml:lang="eng">Damascus</name>
@@ -55,7 +55,7 @@
         </head>
 
         <div type="positioning">
-          <p xml:space="preserve">
+          <p>
               <geo>33°30'N 36°17'E</geo>
               <country>Syria</country>
             </p>
@@ -129,7 +129,7 @@
               <rs type="bibl" ref="zotid:BZBT97SH">Syrian colloquial Arabic: 
                a functional course (1999)</rs>.</p>
 
-          <p>The Viennese textbook <rs type="bibl" ref="zotid:8NKI26ZJ">Lehrbuch 
+          <p>The Viennese textbook <rs type="bibl" ref="zotid:8NKI26ZJ zotid:G8RSG37P">Lehrbuch
               des Syrisch-Arabischen</rs> in two volumes by Aldoukhi, Procházka 
               and Telič is the most recent introduction to the dialect of Damascus.</p>
 
@@ -144,7 +144,7 @@
         </div>
 
         <div type="bibliography">               
-                    <p xml:space="preserve">To view publications on this variety click <rs type="bibl" ref="bibl:geo:Damascus">here</rs>.</p>
+                    <p>To view publications on this variety click <rs type="bibl" ref="bibl:geo:Damascus">here</rs>.</p>
                 </div>
 
         <div type="sampleText">

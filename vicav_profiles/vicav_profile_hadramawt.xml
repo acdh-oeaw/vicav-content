@@ -54,7 +54,7 @@
                </figure>
 
                <label>Name in local variety (in transcription)</label>
-               <name xml:lang="ara-x-DMG">Ḥaḍramūt / Murah</name>
+               <name type="region" xml:lang="ara-x-DMG">Ḥaḍramūt / Murah</name>
 
                <label>Name (English)</label>
                <name type="region" xml:lang="eng">Hadramawt</name>
@@ -109,7 +109,7 @@
                <p><rs type="bibl" ref="zotid:CHRBWC9A zotid:DMG55PC2">Landberg (1901-1913)</rs> includes a 222-page glossary.</p>
             </div>
             <div type="bibliography">               
-                    <p xml:space="preserve">To view publications on this variety click <rs type="bibl" ref="bibl:geo:Hadramaut">here</rs>.</p>
+                    <p>To view publications on this variety click <rs type="bibl" ref="bibl:geo:Hadramaut">here</rs>.</p>
                 </div>
          </div>
       </body>
