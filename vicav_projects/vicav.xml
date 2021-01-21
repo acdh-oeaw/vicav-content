@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectConfig id="vicav_config_vicav">
-	<title>VICAV2 - Vienna Corpus of Arabic Varieties</title>
+	<title>VICAV3.0 - Vienna Corpus of Arabic Varieties</title>
 	<logo><img src="images/vicav_logo.svg"/></logo>
-	<frontpage method="geo">
+	
+  <frontpage method="geo">
 		<param>.*</param>
 		<param>geo</param>
 		<panel type="text" target="li_vicavMission">MISSION</panel>
 		<panel type="text" target="li_vicavNews">NEWS</panel>
 	</frontpage>
+
 	<menu>
     <main>
       <dropdown xml:id="dropdown00" title="Project">
@@ -18,11 +20,13 @@
         <item xml:id="li_vicavContributors">Contributors</item>    
         <item xml:id="li_vicavLinguistics">Linguistics</item>    
       </dropdown>
+
       <dropdown xml:id="dropdown01" title="Bibliographies">
         <item xml:id="li_vicavExplanationBibliography">Explanation</item>
         <separator/>
         <item xml:id="navBiblGeoMarkers">All Bibl. Locations on Map</item>
         <item xml:id="navBiblRegMarkers">All Bibl. Regions on Map</item>
+        <item xml:id="navBiblDiaGroupMarkers">All Bibl. Dialect Regions on Map</item>
         <separator/>
         <item xml:id="navDictGeoRegMarkers">All Dictionaries in Bibl. on Map</item>
         <item xml:id="navTextbookGeoRegMarkers">All Textbooks in Bibl. on Map</item>
@@ -90,13 +94,14 @@
         <item xml:id="li_vicavOverview_nlp">      Language Processing Tools</item>
         <item xml:id="li_vicavOverview_otherStuff">      Other Websites &amp; Projects</item>                                
         <item xml:id="li_vicavLearning">Learning Materials</item>
-        <item xml:id="li_vicavLearningTextbookDamascus">      Materials for Textbook of Syrian Arabic</item>
+        <item xml:id="li_vicavLearning_tb_damascus">      Textbook Syrian Arabic (Sound files)</item>
         <item xml:id="li_vicavLearningSmartphone">      Vocabularies on Smartphones</item>
         <item xml:id="li_vicavLearningPrograms">      Available Programs</item>
         <item xml:id="li_vicavLearningData">      Available Data</item>
         <item xml:id="li_vicavKeyboards">Keyboard Layouts</item>
       </dropdown>
     </main>
+
     <subnav>
       <item xml:id="subNavBiblGeoMarkers" class="active">Bibl. Locations</item>
       <item xml:id="subNavBiblRegMarkers">Bibl. Regions</item>
