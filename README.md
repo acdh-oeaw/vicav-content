@@ -10,7 +10,7 @@ This repository contains the content of [VICAV, the Vienna Corpus of Arabic Vari
 
 All six text types are encoded according to the *Guidelines* of the [Text Encoding Initiative](http://www.tei-c.org/).  We are in the process of preparing [ODD specifications](https://wiki.tei-c.org/index.php/ODD) for each of it (see `tools/802_tei_odd`)
 
-Please note that the **VICAV dictionaries** are not part of this repository since they are curated with the [Viennese Lexicographic Editor (VLE)](https://www.oeaw.ac.at/acdh/tools/vle/) and reside inside a dedicated instance of the [BaseX XML database](http://basex.org/).
+Please note that the **VICAV dictionaries** included in this repository are snapshots of the original data curated with the [Viennese Lexicographic Editor (VLE)](https://www.oeaw.ac.at/acdh/tools/vle/). These reside inside a dedicated instance of the [BaseX XML database](http://basex.org/) and are released to this repository for publication in a manual curation process.
 
 ## Contributing to VICAV
 
