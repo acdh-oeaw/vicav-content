@@ -92,7 +92,6 @@
             <item><name type="geo">Doha</name><geo>25°17'08"N 51°31'51"E</geo><idno type="geoNames">290030</idno></item>
             <item><name type="geo">Douz</name><geo>33°27'59"N 09°01'13"E</geo><idno type="geoNames">2471287</idno></item>
             <item><name type="geo">Dubai</name><geo>25°03'57"N 55°10'17"E</geo><idno type="geoNames">292223</idno></item>
-            <item><name type="geo">Edirne</name><geo>41°40'38"N 26°33'21"E</geo><idno type="geoNames">747712</idno></item>
             <item><name type="geo">El Jadida</name><geo>33°15'25"N 08°30'32"W</geo><idno type="geoNames">2550078</idno></item>
             <item><name type="geo">El-Balyana</name><geo>26°14'11"N 32°00'14"E</geo><idno type="geoNames">361435</idno></item>
             <item><name type="geo">El-Hamma</name><geo>33°53'33"N 09°35'39"E</geo><idno type="geoNames">2470606</idno></item>
@@ -112,7 +111,6 @@
             <item><name type="geo">Harran</name><geo>36°50'35"N 39°13'06"E</geo><idno type="geoNames">439166</idno></item>
             <item><name type="geo">Hasankeyf</name><geo>37°42'22"N 41°24'17"E</geo><idno type="geoNames">312479</idno></item>
             <item><name type="geo">Hasköy</name><geo>38°41'05"N 41°41'18"E</geo><idno type="geoNames">8630863</idno></item>
-            <item><name type="geo">Hatay</name><geo>36°30'00"N 36°15'00"E</geo><idno type="geoNames">312394</idno></item>
             <item><name type="geo">Hebron</name><geo>31°31'46"N 35°05'38"E</geo><idno type="geoNames">285066</idno></item>
             <item><name type="geo">Hillah</name><geo>32°27'49"N 44°25'11"E</geo><idno type="geoNames">99347</idno></item>
             <item><name type="geo">Hit</name><geo>33°38'12"N 42°49'40"E</geo><idno type="geoNames">95788</idno></item>
@@ -151,7 +149,6 @@
             <item><name type="geo">Kormakitis</name><geo>35°20'33"N 32°58'43"E</geo><idno type="geoNames">10200799</idno></item>
             <item><name type="geo">Ksar el-Kebir</name><geo>35°00'02"N 05°54'14"W</geo><idno type="geoNames">2544001</idno></item>
             <item><name type="geo">Kueiris</name><geo>32°33'00"N 44°25'00"E</geo><idno type="geoNames">94051</idno></item>
-            <item><name type="geo">Kuweit City</name><geo>29°22'11"N 47°58'42"E</geo><idno type="geoNames">285787</idno></item>
             <item><name type="geo">Larache</name><geo>35°11'36"N 06°09'21"W</geo><idno type="geoNames">2543549</idno></item>
             <item><name type="geo">Lod</name><geo>31°56'48"N 34°53'25"E</geo><idno type="geoNames">294421</idno></item>
             <item><name type="geo">Madaba</name><geo>31°42'58"N 35°47'38"E</geo><idno type="geoNames">248370</idno></item>
@@ -164,6 +161,7 @@
             <item><name type="geo">Masmouda</name><geo>34°47'04"N 05°42'36"W</geo><idno type="geoNames">10992770</idno></item>
             <item><name type="geo">Massawa</name><geo>15°36'29"N 39°28'28"E</geo><idno type="geoNames">330546</idno></item>
             <item><name type="geo">Mayadin</name><geo>35°01'11"N 40°27'06"E</geo><idno type="geoNames">173480</idno></item>
+            <item><name type="geo">Mazara del Vallo</name><geo>37°39'19"N 12°35'23"E</geo><idno type="geoNames">2524205</idno></item>
             <item><name type="geo">Mazouna</name><geo>36°07'20"N 00°53'55"E</geo><idno type="geoNames">2489987</idno></item>
             <item><name type="geo">Mecca</name><geo>21°25'36"N 39°49'32"E</geo><idno type="geoNames">104515</idno></item>
             <item><name type="geo">Médéa</name><geo>36°15'51"N 02°45'14"E</geo><idno type="geoNames">2488835</idno></item>
@@ -294,6 +292,8 @@
             <item><name type="reg">Hail</name><geo>27°24'00"N 41°27'00"E</geo><idno type="geoNames">106280</idno></item>
             <item><name type="reg">Al-Hasa</name><geo>26°35'00"N 48°10'00"E</geo><idno type="geoNames">110110</idno></item>
             <item><name type="reg">Hadramaut</name><geo>15°59'36"N 48°50'50"E</geo><idno type="geoNames">75410</idno></item>
+            <item><name type="reg">Harran-Urfa</name><geo>36°51'36"N 39°01'53"E</geo><idno type="geoNames">312531</idno></item>
+            <item><name type="reg">Hatay-Antioch</name><geo>36°12'24"N 36°09'26"E</geo><idno type="geoNames">323779</idno></item>
             <item><name type="reg">El Haouz</name><geo>35°41'19"N 05°26'39"W</geo><idno type="geoNames">2550180</idno></item>
             <item><name type="reg">Hauran</name><geo>32°43'48"N 36°22'05"E</geo><idno type="geoNames">169734</idno></item>
             <item><name type="reg">Hejaz</name><geo>24°29'52"N 38°30'24"E</geo><idno type="geoNames">109600</idno></item>
@@ -333,7 +333,7 @@
             <item><name type="reg">South Sudan</name><geo>07°30'00"N 30°00'00"E</geo><idno type="geoNames">7909807</idno></item>
             <item><name type="reg">Sudan</name><geo>16°00'00"N 30°00'00"E</geo><idno type="geoNames">366755</idno></item>
             <item><name type="reg">Syria</name><geo>35°00'00"N 38°00'00"E</geo><idno type="geoNames">163843</idno></item>
-            <item><name type="diaGroup">Syro-Palestine</name><geo>33°06'26"N 36°13'24"E</geo><idno type="geoNames">11172319</idno></item>
+            <item><name type="diaGroup">Levant</name><geo>33°06'26"N 36°13'24"E</geo><idno type="geoNames">11172319</idno></item>
             <item><name type="reg">Tafilalet</name><geo>31°41'30"N 04°25'09"W</geo><idno type="geoNames">11281881</idno></item>
             <item><name type="reg">Tihama</name><geo>14°30'00"N 43°15'00"E</geo><idno type="geoNames">70009</idno></item>
             <item><name type="reg">Tripolitania</name><geo>31°00'00"N 15°00'00"E</geo><idno type="geoNames">2210246</idno></item>
