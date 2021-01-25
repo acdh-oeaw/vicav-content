@@ -1,0 +1,29 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICAV Overview Special Corpora</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <div xml:id="vicavOverview_special_corpora">
+            <head>Special Corpora</head>
+            <div>
+               <head>Arabic Learner Corpus (ALC)</head>
+               <p>The <ref target="http://www.arabiclearnercorpus.com/">ALC</ref>
+                  aims to provide a collection of written and spoken materials
+                  produced by learners of Arabic in Saudi Arabia.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

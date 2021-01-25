@@ -1,0 +1,36 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICAV Contribute Bibliography</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="flashcards" matchPattern="(+),(.+),(.+)" replacementPattern="https://cs.acdh.oeaw.ac.at/modules/fcs-aggregator/switch.php?version=1.2&amp;operation=searchRetrieve&amp;query=unit=$1&amp;x-context=$2&amp;startRecord=1&amp;maximumRecords=1000&amp;x-format=$3&amp;x-dataview=kwic,title';"/>
+         </listPrefixDef>
+      </encodingDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <div xml:id="vicavContributeBibliography">
+            <head>Contributing</head>
+            <p>If you want to help us enhance the bibliography there are different
+               possibilities to proceed. We have set up a publicly available ZOTERO group
+               <ref target="https://www.zotero.org/groups/2671520/vicav_public">VICAV_public</ref> where you can enter your proposals. We will furnish them with
+               the metadata and enter them in the VICAV bibliography.</p>
+
+            <p>If you have data in Word documents, spread-sheets or whatever and
+               would like us to integrate it in VICAV, get in touch and we will find
+               a way to do it.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

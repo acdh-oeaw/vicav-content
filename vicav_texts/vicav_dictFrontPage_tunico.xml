@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
   <teiHeader>
       <fileDesc>
@@ -91,8 +90,7 @@
                       <row>
                           <cell rend="tdQuery">ktb</cell>
                           <cell rend="tdQuery">Roots</cell>
-                          <cell rend="tdQuery">All entries with the string <hi rend="italic"
-                              >ktb</hi> in the root element.</cell>
+                          <cell rend="tdQuery">All entries with the string <hi rend="italic">ktb</hi> in the root element.</cell>
                           <cell rend="tdQuery">
                               <ref target="func:autoDictQuery('_tunis', 'ktb', 'root')">Click</ref>
                           </cell>
@@ -175,9 +173,7 @@
                           <cell rend="tdQuery">All verbs with the root <hi rend="italic">ktb</hi>
                           </cell>
                           <cell rend="tdQuery">
-                              <ref
-                                  target="func:autoDictQuery('_tunis', 'root=&quot;ktb&quot; &amp; pos=&quot;verb&quot;', 'subc')"
-                                  >Click</ref>
+                              <ref target="func:autoDictQuery('_tunis', 'root=&quot;ktb&quot; &amp; pos=&quot;verb&quot;', 'subc')">Click</ref>
                           </cell>
                       </row>
                       <row>
@@ -186,9 +182,7 @@
                           <cell rend="tdQuery">All nouns with the root <hi rend="italic">ktb</hi>
                           </cell>
                           <cell rend="tdQuery">
-                              <ref
-                                  target="func:autoDictQuery('_tunis', 'root=&quot;ktb&quot; &amp; pos=&quot;noun&quot;', 'subc')"
-                                  >Click</ref>
+                              <ref target="func:autoDictQuery('_tunis', 'root=&quot;ktb&quot; &amp; pos=&quot;noun&quot;', 'subc')">Click</ref>
                           </cell>
                       </row>
                       <row>
@@ -198,9 +192,7 @@
                           <cell rend="tdQuery">All form I verbs with the root <hi rend="italic">ktb</hi>
                           </cell>
                           <cell rend="tdQuery">
-                              <ref
-                                  target="func:autoDictQuery('_tunis', 'root=&quot;ktb&quot; &amp; pos=&quot;verb&quot; &amp; subc=&quot;I&quot;', 'subc')"
-                                  >Click</ref>
+                              <ref target="func:autoDictQuery('_tunis', 'root=&quot;ktb&quot; &amp; pos=&quot;verb&quot; &amp; subc=&quot;I&quot;', 'subc')">Click</ref>
                           </cell>
                       </row>
                       <row>
@@ -223,10 +215,8 @@
                       <row>
                           <cell rend="tdQuery">bal.*</cell>
                           <cell rend="tdQuery">Arabic</cell>
-                          <cell rend="tdQuery"
-                              >All entries containing an Arabic lemma token
-                              containing a string with <hi
-                                  rend="italic">bal</hi>
+                          <cell rend="tdQuery">All entries containing an Arabic lemma token
+                              containing a string with <hi rend="italic">bal</hi>
                           </cell>
                           <cell rend="tdQuery"/>
                       </row>
@@ -235,8 +225,7 @@
                           <cell rend="tdQuery">kt.*</cell>
                           <cell rend="tdQuery">Roots</cell>
                           <cell rend="tdQuery">All entries with an Arabic root starting with
-                              <hi
-                                  rend="italic">kt</hi>
+                              <hi rend="italic">kt</hi>
                           </cell>
                           <cell rend="tdQuery"/>
                       </row>
@@ -253,8 +242,7 @@
                           <cell rend="tdQuery">^kt.*</cell>
                           <cell rend="tdQuery">Roots</cell>
                           <cell rend="tdQuery">
-                              <hi rend="italic"
-                                  >kt</hi> at the beginning of a string followed
+                              <hi rend="italic">kt</hi> at the beginning of a string followed
                               by zero or more characters</cell>
                           <cell rend="tdQuery"/>
                       </row>

@@ -1,47 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-             <title>VICAV Damascus Dictionary Frontpage</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Information about the source</p>
-         </sourceDesc>
-      </fileDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>VICAV Damascus Dictionary Frontpage</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
   </teiHeader>
   <text>
-      <body>
-          <div xml:id="dictFrontPage_Damascus">
-              <head type="headDamascus">
-                  A Digital Dictionary of<lb/> Damascene Arabic</head>
-              
-              <p xml:space="preserve">Compiled by <hi rend="italic">Carmen Berlinches Ramos</hi> and 
+    <body>
+      <div xml:id="dictFrontPage_Damascus">
+        <head type="headDamascus">A Digital Dictionary of<lb/>Damascene Arabic</head>
+        <p xml:space="preserve">Compiled by <hi rend="italic">Carmen Berlinches Ramos</hi> and 
     <hi rend="italic">Stephan Procházka</hi>
           <lb/>
     In collaboration with <hi rend="italic">Rima Aldoukhi</hi> and 
     <hi rend="italic">Anna Telič</hi>
   </p>
-              
-              <p xml:space="preserve">To query the dictionary <ref target="func:openDict_Damascus()">click 
+        <p xml:space="preserve">To query the dictionary <ref target="func:openDict_Damascus()">click 
       here</ref>.</p>
-              
-              <p xml:space="preserve">This dictionary has been prepared to support the Syrian Textbook 
+        <p xml:space="preserve">This dictionary has been prepared to support the Syrian Textbook 
     prepared at the University of Vienna. We host some 
       <ref target="text:vicavLearning_tb_damascus/ABC">audio material</ref> 
       of this textbook. Also have a look at our 
       <ref target="text:vicavLearning/LEARNING MATERIALS">other 
       learning materials</ref>.</p>
-              
-              <!-- 
+        <!-- 
   <p xml:space="preserve">
           <graphic url="damascus_umayyadenmo-3-2008.JPG"/>
         </p>
    -->
-          </div>
-      </body>
+      </div>
+    </body>
   </text>
 </TEI>

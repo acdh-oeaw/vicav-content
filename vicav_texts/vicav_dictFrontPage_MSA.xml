@@ -1,32 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>VICAV  MSA Dictionary Start Page</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Information about the source</p>
-         </sourceDesc>
-      </fileDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>VICAV  MSA Dictionary Start Page</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
   </teiHeader>
   <text>
-      <body>
-         <div xml:id="dictFrontPage_MSA">
-            <head>A Machine-readable Dictionary of Modern Standard Arabic</head>
-            
-            <p xml:space="preserve">Compiled by <hi rend="italic">Stephan Procházka, Lea Müller-Funk,
+    <body>
+      <div xml:id="dictFrontPage_MSA">
+        <head>A Machine-readable Dictionary of Modern Standard Arabic</head>
+        <p xml:space="preserve">Compiled by <hi rend="italic">Stephan Procházka, Lea Müller-Funk,
       Karlheinz Mörth</hi>
   </p>
-            
-            <p xml:space="preserve">
+        <p xml:space="preserve">
     <ref target="func:openDict_MSA()">QUERY</ref>
   </p>
-         </div>
-         
-      </body>
+      </div>
+    </body>
   </text>
 </TEI>

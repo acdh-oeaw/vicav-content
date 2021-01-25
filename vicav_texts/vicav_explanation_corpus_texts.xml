@@ -1,0 +1,53 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="vicavExplanationCorpusTexts">
+            <head>Texts (Explanation and Overview)</head>
+            <p>The texts being listed here come from very different
+            ressources. We have tried to mould them into a homogeneous form, retaining structural
+               differences.</p>
+
+            <div>
+               <head>Morocco</head>
+               <p>
+                  <ref target="corpus:killing_jackal/Morocco">Den Schakal töten "Killing the
+                     Jackal"</ref> by <hi rend="italics"> Georg Böhm</hi>
+               </p>
+            </div>
+
+            <div>
+               <head>Tunis</head>
+               <p> The <ref target="https://tunico.acdh.oeaw.ac.at/about_corpus.html">TUNICO
+                     Corpus</ref> was put together as part of the project
+                  <hi rend="italic">Linguistic dynamics in the Greater Tunis Area: a
+                     corpus-based approach </hi> which ran from August 2013 until July
+                  2016. </p>
+            </div>
+
+            <div>
+               <head>Anatolia</head>
+               <p>
+                  <ref target="corpus:cukurova_001/Cukurova">The
+                     Seven Brothers</ref>, contributed by <hi rend="italic">Stefan Procházka</hi>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

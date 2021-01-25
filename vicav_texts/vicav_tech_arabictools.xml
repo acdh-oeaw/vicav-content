@@ -1,0 +1,67 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICAV Arabic Tools</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <div xml:id="vicavArabicTools">
+            <head>Arabic Research Tools</head>
+            <p>The intention of this section of VICAV is to bring together the most
+               important tools needed by digitally working linguists in the field of
+               Arabic studies. In compiling this list, we have proceded from a very
+               wide understanding of the term "tool" considering a varied range of
+               digital applications that are typically used in doing linguistic
+               research. This comprises all relevant digital language resources as
+               well as pertaining documentation, standards and best practices.</p>
+            <p>While there have not been around many NLP tools to process Arabic
+               language data in the past, the situation has definitely changed in
+               recent years. The following list is a first attempt to create a list
+               of tools used by the VICAV crew and other relevant projects.</p>
+            <p>A very interesting overview of digital Arabic language ressources is
+               Wajdi Zaghouani's <ref target="https://arxiv.org/ftp/arxiv/papers/1702/1702.07835.pdf">
+                  Critical Survey of the Freely Available Arabic Corpora</ref>. </p>
+            <p>We have put together some reference material which is not meant to be
+               exhaustive. The focus is on freely available resources. We do not list
+               details from the many resources available through the
+               <ref target="https://www.ldc.upenn.edu/">Linguistic Data Consortium
+                  (LDC)</ref> and the <ref target="http://www.elra.info/en/">European
+                  Language Resource Association (ELRA)</ref>. The material has been organised
+               in the following groups: <list>
+                  <item>
+                     <ref target="text:vicavOverview_corpora_spoken/ARABIC TOOLS (Corpora - Spoken Varieties)"> Corpora (Spoken Varieties)</ref>
+                  </item>
+                  <item>
+                     <ref target="text:vicavOverview_corpora_msa/Corpora (Modern Written Language)"> Corpora (Modern Written Language)</ref>
+                  </item>
+                  <item>
+                     <ref target="text:vicavOverview_corpora_historical_varieties/Corpora (Historical Varieties))"> Corpora (Historical Varieties)</ref>
+                  </item>
+                  <item>
+                     <ref target="text:vicavOverview_special_corpora/Special Corpora)"> Special Corpora</ref>
+                  </item>
+                  <item>
+                     <ref target="text:vicavOverview_dictionaries/Dictionaries"> Dictionaries</ref>
+                  </item>
+                  <item>
+                     <ref target="text:vicavOverview_nlp/Language Processing Tools"> Language Processing Tools</ref>
+                  </item>
+                  <item>
+                     <ref target="text:vicavOverview_otherStuff/Other Websites &amp;amp; Projects"> Other Websites &amp;amp; Projects</ref>
+                  </item>
+
+               </list>
+            </p>
+         </div>      </body>
+   </text>
+</TEI>
