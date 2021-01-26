@@ -1,0 +1,31 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICAV Contribute Dictionary</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="flashcards" matchPattern="(+),(.+),(.+)" replacementPattern="https://cs.acdh.oeaw.ac.at/modules/fcs-aggregator/switch.php?version=1.2&amp;operation=searchRetrieve&amp;query=unit=$1&amp;x-context=$2&amp;startRecord=1&amp;maximumRecords=1000&amp;x-format=$3&amp;x-dataview=kwic,title';"/>
+         </listPrefixDef>
+      </encodingDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <div xml:id="vicavContributeDictionary">
+            <head>Contributing</head>
+            <p>If you would like to contribute a dictionary or a glossary, get in touch
+               with us. Tell us about the data you have and we will discuss how to
+               proceed best.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

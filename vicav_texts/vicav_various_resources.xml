@@ -1,0 +1,81 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICAV Overview Various Ressources</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <div xml:id="vicavOverview_otherStuff">
+            <head>Other Websites &amp;amp; Projects</head>
+            <div>
+               <head>Database of Arabic Dialects (ضاد)</head>
+               <p>This database collects published and unpublished data on Arabic
+                  dialects in a searchable electronic format. The
+                  <ref target="https://www.database-of-arabic-dialects.org">frontend</ref>
+                  allows to formulate quite complex queries. There is also a
+                  <ref target="https://www.youtube.com/watch?v=UIdGAvu8ZpA">YouTube
+                     presentation</ref> of the functionalities of this database.</p>
+            </div>
+            <div>
+               <head>Arabic Concordance Sampler</head>
+               <p>This is a <ref target="https://prokamus.wordpress.com/bibliography/english/">
+                     website</ref> that brings together a lot of information
+                  concerning digital language resources for teaching and research.</p>
+            </div>
+            <div>
+               <head>KITAB</head>
+               <p>
+                  <ref target="http://kitab-project.org">KITAB</ref> provides a
+                  digital tool-box and a forum for discussions about Arabic texts. We
+                  wish to empower users to explore Arabic texts in completely new ways
+                  and to expand the frontiers of knowledge about one of the world’s
+                  largest and most complex textual traditions.</p>
+            </div>
+            <div>
+               <head>al-Raqmiyyāt </head>
+               <p>
+                  <ref target="https://maximromanov.github.io/">Website</ref>
+               </p>
+            </div>
+            <div>
+               <head>Arabographic Optical Character Recognition (OCR) </head>
+               <p>
+                  <ref target="https://maximromanov.github.io/2016/10-05.html">Website</ref>
+               </p>
+            </div>
+            <div>
+               <head>Cambridge Digital Library: Islamic Manuscripts</head>
+               <p>
+                  <ref target="https://cudl.lib.cam.ac.uk/collections/islamic/1">Website</ref>
+               </p>
+            </div>
+            <div>
+               <head>British Library: Arabic Manuscripts</head>
+               <p>
+                  <ref target="https://www.bl.uk/collection-guides/arabic-manuscripts">Website</ref>
+               </p>
+            </div>
+            <div>
+               <head>Wellcome Arabic Manuscripts Online</head>
+               <p>The <ref target="http://wamcp.bibalex.org/">Arabic manuscripts
+                     collection </ref> of the Wellcome Library (London) comprises
+                  around 1000 manuscript books and fragments relating to the history
+                  of medicine. For the first time this website enables a substantial
+                  proportion of this collection to be consulted online via
+                  high-quality digital images of entire manuscripts and associated
+                  rich metadata. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

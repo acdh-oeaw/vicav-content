@@ -1,0 +1,626 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vicav Linguistics</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <div xml:id="vicavLearning_tb_damascus">
+            <head>VIVAC Learning Materials: <hi rend="italic">Textbook Syrian Arabic (Sound files)</hi>
+            </head>
+            <p>Rima Aldoukhi, Stephan Procházka, Anna Telic.
+               Unter Mitarbeit von Narine Grigoryan
+               Harrassowitz 2014.
+
+               Alle Rechte für die den Aufnahmen zugrunde liegenden Texte liegen beim Otto Harrassowitz Verlag, Wiesbaden.
+               Die Audioaufnahmen sind lizensiert als CC BY-NC-SA 3.0 AT.</p>
+
+            <div>
+               <head>Lehrbuch des Syrisch-Arabischen 1</head>
+               <table type="soundTable">
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 1, text 1</cell>
+                     <cell>Begrüßung und Verabschiedung</cell>
+                     <cell>əs-salām w-ǝl-wadāʕ</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L01_T01.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 1, text 2</cell>
+                     <cell>Sich vorstellen</cell>
+                     <cell>ət-taʕarrof</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L01_T02.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 1, text 3</cell>
+                     <cell>Am Telefon</cell>
+                     <cell>ʕa-t-talifōn</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L01_T03.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 2, text 1</cell>
+                     <cell>Wie heißt du?</cell>
+                     <cell>šū ʔǝsmak?</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L02_T01.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 2, text 2</cell>
+                     <cell>Woher bist du?</cell>
+                     <cell>mnēn ʔənti?</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L02_T02.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 2, text 3</cell>
+                     <cell>Wie geht’s?</cell>
+                     <cell>šlōnak? kīfek?</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L02_T03.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 2, text 4</cell>
+                     <cell>Wo wohnt ihr?</cell>
+                     <cell>wēn bētkon?</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L02_T04.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 2, text 5</cell>
+                     <cell>Wo ist …?</cell>
+                     <cell>wēn …?</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L02_T05.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 3, text 1</cell>
+                     <cell>Im Kaffeehaus</cell>
+                     <cell>b-ǝl-ʔahwe</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L03_T01.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 3, text 2</cell>
+                     <cell>Ich bin hungrig</cell>
+                     <cell>ʔana žūʕāne</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L03_T02.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 3, text 3</cell>
+                     <cell>Studium oder Arbeit?</cell>
+                     <cell>dirāse walla šǝġᵊl?</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L03_T03.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 3, text 4</cell>
+                     <cell>Wo ist das Hotel?</cell>
+                     <cell>wēn ǝl-fǝndoʔ?</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L03_T04.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 4, text 1</cell>
+                     <cell>Damaszenisches Frühstück</cell>
+                     <cell>fṭūr šāmi</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L04_T01.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 4, text 3</cell>
+                     <cell>Ein gewöhnlicher Tag</cell>
+                     <cell>yōm ʕādi</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L04_T03.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 5, text 1</cell>
+                     <cell>Frühstück im Café</cell>
+                     <cell>fṭūr b-ǝl-ʔahwe</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L05_T01.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 5, text 3</cell>
+                     <cell>Meine Familie</cell>
+                     <cell>ʕēlti</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L05_T03.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 6, text 1</cell>
+                     <cell>Alis Tochter</cell>
+                     <cell>bәnt ʕAli</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L06_T01.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 6, text 2</cell>
+                     <cell>In der Ḥalbūni-Straße</cell>
+                     <cell>b-әl-ḥalbūni</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L06_T02.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 6, text 3</cell>
+                     <cell>Am ʕAṣrūniyye-Markt</cell>
+                     <cell>b-әl-ʕaṣrūniyye</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L06_T03.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 7, text 1</cell>
+                     <cell>Die Stadt Damaskus</cell>
+                     <cell>madīnet Dimašᵊq</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L07_T01.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 7, text 3</cell>
+                     <cell>Am Telefon 2</cell>
+                     <cell>talifōn 2</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L07_T03.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 7, text 4</cell>
+                     <cell>Die Familie</cell>
+                     <cell>әl-ʕēle</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L07_T04.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 8, text 1</cell>
+                     <cell>Wie ist der Weg …?</cell>
+                     <cell>kīf əṭ-ṭarīʔ …?</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L08_T01.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 8, text 2</cell>
+                     <cell>Eine Wegbeschreibung</cell>
+                     <cell>waṣᵊf ṭarīʔ</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L08_T02.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 8, text 3</cell>
+                     <cell>Wo gibt es eine Apotheke?</cell>
+                     <cell>wēn fī ṣēdaliyye?</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L08_T03.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 8, text 5</cell>
+                     <cell>Verkehrsmittel in Damaskus</cell>
+                     <cell>lǝ-mwāṣalāt b-əš-Šām</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L08_T05.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 9, text 4</cell>
+                     <cell>Im Handygeschäft</cell>
+                     <cell>b-maḥall ǝl-mōbāylāt</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L09_T04.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 10, text 1</cell>
+                     <cell>In der Bibliothek</cell>
+                     <cell>b-əl-maktabe</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L10_T01.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 10, text 2</cell>
+                     <cell>Im Kaffeehaus</cell>
+                     <cell>b-ǝl-ʔahwe</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L10_T02.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 11, text 1</cell>
+                     <cell>Im Damenschuhgeschäft</cell>
+                     <cell>b-maḥall əl-ʔaḥziye n-nəswāniyye</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L11_T01.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 11, text 3</cell>
+                     <cell>Umtausch</cell>
+                     <cell>tabdīl</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L11_T03.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 11, text 4</cell>
+                     <cell>Am Kleidermarkt</cell>
+                     <cell>b-sūʔ ǝl-malābes</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L11_T04.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 12, text 2</cell>
+                     <cell>Stadteile von Damaskus</cell>
+                     <cell>manāṭeʔ ᵊmhǝmme b-ǝš-Šām</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L12_T02.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 13, text 4</cell>
+                     <cell>Syrisches Essen 2</cell>
+                     <cell>ʔakᵊl Šāmi 2</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L13_T04.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 14, text 2</cell>
+                     <cell>Nochmals am Gemüsemarkt</cell>
+                     <cell>marra tānye b-sūʔ ǝl-xǝḍra</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L14_T02.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 14, text 3</cell>
+                     <cell>In der Moschee</cell>
+                     <cell>b-ǝž-žāmeʕ</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L14_T03.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 14, text 4</cell>
+                     <cell>Syrisches Essen 3: Maqlūbe</cell>
+                     <cell>ʔakᵊl šāmi 3: maʔlūbe</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L14_T04.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 15, text 1</cell>
+                     <cell>Im Internetcafé</cell>
+                     <cell>b-ǝl-ʔǝntǝrnetkafē</cell>
+                     <cell>
+                        <ptr type="sound" target="1_L15_T01.m4a"/>
+                     </cell>
+                  </row>
+               </table>
+            </div>
+            <div>
+               <head>Lehrbuch des Syrisch-Arabischen 1</head>
+               <table type="soundTable">
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 1, text 1</cell>
+                     <cell>Der Monat Ramadan</cell>
+                     <cell>šahᵊr Ramaḍān</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L01_T01_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 1, text 2</cell>
+                     <cell>Der Termin</cell>
+                     <cell>ǝl-mawʕed</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L01_T02_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 1, text 3</cell>
+                     <cell>Syrisches Essen 4: Gefülltes</cell>
+                     <cell>ʔakᵊl Šāmi 4: ǝl-maḥāši</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L01_T03_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 2, text 1</cell>
+                     <cell>Die Syrisch-Arabische Republik</cell>
+                     <cell>ǝž-žǝmhūriyye s-sūriyye</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L02_T01_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 2, text 2</cell>
+                     <cell>Es ist lange her</cell>
+                     <cell>kān mǝn zamān</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L02_T02_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 2, text 3</cell>
+                     <cell>Am Stoffmarkt</cell>
+                     <cell>b-sūʔ lǝ-ʔmāš</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L02_T03_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 3, text 1</cell>
+                     <cell>Mein heutiger Tag</cell>
+                     <cell>nhāri</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L03_T01_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 3, text 2</cell>
+                     <cell>Die Jahreszeiten in Damaskus</cell>
+                     <cell>lǝ-fṣūl b-ǝš-Šām</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L03_T02_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 3, text 3</cell>
+                     <cell>Handwerksbetriebe im Suq</cell>
+                     <cell>kārāt əs-sūʔ</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L03_T03_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 4, text 2</cell>
+                     <cell>Die Zitadelle von Aleppo</cell>
+                     <cell>ʔalʕet Ḥalab</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L04_T02_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 5, text 1</cell>
+                     <cell>Anna besucht Dāna zu Hause</cell>
+                     <cell>zyāret ʔAnna bi-bēt Dāna</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L05_T01_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 5, text 2</cell>
+                     <cell>Im öffentlichen Bad</cell>
+                     <cell>b-ḥammām əs-sūʔ</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L05_T02_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 5, text 3</cell>
+                     <cell>Rimas Geburtstag</cell>
+                     <cell>ʕīd mīlād Rīma</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L05_T03_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 6, text 4</cell>
+                     <cell>Telefonnummern</cell>
+                     <cell>ʔarʔām әt-talifōn</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L06_T04_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 7, text 1a</cell>
+                     <cell>Beim Arzt</cell>
+                     <cell>ʕand әd-dәktōr</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L07_T01a.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 7, text 1b</cell>
+                     <cell>Beim Arzt</cell>
+                     <cell>ʕand әd-dәktōr</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L07_T01b.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 7, text 2</cell>
+                     <cell>Visum verlängern</cell>
+                     <cell>tamdīd ǝl-vīza</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L07_T02_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 7, text 3</cell>
+                     <cell>Islamische Feste</cell>
+                     <cell>lə-ʕyād ǝl-ʔǝslāmiyye</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L07_T03_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 7, text 4</cell>
+                     <cell>Syrisches Essen 9: Süßigkeiten</cell>
+                     <cell>ʔakᵊl Šāmi 9: ḥəlwiyyāt</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L07_T04_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 8, text 2</cell>
+                     <cell>Die Verlobung von Sāmi und Dāna</cell>
+                     <cell>xəṭbet Sāmi w Dāna</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L08_T02_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 8, text 3</cell>
+                     <cell>Christliche Feste</cell>
+                     <cell>lǝ-ʕyād ǝl-masīḥiyye</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L08_T03_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 8, text 4</cell>
+                     <cell>Ein paar syrische Witze</cell>
+                     <cell>kam nǝkte šāmiyye</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L08_T04_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 9, text 1</cell>
+                     <cell>Die Hochzeit</cell>
+                     <cell>əl-ʕərᵊs</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L09_T01_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 9, text 3</cell>
+                     <cell>Syrisches Essen 10: Muluchije</cell>
+                     <cell>ʔakᵊl Šāmi 10: lǝ-mlūxiyye</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L09_T03_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 9, text 4</cell>
+                     <cell>Fußball</cell>
+                     <cell>kuret əl-qadam</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L09_T04_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 10, text 2</cell>
+                     <cell>Das Wetter und die vier Jahreszeiten in Damaskus</cell>
+                     <cell>әž-žaww w-ᵊfṣūl әs-sәne l-ʔarbʕa b-ǝš-Šām</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L10_T02_.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>Lesson 11, text 1</cell>
+                     <cell>Revolution und Krieg</cell>
+                     <cell>əs-sawra w-əl-ḥarᵊb</cell>
+                     <cell>
+                        <ptr type="sound" target="2_L11_T01_.m4a"/>
+                     </cell>
+                  </row>
+               </table>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

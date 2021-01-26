@@ -1,0 +1,116 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICAV Overview Spoken Arabic Corpora</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <div xml:id="vicavOverview_corpora_spoken">
+            <head>Resources for Spoken Varieties</head>
+            <p>The number of digitally encoded Arabic language corpora has been on
+               the rise in recent years. The following list is an attempt at listing
+               those that are relevant to linguistic research and is by no means meant
+               to be exhaustive. Please let us know about missing items.</p>
+            <div>
+               <head>CorpAfroAs</head>
+               <p>CorpAfroAs was an integrated pilot project that also produced Arabic
+                  data. On the <ref target="http://corpafroas.huma-num.fr">project web
+                     site</ref>, you can find extensive information on how to build
+                  corpora of spoken language. The data is available.</p>
+            </div>
+            <div>
+               <head>CORVAM Speech corpus of Maghrebi varieties</head>
+               <p>This very recent development is a tool for the study of Arabic and
+                  Berber varieties in the Maghreb in terms of teaching and research
+                  and for the preservation of language and culture in the Maghreb. The
+                  corpus is a result of the research team <hi rend="italic">nhəḍṛu.
+                     Dialectología y sociolingüística del Magreb</hi>, and has been
+                  conducted at the University of Zaragoza with the participation of
+                  members from other universities and research institutes both from
+                  Spain and abroad. The project has been been developed under the lead
+                  of <ref target="bibl:Vicente">Ángeles Vicente</ref> and the <ref target="http://corvam.unizar.es/en/">website</ref>
+                  is being hosted by the University of Zaragoza.</p>
+            </div>
+            <div>
+               <head>TUNICO</head>
+               <p>The <ref target="https://tunico.acdh.oeaw.ac.at/about_corpus.html">TUNICO
+                     Corpus</ref> was created as part of the project <hi rend="italic">
+                     Linguistic dynamics in the Greater Tunis Area: a corpus-based
+                     approach</hi> which ran from August 2013 until July 2016. TUNICO grew
+                  as a satellite project out of the VICAV project.</p>
+            </div>
+            <div>
+               <head>Tunisian Arabic Corpus</head>
+               <p>This is a comparatively large corpus of Tunisian Arabic mainly
+                  collected from the Internet. The corpus has a very nice
+                  <ref target="http://tunisiya.org">web interface</ref>.</p>
+            </div>
+            <div>
+               <head>Corpus of Moroccan Arabic Writers of Short Stories and Literary
+                  Reviews</head>
+               <p>Information on this corpus can be found
+                  <ref target="http://www.ugr.es/~dgb/corpus/">here</ref>.</p>
+            </div>
+            <div>
+               <head>In their own voices, in their own words: A
+                  sociolinguistically-informed corpus of Nigerian Arabic</head>
+               <p>This <ref target="http://www.neu.uni-bayreuth.de/de/Uni_Bayreuth/Fakultaeten/4_Sprach_und_Literaturwissenschaft/islamwissenschaft/arabistik/en/Idiomaticity__lexical_realignment__and_semantic_change_in_spoken_arabic/Nigerian_Arabic/index.html"/>corpus which is hosted by the university of Bayreuth has been
+                  created by <ref target="bibl:Owens">Jonathan Owens</ref> who has
+                  also published extensively about <ref target="bibl:reg:Nigeria">Nigerian
+                     Arabic</ref>.</p>
+            </div>
+            <div>
+               <head>Curras: Corpus for Palestinian Arabic</head>
+               <p>This corpus of 60k words consists in texts collected from Facebook, Twitter, "Watan Aa Water" scripts, and others. Every word in the corpus was manually annotated with a set of metadata attributes to describe the orthographical, morphological, and semantic features of the word such as part of speech, prefixes, stem, suffixes, dialect lemma, MSA lemma, surface, gender, number, mode, and a gloss in English. </p>
+            </div>
+            <div>
+               <head>Gumar Corpus</head>
+               <p> The <ref target="https://camel.abudhabi.nyu.edu/gumar/">Gulf
+                     Arabic Corpus</ref> (Gumar) was created as part of the
+                  Computational Approaches to Modeling Languages CAMeL lab in New York
+                  University Abu Dhabi NYUAD. The corpus contains a unique genre of
+                  written material, anonymous publicly published long conversational
+                  novels. A a huge collection of these novels was found online in one
+                  place. 1,200 MS Word documents were automatically downloaded. </p>
+            </div>
+            <div>
+               <head>Database of Arabic Dialects</head>
+               <p>The <ref target="http://www.arabic.humanities.manchester.ac.uk/database-of-arabic-dialects/">Database of Arabic Dialects</ref> was created through interviews conducted with informants
+                  from Algeria, Egypt, Iran, Iraq, Jordan, Kuwait,
+                  Lebanon, Morocco, Oman, Palestine, Saudi Arabia, Sudan and Syria. On the basis
+                  of a quite exhaustive questionnaire, the website allows to explore linguistic
+                  phenomena and to compare a wide range of dialects. The project was set up and organised
+                  by <ref target="https://en.wikipedia.org/wiki/Yaron_Matras">Yaron Matras</ref> at the University of Manchester.
+               </p>
+            </div>
+            <div>
+               <head>Arabic Dialects Dataset</head>
+               <p>This <ref target="http://www.lancaster.ac.uk/staff/elhaj/corpora.htm">collection</ref>
+                  is one of several corpora being provided by Mahmoud El-Haj
+                  (Lancaster University). It consists in transcriptions of Arabic
+                  script of Gulf, Egypt, Levantine and Tunisian Arabic dialects in
+                  addition to MSA.</p>
+            </div>
+            <div>
+               <head>Arabic Speech Corpus</head>
+               <p>The <ref target="http://en.arabicspeechcorpus.com/">Arabic Speech
+                     Corpus</ref> was developed by Nawar Halabi at the University of
+                  Southampton. It was recorded in south Levantine Arabic (Damascian
+                  accent) using a professional studio. Synthesized speech as an output
+                  using this corpus has produced a high quality, natural voice. It is
+                  released here under a non-commercial creative commons license.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

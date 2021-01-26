@@ -1,0 +1,32 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICAV Contribute Profile</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="flashcards" matchPattern="(+),(.+),(.+)" replacementPattern="https://cs.acdh.oeaw.ac.at/modules/fcs-aggregator/switch.php?version=1.2&amp;operation=searchRetrieve&amp;query=unit=$1&amp;x-context=$2&amp;startRecord=1&amp;maximumRecords=1000&amp;x-format=$3&amp;x-dataview=kwic,title';"/>
+         </listPrefixDef>
+      </encodingDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <div xml:id="vicavContributeProfile">
+            <head>Contributing</head>
+            <p>If you would like to contribute a profile, simply  download
+               the <ref target="downloads/vicav_profiles_template__001.docx">template</ref>,
+               fill in the form and return the document to us.</p>
+         </div>
+
+      </body>
+   </text>
+</TEI>
