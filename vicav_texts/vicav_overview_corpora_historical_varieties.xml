@@ -1,24 +1,25 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>VICAV Corpora (Historical Varieties)</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>Information about the source</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div xml:id="vicavOverview_corpora_historical_varieties">
-        <head>Corpora (Historical Varieties)</head>
-        <div>
-          <head>Sharing Ancient Wisdoms (SAWS)</head>
-          <p xml:space="preserve">The <ref target="http://www.ancientwisdoms.ac.uk/">SAWS Dynamic
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+             <title>VICAV Corpora (Historical Varieties)</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+          <div xml:id="vicavOverview_corpora_historical_varieties">
+              <head>Corpora (Historical Varieties)</head>
+              
+              <div>
+                  <head>Sharing Ancient Wisdoms (SAWS)</head>
+                  <p xml:space="preserve">The <ref target="http://www.ancientwisdoms.ac.uk/">SAWS Dynamic
           Library</ref> contains five main groups of texts. Elvira Wakelnig
         and colleagues in Vienna have made available two collections,
         Gnomological Material in Arabic and in Arabic-Spanish transmission,
@@ -40,37 +41,44 @@
         an 11th century Greek text which is profoundly influenced by the
         tradtion of gnomologia. See a map of the manuscripts which we are
         publishing.</p>
-        </div>
-        <div>
-          <head>A Digital Corpus for Graeco-Arabic Studies</head>
-          <p xml:space="preserve">This <ref target="https://www.graeco-arabic-studies.org">digital
+              </div>
+              
+              <div>
+                  <head>A Digital Corpus for Graeco-Arabic Studies</head>
+                  
+                  <p xml:space="preserve">This <ref target="https://www.graeco-arabic-studies.org">digital
           corpus</ref> assembles a wide range of Greek texts and their
         Arabic counterparts. It also includes a number of Arabic
         commentaries and important secondary sources. The texts in the
         corpus can be consulted individually or side by side with their
         translation. The majority of texts can also be downloaded for
         further analysis. </p>
-        </div>
-        <div>
-          <head>The Quranic Arabic Corpus</head>
-          <p xml:space="preserve">This <ref target="http://corpus.quran.com">corpus</ref> is an 
+              </div>
+              
+              <div>
+                  <head>The Quranic Arabic Corpus</head>
+                  
+                  <p xml:space="preserve">This <ref target="http://corpus.quran.com">corpus</ref> is an 
         annotated linguistic resource which shows the Arabic grammar, 
         syntax and morphology for each word in the text of the Quran. 
         The corpus provides three levels of analysis: morphological annotation, 
         a syntactic treebank and a semantic ontology. The linguistic structure 
         of verses is represented using dependency graphs. The corpus is 
         available under the GNU public license.</p>
-        </div>
-        <div>
-          <head>Digital Archive for the Study of pre-Islamic Arabian
+              </div>
+              
+              <div>
+                  <head>Digital Archive for the Study of pre-Islamic Arabian
                       Inscriptions (DASI)</head>
-          <p xml:space="preserve">
+                  
+                  <p xml:space="preserve">
         <ref target="http://dasi.humnet.unipi.it">DASI</ref> seeks to gather
         all known pre-Islamic Arabian epigraphic material into a
         comprehensive online database, with the aim to make available to
         specialists and to the broader public a wide array of documents
         often underestimated because of their difficulty of access.</p>
-          <p xml:space="preserve">By means of a digitization process through a hybrid data entry/xml
+                  
+                  <p xml:space="preserve">By means of a digitization process through a hybrid data entry/xml
         system developed by the Scuola Normale Superiore di Pisa according
         to international encoding standards, DASI gives access at present to
         more than 7,000 Ancient South Arabian inscriptions recorded by the
@@ -81,42 +89,52 @@
         inscriptions (supervision by Michael C.A. Macdonald, University of
         Oxford) and Aramaic inscriptions (supervision by Laila Nehmé, UMR
         8167, CNRS-Paris) are being prepared for consultation.</p>
-        </div>
-        <div>
-          <head>The Arabic Papyrology Database (APD)</head>
-          <p xml:space="preserve">
+              </div>
+              
+              <div>
+                  <head>The Arabic Papyrology Database (APD)</head>
+                  
+                  <p xml:space="preserve">
         <ref target="http://www.apd.gwi.uni-muenchen.de:8080/apd/project.jsp">APD</ref> is a tool enabling you to access the editions of Arabic
         documents written on different material such as papyrus, parchment
         or paper. Those productive editions are an often unraised treasure
         for almost every aspect of Islamic history up to the 16th c.
         A.D.</p>
-        </div>
-        <div>
-          <head>Analytical Database of Arabic Poetry</head>
-          <p xml:space="preserve">The <ref target="https://arts.st-andrews.ac.uk/arsem/project/">
+              </div>
+              
+              <div>
+                  <head>Analytical Database of Arabic Poetry</head>
+                  
+                  <p xml:space="preserve">The <ref target="https://arts.st-andrews.ac.uk/arsem/project/">
         project</ref> aims at documenting the transmission of early
         Arabic poetry. The database represents a contribution to European
         research on the Arabic language and the Arabic philological
         heritage, which so far lacks even such fundamental tools as an
         etymological dictionary of the Arabic language or a complete
         dictionary of Classical Arabic.</p>
-        </div>
-        <div>
-          <head>The Princeton Geniza Project</head>
-          <p xml:space="preserve">The <ref target="https://geniza.princeton.edu/pgp/">Princeton
+              </div>
+              
+              <div>
+                  <head>The Princeton Geniza Project</head>
+                  
+                  <p xml:space="preserve">The <ref target="https://geniza.princeton.edu/pgp/">Princeton
         Geniza Project</ref> is a searchable database of documentary
         Geniza texts. The corpus currently consists of 4,320 transcriptions
         in Judaeo-Arabic, Hebrew, Aramaic and Arabic. </p>
-        </div>
-        <div>
-          <head>Perseus Digital Library</head>
-          <p xml:space="preserve">The Perseus Digital Library, the central hub for digital language
+              </div>
+              
+              <div>
+                  <head>Perseus Digital Library</head>
+                  
+                  <p xml:space="preserve">The Perseus Digital Library, the central hub for digital language
         ressources in the Latin and Ancient Greek languages, also contains
         historical <ref target="http://www.perseus.tufts.edu/hopper/collection?collection=Perseus:collection:Arabic">Arabic language documents</ref>.</p>
-        </div>
-        <div>
-          <head>Islamic Law Materialized</head>
-          <p xml:space="preserve">This <ref target="http://cald.irht.cnrs.fr/php/ilm.php">corpus</ref> 
+              </div>
+              
+              <div>
+                  <head>Islamic Law Materialized</head>
+                  
+                  <p xml:space="preserve">This <ref target="http://cald.irht.cnrs.fr/php/ilm.php">corpus</ref> 
         contains primary sources for Islamic law and legal
         practice in pre-modern Muslim societies. The online presentation is
         the first ever collection of scattered editions of legal documents
@@ -124,12 +142,15 @@
         readings compared to earlier print versions. Documents are presented
         with the Arabic text in modern spelling and with full
         bibliographical data.</p>
-        </div>
-        <div>
-          <head>Thesaurus d'épigraphie islamique</head>
-          <p xml:space="preserve">This <ref target="http://www.apd.gwi.uni-muenchen.de:8080/apd/links.jsp">website</ref> is accessible to registered users only.</p>
-        </div>
-      </div>
-    </body>
-  </text>
+              </div>
+              
+              <div>
+                  <head>Thesaurus d'épigraphie islamique</head>
+                  
+                  <p xml:space="preserve">This <ref target="http://www.apd.gwi.uni-muenchen.de:8080/apd/links.jsp">website</ref> is accessible to registered users only.</p>
+              </div>
+          </div>
+          
+      </body>
+   </text>
 </TEI>

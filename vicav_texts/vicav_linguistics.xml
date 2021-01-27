@@ -1,20 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Vicav Linguistics</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>Information about the source</p>
-      </sourceDesc>
-    </fileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Vicav Linguistics</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
   </teiHeader>
   <text>
-    <body>
-      <div xml:id="vicavLinguistics" xml:space="preserve">
+      <body>
+
+<div xml:id="vicavLinguistics" xml:space="preserve">
     <head>Linguistics</head>
               
     <p xml:space="preserve">The VICAV Research Environment has been designed 
@@ -47,6 +49,6 @@
       potential to help to bridge this gap to the benefit of both
       disciplines.</p>
 </div>
-    </body>
+      </body>
   </text>
 </TEI>

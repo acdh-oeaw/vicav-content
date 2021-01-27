@@ -1,35 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>VICAV Paratexts</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>Information about the source</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div xml:id="vicavExplBar_dualApproach">
-        <head>Dual Approach</head>
-        <p>The VICAV website is designed in a manner supposed to allow users to investigate 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>VICAV Paratexts</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="vicavExplBar_dualApproach">
+                <head>Dual Approach</head>
+                
+                <p>The VICAV website is designed in a manner supposed to allow users to investigate 
                     the available resources through various methods. The basic access mode is to 
                     launch a query by clicking on the symbols on the map.</p>
-        <p>There are two distinct symbols: arrows and circles. The arrows indicate particular 
+                
+                <p>There are two distinct symbols: arrows and circles. The arrows indicate particular 
                     locations (towns, parts of towns, villages), the circles are used for regions 
-                    that can but do not necessarily correlate with countries.</p>
-        <p>
-          <graphic url="vicav_locations_regions.jpg"/>
-        </p>
-        <p>However, most queries can also be triggered by clicking on menu items or by formulating explicit queries.</p>
-        <p>
-          <graphic url="vicav_query__001.jpg"/>
-        </p>
-      </div>
-    </body>
-  </text>
+                    that can but do not necessarily correlate with countries. </p>
+                
+                <p>
+                    <graphic url="vicav_locations_regions.jpg"/>
+                </p>
+                
+                <p>However, most queries can also be triggered by clicking on menu items or by formulating explicit queries.</p>
+                <p>
+                    <graphic url="vicav_query__001.jpg"/>
+                </p>
+            </div>
+            
+        </body>
+    </text>
 </TEI>

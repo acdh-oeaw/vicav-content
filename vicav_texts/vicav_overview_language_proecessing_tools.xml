@@ -1,22 +1,23 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>VICAV Viennese Lexicographic Editor (VLE)</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>Information about the source</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div xml:id="vicavVLE">
-        <head>Viennese Lexicographic Editor (VLE)</head>
-        <p xml:space="preserve">VLE is a fairly new piece of software that first came into existence
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+             <title>VICAV Viennese Lexicographic Editor (VLE)</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+          <div xml:id="vicavVLE">
+              <head>Viennese Lexicographic Editor (VLE)</head>
+              
+              <p xml:space="preserve">VLE is a fairly new piece of software that first came into existence
     as a by-product of an entirely different development activity: the
     creation of an interactive online learning system for university
     students. Thus, it was first used in a collaborative glossary editing
@@ -26,7 +27,8 @@
     built around an XML editor. The communication between the dictionary
     client and the server has been implemented as a RESTful web
     service.</p>
-        <p xml:space="preserve">The interface is built around an XML editor that allows to process
+              
+              <p xml:space="preserve">The interface is built around an XML editor that allows to process
     standard-based lexicographic and terminological data, basically any
     XML-based format such as LMF, TBX, RDF, or TEI can be handled. The
     program provides a number of useful functions to automate editing
@@ -44,7 +46,8 @@
     example sentences from them into dictionary entries. The communication
     between the dictionary client and the server has been implemented as a
     RESTful web service.</p>
-      </div>
-    </body>
-  </text>
+              
+          </div>
+      </body>
+   </text>
 </TEI>
