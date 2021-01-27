@@ -80,7 +80,7 @@
             <item><name type="geo">Constantine</name><geo>36°21'54"N 06°36'53"E</geo><idno type="geoNames">2501152</idno></item>
             <item><name type="geo">Dakhla</name><geo>25°30'00"N 29°10'00"E</geo><idno type="geoNames">358471</idno></item>
             <item><name type="geo">Damascus</name><geo>33°30'37"N 36°17'29"E</geo><idno type="geoNames">170654</idno></item>
-            <item><name type="geo">Danagözü</name><geo>38°24'00"N 41°32'00"E</geo><idno type="geoNames"></idno></item>
+            <item><name type="geo">Danagözü</name><geo>38°24'00"N 41°32'00"E</geo><idno type="geoNames"/></item>
             <item><name type="geo">Dasht-e Azadegan</name><geo>33°29'59"N 52°15'23"E</geo><idno type="geoNames">6899807</idno></item>
             <item><name type="geo">Debdou</name><geo>33°58'56"N 03°02'33"W</geo><idno type="geoNames">2552407</idno></item>
             <item><name type="geo">Deir ez-Zor</name><geo>35°20'09"N 40°08'27"E</geo><idno type="geoNames">170794</idno></item>
@@ -120,7 +120,7 @@
             <item><name type="geo">Ibb</name><geo>13°58'00"N 44°11'00"E</geo><idno type="geoNames">74477</idno></item>
             <item><name type="geo">Ibri</name><geo>23°13'33"N 56°30'57"E</geo><idno type="geoNames">287830</idno></item>
             <item><name type="geo">Iksal</name><geo>32°40'54"N 35°19'25"E</geo><idno type="geoNames">294658</idno></item>
-            <item><name type="geo">ilBashandi</name><geo>25°32'58"N 29°17'57"E</geo><idno type="geoNames"></idno></item>
+            <item><name type="geo">ilBashandi</name><geo>25°32'58"N 29°17'57"E</geo><idno type="geoNames"/></item>
             <item><name type="geo">Irbid</name><geo>32°33'20"N 35°51'00"E</geo><idno type="geoNames">248946</idno></item>
             <item><name type="geo">Isawiya</name><geo>31°48'00"N 35°15'00"E</geo><idno type="geoNames">294643</idno></item>
             <item><name type="geo">Iskenderun</name><geo>36°35'14"N 36°10'24"E</geo><idno type="geoNames">311111</idno></item>
@@ -281,7 +281,7 @@
             <item><name type="reg">Djibouti</name><geo>11°50'00"N 42°30'00"E</geo><idno type="geoNames">223816</idno></item>
             <item><name type="reg">Eastern Anatolia Region</name><geo>39°25'36"N 41°14'05"E</geo><idno type="geoNames">10922505</idno></item>
             <item><name type="reg">Egypt</name><geo>27°00'00"N 30°00'00"E</geo><idno type="geoNames">357994</idno></item>
-            <item><name type="diaGroup">Egypt-Sudan</name><geo>22°19'00"N 30°06'00"E</geo><idno type="geoNames"></idno></item>
+            <item><name type="diaGroup">Egypt-Sudan</name><geo>22°19'00"N 30°06'00"E</geo><idno type="geoNames"/></item>
             <item><name type="reg">Eritrea</name><geo>15°00'00"N 39°00'00"E</geo><idno type="geoNames">338010</idno></item>
             <item><name type="reg">Faiyum</name><geo>29°18'00"N 30°30'00"E</geo><idno type="geoNames">361323</idno></item>
             <item><name type="reg">Fezzan</name><geo>26°00'00"N 14°00'00"E</geo><idno type="geoNames">2217514</idno></item>
@@ -309,10 +309,10 @@
             <item><name type="reg">Kuweit</name><geo>29°30'00"N 47°45'00"E</geo><idno type="geoNames">285570</idno></item>
             <item><name type="reg">Lebanon</name><geo>33°49'60"N 35°49'60"E</geo><idno type="geoNames">272103</idno></item>
             <item><name type="reg">Libya</name><geo>28°00'00"N 17°00'00"E</geo><idno type="geoNames">2215636</idno></item>
-            <item><name type="diaGroup">Maghreb</name><geo>27°45'00"N 9°18'00"E</geo><idno type="geoNames"></idno></item>
+            <item><name type="diaGroup">Maghreb</name><geo>27°45'00"N 9°18'00"E</geo><idno type="geoNames"/></item>
             <item><name type="reg">Malta</name><geo>35°55'00"N 14°26'00"E</geo><idno type="geoNames">2562770</idno></item>
             <item><name type="reg">Mauritania</name><geo>20°15'00"N 10°30'00"W</geo><idno type="geoNames">2378080</idno></item>
-            <item><name type="diaGroup">Mesopotamia</name><geo>35°14'00"N 42°48'00"E</geo><idno type="geoNames"></idno></item>
+            <item><name type="diaGroup">Mesopotamia</name><geo>35°14'00"N 42°48'00"E</geo><idno type="geoNames"/></item>
             <item><name type="reg">Morocco</name><geo>32°00'00"N 06°00'00"W</geo><idno type="geoNames">2542007</idno></item>
             <item><name type="reg">Mount Carmel</name><geo>32°43'43"N 35°03'15"E</geo><idno type="geoNames">294579</idno></item>
             <item><name type="reg">Mzab</name><geo>32°35'00"N 03°20'00"E</geo><idno type="geoNames">2486601</idno></item>
