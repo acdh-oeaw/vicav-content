@@ -1,8 +1,8 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-             <title>VICAV Viennese Lexicographic Editor (VLE)</title>
+            <title>VICAV Viennese Lexicographic Editor (VLE)</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -12,42 +12,86 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
+
    <text>
       <body>
-          <div xml:id="vicavVLE">
-              <head>Viennese Lexicographic Editor (VLE)</head>
-              
-              <p xml:space="preserve">VLE is a fairly new piece of software that first came into existence
-    as a by-product of an entirely different development activity: the
-    creation of an interactive online learning system for university
-    students. Thus, it was first used in a collaborative glossary editing
-    project carried out as part of university language courses at the
-    University of Vienna. As the tool proved to be flexible and adaptable
-    enough, it was also put to work in other projects. The interface is
-    built around an XML editor. The communication between the dictionary
-    client and the server has been implemented as a RESTful web
-    service.</p>
-              
-              <p xml:space="preserve">The interface is built around an XML editor that allows to process
-    standard-based lexicographic and terminological data, basically any
-    XML-based format such as LMF, TBX, RDF, or TEI can be handled. The
-    program provides a number of useful functions to automate editing
-    procedures. It can check the structural integrity (well-formedness) of
-    input on the fly. Technologically, it draws not only on the XML core
-    specification but also on several cognate technologies. XSLT and XPath
-    play an important role both for visualizing and modifying existing
-    datasets. Lexicographers can insert elements on the basis of
-    predefined XML Schemas. Most of the functions can be applied both to
-    single and multiple lemmas. One of the most recent improvements is a
-    versioning system and an improved working mode that allows
-    lexicographers to work on the XML data without actually seeing the
-    tags. Furthermore, the editor also has a configurable interface
-    enabling lexicographers to access external corpora and to integrate
-    example sentences from them into dictionary entries. The communication
-    between the dictionary client and the server has been implemented as a
-    RESTful web service.</p>
-              
-          </div>
+         <div xml:id="vicavOverview_nlp">
+            <head>Language Processing Tools</head>
+
+            <p>Meanwhile, there exist numerous tools for processing Arabic language
+               data. However, tools that are readily usable and freely available are
+               still scarce. </p>
+
+            <div>
+               <head>Morphological Analyzers</head>
+
+               <p>Morphlogial processors or taggers assign labels to tokens
+                  (wordforms). They can isolate stems, identify word classes (POS=part
+                  of speech) or add other morpho-syntactic data to the wordforms.</p>
+
+               <div>
+                  <head>Buckwalter Arabic morphological analyzer</head>
+
+                  <p>This has definitely been the most widely applied tool in the
+                     field used by at least two generations of computational
+                     linguists.</p>
+               </div>
+
+               <div>
+                  <head>JAVA Arabic Stemmer</head>
+
+                  <p>This programm, also known as <hi rend="italic">Khoja Arabic
+                        Stemmer and Tagger</hi>, was written in JAVA and is available
+                     from the <ref target="https://sourceforge.net/projects/arabicstemmer/files/">
+                        sourceforge</ref> code repository.</p>
+               </div>
+
+               <div>
+                  <head>ADAM: Analyzer for Dialectal Arabic Morphology</head>
+
+                  <p>
+                     <ref target="https://github.com/WaelSalloum/adam">ADAM</ref> is a
+                     tool that builds on Buckwalter's analyzer.</p>
+               </div>
+            </div>
+
+            <div>
+               <head>Parsers</head>
+               <p>A parser is a tool that performs an automatic analysis of the
+                  syntactic structure of digital texts. </p>
+
+               <div>
+                  <head>The Stanford Parser</head>
+
+                  <p>It is licensed under a GNU General Public License and comes with
+                     extensive support for Arabic.</p>
+               </div>
+            </div>
+
+            <div>
+               <head>Literature</head>
+
+               <div>
+                  <head>Introduction to Arabic Natural Language Processing (Synthesis
+                     Lectures on Human Language Technologies)</head>
+
+                  <p>To our knowldge, this book by Nizar Y. Habash (Morgan and Claypool
+                     2010) is the only monography exclusivly dealing with Arabic NLP.
+                     It also comprises a bibliography of relevant other pulications
+                     which meanwhile has been outdated by many more publications in
+                     the field.</p>
+               </div>
+
+               <div>
+                  <head>المدونات اللغوية ودورها في معالجة النصوص العربية</head>
+
+                  <p>"Corpora and their Role in Processing Arabic Texts" by
+                     <hi rend="italic">Ayman Eddakrouri</hi> was published in
+                     2018 and deals with a wide range of digital language ressources.</p>
+               </div>
+            </div>
+         </div>
+
       </body>
    </text>
 </TEI>
