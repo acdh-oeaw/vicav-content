@@ -19,6 +19,10 @@
             <head type="newsHeader">News</head>
 
             <div type="newsItem">
+               <p><hi rendition="#b">27.1.2021:</hi> Entirely revamped VICAV 3.0 goes public. The bibliography has now 4722 entries!</p>
+            </div>
+
+            <div type="newsItem">
                <p><hi rendition="#b">19.12.2020:</hi> The Baghdad dictionary has now over 1100 entries.</p>
             </div>
 
@@ -42,7 +46,7 @@
 
             <div type="newsItem">
                <p>
-                  <hi rendition="#b">15.3.2019:</hi> New function to <rs ref="text:vicav_explore_features func:insertFeatureMarkers()">compare features</rs>.</p>
+                  <hi rendition="#b">15.3.2019:</hi> New function to <rs ref="text:vicav_explore_features">compare features</rs>.</p>
             </div>
 
             <div type="newsItem">
