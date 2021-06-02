@@ -1,5 +1,5 @@
 <TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+<teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Language profiles (Explanation)</title>
@@ -20,10 +20,9 @@
    </teiHeader>
    <text>
       <body>
-         <div xml:id="vicavExplanationProfiles" n="PROFILE1">
+         <div xml:id="vicavExplanationProfiles1" n="PROFILE1">
             <head>Language profiles</head>
-            <p>
-               An important part of this website are information units which we call
+            <p>An important part of this website are information units which we call
                <hi rendition="#i">language profiles</hi>
                . This types of text consist in short sketches of varieties of spoken contemporary Arabic. The intention is to work in a complementary manner to similar endeavours (such as EALL). For the time being, we do not plan to provide detailed grammatical descriptions but rather focus on general information, research histories and available literature.
             </p>
