@@ -22,6 +22,7 @@
       <body>
          <list>
             <item><name type="geo">İdil (Āzex)</name><geo>37°20'30"N 41°53'18"E</geo><idno type="geoNames">442034</idno></item>
+            <item><name type="geo">Abha</name><geo>18°12'59"N 42°30'19"E</geo><idno type="geoNames">110690</idno></item>
             <item><name type="geo">Abu Shusha</name><geo>31°51'00"N 34°53'31"E</geo><idno type="geoNames">295767</idno></item>
             <item><name type="geo">Abéché</name><geo>13°49'45"N 20°49'57"E</geo><idno type="geoNames">245785</idno></item>
             <item><name type="geo">Abu Dhabi</name><geo>24°27'04"N 54°23'49"E</geo><idno type="geoNames">292968</idno></item>
@@ -98,6 +99,7 @@
             <item><name type="geo">Erbil</name><geo>36°11'00"N 44°00'43"E</geo><idno type="geoNames">95446</idno></item>
             <item><name type="geo">Errachidia</name><geo>31°55'53"N 04°25'36"W</geo><idno type="geoNames">7280528</idno></item>
             <item><name type="geo">Essaouira</name><geo>31°30'45"N 09°46'12"W</geo><idno type="geoNames">2549263</idno></item>
+            <item><name type="geo">Farafra</name><geo>27°03'24"N 27°58'11"E</geo><idno type="geoNames">350661</idno></item>
             <item><name type="geo">Fez</name><geo>34°01'59"N 05°00'01"W</geo><idno type="geoNames">2548885</idno></item>
             <item><name type="geo">Gabès</name><geo>33°52'53"N 10°05'54"E</geo><idno type="geoNames">2468369</idno></item>
             <item><name type="geo">Gaza</name><geo>31°30'06"N 34°28'00"E</geo><idno type="geoNames">281133</idno></item>
@@ -132,6 +134,7 @@
             <item><name type="geo">Jerusalem</name><geo>31°46'55"N 35°13'11"E</geo><idno type="geoNames">7498240</idno></item>
             <item><name type="geo">Jibla</name><geo>13°55'18"N 44°08'48"E</geo><idno type="geoNames">74185</idno></item>
             <item><name type="geo">Jijel</name><geo>36°49'16"N 05°45'49"E</geo><idno type="geoNames">2492913</idno></item>
+            <item><name type="geo">Jisr az-Zarqa</name><geo>32°32'13"N 34°54'46"E</geo><idno type="geoNames">294626</idno></item>
             <item><name type="geo">Jnanate</name><geo>34°30'58"N 05°02'28"W</geo><idno type="geoNames">11042130</idno></item>
             <item><name type="geo">Juba</name><geo>04°51'06"N 31°34'57"E</geo><idno type="geoNames">373303</idno></item>
             <item><name type="geo">Jubb'adin</name><geo>33°49'21"N 36°30'38"E</geo><idno type="geoNames">169008</idno></item>
@@ -252,9 +255,11 @@
             <item><name type="geo">Zaafrane</name><geo>33°26'34"N 08°55'14"E</geo><idno type="geoNames">2464050</idno></item>
             <item><name type="geo">Zabid</name><geo>14°11'42"N 43°18'55"E</geo><idno type="geoNames">69500</idno></item>
             <item><name type="geo">Zaer</name><geo>33°41'29"N 06°33'21"W</geo><idno type="geoNames">2541524</idno></item>
+            <item><name type="geo">Zahlé</name><geo>33°50'48″N 35°54'07″E</geo><idno type="geoNames">266045</idno></item>
             <item><name type="geo">Zakarīya</name><geo>31°42'33"N 34°56'42"E</geo><idno type="geoNames">293094</idno></item>
             <item><name type="geo">Zeitoun, Keserwan</name><geo>34°03'44"N 35°41'07"E</geo><idno type="geoNames">265874</idno></item>
             <item><name type="geo">Zgharta</name><geo>34°20'48"N 35°54'31"E</geo><idno type="geoNames">265845</idno></item>
+            <item><name type="geo">Zrarieh</name><geo>33°20'36"N 35°20'01"E</geo><idno type="geoNames">277258</idno></item>
 
             <item><name type="reg">'Asir</name><geo>19°09'00"N 42°57'00"E</geo><idno type="geoNames">108179</idno></item>
             <item><name type="reg">Afghanistan</name><geo>33°00'00"N 66°00'00"E</geo><idno type="geoNames">1149361</idno></item>
@@ -265,6 +270,7 @@
             <item><name type="reg">Bahrain</name><geo>26°01'60"N 50°33'00"E</geo><idno type="geoNames">290291</idno></item>
             <item><name type="reg">Balkh region</name><geo>36°45'00"N 67°00'00"E</geo><idno type="geoNames">1147288</idno></item>
             <item><name type="reg">al-Balqa</name><geo>32°00'00"N 35°40'00"E</geo><idno type="geoNames">250751</idno></item>
+            <item><name type="reg">Beqaa</name><geo>33°40'00"N 35°50'00"E</geo><idno type="geoNames">280282</idno></item>
             <item><name type="reg">Bilad Ghamid</name><geo>19°58'31"N 41°33'25"E</geo><idno type="geoNames">107439</idno></item>
             <item><name type="reg">Butana</name><geo>15°33'25"N 35°02'23"E</geo><idno type="geoNames">379593</idno></item>
             <item><name type="reg">Cameroon (North Region)</name><geo>09°18'05"N 13°23'52"E</geo><idno type="geoNames">2231320</idno></item>
@@ -276,6 +282,7 @@
             <item><name type="reg">Cyprus</name><geo>35°00'00"N 33°00'00"E</geo><idno type="geoNames">146669</idno></item>
             <item><name type="reg">Cyrenaica</name><geo>31°00'00"N 22°30'00"E</geo><idno type="geoNames">88252</idno></item>
             <item><name type="reg">Dagestan</name><geo>42°00'00"N 47°00'00"E</geo><idno type="geoNames">567292</idno></item>
+            <item><name type="reg">Darfur</name><geo>13°00'00"N 25°00'00"E</geo><idno type="geoNames">8693107</idno></item>
             <item><name type="reg">Dhofar</name><geo>17°02'33"N 54°09'55"E</geo><idno type="geoNames">285879</idno></item>
             <item><name type="reg">Djerba</name><geo>33°48'00"N 10°54'00"E</geo><idno type="geoNames">2470181</idno></item>
             <item><name type="reg">Djibouti</name><geo>11°50'00"N 42°30'00"E</geo><idno type="geoNames">223816</idno></item>
@@ -325,6 +332,7 @@
             <item><name type="reg">Qalamun</name><geo>33°37'44"N 36°26'53"E</geo><idno type="geoNames">166237</idno></item>
             <item><name type="reg">Qashqadaryo River</name><geo>38°35'00"N 66°00'00"E</geo><idno type="geoNames">1114928</idno></item>
             <item><name type="reg">Qatar</name><geo>25°30'00"N 51°15'00"E</geo><idno type="geoNames">289688</idno></item>
+            <item><name type="reg">Šarqiyya</name><geo>30°42'00"N 31°48'00"E</geo><idno type="geoNames">360016</idno></item>
             <item><name type="reg">Saudi Arabia</name><geo>25°00'00"N 45°00'00"E</geo><idno type="geoNames">102358</idno></item>
             <item><name type="reg">Senegal</name><geo>14°30'00"N 14°15'00"W</geo><idno type="geoNames">2245662</idno></item>
             <item><name type="reg">Sicily</name><geo>37°37'23"N 13°56'04"E</geo><idno type="geoNames">2523118</idno></item>

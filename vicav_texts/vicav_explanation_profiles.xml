@@ -82,8 +82,17 @@
                   </item>
                </list>
             </div>
+            <div xml:id="profiles_cypress">
+               <head>Cypress (1)</head>
+               <list>
+                  <item n="1">
+                      <rs ref="profile:profile_kormakitis_01/Kormakitis">Kormakitis</rs>
+                     (Gunda Kinzl)
+                  </item>
+               </list>
+            </div>
             <div xml:id="profiles_egypt">
-               <head>Egypt (3)</head>
+               <head>Egypt (8)</head>
                <list>
                   <item n="1">
                      <rs ref="profile:profile_alexandria_01/Alexandria">Alexandria</rs>
@@ -96,6 +105,26 @@
                   <item n="3">
                      <rs ref="profile:profile_fayyum_01/Fayyum">Fayyum</rs>
                      (Claudia Laaber)
+                  </item>
+                  <item n="4">
+                      <rs ref="profile:profile_dakhla_01/Dakhla">Dakhla</rs>
+                      (Gunda Kinzl)
+                  </item>
+                  <item n="5">
+                      <rs ref="profile:profile_farafra_01/Farafra">Farafra</rs>
+                      (Gunda Kinzl)
+                  </item>
+                  <item n="6">
+                      <rs ref="profile:profile_siwa_01/Siwa">Siwa</rs>
+                      (Claudia Laaber)
+                  </item>
+                  <item n="7">
+                      <rs ref="profile:profile_sharqiyya_01/Šarqiyya">Šarqiyya</rs>
+                      (Gunda Kinzl)
+                  </item>
+                  <item n="8">
+                      <rs ref="profile:profile_upper_egypt_01/Upper Egypt">Upper Egypt</rs>
+                      (Gunda Kinzl)
                   </item>
                </list>
             </div>
@@ -134,7 +163,7 @@
                </list>
             </div>
             <div xml:id="profiles_Israel">
-               <head>Israel (7)</head>
+               <head>Israel (8)</head>
                <list>
                   <item n="1">
                      <rs ref="profile:profile_akkon_01/Akko/Acre">Akko/Acre</rs>
@@ -163,6 +192,10 @@
                   <item n="7">
                      <rs ref="profile:profile_tiberias_01/Tiberias">Tiberias</rs>
                      (Karoline Köster)
+                  </item>
+                  <item n="8">
+                     <rs ref="profile:profile_jisr_azZarqa_01/Jisr az-Zarqa">Jisr az-Zarqa</rs>
+                     (Gunda Kinzl)
                   </item>
                </list>
             </div>
@@ -201,7 +234,7 @@
                </list>
             </div>
             <div xml:id="profiles_lebanon">
-               <head>Lebanon (2)</head>
+               <head>Lebanon (5)</head>
                <list>
                   <item n="1">
                      <rs ref="profile:profile_baskinta_01/Baskinta">Baskinta</rs>
@@ -210,6 +243,15 @@
                   <item n="2">
                      <rs ref="profile:profile_tripoli_leb_01/Tripoli">Tripoli</rs>
                      (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="3"><rs ref="profile:profile_beqaa_01/Beqaa">Beqaa</rs>
+                     (Gunda Kinzl)
+                  </item>
+                  <item n="4"><rs ref="profile:profile_zahle_01/Zahlé">Zahlé</rs>
+                     (Gunda Kinzl)
+                  </item>
+                  <item n="5"><rs ref="profile:profile_zrariyeh_01/Zrarieh">Zrarieh</rs>
+                     (Gunda Kinzl)
                   </item>
                </list>
             </div>
@@ -227,7 +269,7 @@
                </list>
             </div>
             <div xml:id="profiles_morocco">
-               <head>Morocco (7)</head>
+               <head>Morocco (8)</head>
                <list>
                   <item n="1">
                      <rs ref="profile:profile_anjra_01/Anjra">Anjra</rs>
@@ -257,6 +299,10 @@
                      <rs ref="profile:profile_tetouan_01/Tétouan">Tétouan</rs>
                      (Bettina Leitner)
                   </item>
+                  <item n="8">
+                     <rs ref="profile:profile_zaer_01/Zaër">Zaër</rs>
+                     (Aleksandra Ercegovčević)
+                  </item>
                </list>
             </div>
             <div xml:id="profiles_oman">
@@ -273,7 +319,7 @@
                </list>
             </div>
             <div xml:id="profiles_palestine">
-               <head>Palestine (4)</head>
+               <head>Palestine (6)</head>
                <list>
                   <item n="1">
                      <rs ref="profile:profile_bethlehem_01/Bethlehem">Bethlehem</rs>
@@ -291,10 +337,18 @@
                      <rs ref="profile:profile_il_khalil_01/Hebron">Hebron</rs>
                      (Claudia Laaber)
                   </item>
+                  <item n="5">
+                     <rs ref="profile:profile_nablus_01/Nablus">Nablus</rs>
+                     (Gunda Kinzl)
+                  </item>
+                  <item n="6">
+                     <rs ref="profile:profile_ramallah_01/Ramallah">Ramallah</rs>
+                     (Gunda Kinzl)
+                  </item>
                </list>
             </div>
             <div xml:id="profiles_saudi_arabia">
-               <head>Saudi Arabia (2)</head>
+               <head>Saudi Arabia (5)</head>
                <list>
                   <item n="1">
                      <rs ref="profile:profile_mekka_01/Mecca">Mecca</rs>
@@ -304,10 +358,31 @@
                      <rs ref="profile:profile_al_qatif_01/al-Qatif">al-Qatif</rs>
                      (Aleksandra Ercegovčević)
                   </item>
+                  <item n="3">
+                     <rs ref="profile:profile_abha_01/Abha">Abha</rs>
+                     (Gunda Kinzl)
+                  </item>
+                  <item n="4">
+                     <rs ref="profile:profile_ghamid_01/Ghamid tribe">Ghamid tribe</rs>
+                     (Gunda Kinzl)
+                  </item> 
+                  <item n="5">
+                     <rs ref="profile:profile_shammar_01/Bani Shammar tribe">Bani Shammar tribe</rs>
+                     (Gunda Kinzl)
+                  </item> 
+               </list>
+            </div>
+             <div xml:id="profiles_sicily">
+               <head>Sicily (1)</head>
+               <list>
+                  <item n="1">
+                     <rs ref="profile:profile_sicily_01/Sicily">Sicily</rs>
+                     (Gunda Kinzl)
+                  </item>
                </list>
             </div>
             <div xml:id="profiles_sudan">
-               <head>Sudan (2)</head>
+               <head>Sudan (3)</head>
                <list>
                   <item n="1">
                      <rs ref="profile:profile_khartoum_01/Khartoum">Khartoum</rs>
@@ -316,6 +391,10 @@
                   <item n="2">
                      <rs ref="profile:profile_shukriyya_01/Shukria tribe">Shukria tribe</rs>
                      (Bettina Leitner)
+                  </item>
+                  <item n="3">
+                     <rs ref="profile:profile_darfur_01/Darfur">Darfur</rs>
+                     (Gunda Kinzl)
                   </item>
                </list>
             </div>
@@ -436,7 +515,7 @@
                </list>
             </div>
             <div xml:id="profiles_yemen">
-               <head>Yemen (6)</head>
+               <head>Yemen (8)</head>
                <list>
                   <item n="1">
                      <rs ref="profile:profile_aden_01/Aden">Aden</rs>
@@ -461,6 +540,14 @@
                   <item n="6">
                      <rs ref="profile:profile_hadramawt_01/Ḥaḍramūt / Murah">Ḥaḍramūt / Murah</rs>
                      (Aleksandra Ercegovčević)
+                  </item>
+                  <item n="7">
+                     <rs ref="profile:profile_manakha_01/Manakha">Manakha</rs>
+                     (Gunda Kinzl)
+                  </item>
+                  <item n="8">
+                     <rs ref="profile:profile_yemenite_jewish_arabic_01/Yemenite Jewish Arabic">Yemenite Jewish Arabic</rs>
+                     (Gunda Kinzl)
                   </item>
                </list>
             </div>
