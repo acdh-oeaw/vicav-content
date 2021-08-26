@@ -105,6 +105,13 @@
        
          <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
       </skos:Concept>
+
+
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#there">
+         <skos:prefLabel xml:lang="en">there</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
    
    
       <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#house">
@@ -179,6 +186,12 @@
    
       <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#mobile">
          <skos:prefLabel xml:lang="en">mobile</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
+
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#mobile_vs_cellphone">
+         <skos:prefLabel xml:lang="en">mobile vs cellphone</skos:prefLabel>
        
          <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
       </skos:Concept>
@@ -260,6 +273,11 @@
          <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
       </skos:Concept>
    
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_find">
+         <skos:prefLabel xml:lang="en">to find</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
    
       <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_close">
          <skos:prefLabel xml:lang="en">to close</skos:prefLabel>
@@ -455,6 +473,12 @@
        
          <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
       </skos:Concept>
+
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#yesterday_evening">
+         <skos:prefLabel xml:lang="en">yesterday evening</skos:prefLabel>
+       
+         <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+      </skos:Concept>
    
    
       <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#two">
@@ -470,8 +494,8 @@
          <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
       </skos:Concept>
    
-      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#how_are_you_m_f">
-         <skos:prefLabel xml:lang="en">how are you m f</skos:prefLabel>
+      <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#how_are_you">
+         <skos:prefLabel xml:lang="en">how are you</skos:prefLabel>
          
          <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
       </skos:Concept>
@@ -484,6 +508,12 @@
    
    <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_eat">
       <skos:prefLabel xml:lang="en">to eat</skos:prefLabel>
+      
+      <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+   </skos:Concept>
+
+   <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_like">
+      <skos:prefLabel xml:lang="en">to like</skos:prefLabel>
       
       <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
    </skos:Concept>
@@ -507,6 +537,12 @@
    
    <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#faaliil_vs_faalil">
       <skos:prefLabel xml:lang="en">fʕālīl vs fʕālil</skos:prefLabel>
+      
+      <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
+   </skos:Concept>
+
+   <skos:Concept rdf:about="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#fi_vs_bi">
+      <skos:prefLabel xml:lang="en">fi vs bi</skos:prefLabel>
       
       <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex"/>
    </skos:Concept>

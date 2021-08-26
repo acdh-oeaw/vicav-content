@@ -87,9 +87,10 @@
              </fvLib>
              
              <fvLib n="Demonstratives">
-                 <fs xml:id="dm_m_sg_prox" feats="#pos.dm #gender.m #num.sg #subc.prox"/>
-                 <fs xml:id="dm_f_sg_prox" feats="#pos.dm #gender.f #num.sg #subc.prox"/>
-                 <fs xml:id="dm_pl_prox" feats="#pos.dm #num.pl #subc.prox"/>
+                 <fs xml:id="dm_sg_prox" n="this" feats="#pos.dm #num.sg #subc.prox"/>
+                 <fs xml:id="dm_m_sg_prox" n="this m" feats="#pos.dm #gender.m #num.sg #subc.prox"/>
+                 <fs xml:id="dm_f_sg_prox" n="this f" feats="#pos.dm #gender.f #num.sg #subc.prox"/>
+                 <fs xml:id="dm_pl_prox" n="these" feats="#pos.dm #num.pl #subc.prox"/>
              </fvLib>
              
              <fvLib n="Multi word units">
