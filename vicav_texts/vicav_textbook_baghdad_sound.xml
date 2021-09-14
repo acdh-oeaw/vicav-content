@@ -1,0 +1,601 @@
+<?xml version="1.0"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vicav Linguistics</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <div xml:id="vicavLearning_tb_baghdad">
+            <head>VIVAC Learning Materials: <hi rend="italic">Lehrbuch des Irakisch-Arabischen (Sound files)</hi> </head>
+
+            <p>Bettina Leitner, Fady German, Stephan Procházka. Harrassowitz 2021.</p>
+            <p>Alle Rechte für die den Aufnahmen zugrunde liegenden Texte liegen beim Otto Harrassowitz Verlag, Wiesbaden.
+               Die Audioaufnahmen sind lizensiert als CC BY-NC-SA 3.0 AT.</p>
+
+            <div>
+               <head>Lehrbuch des Irakisch-Arabischen</head>
+               <table type="soundTable">
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 1, Text 1</cell>
+                     <cell>Begrüßung und Verabschiedung</cell>
+                     <cell>is-salām w-il-wadāʕ</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L1_T1.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 1, Text 2</cell>
+                     <cell>Sich vorstellen</cell>
+                     <cell> it-taʕāruf</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L1_T2.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 1, Text 3</cell>
+                     <cell>Am Telefon</cell>
+                     <cell>ʕa-t-talifōn</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L1_T3.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 2, Text 1</cell>
+                     <cell>Wie heißt du?</cell>
+                     <cell>š-ismak?</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L2_T1.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 2, Text 2</cell>
+                     <cell>Woher bist du?</cell>
+                     <cell>min wēn inti?</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L2_T2.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 2, Text 3</cell>
+                     <cell>Wie geht’s?</cell>
+                     <cell>šlōnak? šlōnič?</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L2_T3.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 2, Text 4</cell>
+                     <cell>Wo wohnt ihr?</cell>
+                     <cell>wēn bētkum?</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L2_T4.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 2, Text 5</cell>
+                     <cell>Wo ist …?</cell>
+                     <cell>wēn …?</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L2_T5.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 3, Text 1</cell>
+                     <cell>Im Kaffeehaus</cell>
+                     <cell>b-il-kāfē</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L3_T1.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 3, Text 2</cell>
+                     <cell>Ich bin hungrig</cell>
+                     <cell>āni ǧūʕāna</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L3_T2.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 3, Text 3</cell>
+                     <cell>Wo ist das Hotel?</cell>
+                     <cell>wēn il-findiq?</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L3_T3.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 4, Text 1</cell>
+                     <cell>Bagdadisches Frühstück</cell>
+                     <cell>rayūg baġdādi</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L4_T1.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 4, Text 2</cell>
+                     <cell>In der Schule</cell>
+                     <cell>b-il-madrasa</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L4_T2.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 4, Text 3</cell>
+                     <cell>Ein gewöhnlicher Tag</cell>
+                     <cell>yōm ʕādi</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L4_T3.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 4, Text 4</cell>
+                     <cell>Studium oder Arbeit?</cell>
+                     <cell>dirāsa lō šuġuḷ?</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L4_T4.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 5, Text 1</cell>
+                     <cell>Frühstück im Restaurant</cell>
+                     <cell>rayūg b-il-maṭʕam</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L5_T1.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 5, Text 2</cell>
+                     <cell>Woher kommt ihr?</cell>
+                     <cell>intu min wēn?</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L5_T2.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 5, Text 3</cell>
+                     <cell>Meine Familie</cell>
+                     <cell>ʕāʔilti</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L5_T3.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 6, Text 1</cell>
+                     <cell>Alis Tochter</cell>
+                     <cell>bitt ʕAli</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L6_T1.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 6, Text 2</cell>
+                     <cell>In der Mutanabbi-Straße</cell>
+                     <cell>b-šāriʕ il-Mutanabbi</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L6_T2.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 6, Text 3</cell>
+                     <cell>Am Markt von Šōrǧa</cell>
+                     <cell>b-sūg iš-Šōrǧa</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L6_T3.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 7, Text 1</cell>
+                     <cell>Die Stadt Bagdad</cell>
+                     <cell>madīnat Baġdād</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L7_T1.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 7, Text 2</cell>
+                     <cell>Am Telefon 1</cell>
+                     <cell>talifōn 1</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L7_T2.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 7, Text 3</cell>
+                     <cell>Am Telefon 2</cell>
+                     <cell>talifōn 2</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L7_T3.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 7, Text 4</cell>
+                     <cell>Die Familie</cell>
+                     <cell>il-ʕāʔila</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L7_T4.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 8, Text 1</cell>
+                     <cell>Wie komme ich nach Khan Mirjan?</cell>
+                     <cell>iṭ-ṭarīq il-xān Mirǧān?</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L8_T1.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 8, Text 2</cell>
+                     <cell>Eine Wegbeschreibung</cell>
+                     <cell>waṣif ṭarīq</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L8_T2.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 8, Text 3</cell>
+                     <cell>Wo gibt es eine Apotheke?</cell>
+                     <cell>wēn aku ṣaydaliyya?</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L8_T3.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 8, Text 4</cell>
+                     <cell>Was machen wir am Abend?</cell>
+                     <cell>š-insawwi b-il-lēl?</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L8_T4.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 8, Text 5</cell>
+                     <cell>Verkehrsmittel in Bagdad</cell>
+                     <cell>il-muwāṣalāt ib-Baġdād</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L8_T5.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 9, Text 1</cell>
+                     <cell>Wie spät ist es?</cell>
+                     <cell>is-sāʕa bēš?</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L9_T1.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 9, Text 2</cell>
+                     <cell>Bist du aus Bagdad?</cell>
+                     <cell>inti min Baġdād?</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L9_T2.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 9, Text 3</cell>
+                     <cell></cell>
+                     <cell>il-maqām il-ʕIrāqi</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L9_T3.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 9, Text 4</cell>
+                     <cell>Im Handygeschäft</cell>
+                     <cell>b-il-maḥall māl mōbāyḷāt</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L9_T4.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 10, Text 1</cell>
+                     <cell>Meine neue Freundin</cell>
+                     <cell>ṣadīqti ǧ-ǧidīda</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L10_T1.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 10, Text 2</cell>
+                     <cell>Im Kaffeehaus</cell>
+                     <cell>b-il-gahwa</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L10_T2.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 11, Text 1</cell>
+                     <cell>Im Damenschuhgeschäft</cell>
+                     <cell>ib-maḥall māl aḥḏiya nisāʔiyya</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L11_T1.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 11, Text 2</cell>
+                     <cell>Im Männermodengeschäft</cell>
+                     <cell>ib-maḥall il-malābis ir-riǧāliyya</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L11_T2.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 11, Text 3</cell>
+                     <cell>Umtausch</cell>
+                     <cell>tabdīl</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L11_T3.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 11, Text 4</cell>
+                     <cell>Am Kleidermarkt</cell>
+                     <cell>b-sūg il-malābis</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L11_T4.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 12, Text 1</cell>
+                     <cell>Was spielen wir?</cell>
+                     <cell>š-nilʕab?</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L12_T1.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 12, Text 2</cell>
+                     <cell>Wichtige Stadteile von Bagdad</cell>
+                     <cell>manāṭiq muhimma b-Baġdād</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L12_T2.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 12, Text 3</cell>
+                     <cell>Irakisches Essen 1: Vorspeisen</cell>
+                     <cell>akil ʕirāqi 1: il-muqabbilāt</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L12_T3.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 13, Text 1</cell>
+                     <cell>Im Leihwagenbüro</cell>
+                     <cell>b-il-maktab māl taʔǧīr is-sayyārāt</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L13_T1.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 13, Text 2</cell>
+                     <cell>Am Gemüsemarkt 2</cell>
+                     <cell>ib-sūg l-imxaḏ̣ḏ̣ar</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L13_T2.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 13, Text 3</cell>
+                     <cell>Eine Wasserpfeife bestellen</cell>
+                     <cell>tawṣiyat nargīla</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L13_T3.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 14, Text 1</cell>
+                     <cell>Im Taxi</cell>
+                     <cell>b-it-taksi</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L14_T1.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 14, Text 2</cell>
+                     <cell>In der Moschee</cell>
+                     <cell>b-il-masǧid</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L14_T2.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 14, Text 3</cell>
+                     <cell>Irakisches Essen 2: Kuḅḅa</cell>
+                     <cell>akil ʕirāqi 2: il-kuḅḅa</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L14_T3.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 15, Text 1</cell>
+                     <cell>Flussfahrt auf dem Tigris</cell>
+                     <cell>ǧawla b-il-ʕabbāra b-nahar Diǧla</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L15_T1.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 15, Text 2</cell>
+                     <cell>Noch einmal im Kaffeehaus</cell>
+                     <cell>marra lux b-il-kāfē</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L15_T2.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 15, Text 3</cell>
+                     <cell>Irakisches Essen 3: Ein Rezept für Dolma</cell>
+                     <cell>ṭarīqat taḥḏ̣īr id-dōḷma</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L15_T3.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 16, Text 1</cell>
+                     <cell>Ramadan und andere Feste</cell>
+                     <cell>Rumḏ̣ān w-il-aʕyād</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L16_T1.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 16, Text 2</cell>
+                     <cell>E-mail an meine Freundin Faraḥ</cell>
+                     <cell>īmēḷ il-Faraḥ ṣadīqti</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L16_T2.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 16, Text 3</cell>
+                     <cell>Eine Reise nach Mossul</cell>
+                     <cell>safra l-il-Mūṣil</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L16_T3.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 17, Text 1</cell>
+                     <cell>Wallfahrten nach Kāḏ̣imayn und Najaf</cell>
+                     <cell>ziyārāt il-Kāḏ̣imayn w-in-Naǧaf</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L17_T1.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 17, Text 2</cell>
+                     <cell>Dalias Geburtstag</cell>
+                     <cell>ʕīd mīlād Dālya</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L17_T2.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 17, Text 3</cell>
+                     <cell>ʕAli lernt Autofahren</cell>
+                     <cell>ʕAli da-yitʕallam isyāqa</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L17_T3.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 18, Text 1A</cell>
+                     <cell>Beim Arzt</cell>
+                     <cell>ʕidd id-diktōr</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L18_T1A.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 18, Text 1B</cell>
+                     <cell>Beim Arzt</cell>
+                     <cell>ʕidd id-diktōr</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L18_T1B.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 18, Text 2</cell>
+                     <cell>Visum verlängern</cell>
+                     <cell>taǧdīd il-vīza</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L18_T2.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 18, Text 3</cell>
+                     <cell>Witze</cell>
+                     <cell>nukat</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L18_T3.m4a"/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>Lesson 18, Text 3B</cell>
+                     <cell>Abschied von Bagdad</cell>
+                     <cell>wadāʕiyyat Claudia</cell>
+                     <cell>
+                        <ptr type="sound" target="bag_L18_T3B.m4a"/>
+                     </cell>
+                  </row>
+               </table>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
