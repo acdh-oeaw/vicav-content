@@ -26,6 +26,29 @@
             <prefixDef matchPattern="(.+)" replacementPattern="../vocabs/fLib.xml#$1" ident="fvlib"/>
          </listPrefixDef>
       </encodingDesc>
+      <profileDesc>
+         <taxonomy>
+            <category xml:id="featurelist">
+               <catDesc>linguistic feature list</catDesc>
+            </category>
+         </taxonomy>
+         <particDesc>
+            <person sex="" age="">Douz1</person>
+         </particDesc>
+         <settingDesc>
+            <place>
+               <settlement>
+                  <name xml:lang="en">Douz</name>
+                  <name xml:lang="aeb">Douz</name>
+               </settlement>
+               <region>Douz</region>
+               <country>Tunisia</country>
+               <location>
+                  <geo>33.45, 9.01</geo>
+               </location>
+            </place>
+         </settingDesc>
+      </profileDesc>
    </teiHeader>
 
    <text>

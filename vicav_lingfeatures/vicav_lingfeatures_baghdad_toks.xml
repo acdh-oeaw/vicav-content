@@ -25,6 +25,29 @@
             <prefixDef matchPattern="(.+)" replacementPattern="../vocabs/fLib.xml#$1" ident="fvlib"/>
          </listPrefixDef>
       </encodingDesc>
+      <profileDesc>
+         <taxonomy>
+            <category xml:id="featurelist">
+               <catDesc>linguistic feature list</catDesc>
+            </category>
+         </taxonomy>
+         <particDesc>
+            <person sex="" age="">Baghdad1</person>
+         </particDesc>
+         <settingDesc>
+            <place>
+               <settlement>
+                  <name xml:lang="en">Baghdad</name>
+                  <name xml:lang="aeb">Baghdad</name>
+               </settlement>
+               <region>Iraq</region>
+               <country>Iraq</country>
+               <location>
+                  <geo>33.33, 44.38</geo>
+               </location>
+            </place>
+         </settingDesc>
+      </profileDesc>
    </teiHeader>
    <text>
       <body>

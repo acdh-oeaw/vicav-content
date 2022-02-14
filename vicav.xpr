@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="21.1">
+<project version="21.0">
     <meta>
         <filters directoryPatterns="" filePatterns="vicav.xpr" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="21.1" xml:space="preserve">
+            <serialized version="21.0" xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>code-templates</String>
@@ -6782,7 +6782,7 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                         <String>authorExtensionDescriptor/actionDescriptors</String>
                                                     </field>
                                                     <field name="index">
-                                                        <Integer>31</Integer>
+                                                        <Integer>36</Integer>
                                                     </field>
                                                     <field name="value">
                                                         <action>
@@ -6966,20 +6966,7 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                                             <null/>
                                                                         </field>
                                                                         <field name="validationSchema">
-                                                                            <validationUnitSchema>
-                                                                                <field name="dtdSchemaPublicID">
-                                                                                    <null/>
-                                                                                </field>
-                                                                                <field name="schematronPhase">
-                                                                                    <null/>
-                                                                                </field>
-                                                                                <field name="type">
-                                                                                    <Integer>6</Integer>
-                                                                                </field>
-                                                                                <field name="uri">
-                                                                                    <String>${pdu}/tools/802_tei_odd/out/vicav_profiles.rng</String>
-                                                                                </field>
-                                                                            </validationUnitSchema>
+                                                                            <null/>
                                                                         </field>
                                                                     </validationUnit>
                                                                 </list>
@@ -7056,10 +7043,21 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                         <String>${framework}/xml/tei/css/tei_oxygen.css</String>
                                                     </field>
                                                     <field name="title">
-                                                        <String></String>
+                                                        <String>Basic</String>
                                                     </field>
                                                     <field name="alternate">
                                                         <Boolean>false</Boolean>
+                                                    </field>
+                                                </cssFile>
+                                                <cssFile>
+                                                    <field name="href">
+                                                        <String>${framework}/xml/tei/css/alternate-full-width-layout.css</String>
+                                                    </field>
+                                                    <field name="title">
+                                                        <String>+ Full Width</String>
+                                                    </field>
+                                                    <field name="alternate">
+                                                        <Boolean>true</Boolean>
                                                     </field>
                                                 </cssFile>
                                             </cssFile-array>
@@ -7068,7 +7066,7 @@ Note: If it is not defined, then the element at the caret position will be used.
                                             <Boolean>false</Boolean>
                                         </field>
                                         <field name="multipleAlternateSelectionEnabled">
-                                            <Boolean>false</Boolean>
+                                            <Boolean>true</Boolean>
                                         </field>
                                         <field name="actionDescriptors">
                                             <action-array>
@@ -7086,7 +7084,7 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                         <String>/images/Bold24.png</String>
                                                     </field>
                                                     <field name="smallIconPath">
-                                                        <String>/images/Bold16.gif</String>
+                                                        <String>/images/Bold16.png</String>
                                                     </field>
                                                     <field name="accessKey">
                                                         <String>B</String>
@@ -7178,7 +7176,7 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                         <String>/images/Underline24.png</String>
                                                     </field>
                                                     <field name="smallIconPath">
-                                                        <String>/images/Underline16.gif</String>
+                                                        <String>/images/Underline16.png</String>
                                                     </field>
                                                     <field name="accessKey">
                                                         <String>U</String>
@@ -7224,7 +7222,7 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                         <String>/images/Paragraph24.png</String>
                                                     </field>
                                                     <field name="smallIconPath">
-                                                        <String>/images/Paragraph16.gif</String>
+                                                        <String>/images/Paragraph16.png</String>
                                                     </field>
                                                     <field name="accessKey">
                                                         <String></String>
@@ -7294,7 +7292,7 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                         <String>/images/ListItem24.png</String>
                                                     </field>
                                                     <field name="smallIconPath">
-                                                        <String>/images/ListItem16.gif</String>
+                                                        <String>/images/ListItem16.png</String>
                                                     </field>
                                                     <field name="accessKey">
                                                         <String></String>
@@ -7382,13 +7380,13 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                         <String>${i18n(ordered list)}</String>
                                                     </field>
                                                     <field name="description">
-                                                        <String>${i18n(ordered list_description)}</String>
+                                                        <String>${i18n(orderedList_description)}</String>
                                                     </field>
                                                     <field name="largeIconPath">
                                                         <String>/images/OrderedList24.png</String>
                                                     </field>
                                                     <field name="smallIconPath">
-                                                        <String>/images/OrderedList16.gif</String>
+                                                        <String>/images/OrderedList16.png</String>
                                                     </field>
                                                     <field name="accessKey">
                                                         <String></String>
@@ -7400,38 +7398,13 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                         <actionMode-array>
                                                             <actionMode>
                                                                 <field name="xpathCondition">
-                                                                    <String>self::*:list</String>
-                                                                </field>
-                                                                <field name="argValues">
-                                                                    <serializableOrderedMap>
-                                                                        <entry>
-                                                                            <String>fragment</String>
-                                                                            <String>&lt;item xmlns="http://www.tei-c.org/ns/1.0">&lt;list type="ordered">&lt;item/>&lt;/list>&lt;/item></String>
-                                                                        </entry>
-                                                                        <entry>
-                                                                            <String>insertPosition</String>
-                                                                            <String>Inside as first child</String>
-                                                                        </entry>
-                                                                    </serializableOrderedMap>
-                                                                </field>
-                                                                <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
-                                                                </field>
-                                                            </actionMode>
-                                                            <actionMode>
-                                                                <field name="xpathCondition">
                                                                     <String></String>
                                                                 </field>
                                                                 <field name="argValues">
-                                                                    <serializableOrderedMap>
-                                                                        <entry>
-                                                                            <String>fragment</String>
-                                                                            <String>&lt;list xmlns="http://www.tei-c.org/ns/1.0" type="ordered">&lt;item/>&lt;/list></String>
-                                                                        </entry>
-                                                                    </serializableOrderedMap>
+                                                                    <serializableOrderedMap/>
                                                                 </field>
                                                                 <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.commons.operations.SurroundWithFragmentOperation</String>
+                                                                    <String>ro.sync.ecss.extensions.tei.TEIInsertListOperation</String>
                                                                 </field>
                                                             </actionMode>
                                                         </actionMode-array>
@@ -7466,38 +7439,18 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                         <actionMode-array>
                                                             <actionMode>
                                                                 <field name="xpathCondition">
-                                                                    <String>self::*:list</String>
-                                                                </field>
-                                                                <field name="argValues">
-                                                                    <serializableOrderedMap>
-                                                                        <entry>
-                                                                            <String>fragment</String>
-                                                                            <String>&lt;item xmlns="http://www.tei-c.org/ns/1.0">&lt;list type="bulleted">&lt;item/>&lt;/list>&lt;/item></String>
-                                                                        </entry>
-                                                                        <entry>
-                                                                            <String>insertPosition</String>
-                                                                            <String>Inside as first child</String>
-                                                                        </entry>
-                                                                    </serializableOrderedMap>
-                                                                </field>
-                                                                <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
-                                                                </field>
-                                                            </actionMode>
-                                                            <actionMode>
-                                                                <field name="xpathCondition">
                                                                     <String></String>
                                                                 </field>
                                                                 <field name="argValues">
                                                                     <serializableOrderedMap>
                                                                         <entry>
-                                                                            <String>fragment</String>
-                                                                            <String>&lt;list xmlns="http://www.tei-c.org/ns/1.0" type="bulleted">&lt;item/>&lt;/list></String>
+                                                                            <String>listType</String>
+                                                                            <String>itemizedlist</String>
                                                                         </entry>
                                                                     </serializableOrderedMap>
                                                                 </field>
                                                                 <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.commons.operations.SurroundWithFragmentOperation</String>
+                                                                    <String>ro.sync.ecss.extensions.tei.TEIInsertListOperation</String>
                                                                 </field>
                                                             </actionMode>
                                                         </actionMode-array>
@@ -7566,7 +7519,7 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                         <String>/images/TableRow24.png</String>
                                                     </field>
                                                     <field name="smallIconPath">
-                                                        <String>/images/TableRow16.gif</String>
+                                                        <String>/images/TableRow16.png</String>
                                                     </field>
                                                     <field name="accessKey">
                                                         <String></String>
@@ -7593,7 +7546,7 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                                     </serializableOrderedMap>
                                                                 </field>
                                                                 <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.tei.table.InsertRowOperation</String>
+                                                                    <String>ro.sync.ecss.extensions.tei.table.InsertSingleRowOperation</String>
                                                                 </field>
                                                             </actionMode>
                                                             <actionMode>
@@ -7617,7 +7570,7 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                                     </serializableOrderedMap>
                                                                 </field>
                                                                 <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.tei.table.InsertRowOperation</String>
+                                                                    <String>ro.sync.ecss.extensions.tei.table.InsertSingleRowOperation</String>
                                                                 </field>
                                                             </actionMode>
                                                         </actionMode-array>
@@ -7640,7 +7593,7 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                         <String>/images/TableCell24.png</String>
                                                     </field>
                                                     <field name="smallIconPath">
-                                                        <String>/images/TableCell16.gif</String>
+                                                        <String>/images/TableCell16.png</String>
                                                     </field>
                                                     <field name="accessKey">
                                                         <String></String>
@@ -7710,7 +7663,7 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                         <String>/images/Section24.png</String>
                                                     </field>
                                                     <field name="smallIconPath">
-                                                        <String>/images/Section16.gif</String>
+                                                        <String>/images/Section16.png</String>
                                                     </field>
                                                     <field name="accessKey">
                                                         <String></String>
@@ -8268,7 +8221,7 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                         <String>/images/Image24.png</String>
                                                     </field>
                                                     <field name="smallIconPath">
-                                                        <String>/images/Image16.gif</String>
+                                                        <String>/images/Image16.png</String>
                                                     </field>
                                                     <field name="accessKey">
                                                         <String></String>
@@ -8281,6 +8234,22 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                             <actionMode>
                                                                 <field name="xpathCondition">
                                                                     <String>oxy:allows-child-element("*:figure")</String>
+                                                                </field>
+                                                                <field name="argValues">
+                                                                    <serializableOrderedMap>
+                                                                        <entry>
+                                                                            <String>wrapIn</String>
+                                                                            <String>figure</String>
+                                                                        </entry>
+                                                                    </serializableOrderedMap>
+                                                                </field>
+                                                                <field name="operationID">
+                                                                    <String>ro.sync.ecss.extensions.tei.InsertImageOperationP5</String>
+                                                                </field>
+                                                            </actionMode>
+                                                            <actionMode>
+                                                                <field name="xpathCondition">
+                                                                    <String>oxy:allows-child-element("*:graphic")</String>
                                                                 </field>
                                                                 <field name="argValues">
                                                                     <serializableOrderedMap/>
@@ -8309,7 +8278,7 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                         <String>/images/TableColumn24.png</String>
                                                     </field>
                                                     <field name="smallIconPath">
-                                                        <String>/images/TableColumn16.gif</String>
+                                                        <String>/images/TableColumn16.png</String>
                                                     </field>
                                                     <field name="accessKey">
                                                         <String></String>
@@ -8332,7 +8301,7 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                                     </serializableOrderedMap>
                                                                 </field>
                                                                 <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.tei.table.InsertColumnOperation</String>
+                                                                    <String>ro.sync.ecss.extensions.tei.table.InsertSingleColumnOperation</String>
                                                                 </field>
                                                             </actionMode>
                                                         </actionMode-array>
@@ -8355,7 +8324,7 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                         <String>/images/TableJoinRowCells24.png</String>
                                                     </field>
                                                     <field name="smallIconPath">
-                                                        <String>/images/TableJoinRowCells16.gif</String>
+                                                        <String>/images/TableJoinRowCells16.png</String>
                                                     </field>
                                                     <field name="accessKey">
                                                         <String></String>
@@ -8396,7 +8365,7 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                         <String>/images/TableSplitCellLeft24.png</String>
                                                     </field>
                                                     <field name="smallIconPath">
-                                                        <String>/images/TableSplitCellLeft16.gif</String>
+                                                        <String>/images/TableSplitCellLeft16.png</String>
                                                     </field>
                                                     <field name="accessKey">
                                                         <String></String>
@@ -8442,7 +8411,7 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                         <String>/images/TableSplitCellRight24.png</String>
                                                     </field>
                                                     <field name="smallIconPath">
-                                                        <String>/images/TableSplitCellRight16.gif</String>
+                                                        <String>/images/TableSplitCellRight16.png</String>
                                                     </field>
                                                     <field name="accessKey">
                                                         <String></String>
@@ -8488,7 +8457,7 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                         <String>/images/TableJoinCellUp24.png</String>
                                                     </field>
                                                     <field name="smallIconPath">
-                                                        <String>/images/TableJoinCellUp16.gif</String>
+                                                        <String>/images/TableJoinCellUp16.png</String>
                                                     </field>
                                                     <field name="accessKey">
                                                         <String></String>
@@ -8535,7 +8504,7 @@ ancestor-or-self::*:row)</String>
                                                         <String>/images/TableJoinCellDown24.png</String>
                                                     </field>
                                                     <field name="smallIconPath">
-                                                        <String>/images/TableJoinCellDown16.gif</String>
+                                                        <String>/images/TableJoinCellDown16.png</String>
                                                     </field>
                                                     <field name="accessKey">
                                                         <String></String>
@@ -8582,7 +8551,7 @@ ancestor-or-self::*:row)</String>
                                                         <String>/images/TableSplitCellDown24.png</String>
                                                     </field>
                                                     <field name="smallIconPath">
-                                                        <String>/images/TableSplitCellDown16.gif</String>
+                                                        <String>/images/TableSplitCellDown16.png</String>
                                                     </field>
                                                     <field name="accessKey">
                                                         <String></String>
@@ -8628,7 +8597,7 @@ ancestor-or-self::*:row)</String>
                                                         <String>/images/TableSplitCellUp24.png</String>
                                                     </field>
                                                     <field name="smallIconPath">
-                                                        <String>/images/TableSplitCellUp16.gif</String>
+                                                        <String>/images/TableSplitCellUp16.png</String>
                                                     </field>
                                                     <field name="accessKey">
                                                         <String></String>
@@ -8665,16 +8634,16 @@ ancestor-or-self::*:row)</String>
                                                         <String>delete.table.column</String>
                                                     </field>
                                                     <field name="name">
-                                                        <String>${i18n(delete.table.column)}</String>
+                                                        <String>${i18n(delete.table.columns)}</String>
                                                     </field>
                                                     <field name="description">
-                                                        <String>${i18n(delete.table.column_description)}</String>
+                                                        <String>${i18n(delete.table.columns_description)}</String>
                                                     </field>
                                                     <field name="largeIconPath">
                                                         <String>/images/DeleteColumn24.png</String>
                                                     </field>
                                                     <field name="smallIconPath">
-                                                        <String>/images/DeleteColumn16.gif</String>
+                                                        <String>/images/DeleteColumn16.png</String>
                                                     </field>
                                                     <field name="accessKey">
                                                         <String>D</String>
@@ -8687,7 +8656,9 @@ ancestor-or-self::*:row)</String>
                                                             <actionMode>
                                                                 <field name="xpathCondition">
                                                                     <String>(ancestor-or-self::*:cell |
-ancestor-or-self::*:row)</String>
+ancestor-or-self::*:row)
+or oxy:current-selected-element()[(ancestor-or-self::*:cell |
+ancestor-or-self::*:row)]</String>
                                                                 </field>
                                                                 <field name="argValues">
                                                                     <serializableOrderedMap/>
@@ -8707,16 +8678,16 @@ ancestor-or-self::*:row)</String>
                                                         <String>delete.table.row</String>
                                                     </field>
                                                     <field name="name">
-                                                        <String>${i18n(delete.table.row)}</String>
+                                                        <String>${i18n(delete.table.rows)}</String>
                                                     </field>
                                                     <field name="description">
-                                                        <String>${i18n(delete.table.row_description)}</String>
+                                                        <String>${i18n(delete.table.rows_description)}</String>
                                                     </field>
                                                     <field name="largeIconPath">
                                                         <String>/images/DeleteRow24.png</String>
                                                     </field>
                                                     <field name="smallIconPath">
-                                                        <String>/images/DeleteRow16.gif</String>
+                                                        <String>/images/DeleteRow16.png</String>
                                                     </field>
                                                     <field name="accessKey">
                                                         <String></String>
@@ -8729,7 +8700,9 @@ ancestor-or-self::*:row)</String>
                                                             <actionMode>
                                                                 <field name="xpathCondition">
                                                                     <String>ancestor-or-self::node()[self::*:row | 
-self::*:table][1][self::*:row]</String>
+self::*:table][1][self::*:row]
+or oxy:current-selected-element()[self::*:row | 
+self::*:table]</String>
                                                                 </field>
                                                                 <field name="argValues">
                                                                     <serializableOrderedMap/>
@@ -8984,7 +8957,7 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                         <String>/images/TableRowAbove24.png</String>
                                                     </field>
                                                     <field name="smallIconPath">
-                                                        <String>/images/TableRowAbove16.gif</String>
+                                                        <String>/images/TableRowAbove16.png</String>
                                                     </field>
                                                     <field name="accessKey">
                                                         <String></String>
@@ -8996,13 +8969,17 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                         <actionMode-array>
                                                             <actionMode>
                                                                 <field name="xpathCondition">
-                                                                    <String>self::*:table</String>
+                                                                    <String>self::*:table and oxy:current-selected-element()</String>
                                                                 </field>
                                                                 <field name="argValues">
                                                                     <serializableOrderedMap>
                                                                         <entry>
+                                                                            <String>insertLocation</String>
+                                                                            <String>oxy:current-selected-element()</String>
+                                                                        </entry>
+                                                                        <entry>
                                                                             <String>insertPosition</String>
-                                                                            <String>Inside as first child</String>
+                                                                            <String>Before</String>
                                                                         </entry>
                                                                         <entry>
                                                                             <String>namespace</String>
@@ -9011,7 +8988,23 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                                     </serializableOrderedMap>
                                                                 </field>
                                                                 <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.tei.table.InsertRowOperation</String>
+                                                                    <String>ro.sync.ecss.extensions.tei.table.InsertSingleRowOperation</String>
+                                                                </field>
+                                                            </actionMode>
+                                                            <actionMode>
+                                                                <field name="xpathCondition">
+                                                                    <String>self::*:table</String>
+                                                                </field>
+                                                                <field name="argValues">
+                                                                    <serializableOrderedMap>
+                                                                        <entry>
+                                                                            <String>namespace</String>
+                                                                            <String>http://www.tei-c.org/ns/1.0</String>
+                                                                        </entry>
+                                                                    </serializableOrderedMap>
+                                                                </field>
+                                                                <field name="operationID">
+                                                                    <String>ro.sync.ecss.extensions.tei.table.InsertSingleRowOperation</String>
                                                                 </field>
                                                             </actionMode>
                                                             <actionMode>
@@ -9058,7 +9051,7 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                         <String>/images/TableColumnBefore24.png</String>
                                                     </field>
                                                     <field name="smallIconPath">
-                                                        <String>/images/TableColumnBefore16.gif</String>
+                                                        <String>/images/TableColumnBefore16.png</String>
                                                     </field>
                                                     <field name="accessKey">
                                                         <String></String>
@@ -9085,7 +9078,7 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                                     </serializableOrderedMap>
                                                                 </field>
                                                                 <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.tei.table.InsertColumnOperation</String>
+                                                                    <String>ro.sync.ecss.extensions.tei.table.InsertSingleColumnOperation</String>
                                                                 </field>
                                                             </actionMode>
                                                         </actionMode-array>
@@ -9242,6 +9235,230 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                         <Boolean>false</Boolean>
                                                     </field>
                                                 </action>
+                                                <action>
+                                                    <field name="id">
+                                                        <String>table.join</String>
+                                                    </field>
+                                                    <field name="name">
+                                                        <String>${i18n(table.join)}</String>
+                                                    </field>
+                                                    <field name="description">
+                                                        <String>${i18n(table.join_description)}</String>
+                                                    </field>
+                                                    <field name="largeIconPath">
+                                                        <String>/images/TableJoin24.png</String>
+                                                    </field>
+                                                    <field name="smallIconPath">
+                                                        <String>/images/TableJoin16.png</String>
+                                                    </field>
+                                                    <field name="accessKey">
+                                                        <String></String>
+                                                    </field>
+                                                    <field name="accelerator">
+                                                        <null/>
+                                                    </field>
+                                                    <field name="actionModes">
+                                                        <actionMode-array>
+                                                            <actionMode>
+                                                                <field name="xpathCondition">
+                                                                    <String>ancestor-or-self::node()[self::*:table][1]</String>
+                                                                </field>
+                                                                <field name="argValues">
+                                                                    <serializableOrderedMap/>
+                                                                </field>
+                                                                <field name="operationID">
+                                                                    <String>ro.sync.ecss.extensions.tei.table.JoinOperation</String>
+                                                                </field>
+                                                            </actionMode>
+                                                        </actionMode-array>
+                                                    </field>
+                                                    <field name="enabledInReadOnlyContext">
+                                                        <Boolean>false</Boolean>
+                                                    </field>
+                                                </action>
+                                                <action>
+                                                    <field name="id">
+                                                        <String>table.split</String>
+                                                    </field>
+                                                    <field name="name">
+                                                        <String>${i18n(table.split)}</String>
+                                                    </field>
+                                                    <field name="description">
+                                                        <String>${i18n(table.split_description)}</String>
+                                                    </field>
+                                                    <field name="largeIconPath">
+                                                        <String>/images/TableSplitCell24.png</String>
+                                                    </field>
+                                                    <field name="smallIconPath">
+                                                        <String>/images/TableSplitCell16.png</String>
+                                                    </field>
+                                                    <field name="accessKey">
+                                                        <String></String>
+                                                    </field>
+                                                    <field name="accelerator">
+                                                        <null/>
+                                                    </field>
+                                                    <field name="actionModes">
+                                                        <actionMode-array>
+                                                            <actionMode>
+                                                                <field name="xpathCondition">
+                                                                    <String>ancestor-or-self::*:cell or
+oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
+                                                                </field>
+                                                                <field name="argValues">
+                                                                    <serializableOrderedMap/>
+                                                                </field>
+                                                                <field name="operationID">
+                                                                    <String>ro.sync.ecss.extensions.tei.table.SplitOperation</String>
+                                                                </field>
+                                                            </actionMode>
+                                                        </actionMode-array>
+                                                    </field>
+                                                    <field name="enabledInReadOnlyContext">
+                                                        <Boolean>false</Boolean>
+                                                    </field>
+                                                </action>
+                                                <action>
+                                                    <field name="id">
+                                                        <String>edit.image.map</String>
+                                                    </field>
+                                                    <field name="name">
+                                                        <String>${i18n(Image_map_editor)}...</String>
+                                                    </field>
+                                                    <field name="description">
+                                                        <String>${i18n(edit_image_map_description)}</String>
+                                                    </field>
+                                                    <field name="largeIconPath">
+                                                        <String></String>
+                                                    </field>
+                                                    <field name="smallIconPath">
+                                                        <String></String>
+                                                    </field>
+                                                    <field name="accessKey">
+                                                        <String></String>
+                                                    </field>
+                                                    <field name="accelerator">
+                                                        <null/>
+                                                    </field>
+                                                    <field name="actionModes">
+                                                        <actionMode-array>
+                                                            <actionMode>
+                                                                <field name="xpathCondition">
+                                                                    <String>ancestor-or-self::*:facsimile</String>
+                                                                </field>
+                                                                <field name="argValues">
+                                                                    <serializableOrderedMap/>
+                                                                </field>
+                                                                <field name="operationID">
+                                                                    <String>ro.sync.ecss.extensions.tei.EditImageMapOperation</String>
+                                                                </field>
+                                                            </actionMode>
+                                                        </actionMode-array>
+                                                    </field>
+                                                    <field name="enabledInReadOnlyContext">
+                                                        <Boolean>false</Boolean>
+                                                    </field>
+                                                </action>
+                                                <action>
+                                                    <field name="id">
+                                                        <String>imagemap.expand.area</String>
+                                                    </field>
+                                                    <field name="name">
+                                                        <String>${i18n(imagemap.toggle.area)}</String>
+                                                    </field>
+                                                    <field name="description">
+                                                        <String>${i18n(imagemap.toggle.area_description)}</String>
+                                                    </field>
+                                                    <field name="largeIconPath">
+                                                        <String></String>
+                                                    </field>
+                                                    <field name="smallIconPath">
+                                                        <String></String>
+                                                    </field>
+                                                    <field name="accessKey">
+                                                        <String></String>
+                                                    </field>
+                                                    <field name="accelerator">
+                                                        <null/>
+                                                    </field>
+                                                    <field name="actionModes">
+                                                        <actionMode-array>
+                                                            <actionMode>
+                                                                <field name="xpathCondition">
+                                                                    <String></String>
+                                                                </field>
+                                                                <field name="argValues">
+                                                                    <serializableOrderedMap>
+                                                                        <entry>
+                                                                            <String>elementLocation</String>
+                                                                            <String>..</String>
+                                                                        </entry>
+                                                                        <entry>
+                                                                            <String>name</String>
+                                                                            <String>-oxy-visible-imagemap-area</String>
+                                                                        </entry>
+                                                                    </serializableOrderedMap>
+                                                                </field>
+                                                                <field name="operationID">
+                                                                    <String>ro.sync.ecss.extensions.commons.operations.SetPseudoClassOperation</String>
+                                                                </field>
+                                                            </actionMode>
+                                                        </actionMode-array>
+                                                    </field>
+                                                    <field name="enabledInReadOnlyContext">
+                                                        <Boolean>false</Boolean>
+                                                    </field>
+                                                </action>
+                                                <action>
+                                                    <field name="id">
+                                                        <String>imagemap.collapse.area</String>
+                                                    </field>
+                                                    <field name="name">
+                                                        <String>${i18n(imagemap.toggle.area)}</String>
+                                                    </field>
+                                                    <field name="description">
+                                                        <String>${i18n(imagemap.toggle.area_description)}</String>
+                                                    </field>
+                                                    <field name="largeIconPath">
+                                                        <String></String>
+                                                    </field>
+                                                    <field name="smallIconPath">
+                                                        <String></String>
+                                                    </field>
+                                                    <field name="accessKey">
+                                                        <String></String>
+                                                    </field>
+                                                    <field name="accelerator">
+                                                        <null/>
+                                                    </field>
+                                                    <field name="actionModes">
+                                                        <actionMode-array>
+                                                            <actionMode>
+                                                                <field name="xpathCondition">
+                                                                    <String></String>
+                                                                </field>
+                                                                <field name="argValues">
+                                                                    <serializableOrderedMap>
+                                                                        <entry>
+                                                                            <String>elementLocation</String>
+                                                                            <String>..</String>
+                                                                        </entry>
+                                                                        <entry>
+                                                                            <String>name</String>
+                                                                            <String>-oxy-visible-imagemap-area</String>
+                                                                        </entry>
+                                                                    </serializableOrderedMap>
+                                                                </field>
+                                                                <field name="operationID">
+                                                                    <String>ro.sync.ecss.extensions.commons.operations.RemovePseudoClassOperation</String>
+                                                                </field>
+                                                            </actionMode>
+                                                        </actionMode-array>
+                                                    </field>
+                                                    <field name="enabledInReadOnlyContext">
+                                                        <Boolean>false</Boolean>
+                                                    </field>
+                                                </action>
                                             </action-array>
                                         </field>
                                         <field name="menubarDescriptor">
@@ -9390,38 +9607,12 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                                     <menuSeparator/>
                                                                     <menuItem>
                                                                         <field name="actionID">
-                                                                            <String>table.join.row.cells</String>
+                                                                            <String>table.join</String>
                                                                         </field>
                                                                     </menuItem>
                                                                     <menuItem>
                                                                         <field name="actionID">
-                                                                            <String>table.join.cell.above</String>
-                                                                        </field>
-                                                                    </menuItem>
-                                                                    <menuItem>
-                                                                        <field name="actionID">
-                                                                            <String>table.join.cell.below</String>
-                                                                        </field>
-                                                                    </menuItem>
-                                                                    <menuSeparator/>
-                                                                    <menuItem>
-                                                                        <field name="actionID">
-                                                                            <String>table.split.left</String>
-                                                                        </field>
-                                                                    </menuItem>
-                                                                    <menuItem>
-                                                                        <field name="actionID">
-                                                                            <String>table.split.right</String>
-                                                                        </field>
-                                                                    </menuItem>
-                                                                    <menuItem>
-                                                                        <field name="actionID">
-                                                                            <String>table.split.above</String>
-                                                                        </field>
-                                                                    </menuItem>
-                                                                    <menuItem>
-                                                                        <field name="actionID">
-                                                                            <String>table.split.below</String>
+                                                                            <String>table.split</String>
                                                                         </field>
                                                                     </menuItem>
                                                                 </menuEntry-array>
@@ -9461,6 +9652,11 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                 </field>
                                                 <field name="menuEntriesDescriptorList">
                                                     <menuEntry-array>
+                                                        <menuItem>
+                                                            <field name="actionID">
+                                                                <String>edit.image.map</String>
+                                                            </field>
+                                                        </menuItem>
                                                         <menu>
                                                             <field name="label">
                                                                 <String>${i18n(table)}</String>
@@ -9475,16 +9671,6 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                                 <menuEntry-array>
                                                                     <menuItem>
                                                                         <field name="actionID">
-                                                                            <String>insert.table.row.above</String>
-                                                                        </field>
-                                                                    </menuItem>
-                                                                    <menuItem>
-                                                                        <field name="actionID">
-                                                                            <String>insert.table.row.below</String>
-                                                                        </field>
-                                                                    </menuItem>
-                                                                    <menuItem>
-                                                                        <field name="actionID">
                                                                             <String>insert.table.rows.custom</String>
                                                                         </field>
                                                                     </menuItem>
@@ -9494,16 +9680,6 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                                         </field>
                                                                     </menuItem>
                                                                     <menuSeparator/>
-                                                                    <menuItem>
-                                                                        <field name="actionID">
-                                                                            <String>insert.table.column.before</String>
-                                                                        </field>
-                                                                    </menuItem>
-                                                                    <menuItem>
-                                                                        <field name="actionID">
-                                                                            <String>insert.table.column.after</String>
-                                                                        </field>
-                                                                    </menuItem>
                                                                     <menuItem>
                                                                         <field name="actionID">
                                                                             <String>insert.table.columns.custom</String>
@@ -9517,44 +9693,12 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                                     <menuSeparator/>
                                                                     <menuItem>
                                                                         <field name="actionID">
-                                                                            <String>insert.table.cell</String>
-                                                                        </field>
-                                                                    </menuItem>
-                                                                    <menuSeparator/>
-                                                                    <menuItem>
-                                                                        <field name="actionID">
-                                                                            <String>table.join.row.cells</String>
+                                                                            <String>table.join</String>
                                                                         </field>
                                                                     </menuItem>
                                                                     <menuItem>
                                                                         <field name="actionID">
-                                                                            <String>table.join.cell.above</String>
-                                                                        </field>
-                                                                    </menuItem>
-                                                                    <menuItem>
-                                                                        <field name="actionID">
-                                                                            <String>table.join.cell.below</String>
-                                                                        </field>
-                                                                    </menuItem>
-                                                                    <menuSeparator/>
-                                                                    <menuItem>
-                                                                        <field name="actionID">
-                                                                            <String>table.split.left</String>
-                                                                        </field>
-                                                                    </menuItem>
-                                                                    <menuItem>
-                                                                        <field name="actionID">
-                                                                            <String>table.split.right</String>
-                                                                        </field>
-                                                                    </menuItem>
-                                                                    <menuItem>
-                                                                        <field name="actionID">
-                                                                            <String>table.split.above</String>
-                                                                        </field>
-                                                                    </menuItem>
-                                                                    <menuItem>
-                                                                        <field name="actionID">
-                                                                            <String>table.split.below</String>
+                                                                            <String>table.split</String>
                                                                         </field>
                                                                     </menuItem>
                                                                     <menuSeparator/>
@@ -9566,7 +9710,7 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                                 </menuEntry-array>
                                                             </field>
                                                             <field name="context">
-                                                                <null/>
+                                                                <String>table</String>
                                                             </field>
                                                         </menu>
                                                         <menu>
@@ -9709,12 +9853,12 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                         </toolbarItem>
                                                         <toolbarItem>
                                                             <field name="actionID">
-                                                                <String>insert.table.column.after</String>
+                                                                <String>delete.table.row</String>
                                                             </field>
                                                         </toolbarItem>
                                                         <toolbarItem>
                                                             <field name="actionID">
-                                                                <String>insert.table.cell</String>
+                                                                <String>insert.table.column.after</String>
                                                             </field>
                                                         </toolbarItem>
                                                         <toolbarItem>
@@ -9724,63 +9868,20 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                         </toolbarItem>
                                                         <toolbarItem>
                                                             <field name="actionID">
-                                                                <String>delete.table.row</String>
+                                                                <String>insert.table.cell</String>
                                                             </field>
                                                         </toolbarItem>
-                                                        <toolbar>
-                                                            <field name="id">
-                                                                <String>${i18n(table.join.split)}</String>
+                                                        <toolbarSeparator/>
+                                                        <toolbarItem>
+                                                            <field name="actionID">
+                                                                <String>table.join</String>
                                                             </field>
-                                                            <field name="type">
-                                                                <Integer>3</Integer>
+                                                        </toolbarItem>
+                                                        <toolbarItem>
+                                                            <field name="actionID">
+                                                                <String>table.split</String>
                                                             </field>
-                                                            <field name="largeIconPath">
-                                                                <String>/images/TableJoinSplit24.png</String>
-                                                            </field>
-                                                            <field name="smallIconPath">
-                                                                <String>/images/TableJoinSplit16.gif</String>
-                                                            </field>
-                                                            <field name="toolbarEntriesDescriptorList">
-                                                                <toolbarEntry-array>
-                                                                    <toolbarItem>
-                                                                        <field name="actionID">
-                                                                            <String>table.join.row.cells</String>
-                                                                        </field>
-                                                                    </toolbarItem>
-                                                                    <toolbarItem>
-                                                                        <field name="actionID">
-                                                                            <String>table.join.cell.above</String>
-                                                                        </field>
-                                                                    </toolbarItem>
-                                                                    <toolbarItem>
-                                                                        <field name="actionID">
-                                                                            <String>table.join.cell.below</String>
-                                                                        </field>
-                                                                    </toolbarItem>
-                                                                    <toolbarSeparator/>
-                                                                    <toolbarItem>
-                                                                        <field name="actionID">
-                                                                            <String>table.split.left</String>
-                                                                        </field>
-                                                                    </toolbarItem>
-                                                                    <toolbarItem>
-                                                                        <field name="actionID">
-                                                                            <String>table.split.right</String>
-                                                                        </field>
-                                                                    </toolbarItem>
-                                                                    <toolbarItem>
-                                                                        <field name="actionID">
-                                                                            <String>table.split.above</String>
-                                                                        </field>
-                                                                    </toolbarItem>
-                                                                    <toolbarItem>
-                                                                        <field name="actionID">
-                                                                            <String>table.split.below</String>
-                                                                        </field>
-                                                                    </toolbarItem>
-                                                                </toolbarEntry-array>
-                                                            </field>
-                                                        </toolbar>
+                                                        </toolbarItem>
                                                     </toolbarEntry-array>
                                                 </field>
                                             </toolbar>
@@ -9834,7 +9935,18 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                     </contextItem-array>
                                                 </field>
                                                 <field name="removeItems">
-                                                    <null/>
+                                                    <contextRemoveItem-array>
+                                                        <contextRemoveItem>
+                                                            <field name="targets">
+                                                                <list>
+                                                                    <Integer>0</Integer>
+                                                                </list>
+                                                            </field>
+                                                            <field name="renderName">
+                                                                <String>row</String>
+                                                            </field>
+                                                        </contextRemoveItem>
+                                                    </contextRemoveItem-array>
                                                 </field>
                                             </contextProvider>
                                         </field>
@@ -9957,6 +10069,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                             <field name="openInBrowser">
                                                 <Boolean>true</Boolean>
                                             </field>
+                                            <field name="outputFile">
+                                                <File>${cfd}/${cfn}.html</File>
+                                            </field>
                                             <field name="outputResource">
                                                 <String>${cfd}/${cfn}.html</String>
                                             </field>
@@ -10039,6 +10154,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                             </field>
                                             <field name="openInBrowser">
                                                 <Boolean>true</Boolean>
+                                            </field>
+                                            <field name="outputFile">
+                                                <File>${cfd}/${cfn}.pdf</File>
                                             </field>
                                             <field name="outputResource">
                                                 <String>${cfd}/${cfn}.pdf</String>
@@ -10272,6 +10390,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                             <field name="openInBrowser">
                                                 <Boolean>true</Boolean>
                                             </field>
+                                            <field name="outputFile">
+                                                <null/>
+                                            </field>
                                             <field name="outputResource">
                                                 <null/>
                                             </field>
@@ -10311,16 +10432,11 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                             <field name="extensionURLs">
                                                 <String-array>
                                                     <String>${oxygenHome}/classes/</String>
-                                                    <String>${oxygenHome}/lib/oxygen.jar</String>
-                                                    <String>${oxygenHome}/lib/oxygenAuthor.jar</String>
-                                                    <String>${oxygenHome}/lib/oxygenDeveloper.jar</String>
-                                                    <String>${oxygenHome}/lib/oxygenEclipse.jar</String>
-                                                    <String>${oxygenHome}/lib/oxygenAuthorEclipse.jar</String>
-                                                    <String>${oxygenHome}/lib/oxygenDeveloperEclipse.jar</String>
-                                                    <String>${oxygenHome}/lib/resolver.jar</String>
-                                                    <String>${oxygenHome}/lib/xercesImpl.jar</String>
-                                                    <String>${oxygenHome}/lib/saxon9ee.jar</String>
-                                                    <String>${oxygenHome}/lib/saxon.jar</String>
+                                                    <String>${oxygenHome}/lib/oxygen-basic-utilities.jar</String>
+                                                    <String>${oxygenHome}/lib/*resolver*.jar</String>
+                                                    <String>${oxygenHome}/lib/*xerces*.jar</String>
+                                                    <String>${oxygenHome}/lib/*saxon*9*.jar</String>
+                                                    <String>${oxygenHome}/lib/*saxon*6*.jar</String>
                                                     <String>${oxygenHome}/lib/xml-apis-ext.jar</String>
                                                     <String>${oxygenHome}/lib/log4j.jar</String>
                                                 </String-array>
@@ -10518,6 +10634,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                             <field name="openInBrowser">
                                                 <Boolean>true</Boolean>
                                             </field>
+                                            <field name="outputFile">
+                                                <null/>
+                                            </field>
                                             <field name="outputResource">
                                                 <null/>
                                             </field>
@@ -10557,16 +10676,11 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                             <field name="extensionURLs">
                                                 <String-array>
                                                     <String>${oxygenHome}/classes/</String>
-                                                    <String>${oxygenHome}/lib/oxygen.jar</String>
-                                                    <String>${oxygenHome}/lib/oxygenAuthor.jar</String>
-                                                    <String>${oxygenHome}/lib/oxygenDeveloper.jar</String>
-                                                    <String>${oxygenHome}/lib/oxygenEclipse.jar</String>
-                                                    <String>${oxygenHome}/lib/oxygenAuthorEclipse.jar</String>
-                                                    <String>${oxygenHome}/lib/oxygenDeveloperEclipse.jar</String>
-                                                    <String>${oxygenHome}/lib/resolver.jar</String>
-                                                    <String>${oxygenHome}/lib/xercesImpl.jar</String>
-                                                    <String>${oxygenHome}/lib/saxon9ee.jar</String>
-                                                    <String>${oxygenHome}/lib/saxon.jar</String>
+                                                    <String>${oxygenHome}/lib/oxygen-basic-utilities.jar</String>
+                                                    <String>${oxygenHome}/lib/*resolver*.jar</String>
+                                                    <String>${oxygenHome}/lib/*xerces*.jar</String>
+                                                    <String>${oxygenHome}/lib/*saxon*9*.jar</String>
+                                                    <String>${oxygenHome}/lib/*saxon*6*.jar</String>
                                                     <String>${oxygenHome}/lib/xml-apis-ext.jar</String>
                                                     <String>${oxygenHome}/lib/log4j.jar</String>
                                                 </String-array>
@@ -10609,52 +10723,6 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                     </antParameter>
                                                     <antParameter>
                                                         <field name="name">
-                                                            <String>outputFile</String>
-                                                        </field>
-                                                        <field name="description">
-                                                            <String>Path where the output ODT file will be saved.</String>
-                                                        </field>
-                                                        <field name="value">
-                                                            <String>${cfd}/out/${cfn}.odt</String>
-                                                        </field>
-                                                        <field name="defaultValue">
-                                                            <null/>
-                                                        </field>
-                                                        <field name="type">
-                                                            <Integer>5</Integer>
-                                                        </field>
-                                                        <field name="possibleValues">
-                                                            <null/>
-                                                        </field>
-                                                        <field name="possibleValuesDescriptions">
-                                                            <null/>
-                                                        </field>
-                                                    </antParameter>
-                                                    <antParameter>
-                                                        <field name="name">
-                                                            <String>profile</String>
-                                                        </field>
-                                                        <field name="description">
-                                                            <String>The profile of the ODT output file, for example "tei", "oucs", "oucscourses", "enrich".</String>
-                                                        </field>
-                                                        <field name="value">
-                                                            <String>default</String>
-                                                        </field>
-                                                        <field name="defaultValue">
-                                                            <null/>
-                                                        </field>
-                                                        <field name="type">
-                                                            <Integer>5</Integer>
-                                                        </field>
-                                                        <field name="possibleValues">
-                                                            <null/>
-                                                        </field>
-                                                        <field name="possibleValuesDescriptions">
-                                                            <null/>
-                                                        </field>
-                                                    </antParameter>
-                                                    <antParameter>
-                                                        <field name="name">
                                                             <String>lang</String>
                                                         </field>
                                                         <field name="description">
@@ -10678,6 +10746,29 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                     </antParameter>
                                                     <antParameter>
                                                         <field name="name">
+                                                            <String>outputFile</String>
+                                                        </field>
+                                                        <field name="description">
+                                                            <String>Path where the output ODT file will be saved.</String>
+                                                        </field>
+                                                        <field name="value">
+                                                            <String>${cfd}/out/${cfn}.odt</String>
+                                                        </field>
+                                                        <field name="defaultValue">
+                                                            <null/>
+                                                        </field>
+                                                        <field name="type">
+                                                            <Integer>5</Integer>
+                                                        </field>
+                                                        <field name="possibleValues">
+                                                            <null/>
+                                                        </field>
+                                                        <field name="possibleValuesDescriptions">
+                                                            <null/>
+                                                        </field>
+                                                    </antParameter>
+                                                    <antParameter>
+                                                        <field name="name">
                                                             <String>oxygenlib</String>
                                                         </field>
                                                         <field name="description">
@@ -10685,6 +10776,29 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                         </field>
                                                         <field name="value">
                                                             <String>${oxygenInstallDir}/lib</String>
+                                                        </field>
+                                                        <field name="defaultValue">
+                                                            <null/>
+                                                        </field>
+                                                        <field name="type">
+                                                            <Integer>5</Integer>
+                                                        </field>
+                                                        <field name="possibleValues">
+                                                            <null/>
+                                                        </field>
+                                                        <field name="possibleValuesDescriptions">
+                                                            <null/>
+                                                        </field>
+                                                    </antParameter>
+                                                    <antParameter>
+                                                        <field name="name">
+                                                            <String>profile</String>
+                                                        </field>
+                                                        <field name="description">
+                                                            <String>The profile of the ODT output file, for example "tei", "oucs", "oucscourses", "enrich".</String>
+                                                        </field>
+                                                        <field name="value">
+                                                            <String>default</String>
                                                         </field>
                                                         <field name="defaultValue">
                                                             <null/>
@@ -10764,6 +10878,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                             <field name="openInBrowser">
                                                 <Boolean>true</Boolean>
                                             </field>
+                                            <field name="outputFile">
+                                                <null/>
+                                            </field>
                                             <field name="outputResource">
                                                 <null/>
                                             </field>
@@ -10803,16 +10920,11 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                             <field name="extensionURLs">
                                                 <String-array>
                                                     <String>${oxygenHome}/classes/</String>
-                                                    <String>${oxygenHome}/lib/oxygen.jar</String>
-                                                    <String>${oxygenHome}/lib/oxygenAuthor.jar</String>
-                                                    <String>${oxygenHome}/lib/oxygenDeveloper.jar</String>
-                                                    <String>${oxygenHome}/lib/oxygenEclipse.jar</String>
-                                                    <String>${oxygenHome}/lib/oxygenAuthorEclipse.jar</String>
-                                                    <String>${oxygenHome}/lib/oxygenDeveloperEclipse.jar</String>
-                                                    <String>${oxygenHome}/lib/resolver.jar</String>
-                                                    <String>${oxygenHome}/lib/xercesImpl.jar</String>
-                                                    <String>${oxygenHome}/lib/saxon9ee.jar</String>
-                                                    <String>${oxygenHome}/lib/saxon.jar</String>
+                                                    <String>${oxygenHome}/lib/oxygen-basic-utilities.jar</String>
+                                                    <String>${oxygenHome}/lib/*resolver*.jar</String>
+                                                    <String>${oxygenHome}/lib/*xerces*.jar</String>
+                                                    <String>${oxygenHome}/lib/*saxon*9*.jar</String>
+                                                    <String>${oxygenHome}/lib/*saxon*6*.jar</String>
                                                     <String>${oxygenHome}/lib/xml-apis-ext.jar</String>
                                                     <String>${oxygenHome}/lib/log4j.jar</String>
                                                 </String-array>
@@ -10890,12 +11002,31 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                         <Boolean>true</Boolean>
                     </entry>
                     <entry>
+                        <String>key.custom.validation.option.pane</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
                         <String>key.editor.document.type.association.option.pane</String>
                         <Boolean>true</Boolean>
                     </entry>
                     <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tools/802_tei_odd/vicav_profiles.odd</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>injectSKOS2ODD</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>../../delphi/web_dict_editor/docu/texts/vle_docu.xml</String>
@@ -10968,21 +11099,6 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XML</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tools/802_tei_odd/vicav_profiles.odd</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>injectSKOS2ODD</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
                                     </list>
                                 </field>
                             </scenarioAssociation>
@@ -11199,6 +11315,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
                                 <field name="outputResource">
                                     <String>${cfne}</String>
                                 </field>
@@ -11364,6 +11483,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
                                 <field name="outputResource">
                                     <String>${cfn}.html</String>
                                 </field>
@@ -11446,6 +11568,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <String>${cfn}.rdf</String>
@@ -11530,6 +11655,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
                                 <field name="outputResource">
                                     <String>../grammar_html/${cfn}.html</String>
                                 </field>
@@ -11612,6 +11740,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <String>${cfne}</String>
@@ -11696,6 +11827,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
                                 <field name="outputResource">
                                     <String>${pd}/vocabs/places.xml</String>
                                 </field>
@@ -11779,6 +11913,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -11861,6 +11998,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <String>${cfn}.xml</String>
@@ -11971,6 +12111,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <String>vicav_${cfn}.xml</String>
@@ -12130,6 +12273,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
                                 <field name="outputResource">
                                     <String>${cfn}.xml</String>
                                 </field>
@@ -12204,11 +12350,11 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>vicav_lingfeatures/</String>
+                                    <String>vicav_profiles/</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>vicav_lingfeatures</String>
+                                        <String>vicav_profiles</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -12219,11 +12365,11 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>vicav_profiles/</String>
+                                    <String>vicav_lingfeatures/</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>vicav_profiles</String>
+                                        <String>vicav_lingfeatures</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
