@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:tei="http://www.tei-c.org/ns/1.0" 
+    xmlns:s="http://purl.oclc.org/dsdl/schematron">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Shawi corpus document ODD</title>
+                <author>Mau Zsofia Abraham</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>ACDH-OeAW</publisher>
+                <pubPlace>Vienna</pubPlace>
+                <date>2021</date>
+                <availability status="restricted">
+                    <p><ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This is an original digital text</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <schemaSpec ident="vicav_corpus" start="TEI">
+                <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt availability rendition sourceDesc encodingDesc tagsDecl revisionDesc change listPrefixDef prefixDef"/>
+                <moduleRef key="core" include="address author bibl cit date editor desc graphic head hi quote name note p publisher pubPlace ref respStmt resp rs series title"/>
+                <moduleRef key="tei"/>
+                <moduleRef key="textstructure" include="body div TEI text"/>
+                <moduleRef key="corpus"/>
+                <moduleRef key="analysis" include="w pc phr"/>
+                <moduleRef key="linking" include="timeline when anchor"></moduleRef>
+                <moduleRef key="spoken" include="annotationBlock u"></moduleRef>
+                <elementSpec ident="w" module="analysis" mode="change">
+                    <desc>Token ana attributes should entries in the standoff document.
+                    </desc>
+                    <constraintSpec ident="ana-spec" scheme="schematron">
+                        <desc>Enforce that the token links to a document.</desc>
+                        <constraint>
+                            <s:rule context="tei:w">
+                                <s:let name="ana" value="@ana" />
+                                <s:let name="filename" value="document-uri(/)"/>
+                                <s:assert test="$ana = doc(concat($filename,'_standoff.xml'))//property[@name = 'xml:id']/@value">Entry with id '<s:value-of select="$ana"/>' not found in glossary document.</s:assert>
+                            </s:rule>
+                        </constraint>
+                    </constraintSpec>
+                </elementSpec>
+            </schemaSpec>
+        </body>
+    </text>
+</TEI>

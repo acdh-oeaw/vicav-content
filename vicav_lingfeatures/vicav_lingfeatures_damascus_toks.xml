@@ -26,6 +26,29 @@
             <prefixDef matchPattern="(.+)" replacementPattern="../vocabs/fLib.xml#$1" ident="fvlib"/>
          </listPrefixDef>
       </encodingDesc>
+      <profileDesc>
+         <taxonomy>
+            <category xml:id="featurelist">
+               <catDesc>linguistic feature list</catDesc>
+            </category>
+         </taxonomy>
+         <particDesc>
+            <person sex="" age="">Damascus1</person>
+         </particDesc>
+         <settingDesc>
+            <place>
+               <settlement>
+                  <name xml:lang="en">Damascus</name>
+                  <name xml:lang="aeb">Damascus</name>
+               </settlement>
+               <region>Damascus</region>
+               <country>Syria</country>
+               <location>
+                  <geo>33.51, 36.29</geo>
+               </location>
+            </place>
+         </settingDesc>
+      </profileDesc>
    </teiHeader>
    <text>
       <body>
