@@ -1,6 +1,6 @@
 # VICAV Zotero export
 
-see [[fetch_generated_tei_and_process.ipynb]]
+see [fetch_generated_tei_and_process.ipynb](fetch_generated_tei_and_process.ipynb)
 
 ```bash
 pipenv install
