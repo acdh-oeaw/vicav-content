@@ -9,6 +9,7 @@ lxml = "*"
 nbconvert = "*"
 multiprocess = "*"
 aiohttp = "*"
+nest-asyncio = "*"
 
 [dev-packages]
 jupyterlab = "*"
