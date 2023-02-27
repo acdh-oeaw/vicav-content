@@ -2203,6 +2203,7 @@
 
             <place type="geo" xml:id="kadugli">
                <placeName>Kadugli</placeName>
+               <placeName type="altSpell">Kaduqli</placeName>
                <location>
                   <geo decls="#dms">11°00'40"N 29°43'06"E</geo>
                   <geo decls="#dd">11.011111 29.718333</geo>
@@ -3841,6 +3842,7 @@
 
             <place type="geo" xml:id="sidi_bel_abbes">
                <placeName>Sidi Bel Abbès</placeName>
+               <placeName type="altSpell">Sidi bel Abbès</placeName>
                <location>
                   <geo decls="#dms">35°11'24"N 00°37'51"W</geo>
                   <geo decls="#dd">35.190000 -0.630833</geo>
@@ -5099,6 +5101,7 @@
 
             <place type="reg" xml:id="cyrenaica">
                <placeName>Cyrenaica</placeName>
+               <placeName type="altSpell">East Libya</placeName>
                <location>
                   <geo decls="#dms">31°00'00"N 22°30'00"E</geo>
                   <geo decls="#dd">31.000000 22.500000</geo>
@@ -5119,6 +5122,7 @@
 
             <place type="reg" xml:id="dahlak_archipelago">
                <placeName>Dahlak Archipelago</placeName>
+               <placeName type="altSpell">Dahlak islands</placeName>
                <location>
                   <geo decls="#dms">15°50′00"N 40°12′00"E</geo>
                   <geo decls="#dd">15.83333 40.2</geo>
@@ -5540,6 +5544,7 @@
 
             <place type="reg" xml:id="kuwait">
                <placeName>Kuwait</placeName>
+               <placeName type="altSpell">Kuweit</placeName>
                <location>
                   <geo decls="#dms">29°30'00"N 47°45'00"E</geo>
                   <geo decls="#dd">29.500000 47.750000</geo>
@@ -5768,6 +5773,7 @@
 
             <place type="reg" xml:id="qashqadaryo_region">
                <placeName>Qashqadaryo Region</placeName>
+               <placeName type="altSpell">Qashqadaryo River</placeName>
                <location>
                   <geo decls="#dms">38°35'00"N 66°00'00"E</geo>
                   <geo decls="#dd">38.583333 66.000000</geo>
@@ -5840,6 +5846,7 @@
 
             <place type="reg" xml:id="sicily">
                <placeName>Sicily</placeName>
+               <placeName type="altSpell">sicily</placeName>
                <location>
                   <geo decls="#dms">37°37'23"N 13°56'04"E</geo>
                   <geo decls="#dd">37.623056 13.934444</geo>
@@ -6073,6 +6080,47 @@
                </location>
                <idno type="geoNames">2538470</idno>
                <note>Zaer tribes</note>
+            </place>
+
+            <place type="reg" xml:id="musnadam">
+               <placeName>Musandam</placeName>
+               <location>
+                  <geo decls="#dms">26°02'00"N 56°18"00"E</geo>
+                  <geo decls="#dd">26.03333, 56.3</geo>
+                  <country key="OM">Oman</country>
+               </location>
+               <idno type="geoNames">411741</idno>
+            </place>
+
+            <place type="geo" xml:id="al_jadi">
+               <placeName>al-Jadi</placeName>
+               <location>
+                  <geo decls="#dms">26°09'49"N 56°10'15"E</geo>
+                  <geo decls="#dd">26.16358, 56.17096</geo>
+                  <country key="OM">Oman</country>
+               </location>
+               <idno type="geoNames">289222</idno>
+            </place>
+            
+            <place type="geo" xml:id="jabal_al_gharbi">
+               <placeName>Jabal al Gharbi</placeName>
+               <placeName type="altSpell">al-Jabal</placeName>
+               <location>
+                  <geo decls="#dms">30°28'00" 13°00'00"E</geo>
+                  <geo decls="#dd">30.46666, 13</geo>
+                  <country key="Ly">Libya</country>
+               </location>
+               <idno type="geoNames">289222</idno>              
+            </place>
+            
+            <place type="geo" xml:id="nefzaoua">
+               <placeName>Nefzaoua</placeName>
+               <location>
+                  <geo decls="#dms">33°30'00"N 9°00'00"E</geo>
+                  <geo decls="#dd">33.5, 9</geo>
+                  <country key="TN">Tunisia</country>
+               </location>
+               <idno type="geoNames">2468557</idno>             
             </place>
 
          </listPlace>
