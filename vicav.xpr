@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="21.0">
+<project>
     <meta>
         <filters directoryPatterns="" filePatterns="vicav.xpr" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="21.0" xml:space="preserve">
+            <serialized xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>code-templates</String>
@@ -6712,6 +6712,9 @@ Note: If it is not defined, then the element at the caret position will be used.
                         <String>document.types</String>
                         <documentTypeDescriptor-array>
                             <documentTypeDescriptor>
+                                <field name="webResources">
+                                    <null/>
+                                </field>
                                 <field name="extensionPatch">
                                     <documentTypeDescriptorPatch>
                                         <field name="patchList">
@@ -6966,6 +6969,9 @@ Note: If it is not defined, then the element at the caret position will be used.
                                                                             <null/>
                                                                         </field>
                                                                         <field name="validationSchema">
+                                                                            <null/>
+                                                                        </field>
+                                                                        <field name="validationAdvancedSettings">
                                                                             <null/>
                                                                         </field>
                                                                     </validationUnit>
@@ -9905,6 +9911,18 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                                             <field name="alias">
                                                                 <String>${i18n(figure.wizard)}</String>
                                                             </field>
+                                                            <field name="replacementFor">
+                                                                <null/>
+                                                            </field>
+                                                            <field name="replacedElementNs">
+                                                                <null/>
+                                                            </field>
+                                                            <field name="displayOnlyWhenElementAllowed">
+                                                                <Boolean>false</Boolean>
+                                                            </field>
+                                                            <field name="useReplaceElementName">
+                                                                <Boolean>false</Boolean>
+                                                            </field>
                                                         </contextItem>
                                                         <contextItem>
                                                             <field name="targets">
@@ -9918,6 +9936,18 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                                             <field name="alias">
                                                                 <String>${i18n(table.wizard)}</String>
                                                             </field>
+                                                            <field name="replacementFor">
+                                                                <null/>
+                                                            </field>
+                                                            <field name="replacedElementNs">
+                                                                <null/>
+                                                            </field>
+                                                            <field name="displayOnlyWhenElementAllowed">
+                                                                <Boolean>false</Boolean>
+                                                            </field>
+                                                            <field name="useReplaceElementName">
+                                                                <Boolean>false</Boolean>
+                                                            </field>
                                                         </contextItem>
                                                         <contextItem>
                                                             <field name="targets">
@@ -9930,6 +9960,18 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                                             </field>
                                                             <field name="alias">
                                                                 <String>${i18n(row.wizard)}</String>
+                                                            </field>
+                                                            <field name="replacementFor">
+                                                                <null/>
+                                                            </field>
+                                                            <field name="replacedElementNs">
+                                                                <null/>
+                                                            </field>
+                                                            <field name="displayOnlyWhenElementAllowed">
+                                                                <Boolean>false</Boolean>
+                                                            </field>
+                                                            <field name="useReplaceElementName">
+                                                                <Boolean>false</Boolean>
                                                             </field>
                                                         </contextItem>
                                                     </contextItem-array>
@@ -10069,9 +10111,6 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                             <field name="openInBrowser">
                                                 <Boolean>true</Boolean>
                                             </field>
-                                            <field name="outputFile">
-                                                <File>${cfd}/${cfn}.html</File>
-                                            </field>
                                             <field name="outputResource">
                                                 <String>${cfd}/${cfn}.html</String>
                                             </field>
@@ -10154,9 +10193,6 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                             </field>
                                             <field name="openInBrowser">
                                                 <Boolean>true</Boolean>
-                                            </field>
-                                            <field name="outputFile">
-                                                <File>${cfd}/${cfn}.pdf</File>
                                             </field>
                                             <field name="outputResource">
                                                 <String>${cfd}/${cfn}.pdf</String>
@@ -10389,9 +10425,6 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                             </field>
                                             <field name="openInBrowser">
                                                 <Boolean>true</Boolean>
-                                            </field>
-                                            <field name="outputFile">
-                                                <null/>
                                             </field>
                                             <field name="outputResource">
                                                 <null/>
@@ -10634,9 +10667,6 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                             <field name="openInBrowser">
                                                 <Boolean>true</Boolean>
                                             </field>
-                                            <field name="outputFile">
-                                                <null/>
-                                            </field>
                                             <field name="outputResource">
                                                 <null/>
                                             </field>
@@ -10878,9 +10908,6 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                             <field name="openInBrowser">
                                                 <Boolean>true</Boolean>
                                             </field>
-                                            <field name="outputFile">
-                                                <null/>
-                                            </field>
                                             <field name="outputResource">
                                                 <null/>
                                             </field>
@@ -11014,6 +11041,26 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>tools/vicav_zotero/TEI_export.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>injectSKOS2ODD</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>tools/802_tei_odd/vicav_profiles.odd</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -11024,6 +11071,11 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
                                     </list>
                                 </field>
                             </scenarioAssociation>
@@ -11041,10 +11093,15 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                         <String>XSL</String>
                                     </list>
                                 </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>../../../../../dicttemp/dc_aeb_eng_002_vle_curation_2020_12_05_a.xml</String>
+                                    <String>file:/../../dicttemp/dc_aeb_eng_002_vle_curation_2020_12_05_a.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -11054,6 +11111,11 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
                                     </list>
                                 </field>
                             </scenarioAssociation>
@@ -11071,6 +11133,11 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                         <String>XSL</String>
                                     </list>
                                 </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
@@ -11084,6 +11151,11 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
                                     </list>
                                 </field>
                             </scenarioAssociation>
@@ -11101,6 +11173,11 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                         <String>XML</String>
                                     </list>
                                 </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
@@ -11114,6 +11191,11 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
                                     </list>
                                 </field>
                             </scenarioAssociation>
@@ -11131,6 +11213,11 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                         <String>XSL</String>
                                     </list>
                                 </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
@@ -11144,6 +11231,11 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
                                     </list>
                                 </field>
                             </scenarioAssociation>
@@ -11161,6 +11253,11 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                         <String>XML</String>
                                     </list>
                                 </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
@@ -11174,6 +11271,11 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
                                     </list>
                                 </field>
                             </scenarioAssociation>
@@ -11191,6 +11293,11 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                         <String>XML</String>
                                     </list>
                                 </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
@@ -11204,6 +11311,11 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
                                     </list>
                                 </field>
                             </scenarioAssociation>
@@ -11221,6 +11333,11 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                         <String>XSL</String>
                                     </list>
                                 </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
@@ -11234,6 +11351,11 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
                                     </list>
                                 </field>
                             </scenarioAssociation>
@@ -11251,6 +11373,11 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                         <String>XSL</String>
                                     </list>
                                 </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
@@ -11264,6 +11391,11 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
                                     </list>
                                 </field>
                             </scenarioAssociation>
@@ -11314,9 +11446,6 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <String>${cfne}</String>
@@ -11398,6 +11527,9 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                                 <field name="enableAssertions">
                                                     <Boolean>false</Boolean>
                                                 </field>
+                                                <field name="allowSyntaxExtensions">
+                                                    <Boolean>false</Boolean>
+                                                </field>
                                                 <field name="showVersionWarnings">
                                                     <Boolean>false</Boolean>
                                                 </field>
@@ -11422,9 +11554,6 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                                 <field name="expandAttributeDefaults">
                                                     <Boolean>true</Boolean>
                                                 </field>
-                                                <field name="errorRecoverPolicy">
-                                                    <String>saxon.recover.with.warning</String>
-                                                </field>
                                                 <field name="stripWS">
                                                     <String>saxon.strip.ws.none</String>
                                                 </field>
@@ -11439,6 +11568,12 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                                 </field>
                                                 <field name="initializer">
                                                     <String></String>
+                                                </field>
+                                                <field name="profilingOutputFile">
+                                                    <null/>
+                                                </field>
+                                                <field name="isProfilingEnabled">
+                                                    <Boolean>false</Boolean>
                                                 </field>
                                             </xsltSaxonBAdvancedOptions>
                                         </entry>
@@ -11482,9 +11617,6 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <String>${cfn}.html</String>
@@ -11569,9 +11701,6 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <String>${cfn}.rdf</String>
                                 </field>
@@ -11654,9 +11783,6 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <String>../grammar_html/${cfn}.html</String>
@@ -11741,9 +11867,6 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <String>${cfne}</String>
                                 </field>
@@ -11826,9 +11949,6 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <String>${pd}/vocabs/places.xml</String>
@@ -11913,9 +12033,6 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -11998,9 +12115,6 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <String>${cfn}.xml</String>
@@ -12111,9 +12225,6 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <String>vicav_${cfn}.xml</String>
@@ -12273,9 +12384,6 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <String>${cfn}.xml</String>
                                 </field>
@@ -12343,6 +12451,89 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                     <String-array/>
                                 </field>
                             </scenario>
+                            <scenario>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>vicav_zotero_add_geo_element</String>
+                                </field>
+                                <field name="baseURL">
+                                    <String></String>
+                                </field>
+                                <field name="footerURL">
+                                    <String></String>
+                                </field>
+                                <field name="fOPMethod">
+                                    <String>pdf</String>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <String>Apache FOP</String>
+                                </field>
+                                <field name="headerURL">
+                                    <String></String>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <String>${pdu}/tools/vicav_zotero/vicav_zotero_add_geo_element.xsl</String>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>XML</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <null/>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>Saxon6.5.5</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </scenario>
                         </scenario-array>
                     </entry>
                     <entry>
@@ -12362,6 +12553,9 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                         <String>Validation_scenario</String>
                                     </list>
                                 </field>
+                                <field name="scenarioStorageLocations">
+                                    <list/>
+                                </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
@@ -12376,6 +12570,9 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                     <list>
                                         <String>Validation_scenario</String>
                                     </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list/>
                                 </field>
                             </scenarioAssociation>
                         </scenarioAssociation-array>
@@ -12428,6 +12625,9 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                                         <String>${pdu}/tools/802_tei_odd/out/vicav_lingfeatures.rng</String>
                                                     </field>
                                                 </validationUnitSchema>
+                                            </field>
+                                            <field name="validationAdvancedSettings">
+                                                <null/>
                                             </field>
                                         </validationUnit>
                                     </list>
@@ -12484,6 +12684,9 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                                         <String>${pdu}/tools/802_tei_odd/out/vicav_profiles.rng</String>
                                                     </field>
                                                 </validationUnitSchema>
+                                            </field>
+                                            <field name="validationAdvancedSettings">
+                                                <null/>
                                             </field>
                                         </validationUnit>
                                     </list>
