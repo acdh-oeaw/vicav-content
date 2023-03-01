@@ -394,6 +394,7 @@
 
             <place type="geo" xml:id="al_jabal_al_gharbi">
                <placeName>Al-Jabal al-gharbi</placeName>
+               <placeName type="altSpell">al-Jabal</placeName>
                <location>
                   <geo decls="#dms">30°28′00"N  13°00′00"E</geo>
                   <geo decls="#dd">30.466667 13.000000</geo>
@@ -6100,17 +6101,6 @@
                   <country key="OM">Oman</country>
                </location>
                <idno type="geoNames">289222</idno>
-            </place>
-            
-            <place type="geo" xml:id="jabal_al_gharbi">
-               <placeName>Jabal al Gharbi</placeName>
-               <placeName type="altSpell">al-Jabal</placeName>
-               <location>
-                  <geo decls="#dms">30°28'00" 13°00'00"E</geo>
-                  <geo decls="#dd">30.46666, 13</geo>
-                  <country key="Ly">Libya</country>
-               </location>
-               <idno type="geoNames">289222</idno>              
             </place>
             
             <place type="geo" xml:id="nefzaoua">
