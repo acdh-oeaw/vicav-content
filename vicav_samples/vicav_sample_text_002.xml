@@ -20,7 +20,12 @@
             <p>This is an original digital text</p>
          </sourceDesc>
       </fileDesc>
-   </teiHeader>
+   <revisionDesc>
+  <change n="2022-06-20-3-gf63490c" who="GitHub" when="2022-06-23">
+add notebook evaluation of the library
+   </change>
+</revisionDesc>
+</teiHeader>
    <TEI xml:id="damascus_sample_01">
       <teiHeader>
          <fileDesc>
@@ -42,7 +47,12 @@
                <p>This is an original digital text</p>
             </sourceDesc>
          </fileDesc>
-      </teiHeader>
+      <revisionDesc>
+  <change n="2022-06-20-3-gf63490c" who="GitHub" when="2022-06-23">
+add notebook evaluation of the library
+   </change>
+</revisionDesc>
+</teiHeader>
       <text>
          <body>
             <head> Short sample text of <name xml:lang="eng">Damascus</name> Arabic</head>
@@ -1248,7 +1258,12 @@
                <p>This is an original digital text</p>
             </sourceDesc>
          </fileDesc>
-      </teiHeader>
+      <revisionDesc>
+  <change n="2022-06-20-3-gf63490c" who="GitHub" when="2022-06-23">
+add notebook evaluation of the library
+   </change>
+</revisionDesc>
+</teiHeader>
       <text>
          <body>
             <head> Short sample text of <name xml:lang="eng">Damascus</name> Arabic</head>
@@ -2490,7 +2505,12 @@
                <p>This is an original digital text</p>
             </sourceDesc>
          </fileDesc>
-      </teiHeader>
+      <revisionDesc>
+  <change n="2022-06-20-3-gf63490c" who="GitHub" when="2022-06-23">
+add notebook evaluation of the library
+   </change>
+</revisionDesc>
+</teiHeader>
       <text>
          <body>
             <head>Short sample text of <name xml:lang="eng">Cairo</name> Arabic</head>
@@ -2817,7 +2837,12 @@
                   Jahre alt</p>
             </particDesc>
          </profileDesc>
-      </teiHeader>
+      <revisionDesc>
+  <change n="2022-06-20-3-gf63490c" who="GitHub" when="2022-06-23">
+add notebook evaluation of the library
+   </change>
+</revisionDesc>
+</teiHeader>
       <text>
          <body>
             <head>Short sample text of <name xml:lang="eng">Baghdad</name> Arabic</head>
@@ -4403,7 +4428,12 @@
                <p>This is an original digital text</p>
             </sourceDesc>
          </fileDesc>
-      </teiHeader>
+      <revisionDesc>
+  <change n="2022-06-20-3-gf63490c" who="GitHub" when="2022-06-23">
+add notebook evaluation of the library
+   </change>
+</revisionDesc>
+</teiHeader>
       <text>
          <body>
             <head>Short sample text of <name xml:lang="eng">Şanlıurfa</name> Arabic</head>
@@ -6016,7 +6046,12 @@
                <p>This is an original digital text</p>
             </sourceDesc>
          </fileDesc>
-      </teiHeader>
+      <revisionDesc>
+  <change n="2022-06-20-3-gf63490c" who="GitHub" when="2022-06-23">
+add notebook evaluation of the library
+   </change>
+</revisionDesc>
+</teiHeader>
       <text>
          <body>
             <head>Short sample text of <name xml:lang="eng">Tunis</name> Arabic</head>
@@ -7725,7 +7760,12 @@
                <p>This is an original digital text</p>
             </sourceDesc>
          </fileDesc>
-      </teiHeader>
+      <revisionDesc>
+  <change n="2022-06-20-3-gf63490c" who="GitHub" when="2022-06-23">
+add notebook evaluation of the library
+   </change>
+</revisionDesc>
+</teiHeader>
       <text>
          <body>
             <head>Short sample text of <name xml:lang="eng">Douz</name> Arabic</head>
@@ -9669,7 +9709,12 @@
                <p>This is an original digital text</p>
             </sourceDesc>
          </fileDesc>
-      </teiHeader>
+      <revisionDesc>
+  <change n="2022-06-20-3-gf63490c" who="GitHub" when="2022-06-23">
+add notebook evaluation of the library
+   </change>
+</revisionDesc>
+</teiHeader>
       <text>
          <body>
             <head>Short sample text in Modern Standard Arabic</head>
