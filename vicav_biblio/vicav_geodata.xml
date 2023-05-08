@@ -88,16 +88,6 @@
                <note/>
             </place>
 
-            <place type="geo" xml:id="abeche">
-               <placeName>Abeche</placeName>
-               <location>
-                  <geo decls="#dms">13°49′45"N 20°49′57"E</geo>
-                  <geo decls="#dd">13.82916 20.8324</geo>
-                  <country key="TD">Chad</country>
-               </location>
-               <idno type="geoNames">245785</idno>
-            </place>
-
             <place type="geo" xml:id="abha">
                <placeName>Abha</placeName>
                <location>
@@ -120,6 +110,7 @@
 
             <place type="geo" xml:id="abeche">
                <placeName>Abéché</placeName>
+               <<placeName type="altSpell">Spel>Abeche</placeName>
                <location>
                   <geo decls="#dms">13°49'45"N 20°49'57"E</geo>
                   <geo decls="#dd">13.829167 20.832500</geo>
@@ -401,6 +392,16 @@
                   <country key="LY">Libya</country>
                </location>
                <idno type="geoNames">7602689</idno>
+            </place>
+
+            <place type="geo" xml:id="al_jadi">
+               <placeName>Al-Jādī</placeName>
+               <location>
+                  <geo decls="#dms">26°09′49″N 56°10′15″E</geo>
+                  <geo decls="#dd">26.16358 56.17096</geo>
+                  <country key="OM">Oman</country>
+               </location>
+               <idno type="geoNames">289222</idno>
             </place>
 
             <place type="geo" xml:id="al_karak">
@@ -948,7 +949,7 @@
                <idno type="geoNames">295411</idno>
             </place>
 
- <place type="geo" xml:id="bet_liqya">
+            <place type="geo" xml:id="bet_liqya">
                <placeName>Bēt Liqya</placeName>
                <location>
                   <geo decls="#dms">31°52'10"N 35°03'55"E</geo>
@@ -1337,15 +1338,6 @@
                <idno type="geoNames">107797</idno>
             </place>
 
-            <place type="geo" xml:id="dhale">
-               <placeName>Dhale</placeName>
-               <location>
-                  <geo decls="#dms">13°42'51"N 44°42'52"E</geo>
-                  <geo decls="#dd">13.714167 44.714444</geo>
-                  <country key="YE">Yemen</country>
-               </location>
-               <idno type="geoNames">6940875</idno>
-            </place>
 
             <place type="geo" xml:id="dhale">
                <placeName>Dhale</placeName>
@@ -1676,6 +1668,17 @@
                <idno type="geoNames">106281</idno>
             </place>
 
+            <place type="geo" xml:id="al_hayit">
+               <placeName>Al-Hayit</placeName>
+               <location>
+                  <geo decls="#dms">25°59′10″N 40°28′20″E</geo>
+                  <geo decls="#dd">25.98608 40.47214</geo>
+                  <country key="SA">Saudi Arabia</country>
+               </location>
+               <idno type="geoNames">109611</idno>
+            </place>
+
+
             <place type="geo" xml:id="hajajra">
                <placeName>H̱ajajra</placeName>
                <location>
@@ -1906,17 +1909,6 @@
                   <country key="EG">Egypt</country>
                </location>
                <idno type="geoNames">361291</idno>
-            </place>
-
-            <place type="geo" xml:id="hyayna">
-               <placeName>Hyayna</placeName>
-               <location>
-                  <geo decls="#dms">34°18′42"N 4°40′48"E</geo>
-                  <geo decls="#dd">34.31179, -4.68007</geo>
-                  <country key="MA">Morocco</country>
-               </location>
-               <idno type="geoNames">11043008</idno>
-               <note>home of the Hyayna tribe</note>
             </place>
 
             <place type="geo" xml:id="ibb">
@@ -2952,6 +2944,16 @@
                <idno type="geoNames">173416</idno>
             </place>
 
+            <place type="reg" xml:id="musandam">
+               <placeName>Musandam</placeName>
+               <location>
+                  <geo decls="#dms">26°02′00″N 56°18′00″E</geo>
+                  <geo decls="#dd">26.03333 56.3</geo>
+                  <country key="OM">Oman</country>
+               </location>
+               <idno type="geoNames">411741</idno>
+            </place>
+
             <place type="geo" xml:id="muscat">
                <placeName>Muscat</placeName>
                <location>
@@ -2971,6 +2973,18 @@
                </location>
                <idno type="geoNames">166518</idno>
                <note>Location for the Faḏ̣ol.</note>
+            </place>
+
+
+            <place type="geo" xml:id="mwees">
+               <placeName>Mwēs</placeName>
+               <location>
+                  <geo decls="#dms">16°40′10″N 33°22′05″E</geo>
+                  <geo decls="#dd"> 16.6694 33.3681</geo>
+                  <country key="SD">Sudan</country>
+               </location>
+               <idno type="geoNames">443904</idno>
+               <note></note>
             </place>
 
             <place type="geo" xml:id="naameh">
@@ -5374,6 +5388,7 @@
                </location>
                <idno type="geoNames">2527366</idno>
                <note>capital of the Hyayna tribe is Tissa</note>
+               <note>home of the Hyayna tribe</note>
             </place>
 
             <place type="reg" xml:id="irbid_reg">
@@ -5783,6 +5798,16 @@
                <idno type="geoNames">1114928</idno>
             </place>
 
+            <place type="reg" xml:id="qassim_region">
+               <placeName>Al-Qassim</placeName>
+               <location>
+                  <geo decls="#dms">27°05′00″N  43°28′00″E</geo>
+                  <geo decls="#dd">27.08333 43.46667</geo>
+                  <country key="SA">Saudi Arabia</country>
+               </location>
+               <idno type="geoNames">108933</idno>
+            </place>
+
             <place type="reg" xml:id="qatar">
                <placeName>Qatar</placeName>
                <location>
@@ -6083,26 +6108,6 @@
                <note>Zaer tribes</note>
             </place>
 
-            <place type="reg" xml:id="musnadam">
-               <placeName>Musandam</placeName>
-               <location>
-                  <geo decls="#dms">26°02'00"N 56°18"00"E</geo>
-                  <geo decls="#dd">26.03333, 56.3</geo>
-                  <country key="OM">Oman</country>
-               </location>
-               <idno type="geoNames">411741</idno>
-            </place>
-
-            <place type="geo" xml:id="al_jadi">
-               <placeName>al-Jadi</placeName>
-               <location>
-                  <geo decls="#dms">26°09'49"N 56°10'15"E</geo>
-                  <geo decls="#dd">26.16358, 56.17096</geo>
-                  <country key="OM">Oman</country>
-               </location>
-               <idno type="geoNames">289222</idno>
-            </place>
-            
             <place type="geo" xml:id="nefzaoua">
                <placeName>Nefzaoua</placeName>
                <location>
