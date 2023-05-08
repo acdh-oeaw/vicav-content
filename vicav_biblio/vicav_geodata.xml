@@ -110,7 +110,7 @@
 
             <place type="geo" xml:id="abeche">
                <placeName>Abéché</placeName>
-               <<placeName type="altSpell">Spel>Abeche</placeName>
+               <placeName type="altSpell">Abeche</placeName>
                <location>
                   <geo decls="#dms">13°49'45"N 20°49'57"E</geo>
                   <geo decls="#dd">13.829167 20.832500</geo>
@@ -943,7 +943,7 @@
                <placeName>Bi’na</placeName>
                <location>
                   <geo decls="#dms">32°55′50″N 35°16′18″E</geo>
-                  <geo decls="#dd">32.93066, 35.27157</geo>
+                  <geo decls="#dd">32.93066 35.27157</geo>
                   <country key="IL">Israel</country>
                </location>
                <idno type="geoNames">295411</idno>
@@ -1354,7 +1354,7 @@
                <location>
                   <geo decls="#dms">33°06′01″N 35°13′39″E
                   </geo>
-                  <geo decls="#dd">33.10028, 35.2275</geo>
+                  <geo decls="#dd">33.10028 35.2275</geo>
                   <country key="LB">Lebanon</country>
                </location>
                <note>Tribe Aramsha Lebanon lives here</note>
@@ -1737,7 +1737,7 @@
                <placeName>Haouch El Harime</placeName>
                <location>
                   <geo decls="#dms">33°43′12″N 35°51′19″N</geo>
-                  <geo decls="#dd">33.72, 35.85528</geo>
+                  <geo decls="#dd">33.72 35.85528</geo>
                   <country key="LB">Lebanon</country>
                </location>
                <idno type="geoNames">274203</idno>
@@ -1748,7 +1748,7 @@
                <placeName>Haouch en Nebi</placeName>
                <location>
                   <geo decls="#dms">33°55′48″N 36°04′04″E</geo>
-                  <geo decls="#dd">33.93, 36.06778</geo>
+                  <geo decls="#dd">33.93 36.06778</geo>
                   <country key="LB">Lebanon</country>
                </location>
                <idno type="geoNames">274198</idno>
@@ -2465,7 +2465,7 @@
                <placeName>Kurdufan</placeName>
                <location>
                   <geo decls="#dms">13°00′00"N 29°30′00"E</geo>
-                  <geo decls="#dd">13.- 29.5</geo>
+                  <geo decls="#dd">13.0 -29.5</geo>
                   <country key="SD">Sudan</country>
                </location>
                <idno type="geoNames">371853</idno>
@@ -2661,7 +2661,7 @@
                <placeName>El Marj</placeName>
                <location>
                   <geo decls="#dms">33°45′45″N 35°52′52″E</geo>
-                  <geo decls="#dd">33.7625, 35.88111</geo>
+                  <geo decls="#dd">33.7625 35.88111</geo>
                   <country key="LB">Lebanon</country>
                </location>
                <idno type="geoNames">279498</idno>
@@ -2991,7 +2991,7 @@
                <placeName>Naameh</placeName>
                <location>
                   <geo decls="#dms">33°44′42″N 35°27′52″E</geo>
-                  <geo decls="#dd">33.74508, 35.4645</geo>
+                  <geo decls="#dd">33.74508 35.4645</geo>
                   <country key="LB">Lebanon</country>
                </location>
                <idno type="geoNames">7839998</idno>
@@ -3003,7 +3003,7 @@
                <placeName>Nabaa el Faaour</placeName>
                <location>
                   <geo decls="#dms">33°46′56″N 35°58′05″E</geo>
-                  <geo decls="#dd">33.78222, 35.96806</geo>
+                  <geo decls="#dd">33.78222 35.96806</geo>
                   <country key="LB">Lebanon</country>
                </location>
                <idno type="geoNames">275263</idno>
@@ -3407,7 +3407,7 @@
                <placeName>Rahayta</placeName>
                <location>
                   <geo decls="#dms">12°43′43"N 43°05′00"E</geo>
-                  <geo decls="#dd">12.72852  43.0834</geo>
+                  <geo decls="#dd">12.72852 43.0834</geo>
                   <country key="ER">Eritrea</country>
                </location>
                <idno type="geoNames">329665</idno>
@@ -4095,7 +4095,7 @@
                <placeName>Tallet Qarmita</placeName>
                <location>
                   <geo decls="#dms">33°48′26″N 35°54′11″E</geo>
-                  <geo decls="#dd">33.80722, 35.90306</geo>
+                  <geo decls="#dd">33.80722 35.90306</geo>
                   <country key="LB">Lebanon</country>
                </location>
                <idno type="geoNames">269299</idno>
@@ -5905,7 +5905,7 @@
                <placeName>South Kordofan</placeName>
                <location>
                   <geo decls="#dms">11°16′00"N 30°50′00"E</geo>
-                  <geo decls="#dd">11.26667  30.83333</geo>
+                  <geo decls="#dd">11.26667 30.83333</geo>
                   <country key="SD">Sudan</country>
                </location>
                <idno type="geoNames">408661</idno>
@@ -6112,7 +6112,7 @@
                <placeName>Nefzaoua</placeName>
                <location>
                   <geo decls="#dms">33°30'00"N 9°00'00"E</geo>
-                  <geo decls="#dd">33.5, 9</geo>
+                  <geo decls="#dd">33.5 9</geo>
                   <country key="TN">Tunisia</country>
                </location>
                <idno type="geoNames">2468557</idno>             
