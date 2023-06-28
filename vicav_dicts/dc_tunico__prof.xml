@@ -1,0 +1,337 @@
+<profile when="2017_05_25_15_04_50" xml:id="dictProfile" xml:space="preserve">
+<autoSwitchString>vicav</autoSwitchString>
+<basexRest>https://vicav.acdh-ch-dev.oeaw.ac.at</basexRest>
+<displayString>/concat(
+(tei:form[1]/tei:orth[@xml:lang="ar-aeb-x-tunis-vicav"])[1],
+(tei:quote[@xml:lang="ar-aeb-x-tunis-vicav"])[1],
+" [",
+(tei:gramGrp[1]/tei:gram[@type="pos"])[1],
+"]"
+)
+</displayString>
+<entryStyle><xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0" version="1.0">
+    
+    <xsl:output method="html"/>
+    <xsl:template match="/">
+        
+        <html>
+            <head>
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+                <style type="text/css">
+                    table {
+                    border-collapse: collapse;
+                    }
+                    
+                    td {
+                    border: 1px solid black;
+                    padding-left: 5px;
+                    vertical-align: top;
+                    background: white;
+                    }
+                    
+                    .dvExamples {
+                    border: 1px solid black;
+                    background: rgb(210,210,255);
+                    }
+                    
+                    .dvArguments {
+                    border: 1px solid black;
+                    background: rgb(210,210,255);
+                    }
+                    
+                    .dvUsg {
+                    color: green;
+                    font-style: italic;
+                    }
+                    
+                    .tdHead {
+                    font-weight: bold;
+                    color: white;
+                    background: blue;
+                    padding-right: 5px;
+                    width: 100px;
+                    }
+                    
+                    .tdSenseHead {
+                    font-weight: bold;
+                    font-style: italic;
+                    color: blue;
+                    background: rgb(181,213,251);
+                    padding-right: 5px;
+                    width: 100px;
+                    text-align: right;
+                    }
+                    
+                    .tdSense {
+                    background: rgb(248,234,255);
+                    border-style: dotted;
+                    }
+                    
+                    .gramGrp {
+                    color: rgb(255,128,0);
+                    }
+                    
+                    .spBibl {
+                    font-style: italic;
+                    font-size: 8pt;
+                    color: blue;
+                    }
+                    
+                    .spTrans {
+                    font-style: italic;
+                    color: blue;
+                    }
+                    
+                    .spTransGerm {
+                    font-style: italic;
+                    color: rgb(180,180,180);
+                    }
+                    
+                    .spDef {
+                    font-style: italic;
+                    color: green;
+                    }
+                    
+                    .spDefGerm {
+                    font-style: italic;
+                    color: rgb(160,160,160);
+                    }
+                </style>
+            </head>
+            
+            <body>
+                <xsl:if test="//tei:symbol[@value='released']"><xsl:attribute name="style">background:rgb(157,255,157)</xsl:attribute></xsl:if>
+                
+                <xsl:for-each select="tei:cit">
+                    <table width="600px">
+                        <tr>
+                            <td><xsl:value-of select="tei:quote"/></td>
+                        </tr>
+                        <xsl:for-each select="tei:cit[@type='translation']">
+                            <tr>
+                                <td>
+                                    <xsl:choose>
+                                        <xsl:when test="@xml:lang='de'"><span class="spTransGerm"><xsl:value-of select="tei:quote"/><xsl:if test="tei:usg"> (<xsl:value-of select="tei:usg"/>)</xsl:if></span></xsl:when>
+                                        <xsl:otherwise><span class="spTrans"><xsl:value-of select="tei:quote"/><xsl:if test="tei:usg"> (<xsl:value-of select="tei:usg"/>)</xsl:if></span></xsl:otherwise>
+                                    </xsl:choose>
+                                </td>
+                            </tr>
+                        </xsl:for-each>
+                    </table>
+                </xsl:for-each>
+                
+                <xsl:for-each select="tei:entry">
+                    <table width="600px">
+                        <xsl:for-each select="tei:form[@type='lemma'] | tei:form[@type='multiWordUnit'] ">
+                            <tr>
+                                <td class="tdHead">Lemma</td>
+                                <td>
+                                    <xsl:if test="tei:orth[@xml:lang='ar-aeb-x-tunis-arabic']"><xsl:value-of select="tei:orth[@xml:lang='ar-aeb-x-tunis-arabic']"/>
+                                        <xsl:if test="tei:bibl"><xsl:text>   </xsl:text>[<xsl:value-of select="tei:bibl"/>]</xsl:if>
+                                        <xsl:text> </xsl:text>
+                                    </xsl:if>
+                                    
+                                    <xsl:if test="tei:orth[@xml:lang='ar-aeb-x-tunis-vicav']"><span class="trans"><xsl:value-of select="tei:orth[@xml:lang='ar-aeb-x-tunis-vicav']"/></span>
+                                        <xsl:text>   </xsl:text></xsl:if>
+                                    
+                                    <xsl:if test="../tei:gramGrp/tei:gram[@type='pos']"><span class="tei:gramGrp">[<xsl:value-of select="../tei:gramGrp/tei:gram[@type='pos']"/>
+                                        <xsl:if test="../tei:gramGrp/tei:gram[@type='subc']">; <xsl:value-of select="../tei:gramGrp/tei:gram[@type='subc']"/></xsl:if>]</span>
+                                    </xsl:if>
+                                    <xsl:if test="tei:bibl"><span class="spBibl"><xsl:text>   </xsl:text>[<xsl:value-of select="tei:bibl"/>]</span></xsl:if>
+                                    
+                                    <xsl:for-each select="tei:form[@type='variant']">
+                                        <tr>
+                                            <td class="tdHead">Lemma (var.)</td>
+                                            <td>
+                                                <xsl:if test="tei:orth[@xml:lang='ar-aeb-x-tunis-arabic']"><xsl:value-of select="tei:orth[@xml:lang='ar-aeb-x-tunis-arabic']"/></xsl:if> 
+                                                <xsl:if test="tei:orth[@xml:lang='ar-aeb-x-tunis-vicav']"><span class="trans"><xsl:value-of select="tei:orth[@xml:lang='ar-aeb-x-tunis-vicav']"/></span></xsl:if>
+                                                <xsl:choose>
+                                                    <xsl:when test="@ana='#n_pl'"><span class="tei:gramGrp">[plural]</span></xsl:when>
+                                                    <xsl:when test="@ana='#v_pres_sg_p3'"><span class="tei:gramGrp">[present tense]</span></xsl:when>
+                                                </xsl:choose>
+                                                
+                                                <xsl:if test="tei:bibl"><span class="spBibl"><xsl:text>   </xsl:text>[<xsl:value-of select="tei:bibl"/>]</span></xsl:if>
+                                            </td>
+                                        </tr>
+                                    </xsl:for-each>
+                                    
+                                </td>
+                            </tr>
+                        </xsl:for-each>
+                        
+                        
+                        <xsl:for-each select="tei:form[@type='stem'] | tei:form[@type='inflected'] ">
+                            <tr>
+                                <td class="tdHead">
+                                    <xsl:if test="@type='stem'">Stem</xsl:if>
+                                    <xsl:if test="@type='inflected'">Infl.</xsl:if>
+                                </td>
+                                <td>
+                                    <xsl:if test="tei:orth[@xml:lang='ar-aeb-x-tunis-vicav']"><span class="trans"><xsl:value-of select="tei:orth[@xml:lang='ar-aeb-x-tunis-vicav']"/></span></xsl:if>  
+                                    <xsl:choose>
+                                        <xsl:when test="@ana='#n_pl'"><span class="tei:gramGrp">[plural]</span></xsl:when>
+                                        <xsl:when test="@ana='#n_f'"><span class="tei:gramGrp">[feminine]</span></xsl:when>
+                                        <xsl:when test="@ana='#adj_f'"><span class="tei:gramGrp">[feminine]</span></xsl:when>
+                                        <xsl:when test="@ana='#adj_pl'"><span class="tei:gramGrp">[plural]</span></xsl:when>
+                                        <xsl:when test="@ana='#v_pres_sg_p3'"><span class="tei:gramGrp">[present tense]</span></xsl:when>
+                                        <xsl:otherwise><span class="tei:gramGrp">[<xsl:value-of select="@ana"/>]</span></xsl:otherwise>
+                                    </xsl:choose>
+                                    <xsl:if test="tei:bibl"><span class="spBibl"><xsl:text>   </xsl:text>[<xsl:value-of select="tei:bibl"/>]</span></xsl:if>
+                                    
+                                    <xsl:for-each select="tei:form[@type='variant']">
+                                        <tr>
+                                            <td class="tdHead">   (var.)</td>
+                                            <td>
+                                                <xsl:if test="tei:orth[@xml:lang='ar-aeb-x-tunis-arabic']"><xsl:value-of select="tei:orth[@xml:lang='ar-aeb-x-tunis-arabic']"/></xsl:if> 
+                                                <xsl:if test="tei:orth[@xml:lang='ar-aeb-x-tunis-vicav']"><span class="trans"><xsl:value-of select="tei:orth[@xml:lang='ar-aeb-x-tunis-vicav']"/></span></xsl:if>
+                                                
+                                                <xsl:choose>
+                                                    <xsl:when test="@ana='#n_pl'"><span class="tei:gramGrp">[plural]</span></xsl:when>
+                                                    <xsl:when test="@ana='#adj_f'"><span class="tei:gramGrp">[feminine]</span></xsl:when>
+                                                    <xsl:when test="@ana='#adj_pl'"><span class="tei:gramGrp">[plural]</span></xsl:when>
+                                                    <xsl:when test="@ana='#v_pres_sg_p3'"><span class="tei:gramGrp">[present tense]</span></xsl:when>
+                                                </xsl:choose>
+                                            </td>
+                                        </tr>
+                                        
+                                    </xsl:for-each>
+                                    
+                                </td>
+                            </tr>
+                            
+                        </xsl:for-each>
+                        
+                        <xsl:if test="tei:gramGrp/tei:gram[@type='root']">
+                            <tr>
+                                <td class="tdHeadRoot">Root</td>
+                                <td><xsl:value-of select="tei:gramGrp/tei:gram[@type='root']"/></td>
+                            </tr>
+                        </xsl:if>
+                        
+                        <xsl:if test="//tei:etym">
+                            <tr>
+                                <td class="tdHeadRoot">Etym.</td>
+                                <td><xsl:apply-templates select="//tei:etym"/></td>
+                            </tr>
+                        </xsl:if>
+                        
+                        <xsl:for-each select="tei:sense">
+                            <tr>
+                                <td class="tdSenseHead">
+                                    <xsl:if test="tei:gramGrp/tei:gram"><xsl:value-of select="tei:gramGrp/tei:gram"/></xsl:if></td>
+                                
+                                <td class="tdSense">
+                                    <xsl:if test="tei:usg[@type='dom']"><b>Domain(s): </b><xsl:for-each select="tei:usg[@type='dom']"><xsl:if test="position()&gt;1">, </xsl:if><xsl:apply-templates/></xsl:for-each><br/> <br/></xsl:if>
+                                    <xsl:for-each select="tei:def">
+                                        <div class="dvDef">
+                                            <xsl:choose>
+                                                <xsl:when test="@xml:lang='de'"><span class="spDefGerm">(<xsl:value-of select="."/>)</span></xsl:when>
+                                                <xsl:otherwise><span class="spDef">(<xsl:value-of select="."/>)</span></xsl:otherwise>
+                                            </xsl:choose>
+                                            
+                                        </div>
+                                    </xsl:for-each>
+                                    
+                                    <xsl:for-each select="tei:cit[@type='translation']">
+                                        <div class="dvDef">
+                                            <xsl:choose>
+                                                <xsl:when test="@xml:lang='de'"><span class="spTransGerm"><xsl:value-of select="tei:quote"/><xsl:if test="tei:usg"> (<xsl:value-of select="tei:usg"/>)</xsl:if></span></xsl:when>
+                                                <xsl:otherwise><span class="spTrans"><xsl:value-of select="tei:quote"/><xsl:if test="tei:usg"> (<xsl:value-of select="tei:usg"/>)</xsl:if></span></xsl:otherwise>
+                                            </xsl:choose>
+                                            
+                                        </div>
+                                    </xsl:for-each>
+                                    
+                                    <xsl:for-each select="tei:cit[@type='example']">
+                                        <div class="dvExamples">
+                                            <xsl:choose>
+                                                <xsl:when test="@type='example'">
+                                                    <span class="spExample"><xsl:value-of select="tei:quote"/><i class="iTrans">  <xsl:value-of select="tei:cit/tei:quote"/></i></span></xsl:when>
+                                                
+                                                <xsl:when test="@type='multiWordUnit'"><span class="spMWU"><xsl:value-of select="tei:cit/tei:quote"/><i class="iTrans">  <xsl:value-of select="tei:cit/tei:quote"/></i></span></xsl:when>
+                                            </xsl:choose>
+                                        </div>
+                                    </xsl:for-each>
+                                    
+                                    <xsl:if test="tei:gramGrp/tei:gram[@type='arguments']">
+                                        <div class="dvArguments"><b>Arguments: </b>
+                                            <xsl:if test="contains(tei:gramGrp/tei:gram/@ana, '_bi')">bi</xsl:if><xsl:text> </xsl:text>
+                                            <xsl:if test="contains(tei:gramGrp/tei:gram/@ana, '_min')">min</xsl:if><xsl:text> </xsl:text>
+                                            <xsl:if test="contains(tei:gramGrp/tei:gram/@ana, '_li')">li</xsl:if><xsl:text> </xsl:text>
+                                            <xsl:if test="contains(tei:gramGrp/tei:gram/@ana, '_fi')">fi</xsl:if><xsl:text> </xsl:text>
+                                            <xsl:if test="contains(tei:gramGrp/tei:gram/@ana, '_cala')">ʕala</xsl:if><xsl:text> </xsl:text>
+                                        </div>
+                                    </xsl:if>
+                                </td>
+                            </tr>
+                        </xsl:for-each>
+                        
+                    </table>
+                </xsl:for-each>
+                
+                <br/>
+                <xsl:if test="//tei:fs[@type='create']">
+                    <div><b>Creator: </b> <xsl:value-of select="//tei:fs[@type='create']/tei:f[@name='who']/tei:symbol/@value"/> (<xsl:value-of select="//tei:fs[@type='create']/tei:f[@name='when']/tei:symbol/@value"/>)</div>
+                </xsl:if>
+                
+                <xsl:if test="//tei:fs[@type='change']">
+                    <xsl:for-each select="//tei:fs[@type='change']">
+                        <div><xsl:text>   </xsl:text><b>Editor: </b> <xsl:value-of select="tei:f[@name='who']/tei:symbol/@value"/> (<xsl:value-of select="tei:f[@name='when']/tei:symbol/@value"/>)</div>
+                    </xsl:for-each>
+                </xsl:if>
+            </body>
+        </html>
+    </xsl:template>
+    
+    <xsl:template match="tei:etym"><i><xsl:apply-templates/></i> &lt; <xsl:value-of select="tei:mentioned"/><i> (<xsl:value-of select="tei:lang"/>)</i></xsl:template>
+    <xsl:template match="tei:lang"/>
+    <xsl:template match="tei:mentioned"/>
+</xsl:stylesheet>
+</entryStyle>
+<lemmaXPath>//form[@type="lemma"]/orth[@xml:lang="ar-aeb-x-tunis-vicav"] | //form[@type="multiWordUnit"]/orth[@xml:lang="ar-aeb-x-karm"] | //cit[@type="example"]/quote</lemmaXPath>
+<mainLangLabel>ar-aeb-x-tunis-vicav</mainLangLabel>
+<queryTemplates>
+<queryTemplate label="ft_all">
+   declare namespace tei = 'http://www.tei-c.org/ns/1.0';
+   collection('{dict}')//tei:entry/.//node()[text() contains text "{{subQuery}}" using wildcards] | 
+   collection('{dict}')//tei:cit[@type='example']/tei:quote[text() contains text "{{subQuery}}" using wildcards]
+</queryTemplate>
+                                                     
+<queryTemplate label="ft_lem">
+   declare namespace tei = 'http://www.tei-c.org/ns/1.0';
+   collection('{dict}')//tei:entry/tei:form[@type='lemma']/tei:orth[text() contains text "{{subQuery}}" using wildcards] |
+   collection('{dict}')//tei:entry/tei:form[@type='multiWordUnit']/tei:orth[text() contains text "{{subQuery}}" using wildcards]
+</queryTemplate>
+
+<queryTemplate label="lem">
+   declare namespace tei = 'http://www.tei-c.org/ns/1.0';
+   collection('{dict}')//tei:entry/tei:form[@type='lemma']/tei:orth[{subQuery}] |
+   collection('{dict}')//tei:entry/tei:form[@type='multiWordUnit']/tei:orth[{subQuery}]
+</queryTemplate>
+
+<queryTemplate label="ft_pos">
+   declare namespace tei = 'http://www.tei-c.org/ns/1.0';
+   collection('{dict}')//tei:entry[tei:gramGrp/tei:gram[@type='pos'][{subQuery}]]
+</queryTemplate>
+
+<queryTemplate label="ft_tr">
+   declare namespace tei = 'http://www.tei-c.org/ns/1.0';
+   collection('{dict}')//tei:entry/tei:sense/tei:cit/tei:quote[text() contains text "{{subQuery}}" using wildcards]
+</queryTemplate>
+
+<queryTemplate label="ft_ex">
+   declare namespace tei = 'http://www.tei-c.org/ns/1.0';
+   collection('{dict}')//tei:cit[@type='example']/tei:quote[text() contains text "{{subQuery}}" using wildcards] |
+   collection('{dict}')//tei:cit[@type='example']/tei:cit/tei:quote[text() contains text "{{subQuery}}" using wildcards]  
+</queryTemplate>
+
+<queryTemplate label="sid">
+   declare namespace tei = 'http://www.tei-c.org/ns/1.0';
+   collection('{dict}')//tei:entry[@xml:id={noSubstQuery}] | collection('{dict}')//tei:cit[@xml:id={noSubstQuery}] 
+</queryTemplate>
+
+
+
+</queryTemplates>
+<tableName label="dc_tunico">dc_tunico</tableName>
+</profile>
