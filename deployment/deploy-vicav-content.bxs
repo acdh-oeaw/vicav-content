@@ -11,7 +11,7 @@
     <create-db name="dc_tunico">../vicav-content/vicav_dicts/dc_tunico.xml</create-db>
     <set option="BINDINGS">colls=dc_tunico</set>
     <run file="webapp/vicav-app/create_autocomplete_index.xq"/>
-    <create-db name="dc_acm_baghdad_eng_publ__prof">../vicav-content/vicav_dicts/dc_acm_baghdad_eng_publ.xml</create-db>
+    <create-db name="dc_acm_baghdad_eng_publ__prof">../vicav-content/vicav_dicts/dc_acm_baghdad_eng_publ__prof.xml</create-db>
     <create-db name="dc_acm_baghdad_eng_publ">../vicav-content/vicav_dicts/dc_acm_baghdad_eng_001.xml</create-db>
     <set option="BINDINGS">colls=dc_acm_baghdad_eng_publ</set>
     <run file="webapp/vicav-app/create_autocomplete_index.xq"/>
