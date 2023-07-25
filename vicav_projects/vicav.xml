@@ -5,7 +5,7 @@
     <icon>/marker-icon.png</icon>
 	<map>
 		<zoom>4</zoom>
-		<center><lat>24.544</lat><lng>19.064</lng></center>
+		<center><lat>19.064</lat><lng>24.544</lng></center>
 	</map>
 	<frontpage method="geo">
 		<param>.*</param>
