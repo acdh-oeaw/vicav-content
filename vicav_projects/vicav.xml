@@ -2,6 +2,11 @@
 <projectConfig xml:space="preserve" id="vicav_config_vicav">
 	<title>VICAV3.0 - Vienna Corpus of Arabic Varieties</title>
 	<logo><img src="images/vicav_logo.svg"/></logo>
+    <icon>/marker-icon.png</icon>
+	<map>
+		<zoom>4</zoom>
+		<center><lat>24.544</lat><lng>19.064</lng></center>
+	</map>
 	<frontpage method="geo">
 		<param>.*</param>
 		<param>geo</param>
@@ -104,4 +109,11 @@
 			<item xml:id="subNavVicavDictMarkers">VICAV Dictionaries</item>
 		</subnav>
 	</menu>
+	<styleSettings>
+		<colors>
+			<nav>#252771</nav>
+			<subNav>#a85d8f</subNav>
+		</colors>
+	</styleSettings>
+    <style/>
 </projectConfig>
