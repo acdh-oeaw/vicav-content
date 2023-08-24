@@ -20,7 +20,12 @@
             <p>This is an original digital text</p>
          </sourceDesc>
       </fileDesc>
-   </teiHeader>
+   <revisionDesc>
+  <change n="2022-06-20-3-gf63490c" who="GitHub" when="2022-06-23">
+add notebook evaluation of the library
+   </change>
+</revisionDesc>
+</teiHeader>
 
    <TEI xml:id="cukurova_001">
       <teiHeader>
@@ -46,7 +51,12 @@
                   Tarsus. </p>
             </particDesc>
          </profileDesc>
-      </teiHeader>
+      <revisionDesc>
+  <change n="2022-06-20-3-gf63490c" who="GitHub" when="2022-06-23">
+add notebook evaluation of the library
+   </change>
+</revisionDesc>
+</teiHeader>
 
       <text>
          <body>
@@ -10346,7 +10356,12 @@
                <p>This text was recorded in Morocoo. </p>
             </particDesc>
          </profileDesc>
-      </teiHeader>
+      <revisionDesc>
+  <change n="2022-06-20-3-gf63490c" who="GitHub" when="2022-06-23">
+add notebook evaluation of the library
+   </change>
+</revisionDesc>
+</teiHeader>
 
       <text>
          <body>

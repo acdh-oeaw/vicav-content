@@ -26,7 +26,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <revisionDesc>
          <change when="2021-02-18" who="#ds">updated institute's names and addresses.</change>
       </revisionDesc>
-   </teiHeader>
+   <revisionDesc>
+  <change n="2022-06-20-3-gf63490c" who="GitHub" when="2022-06-23">
+add notebook evaluation of the library
+   </change>
+</revisionDesc>
+</teiHeader>
    <text>
       <body>
          <div xml:id="vicavMission">

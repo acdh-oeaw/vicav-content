@@ -39,7 +39,12 @@
          <change status="draft" when="2020-09-24T09:37:55.388+02:00">transformed to TEI-XML</change>
          <change when="2020-09-24T09:37:56.395+02:00" status="draft"/>
       </revisionDesc>
-   </teiHeader>
+   <revisionDesc>
+  <change n="2022-06-20-3-gf63490c" who="GitHub" when="2022-06-23">
+add notebook evaluation of the library
+   </change>
+</revisionDesc>
+</teiHeader>
    <text>
       <body>
          <div>

@@ -26,7 +26,35 @@
             <prefixDef matchPattern="(.+)" replacementPattern="../vocabs/fLib.xml#$1" ident="fvlib"/>
          </listPrefixDef>
       </encodingDesc>
-   </teiHeader>
+      <profileDesc>
+         <taxonomy>
+            <category xml:id="featurelist">
+               <catDesc>linguistic feature list</catDesc>
+            </category>
+         </taxonomy>
+         <particDesc>
+            <person sex="" age="">Ahwaz1</person>
+         </particDesc>
+         <settingDesc>
+            <place>
+               <settlement>
+                  <name xml:lang="en">Ahwaz</name>
+                  <name xml:lang="aeb">Ahwaz</name>
+               </settlement>
+               <region>Ahwaz</region>
+               <country>Iran</country>
+               <location>
+                  <geo>331.31, 48.68</geo>
+               </location>
+            </place>
+         </settingDesc>
+      </profileDesc>
+   <revisionDesc>
+  <change n="2022-06-20-3-gf63490c" who="GitHub" when="2022-06-23">
+add notebook evaluation of the library
+   </change>
+</revisionDesc>
+</teiHeader>
    <text>
       <body>
          <head>

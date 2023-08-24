@@ -12,12 +12,17 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-   </teiHeader>
+   <revisionDesc>
+  <change n="2022-06-20-3-gf63490c" who="GitHub" when="2022-06-23">
+add notebook evaluation of the library
+   </change>
+</revisionDesc>
+</teiHeader>
 
    <text>
       <body>
          <div xml:id="vicavLearning_tb_baghdad">
-            <head>VIVAC Learning Materials: <hi rend="italic">Lehrbuch des Irakisch-Arabischen (Sound files)</hi> </head>
+            <head>VICAV Learning Materials: <hi rend="italic">Lehrbuch des Irakisch-Arabischen (Sound files)</hi> </head>
 
             <p>Bettina Leitner, Fady German, Stephan Procházka. Harrassowitz 2021.</p>
             <p>Alle Rechte für die den Aufnahmen zugrunde liegenden Texte liegen beim Otto Harrassowitz Verlag, Wiesbaden.

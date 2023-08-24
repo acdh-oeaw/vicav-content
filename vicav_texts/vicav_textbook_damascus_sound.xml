@@ -12,12 +12,17 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-   </teiHeader>
+   <revisionDesc>
+  <change n="2022-06-20-3-gf63490c" who="GitHub" when="2022-06-23">
+add notebook evaluation of the library
+   </change>
+</revisionDesc>
+</teiHeader>
 
    <text>
       <body>
          <div xml:id="vicavLearning_tb_damascus">
-            <head>VIVAC Learning Materials: <hi rend="italic">Textbook Syrian Arabic (Sound files)</hi>
+            <head>VICAV Learning Materials: <hi rend="italic">Textbook Syrian Arabic (Sound files)</hi>
             </head>
             <p>Rima Aldoukhi, Stephan Procházka, Anna Telic.
                Unter Mitarbeit von Narine Grigoryan
