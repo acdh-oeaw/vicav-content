@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICAV Paratexts ODD</title>
+            <author>
+               <name ref="https://orcid.org/0000-0002-6466-7651">Charly Mörth</name>
+            </author>
+            <author>
+               <name ref="https://orcid.org/0000-0003-2436-0361">Daniel Schopper</name>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://ror.org/028bsh698">Austrian Centre for Digital Humanities and
+                  Cultural Heritage</name>
+            </publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies
+                     to this document.</p>
+               </licence>
+            </availability>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This is a born digital document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Vienna Corpus of Arabic Varieties (VICAV) is an international endeavour aiming at the
+               collection of digital language resources documenting varieties of spoken Arabic.
+               While in principle being open to any type of text, we currently focus on
+               bibliographical data, on so-called language profiles, standardised feature lists and
+               lexical data.</p>
+            <p>VICAV has a strong methodological component focusing on the development of digital
+               data and tools. A large part of these efforts is concentrated on modelling data and
+               providing documentation for developmental and pedagogical purposes. VICAV is strongly
+               committed to the Text Encoding Initiative (TEI). We provide a detailed documentation
+               of our lexical data.</p>
+            <p>VICAV has been started as a co-operation between the Department of Near Eastern
+               Studies of the University of Vienna and the Austrian Centre for Digital Humanities
+               and Cultural Heritage of the Austrian Academy of Sciences (ACDH-CH). The
+               institutional frame of the project is defined by a repository for digital research
+               data, a University and a national Academy, all of which is meant to ensure long-term
+               availability of both data and the web-interface.</p>
+         </projectDesc>
+         <listPrefixDef>
+            <prefixDef ident="contr" matchPattern="^(.+)$"
+               replacementPattern="../../vicav_texts/vicav_contributors.xml#$1">
+               <p>In the context of the VICAV project, references using the "contr" prefix point to
+                  any element in the contributors document via its ID.</p>
+            </prefixDef>
+
+         </listPrefixDef>
+         <appInfo>
+            <application ident="RomaJS" version="1.0.0" when="2023-09-21T12:48:43.903Z">
+               <desc>File edited with <ref target="https://github.com/TEIC/romajs"
+                  >RomaJS</ref></desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2023-09-21" who="corpusmd:DS">initial setup of paratexts ODD</change>
+      </revisionDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <schemaSpec ident="vicav_paratexts" start="TEI" prefix="tei_" targetLang="en" docLang="en">
+            <!-- required minimal header elements -->
+            <moduleRef key="header"
+               include="availability change encodingDesc fileDesc funder licence listPrefixDef prefixDef principal projectDesc publicationStmt revisionDesc sourceDesc teiHeader titleStmt"/>
+            <!-- required core elements (p and title for use in titleStmt) -->
+            <moduleRef key="core" include="date p name title author publisher principal head ref"/>
+            <!-- required textstructure elements (TEI, text, and body) -->
+            <moduleRef key="textstructure" include="TEI text body div"/>
+            <!-- required module tei instantiates lots of classes used for further expansion of this odd -->
+            <moduleRef key="tei"/>
+            <elementSpec ident="div" mode="change" module="textstructure">
+               <attList>
+                  <attDef ident="type" mode="change">
+                     <valList>
+                        <valItem ident="newsItem">
+                           <desc>News Item: One item in a news section containing a heading with a
+                              date + 1-n paragraphs</desc>
+                        </valItem>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+         </schemaSpec>
+      </body>
+   </text>
+
+</TEI>
