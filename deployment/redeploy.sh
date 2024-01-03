@@ -139,23 +139,24 @@ git -c advice.detachedHead=false checkout ${dataversion}
 who=$(git show -s --format='%cN')
 when=$(git show -s --format='%as')
 message=$(git show -s --format='%B')
-revisionDesc=$(sed ':a;N;$!ba;s/\n/\\n/g' <<EOF
-<revisionDesc>
+sourcebaseuri=$(git remote get-url origin)/tree/$(git rev-parse HEAD)/
+#------- copy all images into the "images" directory in the web application directory
+echo "copying image files from vicav_content to vicav-webapp"
+for d in $(ls -d vicav_*)
+do echo "Directory $d:"
+   find "$d" -type f -and \( -name '*.jpg' -or -name '*.JPG' -or -name '*.png' -or -name '*.PNG' -or -name '*.svg' \) -exec cp -v {} ${BUILD_DIR:-../webapp/vicav-app}/images \;
+   for filename in $(find "$d" -type f -and -name '*.xml')
+   do
+      revisionDesc=$(sed ':a;N;$!ba;s/\n/\\n/g' <<EOF
+<revisionDesc corresp="$sourcebaseuri$filename">
   <change n="$dataversion" who="$who" when="$when">
 $message
    </change>
 </revisionDesc>
 EOF
 )
-#------- copy all images into the "images" directory in the web application directory
-echo "copying image files from vicav_content to vicav-webapp"
-for d in $(ls -d vicav_*)
-do echo "Directory $d:"
-   find "$d" -type f -and \( -name '*.jpg' -or -name '*.JPG' -or -name '*.png' -or -name '*.PNG' -or -name '*.svg' \) -exec cp -v {} ${BUILD_DIR:-../webapp/vicav-app}/images \;
-   if [ "$onlytags"x = 'truex' ]
-   then
-     find "$d" -type f -and -name '*.xml' -exec sed -i "s~\(</teiHeader>\)~$revisionDesc\\n\1~g" {} \;
-   fi
+     sed -i "s~\(</teiHeader>\)~$revisionDesc\\n\1~g" $filename
+   done
 done
 #------- copy all sound files into the "/sounds" directory in BaseX' static directory
 #------- this solves problems with MacOS Safari which wants the audio files in chunks
