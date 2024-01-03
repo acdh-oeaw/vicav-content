@@ -180,6 +180,9 @@ popd
 sed -i "s~webapp/vicav-app/~${BUILD_DIR:-webapp/vicav-app}/~g" deploy-vicav-content.bxs
 ./execute-basex-batch.sh deploy-vicav-content
 pushd vicav-content
+rm -rf *
+echo To reduce the container size built with this data, delete the content of the content repository. | tee README.txt
+echo To get the data again use \'git reset --hard\' | tee -a README.txt
 popd
 
 #-------------------------------------
