@@ -28,17 +28,7 @@
                 <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
             </tagsDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change status="created" when="2021-03-06" who="#gunda">created</change>
-            <change status="draft" when="2021-03-06" who="#">last modified (revision 4)</change>
-            <change status="draft" when="2021-03-06">transformed to TEI-XML</change>
-            <change who="#charly" when="2021-03-06" status="released"/>
-        </revisionDesc>
-    <revisionDesc>
-  <change n="2022-06-20-3-gf63490c" who="GitHub" when="2022-06-23">
-add notebook evaluation of the library
-   </change>
-</revisionDesc>
+        
 </teiHeader>
     <text>
         <body>

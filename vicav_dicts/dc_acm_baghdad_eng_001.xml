@@ -19,42 +19,7 @@
       <p/>
     </sourceDesc>
   </fileDesc>
-  <revisionDesc>
-<change when="2018-09-11">
-   <measure type="records" quantity="48"/>
-   <measure type="entries" quantity="10"/>
-   <measure type="entryFrees" quantity="0"/>
-   <measure type="lemmas" quantity="10"/>
-   <measure type="releasedLemmas" quantity="0"/>
-   <measure type="mwus" quantity="0"/>
-   <measure type="cits" quantity="38"/>
-   <measure type="releasedCits" quantity="0"/>
-   <measure type="released" quantity="0"/>
-</change>
-<change when="2018-10-03" who="#charly">Inserted 3729 entries from 
-   Damascus dictionary. The lemma string has been prefixed with 
-   [DAMASCUS].</change>
-<change when="2020-12-19">
-  <list>
-    <measure type="records" quantity="4205"/>
-    <measure type="entries" quantity="4109"/>
-    <measure type="entryFrees" quantity="0"/>
-    <measure type="lemmas" quantity="3787"/>
-    <measure type="releasedLemmas" quantity="1112"/>
-    <measure type="mwus" quantity="314"/>
-    <measure type="cits" quantity="96"/>
-    <measure type="releasedCits" quantity="45"/>
-    <measure type="released" quantity="1157"/>
-  </list>
-</change>
-   
-  </revisionDesc>
-
-<revisionDesc>
-  <change n="2022-06-20-3-gf63490c" who="GitHub" when="2022-06-23">
-add notebook evaluation of the library
-   </change>
-</revisionDesc>
+  
 </teiHeader>
 
 <text><body>

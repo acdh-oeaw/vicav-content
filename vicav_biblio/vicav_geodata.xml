@@ -38,12 +38,6 @@
          </listPrefixDef>
       </encodingDesc>
 
-      <revisionDesc>
-         <change when="2022-07-03" who="dmp:CM">added listPrefixDef</change>
-         <change when="2022-07-03" who="dmp:CM">geoDecl to encodingDesc</change>
-         <change when="2022-07-03" who="dmp:CM">added @decls to geo eleemnts</change>
-         <change when="2022-07-03" who="dmp:CM">added geo[@decls='#dd'] with DMS data and converted to decimal format</change>
-      </revisionDesc>
    </teiHeader>
 
    <text>
