@@ -147,14 +147,19 @@ do echo "Directory $d:"
    find "$d" -type f -and \( -name '*.jpg' -or -name '*.JPG' -or -name '*.png' -or -name '*.PNG' -or -name '*.svg' \) -exec cp -v {} ${BUILD_DIR:-../webapp/vicav-app}/images \;
    for filename in $(find "$d" -type f -and -name '*.xml')
    do
+      publicationIdno=$(sed ':a;N;$!ba;s/\n/\\n/g' <<EOF
+<idno>$sourcebaseuri$filename</idno>
+EOF
+)
       revisionDesc=$(sed ':a;N;$!ba;s/\n/\\n/g' <<EOF
-<revisionDesc corresp="$sourcebaseuri$filename">
+<revisionDesc>
   <change n="$dataversion" who="$who" when="$when">
 $message
    </change>
 </revisionDesc>
 EOF
 )
+     sed -i "s~\(</publicationStmt>\)~$publicationIdno\\n\1~g" $filename
      sed -i "s~\(</teiHeader>\)~$revisionDesc\\n\1~g" $filename
    done
 done
