@@ -184,7 +184,9 @@ pushd ${BUILD_DIR:-webapp/vicav-app}
 find ./ -type f -and \( -name '*.js' -or -name '*.html' \) -not \( -path './node_modules/*' -or -path './cypress/*' \) -exec sed -i "s~\@data-version@~$dataversion~g" {} \;
 popd
 sed -i "s~webapp/vicav-app/~${BUILD_DIR:-webapp/vicav-app}/~g" deploy-vicav-content.bxs
-./execute-basex-batch.sh deploy-vicav-content
+./execute-basex-batch.sh deploy-vicav-content $1
+sed -i "s~../webapp/vicav-app/~${BUILD_DIR:-../webapp/vicav-app}/~g" refresh-project-config.xqtl
+./execute-basex-batch.sh refresh-project-config.xqtl $1 >/dev/null
 pushd vicav-content
 rm -rf *
 echo To reduce the container size built with this data, delete the content of the content repository. | tee README.txt
