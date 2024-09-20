@@ -144,7 +144,7 @@ sourcebaseuri=$(git remote get-url origin)/tree/$(git rev-parse HEAD)/
 echo "copying image files from vicav_content to vicav-webapp"
 for d in $(ls -d vicav_*)
 do echo "Directory $d:"
-   find "$d" -type f -and \( -name '*.jpg' -or -name '*.JPG' -or -name '*.png' -or -name '*.PNG' -or -name '*.svg' \) -exec cp -v {} ${BUILD_DIR:-../webapp/vicav-app}/images \;
+   find "$d" -type f -and \( -name '*.jpg' -or -name '*.JPG' -or -name '*.png' -or -name '*.PNG' -or -name '*.svg' \) -exec mv -v {} ${BUILD_DIR:-../webapp/vicav-app}/images \;
    for filename in $(find "$d" -type f -and -name '*.xml')
    do
       publicationIdno=$(sed ':a;N;$!ba;s/\n/\\n/g' <<EOF
@@ -170,28 +170,36 @@ echo "copying sound files from vicav_content to BaseX static/sound"
 mkdir -p ${BUILD_DIR:-../webapp}/static/sound
 for d in $(ls -d vicav_*)
 do echo "Directory $d:"
-   find "$d" -type f -and \( -name '*.m4a' \) -exec cp -v {} ${BUILD_DIR:-../webapp}/static/sound \;
+   find "$d" -type f -and \( -name '*.m4a' \) -exec mv -v {} ${BUILD_DIR:-../webapp}/static/sound \;
 done
 #------- copy the apkg file into the "/anki" directory in BaseX' static directory
 echo "copying anki files from vicav_content to BaseX static/anki"
 mkdir -p ${BUILD_DIR:-../webapp}/static/anki
 for d in $(ls -d vicav_*)
 do echo "Directory $d:"
-   find "$d" -type f -and \( -name '*.apkg' \) -exec cp -v {} ${BUILD_DIR:-../webapp}/static/anki \;
+   find "$d" -type f -and \( -name '*.apkg' \) -exec mv -v {} ${BUILD_DIR:-../webapp}/static/anki \;
 done
+if [ "$CI"x == "truex" ]; then echo "CI: removing .git"; rm -rf .git; fi
+versionInfo=$(sed ':a;N;$!ba;s/\n/\\n/g' <<EOF
+  <version>
+    <backend>$uiversion</backend>
+    <data>$dataversion</data>
+  </version>
+EOF
+)
+sed -i "s~\(</projectConfig>\)~$versionInfo\\n\1~g" vicav_projects/vicav.xml
 popd
 pushd ${BUILD_DIR:-webapp/vicav-app}
 find ./ -type f -and \( -name '*.js' -or -name '*.html' \) -not \( -path './node_modules/*' -or -path './cypress/*' \) -exec sed -i "s~\@data-version@~$dataversion~g" {} \;
+if [ "$CI"x == "truex" ]; then echo "CI: removing .git"; rm -rf .git; fi 
 popd
 sed -i "s~webapp/vicav-app/~${BUILD_DIR:-webapp/vicav-app}/~g" deploy-vicav-content.bxs
 ./execute-basex-batch.sh deploy-vicav-content $1
 sed -i "s~../webapp/vicav-app/~${BUILD_DIR:-../webapp/vicav-app}/~g" refresh-project-config.xqtl
 ./execute-basex-batch.sh refresh-project-config.xqtl $1 >/dev/null
 pushd vicav-content
-rm -rf *
-echo To reduce the container size built with this data, delete the content of the content repository. | tee README.txt
-echo To get the data again use \'git reset --hard\' | tee -a README.txt
 popd
+if [ "$CI"x == "truex" ]; then echo "CI: removing content repo"; rm -rf vicav-content; fi 
 
 #-------------------------------------
 if [ "$fromcuration"x = 'truex' ]
