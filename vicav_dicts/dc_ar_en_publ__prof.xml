@@ -652,4 +652,5 @@ Example (Eng): cit[@type="example"]/cit[@type="translation"][@xml:lang="en"]/quo
                                                      
 </queryTemplates>
 <tableName label="dc_ar_en_publ">dc_ar_en_publ</tableName>
+<specialCharacters><char><value>ˀ</value></char><char><value>ˁ</value></char><char><value>ā</value></char><char><value>ḍ</value></char><char><value>ḏ</value></char><char><value>ē</value></char><char><value>ġ</value></char><char><value>ǧ</value></char><char><value>ḥ</value></char><char><value>ī</value></char><char><value>ḷ</value></char><char><value>ṣ</value></char><char><value>s̠</value></char><char><value>š</value></char><char><value>ṭ</value></char><char><value>ṯ</value></char><char><value>ū</value></char><char><value>ẓ</value></char><char><value>ʔ</value></char></specialCharacters>
 </profile>

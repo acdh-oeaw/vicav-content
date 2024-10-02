@@ -618,4 +618,5 @@ Example (Fr):         cit[@type="example"]/cit[@type="translation"][@xml:lang="f
                                                     
 </queryTemplates>
 <tableName label="dc_arz_eng_publ">dc_arz_eng_publ</tableName>
+<specialCharacters><char><value>’</value></char><char><value>ʔ</value></char><char><value>ā</value></char><char><value>ḅ</value></char><char><value>ʕ</value></char><char><value>ḏ</value></char><char><value>ḏ</value></char><char><value>ē</value></char><char><value>ġ</value></char><char><value>ǧ</value></char><char><value>ḥ</value></char><char><value>ī</value></char><char><value>ᴵ</value></char><char><value>ḷ</value></char><char><value>ṃ</value></char><char><value>ō</value></char><char><value>ṛ</value></char><char><value>ṣ</value></char><char><value>s̠</value></char><char><value>š</value></char><char><value>ṭ</value></char><char><value>ṯ</value></char><char><value>ū</value></char><char><value>ẓ</value></char><char><value>ž</value></char></specialCharacters>
 </profile>

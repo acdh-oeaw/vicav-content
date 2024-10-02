@@ -526,4 +526,5 @@ Example (Fr):      cit[@type="example"]/cit[@type="translation"][@xml:lang="fr"]
 </queryTemplates>
 <sortedDisplay>true</sortedDisplay>
 <tableName label="dc_acm_baghdad_eng_publ">dc_acm_baghdad_eng_publ</tableName>
+<specialCharacters><char><value>ʔ</value></char><char><value>ʕ</value></char><char><value>ā</value></char><char><value>b</value></char><char><value>č</value></char><char><value>d</value></char><char><value>ḍ</value></char><char><value>ḓ</value></char><char><value>ḏ</value></char><char><value>e</value></char><char><value>ē</value></char><char><value>ǝ</value></char><char><value>ġ</value></char><char><value>ǧ</value></char><char><value>ḥ</value></char><char><value>ī</value></char><char><value>ḷ</value></char><char><value>ṃ</value></char><char><value>ō</value></char><char><value>ṛ</value></char><char><value>š</value></char><char><value>ṣ</value></char><char><value>ṭ</value></char><char><value>ṯ</value></char><char><value>ū</value></char><char><value>ẓ</value></char></specialCharacters>
 </profile>
