@@ -462,67 +462,82 @@ Example (Fr):      cit[@type="example"]/cit[@type="translation"][@xml:lang="fr"]
 <lemmaXPath>//tei:form[@type="lemma"]/tei:orth[@xml:lang="ar-acm-x-baghdad-vicav"] | //tei:form[@type="multiWordUnit"]/tei:orth[@xml:lang="ar-acm-x-baghdad-vicav"] | //tei:cit[@type="example"]/tei:quote[@xml:lang="ar-acm-x-baghdad-vicav"]</lemmaXPath>
 <mainLangLabel>ar-acm-x-baghdad-vicav</mainLangLabel>
 <queryTemplates>
-
-<queryTemplate label="ft_all">
+<!-- for public dictionaries it is assumed that there are no unreleased entries! -->
+<!-- for subQuery .*x, x.* and .*x.* are replaced with ends-with(., x), starts-with(., x) and contains(., x) -->
+<queryTemplate label="fuzzy">
    declare namespace tei = 'http://www.tei-c.org/ns/1.0';
    declare variable $__db__ external;
-   collection($__db__)//tei:entry/.//node()[text() contains text "{subQuery}" using wildcards] | 
-   collection($__db__)//tei:cit[@type='example']/tei:quote[text() contains text "{subQuery}" using wildcards]
+   collection($__db__)//tei:entry/.//node()[text() contains text "{noSubstQuery}" using wildcards using diacritics insensitive using case insensitive] | 
+   collection($__db__)//tei:cit[@type='example']/.//node()[text() contains text "{noSubstQuery}" using wildcards using diacritics insensitive using case insensitive]
 </queryTemplate>
 
-<queryTemplate label="ft_all_complete" type="complete">
+<queryTemplate label="anywhere">
    declare namespace tei = 'http://www.tei-c.org/ns/1.0';
    declare variable $__db__ external;
-   collection($__db__)//tei:entry/.//node()[text() contains text "{subQuery}" using wildcards] | 
-   collection($__db__)//tei:cit[@type='example']/tei:quote[text() contains text "{subQuery}" using wildcards]
+   collection($__db__)//tei:entry/.//node()[text() contains text "{noSubstQuery}" using wildcards using diacritics sensitive using case sensitive] | 
+   collection($__db__)//tei:cit[@type='example']/.//node()[text() contains text "{noSubstQuery}" using wildcards using diacritics sensitive using case sensitive]
 </queryTemplate>
 
-<queryTemplate label="ft_all_released">
+<queryTemplate label="lemma">
    declare namespace tei = 'http://www.tei-c.org/ns/1.0';
    declare variable $__db__ external;
-   collection($__db__)//tei:entry[tei:fs/tei:f/tei:symbol/@value='released'][tei:form/tei:orth contains text "{subQuery}" using wildcards]
+   collection($__db__)//tei:entry/tei:form[@type='lemma']/tei:orth[text() contains text "{noSubstQuery}" using wildcards using diacritics sensitive using case sensitive] |
+   collection($__db__)//tei:entry/tei:form[@type='multiWordUnit']/tei:orth[text() contains text "{noSubstQuery}" using wildcards using diacritics sensitive using case sensitive]
 </queryTemplate>
 
-<queryTemplate label="ft_lem">
+<queryTemplate label="example">
    declare namespace tei = 'http://www.tei-c.org/ns/1.0';
    declare variable $__db__ external;
-   collection($__db__)//tei:entry/tei:form[@type='lemma']/tei:orth[text() contains text "{subQuery}" using wildcards] |
-   collection($__db__)//tei:entry/tei:form[@type='multiWordUnit']/tei:orth[text() contains text "{subQuery}" using wildcards]
+   collection($__db__)//tei:cit[@type='example']/tei:quote[text() contains text "{noSubstQuery}" using wildcards using diacritics sensitive using case sensitive using language "en" using stemming] |
+   collection($__db__)//tei:cit[@type='example']/tei:cit/tei:quote[text() contains text "{noSubstQuery}" using wildcards using diacritics sensitive using case sensitive using language "en" using stemming]  
 </queryTemplate>
 
-<queryTemplate label="ft_sid">
+<queryTemplate label="sense">
    declare namespace tei = 'http://www.tei-c.org/ns/1.0';
    declare variable $__db__ external;
-   collection($__db__)//tei:entry[contains(@xml:id,{noSubstQuery})] | 
-   collection($__db__)//tei:teiHeader[contains(@xml:id,{noSubstQuery})] | 
-   collection($__db__)//tei:cit[contains(@xml:id,{noSubstQuery})] 
+   collection($__db__)//tei:entry/tei:sense/tei:cit/tei:quote[text() contains text "{noSubstQuery}" using wildcards using diacritics sensitive using case sensitive using language "en" using stemming]
 </queryTemplate>
 
-<queryTemplate label="ft_pos">
+<queryTemplate label="note">
+   declare namespace tei = 'http://www.tei-c.org/ns/1.0';
+   declare variable $__db__ external;
+   collection($__db__)//tei:entry/tei:note[text() contains text "{noSubstQuery}" using wildcards using diacritics sensitive using case sensitive using language "en" using stemming]
+</queryTemplate>
+
+<queryTemplate label="sid">
+   declare namespace tei = 'http://www.tei-c.org/ns/1.0';
+   declare variable $__db__ external;
+   collection($__db__)//tei:entry/@xml:id[{subQuery}]/.. | 
+   collection($__db__)//tei:teiHeader/@xml:id[{subQuery}]/.. | 
+   collection($__db__)//tei:cit/@xml:id[{subQuery}]/.. 
+</queryTemplate>
+
+<queryTemplate label="pos">
    declare namespace tei = 'http://www.tei-c.org/ns/1.0';
    declare variable $__db__ external;
    collection($__db__)//tei:entry[tei:gramGrp/tei:gram[@type='pos'][{subQuery}]]
 </queryTemplate>
 
-<queryTemplate label="ft_tr">
+<!-- Example: pos=noun, root=ktb -->
+<queryTemplate label="root">
    declare namespace tei = 'http://www.tei-c.org/ns/1.0';
    declare variable $__db__ external;
-   collection($__db__)//tei:entry/tei:sense/tei:cit/tei:quote[text() contains text "{subQuery}" using wildcards]
+   collection($__db__)//tei:entry[tei:gramGrp[tei:gram[@type='root'][{subQuery}]]]
 </queryTemplate>
 
-<queryTemplate label="ft_ex">
+<queryTemplate label="subc">
    declare namespace tei = 'http://www.tei-c.org/ns/1.0';
    declare variable $__db__ external;
-   collection($__db__)//tei:cit[@type='example']/tei:quote[text() contains text "{subQuery}" using wildcards] |
-   collection($__db__)//tei:cit[@type='example']/tei:cit/tei:quote[text() contains text "{subQuery}" using wildcards]  
+   collection($__db__)//tei:entry[tei:gramGrp/tei:gram[@type='subc'][{subQuery}]]
 </queryTemplate>
 
-<queryTemplate label="header">
+<!-- To find punctuation marks: ;,-->
+<queryTemplate label="sense phrase">
    declare namespace tei = 'http://www.tei-c.org/ns/1.0';
    declare variable $__db__ external;
-   collection($__db__)//tei:teiHeader
-</queryTemplate>                                                         
-                                                     
+   collection($__db__)//tei:entry/tei:sense/tei:cit/tei:quote[contains(., {subQuery})]
+</queryTemplate>
+
 </queryTemplates>
 <sortedDisplay>true</sortedDisplay>
 <tableName label="dc_acm_baghdad_eng_publ">dc_acm_baghdad_eng_publ</tableName>
