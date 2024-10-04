@@ -211,3 +211,8 @@ It may be necessary that a new type of data needs to be defined which can then b
 * A description text
 * an entry in the data type taxonomy in the datasets' corpus document
 * an ODD
+
+
+## How VICAV App uses the data 
+
+**TODO** Add pointers to documentation how the data is processed / consumed by VICAV app both in the backend and frontend.
