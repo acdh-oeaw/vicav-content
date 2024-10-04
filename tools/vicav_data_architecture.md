@@ -35,7 +35,7 @@ Since the main content of a VICAV-compatible data set is contained within those 
 
 ## Corpus Document
 
-Each data set is represented by one [TEI Corpus Document](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-teiCorpus.html) which contains the main information of the data in one central place. The corpus document has an identifier within `/TEI/teiHeader/fileDesc/publicationStmt/idno`. The name of the dataset is encoded within `/TEI/teiHeader/fileDesc/titleStmt/title[@level="s"]`.
+Each data set is represented by one [TEI Corpus Document](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-teiCorpus.html) which contains information common to all data documents in one central place. The corpus document has an identifier within `/TEI/teiHeader/fileDesc/publicationStmt/idno`. The name of the dataset is encoded within `/TEI/teiHeader/fileDesc/titleStmt/title[@level="s"]`.
 
 ```xml
 <teiCorpus xml:id="tunocentDataset">
@@ -48,10 +48,11 @@ Each data set is represented by one [TEI Corpus Document](https://www.tei-c.org/
       </fileDesc>
    </teiHeader>
 </teiCorpus>
-```
+``` 
 
+The main principle of this architecture is that information common to all data is centrally defined in the TEI Corpus document whereas the data documents only contain pointers to these where needed.
 
-### Team Members and their resopnsibilities
+### Team Members and their responsibilities
 
 Each team member is represented in the corpus document by a `<person>` element in the **Team Member List** at `/teiCorpus/standOff/listPerson[@type="team"]`. This is the authoratitve place where other documents point to when referencing the person in question and where the application is fetching labels and other metadata for display.
 
@@ -68,10 +69,24 @@ Each data document references relevant team members and their contribution in a 
 Each `<respStmt>` … 
 
 * MUST contain only one `<resp>` element. Thus, if a contributor had several roles in the creation of a document, the whole `<respStmt>` repeats
-* MUST contain only one empty `<persName>` element pointing to the team list in the corpus document via `@sameAs`: 
+* MUST contain only one empty `<persName>` element pointing to the team list in the corpus document via `@ref`:
 
+```xml
+<!-- In the Corpus document -->
+<listPerson type="team">
+   <head>Team Members</head>
+   <person xml:id="VRB">
+      <forename>Veronika</forename>
+      <surname>Ritt-Benmioun</surname>
+   </person>
+</listPerson>
 
-
+<!-- In a data document -->
+<respStmt>
+   <resp>author</resp>
+   <persName ref="corpus:MM"/></persName>
+</respStmt>
+```
 
 **Note:**     
 While the content of `<resp>` is generally not enforced, there are two execptions which are relevant for displaying data in the VICAV app framework: 
@@ -82,20 +97,41 @@ While the content of `<resp>` is generally not enforced, there are two execption
 
 ### Informants
 
-Each informant is represented by a `<person>` element in `/teiCorpus/teiHeader/particDesc`. 
+Each informant is represented by a `<person>` element in the **main participants list** at `/teiCorpus/teiHeader/particDesc/listPerson`. 
 
 The `<person>` element …
 
-* MUST have an `@xml:id` AND  an `<idno>` element with the ID/sigil of the person (NB clear names should never be encoded in TEI documents)
+* MUST have an `@xml:id` AND an `<idno>` element with the ID/sigil of the person (NB clear names should never be encoded in TEI documents)
 * MUST have `@sex` and `@age` attributes 
+* CAN contain `<ptr type="patricipatedIn">` elements to reference the data documents which they have contributed to.
 * CAN contain one `<note>` element for further information on the person
 
 
+#### Referencing the participants list
+
+Informants in a data document are encoded in the document's local participant list at `TEI/teiHeader/particDesc/listPerson`, however unlike the entry in the **main participants list** they do not have any content but only reference their counterpart via `@sameAs`:
+
+
 ```xml
-<listPerson>
-   <head>Informants</head>
-   <person sameAs="corpus:Frikhat5"/>
-</listPerson>
+<!-- in the corpus document -->
+
+<particDesc>
+   <listPerson>
+      <head>Informants</head>
+      <person sex="f" age="56" xml:id="AinDifla1">
+         <idno>AinDifla1</idno>
+         <ptr type="participatedIn" target="corpus.xml#aindifla1_f_56_tun1"/>
+      </person>
+   </listPerson>
+</particDesc>
+
+<!-- in a data document -->
+<particDesc>
+   <listPerson>
+      <head>Informants</head>
+      <person sameAs="corpus:Frikhat5"/>
+   </listPerson>
+</particDesc>
 ``` 
 
 ### Places
@@ -127,7 +163,7 @@ Each place is represented by a `<place>` element which …
 </place>
 ```
 
-#### Referencing places
+#### Referencing Places
 
 Most of the TEI documents document have attached metadata of their geographic relevance, e.g. where its content was collected or for which geographic region its data is representative. This is encoded in a `<place>` element within `teiHeader/profileDesc/settingDesc`. For the time being, we assume that there is exactly ONE empty `<place>` element within `<settingDesc>` which points to a `<place>` entry within `/teiCorpus/standOff/listPlace` via a `@sameAs` attribute.
 
@@ -178,25 +214,24 @@ Each TEI Header must contain a `<catRef>` element within `teiHeader/profileDesc/
 
 ### Data Document references
 
-In its `<body>`, the corpus document should contain references to all relevant parts of the data set:
+In its `<body>`, the corpus document should contain references to all data documents in the data set:
 
-* `<xi:include>` elements to all TEI documents contained in the data set 
-* `<TEI>` stubs (in case of audio recordings that have not been transcribed further)
+* `<xi:include>` element pointing to all TEI documents contained in the data set 
+* `<TEI>` stubs for audio recordings which have not been transcribed further
 
 ## Data Document Level
 
-Each document of any kind must be encoded within a `<TEI>` element. Documents can be stored as one file each, or grouped together within one file in a `<teiCorpus>` element.
-
-## Titles and Identifiers
-
-Each document needs a title encoded in `<title level="a">` within `TEI/fileDesc/titleStmt`. The name of the dataset must be encoded in a sibling `<title level="s">` element.
+Each data document must be encoded within a `<TEI>` element. Documents can be stored as one file each, or grouped together within one file in a `<teiCorpus>` element.
 
 Each document … 
 
 * MUST have an `@xml:id` on its root `<TEI>` element 
 * MUST have an `<idno>` within `TEI/fileDesc/publicationStmt`.
+* MUST have a title encoded in `<title level="a">` within `TEI/fileDesc/titleStmt`. The name of the dataset must be encoded in a sibling `<title level="s">` element.
 
+### Media Files
 
+Any data document can be sourced from one or more audio or video recordings. These are encoded in exactly ONE `<recording>` elements in `sourceDesc/recodingStmt`. One recording might be split into several media files, thus `<recording>` can ithere might be several media files   there are audio or video recordings which are
 
 ## VICAV Platform 
 
