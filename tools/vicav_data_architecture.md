@@ -150,9 +150,7 @@ Each place is represented by a `<place>` element which …
 * MUST contain ONE `<settlement>` element with exactly ONE `<name xml:lang="en">` containing the place's name in English (which will be used for displaying a label for the place in the application); moreover, `<settlement>` MAY contain several other `<name>` elements with different values in `@xml:lang`.
 * MAY contain exactly one `<region>` element containing a text node with the region's name in English (which can be used in the frontend to group places)
 * MUST contain exactly one `<country>` element containing a text node with the region's name in English
-* MUST contain exactly one `<location>` element wi<person sameAs="corpus:Tajerouine4">
-                     <idno>Tajerouine4/m/25</idno>
-                  </person>th `<geo>` containing the coordinates of the place in decimal notation
+* MUST contain exactly one `<location>` element with `<geo>` containing the coordinates of the place in decimal notation
 * MAY contain several `<idno>` elements providing authority file identifiers for the settlement in question  
 
 ```xml
