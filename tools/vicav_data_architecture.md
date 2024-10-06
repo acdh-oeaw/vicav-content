@@ -101,10 +101,16 @@ Each informant is represented by a `<person>` element in the **main participants
 
 The `<person>` element …
 
-* MUST have an `@xml:id` AND an `<idno>` element with the ID/sigil of the person (NB clear names should never be encoded in TEI documents)
+* MUST have an `@xml:id` AND an `<idno>` element with the ID/sigil of the person
 * MUST have `@sex` and `@age` attributes 
 * CAN contain `<ptr type="patricipatedIn">` elements to reference the data documents which they have contributed to.
 * CAN contain one `<note>` element for further information on the person
+
+
+ *Remarks:*
+ 
+ * We chose `<idno>` since we assume that only pseudonyms / identifiers should be encoded in TEI documents, not clear names. 
+ * Even if `@xml:id` and `<idno>` in most cases are the same, we assume that an informant's identifier might have to contain characters not allowed in `xs:NCname`.
 
 
 #### Referencing the participants list
