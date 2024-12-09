@@ -173,7 +173,7 @@
 
             <fLib n="Part of Speech">
                <f xml:id="pos.adj" name="adjective"><symbol value="adjective"/></f>
-               <f xml:id="pos.ap" name="adjective"><symbol value="activeParticiple"/></f>
+               <f xml:id="pos.ap" name="activeParticiple"><symbol value="activeParticiple"/></f>
                <f xml:id="pos.adv" name="adverb"><symbol value="adverb"/></f>
                <f xml:id="pos.dm" name="demonstrative"><symbol value="demonstrative"/></f>
                <f xml:id="pos.presn" name="presentative" n="presentative"><symbol value="presentative"/></f>
