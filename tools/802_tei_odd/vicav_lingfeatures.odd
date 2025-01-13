@@ -31,6 +31,18 @@
         <moduleRef key="analysis" include="w pc phr"/>
         <moduleRef key="dictionaries" include="lbl"/>
         <moduleRef key="namesdates" include="geo"/>
+        
+        <elementSpec ident="teiHeader" mode="change" module="header">
+          <constraintSpec ident="teiHeader" scheme="schematron">
+            <constraint>
+              <s:rule context="tei:teiHeader">
+                <s:assert test="exists(tei:profileDesc/tei:textClass/tei:catRef/@target = 'corpus:datatypes.vicav.fl')">A feature list document must declare its type properly.</s:assert>
+                <s:assert test="exists(tei:profileDesc/tei:particDesc//tei:person')">A feature list document must contain a speaker list.</s:assert>
+                s<s:assert test="count(tei:profileDesc/tei:settingDesc/tei:place')">A feature list document must contain the location.</s:assert>
+              </s:rule>
+            </constraint>
+          </constraintSpec>
+        </elementSpec>
         <elementSpec ident="body" mode="change" module="textstructure">
           <content>
             <sequence>
@@ -38,6 +50,13 @@
               <elementRef key="div" minOccurs="1" maxOccurs="unbounded"/>
             </sequence>
           </content>
+          <constraintSpec ident="body" scheme="schematron">
+            <constraint>
+              <s:rule context="tei:body">
+                <s:assert test="exists(descendant::tei:div[@type='featureGroup'])">A feature list document must contain one or several feature groups.</s:assert>
+              </s:rule>
+            </constraint>
+          </constraintSpec>
         </elementSpec>
         <elementSpec ident="cit" mode="change" module="core">
           <desc xml:lang="en">Each sample in the feature list is represented as a <gi>cit</gi> element with a nested quote element</desc>
@@ -52,7 +71,126 @@
             </constraint>
           </constraintSpec>
         </elementSpec>
-       
+        <elementSpec ident="div" mode="change" module="core">
+          <desc xml:lang="en">Each sample in the feature list is represented as a <gi>cit</gi> element with a nested quote element</desc>
+          <constraintSpec ident="div" scheme="schematron">
+            <constraint>
+              <s:rule context="tei:div[@type='featureGroup']">
+                <s:assert test="exists(tei:cit[@type='featureSample'])">A feature group must contain a series of feature samples.</s:assert>
+              </s:rule>
+            </constraint>
+          </constraintSpec>
+        </elementSpec>
+        <elementSpec ident="w" mode="change" module="core">
+          <desc xml:lang="en">Features in the quote are annotated by <gi>w</gi> elements which either  with a nested quote element</desc>
+          <content>
+            <elementRef key="fs"/>
+          </content>
+          <constraintSpec ident="w" scheme="schematron">
+            <constraint>
+              <s:rule context="tei:w[@ana]">
+                <s:assert test="exists(tei:cit[@type='featureSample'])">A feature group must contain a series of feature samples.</s:assert>
+              </s:rule>
+            </constraint>
+          </constraintSpec>
+        </elementSpec>
+       <!-- 
+         primary & secondar feature annotations:
+        
+        The same sample can be used to document several features, it is this repeated for each feature in the respective feature group.
+        To indicate that a token in a sample has also been annotated a different feature, the attribute @sameAs points to the same token 
+        in the copy of the same sample. 
+        
+        e.g. Sample for "what":
+        
+        <cit type="featureSample" ana="semlib:what" xml:id="vicav_lingfeatures_aindifla_01_what_004">
+          <lbl>what?</lbl>
+          <cit type="translation">
+             <quote xml:lang="en">What do you (m.) want to drink: coffee or tea? – Bring me whatever it is.</quote>
+          </cit>
+          <quote xml:lang="aeb">
+             <w xml:id="vicav_lingfeatures_aindifla_01_what_004_001" ana="semlib:what">
+                <fs>
+                   <f name="wordform">ǟš</f>
+                   <f name="pos"/>
+                   <f name="lemma"/>
+                   <f name="translation"/>
+                   <f name="other"/>
+                </fs>
+             </w>
+             <w sameAs="#vicav_lingfeatures_aindifla_01_to_want_002_001">
+                <fs>
+                   <f name="wordform">tḥibb</f>
+                   <f name="pos"/>
+                   <f name="lemma"/>
+                   <f name="translation"/>
+                   <f name="other"/>
+                </fs>
+             </w>
+           …
+        </cit>
+        
+        The text of this sample has been annotated a second time with feature "to want":
+          
+        <cit type="featureSample" ana="semlib:to_want" xml:id="vicav_lingfeatures_aindifla_01_to_want_002">
+                <lbl>to want</lbl>
+                <cit type="translation">
+                   <quote xml:lang="en">What do you (m.) want to drink: coffee or tea? – Bring me whatever it is.</quote>
+                </cit>
+                <quote xml:lang="aeb">
+                   <w sameAs="#vicav_lingfeatures_aindifla_01_what_004_001">
+                      <fs>
+                         <f name="wordform">ǟš</f>
+                         <f name="pos"/>
+                         <f name="lemma"/>
+                         <f name="translation"/>
+                         <f name="other"/>
+                      </fs>
+                   </w>
+                   <w xml:id="vicav_lingfeatures_aindifla_01_to_want_002_001" ana="semlib:to_want">
+                      <fs>
+                         <f name="wordform">tḥibb</f>
+                         <f name="pos"/>
+                         <f name="lemma"/>
+                         <f name="translation"/>
+                         <f name="other"/>
+                      </fs>
+                   </w>
+            …
+        </cit>
+        
+        The same text has been annotated twice: one for the feature "what", the second time 
+        for the feature "to want". "ǟš" (= what) in the first sample is the "primary annotation" since
+        it highlights the feature which the sample stands for. "tḥibb" highlights the feature "to want",
+        thus it is only marked up as a secondary annotation in the "what"-sample pointing to the 
+        same word marked as the primary annotation in the "to want"-sample.
+       -->
+        
+        <!--
+        primary annotations must have an @xml:id
+        tei:w[@ana = ancestor::tei:cit[@type='featureSample']/@ana]/exists(@xml:id
+        
+        @sameAs on a secondary annotation must point to a primary annotation 
+        tei:w[@sameAs]/substring-after(@sameAs,'#')=root()//tei:w[@ana = ancestor::tei:cit[@type='featureSample']/@ana]/@xml:id 
+        
+        -->
+        
+        <!-- tei:fs
+          f/@name=('wordform', 'pos', 'lemma', 'translation', 'other')
+          f[@name='wordform'] != ''
+        -->
+        
+        <!-- tei:cit[@type='featureSample']/tei:cit[@type='translation']/tei:quote/@xml:lang=('en','aeb') -->
+        <!-- tei:cit[@type='featureSample']/tei:quote only tei:w or tei:quote -->
+        
+        <!-- 
+         tei:change
+          @type = 'minor' / 'major'
+          wenn major, dann @n (= Revision Nr.)
+          wenn tei:change/text()=created/creation @n=0
+          @who="corpus:*"
+          @when castable as xs:dateTime 
+       -->
       </schemaSpec>
     </body>
   </text>
