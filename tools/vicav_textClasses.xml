@@ -17,29 +17,29 @@
       </fileDesc>
      <encodingDesc>
         <classDecl>
-           <taxonomy xml:id="vicavDataTypes">
+           <taxonomy xml:id="datatypes.vicav">
               <desc>VICAV Default Data Types</desc>
-              <category xml:id="textClass.VICAV.FL" n="FL">
+              <category xml:id="datatypes.vicav.fl" n="FL">
                  <catDesc>
                     <name xml:lang="en">VICAV Feature List</name>
                  </catDesc>
               </category>
-              <category xml:id="textClass.VICAV.ST" n="ST">
+              <category xml:id="datatypes.vicav.st" n="ST">
                  <catDesc>
                     <name xml:lang="en">VICAV Sample Texts</name>
                  </catDesc>
               </category>
-              <category xml:id="textClass.VICAV.P" n="P">
+              <category xml:id="datatypes.vicav.p" n="P">
                  <catDesc>
                     <name xml:lang="en">VICAV Profile</name>
                  </catDesc>
               </category>
-              <category xml:id="textClass.VICAV.D" n="D">
+              <category xml:id="datatypes.vicav.d" n="D">
                  <catDesc>
                     <name xml:lang="en">VICAV Dictionary</name>
                  </catDesc>
               </category>
-              <category xml:id="textClass.VICAV.BIB" n="BIB">
+              <category xml:id="datatypes.vicav.bib" n="BIB">
                  <catDesc>
                     <name xml:lang="en">VICAV Bibliography</name>
                  </catDesc>
