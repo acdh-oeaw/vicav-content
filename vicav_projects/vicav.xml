@@ -118,4 +118,13 @@
 		</colors>
 	</styleSettings>
     <style/>
+   <staticData>
+      <table>
+         <insert_vicav_lingfeatures/>
+         <insert_vicav_samples/>
+         <insert_vicav_profiles/>
+         <insert_vicav_corpus/>
+         <insert_vicav_texts/>
+      </table>
+   </staticData>
 </projectConfig>
