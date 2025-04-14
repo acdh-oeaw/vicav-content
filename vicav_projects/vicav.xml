@@ -12,6 +12,9 @@
 		<param>geo</param>
 		<panel type="text" target="li_vicavMission">MISSION</panel>
 		<panel type="text" target="li_vicavNews">NEWS</panel>
+        <item xml:id="li_vicavMission" target="li_vicavMission" targetType="Text">Mission</item>
+        <item xml:id="li_vicavNews" target="li_vicavNews" targetType="Text">News</item>
+        <item xml:id="navBiblGeoMarkers" target="navBiblGeoMarkers">All Bibl. Locations on Map</item>
 	</frontpage>
 	<menu>
 		<main>
@@ -118,4 +121,13 @@
 		</colors>
 	</styleSettings>
     <style/>
+   <staticData>
+      <table>
+         <insert_vicav_lingfeatures/>
+         <insert_vicav_samples/>
+         <insert_vicav_profiles/>
+         <insert_vicav_corpus/>
+         <insert_vicav_texts/>
+      </table>
+   </staticData>
 </projectConfig>
