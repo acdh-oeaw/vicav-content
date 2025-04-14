@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_sale_01">
   <teiHeader>
     <fileDesc>
@@ -29,14 +29,14 @@
       </tagsDecl>
     </encodingDesc>
     
-</teiHeader>
+<revisionDesc><change who="#DS" when="2025-04-14" type="minor">adding @type on tei:graphic (add_type_to_graphic.xsl)</change></revisionDesc></teiHeader>
   
   <text>
     <body>
       <div>
         <head>
           <figure>
-            <graphic url="rabat_chellah_minaret_2.jpg"/>
+            <graphic url="rabat_chellah_minaret_2.jpg" type="thumbnail"/>
             <head type="imgCaption"><ref target="https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B1%D8%A8%D8%A7%D8%B7#/media/File:Rabat,_Chellah_minaret_2.jpg">Wikimedia</ref>
               </head>
           </figure>

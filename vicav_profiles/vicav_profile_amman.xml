@@ -1,6 +1,6 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../xsl/tei_2_html__v006.xsl"?>
-<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_amman_01">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_amman_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,13 +29,13 @@
          </tagsDecl>
       </encodingDesc>
       
-</teiHeader>
+<revisionDesc><change who="#DS" when="2025-04-14" type="minor">adding @type on tei:graphic (add_type_to_graphic.xsl)</change></revisionDesc></teiHeader>
    <text>
       <body>
          <div>
             <head>
                <figure>
-                  <graphic url="amman_sp__2017.jpg"/>
+                  <graphic url="amman_sp__2017.jpg" type="thumbnail"/>
                   <head type="imgCaption">Courtesy of Stephan Procházka, 2017</head>
                </figure>
 

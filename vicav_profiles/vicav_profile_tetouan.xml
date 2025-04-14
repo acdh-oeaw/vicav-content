@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_tetouan_01">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_tetouan_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -32,13 +32,13 @@
          </tagsDecl>
       </encodingDesc>
       
-</teiHeader>
+<revisionDesc><change who="#DS" when="2025-04-14" type="minor">adding @type on tei:graphic (add_type_to_graphic.xsl)</change></revisionDesc></teiHeader>
    <text>
       <body>
          <div>
             <head>
                <figure>
-                  <graphic url="tetouan_profile.jpg"/>
+                  <graphic url="tetouan_profile.jpg" type="thumbnail"/>
                   <head type="imgCaption">
                      <ref target="https://commons.wikimedia.org/wiki/File:Tetouan_Jbel_Bo3nan.jpg">Wikimedia</ref>
                   </head>
