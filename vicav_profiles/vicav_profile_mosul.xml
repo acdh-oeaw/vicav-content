@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_mosul_01">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_mosul_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -33,13 +33,13 @@
          </tagsDecl>
       </encodingDesc>
       
-</teiHeader>
+<revisionDesc><change who="#DS" when="2025-04-14" type="minor">adding @type on tei:graphic (add_type_to_graphic.xsl)</change></revisionDesc></teiHeader>
    <text>
       <body>
          <div>
             <head>
                <figure>
-                  <graphic url="monare_alhodaba.jpg"/>
+                  <graphic url="monare_alhodaba.jpg" type="thumbnail"/>
                   <head type="imgCaption">
                      <ref target="https://fa.wikipedia.org/wiki/%D9%85%D9%88%D8%B5%D9%84#/media/File:Monare_alhodaba.jpg">Wikimedia</ref>
                   </head>

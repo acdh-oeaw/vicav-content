@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_sharqiyya_01">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_sharqiyya_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,13 +28,13 @@
          </tagsDecl>
       </encodingDesc>
       
-</teiHeader>
+<revisionDesc><change who="#DS" when="2025-04-14" type="minor">adding @type on tei:graphic (add_type_to_graphic.xsl)</change></revisionDesc></teiHeader>
    <text>
       <body>
          <div>
             <head>
                <figure>
-                  <graphic url="#"/>
+                  <graphic url="#" type="thumbnail"/>
                   <head type="imgCaption"><ref target="#">Wikimedia</ref>
                   </head>
                </figure>
@@ -43,7 +43,7 @@
                <label>Name (Fuṣḥā, transcription)</label>
                <name xml:lang="ara">aš-Šarqiyya</name>
                <label>Name in local variety (in transcription)</label>
-               <name xml:lang="ara-x-DMG"></name>
+               <name xml:lang="ara-x-DMG"/>
                <label>Name (Fuṣḥā, Arabic)</label>
                <name xml:lang="ajp">الشرقية</name>
             </head>

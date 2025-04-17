@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_kuwait_01">
    <teiHeader>
       <fileDesc>
@@ -32,14 +32,14 @@
          </tagsDecl>
       </encodingDesc>
       
-</teiHeader>
+<revisionDesc><change who="#DS" when="2025-04-14" type="minor">adding @type on tei:graphic (add_type_to_graphic.xsl)</change></revisionDesc></teiHeader>
    
    <text>
       <body>
          <div>
             <head>
                <figure>
-                  <graphic url="800px-Alhamra_Tower.jpg"/>
+                  <graphic url="800px-Alhamra_Tower.jpg" type="thumbnail"/>
                   <head type="imgCaption"> 
                      <ref target="https://en.wikipedia.org/wiki/Kuwait#/media/File:Alhamra_Tower.jpg">Wikimedia</ref>
                   </head>

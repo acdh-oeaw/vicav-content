@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_benghazi_01">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_benghazi_01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,13 +29,13 @@
          </tagsDecl>
       </encodingDesc>
       
-</teiHeader>
+<revisionDesc><change who="#DS" when="2025-04-14" type="minor">adding @type on tei:graphic (add_type_to_graphic.xsl)</change></revisionDesc></teiHeader>
    <text>
       <body>
          <div>
             <head>
                <figure>
-                  <graphic url="benghazi_01.jpg"/>
+                  <graphic url="benghazi_01.jpg" type="thumbnail"/>
                   <head type="imgCaption"><ref target="https://upload.wikimedia.org/wikipedia/commons/f/f4/Bengasi_visto_dall%27Hotel_Tibesti_-_panoramio.jpg">Wikimedia</ref>
                   </head>
                </figure>
