@@ -19,20 +19,31 @@
       <body>
          <div xml:id="vicavArabicTools">
             <head>Arabic Research Tools</head>
-            <p>The intention of this section of VICAV is to bring together the most
+            <p>The intention of this section of the VICAV platform is to bring together the most
                important tools needed by digitally working linguists in the field of
                Arabic studies. In compiling this list, we have proceded from a very
                wide understanding of the term "tool" considering a varied range of
                digital applications that are typically used in doing linguistic
                research. This comprises all relevant digital language resources as
                well as pertaining documentation, standards and best practices.</p>
+               
+            <p>The purpose of this section of VICAV is to bring together some 
+               digital tools essential for linguists working in the field of Arabic 
+               studies. In compiling this collection, we have adopted a broad 
+               understanding of the term “tool,” encompassing a wide range of 
+               digital applications commonly used in linguistic research. This 
+               includes all relevant digital language resources, along with associated 
+               documentation, standards, and best practices.</p>
+               
             <p>While there have not been around many NLP tools to process Arabic
                language data in the past, the situation has definitely changed in
-               recent years. The following list is a first attempt to create a list
+               recent years. The following list is a humble attempt to create a list
                of tools used by the VICAV crew and other relevant projects.</p>
+               
             <p>A very interesting overview of digital Arabic language ressources is
                Wajdi Zaghouani's <ref target="https://arxiv.org/ftp/arxiv/papers/1702/1702.07835.pdf">
                   Critical Survey of the Freely Available Arabic Corpora</ref>. </p>
+                  
             <p>We have put together some reference material which is not meant to be
                exhaustive. The focus is on freely available resources. We do not list
                details from the many resources available through the
@@ -64,6 +75,7 @@
 
                </list>
             </p>
-         </div>      </body>
+         </div>
+       </body>
    </text>
 </TEI>
