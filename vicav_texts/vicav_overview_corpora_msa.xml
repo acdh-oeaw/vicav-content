@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-             <title>VICAV Corpora (Modern Written Language)</title>
+            <title>VICAV Corpora (Modern Written Language)</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -11,120 +11,123 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-   
-</teiHeader>
+
+   </teiHeader>
    <text>
       <body>
-          <div xml:id="vicavOverview_corpora_msa">
-              <head>Corpora (Modern Written Language)</head>
-              
-              <p xml:space="preserve">The number of corpora of Modern Standard Arabic have been on the rise
-    over the past two decades. Still, the number of readily available 
-    material is rather limited.</p>
-              
-              <div>
-                  <head>KALIMAT Multipurpose Arabic Corpus</head>
-                  
-                  <p xml:space="preserve">KALIMAT is an Arabic natural language resource that consists of 
-        Arabic articles collected from the Omani newspaper Alwatan. It was prepared 
-        by Mahmoud El-Haj (Lancaster University). Articles in the collection 
-        fall into six categories: culture, economy, local-news, international-news, 
-        religion, and sports. KALIMAT is freely available via 
-        <ref target="https://sourceforge.net/projects/kalimat/files/?source=navbar">sourceforge.net</ref>.</p>
-              </div>
-              
-              <div>
-                  <head>International Corpus of Arabic (ICA)</head>
-                  
-                  <p xml:space="preserve">The <ref target="http://www.bibalex.org/ica/en/About.aspx">International 
-        Corpus of Arabic (ICA)</ref> is an ambitious attempt to
-        build a representative corpus of the Arabic language as it is used
-        all over the Arab world, with the aim of supporting research on such
-        language. The ICA is planned to contain 100 million words. Once
-        finished, the analyzed version will be the first analyzed Arabic
-        corpus available as a linguistic resource for researchers. It is
-        also the first systematic investigation of national varieties within
-        the Arabic speaking community, this should prove very useful for
-        linguists who believe that their theories and descriptions of
-        language should be based on real, rather than contrived, data."</p>
-              </div>
-              
-              <div>
-                  <head>arabiCorpus</head>
-                  
-                  <p xml:space="preserve">
-        <ref target="http://arabicorpus.byu.edu/">This corpus</ref> is a
-        sizeable corpus (173,600,000 words) containing texts in five main
-        categories or genres: Newspapers, Modern Literature, Nonfiction,
-        Egyptian Colloquial, and Premodern. It has been maintained by Dil
-        Parkinson, professor of Arabic and allows users to find larger
-        structures and grammatical patterns through frequency analysis,
-        regular expression searching, and other interface features.</p>
-              </div>
-              
-              <div>
-                  <head>Wortschatz Universität Leipzig</head>
-                  
-                  <p xml:space="preserve">This <ref target="http://wortschatz.uni-leipzig.de/de">website</ref> offers
-        access to large amounts of data crawled form the Internet. There is
-        also Arabic data available. The data is unstructured, search results
-        come with little metadata. However, the results are enriched with
-        cooccurrences which makes it a verz interesting tool both for
-        learners and lexicographers.</p>
-              </div>
-              
-              <div>
-                  <head>King Abdulaziz City for Science and Technology (KACST) Arabic corpus</head>
-                  
-                  <p xml:space="preserve">The KACST Arabic corpus is claimed to be a carefully sampled corpus the 
-         contents of which are classified based on time, region, medium, domain and 
-         topic. It comprises more than 700 million words from the pre-Islamic era 
-         to the present day (a period covering more than 1,500 years). However, most 
-         of the data belongs into the recent past which is why it is listed under MSA. 
-         It can be explored on the <ref target="http://corpus.kacst.edu.sa/">Internet</ref> using a variety of tools.</p>
-              </div>
-              
-              <div>
-                  <head>Sketch Engine Corpora</head>
-                  
-                  <p xml:space="preserve">Sketch Engine is a corpus manager and text analysis software that
-        has been developed by Lexical Computing Limited since 2003. It
-        allows to analyse large amounts of textual data and is primarily
-        used by lexicographers and linguists. Sketch Engine also provides
-        corpora in currently 90+ languages. There are several 
-        <ref target="https://www.sketchengine.co.uk/user-guide/user-manual/corpora/by-language/arabic-text-corpora/"> 
-        Arabic corpora</ref> available which come as part of the regular
-        payable subscription.</p>
-              </div>
-              
-              <div>
-                  <head>WebCorp Live</head>
-                  
-                  <p xml:space="preserve">The <ref target="http://www.webcorp.org.uk">website</ref> offers a suite of 
-         tools which allows direct access to the World Wide Web as a corpus.</p>
-              </div>
-              
-              <div>
-                  <head>Leeds Arabic Corpora</head>
-                  
-                  <p xml:space="preserve">Serge Sharoff's <ref target="http://corpus.leeds.ac.uk/query-ar.html">interface</ref> 
-         allows to search several corpora. The list
-         contains an Arabic Internet corpus, Al-Hayat News corpus (1999-2001),
-         an Arabic Wikipedia from 2008, a Computer Science corpus and others.</p>
-              </div>
-              
-              <div>
-                  <head>Arabic Concordancer</head>
-                  
-                  <p xml:space="preserve">AC is an <ref target="http://efolio.iium.edu.my/arabicconcordancer">interface</ref> 
-         to a corpus published by the International Islamic University 
-         of Malaysia. The corpus itself is not available. On the website 
-         it says that it contains 14 million Arabic words taken from various 
-         academic resources such as theses, journal articles, conferences 
-         papers etc.</p>
-              </div>
-          </div>
-          
+         <div xml:id="vicavOverview_corpora_msa">
+            <head>Corpora (Modern Written Language)</head>
+
+            <p xml:space="preserve">The number of corpora of Modern Standard Arabic
+               have been on the rise over the past two decades. The following list
+               is by no means exhaustive.</p>
+
+            <div>
+               <head>KALIMAT Multipurpose Arabic Corpus</head>
+
+               <p xml:space="preserve">KALIMAT is an Arabic natural language resource that consists of
+                  Arabic articles collected from the Omani newspaper Alwatan. It was prepared
+                  by Mahmoud El-Haj (Lancaster University). Articles in the collection
+                  fall into six categories: culture, economy, local-news, international-news,
+                  religion, and sports. KALIMAT is freely available via
+                  <ref target="https://sourceforge.net/projects/kalimat/files/?source=navbar">sourceforge.net</ref>.</p>
+            </div>
+
+            <div>
+               <head>International Corpus of Arabic (ICA)</head>
+
+               <p xml:space="preserve">The <ref target="http://www.bibalex.org/ica/en/About.aspx">International
+                     Corpus of Arabic (ICA)</ref> is an ambitious attempt to
+                  build a representative corpus of the Arabic language as it is used
+                  all over the Arab world, with the aim of supporting research on such
+                  language. The ICA is planned to contain 100 million words. Once
+                  finished, the analyzed version will be the first analyzed Arabic
+                  corpus available as a linguistic resource for researchers. It is
+                  also the first systematic investigation of national varieties within
+                  the Arabic speaking community, this should prove very useful for
+                  linguists who believe that their theories and descriptions of
+                  language should be based on real, rather than contrived, data."</p>
+            </div>
+
+            <div>
+               <head>arabiCorpus</head>
+
+               <p xml:space="preserve">
+                  <ref target="http://arabicorpus.byu.edu/">This corpus</ref> is a
+                  sizeable corpus (173,600,000 words) containing texts in five main
+                  categories or genres: Newspapers, Modern Literature, Nonfiction,
+                  Egyptian Colloquial, and Premodern. It has been maintained by Dil
+                  Parkinson, professor of Arabic and allows users to find larger
+                  structures and grammatical patterns through frequency analysis,
+                  regular expression searching, and other interface features.</p>
+            </div>
+
+            <!--
+            <div>
+               <head>Wortschatz Universität Leipzig</head>
+
+               <p xml:space="preserve">This <ref target="http://wortschatz.uni-leipzig.de/de">website</ref> offers
+                  access to large amounts of data crawled form the Internet. There is
+                  also Arabic data available. The data is unstructured, search results
+                  come with little metadata. However, the results are enriched with
+                  cooccurrences which makes it a verz interesting tool both for
+                  learners and lexicographers.</p>
+            </div>
+
+            <div>
+               <head>King Abdulaziz City for Science and Technology (KACST) Arabic corpus</head>
+
+               <p xml:space="preserve">The KACST Arabic corpus is claimed to be a carefully sampled corpus the
+                  contents of which are classified based on time, region, medium, domain and
+                  topic. It comprises more than 700 million words from the pre-Islamic era
+                  to the present day (a period covering more than 1,500 years). However, most
+                  of the data belongs into the recent past which is why it is listed under MSA.
+                  It can be explored on the <ref target="http://corpus.kacst.edu.sa/">Internet</ref> using a variety of tools.</p>
+            </div>
+            -->
+            <div>
+               <head>Sketch Engine Corpora</head>
+
+               <p xml:space="preserve">Sketch Engine is a corpus manager and text analysis software that
+                  has been developed by Lexical Computing Limited since 2003. It
+                  allows to analyse large amounts of textual data and is primarily
+                  used by lexicographers and linguists. Sketch Engine also provides
+                  corpora in currently 90+ languages. There are several
+                  <ref target="https://www.sketchengine.co.uk/user-guide/user-manual/corpora/by-language/arabic-text-corpora/">
+                     Arabic corpora</ref> available which come as part of the regular
+                  payable subscription.</p>
+            </div>
+
+            <div>
+               <head>WebCorp Live</head>
+
+               <p xml:space="preserve">The <ref target="http://www.webcorp.org.uk">website</ref> offers a suite of
+                  tools which allows direct access to the World Wide Web as a corpus.</p>
+            </div>
+
+            <!--
+            <div>
+               <head>Leeds Arabic Corpora</head>
+
+               <p xml:space="preserve">Serge Sharoff's <ref target="http://corpus.leeds.ac.uk/query-ar.html">interface</ref>
+                  allows to search several corpora. The list
+                  contains an Arabic Internet corpus, Al-Hayat News corpus (1999-2001),
+                  an Arabic Wikipedia from 2008, a Computer Science corpus and others.</p>
+            </div>
+            <div>
+               <head>Arabic Concordancer</head>
+
+               <p xml:space="preserve">AC is an <ref target="http://efolio.iium.edu.my/arabicconcordancer">interface</ref>
+                  to a corpus published by the International Islamic University
+                  of Malaysia. The corpus itself is not available. On the website
+                  it says that it contains 14 million Arabic words taken from various
+                  academic resources such as theses, journal articles, conferences
+                  papers etc.</p>
+            </div>
+            -->
+
+         </div>
+
       </body>
    </text>
 </TEI>

@@ -31,7 +31,7 @@
       been arpound for some time already and/or have grown out of research
       projects.</p>
               
-              <div>
+<!--              <div>
                   <head>Verbes de l’arabe égyptien: Dictionnaire contextuel raisonné des
                       verbes du dialecte égyptien (parler du Caire)</head>
                   
@@ -39,7 +39,7 @@
         <ref target="http://www.ifao.egnet.net/bases/verbeseg/">online</ref> 
         since 2012.</p>
               </div>
-              
+    -->          
               <div>
                   <head>Mawrid Reader: Arabic dictionary interface</head>
                   <p xml:space="preserve">This <ref target="http://ejtaal.net/mr/readme.html">website</ref>
@@ -50,7 +50,7 @@
                   <head>Glossarium Græco-Arabicum: A lexicon of the mediæval Arabic
                       translations from the Greek</head>
                   
-                  <p xml:space="preserve">The <ref target="http://telota.bbaw.de/glossga/">website</ref> 
+                  <p xml:space="preserve">The <ref target="https://glossga.bbaw.de/">website</ref> 
           offers access to the files of a lexical project having studied
           the lexicon of mediæval Arabic translations from the Greek.
       </p>
@@ -58,7 +58,13 @@
               
               <div>
                   <head>Arabic Ontology</head>
-                  <p>This a large database, a formal Arabic Wordnet built on the basis of a carefully designed ontology. It is a classification of the meanings of the Arabic terms, based on state-of-art science, rather than on speakers' naïve knowledge. It consists currently of about 1.3K +11K concepts, all mapped to DOLCE, BFO, WordNet, and the Wikidata knowledge graph. </p>
+                  <p>This <ref target="http://ontology.birzeit.edu">large database</ref>, a formal Arabic Wordnet built on the 
+                  basis of a carefully designed ontology. It is a classification 
+                  of the meanings of the Arabic terms, based on state-of-art science, 
+                  rather than on speakers' naïve knowledge. It consists currently 
+                  of about 1.3K +11K concepts, all mapped to DOLCE, BFO, WordNet, 
+                  and the Wikidata knowledge graph and can be found on the website 
+                  of the Bir Zeit University. </p>
               </div>
               
               <div>
@@ -68,7 +74,7 @@
         offers a dictionary interface. It appears to be the
         work of an enthusiastic hobby lexicographer.</p>
               </div>
-              
+            <!--  
               <div>
                   <head>Opinion mining for Arabic (OMA)</head>
                   <p xml:space="preserve">The <ref target="http://oma-project.azurewebsites.net/">OMA</ref> project provides a large-scale Arabic Sentiment and Emotion Lexicon and several other related ressources.</p>
@@ -78,6 +84,7 @@
                   <head>arabterm - Technical Dictionary</head>
                   <p><ref target="http://www.arabterm.org">arabterm</ref> offers access to a number of special language dictionaries. It is intended as a generally accessible reference for the consistent translation of textbooks, curricula, technical manuals and other specialised texts. The first volume was published in May 2010. The dictionary is joint publication of the Arab League Educational, Cultural and Scientific Organization (ALECSO) and the German Federal Ministry for Economic Cooperation and Development (BMZ).</p>
               </div>
+              -->
           </div>
       </body>
   </text>
