@@ -34,6 +34,7 @@
                <publisher>ACDH-OeAW</publisher>
                <pubPlace>Vienna</pubPlace>
                <date>2018</date>
+               <idno type="VicavCorpusID">cukurova_001</idno>
             </publicationStmt>
             <sourceDesc>
                <p>This is an original digital text</p>
@@ -10336,7 +10337,10 @@
                <author>Georg Böhm</author>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher>ACDH-OeAW</publisher>
+               <pubPlace>Vienna</pubPlace>
+               <date>2018</date>
+               <idno type="VicavCorpusID">killing_jackal</idno>
             </publicationStmt>
             <sourceDesc>
                <p>Information about the source</p>
@@ -10347,11 +10351,6 @@
                <p>This text was recorded in Morocoo. </p>
             </particDesc>
          </profileDesc>
-      <revisionDesc>
-  <change n="2022-06-20-3-gf63490c" who="GitHub" when="2022-06-23">
-add notebook evaluation of the library
-   </change>
-</revisionDesc>
 </teiHeader>
 
       <text>
