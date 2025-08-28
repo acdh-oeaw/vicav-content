@@ -17,26 +17,25 @@
             <availability status="free">
                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
             </availability>
-            <idno type="VICAVCorpusID">vicavLearning</idno>
+            <idno type="VICAVCorpusID">vicavExplBar_textTechnology</idno>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital</p>
          </sourceDesc>
       </fileDesc>
-   </teiHeader>
-   <text>
+    </teiHeader>
+    <text>
       <body>
-        <head>Learning Materials</head>
-        <p>Some of the data on this website have been developed as part of
-           teaching activities being used in university courses of the Institute
-           of Oriental Studies of the University of Vienna.</p>
-        <p>
-           <ref target="text:vicavLearningSmartphone/SMARTPHONES">Vocabularies on the Smartphone</ref>
-           <lb/>
-           <ref target="text:vicavLearningPrograms/PROGRAMS">Available Programs</ref>
-           <lb/>
-           <ref target="text:vicavLearningData/VOCABULARIES - DATA">Vocabularies - Data</ref>
-        </p>
-     </body>
+        <head>Digital Humaniteis &amp; Text Technology</head>
+        <p>VICAV has been designed from the very beginning as a project bridging
+           the gap between traditional concepts in the humanities and innovative
+           technological approaches. We have been building our work on the paradigms
+           of the digital humanity community: digital tools and data, collaborative
+           settings and open science are the basis of our work.</p>
+        <p>By text technology we understand a broad spectrum of methods and tools
+           being applied to a wide range of applications beyond the narrower field
+           of computational linguistics with its focus on large corpora and mainly
+           statistical approaches. </p>
+      </body>
    </text>
 </TEI>

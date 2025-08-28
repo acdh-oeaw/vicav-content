@@ -17,26 +17,25 @@
             <availability status="free">
                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
             </availability>
-            <idno type="VICAVCorpusID">vicavLearning</idno>
+            <idno type="VICAVCorpusID">vicavLearningSmartphone</idno>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital</p>
          </sourceDesc>
       </fileDesc>
-   </teiHeader>
-   <text>
+    </teiHeader>
+    <text>
       <body>
-        <head>Learning Materials</head>
-        <p>Some of the data on this website have been developed as part of
-           teaching activities being used in university courses of the Institute
-           of Oriental Studies of the University of Vienna.</p>
-        <p>
-           <ref target="text:vicavLearningSmartphone/SMARTPHONES">Vocabularies on the Smartphone</ref>
-           <lb/>
-           <ref target="text:vicavLearningPrograms/PROGRAMS">Available Programs</ref>
-           <lb/>
-           <ref target="text:vicavLearningData/VOCABULARIES - DATA">Vocabularies - Data</ref>
-        </p>
-     </body>
+        <head>Vocabularies on the Smartphone</head>
+        <p>One way to learn vocabularies is to use
+           <ref target="https://en.wikipedia.org/wiki/Flashcard">flashcards</ref>.
+           The ubiquitous smartphones make it possible to carry around
+           thousands of vocabulary cards in your pocket. Before we started
+           to cary around a computer in our pockets, the
+           most common way to carry them around as paper flashcards. The problem
+           with this approach is that they can take up quite some space if
+           you want to repeat cards from say 20 units of some language course
+           at least now and then. Now we only have to decide on what software to use. </p>
+      </body>
    </text>
 </TEI>

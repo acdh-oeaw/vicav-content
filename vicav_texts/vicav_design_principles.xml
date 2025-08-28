@@ -1,0 +1,91 @@
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICAV Design Principles</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://ror.org/03anc3s24">Austrian Academy of Sciences</publisher>
+            <publisher ref="https://ror.org/03prydq77">University of Vienna</publisher>
+            <distributor ref="https://ror.org/028bsh698">Austrian Center for Digital Humanities</distributor>
+            <date when="2018-09-12"/>
+            <address>
+               <addrLine>Bäckerstraße 13</addrLine>
+               <addrLine>1010 Vienna</addrLine>
+               <addrLine>Austria</addrLine>
+            </address>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+            </availability>
+            <idno type="VICAVCorpusID">vicavExplBar_DesignPrinciples</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <head>Design Principles</head>
+        <p>Displaying complexly structured scholarly contents on screens has
+           always been a design challenge. What has made the situation even more
+           complicated is that these days web applications are supposed to run on
+           any kind of device. VICAV is basically built on responsive technology.
+           However, the website has not been optimised for use on smaller mobile
+           devices yet.</p>
+        <p>Research environments have to work on the Internet these days, which
+           means they need to be implemented as web interfaces that run in browsers.
+           By doing this, one forgoes the powerful possibilities of the windows
+           based systems, on the other side you attaina higher degree of systemic
+           interoperability, reusability and will definitely be able to address a much
+           larger audience.</p>
+        <p>One drawback of the browser approach has been, that it is usually not
+           possible to have several tabs next to each other which hampers any
+           processes aiming at comparing texts. Whenever you want to juxtapose
+           data one has to find other approaches. One possibility to create a
+           flexible solution to the issue of structuring data on a single surface
+           has been "panelification", visualising data in smaller units that
+           actually emulate forms or windows. We have been experimenting with
+           several approaches. In previous versions of VICAV, the panels were
+           freely movable on the screen which gave users a lot of flexibility
+           to arrange the materials they were interested in on the screen.
+           However, experience has shown that the screen tends to
+           get cluttered easily.</p>
+        <p>The current approach strikes a balance between a structure where
+           the user has full control over the psoition and size of panels and
+           a static approach where particualr types of text have a fixed position
+           on the screen. Most data on the VICAV website is now displayed in
+           collapsible panels which have a fixed size and fixed positions.
+           Users can open and close these panels, has some control over their
+           size and has full control over the order in whcih he accesses
+           particular contens. Like this, it is still possible to juxtapose
+           particular items and compare them by open them in the right order.</p>
+        <p>
+           <graphic url="vicav_panels__001.jpg"/>
+        </p>
+        <p>'Overcrowding' of the screen is avoided by a simple mechanisms that
+           collapses panels when there are more than three panels open. The collapsed
+           panels still remain on the screen and can be reopened at any time.
+           Panels which trigger queries stay open as long as they serve this
+           purpose.</p>
+        <p>
+           <graphic url="vicav_panels__002.jpg"/>
+        </p>
+        <p>You can open and close any of these panels making use of the controls on the
+           purple bar on the left side. The X in the circle closes the panel completely.
+           The arrow-dash sign allows to open and close it.</p>
+        <p>
+           <graphic url="vicav_panel_collapse.jpg"/>
+        </p>
+        <p>The relativley small display area of the panels can be enlarged by
+           clicking on "Expand Panels over Map".</p>
+        <p>
+           <graphic url="vicav_expand_panels__001.jpg"/>
+        </p>
+        <p>To make space for new queries you can "Close All Panels".</p>
+        <p>
+           <graphic url="vicav_close_all_panels__001.jpg"/>
+        </p>
+      </body>
+   </text>
+</TEI>
