@@ -2,14 +2,27 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_algiers_01">
    <teiHeader>
       <fileDesc>
-         <titleStmt>
+         
+        <titleStmt>
+            
             <title>A machine-readable profile of Algiers Arabic</title>
             <respStmt>
                <resp>document preparation</resp>
                <name xml:id="MK">Mörth, Karlheinz</name>
             </respStmt>
-            <author xml:id="aleksandra">Aleksandra Ercegovčević </author>
-         </titleStmt>
+            
+        <respStmt>
+            <name xml:id="aleksandra">Aleksandra Ercegovčević </name>
+            <resp>author</resp>
+        </respStmt>
+    
+         
+            <respStmt>
+                <resp>data management and conversion</resp>
+                <name xml:id="DS">Daniel Schopper</name>
+            </respStmt>
+        </titleStmt>
+    
          <publicationStmt>
             <publisher>ACDH-OeAW</publisher>
             <pubPlace>Vienna</pubPlace>
@@ -32,7 +45,7 @@
          </tagsDecl>
       </encodingDesc>
       
-<revisionDesc><change who="#DS" when="2025-04-14" type="minor">adding @type on tei:graphic (add_type_to_graphic.xsl)</change></revisionDesc></teiHeader>
+<revisionDesc><change who="#DS" when="2025-04-14" type="minor">adding @type on tei:graphic (add_type_to_graphic.xsl)</change><change who="#DS" when="2025-08-28" type="minor">refactoring author and editor elements to respStmt (author2respStmt.xsl)</change></revisionDesc></teiHeader>
    <text>
       <body>
          <div>

@@ -4,8 +4,18 @@
       <fileDesc>
          <titleStmt>
             <title>A machine-readable language profile of Douz Arabic</title>
-            <author xml:id="veronika">Veronika Ritt-Benmimoun</author>
-            <editor xml:id="charly" role="Technical_Editor">Karlheinz Moerth</editor>
+            <respStmt>
+               <name xml:id="veronika">Veronika Ritt-Benmimoun</name>
+               <resp>author</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="charly">Karlheinz Moerth</name>
+               <resp>Technical_Editor</resp>
+            </respStmt>
+            <respStmt>
+               <resp>data management and conversion</resp>
+               <name xml:id="DS">Daniel Schopper</name>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>ACDH-OeAW</publisher>
@@ -31,6 +41,7 @@
       </encodingDesc>
       <revisionDesc>
          <change who="#DS" when="2025-04-14" type="minor">adding @type on tei:graphic (add_type_to_graphic.xsl)</change>
+         <change who="#DS" when="2025-08-28" type="minor">refactoring author and editor elements to respStmt (author2respStmt.xsl)</change>
       </revisionDesc>
    </teiHeader>
    <text>

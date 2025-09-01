@@ -2,10 +2,23 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_abha_01">
    <teiHeader>
       <fileDesc>
-         <titleStmt>
+         
+        <titleStmt>
+            
             <title>A machine-readable profile of Abha Arabic</title>
-            <author xml:id="gunda">Gunda Kinzl</author>
-         </titleStmt>
+            
+        <respStmt>
+            <name xml:id="gunda">Gunda Kinzl</name>
+            <resp>author</resp>
+        </respStmt>
+    
+         
+            <respStmt>
+                <resp>data management and conversion</resp>
+                <name xml:id="DS">Daniel Schopper</name>
+            </respStmt>
+        </titleStmt>
+    
          <publicationStmt>
             <publisher>ACDH-OeAW</publisher>
             <pubPlace>Vienna</pubPlace>
@@ -28,7 +41,7 @@
          </tagsDecl>
       </encodingDesc>
       
-<revisionDesc><change who="#DS" when="2025-04-14" type="minor">adding @type on tei:graphic (add_type_to_graphic.xsl)</change></revisionDesc></teiHeader>
+<revisionDesc><change who="#DS" when="2025-04-14" type="minor">adding @type on tei:graphic (add_type_to_graphic.xsl)</change><change who="#DS" when="2025-08-28" type="minor">refactoring author and editor elements to respStmt (author2respStmt.xsl)</change></revisionDesc></teiHeader>
    <text>
       <body>
          <div>
