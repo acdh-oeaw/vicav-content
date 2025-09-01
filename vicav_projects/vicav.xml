@@ -12,6 +12,9 @@
 		<param>geo</param>
 		<panel type="text" target="li_vicavMission">MISSION</panel>
 		<panel type="text" target="li_vicavNews">NEWS</panel>
+        <item xml:id="li_vicavMission" target="li_vicavMission" targetType="Text">Mission</item>
+        <item xml:id="li_vicavNews" target="li_vicavNews" targetType="Text">News</item>
+        <item xml:id="navBiblGeoMarkers" target="navBiblGeoMarkers">All Bibl. Locations on Map</item>
 	</frontpage>
 	<menu>
 		<main>
@@ -79,7 +82,6 @@
 				<item xml:id="li_vicavContributeDictionary">Contribute a Dictionary/Glossary</item>
 			</dropdown>
 			<dropdown xml:id="dropdown07" title="Tools &amp; Technology">
-				<item xml:id="li_vicavDictionaryEncoding">Dictionary Encoding</item>
 				<item xml:id="li_vicavVLE">Dictionary Editor (VLE)</item>
 				<item xml:id="li_vicavArabicTools">Arabic Research Tools</item>
 				<item xml:id="li_vicavOverview_corpora_spoken">      Corpora (Spoken Varieties)</item>
@@ -125,6 +127,7 @@
          <insert_vicav_profiles/>
          <insert_vicav_corpus/>
          <insert_vicav_texts/>
+         <insert_vicav_biblio/>
       </table>
    </staticData>
 </projectConfig>

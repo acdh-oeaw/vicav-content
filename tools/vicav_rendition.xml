@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICAV Text Rendering Library</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://ror.org/03anc3s24">Austrian Academy of Sciences</publisher>
+            <publisher ref="https://ror.org/03prydq77">University of Vienna</publisher>
+            <distributor ref="https://ror.org/028bsh698">Austrian Center for Digital Humanities and Cultural Heritage</distributor>
+            <date>2025</date>
+            <address>
+               <addrLine>Bäckerstraße 13</addrLine>
+               <addrLine>1010 Vienna</addrLine>
+               <addrLine>Austria</addrLine>
+            </address>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition xml:id="i" scheme="css">font-style: italic;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight: bold;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration: underline;</rendition>
+            
+            <rendition xml:id="ellipsis" scheme="css">content: "…";</rendition>
+            <rendition xml:id="quot" scheme="css">content: '"';</rendition>
+            <rendition xml:id="apo" scheme="css">content: "'";</rendition>
+            
+            <rendition xml:id="dashBefore" scheme="css" scope="before">content: "-";</rendition>
+            <rendition xml:id="ellipsisBefore" scheme="css" scope="before">content: "…";</rendition>
+            
+            <rendition xml:id="dashAfter" scheme="css" scope="after">content: "-";</rendition>
+            <rendition xml:id="ellipsisAfter" scheme="css" scope="after">content: "…";</rendition>
+            
+            <rendition xml:id="inApo" scheme="free">single quotation marks before and after the content of this element</rendition>
+            <rendition xml:id="inQuot" scheme="free">double quotation marks before and after the content of this element</rendition>
+            <rendition xml:id="inSquareBrackets" scheme="free">square brackets before and after the content of this element</rendition>
+            <rendition xml:id="inParentheses" scheme="free">parenthesis before and after the content of this element</rendition>
+            
+            <rendition xml:id="ellipsisInSquareBrackets" scheme="css">content: "[…]";</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>This document contains the central library of rendition values used in VICAV.</p>
+      </body>
+   </text>
+</TEI>

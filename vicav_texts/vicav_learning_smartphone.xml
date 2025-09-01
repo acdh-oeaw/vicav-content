@@ -1,0 +1,41 @@
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICAV Learning</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://ror.org/03anc3s24">Austrian Academy of Sciences</publisher>
+            <publisher ref="https://ror.org/03prydq77">University of Vienna</publisher>
+            <distributor ref="https://ror.org/028bsh698">Austrian Center for Digital Humanities</distributor>
+            <date when="2018-09-12"/>
+            <address>
+               <addrLine>Bäckerstraße 13</addrLine>
+               <addrLine>1010 Vienna</addrLine>
+               <addrLine>Austria</addrLine>
+            </address>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+            </availability>
+            <idno type="VICAVCorpusID">vicavLearningSmartphone</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <head>Vocabularies on the Smartphone</head>
+        <p>One way to learn vocabularies is to use
+           <ref target="https://en.wikipedia.org/wiki/Flashcard">flashcards</ref>.
+           The ubiquitous smartphones make it possible to carry around
+           thousands of vocabulary cards in your pocket. Before we started
+           to cary around a computer in our pockets, the
+           most common way to carry them around as paper flashcards. The problem
+           with this approach is that they can take up quite some space if
+           you want to repeat cards from say 20 units of some language course
+           at least now and then. Now we only have to decide on what software to use. </p>
+      </body>
+   </text>
+</TEI>

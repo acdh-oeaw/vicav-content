@@ -1,11 +1,24 @@
-<?xml version="1.0"?>
-<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_siwa_01">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_siwa_01">
    <teiHeader>
       <fileDesc>
-         <titleStmt>
+         
+        <titleStmt>
+            
             <title>A machine-readable profile of Siwa</title>
-            <author xml:id="claudia">Claudia Laaber</author>
-         </titleStmt>
+            
+        <respStmt>
+            <name xml:id="claudia">Claudia Laaber</name>
+            <resp>author</resp>
+        </respStmt>
+    
+         
+            <respStmt>
+                <resp>data management and conversion</resp>
+                <name xml:id="DS">Daniel Schopper</name>
+            </respStmt>
+        </titleStmt>
+    
          <publicationStmt>
             <publisher>ACDH-OeAW</publisher>
             <pubPlace>Vienna</pubPlace>
@@ -28,13 +41,13 @@
          </tagsDecl>
       </encodingDesc>
       
-</teiHeader>
+<revisionDesc><change who="#DS" when="2025-04-14" type="minor">adding @type on tei:graphic (add_type_to_graphic.xsl)</change><change who="#DS" when="2025-08-28" type="minor">refactoring author and editor elements to respStmt (author2respStmt.xsl)</change></revisionDesc></teiHeader>
    <text>
       <body>
          <div>
             <head>
                <figure>
-                  <graphic url="siwa_wikimedia.jpg"/>
+                  <graphic url="siwa_wikimedia.jpg" type="thumbnail"/>
                   <head type="imgCaption" xml:space="preserve">
                         <ref target="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Siwa_Oasis%2C_sunset_on_Maraqi_%28Egypt%29.jpg/800px-Siwa_Oasis%2C_sunset_on_Maraqi_%28Egypt%29.jpg">Wikimedia</ref>
                         </head>
@@ -57,8 +70,8 @@
                </p>
             </div>
             <div type="typology">
-                    <p xml:space="preserve"></p>
-                    <p xml:space="preserve"></p>
+                    <p xml:space="preserve"/>
+                    <p xml:space="preserve"/>
                 </div>
              
             <div type="general">

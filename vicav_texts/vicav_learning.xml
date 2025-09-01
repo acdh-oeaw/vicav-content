@@ -1,0 +1,42 @@
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICAV Learning</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://ror.org/03anc3s24">Austrian Academy of Sciences</publisher>
+            <publisher ref="https://ror.org/03prydq77">University of Vienna</publisher>
+            <distributor ref="https://ror.org/028bsh698">Austrian Center for Digital Humanities</distributor>
+            <date when="2018-09-12"/>
+            <address>
+               <addrLine>Bäckerstraße 13</addrLine>
+               <addrLine>1010 Vienna</addrLine>
+               <addrLine>Austria</addrLine>
+            </address>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+            </availability>
+            <idno type="VICAVCorpusID">vicavLearning</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <head>Learning Materials</head>
+        <p>Some of the data on this website have been developed as part of
+           teaching activities being used in university courses of the Institute
+           of Oriental Studies of the University of Vienna.</p>
+        <p>
+           <ref target="text:vicavLearningSmartphone/SMARTPHONES">Vocabularies on the Smartphone</ref>
+           <lb/>
+           <ref target="text:vicavLearningPrograms/PROGRAMS">Available Programs</ref>
+           <lb/>
+           <ref target="text:vicavLearningData/VOCABULARIES - DATA">Vocabularies - Data</ref>
+        </p>
+     </body>
+   </text>
+</TEI>

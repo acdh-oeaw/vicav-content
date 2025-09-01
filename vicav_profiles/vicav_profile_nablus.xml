@@ -1,11 +1,24 @@
-<?xml version="1.0"?>
-<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_nablus_01">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_nablus_01">
   <teiHeader>
     <fileDesc>
-      <titleStmt>
+      
+        <titleStmt>
+            
         <title>A machine-readable profile of Nablus Arabic</title>
-        <author xml:id="gunda">Gunda Kinzl</author>
-      </titleStmt>
+        
+        <respStmt>
+            <name xml:id="gunda">Gunda Kinzl</name>
+            <resp>author</resp>
+        </respStmt>
+    
+      
+            <respStmt>
+                <resp>data management and conversion</resp>
+                <name xml:id="DS">Daniel Schopper</name>
+            </respStmt>
+        </titleStmt>
+    
       <publicationStmt>
         <publisher>ACDH-OeAW</publisher>
         <pubPlace>Vienna</pubPlace>
@@ -28,13 +41,13 @@
       </tagsDecl>
     </encodingDesc>
     
-</teiHeader>
+<revisionDesc><change who="#DS" when="2025-04-14" type="minor">adding @type on tei:graphic (add_type_to_graphic.xsl)</change><change who="#DS" when="2025-08-28" type="minor">refactoring author and editor elements to respStmt (author2respStmt.xsl)</change></revisionDesc></teiHeader>
   <text>
     <body>
       <div>
         <head>
           <figure>
-                  <graphic url="nablus_wikimedia.jpg"/>
+                  <graphic url="nablus_wikimedia.jpg" type="thumbnail"/>
                   <head type="imgCaption" xml:space="preserve">
                         <ref target="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nablus_12.jpg/640px-Nablus_12.jpg">Wikimedia</ref>
                         </head>
@@ -104,7 +117,7 @@
              for Bergsträsser’s data. Arnold himself heavily relies on the master’s thesis by 
              <rs type="bibl" ref="zotid:ZJLGDDIP">Annuri 1979</rs> in his comparative description of the Samaritan and Muslim majority dialect 
              of Nablus, for which he only conducted fieldwork on the former. Other characteristic 
-             features Arnold describes are a strong final imāla <hi rendition="#i">ā</hi> > <hi rendition="#i">e</hi> and the personal pronoun 
+             features Arnold describes are a strong final imāla <hi rendition="#i">ā</hi> &gt; <hi rendition="#i">e</hi> and the personal pronoun 
              1st pers. sing. <hi rendition="#i">ʾani</hi>.</p>
          <p><rs type="bibl" ref="zotid:BB6AAG8K">Abdel Jawad 1987</rs> holds that people who use the voiceless uvular 
              plosive [<hi rendition="#i">q</hi>] as a reflex of standard [<hi rendition="#i">q</hi>] are commonly marked as “Nabulsi”, 
@@ -143,5 +156,3 @@
     </body>
   </text>
 </TEI>
-
-

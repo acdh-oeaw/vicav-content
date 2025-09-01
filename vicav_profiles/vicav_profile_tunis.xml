@@ -1,12 +1,30 @@
-<?xml version="1.0"?>
-<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_tunis_01">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_tunis_01">
    <teiHeader>
       <fileDesc>
-         <titleStmt>
+         
+        <titleStmt>
+            
             <title>A machine-readable profile of Tunis Arabic</title>
-            <author xml:id="inesD">Ines Dallaji</author>
-            <editor xml:id="charly" role="Technical_Editor">Karlheinz Moerth</editor>
-         </titleStmt>
+            
+        <respStmt>
+            <name xml:id="inesD">Ines Dallaji</name>
+            <resp>author</resp>
+        </respStmt>
+    
+            
+        <respStmt>
+            <name xml:id="charly">Karlheinz Moerth</name>
+            <resp>Technical_Editor</resp>
+        </respStmt>
+    
+         
+            <respStmt>
+                <resp>data management and conversion</resp>
+                <name xml:id="DS">Daniel Schopper</name>
+            </respStmt>
+        </titleStmt>
+    
          <publicationStmt>
             <publisher>ACDH-OeAW</publisher>
             <pubPlace>Vienna</pubPlace>
@@ -29,13 +47,13 @@
          </tagsDecl>
       </encodingDesc>
       
-</teiHeader>
+<revisionDesc><change who="#DS" when="2025-04-14" type="minor">adding @type on tei:graphic (add_type_to_graphic.xsl)</change><change who="#DS" when="2025-08-28" type="minor">refactoring author and editor elements to respStmt (author2respStmt.xsl)</change></revisionDesc></teiHeader>
    <text>
       <body>
          <div>
             <head>
                <figure>
-                  <graphic url="tunis-zeituna-1988.jpg"/>
+                  <graphic url="tunis-zeituna-1988.jpg" type="thumbnail"/>
                   <head type="imgCaption">Courtesy by Stephan Procházka</head>
                </figure>
                <label>Name (English)</label>

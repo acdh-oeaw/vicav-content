@@ -1,0 +1,90 @@
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICAV Learning - Available Programs</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://ror.org/03anc3s24">Austrian Academy of Sciences</publisher>
+            <publisher ref="https://ror.org/03prydq77">University of Vienna</publisher>
+            <distributor ref="https://ror.org/028bsh698">Austrian Center for Digital Humanities</distributor>
+            <date when="2018-09-12"/>
+            <address>
+               <addrLine>Bäckerstraße 13</addrLine>
+               <addrLine>1010 Vienna</addrLine>
+               <addrLine>Austria</addrLine>
+            </address>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+            </availability>
+            <idno type="VICAVCorpusID">vicavLearningPrograms</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   <text>
+      <body>
+        <head>Available Programs</head>
+        <p>There are several programs that help you repeat vocabularies on the
+           smartphone. To get an overview of available tools have a look at
+           <ref target="https://en.wikipedia.org/wiki/List_of_flashcard_software">Wikipedia</ref>.
+           We provide some data for <hi rend="italic">ANKI</hi> and
+           <hi rend="italic">Flashcards Deluxe</hi>.
+        </p>
+        <div>
+           <head>ANKI</head>
+           <p>... is a spaced repetition flashcard program. "Anki" is Japanese
+              for <hi rend="italic">memorization</hi>. You can find details about
+              the program on <ref target="https://en.wikipedia.org/wiki/Anki_(software)">
+                 Wikipedia</ref>.</p>
+           <p>You can download the program from the <ref target="https://apps.ankiweb.net/">
+                 AnkiWeb webiste</ref>. If you want to synch your learning progress over the
+              internet you might consider registering with ankiweb.</p>
+           <p>As a quick start we provide a template "deck" with all the required settings
+              called <ref target="/static/anki/Empty_4_by_4.apkg">Empty
+                 4 by 4</ref>. By importing this template into Anki you get
+              <list>
+                 <item>the <hi rend="italic">andika
+                       font</hi> installed (doesn't show on OS X though) and </item>
+                 <item>a "note" design with 4 fields
+                    on the front side and 4 on the back side of a card. </item>
+              </list>
+              After the setup you can start importing vocabulary data.</p>
+        </div>
+        <div>
+           <head>Flashcards Deluxe</head>
+           <p>The program for is available for iOS and for Android.
+              <ref target="http://orangeorapple.com/Flashcards/">Their homepage</ref> has
+              some advice on how to use the software in different scenarios.</p>
+           <p>You can use Dropbox or Google Drive as a cloud storage to quickly up-
+              and download new vocabularies and keep a copy of your learning progress
+              on the internet.</p>
+           <list>
+              <item>Open Flashcards Deluxe and touch the + sign on top of the screen.</item>
+              <item>Choose Dropbox or Google Drive and supply your respective user credentials.</item>
+              <item>Flashcards Deluxe creates a folder in either cloud storage that will
+                 contain the vocabulary data and your progress statistics.</item>
+           </list>
+           <p>For iOS there fortunately is no need to do any further Setup. All characters
+              are present in the fonts preinstalled on every iOS device. With the fonts installed
+              on Android, you will usually not be able to see all the letters used in the
+              VICAV or DMG transcriptions. However Flashcards deluxe can use a font provided by
+              the user. A font that can be used is the <hi rend="italic">Andika</hi> font provided
+              by <ref target="https://software.sil.org/andika/">SIL</ref>. </p>
+           <list>
+              <item>Download and unzip it.</item>
+              <item>The file Andika-R.ttf should go into the following directory on
+                 your phone: <lb/>
+                 <hi rend="italic">/Android/data/com.orangeorapple.flashcards/files/fonts</hi>
+              </item>
+              <item>If you only try the demo the folder is: <lb/>
+                 <hi rend="italic">/Android/data//com.orangeorapple.flashcardslite/files/fonts</hi>
+              </item>
+              <item>If <hi rend="italic">Flashcards Deluxe</hi> is running you have to restart it.</item>
+           </list>
+        </div>
+      </body>
+   </text>
+</TEI>

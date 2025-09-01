@@ -1,11 +1,24 @@
-<?xml version="1.0"?>
-<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_akkon_01">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_akkon_01">
    <teiHeader>
       <fileDesc>
-         <titleStmt>
+         
+        <titleStmt>
+            
             <title>A machine-readable profile of Akko/Acre Arabic</title>
-            <author xml:id="claudia_laaber">Claudia Laaber</author>
-         </titleStmt>
+            
+        <respStmt>
+            <name xml:id="claudia_laaber">Claudia Laaber</name>
+            <resp>author</resp>
+        </respStmt>
+    
+         
+            <respStmt>
+                <resp>data management and conversion</resp>
+                <name xml:id="DS">Daniel Schopper</name>
+            </respStmt>
+        </titleStmt>
+    
          <publicationStmt>
             <publisher>ACDH-OeAW</publisher>
             <pubPlace>Vienna</pubPlace>
@@ -28,13 +41,13 @@
          </tagsDecl>
       </encodingDesc>
       
-</teiHeader>
+<revisionDesc><change who="#DS" when="2025-04-14" type="minor">adding @type on tei:graphic (add_type_to_graphic.xsl)</change><change who="#DS" when="2025-08-28" type="minor">refactoring author and editor elements to respStmt (author2respStmt.xsl)</change></revisionDesc></teiHeader>
    <text>
       <body>
          <div>
             <head>
                <figure>
-                  <graphic url="akkon_01.jpg"/>
+                  <graphic url="akkon_01.jpg" type="thumbnail"/>
                   <head type="imgCaption">Stephan Prochazka 2003</head>
                </figure>
                <label>Name (English)</label>

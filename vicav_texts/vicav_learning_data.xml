@@ -1,0 +1,204 @@
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICAV Learning Vocabularies Data</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://ror.org/03anc3s24">Austrian Academy of Sciences</publisher>
+            <publisher ref="https://ror.org/03prydq77">University of Vienna</publisher>
+            <distributor ref="https://ror.org/028bsh698">Austrian Center for Digital Humanities</distributor>
+            <date when="2018-09-12"/>
+            <address>
+               <addrLine>Bäckerstraße 13</addrLine>
+               <addrLine>1010 Vienna</addrLine>
+               <addrLine>Austria</addrLine>
+            </address>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+            </availability>
+            <idno type="VICAVCorpusID">vicavLearningData</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="flashcards" matchPattern="(+),(.+),(.+)" replacementPattern="https://cs.acdh.oeaw.ac.at/modules/fcs-aggregator/switch.php?version=1.2&amp;operation=searchRetrieve&amp;query=unit=$1&amp;x-context=$2&amp;startRecord=1&amp;maximumRecords=1000&amp;x-format=$3&amp;x-dataview=kwic,title';"/>
+         </listPrefixDef>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <head>Vocabularies (Data)</head>
+        <p>We provide some data in support of particular language courses
+           being taught at the University of Vienna. For the time being, we
+           only have flashcards for German.</p>
+        <p>After you did the initial steps (refer to the Tools menu above
+           if you haven't) you only have to download the dictionary data that
+           corresponds to the vocabulary used in the different language
+           courses of the Institut for Near Eastern Studies of the University
+           of Vienna. We provide the data in formats suitable for importing
+           and using it in Anki or Flashcards Deluxe. </p>
+        <div>
+           <head>140037 UE Arabischer Dialekt - Kurs F: Konversation / Texte 2: Syrisch-Arabisch der Universität Wien</head>
+           <p>These flashcards support the textbook of Syrian Arabic by Rima Aldoukhi, Stephan Procházka, Anna Telič und Narine Grigoryan:
+              <hi rend="italic">Lehrbuch des Syrisch-Arabischen 1: Praxisnaher Einstieg in den Dialekt von Damaskus. – 1. Auflage, 2014 und 2. Auflage, 2016.</hi>
+              and
+              <hi rend="italic">Lehrbuch des Syrisch-Arabischen 2: Damaszenisch für Fortgeschrittene. 1. Auflage, 2014.</hi>
+           </p>
+           <p>
+              ANKI: Lesson
+              <ref target="flashcards:apc_eng_002/1/csv-anki">1</ref>,
+              <ref target="flashcards:apc_eng_002/2/csv-anki">2</ref>,
+              <ref target="flashcards:apc_eng_002/3/csv-anki">3</ref>,
+              <ref target="flashcards:apc_eng_002/4/csv-anki">4</ref>,
+              <ref target="flashcards:apc_eng_002/5/csv-anki">5</ref>,
+              <ref target="flashcards:apc_eng_002/6/csv-anki">6</ref>,
+              <ref target="flashcards:apc_eng_002/7/csv-anki">7</ref>,
+              <ref target="flashcards:apc_eng_002/8/csv-anki">8</ref>,
+              <ref target="flashcards:apc_eng_002/9/csv-anki">9</ref>,
+              <ref target="flashcards:apc_eng_002/10/csv-anki">10</ref>,
+              <ref target="flashcards:apc_eng_002/11/csv-anki">11</ref>,
+              <ref target="flashcards:apc_eng_002/12/csv-anki">12</ref>,
+              <ref target="flashcards:apc_eng_002/13/csv-anki">13</ref>,
+              <ref target="flashcards:apc_eng_002/14/csv-anki">14</ref>,
+              <ref target="flashcards:apc_eng_002/15/csv-anki">15</ref>,
+              <ref target="flashcards:apc_eng_002/16/csv-anki">16</ref>,
+              <ref target="flashcards:apc_eng_002/17/csv-anki">17</ref>,
+              <ref target="flashcards:apc_eng_002/18/csv-anki">18</ref>,
+              <ref target="flashcards:apc_eng_002/19/csv-anki">19</ref>,
+              <ref target="flashcards:apc_eng_002/20/csv-anki">20</ref>,
+              <ref target="flashcards:apc_eng_002/21/csv-anki">21</ref>,
+              <ref target="flashcards:apc_eng_002/22/csv-anki">22</ref>,
+              <ref target="flashcards:apc_eng_002/23/csv-anki">23</ref>,
+              <ref target="flashcards:apc_eng_002/24/csv-anki">24</ref>,
+              <ref target="flashcards:apc_eng_002/25/csv-anki">25</ref>
+           </p>
+           <p>
+              Flashcards Deluxe: Lesson
+              <ref target="flashcards:apc_eng_002/1/csv-fcdeluxe">1</ref>,
+              <ref target="flashcards:apc_eng_002/2/csv-fcdeluxe">2</ref>,
+              <ref target="flashcards:apc_eng_002/3/csv-fcdeluxe">3</ref>,
+              <ref target="flashcards:apc_eng_002/4/csv-fcdeluxe">4</ref>,
+              <ref target="flashcards:apc_eng_002/5/csv-fcdeluxe">5</ref>,
+              <ref target="flashcards:apc_eng_002/6/csv-fcdeluxe">6</ref>,
+              <ref target="flashcards:apc_eng_002/7/csv-fcdeluxe">7</ref>,
+              <ref target="flashcards:apc_eng_002/8/csv-fcdeluxe">8</ref>,
+              <ref target="flashcards:apc_eng_002/9/csv-fcdeluxe">9</ref>,
+              <ref target="flashcards:apc_eng_002/10/csv-fcdeluxe">10</ref>,
+              <ref target="flashcards:apc_eng_002/11/csv-fcdeluxe">11</ref>,
+              <ref target="flashcards:apc_eng_002/12/csv-fcdeluxe">12</ref>,
+              <ref target="flashcards:apc_eng_002/13/csv-fcdeluxe">13</ref>,
+              <ref target="flashcards:apc_eng_002/14/csv-fcdeluxe">14</ref>,
+              <ref target="flashcards:apc_eng_002/15/csv-fcdeluxe">15</ref>,
+              <ref target="flashcards:apc_eng_002/16/csv-fcdeluxe">16</ref>,
+              <ref target="flashcards:apc_eng_002/17/csv-fcdeluxe">17</ref>,
+              <ref target="flashcards:apc_eng_002/18/csv-fcdeluxe">18</ref>,
+              <ref target="flashcards:apc_eng_002/19/csv-fcdeluxe">19</ref>,
+              <ref target="flashcards:apc_eng_002/20/csv-fcdeluxe">20</ref>,
+              <ref target="flashcards:apc_eng_002/21/csv-fcdeluxe">21</ref>,
+              <ref target="flashcards:apc_eng_002/22/csv-fcdeluxe">22</ref>,
+              <ref target="flashcards:apc_eng_002/23/csv-fcdeluxe">23</ref>,
+              <ref target="flashcards:apc_eng_002/24/csv-fcdeluxe">24</ref>,
+              <ref target="flashcards:apc_eng_002/25/csv-fcdeluxe">25</ref>
+           </p>
+        </div>
+        <div>
+           <head>140292 VO Arabischer Dialekt - Kurs A: Tunesisch-Arabisch + 140029 UE Arabischer Dialekt -
+              Kurs B: Tunesisch-Arabisch</head>
+           <p>These flashcards support the teaching materials of Tunisian Arabic A and B,
+              revised version 2014/15, by Veronika Ritt-Benmimoun in cooperation with
+              Emna Labidi, Mabrouka Rayachi and Ines Dallaji.
+           </p>
+           <p>
+              ANKI: Lesson
+              <ref target="flashcards:aeb_eng_001__v001/1/csv-anki">1</ref>,
+              <ref target="flashcards:aeb_eng_001__v001/2/csv-anki">2</ref>,
+              <ref target="flashcards:aeb_eng_001__v001/3/csv-anki">3</ref>,
+              <ref target="flashcards:aeb_eng_001__v001/4/csv-anki">4</ref>,
+              <ref target="flashcards:aeb_eng_001__v001/5/csv-anki">5</ref>,
+              <ref target="flashcards:aeb_eng_001__v001/6/csv-anki">6</ref>,
+              <ref target="flashcards:aeb_eng_001__v001/7/csv-anki">7</ref>
+           </p>
+           <p>
+              Flashcards Deluxe: Lesson
+              <ref target="flashcards:aeb_eng_001__v001/1/csv-fcdeluxe">1</ref>,
+              <ref target="flashcards:aeb_eng_001__v001/2/csv-fcdeluxe">2</ref>,
+              <ref target="flashcards:aeb_eng_001__v001/3/csv-fcdeluxe">3</ref>,
+              <ref target="flashcards:aeb_eng_001__v001/4/csv-fcdeluxe">4</ref>,
+              <ref target="flashcards:aeb_eng_001__v001/5/csv-fcdeluxe">5</ref>,
+              <ref target="flashcards:aeb_eng_001__v001/6/csv-fcdeluxe">6</ref>,
+              <ref target="flashcards:aeb_eng_001__v001/7/csv-fcdeluxe">7</ref>
+           </p>
+        </div>
+        <div>
+           <head>140028 VO Arabischer Dialekt - Kurs C: Tunesisch-Arabisch + 140029 UE Arabischer Dialekt - Kurs D: Tunesisch Arabisch</head>
+           <p>These flashcards support the teaching materials of Tunisian Arabic C and D,
+              revised version 15, by Veronika Ritt-Benmimoun in cooperation with
+              Emna Labidi, Mabrouka Rayachi and Ines Dallaji.
+           </p>
+           <p>
+              ANKI: Lesson
+              <ref target="flashcards:aeb_eng_001__v001/8/csv-anki">8</ref>,
+              <ref target="flashcards:aeb_eng_001__v001/9/csv-anki">9</ref>,
+              <ref target="flashcards:aeb_eng_001__v001/10/csv-anki">10</ref>,
+              <ref target="flashcards:aeb_eng_001__v001/11/csv-anki">11</ref>,
+              <ref target="flashcards:aeb_eng_001__v001/12/csv-anki">12</ref>
+
+           </p>
+           <p>
+              Flashcards Deluxe: Lesson
+              <ref target="flashcards:aeb_eng_001__v001/8/csv-fcdeluxe">8</ref>,
+              <ref target="flashcards:aeb_eng_001__v001/9/csv-fcdeluxe">9</ref>,
+              <ref target="flashcards:aeb_eng_001__v001/10/csv-fcdeluxe">10</ref>,
+              <ref target="flashcards:aeb_eng_001__v001/11/csv-fcdeluxe">11</ref>,
+              <ref target="flashcards:aeb_eng_001__v001/12/csv-fcdeluxe">12</ref>
+           </p>
+        </div>
+        <div>
+           <head>140270 VO STEOP: OR2b/AR1 Einführung in das Arabische I</head>
+           <p>
+              ANKI: Lesson
+              <ref target="flashcards:ar_de__v001/1/csv-anki">1</ref>,
+              <ref target="flashcards:ar_de__v001/2/csv-anki">2</ref>,
+              <ref target="flashcards:ar_de__v001/3/csv-anki">3</ref>,
+              <ref target="flashcards:ar_de__v001/4/csv-anki">4</ref>,
+              <ref target="flashcards:ar_de__v001/5/csv-anki">5</ref>,
+              <ref target="flashcards:ar_de__v001/6/csv-anki">6</ref>
+           </p>
+           <p>
+              Flashcards Deluxe: Lesson
+              <ref target="flashcards:ar_de__v001/1/csv-fcdeluxe">1</ref>,
+              <ref target="flashcards:ar_de__v001/2/csv-fcdeluxe">2</ref>,
+              <ref target="flashcards:ar_de__v001/3/csv-fcdeluxe">3</ref>,
+              <ref target="flashcards:ar_de__v001/4/csv-fcdeluxe">4</ref>,
+              <ref target="flashcards:ar_de__v001/5/csv-fcdeluxe">5</ref>,
+              <ref target="flashcards:ar_de__v001/6/csv-fcdeluxe">6</ref>
+           </p>
+        </div>
+        <div>
+           <head>140426 VO+UE Arabisch B + 140027 UE Arabisch C (und Parallelversanstaltungen)</head>
+           <p>
+              ANKI: Lesson
+              <ref target="flashcards:ar_de__v001/7/csv-anki">7</ref>,
+              <ref target="flashcards:ar_de__v001/8/csv-anki">8</ref>,
+              <ref target="flashcards:ar_de__v001/9/csv-anki">9</ref>,
+              <ref target="flashcards:ar_de__v001/10/csv-anki">10</ref>,
+              <ref target="flashcards:ar_de__v001/11/csv-anki">11</ref>
+
+           </p>
+           <p>
+              Flashcards Deluxe: Lesson
+              <ref target="flashcards:ar_de__v001/7/csv-fcdeluxe">7</ref>,
+              <ref target="flashcards:ar_de__v001/8/csv-fcdeluxe">8</ref>,
+              <ref target="flashcards:ar_de__v001/9/csv-fcdeluxe">9</ref>,
+              <ref target="flashcards:ar_de__v001/10/csv-fcdeluxe">10</ref>,
+              <ref target="flashcards:ar_de__v001/11/csv-fcdeluxe">11</ref>
+
+           </p>
+        </div>
+      </body>
+   </text>
+</TEI>

@@ -1,11 +1,24 @@
-<?xml version="1.0"?>
-<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xml:id="profile_ramallah_01">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="profile_ramallah_01">
   <teiHeader>
     <fileDesc>
-      <titleStmt>
+      
+        <titleStmt>
+            
         <title>A machine-readable profile of Ramallah Arabic</title>
-        <author xml:id="gunda">Gunda Kinzl</author>
-      </titleStmt>
+        
+        <respStmt>
+            <name xml:id="gunda">Gunda Kinzl</name>
+            <resp>author</resp>
+        </respStmt>
+    
+      
+            <respStmt>
+                <resp>data management and conversion</resp>
+                <name xml:id="DS">Daniel Schopper</name>
+            </respStmt>
+        </titleStmt>
+    
       <publicationStmt>
         <publisher>ACDH-OeAW</publisher>
         <pubPlace>Vienna</pubPlace>
@@ -28,13 +41,13 @@
       </tagsDecl>
     </encodingDesc>
     
-</teiHeader>
+<revisionDesc><change who="#DS" when="2025-04-14" type="minor">adding @type on tei:graphic (add_type_to_graphic.xsl)</change><change who="#DS" when="2025-08-28" type="minor">refactoring author and editor elements to respStmt (author2respStmt.xsl)</change></revisionDesc></teiHeader>
   <text>
     <body>
       <div>
         <head>
           <figure>
-            <graphic url="ramallah_gunda_2019.jpg"/>
+            <graphic url="ramallah_gunda_2019.jpg" type="thumbnail"/>
             <head type="imgCaption">Courtesy by Gunda Kinzl, 2019</head>
           </figure>
           <label>Name (English)</label>
@@ -89,7 +102,7 @@
               in 1948, when the State of Israel was founded and many Arabs were forced to leave 
               their homes. The deeper layers of dialect in Ramallah are probably similar to the 
               dialects of the villages surrounding it. One of the distinctive features of the 
-              urban type is the final Imāla of the feminine ending <hi rendition="#i">(-a > -e)</hi>. The pronominal 
+              urban type is the final Imāla of the feminine ending <hi rendition="#i">(-a &gt; -e)</hi>. The pronominal 
               suffix 3rd person sing. masc. is <hi rendition="#i">-e</hi> in Ramallah, but not raised in the villages 
               (e.g. <hi rendition="#i">bēte</hi> “his house” in Ramallah, but <hi rendition="#i">bēta</hi> in the villages). According to 
               <rs type="bibl" ref="zotid:DFAEW2X9">Seeger 2009</rs>, this could be a remainder of a communal Christian dialect in the area. 

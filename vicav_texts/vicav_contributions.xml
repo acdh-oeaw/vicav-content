@@ -1,0 +1,43 @@
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICAV Contributing</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://ror.org/03anc3s24">Austrian Academy of Sciences</publisher>
+            <publisher ref="https://ror.org/03prydq77">University of Vienna</publisher>
+            <distributor ref="https://ror.org/028bsh698">Austrian Center for Digital Humanities</distributor>
+            <date when="2018-09-12"/>
+            <address>
+               <addrLine>Bäckerstraße 13</addrLine>
+               <addrLine>1010 Vienna</addrLine>
+               <addrLine>Austria</addrLine>
+            </address>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+            </availability>
+            <idno type="VICAVCorpusID">vicavExplBar_Contributions</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <head>Contributing</head>
+        <p>VICAV is a group effort. Your support is highly welcome. Write a
+           <hi rend="italic">profile</hi>, write a <hi rend="italic">sample text</hi>,
+           share your <hi rend="italic">lexical data</hi> or help us in
+           improving the <hi rend="italic">bibliography</hi>.</p>
+        <p>We highly value our cooperators and do our best to credit them. The
+           author of a text is always mentioned in all the <hi rend="italic">profiles</hi>,
+           the <hi rend="italic">sample texts</hi>, <hi rend="italic">feature
+              lists</hi> and <hi rend="italic">dictionary entries</hi>. Unfortunately,
+           we did not find a way to preserve who did what in ZOTERO while transfering
+           data not the VICAV database. However, your name will still be mentioned
+           in the <ref target="text:vicavContributors/CONTRIBUTORS">list of contributors</ref>.</p>
+     </body>
+   </text>
+</TEI>
