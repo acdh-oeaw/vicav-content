@@ -5,16 +5,16 @@
          <titleStmt>
             <title>A machine-readable profile of Taizz Arabic</title>
             <respStmt>
-               <name xml:id="Benjamin">Benjamin Suter</name>
+               <persName xml:id="Benjamin">Benjamin Suter</persName>
                <resp>author</resp>
             </respStmt>
             <respStmt>
-               <name xml:id="charly">Karlheinz Moerth</name>
+               <persName xml:id="charly">Karlheinz Moerth</persName>
                <resp>Technical_Editor</resp>
             </respStmt>
             <respStmt>
                <resp>data management and conversion</resp>
-               <name xml:id="DS">Daniel Schopper</name>
+               <persName xml:id="DS">Daniel Schopper</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -42,6 +42,7 @@
       <revisionDesc>
          <change who="#DS" when="2025-04-14" type="minor">adding @type on tei:graphic (add_type_to_graphic.xsl)</change>
          <change who="#DS" when="2025-08-28" type="minor">refactoring author and editor elements to respStmt (author2respStmt.xsl)</change>
+         <change who="#DS" when="2025-09-02+02:00" type="minor">renaming respStmt/name to respStmt/persName as expected of profile_1.xsl</change>
       </revisionDesc>
    </teiHeader>
    <text>

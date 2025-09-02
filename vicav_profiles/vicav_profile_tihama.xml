@@ -8,14 +8,14 @@
             <title>A machine-readable profile of  Arabic</title>
             
         <respStmt>
-            <name>Stephan Procházka</name>
+            <persName>Stephan Procházka</persName>
             <resp>author</resp>
         </respStmt>
     
          
             <respStmt>
                 <resp>data management and conversion</resp>
-                <name xml:id="DS">Daniel Schopper</name>
+                <persName xml:id="DS">Daniel Schopper</persName>
             </respStmt>
         </titleStmt>
     
@@ -46,7 +46,7 @@
          </listPrefixDef>
       </encodingDesc>
       
-<revisionDesc><change who="#DS" when="2025-04-14" type="minor">adding @type on tei:graphic (add_type_to_graphic.xsl)</change><change who="#DS" when="2025-08-28" type="minor">refactoring author and editor elements to respStmt (author2respStmt.xsl)</change></revisionDesc></teiHeader>
+<revisionDesc><change who="#DS" when="2025-04-14" type="minor">adding @type on tei:graphic (add_type_to_graphic.xsl)</change><change who="#DS" when="2025-08-28" type="minor">refactoring author and editor elements to respStmt (author2respStmt.xsl)</change><change who="#DS" when="2025-09-02+02:00" type="minor">renaming respStmt/name to respStmt/persName as expected of profile_1.xsl</change></revisionDesc></teiHeader>
    <text>
       <body>
          <div>
