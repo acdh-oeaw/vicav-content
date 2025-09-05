@@ -500,6 +500,17 @@ Example (Eng): cit[@type="example"]/cit[@type="translation"][@xml:lang="en"]/quo
       </div>
    </xsl:template>
 </xsl:stylesheet>
+<!-- Get the XML to be transformed to some other format:
+  curl 'http://localhost:8984/restvle/dicts/dc_ar_en_publ/entries?q=sense=wall&format=xml' | jq -r '._embedded.entries[0].entry' -->
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:_="urn:_">
+  <_:output method="xml+identity"/>
+  <xsl:output method="xml" indent="no"/>
+  <xsl:template match="@*|*|processing-instruction()|comment()">
+    <xsl:copy>
+      <xsl:apply-templates select="*|@*|text()|processing-instruction()|comment()"/>
+    </xsl:copy>
+  </xsl:template>
+</xsl:stylesheet>
 </entryStyle>
 <mainLangLabel>ar</mainLangLabel>
 <multipleEntriesStyle><xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
@@ -541,6 +552,17 @@ Example (Eng): cit[@type="example"]/cit[@type="translation"][@xml:lang="en"]/quo
             
         </html>
     </xsl:template>
+</xsl:stylesheet>
+<!-- Get the XML to be transformed to some other format:
+  curl 'http://localhost:8984/restvle/dicts/dc_ar_en_publ/entries?q=sense=wall&format=xml' | jq -r '._embedded.entries[0].entry' -->
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:_="urn:_">
+  <_:output method="xml+identity"/>
+  <xsl:output method="xml" indent="no"/>
+  <xsl:template match="@*|*|processing-instruction()|comment()">
+    <xsl:copy>
+      <xsl:apply-templates select="*|@*|text()|processing-instruction()|comment()"/>
+    </xsl:copy>
+  </xsl:template>
 </xsl:stylesheet></multipleEntriesStyle>
 <queryTemplates>
 

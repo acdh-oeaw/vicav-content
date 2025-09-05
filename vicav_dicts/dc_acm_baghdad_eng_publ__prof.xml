@@ -458,6 +458,17 @@ Example (Fr):      cit[@type="example"]/cit[@type="translation"][@xml:lang="fr"]
       </div>
    </xsl:template>
 </xsl:stylesheet>
+<!-- Get the XML to be transformed to some other format:
+  curl 'http://localhost:8984/restvle/dicts/dc_acm_baghdad_eng_publ/entries?q=sense=wall&format=xml' | jq -r '._embedded.entries[0].entry' -->
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:_="urn:_">
+  <_:output method="xml+identity"/>
+  <xsl:output method="xml" indent="no"/>
+  <xsl:template match="@*|*|processing-instruction()|comment()">
+    <xsl:copy>
+      <xsl:apply-templates select="*|@*|text()|processing-instruction()|comment()"/>
+    </xsl:copy>
+  </xsl:template>
+</xsl:stylesheet>
 </entryStyle>
 <lemmaXPath>//tei:form[@type="lemma"]/tei:orth[@xml:lang="ar-acm-x-baghdad-vicav"] | //tei:form[@type="multiWordUnit"]/tei:orth[@xml:lang="ar-acm-x-baghdad-vicav"] | //tei:cit[@type="example"]/tei:quote[@xml:lang="ar-acm-x-baghdad-vicav"]</lemmaXPath>
 <mainLangLabel>ar-acm-x-baghdad-vicav</mainLangLabel>
