@@ -15,7 +15,12 @@
 
 cd $(dirname $0)
 
-TEMP=$(getopt -o 'cn' --long 'from-curation,no-ssh' -n $0 -- "$@")
+get_opt_path=
+if [ "$(uname -s)" == 'Darwin' ]; then
+   get_opt_path="$(brew --prefix gnu-getopt)/bin/"
+fi
+
+TEMP=$(${get_opt_path}getopt -o 'cn' --long 'from-curation,no-ssh' -n $0 -- "$@")
 
 if [ $? -ne 0 ]; then
         echo 'Terminating...' >&2
