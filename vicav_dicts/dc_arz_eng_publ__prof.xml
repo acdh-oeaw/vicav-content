@@ -493,14 +493,62 @@ Example (Fr):         cit[@type="example"]/cit[@type="translation"][@xml:lang="f
 </xsl:stylesheet>
 <!-- Get the XML to be transformed to some other format:
   curl 'http://localhost:8984/restvle/dicts/dc_arz_eng_publ/entries?q=sense=wall&format=xml' | jq -r '._embedded.entries[0].entry' -->
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:_="urn:_">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:_="urn:_" exclude-result-prefixes="_">
   <_:output method="xml+identity"/>
   <xsl:output method="xml" indent="no"/>
+  <xsl:param name="referencedEntriesSerialized"/>
+  <xsl:variable name="referencedEntries" select="parse-xml-fragment($referencedEntriesSerialized)"/>
+  <xsl:template match="/">
+    <xsl:choose>
+      <xsl:when test="exists($referencedEntries/*)">
+        <multipleParts>
+        <xmlSource>
+        <xsl:apply-templates/>
+        </xmlSource>
+        <param_referencedEntriesSerialized>
+        <xsl:apply-templates select="$referencedEntries/*"/>
+        </param_referencedEntriesSerialized>
+        </multipleParts>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-templates/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
   <xsl:template match="@*|*|processing-instruction()|comment()">
     <xsl:copy>
       <xsl:apply-templates select="*|@*|text()|processing-instruction()|comment()"/>
     </xsl:copy>
   </xsl:template>
+</xsl:stylesheet>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:math="http://www.w3.org/2005/xpath-functions/math"
+    xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:_="urn:_"
+    exclude-result-prefixes="xs math xd tei _"
+    version="3.0">
+    <xsl:import href="xml-to-basex-json-xml.xsl"/>
+    <xsl:param name="referencedEntriesSerialized"/>
+    <xsl:variable name="referencedEntries" select="parse-xml-fragment($referencedEntriesSerialized)"/>
+    <_:output method="json"/>
+    <xsl:output method="xml" indent="false" omit-xml-declaration="true"/>    <xsl:template match="tei:div">
+        <xsl:apply-templates select="* except (tei:entry, tei:cit)"/>
+        <xsl:apply-templates select="(tei:entry, tei:cit)" mode="tei-cit-or-entry"/>
+    </xsl:template>
+    
+    <xsl:template match="tei:entry" mode="tei-cit-or-entry">
+        <entry type="array">
+            <xsl:apply-templates select="." mode="sequence"/>
+        </entry>
+    </xsl:template>
+    
+    <xsl:template match="tei:cit" mode="tei-cit-or-entry">
+        <cit type="array">
+            <xsl:apply-templates select="." mode="sequence"/>
+        </cit>
+    </xsl:template>
 </xsl:stylesheet>
 </entryStyle>
 <lemmaXPath>//tei:form[@type="lemma"]/tei:orth[@xml:lang="ar-arz-x-cairo-vicav"] || //tei:form[@type="multiWordUnit"]/tei:orth[@xml:lang="ar-arz-x-cairo-vicav"] || //tei:cit[@type="example"]/tei:quote[@xml:lang="ar-arz-x-cairo-vicav"]</lemmaXPath>
