@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stats>
+   <dict fn="dc_acm_baghdad_eng_001.xml">
+      <title xmlns="http://www.tei-c.org/ns/1.0">A Machine-readble Digital Dictionary of Baghdad Arabic</title>
+      <lemmas>1244</lemmas>
+      <wordforms>1208</wordforms>
+      <translations>4664</translations>
+      <languages>en de es</languages>
+   </dict>
+   <lemmas/>
+   <dict fn="dc_apc_eng_publ.xml">
+      <title xmlns="http://www.tei-c.org/ns/1.0">A digital dictionary of Damascus Arabic</title>
+      <lemmas>2363</lemmas>
+      <wordforms>2499</wordforms>
+      <translations>10893</translations>
+      <languages>en de es ee</languages>
+   </dict>
+   <lemmas/>
+   <dict fn="dc_ar_en_publ.xml">
+      <title xmlns="http://www.tei-c.org/ns/1.0">A Machine-readable Dictionary of Modern Standard Arabic</title>
+      <lemmas>2581</lemmas>
+      <wordforms>2602</wordforms>
+      <translations>10628</translations>
+      <languages>en de la em se</languages>
+   </dict>
+   <lemmas/>
+   <dict fn="dc_arz_eng_publ.xml">
+      <title xmlns="http://www.tei-c.org/ns/1.0">A machine-readable dictionary of Egyptian Arabic</title>
+      <lemmas>2013</lemmas>
+      <wordforms>2614</wordforms>
+      <translations>6867</translations>
+      <languages>en de</languages>
+   </dict>
+   <lemmas/>
+   <dict fn="dc_tunico.xml">
+      <title xmlns="http://www.tei-c.org/ns/1.0">A Digital Dictionary of Tunis Arabic</title>
+      <lemmas>7133</lemmas>
+      <wordforms>10014</wordforms>
+      <translations>38636</translations>
+      <languages>en fr de f er dfr</languages>
+   </dict>
+   <lemmas/>
+</stats>
