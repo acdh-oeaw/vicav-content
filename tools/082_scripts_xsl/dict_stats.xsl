@@ -22,7 +22,7 @@
                 <xsl:variable name="entries" select="$doc//tei:entry"/>
                 <xsl:variable name="lemmas" select="$doc//tei:form[@type='lemma']"/>
                 <xsl:variable name="mwus" select="$doc//tei:form[@type='multiWordUnit']"/>
-                <xsl:variable name="wordforms" select="$doc//tei:form[@type][@type!='lemma']"/>
+                <xsl:variable name="wordforms" select="$doc//tei:form[@type] except ($lemmas, $mwus)"/>
                 <xsl:variable name="examples" select="$doc//tei:cit[@type='example']"/>
                 <xsl:variable name="translations" select="$doc//tei:cit[@type='translation']"/>
                 <xsl:variable name="languages" select="distinct-values($doc//tei:cit[@type='translation']/@xml:lang)"/>
