@@ -19,20 +19,31 @@
                 <xsl:variable name="fn" select="."/>
                 <xsl:variable name="doc" select="doc($fn)"/>
                 <xsl:variable name="title" select="$doc//tei:teiHeader//tei:titleStmt/tei:title"/>
+                <xsl:variable name="entries" select="$doc//tei:entry"/>
                 <xsl:variable name="lemmas" select="$doc//tei:form[@type='lemma']"/>
+                <xsl:variable name="mwus" select="$doc//tei:form[@type='multiWordUnit']"/>
                 <xsl:variable name="wordforms" select="$doc//tei:form[@type][@type!='lemma']"/>
+                <xsl:variable name="examples" select="$doc//tei:cit[@type='example']"/>
                 <xsl:variable name="translations" select="$doc//tei:cit[@type='translation']"/>
                 <xsl:variable name="languages" select="distinct-values($doc//tei:cit[@type='translation']/@xml:lang)"/>
+                <xsl:variable name="pubDate" select="$doc//tei:publicationStmt/tei:date"/>
                 <dict fn="{$fn}">
-                    <xsl:sequence select="$title"/>
+                    <xsl:attribute name="n">
+                        <xsl:value-of select="string-join((count($entries), count($examples), count($wordforms), count($translations)),' / ')"/>
+                        <xsl:text>  </xsl:text>
+                        <xsl:value-of select="string-join(sort($languages),', ')"/>
+                        <xsl:text>  </xsl:text>
+                        <xsl:value-of select="$pubDate/@when"/>
+                    </xsl:attribute>
+                    <xsl:sequence select="$title,$pubDate"/>
+                    <entries><xsl:value-of select="count($entries)"/></entries>
                     <lemmas><xsl:value-of select="count($lemmas)"/></lemmas>
+                    <mwus><xsl:value-of select="count($mwus)"/></mwus>
                     <wordforms><xsl:value-of select="count($wordforms)"/></wordforms>
                     <translations><xsl:value-of select="count($translations)"/></translations>
+                    <examples><xsl:value-of select="count($examples)"/></examples>
                     <languages><xsl:value-of select="$languages"/></languages>
                 </dict>
-                <lemmas>
-                    
-                </lemmas>
             </xsl:for-each>
         </stats>
     </xsl:template>

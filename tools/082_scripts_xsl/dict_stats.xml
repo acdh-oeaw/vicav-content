@@ -1,43 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stats>
-   <dict fn="dc_acm_baghdad_eng_001.xml">
+   <dict fn="dc_acm_baghdad_eng_001.xml"
+         n="1331 / 0 / 1208 / 4664  de, en, es  2016">
       <title xmlns="http://www.tei-c.org/ns/1.0">A Machine-readble Digital Dictionary of Baghdad Arabic</title>
+      <date xmlns="http://www.tei-c.org/ns/1.0" when="2016"/>
+      <entries>1331</entries>
       <lemmas>1244</lemmas>
+      <mwus>88</mwus>
       <wordforms>1208</wordforms>
       <translations>4664</translations>
+      <examples>0</examples>
       <languages>en de es</languages>
    </dict>
-   <lemmas/>
-   <dict fn="dc_apc_eng_publ.xml">
+   <dict fn="dc_apc_eng_publ.xml"
+         n="2603 / 196 / 2499 / 10893  de, ee, en, es  2011">
       <title xmlns="http://www.tei-c.org/ns/1.0">A digital dictionary of Damascus Arabic</title>
+      <date xmlns="http://www.tei-c.org/ns/1.0" when="2011"/>
+      <entries>2603</entries>
       <lemmas>2363</lemmas>
+      <mwus>233</mwus>
       <wordforms>2499</wordforms>
       <translations>10893</translations>
+      <examples>196</examples>
       <languages>en de es ee</languages>
    </dict>
-   <lemmas/>
-   <dict fn="dc_ar_en_publ.xml">
+   <dict fn="dc_ar_en_publ.xml"
+         n="2767 / 51 / 2602 / 10628  , de, em, en, la, se  2014">
       <title xmlns="http://www.tei-c.org/ns/1.0">A Machine-readable Dictionary of Modern Standard Arabic</title>
+      <date xmlns="http://www.tei-c.org/ns/1.0" when="2014"/>
+      <entries>2767</entries>
       <lemmas>2581</lemmas>
+      <mwus>186</mwus>
       <wordforms>2602</wordforms>
       <translations>10628</translations>
+      <examples>51</examples>
       <languages>en de la em se</languages>
    </dict>
-   <lemmas/>
-   <dict fn="dc_arz_eng_publ.xml">
+   <dict fn="dc_arz_eng_publ.xml" n="2094 / 418 / 2614 / 6867  de, en  2014">
       <title xmlns="http://www.tei-c.org/ns/1.0">A machine-readable dictionary of Egyptian Arabic</title>
+      <date xmlns="http://www.tei-c.org/ns/1.0" when="2014"/>
+      <entries>2094</entries>
       <lemmas>2013</lemmas>
+      <mwus>87</mwus>
       <wordforms>2614</wordforms>
       <translations>6867</translations>
+      <examples>418</examples>
       <languages>en de</languages>
    </dict>
-   <lemmas/>
-   <dict fn="dc_tunico.xml">
+   <dict fn="dc_tunico.xml"
+         n="7668 / 356 / 10014 / 38636  de, dfr, en, er, f, fr  2016">
       <title xmlns="http://www.tei-c.org/ns/1.0">A Digital Dictionary of Tunis Arabic</title>
+      <date xmlns="http://www.tei-c.org/ns/1.0" when="2016"/>
+      <entries>7668</entries>
       <lemmas>7133</lemmas>
+      <mwus>534</mwus>
       <wordforms>10014</wordforms>
       <translations>38636</translations>
+      <examples>356</examples>
       <languages>en fr de f er dfr</languages>
    </dict>
-   <lemmas/>
 </stats>
