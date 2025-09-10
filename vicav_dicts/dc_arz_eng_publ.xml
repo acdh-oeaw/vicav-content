@@ -24,7 +24,6 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>This is an original digital text.</p>
            <ab>
              <label>Conventions</label>
              <list>
@@ -44,7 +43,7 @@
                <item>24/23</item>
              </list>
            </ab>
-<p>               
+            <p>This is an original digital text.
                <listBibl>
                   <head>Example sources</head>
                   <biblStruct xml:id="Prasse2000">
@@ -63264,8 +63263,8 @@
 
    <form type="lemmaVariant">
       <orth xml:lang="ar-arz-x-cairo-vicav">muḥāṛa</orth>
-      <gram type="root" xml:lang="ar">حور</gram>
       <orth xml:lang="ar">محارة</orth>
+      <gram type="root" xml:lang="ar">حور</gram>
    </form>
 
    <gramGrp>
