@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader xml:id="dictHeader">
       <fileDesc>
@@ -46,72 +47,6 @@
             <p>This is an original digital text.
                <listBibl>
                   <head>Example sources</head>
-                  <biblStruct xml:id="Prasse2000">
-                     <monogr>
-                        <author>
-                           <persName>
-                              <forename>Karl</forename>
-                              <forename full="init">G.</forename>
-                              <surname>Prasse</surname>
-                           </persName>
-                        </author>
-                        <title>5 Egyptian-Arabic One Act Plays</title>
-                        <imprint>
-                           <pubPlace>Copenhagen</pubPlace>
-                           <publisher>Museum Tusculanum Press</publisher>
-                           <date when="2000"/>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct xml:id="Mokhtar" n="2">
-                     <monogr>
-                        <author>
-                           <persName>
-                              <forename>Ahmed</forename>
-                              <surname>Mokhtar</surname>
-                           </persName>
-                        </author>
-                        <title>Lehrbuch des Ägyptisch-Arabischen</title>
-                        <imprint>
-                           <pubPlace>Wiesbaden</pubPlace>
-                           <publisher>Otto Harrassowitz</publisher>
-                           <date when="1981"/>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct xml:id="MitchellIntro" n="5">
-                     <monogr>
-                        <author>
-                           <persName>
-                              <forename full="init">T.</forename>
-                              <forename full="init">F.</forename>
-                              <surname>Mitchell</surname>
-                           </persName>
-                        </author>
-                        <title>An Introduction to Egyptian Colloquial Arabic</title>
-                        <imprint>
-                           <pubPlace>London, New York, Toronto</pubPlace>
-                           <publisher>Oxford University Press</publisher>
-                           <date when="1956"/>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct xml:id="SpittaGram" n="15">
-                     <monogr>
-                        <author>
-                           <persName>
-                              <forename>Wilhelm</forename>
-                              <surname>Spitta-Bey</surname>
-                           </persName>
-                        </author>
-                        <title>Grammatik des arabischen Vulgärdialektes von Aegypten</title>
-                        <imprint>
-                           <pubPlace>Leipzig</pubPlace>
-                           <publisher>J. C. Hinrichs’sche Buchhandlung</publisher>
-                           <date when="1880"/>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
                   <biblStruct xml:id="SpittaContes">
                      <monogr>
                         <author>
@@ -125,23 +60,6 @@
                            <pubPlace>Leiden, Paris</pubPlace>
                            <publisher>Brill</publisher>
                            <date when="1883"/>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct xml:id="AbdelmassihVocs" n="19">
-                     <monogr>
-                        <author>
-                           <persName>
-                              <forename>Ernest</forename>
-                              <forename>T.</forename>
-                              <surname>Abdel-Massih</surname>
-                           </persName>
-                        </author>
-                        <title>A Comprehensive Study of Egyptian Arabic. Volume Four. Lexicon Part</title>
-                        <imprint>
-                           <pubPlace>Ann Arbor</pubPlace>
-                           <publisher>Center for Near Eastern and North African Studies</publisher>
-                           <date when="1978"/>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -533,8 +451,8 @@
 <entry xml:id="abb_brackl_abu_brackr_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">abb</orth>
-      <bibl>Woidich, AwS</bibl>
-      <bibl>Spiro 1895, p.1</bibl>
+      
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -612,7 +530,7 @@
 <entry xml:id="ablatiin_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ablatīn</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="lemmaVariant">
@@ -705,7 +623,7 @@
 <entry xml:id="sid_0007">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">abrīl</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -747,7 +665,7 @@
 <entry xml:id="abu_l_dash_001">
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">abu l-hōl</orth>
-      <bibl>Spiro 1895, p.1</bibl>
+      
    </form>
 
    <sense>
@@ -1171,8 +1089,8 @@
       <ref type="example" target="#biyiddan_fi_malta_001"/>
 
       <xr>
-         <bibl>8/10</bibl>
-         <bibl>19/205</bibl>
+         
+         
       </xr>
    </sense>
 
@@ -1187,7 +1105,7 @@
       </cit>
 
       <xr>
-         <bibl>19/15</bibl>
+         
       </xr>
    </sense>
    <fs type="change">
@@ -1552,7 +1470,7 @@
 <entry xml:id="sid_0022">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">aġusṭus</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -1594,7 +1512,7 @@
 <entry xml:id="sid_0023">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">agzaxāna</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -1702,7 +1620,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ahlan</orth>
       <orth xml:lang="ar">اهلا</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -1815,7 +1733,7 @@
 <entry xml:id="sid_0036">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">aḥyānan</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <sense>
@@ -2123,7 +2041,7 @@
 <entry xml:id="sid_0050">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">almanya</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -2697,7 +2615,7 @@
 <entry xml:id="sid_0073">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">asbaratēr</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -2807,7 +2725,7 @@
 <entry xml:id="sid_0077">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">aṣl</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -2958,7 +2876,7 @@
 <entry xml:id="sid_0080">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">asmant</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -2999,7 +2917,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">astīka</orth>
       <orth xml:lang="ar">استيكة</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -3064,7 +2982,7 @@
    <form type="lemma">
       <orth xml:lang="ar">آسيا</orth>
       <orth xml:lang="ar-arz-x-cairo-vicav">asya</orth>
-      <bibl>Hinds 1986, p.24</bibl>
+      
    </form>
 
    <form type="lemmaVariant">
@@ -3433,7 +3351,7 @@
 <entry xml:id="sid_0098">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">axbāṛ (pl.)</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -3685,7 +3603,7 @@
 <entry xml:id="a_all_002">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">aʔall</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -3727,7 +3645,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">aʕwaṛ</orth>
       <orth xml:lang="ar">اعور</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -4116,7 +4034,7 @@
 <entry xml:id="sid_0119">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">baba-ġannūg</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -4560,7 +4478,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">badikēr</orth>
       <orth xml:lang="ar">بدكير</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -4688,7 +4606,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">badla</orth>
       <orth xml:lang="ar">بدله</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -4841,7 +4759,7 @@
 <entry xml:id="sid_0123">
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">badla rasmiyya</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -5966,7 +5884,7 @@
 <entry xml:id="balah_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">balaḥ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -6541,7 +6459,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">balṭo</orth>
       <orth xml:lang="ar">بالطو</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -6826,7 +6744,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">bamba</orth>
       <orth xml:lang="ar">بمبه</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="lemmaVarient">
@@ -7136,7 +7054,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">banafsig</orth>
       <orth xml:lang="ar">بنفسج</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -7985,7 +7903,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">baṛaka</orth>
       <orth xml:lang="ar">بركة</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -8043,7 +7961,7 @@
 <entry xml:id="barbareez_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">barbarēz</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -8225,7 +8143,7 @@
       <orth xml:lang="ar-arz-x-cairo-vicav">barḍu</orth>
       <orth xml:lang="ar">برضه</orth>
       <orth xml:lang="ar">برضو</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -8672,7 +8590,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">barīd gawwi</orth>
       <orth xml:lang="ar">بريد جوي</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -9963,7 +9881,7 @@
 <entry xml:id="sid_0152">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">baṣīṭ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -10367,7 +10285,7 @@
 <entry xml:id="baat_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">bāt</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -10870,7 +10788,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">batrīna</orth>
       <orth xml:lang="ar">بترينة</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -11534,7 +11452,7 @@
 <entry xml:id="sid_0169">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">bāyit</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -13736,7 +13654,7 @@
 <entry xml:id="sid_0191">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">bidāl ma</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="lemmaVariant">
@@ -14011,7 +13929,7 @@
 <entry xml:id="sid_0192">
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">bidingān mixallil</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -14059,7 +13977,7 @@
 <entry xml:id="bidingaan_caruus_001">
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">bidingān ʕaṛūs</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -14093,7 +14011,7 @@
 <entry xml:id="biheera_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">biḥēra</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -14292,7 +14210,7 @@
 <entry xml:id="bi_dash_ktiir_001">
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">bi-ktīr</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -14480,7 +14398,7 @@
 <entry xml:id="sid_0200">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">bilastik</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="lemmaVariant">
@@ -14537,7 +14455,7 @@
 <entry xml:id="sid_0187">
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">bi-l-lēl</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -15511,7 +15429,7 @@
 <entry xml:id="sid_0208">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">bistin</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -15557,7 +15475,7 @@
 <entry xml:id="bitari_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">biṭari</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -15784,7 +15702,7 @@
 <entry xml:id="sid_0211">
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">bitāʕ ikkawitš</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -15824,7 +15742,7 @@
 <entry xml:id="bitaac_il_dash_laban_001">
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">bitāʕ il-laban</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -15864,7 +15782,7 @@
 <entry xml:id="sid_0213">
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">bitāʕ il-ʔūṭa</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -16092,7 +16010,7 @@
 <entry xml:id="sid_0190">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">bi-ẓ-ẓabṭ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -16288,7 +16206,7 @@
 <entry xml:id="sid_0196">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">bi-ʔizn illāh</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -16330,7 +16248,7 @@
 <entry xml:id="bobiina_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">bobīna</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -16474,7 +16392,7 @@
 <entry xml:id="bufee_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">bufē</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -16518,7 +16436,7 @@
 <entry xml:id="bufteek_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">buftēk</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -16633,7 +16551,7 @@
 <entry xml:id="bukra_bi_dash_lleel_001">
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">bukṛa bi-llēl</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -16673,7 +16591,7 @@
 <entry xml:id="sid_0222">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">bukṛa ṣ-ṣubḥ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -16772,7 +16690,7 @@
 <entry xml:id="sid_0224">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">bulōfaṛ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -16818,7 +16736,7 @@
 <entry xml:id="bulti_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">bulṭi</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_unit">
@@ -17180,7 +17098,7 @@
 <entry xml:id="burs_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">burṣ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -17338,7 +17256,7 @@
 <entry xml:id="burtu_aani_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">burtuʔāni</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -17558,7 +17476,7 @@
 <entry xml:id="sid_0235">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">buṣṭa</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -17604,7 +17522,7 @@
 <entry xml:id="butagaaz_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">butagāz</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -17704,7 +17622,7 @@
 <entry xml:id="buzhiih_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">bužīh</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -17807,7 +17725,7 @@
 <entry xml:id="bu_ca_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">buʔʕa</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -18460,7 +18378,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">dardiš</orth>
       <orth xml:lang="ar">دردش</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -18868,7 +18786,7 @@
 <entry xml:id="sid_0262">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">dāwa</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -19311,7 +19229,7 @@
 <entry xml:id="sid_0265">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">dawwāsa</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -19459,8 +19377,8 @@
 
    <form type="inflected" ana="#n_vn">
       <orth xml:lang="ar-arz-x-cairo-vicav">dōxa</orth>
-         <bibl>8/214</bibl>
-         <bibl>19/361</bibl>
+         
+         
    </form>
 
    <form type="inflected" ana="#n_vn">
@@ -20190,7 +20108,7 @@
 <entry xml:id="daciif_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ḍaʕīf</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -20289,7 +20207,7 @@
 <entry xml:id="sid_0249">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">daʔn</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -20435,7 +20353,7 @@
 <entry xml:id="sid_0271">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ḍēf</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -20780,7 +20698,7 @@
 <entry xml:id="dihik_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">diḥik</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -20838,7 +20756,7 @@
 <entry xml:id="sid_0275">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">dihn</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -21523,8 +21441,8 @@
    <form type="lemma">
       <orth xml:lang="ar">دقيق</orth>
       <orth xml:lang="ar-arz-x-cairo-vicav">diʔīʔ</orth>
-      <bibl>14/199</bibl>
-      <bibl>19/82</bibl>
+      
+      
    </form>
 
    <gramGrp>
@@ -21544,7 +21462,7 @@
 
    <sense>
       <xr>
-      <bibl>8/39</bibl>
+      
     </xr>
 
       <cit type="translation" xml:lang="en">
@@ -21684,7 +21602,7 @@
 <entry xml:id="doola_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">dōla</orth>
-      <bibl>15/87</bibl>
+      
    </form>
 
    <form type="lemmaVariant">
@@ -21967,7 +21885,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">duktōṛa</orth>
       <orth xml:lang="ar">دكتورة</orth>
-      <bibl>19/361</bibl>
+      
    </form>
 
    <gramGrp>
@@ -22017,7 +21935,7 @@
 <entry xml:id="durt_il_dash_mayya_001">
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">durt il-ṃayya</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -22191,7 +22109,7 @@
 <entry xml:id="fahhim_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">fahhim</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -22248,7 +22166,7 @@
 <entry xml:id="faahim_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">fāhim</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -22516,7 +22434,7 @@
 <entry xml:id="sid_0307">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">fakk</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -23127,7 +23045,7 @@
 <entry xml:id="faransaawi_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">faransāwi</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#adj_sg_f">
@@ -23436,7 +23354,7 @@
 <entry xml:id="faarigh_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">fāriġ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -23626,7 +23544,7 @@
 <entry xml:id="sid_0350">
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">farmalit yadd</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -23787,7 +23705,7 @@
 <entry xml:id="farsh_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">farš</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -24228,7 +24146,7 @@
 <entry xml:id="sid_0317">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">fāṣil</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -24785,7 +24703,7 @@
 <entry xml:id="fatta_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">fatta</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -24936,7 +24854,7 @@
 <entry xml:id="fawwil_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">fawwil</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -25203,7 +25121,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">fayaḍān</orth>
       <orth xml:lang="ar">فيضان</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -25853,7 +25771,7 @@
 <entry xml:id="fiih_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">fīh</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -26524,7 +26442,7 @@
 <entry xml:id="sid_0333">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">filūka</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -27121,7 +27039,7 @@
 <entry xml:id="sid_0351">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">full</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -27251,7 +27169,7 @@
 <entry xml:id="sid_0355">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">furša</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -27754,7 +27672,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">gabal katrīna</orth>
       <orth xml:lang="ar">جبل كاترينا</orth>
-      <bibl>Woidich, Ahlan wa Sahlan, p.366</bibl>
+
    </form>
 
    <gramGrp>
@@ -28116,7 +28034,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">gadd</orth>
       <orth xml:lang="ar">جد</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -28940,7 +28858,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">gamb</orth>
       <orth xml:lang="ar-arz-x-cairo-vicav">جمب</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -29048,7 +28966,7 @@
 <entry xml:id="gaamid_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">gāmid</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -31182,8 +31100,8 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">gardal</orth>
       <orth xml:lang="ar">جردل</orth>
-      <bibl>14/239</bibl>
-      <bibl>3/115</bibl>
+      
+      
    </form>
 
    <gramGrp>
@@ -31238,7 +31156,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">gaṛgaṛ</orth>
       <orth xml:lang="ar">جرجر</orth>
-      <bibl>15/190</bibl>
+      
    </form>
 
    <gramGrp>
@@ -31426,7 +31344,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">garīda</orth>
       <orth xml:lang="ar-arz-x-cairo-vicav">جريدة</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -31483,7 +31401,7 @@
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">garīda sinimāʔiyya</orth>
       <orth xml:lang="ar">جريدة سنمائية</orth>
-      <bibl>19/72</bibl>
+      
    </form>
 
    <gramGrp>
@@ -31532,7 +31450,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">garīma</orth>
       <orth xml:lang="ar">جريمة</orth>
-      <bibl>19/159</bibl>
+      
    </form>
 
    <gramGrp>
@@ -32604,7 +32522,7 @@
 <entry xml:id="sid_0395">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ġassāla</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -32707,7 +32625,7 @@
 <entry xml:id="ghattaas_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ġaṭṭāṣ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -33022,7 +32940,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ġāya</orth>
       <orth xml:lang="ar">غاية</orth>
-      <bibl>19/9</bibl>
+      
    </form>
 
    <gramGrp>
@@ -33342,7 +33260,7 @@
 <entry xml:id="sid_0402">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">gazaṛ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -33544,7 +33462,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">gazma</orth>
       <orth xml:lang="ar">جزمة</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -34462,7 +34380,7 @@
 <entry xml:id="gidd_dash_an_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">gidd-an</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -35041,7 +34959,7 @@
 <entry xml:id="sid_0419">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">gild</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -35630,7 +35548,7 @@
 <entry xml:id="ginent_il_dash_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ginent il-ḥayawanāt</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -36050,7 +35968,7 @@
 <entry xml:id="sid_0427">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">gism</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -38022,7 +37940,6 @@
    <form type="lemma">
       <orth xml:lang="ar">حالي</orth>
       <orth xml:lang="ar-arz-x-cairo-vicav">ḥāli</orth>
-      <bibl>Hinds 1986, p.234</bibl>
    </form>
 
    <gramGrp>
@@ -39063,7 +38980,7 @@
 <entry xml:id="sid_0465">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ḥanṭūr</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -39343,7 +39260,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ḥaṛām</orth>
       <orth xml:lang="ar">حرام</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -39713,7 +39630,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ḥarīmi</orth>
       <orth xml:lang="ar-arz-x-cairo-vicav">حريمي</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -39777,7 +39694,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ḥarīr</orth>
       <orth xml:lang="ar">حرير</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -39819,7 +39736,7 @@
 <entry xml:id="sid_0470">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ḥarīʔa</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -40416,7 +40333,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ḥašw</orth>
       <orth xml:lang="ar">حشو</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -41144,7 +41061,7 @@
    <form type="lemma">
       <orth xml:lang="ar">حور</orth>
       <orth xml:lang="ar-arz-x-cairo-vicav">ḥawwaṛ</orth>
-      <bibl>Hinds 1986, p.231</bibl>
+      
    </form>
 
    <gramGrp>
@@ -41458,7 +41375,7 @@
 <entry xml:id="sid_0485">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ḥayy</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -41794,7 +41711,7 @@
 <entry xml:id="sid_0491">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">hidūm</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -42370,7 +42287,7 @@
 <entry xml:id="sid_0495">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">Ḥilwān</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -42872,7 +42789,7 @@
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">ḥisāb gāri</orth>
       <orth xml:lang="ar">حساب جاري</orth>
-      <bibl>19/166</bibl>
+      
    </form>
 
    <gramGrp>
@@ -42969,7 +42886,7 @@
 <entry xml:id="sid_0506">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ḥukūmi</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -43085,7 +43002,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ḥuṭṭ</orth>
       <orth xml:lang="ar">حط</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -43723,7 +43640,7 @@
 <entry xml:id="id_dash_dooha_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">id-dōḥa</orth>
-      <bibl>19/21</bibl>
+      
    </form>
 
    <gramGrp>
@@ -43873,7 +43790,7 @@
 <entry xml:id="sid_0533">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">iggawwiz</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -43923,7 +43840,7 @@
 <entry xml:id="sid_0535">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">iḥlaww</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -43985,7 +43902,7 @@
 <entry xml:id="sid_0536">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">iḥmaṛṛ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -44302,7 +44219,7 @@
 <entry xml:id="sid_0541">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ikkallim</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -44356,7 +44273,7 @@
 <entry xml:id="sid_0545">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ilbaḥr</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -44634,7 +44551,7 @@
 <entry xml:id="sid_0550">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ilḥaṛaka baṛaka</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -44687,7 +44604,7 @@
 <entry xml:id="sid_0551">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ilḥaʔūni!</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -44772,7 +44689,7 @@
 <entry xml:id="sid_0560">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">il-Muhandisīn</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -45429,7 +45346,7 @@
 <entry xml:id="sid_0595">
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">išāṛit murūr</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -45706,7 +45623,7 @@
 <entry xml:id="iskindiriyya_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">iskindiriyya</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -46066,7 +45983,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ismaṛṛ</orth>
       <orth xml:lang="ar">اسمرّ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -48866,7 +48783,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">isyubya</orth>
       <orth xml:lang="ar">اثيوبيا</orth>
-      <bibl>Woidich, Ahlan wa Sahlan, p.365</bibl>
+
    </form>
 
    <gramGrp>
@@ -51877,7 +51794,7 @@
 <entry xml:id="sid_0633">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">itʔābil</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -53303,13 +53220,13 @@
 <entry xml:id="sid_0676">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">kabbūd</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">kabbūt</orth>
       <orth xml:lang="ar">كبود</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -53669,7 +53586,7 @@
 <entry xml:id="kaddib_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">kaddib</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="lemmaVariant">
@@ -53735,7 +53652,7 @@
 <entry xml:id="sid_0681">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">kafa</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -53805,7 +53722,7 @@
 <entry xml:id="kaffa_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">kaffa</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -54074,7 +53991,7 @@
 <entry xml:id="sid_0683">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">kahṛaba</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -54444,7 +54361,7 @@
 <entry xml:id="sid_0688">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">kalām fāriġ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -54928,7 +54845,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">kanaba</orth>
       <orth xml:lang="ar">كنبة</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -55272,7 +55189,7 @@
 <entry xml:id="sid_0702">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">karbaratēr</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -56582,7 +56499,7 @@
 <entry xml:id="sid_0715">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">kawitš</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -56814,7 +56731,7 @@
 <entry xml:id="sid_0685">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ka-ʔinn</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -56855,7 +56772,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">kibda</orth>
       <orth xml:lang="ar">كبدة</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -58252,7 +58169,7 @@
 <entry xml:id="sid_0735">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">kufta</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -58364,7 +58281,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">kukakōla</orth>
       <orth xml:lang="ar">كوكاكولا</orth>
-      <bibl>Woidich, Ahlan wa Sahlan, p.366</bibl>
+
    </form>
 
    <gramGrp>
@@ -58444,7 +58361,7 @@
 <entry xml:id="sid_0730">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">kumudīnu</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -59043,8 +58960,8 @@
    <form type="lemmaVariant">
       <orth xml:lang="ar-arz-x-cairo-vicav">limiʕ</orth>
       <orth xml:lang="ar">لمع</orth>
-      <bibl>15/206</bibl>
-      <bibl>20/14</bibl>
+      
+      
    </form>
 
    <gramGrp>
@@ -59561,7 +59478,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">laxbaṭ</orth>
       <orth xml:lang="ar">لخبط</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -60670,7 +60587,7 @@
 <entry xml:id="sid_0779">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">li-ġāyit ma</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -60758,7 +60675,7 @@
 <entry xml:id="sid_0780">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">liḥiʔ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="lemmaVariant">
@@ -61367,7 +61284,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">mabāḥis</orth>
       <orth xml:lang="ar">مباحث</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -61491,7 +61408,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">mabrūk</orth>
       <orth xml:lang="ar">مبروك</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -62403,7 +62320,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">mafṛama</orth>
       <orth xml:lang="ar">mafṛama</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -62456,7 +62373,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">mafrūš</orth>
       <orth xml:lang="ar">مفروش</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -62687,7 +62604,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">maġaṣ</orth>
       <orth xml:lang="ar">مغص</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -62909,7 +62826,7 @@
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">maglis il-ʔumma</orth>
       <orth xml:lang="ar">مجلس الامة</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -63718,7 +63635,7 @@
 <entry xml:id="maknasa_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">maknasa</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -64395,7 +64312,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">mandīl</orth>
       <orth xml:lang="ar">منديل</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -64590,7 +64507,7 @@
 <entry xml:id="sid_0845">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">manzal</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -65609,7 +65526,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">marš</orth>
       <orth xml:lang="ar">مرش</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -65896,7 +65813,7 @@
 <entry xml:id="masaamm_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">masāmm</orth>
-      <bibl>Hinds 1986, p.432</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -66073,7 +65990,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">masdūd</orth>
       <orth xml:lang="ar">مسدود</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -66329,7 +66246,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">maši</orth>
       <orth xml:lang="ar">ماشي</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -66522,7 +66439,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">masmāṛ</orth>
       <orth xml:lang="ar">مسمار</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="lemmaVariant">
@@ -67027,7 +66944,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">massāḥa</orth>
       <orth xml:lang="ar">مساحة</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -67236,7 +67153,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">maṭabb</orth>
       <orth xml:lang="ar">مطب</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -67351,7 +67268,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">maṭār</orth>
       <orth xml:lang="ar">مطار</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -67480,7 +67397,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">maṭbūx</orth>
       <orth xml:lang="ar">مطبوخ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -67635,7 +67552,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">maṭlaʕ</orth>
       <orth xml:lang="ar">مطلع</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -68146,7 +68063,7 @@
 <entry xml:id="sid_0885">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">mawwaṛ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -68205,7 +68122,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">mawwil</orth>
       <orth xml:lang="ar">مول</orth>
-      <bibl>19/167</bibl>
+      
    </form>
 
    <gramGrp>
@@ -68273,7 +68190,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">mawwin</orth>
       <orth xml:lang="ar">مون</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -68333,7 +68250,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">mawwit</orth>
       <orth xml:lang="ar">موت</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -68392,7 +68309,7 @@
 <entry xml:id="sid_0880">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">mawʔaf</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -68552,7 +68469,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">maxṣūṣ</orth>
       <orth xml:lang="ar">مخصوص</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -68812,7 +68729,7 @@
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">ṃayya maʕdaniyya</orth>
       <orth xml:lang="ar">مية معدنية</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -68927,7 +68844,7 @@
 <entry xml:id="sid_0892">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">mayyō</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -69419,7 +69336,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">maʕaddiyya</orth>
       <orth xml:lang="ar">معدية</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -69559,7 +69476,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">maʔās</orth>
       <orth xml:lang="ar">مقاس</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -69637,7 +69554,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">maʔaṣṣ</orth>
       <orth xml:lang="ar">مقص</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -69697,7 +69614,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">maʔašša</orth>
       <orth xml:lang="ar">مقشة</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="lemmaVariant">
@@ -69766,7 +69683,7 @@
 <entry xml:id="sid_0896">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">maʕa-ʔinn</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -70217,7 +70134,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">maʕlaʔa</orth>
       <orth xml:lang="ar">معلقة</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -70523,7 +70440,7 @@
 <entry xml:id="sid_0878">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">maʔṭūʕ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -70573,7 +70490,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">maʕūn</orth>
       <orth xml:lang="ar">ماعون</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -70634,7 +70551,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">maʕzūm</orth>
       <orth xml:lang="ar">معزوم</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -70756,7 +70673,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">mifakk</orth>
       <orth xml:lang="ar">مفك</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -70804,7 +70721,7 @@
 <entry xml:id="sid_0916">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">migaṛṛaḥ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -70846,7 +70763,7 @@
 <entry xml:id="mighayyim_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">miġayyim</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -70893,7 +70810,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">miḥammaṛ</orth>
       <orth xml:lang="ar">محمر</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -71266,7 +71183,7 @@
 <entry xml:id="miraaya_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">mirāya</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -71438,7 +71355,7 @@
 <entry xml:id="mish_kida_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">miš kida</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
 
@@ -73356,7 +73273,7 @@
 <entry xml:id="sid_0999">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">mūsim</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -73502,7 +73419,7 @@
 <entry xml:id="sid_1001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">musmāṛ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -74063,7 +73980,7 @@
 <entry xml:id="sid_1004">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">mutūr</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -74189,7 +74106,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">muwaẓẓaf bank</orth>
       <orth xml:lang="ar">موظف بنك</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -74233,7 +74150,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">muxabaṛāt</orth>
       <orth xml:lang="ar">مخبرات</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -74491,7 +74408,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">muẓahra</orth>
       <orth xml:lang="ar">مظاهرة</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -75078,7 +74995,7 @@
 <entry xml:id="sid_1011">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">muʕẓam innās</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -75473,7 +75390,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">nadaġ</orth>
       <orth xml:lang="ar">ندغ</orth>
-      <bibl>14/240</bibl>
+      
    </form>
 
    <form type="lemmaVariant">
@@ -75665,7 +75582,7 @@
 <entry xml:id="naddaara_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">naḍḍāra</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -75898,7 +75815,7 @@
 <entry xml:id="nafax_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">nafax</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -75960,7 +75877,7 @@
 <entry xml:id="nafa_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">nafaʔ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -76087,7 +76004,7 @@
 <entry xml:id="nafs_002">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">nafs</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -76268,7 +76185,7 @@
 <entry xml:id="nagafa_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">nagafa</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -76370,7 +76287,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">naggiz</orth>
       <orth xml:lang="ar">نجز</orth>
-      <bibl>Hinds 1986, p.849</bibl>
+      
    </form>
 
    <gramGrp>
@@ -76586,7 +76503,7 @@
 <entry xml:id="nahaas_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">naḥās</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -76929,7 +76846,7 @@
 <entry xml:id="namliyya_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">namliyya</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -77057,7 +76974,7 @@
 <entry xml:id="namusiyya_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">namusiyya</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -77456,7 +77373,7 @@
 <entry xml:id="naasib_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">nāsib</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -77506,7 +77423,7 @@
 <entry xml:id="naashif_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">nāšif</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -77601,7 +77518,7 @@
 <entry xml:id="nashshin_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">naššin</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -77897,7 +77814,7 @@
 <entry xml:id="nawaar_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">nawāṛ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -78035,7 +77952,7 @@
 <entry xml:id="nawwar_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">nawwaṛ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -78085,7 +78002,7 @@
 <entry xml:id="nawwim_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">nawwim</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -78370,7 +78287,7 @@
 <entry xml:id="naylun_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">naylun</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -78469,7 +78386,7 @@
 <entry xml:id="sid_1048">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">nāzil</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -78512,7 +78429,7 @@
 <entry xml:id="sid_1049">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">nazzil</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -78710,7 +78627,7 @@
 <entry xml:id="na_aawa_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">naʔāwa</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -78753,7 +78670,7 @@
 <entry xml:id="naacim_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">nāʕim</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -78943,7 +78860,7 @@
 <entry xml:id="sid_1012">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">naʔʔa</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -80287,7 +80204,7 @@
 <entry xml:id="nufimbir_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">nufimbir</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="lemmaVariant">
@@ -80820,7 +80737,7 @@
 <entry xml:id="sid_1069">
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">ōḍit maktab</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -81403,7 +81320,7 @@
 <entry xml:id="qawaacid_il_dash_muruur_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">qawāʕid il-murūr</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -82204,7 +82121,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ṛafṛaf</orth>
       <orth xml:lang="ar">رفرف</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -82670,7 +82587,7 @@
 <entry xml:id="raaha_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ṛāḥa</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -83274,7 +83191,7 @@
 <entry xml:id="raml_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">raml</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -83767,7 +83684,7 @@
 <entry xml:id="rasiif_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">raṣīf</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -84213,7 +84130,7 @@
 <entry xml:id="raayih_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ṛāyiḥ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -84547,7 +84464,7 @@
 <entry xml:id="ra_iis_il_001">
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">raʔīs il-wuzaṛāʔ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -85087,7 +85004,7 @@
 <entry xml:id="sid_1102">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">rigāli</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -86250,7 +86167,7 @@
 <entry xml:id="sid_1113">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ṛumād</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -86291,7 +86208,7 @@
 <entry xml:id="rumaadi_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ṛumādi</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -86400,7 +86317,7 @@
 <entry xml:id="ruumi_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">rūmi</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -86536,7 +86453,7 @@
 <entry xml:id="rusaasi_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ruṣāṣi</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -86646,7 +86563,7 @@
 <entry xml:id="rushitta_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">rušitta</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -87044,7 +86961,7 @@
 <entry xml:id="sid_1130">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">sabaġ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -87512,7 +87429,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">sabġa</orth>
       <orth xml:lang="ar">صبغة</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -87918,7 +87835,7 @@
 <entry xml:id="sabuun_002">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ṣabūn</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -88402,7 +88319,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">šadūf</orth>
       <orth xml:lang="ar">شادوف</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -89597,7 +89514,7 @@
 <entry xml:id="sid_1148">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ṣaḥāfa</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -90318,7 +90235,7 @@
 <entry xml:id="sid_1155">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ṣaḥra</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -90474,7 +90391,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">šakar</orth>
       <orth xml:lang="ar">شكر</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -90658,8 +90575,6 @@
 <entry xml:id="sakk_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">sakk</orth>
-      <bibl>Woidich, AwS
-      </bibl>
    </form>
 
    <gramGrp>
@@ -90794,7 +90709,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">šakmān</orth>
       <orth xml:lang="ar">شكمان</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -90901,7 +90816,7 @@
 <entry xml:id="sid_1163">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">šakūš</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -91316,7 +91231,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">salax</orth>
       <orth xml:lang="ar">سلخ</orth>
-      <bibl>19/18</bibl>
+      
    </form>
 
    <gramGrp>
@@ -91415,7 +91330,7 @@
 <entry xml:id="sid_1168">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ṣalība</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -91588,8 +91503,8 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">sallif</orth>
       <orth xml:lang="ar">سلف</orth>
-      <bibl>3/102</bibl>
-      <bibl>Mokhtar p.10</bibl>
+      
+      
    </form>
 
    <form type="lemmaVariant">
@@ -91611,7 +91526,7 @@
    <form type="inflected" ana="#v_vn">
       <orth xml:lang="ar-arz-x-cairo-vicav">taslīf</orth>
       <orth xml:lang="ar">تسليف</orth>
-      <bibl>11/168</bibl>
+      
    </form>
 
    <sense>
@@ -92400,7 +92315,7 @@
 <entry xml:id="sammim_002">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">sammim</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -92491,7 +92406,7 @@
 <entry xml:id="samn_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">samn</orth>
-      <bibl>Hinds 1986, p.432</bibl>
+      
    </form>
 
    <gramGrp>
@@ -96451,7 +96366,7 @@
 <entry xml:id="shibic_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">šibiʕ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -96506,7 +96421,7 @@
 <entry xml:id="shibshib_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">šibšib</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -97080,7 +96995,7 @@
 <entry xml:id="sid_1233">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">sikka</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -97129,7 +97044,7 @@
 <entry xml:id="sid_1234">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">sikkīna</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -97509,7 +97424,7 @@
 <entry xml:id="silk_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">silk</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -97983,7 +97898,7 @@
 <entry xml:id="simsaar_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">simsāṛ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -98076,7 +97991,7 @@
 <entry xml:id="sinaaca_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ṣināʕa</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -98476,7 +98391,7 @@
 <entry xml:id="sid_1249">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">šita</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -99792,7 +99707,7 @@
 <entry xml:id="tabxa_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ṭabxa</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -100543,7 +100458,7 @@
 <entry xml:id="tallaaga_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">tallāga</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -101099,7 +101014,7 @@
 <entry xml:id="sid_1317">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">tammim</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -101331,7 +101246,7 @@
 <entry xml:id="taqaddum_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">taqaddum</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -101372,7 +101287,7 @@
 <entry xml:id="taar_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ṭār</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -101633,7 +101548,7 @@
 <entry xml:id="tarhiib_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">tarḥīb</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -102064,7 +101979,7 @@
 <entry xml:id="tashhiim_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">tašḥīm</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -102404,7 +102319,7 @@
 <entry xml:id="tatawwur_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">taṭawwur</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -102899,7 +102814,7 @@
 <entry xml:id="tawsiila_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">tawṣīla</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -103558,7 +103473,7 @@
 <entry xml:id="ta_miin_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">taʔmīn</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -104297,7 +104212,7 @@
 <entry xml:id="sid_1355">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">tikṛāṛ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -104468,7 +104383,7 @@
 <entry xml:id="tilitwaar_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">tilitwāṛ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -105517,7 +105432,7 @@
 <entry xml:id="sid_1368">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">tōm</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -106028,7 +105943,7 @@
 <entry xml:id="sid_1373">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">tuṛāb</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -106198,7 +106113,7 @@
 <entry xml:id="turmaay_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ṭurmāy</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -106764,7 +106679,7 @@
 <entry xml:id="uxt_002">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">uxt</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -107189,7 +107104,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">waḍḍab</orth>
       <orth xml:lang="ar">وضب</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -107250,7 +107165,7 @@
 <entry xml:id="sid_1408">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">wādi</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -107916,7 +107831,7 @@
 <entry xml:id="sid_1411">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">waḥaš</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -108042,7 +107957,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">wallaʕ</orth>
       <orth xml:lang="ar">ولع</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -108632,7 +108547,7 @@
 <entry xml:id="wasaaxa_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">wasāxa</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -108851,7 +108766,7 @@
 <entry xml:id="wasl_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">waṣl</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -108896,7 +108811,7 @@
 <entry xml:id="wassal_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">waṣṣal</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -109311,7 +109226,7 @@
 <entry xml:id="sid_1441">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">wazan</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -109440,7 +109355,7 @@
 <entry xml:id="sid_1443">
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">wazīr ittaʕlīm</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -109674,7 +109589,7 @@
 <entry xml:id="sid_1446">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">widn</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -111020,7 +110935,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">xaḍār</orth>
       <orth xml:lang="ar">خضار</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -112494,7 +112409,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">xallāṭ</orth>
       <orth xml:lang="ar">خلاط</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -113733,7 +113648,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">xarṭūm</orth>
       <orth xml:lang="ar">خرطوم</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -113852,7 +113767,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">xašab</orth>
       <orth xml:lang="ar">خشب</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -114319,7 +114234,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">xazzān</orth>
       <orth xml:lang="ar">خزان</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -114790,7 +114705,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">xišin</orth>
       <orth xml:lang="ar">خشن</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -115019,7 +114934,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">xuḍār</orth>
       <orth xml:lang="ar">خضار</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -115107,13 +115022,13 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">xuluṣ</orth>
       <orth xml:lang="ar">خلص</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">xiliṣ</orth>
       <orth xml:lang="ar">خلص</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -115274,7 +115189,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">xurm</orth>
       <orth xml:lang="ar">خرم</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -115523,8 +115438,8 @@
 <entry xml:id="yadoob_001">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">yadōb</orth>
-      <bibl>Hinds 1986, p.962</bibl>
-      <bibl>14/199</bibl>
+      
+      
    </form>
 
    <gramGrp>
@@ -116154,7 +116069,7 @@
 <entry xml:id="yoom_it_dash_001">
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">yōm it-talāt</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -116226,7 +116141,7 @@
 <entry xml:id="yoom_ma_001">
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">yōm ma</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -116793,11 +116708,11 @@
       <ref type="example" target="#miin_zabat_il_hisaab_001"/>
 
       <xr>
-         <bibl>3/117</bibl>
+         
       </xr>
 
       <xr>
-         <bibl>14/242</bibl>
+         
       </xr>
 
       <cit type="translation" xml:lang="de">
@@ -116828,7 +116743,7 @@
       <ref type="example" target="#il_buliis_zabat__001"/>
 
       <xr>
-         <bibl>8/11</bibl>
+         
       </xr>
    </sense>
    <fs type="change">
@@ -117101,7 +117016,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">zabzab</orth>
       <orth xml:lang="ar">ذبذب</orth>
-      <bibl>15/190</bibl>
+      
    </form>
 
    <gramGrp>
@@ -117161,7 +117076,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ẓafaṛ</orth>
       <orth xml:lang="ar">زفر</orth>
-      <bibl>AbdelmassihVocs p.90</bibl>
+      
    </form>
 
    <gramGrp>
@@ -117403,7 +117318,7 @@
    <form type="lemma">
       <orth xml:lang="ar">ظهر</orth>
       <orth xml:lang="ar-arz-x-cairo-vicav">ẓahar</orth>
-      <bibl>AbdelmassihVocs p.157</bibl>
+      
    </form>
 
    <gramGrp>
@@ -117484,7 +117399,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">zaṛkaš</orth>
       <orth xml:lang="ar">زركش</orth>
-      <bibl>19/37</bibl>
+      
    </form>
 
    <gramGrp>
@@ -118451,7 +118366,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">zukām</orth>
       <orth xml:lang="ar">زكام</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -119240,7 +119155,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ʔaktaṛ</orth>
       <orth xml:lang="ar">اكتر</orth>
-      <bibl>8/52</bibl>
+      
    </form>
 
    <gramGrp>
@@ -120420,7 +120335,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ʕasali</orth>
       <orth xml:lang="ar">عسلي</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_f">
@@ -121627,8 +121542,8 @@
 <entry xml:id="ca_rab_id_001">
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">ʕaʔṛab id-daʔāyiʔ</orth>
-      <bibl>19/233</bibl>
-      <bibl>19/235</bibl>
+      
+      
    </form>
 
    <sense>
@@ -122763,7 +122678,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ʕilāg</orth>
       <orth xml:lang="ar">علاج</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -123542,7 +123457,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ʕišiʔ</orth>
       <orth xml:lang="ar">عشق</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#v_pres_sg_p3">
@@ -123727,7 +123642,7 @@
 <entry xml:id="ism_buliis_001">
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">ʔismᴵ bulīs</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -124923,7 +124838,7 @@
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">ʔoḍt iḍḍuyūf</orth>
       <orth xml:lang="ar">اوضة الضيوف</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -124967,7 +124882,7 @@
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">ʔoḍt il-ʔaṭfāl</orth>
       <orth xml:lang="ar">الاوضة الاطفال</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -125011,7 +124926,7 @@
    <form type="multiWordUnit">
       <orth xml:lang="ar-arz-x-cairo-vicav">ʔoḍt innōm</orth>
       <orth xml:lang="ar-arz-x-cairo-vicav">اوضة النوم</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -125677,7 +125592,7 @@
 <entry xml:id="sid_1394">
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ʔumʕ</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -125871,7 +125786,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ʔurayyib min</orth>
       <orth xml:lang="ar">قريب من</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -126386,7 +126301,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ʔusbūʕ</orth>
       <orth xml:lang="ar">اسبوع</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <form type="inflected" ana="#n_pl">
@@ -126562,7 +126477,7 @@
    <form type="lemma">
       <orth xml:lang="ar-arz-x-cairo-vicav">ʔuṣṣa</orth>
       <orth xml:lang="ar">قصة</orth>
-      <bibl>Woidich, AwS</bibl>
+      
    </form>
 
    <gramGrp>
@@ -127628,7 +127543,7 @@
    <cit type="translation" xml:lang="de">
       <quote>Mehr als das gibt es nicht.</quote>
    </cit>
-   <bibl>14/252</bibl>
+   
    <fs type="change">
       <f name="who">
          <symbol value="charly"/>
@@ -128062,7 +127977,7 @@
 <cit type="translation" xml:lang="de">
       <quote>um mein Glück im Handel zu versuchen.</quote>
     </cit>
-   <bibl>4/81</bibl>
+   
    <fs type="change">
       <f name="who">
          <symbol value="charly"/>
@@ -128183,34 +128098,6 @@
   </fs>
 </cit>
 
-<cit xml:id="baasit_il_dash_beebi_001" type="example">
-   <quote xml:lang="ar-arz-x-cairo-vicav">bāsit il-bēbi ʕala xadu.</quote>
-
-   <gramGrp>
-      <gram type="keys">NI,PR,PP-B(3 MS),SR-LOC-O-P,SR-REC-O,PG-PP</gram>
-   </gramGrp>
-   <bibl>Matras, EGY002</bibl>
-
-   <cit type="translation" xml:lang="en">
-      <quote>She kissed the baby on its cheek.</quote>
-   </cit>
-
-   <cit type="translation" xml:lang="de">
-      <quote>-</quote>
-   </cit>
-   <fs type="change">
-      <f name="who">
-        <symbol value="charly"/>
-      </f>
-      <f name="when">
-        <symbol value="2019_04_15"/>
-      </f>
-      <f name="status">
-        <symbol value="released"/>
-      </f>
-    </fs>
-</cit>
-
 <cit xml:id="bassi_kida_46_001" type="example">
    <quote xml:lang="ar-arz-x-cairo-vicav">bassᴵ kida.</quote>
 
@@ -128320,34 +128207,6 @@
       </f>
       <f name="when">
         <symbol value="2020_07_10"/>
-      </f>
-    </fs>
-</cit>
-
-<cit xml:id="id_ex_0497" type="example">
-   <quote xml:lang="ar-arz-x-cairo-vicav">baʔā-lak kām sana ʕāyiš hina.</quote>
-
-   <gramGrp>
-      <gram type="keys">DEM-A,IR-Q</gram>
-   </gramGrp>
-   <bibl>Matras, EGY002</bibl>
-
-   <cit type="translation" xml:lang="en">
-      <quote>How many years have you lived here?.</quote>
-   </cit>
-
-   <cit type="translation" xml:lang="de">
-      <quote>-</quote>
-   </cit>
-   <fs type="change">
-      <f name="who">
-        <symbol value="charly"/>
-      </f>
-      <f name="when">
-        <symbol value="2020_07_03"/>
-      </f>
-      <f name="status">
-        <symbol value="released"/>
       </f>
     </fs>
 </cit>
@@ -128734,34 +128593,6 @@
       </f>
       <f name="when">
         <symbol value="2020_07_10"/>
-      </f>
-    </fs>
-</cit>
-
-<cit xml:id="id_ex_0614" type="example">
-   <quote xml:lang="ar-arz-x-cairo-vicav">bitimši bi-ẓẓabṭ zayy ʔaxūha .</quote>
-
-   <gramGrp>
-      <gram type="keys">PP-B(3 FS),UM-F,P-PR,PG-PP</gram>
-   </gramGrp>
-   <bibl>Matras, EGY002</bibl>
-
-   <cit type="translation" xml:lang="en">
-      <quote>She walks exactly like her brother.</quote>
-   </cit>
-
-   <cit type="translation" xml:lang="de">
-      <quote>Sie geht genau wie ihr Bruder.</quote>
-   </cit>
-   <fs type="change">
-      <f name="who">
-        <symbol value="claudia"/>
-      </f>
-      <f name="when">
-        <symbol value="2020_07_13"/>
-      </f>
-      <f name="status">
-        <symbol value="released"/>
       </f>
     </fs>
 </cit>
@@ -129547,7 +129378,7 @@
 
 <cit xml:id="da_ghalabaawi_yitkallim_001" type="example">
    <quote xml:lang="ar-arz-x-cairo-vicav">da ġalabāwi, yitkallim alfᴵ kilma fi d-diʔīʔa.</quote>
-   <bibl>10/346</bibl>
+   
 
    <cit type="translation" xml:lang="en">
       <quote>He is talkative, he speaks thousand words per minute.</quote>
@@ -129732,7 +129563,7 @@
 
 <cit xml:id="dafacti_cala_tasliih_il_001" type="example">
    <quote xml:lang="ar-arz-x-cairo-vicav">dafaʕtᴵ ʕala taṣlīḥ il-ʕaṛabiyya aktaṛ min tamanha.</quote>
-   <bibl>10/339</bibl>
+   
 
    <cit type="translation" xml:lang="en">
       <quote>I payed too much for the repair of the car.</quote>
@@ -129784,34 +129615,6 @@
       <symbol value="released"/>
     </f>
   </fs>
-</cit>
-
-<cit xml:id="id_ex_0041" type="example">
-   <quote xml:lang="ar-arz-x-cairo-vicav">dāymǝn binišrab šāy fi l-ʔahwa baʕda iš-šuġl.</quote>
-
-   <gramGrp>
-      <gram type="keys">PR,NI,ND(1),SR-LOC-N,SR-TEMP-SE,IND-U-TI</gram>
-   </gramGrp>
-   <bibl>Matras, EGY002</bibl>
-
-   <cit type="translation" xml:lang="en">
-      <quote>We always drink tea at the cafe after work.</quote>
-   </cit>
-
-   <cit type="translation" xml:lang="de">
-      <quote>-</quote>
-   </cit>
-   <fs type="change">
-      <f name="who">
-        <symbol value="charly"/>
-      </f>
-      <f name="when">
-        <symbol value="2020_07_03"/>
-      </f>
-      <f name="status">
-        <symbol value="released"/>
-      </f>
-    </fs>
 </cit>
 
 <cit xml:id="dayyac_il_dash_001" type="example">
@@ -130626,7 +130429,7 @@
    <cit type="translation" xml:lang="de">
       <quote>-</quote>
    </cit>
-   <bibl>Gahin p.19</bibl>
+   
    <fs type="change">
       <f name="who">
          <symbol value="charly"/>
@@ -130799,33 +130602,6 @@
     </fs>
 </cit>
 
-<cit xml:id="id_ex_0624" type="example">
-   <quote xml:lang="ar-arz-x-cairo-vicav">gibt il-ḥagāt dī min uxtī.</quote>
-
-   <gramGrp>
-      <gram type="keys">SR-SBJ-E,SR-SO-O,DEM-P,NI-NP,PR,P-PR</gram>
-   </gramGrp>
-   <bibl>Matras, EGY002</bibl>
-
-   <cit type="translation" xml:lang="en">
-      <quote>I got these things from my sister.</quote>
-   </cit>
-
-   <cit type="translation" xml:lang="de">
-      <quote>-</quote>
-   </cit>
-   <fs type="change">
-      <f name="who">
-        <symbol value="charly"/>
-      </f>
-      <f name="when">
-        <symbol value="2020_07_03"/>
-      </f>
-      <f name="status">
-        <symbol value="released"/>
-      </f>
-    </fs>
-</cit>
 
 <cit xml:id="gibti_macaaya_haaga_basiita__001" type="example">
    <quote xml:lang="ar-arz-x-cairo-vicav">gibtᴵ maʕāya ḥāga basīṭa miš ʔadd il-maʔām.</quote>
@@ -131635,7 +131411,7 @@
    <cit type="translation" xml:lang="de">
       <quote>Die zwei verstehen sich sehr gut. (wie "Honig und Sesampaste")</quote>
    </cit>
-   <bibl>10/352</bibl>
+   
    <fs type="change">
       <f name="who">
          <symbol value="charly"/>
@@ -132244,7 +132020,7 @@
    <cit type="translation" xml:lang="de">
       <quote>Die Wunde vernarbte.</quote>
    </cit>
-   <bibl>8/36</bibl>
+   
    <fs type="change">
       <f name="who">
          <symbol value="charly"/>
@@ -132333,7 +132109,7 @@
 
 <cit xml:id="sid_ikfi_ca_lxabar_maguur_001__0003" type="example">
    <quote xml:lang="ar-arz-x-cairo-vicav">ikfi ʕa-l-xabaṛ magūr!</quote>
-   <bibl>Woidich, AwS</bibl>
+   
 
    <cit type="translation" xml:lang="en">
       <quote>Don't talk about it!</quote>
@@ -132446,7 +132222,7 @@
 
 <cit xml:id="sid_ilfiluus_issayba_ticallim_issir_001__0011" type="example" subtype="proverb">
    <quote xml:lang="ar-arz-x-cairo-vicav">il-filūs is-sayba tiʕallim is-sirʔa.</quote>
-   <bibl>Woidich, AwS</bibl>
+   
 
    <cit type="translation" xml:lang="en">
       <quote>Gelegenheit macht Diebe.</quote>
@@ -132495,41 +132271,6 @@
   </fs>
 </cit>
 
-<cit xml:id="id_ex_0536" type="example">
-   <quote xml:lang="ar-arz-x-cairo-vicav">il-fuṣṭān itġasal.</quote>
-
-   <gramGrp>
-      <gram type="keys">NI,VD-AP,COP</gram>
-   </gramGrp>
-   <bibl>Matras, EGY002</bibl>
-
-   <cit type="translation" xml:lang="en">
-      <quote>The dress is washed.</quote>
-   </cit>
-
-   <cit type="translation" xml:lang="de">
-      <quote>Das Kleid wurde gewaschen.</quote>
-   </cit>
-   <fs type="change">
-      <f name="who">
-         <symbol value="charly"/>
-      </f>
-      <f name="when">
-         <symbol value="2020_07_03"/>
-      </f>
-      <f name="status">
-         <symbol value="released"/>
-      </f>
-   </fs>
-   <fs type="change">
-      <f name="who">
-        <symbol value="claudia"/>
-      </f>
-      <f name="when">
-        <symbol value="2020_07_15"/>
-      </f>
-    </fs>
-</cit>
 
 <cit xml:id="il_ghada_gaahiz_001" type="example">
    <quote xml:lang="ar-arz-x-cairo-vicav">il-ġada gāhiz.</quote>
@@ -132594,7 +132335,7 @@
 
 <cit xml:id="sid_ilghaali_tamanu_fiih_001__0004" type="example" subtype="proverb">
    <quote xml:lang="ar-arz-x-cairo-vicav">il-ġāli tamanu fīh.</quote>
-   <bibl>Woidich, AwS</bibl>
+   
    <cit type="translation" xml:lang="en">
       <quote>It is worth its price.</quote>
    </cit>
@@ -132794,113 +132535,7 @@
   </fs>
 </cit>
 
-<cit xml:id="id_ex_0554" type="example">
-   <quote xml:lang="ar-arz-x-cairo-vicav">il-kitāb da btāʕak.</quote>
 
-   <gramGrp>
-      <gram type="keys">NI,PP-B(2 MS),DEM-P,PG-PR</gram>
-   </gramGrp>
-   <bibl>Matras, EGY002</bibl>
-
-   <cit type="translation" xml:lang="en">
-      <quote>This book is yours.</quote>
-   </cit>
-
-   <cit type="translation" xml:lang="de">
-      <quote>Das ist dein Buch.</quote>
-   </cit>
-   <fs type="change">
-      <f name="who">
-         <symbol value="charly"/>
-      </f>
-      <f name="when">
-         <symbol value="2020_07_03"/>
-      </f>
-      <f name="status">
-         <symbol value="released"/>
-      </f>
-   </fs>
-   <fs type="change">
-      <f name="who">
-        <symbol value="claudia"/>
-      </f>
-      <f name="when">
-        <symbol value="2020_07_15"/>
-      </f>
-    </fs>
-</cit>
-
-<cit xml:id="id_ex_0551" type="example">
-   <quote xml:lang="ar-arz-x-cairo-vicav">il-kitāb da btaʕi.</quote>
-
-   <gramGrp>
-      <gram type="keys">NI,PP-B(1 S),DEM-P,PG-PR</gram>
-   </gramGrp>
-   <bibl>Matras, EGY002</bibl>
-
-   <cit type="translation" xml:lang="en">
-      <quote>This book is mine.</quote>
-   </cit>
-
-   <cit type="translation" xml:lang="de">
-      <quote>Das ist mein Buch.</quote>
-   </cit>
-   <fs type="change">
-      <f name="who">
-         <symbol value="charly"/>
-      </f>
-      <f name="when">
-         <symbol value="2020_07_03"/>
-      </f>
-      <f name="status">
-         <symbol value="released"/>
-      </f>
-   </fs>
-   <fs type="change">
-      <f name="who">
-        <symbol value="claudia"/>
-      </f>
-      <f name="when">
-        <symbol value="2020_07_15"/>
-      </f>
-    </fs>
-</cit>
-
-<cit xml:id="id_ex_0559" type="example">
-   <quote xml:lang="ar-arz-x-cairo-vicav">il-kitāb da miš btāʕi.</quote>
-
-   <gramGrp>
-      <gram type="keys">NI,PP-B(1 S),DEM-P,NEG-COP-EX-3-PS,PG-PR</gram>
-   </gramGrp>
-   <bibl>Matras, EGY002</bibl>
-
-   <cit type="translation" xml:lang="en">
-      <quote>This book is not mine.</quote>
-   </cit>
-
-   <cit type="translation" xml:lang="de">
-      <quote>Dieses Buch gehört nicht mir.</quote>
-   </cit>
-   <fs type="change">
-      <f name="who">
-         <symbol value="charly"/>
-      </f>
-      <f name="when">
-         <symbol value="2020_07_03"/>
-      </f>
-      <f name="status">
-         <symbol value="released"/>
-      </f>
-   </fs>
-   <fs type="change">
-      <f name="who">
-        <symbol value="claudia"/>
-      </f>
-      <f name="when">
-        <symbol value="2020_07_15"/>
-      </f>
-    </fs>
-</cit>
 
 <cit xml:id="il_kitaab_da_yishtimil__001" type="example">
    <quote xml:lang="ar-arz-x-cairo-vicav">il-kitāb da yištimil ʕala xamas tibwāb.</quote>
@@ -133907,7 +133542,7 @@
    <cit type="translation" xml:lang="de">
       <quote>Der Mann wird nicht mit seinem Sohn fertig.</quote>
    </cit>
-   <bibl>10/339</bibl>
+   
    <fs type="change">
       <f name="who">
          <symbol value="charly"/>
@@ -135496,7 +135131,7 @@
    <cit type="translation" xml:lang="de">
       <quote>Das ließ einem das Wasser im Munde zusammenlaufen.</quote>
    </cit>
-   <bibl>1/347</bibl>
+   
    <fs type="change">
       <f name="who">
          <symbol value="charly"/>
@@ -135736,7 +135371,7 @@
 
 <cit xml:id="sid_kattar_xeerak_xeerik_exclm_001__0024" type="example">
    <quote xml:lang="ar-arz-x-cairo-vicav">kattaṛ xērak / xērik! - xērak / xērik sābiʔ.</quote>
-   <bibl>Woidich, AwS</bibl>
+   
 
    <cit type="translation" xml:lang="en">
       <quote>Gott vermehre dein Gut! - Bitte!</quote>
@@ -136461,7 +136096,7 @@
    <cit type="translation" xml:lang="de">
       <quote>Seine Augen glänzten.</quote>
    </cit>
-   <bibl>4/82</bibl>
+   
    <fs type="change">
       <f name="who">
          <symbol value="charly"/>
@@ -136493,7 +136128,7 @@
 
 <cit xml:id="lisaanu_saayib_001" type="example">
    <quote xml:lang="ar-arz-x-cairo-vicav">lisānu sāyib.</quote>
-   <bibl>12/267</bibl>
+   
 
    <cit type="translation" xml:lang="en">
       <quote>He has a loose tongue.</quote>
@@ -137040,7 +136675,7 @@
 
 <cit xml:id="mayi_darshi_yu_001" type="example">
    <quote xml:lang="ar-arz-x-cairo-vicav">mayiʔdaṛšᴵ yuʔʕud diʔīʔa waḥda bʕīd ʕanha.</quote>
-   <bibl>10/335</bibl>
+   
 
    <cit type="translation" xml:lang="en">
       <quote>He cannot sit away from her for a minute.</quote>
@@ -137322,56 +136957,6 @@
       <symbol value="released"/>
     </f>
   </fs>
-</cit>
-
-<cit xml:id="id_ex_0435" type="example">
-   <quote xml:lang="ar-arz-x-cairo-vicav"> ma-ʔidirt-ᴵš aftaḥ il-bāb.</quote>
-
-   <gramGrp>
-      <gram type="keys">CC-MO-CN,NEG-LV-PT,NI</gram>
-   </gramGrp>
-   <bibl>Matras, EGY002</bibl>
-
-   <cit type="translation" xml:lang="en">
-      <quote>I couldn’t open the door.</quote>
-   </cit>
-
-   <cit type="translation" xml:lang="de">
-      <quote>Ich konnte die Türe nicht öffnen.</quote>
-   </cit>
-   <fs type="change">
-      <f name="who">
-         <symbol value="charly"/>
-      </f>
-      <f name="when">
-         <symbol value="2020_07_03"/>
-      </f>
-      <f name="status">
-         <symbol value="released"/>
-      </f>
-   </fs>
-   <fs type="change">
-      <f name="who">
-         <symbol value="charly"/>
-      </f>
-      <f name="when">
-         <symbol value="2020_07_03"/>
-      </f>
-      <f name="status">
-         <symbol value="released"/>
-      </f>
-   </fs>
-   <fs type="change">
-      <f name="who">
-        <symbol value="claudia"/>
-      </f>
-      <f name="when">
-        <symbol value="2020_07_21"/>
-      </f>
-      <f name="status">
-        <symbol value="released"/>
-      </f>
-    </fs>
 </cit>
 
 <cit xml:id="macna_kida_innu_mish_001" type="example">
@@ -137658,7 +137243,7 @@
    <cit type="translation" xml:lang="de">
       <quote>Jedesmal kommst du nicht ungeschoren davon.</quote>
    </cit>
-   <bibl>10/258</bibl>
+   
    <fs type="change">
       <f name="who">
          <symbol value="charly"/>
@@ -137805,7 +137390,7 @@
    <cit type="translation" xml:lang="de">
       <quote>Unser armer Bruder!</quote>
    </cit>
-   <bibl>10/355</bibl>
+   
    <fs type="change">
       <f name="who">
          <symbol value="charly"/>
@@ -138011,7 +137596,7 @@
    <cit type="translation" xml:lang="de">
       <quote>Munira hält das Glas mit der linken Hand.</quote>
    </cit>
-   <bibl>SL 3, p.55</bibl>
+   
    <fs type="change">
       <f name="who">
          <symbol value="charly"/>
@@ -138672,33 +138257,6 @@
     </fs>
 </cit>
 
-<cit xml:id="id_ex_0308" type="example">
-   <quote xml:lang="ar-arz-x-cairo-vicav">sāfirna il-masāfa fi ṭnāʕšar sāʕa.</quote>
-
-   <gramGrp>
-      <gram type="keys">NI,NUM,SR-TEMP-D,SR-LOC-O-AC</gram>
-   </gramGrp>
-   <bibl>Matras, EGY002</bibl>
-
-   <cit type="translation" xml:lang="en">
-      <quote>We travelled the distance in twelve hours.</quote>
-   </cit>
-
-   <cit type="translation" xml:lang="de">
-      <quote>-</quote>
-   </cit>
-   <fs type="change">
-    <f name="who">
-      <symbol value="charly"/>
-    </f>
-    <f name="when">
-      <symbol value="2021_01_02"/>
-    </f>
-    <f name="status">
-      <symbol value="released"/>
-    </f>
-  </fs>
-</cit>
 
 <cit type="example" xml:id="entry_002926">
    <quote xml:lang="ar-arz-x-cairo-vicav">saknīn fi manṭiʔit <w ana="#vf_lex_which">ēh</w>? – iḥna saknīn fi z-zamālik.</quote>
@@ -138874,7 +138432,7 @@
    <cit type="translation" xml:lang="de">
       <quote>-</quote>
    </cit>
-   <bibl>15/52</bibl>
+   
    <fs type="change">
       <f name="who">
          <symbol value="charly"/>
@@ -139019,7 +138577,7 @@
    <cit type="translation" xml:lang="de">
       <quote>-</quote>
    </cit>
-   <bibl>16/20</bibl>
+   
    <fs type="change">
       <f name="who">
          <symbol value="charly"/>
@@ -139381,7 +138939,7 @@
    <cit type="translation" xml:lang="de">
       <quote>-</quote>
    </cit>
-   <bibl>19/13</bibl>
+   
    <fs type="change">
       <f name="who">
          <symbol value="charly"/>
@@ -139421,7 +138979,7 @@
    <cit type="translation" xml:lang="de">
       <quote>-</quote>
    </cit>
-   <bibl>4/79</bibl>
+   
    <fs type="create">
       <f name="who">
          <symbol value="charly"/>
@@ -140277,38 +139835,6 @@
     </fs>
 </cit>
 
-<cit xml:id="camalit_nafsaha_mashghuula_bess_001" type="example">
-   <quote xml:lang="ar-arz-x-cairo-vicav">ʕamalit nafsaha mašġūla bess kunt kaslāna ʔawī inhārḍa.</quote>
-
-   <gramGrp>
-      <gram type="keys">UM-C AI,PP-B(1 S),A-T,SR-TEMP-SI-DR,CC-MO-O,COP</gram>
-   </gramGrp>
-   <bibl>Matras, EGY002</bibl>
-
-   <cit type="translation" xml:lang="en">
-      <quote>I pretended to be busy</quote>
-   </cit>
-
-<cit type="translation" xml:lang="en">
-      <quote>but I was very lazy today.</quote>
-    </cit>
-
-   <cit type="translation" xml:lang="de">
-      <quote>-</quote>
-   </cit>
-   <fs type="change">
-      <f name="who">
-        <symbol value="charly"/>
-      </f>
-      <f name="when">
-        <symbol value="2020_07_03"/>
-      </f>
-      <f name="status">
-        <symbol value="released"/>
-      </f>
-    </fs>
-</cit>
-
 <cit xml:id="camalu_draasa_fi_l_001" type="example">
    <quote xml:lang="ar-arz-x-cairo-vicav">ʕamalu drāsa tafṣīli fi l-maraḍ da.</quote>
 
@@ -140360,7 +139886,7 @@
    <cit type="translation" xml:lang="de">
       <quote>Ich kann nicht essen.</quote>
    </cit>
-   <bibl>14/237</bibl>
+   
    <fs type="change">
       <f name="who">
         <symbol value="charly"/>
