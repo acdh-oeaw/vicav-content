@@ -101,6 +101,7 @@
                <fs xml:id="n_sg_m" feats="#pos.n #num.sg #gender.m"/>
                <fs xml:id="n_sg_f" feats="#pos.n #num.sg #gender.f"/>
                <!-- plural of a noun -->
+               <fs xml:id="n_pl" feats="#pos.n #num.pl"/>
                <fs xml:id="n_pl_m" feats="#pos.n #num.pl #gender.m"/>
                <fs xml:id="n_pl_f" feats="#pos.n #num.pl #gender.f"/>
                <!-- dual of a noun -->
