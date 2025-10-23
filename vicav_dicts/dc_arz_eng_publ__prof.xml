@@ -540,19 +540,14 @@ Example (Fr):         cit[@type="example"]/cit[@type="translation"][@xml:lang="f
         <xsl:apply-templates select="(tei:entry, tei:cit)" mode="tei-cit-or-entry"/>
     </xsl:template>
     
-    <xsl:template match="tei:entry" mode="tei-cit-or-entry">
-        <entry type="object">
+    <xsl:template match="tei:entry|tei:cit" mode="tei-cit-or-entry">
+        <xsl:element name="{local-name()}">
+            <xsl:attribute name="type">object</xsl:attribute>          
             <xsl:apply-templates select="."/>
-        </entry>
+        </xsl:element>
     </xsl:template>
     
-    <xsl:template match="tei:cit" mode="tei-cit-or-entry">
-        <cit type="object">
-            <xsl:apply-templates select="."/>
-        </cit>
-    </xsl:template>
-    
-    <xsl:template match="tei:ref">
+    <xsl:template match="tei:ref" mode="#default array">
         <xsl:variable name="target" select="xs:string(@target)"/>
         <xsl:choose>
             <xsl:when test="$referencedEntries//*[@xml:id = substring($target, 2)]">
@@ -570,7 +565,7 @@ Example (Fr):         cit[@type="example"]/cit[@type="translation"][@xml:lang="f
     </xsl:template>
     
     <!-- the following templates are needed for debugging XML fetched from the API -->
-
+    
     <xsl:template match="multipleParts" mode="named-object">
         <xsl:apply-templates select="xmlSource/*" mode="named-object"/>
     </xsl:template>
