@@ -109,7 +109,7 @@ if [ -d ${BUILD_DIR:-../webapp/vicav-app} ]
 then
   pushd ${BUILD_DIR:-../webapp/vicav-app}
   git reset --hard
-  git pull
+  git pull || true
   ret=$?
   if [ $ret != "0" ]; then exit $ret; fi
   if [ "$onlytags"x = 'truex' ]
@@ -130,7 +130,7 @@ echo updating vicav_content
 if [ ! -d vicav-content/.git ]; then echo "vicav_content does not exist or is not a git repository"; fi
 pushd vicav-content
 git reset --hard
-git pull
+git pull || true
 ret=$?
 if [ $ret != "0" ]; then exit $ret; fi
 if [ "$onlytags"x = 'truex' ]
