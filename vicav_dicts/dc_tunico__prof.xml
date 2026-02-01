@@ -450,24 +450,51 @@
     version="3.0">
     <xsl:import href="xml-to-basex-json-xml.xsl"/>
     <xsl:param name="referencedEntriesSerialized"/>
-    <xsl:variable name="referencedEntries" select="parse-xml-fragment($referencedEntriesSerialized)"/>
+    <xsl:variable name="referencedEntries" select="(parse-xml-fragment($referencedEntriesSerialized),root()/multipleParts/param_referencedEntriesSerialized)"/>
     <_:output method="json"/>
-    <xsl:output method="xml" indent="false" omit-xml-declaration="true"/>    <xsl:template match="tei:div">
+    <xsl:output method="xml" indent="false" omit-xml-declaration="true"/>
+    
+    <xsl:template match="tei:div" mode="named-object">
         <xsl:apply-templates select="* except (tei:entry, tei:cit)"/>
         <xsl:apply-templates select="(tei:entry, tei:cit)" mode="tei-cit-or-entry"/>
     </xsl:template>
     
     <xsl:template match="tei:entry" mode="tei-cit-or-entry">
-        <entry type="array">
-            <xsl:apply-templates select="." mode="sequence"/>
+        <entry type="object">
+            <xsl:apply-templates select="."/>
         </entry>
     </xsl:template>
     
     <xsl:template match="tei:cit" mode="tei-cit-or-entry">
-        <cit type="array">
-            <xsl:apply-templates select="." mode="sequence"/>
+        <cit type="object">
+            <xsl:apply-templates select="."/>
         </cit>
     </xsl:template>
+    
+    <xsl:template match="tei:ref">
+        <xsl:variable name="target" select="xs:string(@target)"/>
+        <xsl:choose>
+            <xsl:when test="$referencedEntries//*[@xml:id = substring($target, 2)]">
+                <xsl:call-template name="element-number-processing-switch">
+                    <xsl:with-param name="element-group" select="$referencedEntries//*[@xml:id = substring($target, 2)]"/>
+                </xsl:call-template>
+            </xsl:when>
+            <xsl:otherwise>
+                <ref type="object">
+                    <xsl:apply-templates select="@*"/>
+                    <_0024>target not found</_0024>
+                </ref>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
+    <!-- the following templates are needed for debugging XML fetched from the API -->
+
+    <xsl:template match="multipleParts" mode="named-object">
+        <xsl:apply-templates select="xmlSource/*" mode="named-object"/>
+    </xsl:template>
+    
+    <xsl:template match="tei:div/@*"/>
 </xsl:stylesheet>
 </entryStyle>
 <lemmaXPath>//form[@type="lemma"]/orth[@xml:lang="ar-aeb-x-tunis-vicav"] | //form[@type="multiWordUnit"]/orth[@xml:lang="ar-aeb-x-karm"] | //cit[@type="example"]/quote</lemmaXPath>

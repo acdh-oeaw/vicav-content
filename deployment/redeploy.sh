@@ -109,7 +109,7 @@ if [ -d ${BUILD_DIR:-../webapp/vicav-app} ]
 then
   pushd ${BUILD_DIR:-../webapp/vicav-app}
   git reset --hard
-  git pull
+  git pull || true
   ret=$?
   if [ $ret != "0" ]; then exit $ret; fi
   if [ "$onlytags"x = 'truex' ]
@@ -130,7 +130,7 @@ echo updating vicav_content
 if [ ! -d vicav-content/.git ]; then echo "vicav_content does not exist or is not a git repository"; fi
 pushd vicav-content
 git reset --hard
-git pull
+git pull || true
 ret=$?
 if [ $ret != "0" ]; then exit $ret; fi
 if [ "$onlytags"x = 'truex' ]
@@ -144,7 +144,7 @@ git -c advice.detachedHead=false checkout ${dataversion}
 who=$(git show -s --format='%cN')
 when=$(git show -s --format='%as')
 message=$(git show -s --format='%B')
-sourcebaseuri=$(git remote get-url origin)/tree/$(git rev-parse HEAD)/
+sourcebaseuri=$(git remote get-url origin | sed 's~\.git$~~g')/blob/$(git rev-parse HEAD)/
 #------- copy all images into the "images" directory in the web application directory
 echo "copying image files from vicav_content to vicav-webapp"
 for d in $(ls -d vicav_*)
@@ -153,7 +153,7 @@ do echo "Directory $d:"
    for filename in $(find "$d" -type f -and -name '*.xml')
    do
       publicationIdno=$(sed ':a;N;$!ba;s/\n/\\n/g' <<EOF
-<idno>$sourcebaseuri$filename</idno>
+<idno type="teiSource">$sourcebaseuri$filename</idno>
 EOF
 )
       revisionDesc=$(sed ':a;N;$!ba;s/\n/\\n/g' <<EOF
