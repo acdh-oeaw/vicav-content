@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>VICAV semantic inventory</title>
+        <respStmt>
+          <resp>Creator</resp>
+          <name>Charly Mörth</name>
+        </respStmt>
+        <respStmt>
+          <resp>Creator</resp>
+          <name>Stephan Procházka</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Austrian Centre for Digital Humanities</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from SKOS at https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex. This vocabulary provides a list of semantic items used in various VICAV resources.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="vt_lex">
+          <category xml:id="a_little" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#a_little">
+            <catDesc xml:lang="en">a little</catDesc>
+          </category>
+          <category xml:id="being_unable" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#being_unable">
+            <catDesc xml:lang="en">being unable</catDesc>
+          </category>
+          <category xml:id="black" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#black">
+            <catDesc xml:lang="en">black</catDesc>
+          </category>
+          <category xml:id="car" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#car">
+            <catDesc xml:lang="en">car</catDesc>
+          </category>
+          <category xml:id="children" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#children">
+            <catDesc xml:lang="en">children</catDesc>
+          </category>
+          <category xml:id="coffee" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#coffee">
+            <catDesc xml:lang="en">coffee</catDesc>
+          </category>
+          <category xml:id="eight" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#eight">
+            <catDesc xml:lang="en">eight</catDesc>
+          </category>
+          <category xml:id="eighteen" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#eighteen">
+            <catDesc xml:lang="en">eighteen</catDesc>
+          </category>
+          <category xml:id="eleven" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#eleven">
+            <catDesc xml:lang="en">eleven</catDesc>
+          </category>
+          <category xml:id="friend" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#friend">
+            <catDesc xml:lang="en">friend</catDesc>
+          </category>
+          <category xml:id="good" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#good">
+            <catDesc xml:lang="en">good</catDesc>
+          </category>
+          <category xml:id="grey" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#grey">
+            <catDesc xml:lang="en">grey</catDesc>
+          </category>
+          <category xml:id="here" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#here">
+            <catDesc xml:lang="en">here</catDesc>
+          </category>
+          <category xml:id="there" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#there">
+            <catDesc xml:lang="en">there</catDesc>
+          </category>
+          <category xml:id="house" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#house">
+            <catDesc xml:lang="en">house</catDesc>
+          </category>
+          <category xml:id="how" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#how">
+            <catDesc xml:lang="en">how</catDesc>
+          </category>
+          <category xml:id="how_many" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#how_many">
+            <catDesc xml:lang="en">how many</catDesc>
+          </category>
+          <category xml:id="how_much" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#how_much">
+            <catDesc xml:lang="en">how much</catDesc>
+          </category>
+          <category xml:id="husband" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#husband">
+            <catDesc xml:lang="en">husband</catDesc>
+          </category>
+          <category xml:id="in" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#in">
+            <catDesc xml:lang="en">in</catDesc>
+          </category>
+          <category xml:id="last_year" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#last_year">
+            <catDesc xml:lang="en">last year</catDesc>
+          </category>
+          <category xml:id="lemon" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#lemon">
+            <catDesc xml:lang="en">lemon</catDesc>
+          </category>
+          <category xml:id="letter" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#letter">
+            <catDesc xml:lang="en">letter</catDesc>
+          </category>
+          <category xml:id="man" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#man">
+            <catDesc xml:lang="en">man</catDesc>
+          </category>
+          <category xml:id="mobile" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#mobile">
+            <catDesc xml:lang="en">mobile</catDesc>
+          </category>
+          <category xml:id="mobile_vs_cellphone" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#mobile_vs_cellphone">
+            <catDesc xml:lang="en">mobile vs cellphone</catDesc>
+          </category>
+          <category xml:id="money" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#money">
+            <catDesc xml:lang="en">money</catDesc>
+          </category>
+          <category xml:id="much" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#much">
+            <catDesc xml:lang="en">much</catDesc>
+          </category>
+          <category xml:id="now" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#now">
+            <catDesc xml:lang="en">now</catDesc>
+          </category>
+          <category xml:id="orange" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#orange">
+            <catDesc xml:lang="en">orange</catDesc>
+          </category>
+          <category xml:id="pink" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#pink">
+            <catDesc xml:lang="en">pink</catDesc>
+          </category>
+          <category xml:id="please" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#please">
+            <catDesc xml:lang="en">please</catDesc>
+          </category>
+          <category xml:id="shirt" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#shirt">
+            <catDesc xml:lang="en">shirt</catDesc>
+          </category>
+          <category xml:id="since_for" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#since_for">
+            <catDesc xml:lang="en">since for</catDesc>
+          </category>
+          <category xml:id="tea" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#tea">
+            <catDesc xml:lang="en">tea</catDesc>
+          </category>
+          <category xml:id="three" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#three">
+            <catDesc xml:lang="en">three</catDesc>
+          </category>
+          <category xml:id="to_bring" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_bring">
+            <catDesc xml:lang="en">to bring</catDesc>
+          </category>
+          <category xml:id="to_find" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_find">
+            <catDesc xml:lang="en">to find</catDesc>
+          </category>
+          <category xml:id="to_close" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_close">
+            <catDesc xml:lang="en">to close</catDesc>
+          </category>
+          <category xml:id="to_do" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_do">
+            <catDesc xml:lang="en">to do</catDesc>
+          </category>
+          <category xml:id="to_give" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_give">
+            <catDesc xml:lang="en">to give</catDesc>
+          </category>
+          <category xml:id="to_have" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_have">
+            <catDesc xml:lang="en">to have</catDesc>
+          </category>
+          <category xml:id="to_open" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_open">
+            <catDesc xml:lang="en">to open</catDesc>
+          </category>
+          <category xml:id="to_rain" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_rain">
+            <catDesc xml:lang="en">to rain</catDesc>
+          </category>
+          <category xml:id="to_see" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_see">
+            <catDesc xml:lang="en">to see</catDesc>
+          </category>
+          <category xml:id="to_speak" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_speak">
+            <catDesc xml:lang="en">to speak</catDesc>
+          </category>
+          <category xml:id="to_stay" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_stay">
+            <catDesc xml:lang="en">to stay</catDesc>
+          </category>
+          <category xml:id="to_take" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_take">
+            <catDesc xml:lang="en">to take</catDesc>
+          </category>
+          <category xml:id="to_want" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_want">
+            <catDesc xml:lang="en">to want</catDesc>
+          </category>
+          <category xml:id="today" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#today">
+            <catDesc xml:lang="en">today</catDesc>
+          </category>
+          <category xml:id="tomorrow" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#tomorrow">
+            <catDesc xml:lang="en">tomorrow</catDesc>
+          </category>
+          <category xml:id="TV" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#TV">
+            <catDesc xml:lang="en">TV</catDesc>
+          </category>
+          <category xml:id="twelve" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#twelve">
+            <catDesc xml:lang="en">twelve</catDesc>
+          </category>
+          <category xml:id="what" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#what">
+            <catDesc xml:lang="en">what</catDesc>
+          </category>
+          <category xml:id="when" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#when">
+            <catDesc xml:lang="en">when</catDesc>
+          </category>
+          <category xml:id="where" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#where">
+            <catDesc xml:lang="en">where</catDesc>
+          </category>
+          <category xml:id="where_from" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#where_from">
+            <catDesc xml:lang="en">where from</catDesc>
+          </category>
+          <category xml:id="where_to" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#where_to">
+            <catDesc xml:lang="en">where to</catDesc>
+          </category>
+          <category xml:id="which" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#which">
+            <catDesc xml:lang="en">which</catDesc>
+          </category>
+          <category xml:id="white" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#white">
+            <catDesc xml:lang="en">white</catDesc>
+          </category>
+          <category xml:id="who" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#who">
+            <catDesc xml:lang="en">who</catDesc>
+          </category>
+          <category xml:id="whose" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#whose">
+            <catDesc xml:lang="en">whose</catDesc>
+          </category>
+          <category xml:id="why" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#why">
+            <catDesc xml:lang="en">why</catDesc>
+          </category>
+          <category xml:id="window" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#window">
+            <catDesc xml:lang="en">window</catDesc>
+          </category>
+          <category xml:id="women" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#women">
+            <catDesc xml:lang="en">women</catDesc>
+          </category>
+          <category xml:id="yesterday" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#yesterday">
+            <catDesc xml:lang="en">yesterday</catDesc>
+          </category>
+          <category xml:id="yesterday_evening" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#yesterday_evening">
+            <catDesc xml:lang="en">yesterday evening</catDesc>
+          </category>
+          <category xml:id="two" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#two">
+            <catDesc xml:lang="en">two</catDesc>
+          </category>
+          <category xml:id="bread" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#bread">
+            <catDesc xml:lang="en">bread</catDesc>
+          </category>
+          <category xml:id="how_are_you" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#how_are_you">
+            <catDesc xml:lang="en">how are you</catDesc>
+          </category>
+          <category xml:id="i_m_fine" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#i_m_fine">
+            <catDesc xml:lang="en">i m fine</catDesc>
+          </category>
+          <category xml:id="to_eat" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_eat">
+            <catDesc xml:lang="en">to eat</catDesc>
+          </category>
+          <category xml:id="to_like" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_like">
+            <catDesc xml:lang="en">to like</catDesc>
+          </category>
+          <category xml:id="to_hand_over" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#to_hand_over">
+            <catDesc xml:lang="en">to hand over</catDesc>
+          </category>
+          <category xml:id="very_a_lot" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#very_a_lot">
+            <catDesc xml:lang="en">very a lot</catDesc>
+          </category>
+          <category xml:id="polar_question_marker" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#polar_question_marker">
+            <catDesc xml:lang="en">polar question marker</catDesc>
+          </category>
+          <category xml:id="faaliil_vs_faalil" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#faaliil_vs_faalil">
+            <catDesc xml:lang="en">fʕālīl vs fʕālil</catDesc>
+          </category>
+          <category xml:id="fi_vs_bi" corresp="https://vocabs.acdh.oeaw.ac.at/vicav/vt_lex#fi_vs_bi">
+            <catDesc xml:lang="en">fi vs bi</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body><p></p></body>
+  </text>
+</TEI>
