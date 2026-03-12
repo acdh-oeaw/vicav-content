@@ -315,7 +315,7 @@
                <constraintSpec ident="rend-spec" scheme="schematron">
                   <constraint>
                      <s:rule context="tei:w[@rendition]">
-                        <s:let name="rendFile" value="'https://raw.githubusercontent.com/acdh-oeaw/vicav-content/master/tools/vicav_rendition.xml'"/>
+                        <s:let name="rendFile" value="'https://raw.githubusercontent.com/acdh-oeaw/vicav-library/main/vicav_rendition.xml'"/>
                         <s:let name="rend_values" value="doc($rendFile)//tei:rendition/@xml:id"/>
                         <s:assert test="every $r in tokenize(normalize-space(@rendition), '\s+') satisfies (replace(replace($r, '^rend:', ''), '^#', '') = $rend_values)">@rendition contains value(s) not found in vicav_rendition.xml: '<s:value-of select="@rendition"/>'</s:assert>
                      </s:rule>
