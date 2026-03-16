@@ -9,7 +9,7 @@
 	<create-db name="vicav_samples">../vicav-content/vicav_samples</create-db>
 	<create-db name="vicav_projects">../vicav-content/vicav_projects</create-db>
 	<create-db name="vicav_texts">../vicav-content/vicav_texts</create-db>
-    <create-db name="vicav_biblio">../vicav-content/vicav_biblio</create-db>
+    <create-db name="vicav_biblio">../vicav-content/vicav-library/vicav_biblio</create-db>
     <!-- Fix initial deploy exits before it creates all necessary db:
          Change order so that all the data available in tagged repository is restored first. --> 
     <create-db name="dc_tunico">../vicav-content/vicav_dicts/dc_tunico.xml</create-db>

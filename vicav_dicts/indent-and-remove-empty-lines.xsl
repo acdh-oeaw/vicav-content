@@ -1,0 +1,6 @@
+<xsl:stylesheet version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:mode on-no-match="shallow-copy" />
+    <xsl:output indent="yes" method="xml"/>
+    
+    <xsl:template match="text()[normalize-space(.) = '']"/>
+</xsl:stylesheet>

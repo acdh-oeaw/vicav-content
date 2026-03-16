@@ -28,3 +28,12 @@ If you have any quesions, don’t hesitate to contact us at acdh@oeaw.ac.at or v
 ## License
 
 Unless otherwise noted the VICAV material is published under the terms of the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+
+## Dependencies
+
+This content repository uses `vicav-library`. In this repository we keep data common to more than one VICAV projects.
+
+### Updatest to the vicav-library`
+
+Note that `vicav-library` is a submodule that references a revision of that data repoitory by hash. Updates need to be done explicitly by pulling the current
+vicav-library main branch and then committing the new revision in this repository.

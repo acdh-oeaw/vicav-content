@@ -1,53 +1,332 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
-    xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" 
-    xmlns:tei="http://www.tei-c.org/ns/1.0" 
-    xmlns:s="http://purl.oclc.org/dsdl/schematron">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Shawi corpus document ODD</title>
-                <author>Mau Zsofia Abraham</author>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>ACDH-OeAW</publisher>
-                <pubPlace>Vienna</pubPlace>
-                <date>2021</date>
-                <availability status="restricted">
-                    <p><ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/></p>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <p>This is an original digital text</p>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <schemaSpec ident="vicav_corpus" start="TEI">
-                <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt availability rendition sourceDesc encodingDesc tagsDecl revisionDesc change listPrefixDef prefixDef"/>
-                <moduleRef key="core" include="address author bibl cit date editor desc graphic head hi quote name note p publisher pubPlace ref respStmt resp rs series title"/>
-                <moduleRef key="tei"/>
-                <moduleRef key="textstructure" include="body div TEI text"/>
-                <moduleRef key="corpus"/>
-                <moduleRef key="analysis" include="w pc phr"/>
-                <moduleRef key="linking" include="timeline when anchor"></moduleRef>
-                <moduleRef key="spoken" include="annotationBlock u"></moduleRef>
-                <elementSpec ident="w" module="analysis" mode="change">
-                    <desc>Token ana attributes should entries in the standoff document.
-                    </desc>
-                    <constraintSpec ident="ana-spec" scheme="schematron">
-                        <desc>Enforce that the token links to a document.</desc>
-                        <constraint>
-                            <s:rule context="tei:w">
-                                <s:let name="ana" value="@ana" />
-                                <s:let name="filename" value="document-uri(/)"/>
-                                <s:assert test="$ana = doc(concat($filename,'_standoff.xml'))//property[@name = 'xml:id']/@value">Entry with id '<s:value-of select="$ana"/>' not found in glossary document.</s:assert>
-                            </s:rule>
-                        </constraint>
-                    </constraintSpec>
-                </elementSpec>
-            </schemaSpec>
-        </body>
-    </text>
+   xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:tei="http://www.tei-c.org/ns/1.0" 
+   xmlns:s="http://purl.oclc.org/dsdl/schematron">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICAV generic corpus document ODD</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>ACDH-OeAW</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date>2026</date>
+            <availability status="restricted">
+               <p><ref type="license" target="http://creativecommons.org/licenses/by-nc-sa/3.0/"/></p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This is an original digital text</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <schemaSpec ident="vicav_corpus" start="TEI teiCorpus">
+            <moduleRef key="header" include="availability catRef change distributor encodingDesc fileDesc funder idno licence listPrefixDef prefixDef profileDesc publicationStmt rendition revisionDesc sourceDesc tagsDecl teiHeader textClass titleStmt"/>
+            <moduleRef key="core" include="address addrLine author bibl biblStruct cit corr date desc editor gap graphic head hi imprint media milestone monogr name note p publisher pubPlace quote ref respStmt resp rs series title"/>
+            <moduleRef key="tei"/>
+            <moduleRef key="tagdocs" include="att code gi"/>
+            <moduleRef key="namesdates" include="forename listPerson orgName person persName place placeName surname"></moduleRef>
+            <moduleRef key="textstructure" include="body div TEI text"/>
+            <moduleRef key="corpus"/>
+            <moduleRef key="analysis" include="pc span spanGrp w"/>
+            <moduleRef key="linking" include="anchor seg timeline when"/>
+            <moduleRef key="spoken" include="pause recording recordingStmt shift u vocal"></moduleRef>
+            
+            <classSpec type="atts" ident="att.linguistic" mode="change">
+               <attList>
+                  <attDef ident="lemma" mode="delete"/>
+               </attList>
+            </classSpec>
+            
+            <elementSpec ident="resp" module="core" mode="change">
+               <content>
+                  <valList type="closed" mode="add">
+                     <valItem ident="principal"><desc>Principal investigator</desc></valItem>
+                     <valItem ident="contributor"><desc>role used in biblStruct</desc></valItem>
+                     <valItem ident="recording"><desc>Recorded by</desc></valItem>
+                     <valItem ident="transcription"><desc>Transcribed by</desc></valItem>
+                     <valItem ident="transcription check"><desc>Transcription checked by</desc></valItem>
+                     <valItem ident="translation"><desc>Translated by</desc></valItem>
+                     <valItem ident="translation check"><desc>Translation checked by</desc></valItem>
+                  </valList>
+               </content>
+               <constraintSpec ident="uniqueRespValues" scheme="schematron">
+                  <constraint>
+                     <s:rule context="tei:respStmt">
+                        <s:assert test="not(tei:resp[. != 'recording' and . != 'transcription check' and . != 'contributor' and . = preceding::tei:resp])">Each value inside 'respStmt' must be unique, except for 'recording', 'transcription check' and 'contributor'</s:assert>
+                     </s:rule>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            
+            <elementSpec ident="funder" module="header" mode="change">
+               <content>
+                  <sequence>
+                     <textNode/>
+                     <elementRef key="orgName" minOccurs="1" maxOccurs="1"/>
+                     <textNode/>
+                     <elementRef key="idno" minOccurs="1" maxOccurs="1"/>
+                  </sequence>
+               </content>
+               <constraintSpec ident="funderIdnoType" scheme="schematron">
+                  <desc>Restricts idno type within funder</desc>
+                  <constraint>
+                     <s:rule context="tei:funder/tei:idno">
+                        <s:assert test="@type='projectNumber'">Only the type "projectNumber" is permitted for idno inside funder</s:assert>
+                     </s:rule>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            <elementSpec ident="publicationStmt" module="header" mode="change">
+               <content>
+                  <sequence>
+                     <elementRef key="publisher" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="distributor" minOccurs="0" maxOccurs="unbounded"/>
+                     <elementRef key="date" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="address" minOccurs="0" maxOccurs="1"/>
+                     <elementRef key="availability" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="idno" minOccurs="1" maxOccurs="1"/>
+                  </sequence>
+               </content>
+            </elementSpec>
+            
+            <elementSpec ident="availability" module="header" mode="change">
+               <content>
+                  <elementRef key="licence" minOccurs="1" maxOccurs="1"/>
+               </content>
+            </elementSpec>
+            
+            <elementSpec ident="profileDesc" module="header" mode="change">
+               <content>
+                  <sequence>
+                     <elementRef key="particDesc" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="settingDesc" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="textClass" minOccurs="1" maxOccurs="1"/>
+                  </sequence>
+               </content>
+            </elementSpec>
+            
+            <elementSpec ident="particDesc" module="corpus" mode="change">
+               <content>
+                  <elementRef key="listPerson" minOccurs="1" maxOccurs="1"/>
+               </content>
+            </elementSpec>
+            
+            <elementSpec ident="textClass" module="header" mode="change">
+               <content>
+                  <elementRef key="catRef" minOccurs="1" maxOccurs="unbounded"/>
+               </content>
+            </elementSpec>
+            
+            <elementSpec ident="revisionDesc" module="header" mode="change">
+               <attList>
+                  <attDef ident="status" mode="replace" usage="req">
+                     <valList type="closed">
+                        <valItem ident="generated">
+                           <desc>status automatically generated by elan2tei conversion workflow</desc>
+                        </valItem>
+                        <valItem ident="draft">
+                           <desc>after changes have been made manually in the 010_manannot folder</desc>
+                        </valItem>
+                        <valItem ident="done">
+                           <desc>from here on validation with odd makes sense</desc>
+                        </valItem>
+                        <valItem ident="checked">
+                           <desc>TODO description missing</desc>
+                        </valItem>
+                        <valItem ident="published">
+                           <desc>when checked and validated</desc>
+                        </valItem>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="text" module="textstructure" mode="change">
+               <content>
+                  <sequence>
+                     <elementRef key="timeline" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="body" minOccurs="1" maxOccurs="1"/>
+                  </sequence>
+               </content>
+            </elementSpec>
+            
+            <elementSpec ident="body" module="textstructure" mode="change">
+               <content>
+                  <elementRef key="div" minOccurs="1" maxOccurs="1"/>
+               </content>
+            </elementSpec>
+            
+            
+            <elementSpec ident="div" module="textstructure" mode="change">
+               <content>
+                  <sequence>
+                     <elementRef key="head" minOccurs="0" maxOccurs="1"/>
+                     <elementRef key="div" minOccurs="0" maxOccurs="unbounded"/>
+                     <elementRef key="u" minOccurs="0" maxOccurs="unbounded"/>
+                     <elementRef key="spanGrp" minOccurs="0" maxOccurs="1"/>
+                  </sequence>
+               </content>
+               <constraintSpec ident="div-distinction" scheme="schematron">
+                  <constraint>
+                     <s:rule context="tei:div[@type='Situation']">
+                        <s:assert test="tei:head">a head element is required when div is of type Situation</s:assert>
+                     </s:rule>
+                     <s:rule context="tei:div[@corresp]">
+                        <s:assert test="tei:u and tei:spanGrp">a div without type Situation has to have utterances and a spanGrp</s:assert>
+                     </s:rule>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            
+            <elementSpec ident="spanGrp" module="analysis" mode="change">
+               <content>
+                  <elementRef key="span" minOccurs="1" maxOccurs="1"/>
+               </content>
+               <attList>
+                  <attDef ident="type" mode="replace" usage="req">
+                     <valList type="closed">
+                        <valItem ident="Translation">
+                           <desc>spanGrp is of type Translation</desc>
+                        </valItem>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="span" module="analysis" mode="change">
+               <constraintSpec ident="span-target-check" scheme="schematron">
+                  <constraint>
+                     <s:rule context="tei:span">
+                        <s:assert test="parent::tei:spanGrp/parent::tei:div/@xml:id = substring-after(@target, '#')">target of span should point at xml:id of parent div element</s:assert>
+                     </s:rule>
+                  </constraint>
+               </constraintSpec>
+               <attList>
+                  <attDef ident="target" mode="replace" usage="req">
+                     <datatype>
+                        <dataRef key="teidata.pointer"/>
+                     </datatype>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="u" module="spoken" mode="change">
+               <content>
+                  <alternate minOccurs="0" maxOccurs="unbounded">
+                     <elementRef key="corr"/>
+                     <elementRef key="gap"/>
+                     <elementRef key="media"/>
+                     <elementRef key="milestone"/>
+                     <elementRef key="note"/>
+                     <elementRef key="pause"/>
+                     <elementRef key="pc"/>
+                     <elementRef key="seg"/>
+                     <elementRef key="shift"/>
+                     <elementRef key="vocal"/>
+                     <elementRef key="w"/>
+                  </alternate>
+               </content>                  
+               <constraintSpec ident="u-who-check" scheme="schematron">
+                  <constraint>
+                     <s:rule context="tei:u">
+                        <s:assert test="starts-with(@who, 'corpus:')">The 'who' attribute of u has to start with 'corpus:'</s:assert>
+                        <s:assert test="every $w in tokenize(@who, '\s+') satisfies //tei:person/@sameAs = $w">The 'who' attribute of u must point to a person defined in the header</s:assert>
+                     </s:rule>
+                  </constraint>
+               </constraintSpec>
+               <attList>
+                  <attDef ident="xml:id" mode="change" usage="req"/>
+                  <attDef ident="who" mode="change" usage="req"/>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="seg" module="linking" mode="change">
+               <classes mode="change">
+                  <memberOf key="att.linguistic"/>
+               </classes>
+               <attList>
+                  <attDef ident="xml:id" mode="change" usage="req"/>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="pc" module="analysis" mode="change">
+               <attList>
+                  <attDef ident="xml:id" mode="change" usage="req"/>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="note" module="core" mode="change">
+               <constraintSpec ident="note-target-check" scheme="schematron">
+                  <constraint>
+                     <s:rule context="tei:u/tei:note">
+                        <s:assert test="parent::tei:u/tei:w/@xml:id = substring-after(@target, '#')">The target of note in u should point to a w element of the same parent u element</s:assert>
+                        <s:assert test="@resp">The note element must have a resp attribute</s:assert>
+                     </s:rule>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            <elementSpec ident="sourceDesc" module="header" mode="change">
+            <content>
+               <sequence>
+                  <elementRef key="recordingStmt" minOccurs="1" maxOccurs="1"/>
+                  <elementRef key="biblStruct" minOccurs="0" maxOccurs="1"/>
+               </sequence>
+            </content>
+            </elementSpec>
+            
+            <elementSpec ident="settingDesc" module="corpus" mode="change">
+               <content>
+                  <elementRef key="setting" minOccurs="1" maxOccurs="1"/>
+               </content>
+            </elementSpec>
+            <elementSpec ident="setting" module="corpus" mode="change">
+               <content>
+                  <alternate minOccurs="1" maxOccurs="1">
+                     <elementRef key="placeName"/>
+                     <elementRef key="p"/>
+                  </alternate>
+               </content>
+               <attList>
+                  <attDef ident="corresp" mode="change" usage="opt"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="placeName" module="namesdates" mode="change">
+               <attList>
+                  <attDef ident="sameAs" mode="change" usage="req"/>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="w" module="analysis" mode="change">
+               <content>
+                  <sequence>
+                     <textNode/>
+                     <alternate minOccurs="0" maxOccurs="unbounded">
+                        <textNode/>
+                        <elementRef key="pause"/>
+                        <elementRef key="shift"/>
+                        <elementRef key="corr"/>
+                     </alternate>
+                  </sequence>
+               </content>
+               <constraintSpec ident="rend-spec" scheme="schematron">
+                  <constraint>
+                     <s:rule context="tei:w[@rendition]">
+                        <s:let name="rendFile" value="'https://raw.githubusercontent.com/acdh-oeaw/vicav-library/main/vicav_rendition.xml'"/>
+                        <s:let name="rend_values" value="doc($rendFile)//tei:rendition/@xml:id"/>
+                        <s:assert test="every $r in tokenize(normalize-space(@rendition), '\s+') satisfies (replace(replace($r, '^rend:', ''), '^#', '') = $rend_values)">@rendition contains value(s) not found in vicav_rendition.xml: '<s:value-of select="@rendition"/>'</s:assert>
+                     </s:rule>
+                  </constraint>
+               </constraintSpec>
+               <attList>
+                  <attDef ident="xml:id" mode="change" usage="req"/>                        
+                  <attDef ident="xml:lang" mode="change" usage="req"/>
+               </attList>
+            </elementSpec>
+      </schemaSpec>
+      </body>
+   </text>
 </TEI>
