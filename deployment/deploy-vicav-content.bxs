@@ -1,14 +1,16 @@
 <commands>
-	<set option="CHOP">false</set>
+    <set option="CHOP">false</set>
     <set option="FTINDEX">true</set>
     <set option="DIACRITICS">true</set>
     <set option="CASESENS">true</set>
-	<create-db name="vicav_corpus">../vicav-content/vicav_corpus</create-db>
-	<create-db name="vicav_lingfeatures">../vicav-content/vicav_lingfeatures</create-db>
-	<create-db name="vicav_profiles">../vicav-content/vicav_profiles</create-db>
-	<create-db name="vicav_samples">../vicav-content/vicav_samples</create-db>
-	<create-db name="vicav_projects">../vicav-content/vicav_projects</create-db>
-	<create-db name="vicav_texts">../vicav-content/vicav_texts</create-db>
+    <set option='attrindex'>true</set>
+    <set option='attrinclude'></set>
+    <create-db name="vicav_corpus">../vicav-content/vicav_corpus</create-db>
+    <create-db name="vicav_lingfeatures">../vicav-content/vicav_lingfeatures</create-db>
+    <create-db name="vicav_profiles">../vicav-content/vicav_profiles</create-db>
+    <create-db name="vicav_samples">../vicav-content/vicav_samples</create-db>
+    <create-db name="vicav_projects">../vicav-content/vicav_projects</create-db>
+    <create-db name="vicav_texts">../vicav-content/vicav_texts</create-db>
     <create-db name="vicav_biblio">../vicav-content/vicav-library/vicav_biblio</create-db>
     <!-- Fix initial deploy exits before it creates all necessary db:
          Change order so that all the data available in tagged repository is restored first. --> 
