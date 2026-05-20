@@ -123,6 +123,14 @@
                         <elementRef key="listPerson" minOccurs="1" maxOccurs="1" />
                     </content>
                 </elementSpec>
+                <elementSpec ident="listPerson" module="namesdates" mode="change">
+                    <content>
+                        <sequence>
+                            <elementRef key="head" minOccurs="1" maxOccurs="1" />
+                            <elementRef key="person" minOccurs="1" maxOccurs="unbounded" />
+                        </sequence>
+                    </content>
+                </elementSpec>
                 <elementSpec ident="textClass" module="header" mode="change">
                     <content>
                         <sequence>
