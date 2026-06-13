@@ -524,14 +524,14 @@ Note: entry/note {lb_align=right;lb_weight=bold}</displayXPaths>
    declare namespace tei = 'http://www.tei-c.org/ns/1.0';
    declare variable $__db__ external;
    collection($__db__)//tei:entry/.//node()[text() contains text "{noSubstQuery}" using wildcards using diacritics insensitive using case insensitive] | 
-   collection($__db__)//tei:cit[@type='example']/.//node()[text() contains text "{noSubstQuery}" using wildcards using diacritics insensitive using case insensitive]
+   collection($__db__)//tei:cit[@type='example'][.//node()[text() contains text "{noSubstQuery}" using wildcards using diacritics insensitive using case insensitive]]/@xml:id!db:attribute($__db__,("#"||.))/ancestor::tei:entry
 </queryTemplate>
 
 <queryTemplate label="anywhere">
    declare namespace tei = 'http://www.tei-c.org/ns/1.0';
    declare variable $__db__ external;
    collection($__db__)//tei:entry/.//node()[text() contains text "{noSubstQuery}" using wildcards using diacritics sensitive using case sensitive] | 
-   collection($__db__)//tei:cit[@type='example']/.//node()[text() contains text "{noSubstQuery}" using wildcards using diacritics sensitive using case sensitive]
+   collection($__db__)//tei:cit[@type='example'][.//node()[text() contains text "{noSubstQuery}" using wildcards using diacritics sensitive using case sensitive]]/@xml:id!db:attribute($__db__,("#"||.))/ancestor::tei:entry
 </queryTemplate>
 
 <queryTemplate label="lemma">
@@ -544,8 +544,8 @@ Note: entry/note {lb_align=right;lb_weight=bold}</displayXPaths>
 <queryTemplate label="example">
    declare namespace tei = 'http://www.tei-c.org/ns/1.0';
    declare variable $__db__ external;
-   collection($__db__)//tei:cit[@type='example']/tei:quote[text() contains text "{noSubstQuery}" using wildcards using diacritics sensitive using case sensitive using language "en" using stemming] |
-   collection($__db__)//tei:cit[@type='example']/tei:cit/tei:quote[text() contains text "{noSubstQuery}" using wildcards using diacritics sensitive using case sensitive using language "en" using stemming]  
+   collection($__db__)//tei:cit[@type='example'][tei:quote[text() contains text "{noSubstQuery}" using wildcards using diacritics sensitive using case sensitive using language "en" using stemming]]/@xml:id!db:attribute($__db__,("#"||.))/ancestor::tei:entry |
+   collection($__db__)//tei:cit[@type='example'][tei:cit/tei:quote[text() contains text "{noSubstQuery}" using wildcards using diacritics sensitive using case sensitive using language "en" using stemming]]/@xml:id!db:attribute($__db__,("#"||.))/ancestor::tei:entry
 </queryTemplate>
 
 <queryTemplate label="sense">
@@ -557,7 +557,7 @@ Note: entry/note {lb_align=right;lb_weight=bold}</displayXPaths>
 <queryTemplate label="note">
    declare namespace tei = 'http://www.tei-c.org/ns/1.0';
    declare variable $__db__ external;
-   collection($__db__)//tei:entry/tei:note[text() contains text "{subQuery}" using wildcards using diacritics sensitive using case sensitive using language "en" using stemming]
+   collection($__db__)//tei:entry/tei:note[text() contains text "{noSubstQuery}" using wildcards using diacritics sensitive using case sensitive using language "en" using stemming]
 </queryTemplate>
 
 <queryTemplate label="sid">
