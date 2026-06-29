@@ -44,13 +44,105 @@
                     <name xml:lang="en">VICAV Bibliography</name>
                  </catDesc>
               </category>
+              <category xml:id="datatypes.vicav.ums" n="UMS">
+                 <catDesc>
+                    <name>Unmonitored Speech</name>
+                 </catDesc>
+              </category>
            </taxonomy>
         </classDecl>
      </encodingDesc>
   </teiHeader>
   <text>
       <body>
-         <p>This document describes the </p>
+         <div>
+         <head>Introduction</head>
+         
+         <p>VICAV-compatible datasets are made of TEI documents which share a set of common data type, i.e. a similar structure and comparable content. These can be:</p> 
+            
+            <list type="gloss"> 
+               <label>Feature Lists</label>
+               <item>sentence pairs in English and Arabic</item>
+               <label>Sample Texts</label>
+               <item>translations of the same source text</item>
+               <label>Unmonitored Speech</label>
+               <item>dialogues, narration</item>
+               <label>Dictionaries</label>
+               <item>VICAV dictionaries are </item>
+               <label>Profiles</label>
+               <item>short sketches of varieties of spoken (contemporary) Arabic</item>
+               <label>Bibliographies</label>
+               <item>a (full or partial) copy of the VICAV bibliography</item>
+               <label>Paratexts</label>
+               <item>any other descriptive text (project descriptions, etc.)</item>
+            </list>
+            
+            
+            <p>Next to these default data types, projects can define their own specific type of data which can be published via VICAV (see below).</p>
+            
+            <p>Since the main content of a VICAV-compatible data set is contained within those documents, they are called "Data Documents" in contrast to the "Corpus Document" which holds corpus-wide metadata and points to all the available "Data Documents" in a VICAV dataset.</p>
+         </div>
+       
+         <div>
+                  <head>Referencing the data type taxonomy</head>
+                  
+                  <p>Each VICAV data document should declare its type. by means of a <gi>catRef</gi> element within teiHeader/profileDesc/textClass pointing to the relevant <gi>catDesc</gi> element in this document OR a project-specific definition in the project's corpus document.</p>
+                     
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                <!-- in the corpus document-->
+                     <taxonomy xml:id="datatypes.tunocent">
+                        <category xml:id="datatypes.tunocent.tun" n="TUN">
+                           <catDesc>
+                              <name xml:lang="en">TUNOCENT Questionnaire</name>
+                           </catDesc>
+                        </category>
+                     </taxonomy>
+                     
+                     <!-- in a TEI document --> 
+                     <textClass>
+                        <catRef target="corpus:datatypes.tunocent.tun"/>
+                     </textClass>
+            </egXML>     
+                    
+            <p>In order to avoid identifier conflicts, the ids of dataset-specific data types should be prefixed with the project name, e.g. <val>datatypes.tunocent.tun</val>. The default VICAV data types are prefixed with <val>datatypes.vicav</val>, e.g. <val>datatypes.vicav.st</val></p>
+            <p>Please note that the datatype identies must only contain lowercase characters and dots</p>
+         </div>
+         
+         <div>
+                     <head>Data Document references</head>
+                     
+                     <p>In its <gi>body</gi>, each <gi>TEI</gi> element in the corpus document should contain references to the data document(s) derived from it in the data set:</p>
+                        
+                        <list>
+                           <item><gi>xi:include</gi> element pointing to all TEI documents contained in the data set</item>
+                           <item><gi>TEI</gi> stubs for audio recordings</item>
+                        </list>
+                              
+                              <p>If a recording has been reworked into a properly-encoded TEI document (e.g. a sample text or a feature list document), the stub in the corpus document points to the respective TEI document it its <gi>body</gi>:</p>
+                                 
+                                 <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                                    <body>
+                                       <ab>
+                                          <ref target="datatypes.vicav.st:vicav_sample_arish_02">A sample of l-Aʕrīš Arabic</ref>
+                                          <note>The content of this recording has been processed into a TEI document.</note>
+                                       </ab>
+                                    </body>
+                                 </egXML>
+                                 
+                                 <p>To make <att>target</att> resolvable, there should be a <gi>prefixDef</gi> for each datatype with the URI prefix equal to the datatype's identifier. If a referenced text/datapoint is embedded within a larger TEI document, the reference could be via a fragment identifier:</p>
+                                    
+                                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                                       <prefixDef ident="datatypes.vicav.st" matchPattern="^(.+)$" replacementPattern="vicav_samples/tunocent/vicav_sample_text_003.xml#$1">
+                                          <p>Private URIs using the <code>datatypes.vicav.st</code> prefix are pointers to VICAV sample texts.</p>
+                                       </prefixDef>
+                                    </egXML>
+                        <p>In case the referenced datapoint / text is a stand-alone TEI document, it should include a reference to the filename as well.</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                           <prefixDef ident="datatypes.vicav.st" matchPattern="^(.+)$" replacementPattern="vicav_samples/tunocent/$1.xml#$1">
+                              <p>Private URIs using the <code>datatypes.vicav.st</code> prefix are pointers to VICAV sample texts.</p>
+                           </prefixDef>
+                        </egXML>
+         </div>
       </body>
   </text>
 </TEI>
