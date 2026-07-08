@@ -27,7 +27,62 @@
       </tei:constraintDecl></tei:encodingDesc></teiHeader>
     <text>
         <body>
-            <schemaSpec xmlns:teix="http://www.tei-c.org/ns/Examples" ident="vicav_corpus" start="TEI teiCorpus" defaultExceptions="http://www.tei-c.org/ns/1.0 teix:egXML" source="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml"><classSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" module="tei" type="atts" xml:id="class-attr-anchoring" ident="att.anchoring">
+            <head>VICAV Corpus ODD</head>
+            <div>
+                <head>Rendering Guidelines</head>
+                <p>Within an utterance (<gi>u</gi>) we can have several inline elements next to <gi>w</gi>, <gi>pc</gi> or <gi>seg</gi>.</p>
+                <p>Examples of transcription phenomena and their representations:</p>
+                <table>
+                    <row role="label">
+                        <cell>Rendering</cell>
+                        <cell>TEI encoding</cell>
+                        <cell>Phenomenon</cell>
+                    </row>
+                    <row>
+                        <cell>[…]</cell>
+                        <cell>&lt;gap rendition="rend:ellipsisInSquareBrackets"/&gt;</cell>
+                        <cell>parts of speech which have not been transcribed</cell>
+                    </row>
+                    <row>
+                        <cell>…</cell>
+                        <cell>&lt;pause rendition="rend:ellipsis"/&gt;</cell>
+                        <cell>audible pause or other kind of ceasura</cell>
+                    </row>
+                    <row>
+                        <cell>xul…</cell>
+                        <cell>&lt;w type="truncated" rendition="rend:ellipsisAfter"&gt;xul&lt;/w&gt;</cell>
+                        <cell>word or speech that is left incomplete</cell>
+                    </row>
+                    <row>
+                        <cell>b-</cell>
+                        <cell>&lt;w rendition="rend:dashAfter"&gt;b&lt;/w&gt;</cell>
+                        <cell>word is followed by a dash</cell>
+                    </row>
+                    <row>
+                        <cell>_?</cell>
+                        <cell>&lt;w join="right" rendition="rend:withBowBelow"&gt;kun&lt;/w&gt;&lt;w&gt;nahāṛ&lt;/w&gt;</cell>
+                        <cell>assimilation should be represented with a bow below</cell>
+                    </row>
+                    <row>
+                        <cell>"</cell>
+                        <cell>&lt;shift rendition="rend:quot"/&gt;</cell>
+                        <cell>qualitative change in speech</cell>
+                    </row>
+                    <row>
+                        <cell>[corrected words]</cell>
+                        <cell>&lt;corr rendition="rend:withinSquareBrackets"&gt;corrected words&lt;/corr&gt;</cell>
+                        <cell>editorial correction of preceding word</cell>
+                    </row>
+                    <row>
+                        <cell>[a hint to our readers]</cell>
+                        <cell>&lt;note rendition="rend:withinSquareBrackets"&gt;a hint to our readers.&lt;/note&gt;</cell>
+                        <cell>note for the readers</cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+                <head>Formal Specification</head>
+                <schemaSpec xmlns:teix="http://www.tei-c.org/ns/Examples" ident="vicav_corpus" start="TEI teiCorpus" defaultExceptions="http://www.tei-c.org/ns/1.0 teix:egXML" source="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml"><classSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" module="tei" type="atts" xml:id="class-attr-anchoring" ident="att.anchoring">
   <gloss versionDate="2021-01-28" xml:lang="en">anchoring</gloss>
   <desc versionDate="2021-01-28" xml:lang="en">provides attributes for use on annotations, e.g. notes and groups of notes
   describing the existence and position of an anchor for annotations.</desc>
@@ -8205,15 +8260,15 @@ Elements</ref>
     <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/DS.html#DSHD">4.2.1. Headings and Trailers</ref>
   </listRef>
 </elementSpec><elementSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" rend="change" module="core" xml:id="gi-note" ident="note"><gloss versionDate="2017-06-25" xml:lang="en">note</gloss><gloss versionDate="2017-06-25" xml:lang="de">Anmerkung</gloss><desc versionDate="2005-01-14" xml:lang="en">contains a note or annotation.</desc><desc versionDate="2009-01-06" xml:lang="fr">contient une note ou une annotation.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene una nota o aclaración</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">包含附註或註釋。</desc><desc versionDate="2007-01-21" xml:lang="it">contiene una nota o un'annotazione</desc><desc versionDate="2006-10-28" xml:lang="ja">注釈・コメント。</desc><desc versionDate="2017-06-25" xml:lang="de">enthält eine Anmerkung oder Annotation.</desc><classes><memberOf key="att.global"/><memberOf key="att.anchoring"/><memberOf key="att.cmc"/><memberOf key="att.placement"/><memberOf key="att.pointing"/><memberOf key="att.typed"/><memberOf key="att.written"/><memberOf key="model.noteLike"/></classes><content><macroRef key="macro.specialPara"/></content><constraintSpec ident="note-target-check" scheme="schematron">
-                        <constraint>
-                            <s:rule context="tei:u/tei:note">
-                                <s:assert test="parent::tei:u/tei:w/@xml:id = substring-after(@target, '#')">The target of note in u should point to a w element of the same
-                                    parent u element</s:assert>
-                                <s:assert test="@resp">The note element must have a resp
-                                    attribute</s:assert>
-                            </s:rule>
-                        </constraint>
-                    </constraintSpec><exemplum xml:lang="en">
+                            <constraint>
+                                <s:rule context="tei:u/tei:note">
+                                    <s:assert test="parent::tei:u/tei:w/@xml:id = substring-after(@target, '#')">The target of note in u should point to a w element of the same
+                                        parent u element</s:assert>
+                                    <s:assert test="@resp">The note element must have a resp
+                                        attribute</s:assert>
+                                </s:rule>
+                            </constraint>
+                        </constraintSpec><exemplum xml:lang="en">
     <p>In the following example, the translator has supplied a footnote
       containing an explanation of the term translated as "painterly":</p>
 <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="gi-note-egXML-yp" source="#NOTE-eg">And yet it is not only
@@ -9123,35 +9178,35 @@ Elements</ref>
     <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD26">2.2.5. The Series Statement</ref>
   </listRef>
 </elementSpec><elementSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" rend="change" module="core" xml:id="gi-resp" ident="resp"><gloss versionDate="2007-07-04" xml:lang="en">responsibility</gloss><gloss versionDate="2007-12-20" xml:lang="ko">책임성</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW"/><gloss versionDate="2008-04-06" xml:lang="es">responsabilidad</gloss><gloss versionDate="2007-06-12" xml:lang="fr">responsabilité</gloss><gloss versionDate="2007-11-06" xml:lang="it">responsabilità</gloss><gloss versionDate="2017-06-04" xml:lang="de">Verantwortlichkeit</gloss><desc versionDate="2011-11-16" xml:lang="en">contains a phrase describing the nature of a person's intellectual responsibility, or an organization's role in the production or distribution of a work.</desc><desc versionDate="2007-12-20" xml:lang="ko">개인의 지적 책임성에 관한 특성을 기술하는 구를 포함한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">包含一個詞彙，來描述個人智慧責任的類型。</desc><desc versionDate="2008-04-05" xml:lang="ja">人物の知的責任の性質を表す一節を示す。</desc><desc versionDate="2007-06-12" xml:lang="fr">contient une expression décrivant la nature de la responsabilité intellectuelle d'une personne.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene un sintagma que describe la naturaleza de la responsabilidad intelectual de una persona.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene una frase che descrive la natura della responsabilità intellettuale di una persona.</desc><desc versionDate="2017-06-04" xml:lang="de">enthält eine Phrase, die die Art der intellektuellen Verantwortung einer Person oder die Rolle einer Organisation bei der Herstellung oder Distribution eines Werkes beschreibt.</desc><classes><memberOf key="att.global"/><memberOf key="att.canonical"/><memberOf key="att.datable"/></classes><content><valList type="closed" rend="add">
-                            <valItem ident="principal">
-                                <desc>Principal investigator</desc>
-                            </valItem>
-                            <valItem ident="contributor">
-                                <desc>role used in biblStruct</desc>
-                            </valItem>
-                            <valItem ident="recording">
-                                <desc>Recorded by</desc>
-                            </valItem>
-                            <valItem ident="transcription">
-                                <desc>Transcribed by</desc>
-                            </valItem>
-                            <valItem ident="transcription check">
-                                <desc>Transcription checked by</desc>
-                            </valItem>
-                            <valItem ident="translation">
-                                <desc>Translated by</desc>
-                            </valItem>
-                            <valItem ident="translation check">
-                                <desc>Translation checked by</desc>
-                            </valItem>
-                        </valList></content><constraintSpec ident="uniqueRespValues" scheme="schematron">
-                        <constraint>
-                            <s:rule context="tei:respStmt">
-                                <s:assert test="not(tei:resp[. != 'recording' and . != 'transcription check' and . != 'contributor' and . = preceding::tei:resp])">Each value inside 'respStmt' must be unique, except for
-                                    'recording', 'transcription check' and 'contributor'</s:assert>
-                            </s:rule>
-                        </constraint>
-                    </constraintSpec><exemplum xml:lang="en">
+                                <valItem ident="principal">
+                                    <desc>Principal investigator</desc>
+                                </valItem>
+                                <valItem ident="contributor">
+                                    <desc>role used in biblStruct</desc>
+                                </valItem>
+                                <valItem ident="recording">
+                                    <desc>Recorded by</desc>
+                                </valItem>
+                                <valItem ident="transcription">
+                                    <desc>Transcribed by</desc>
+                                </valItem>
+                                <valItem ident="transcription check">
+                                    <desc>Transcription checked by</desc>
+                                </valItem>
+                                <valItem ident="translation">
+                                    <desc>Translated by</desc>
+                                </valItem>
+                                <valItem ident="translation check">
+                                    <desc>Translation checked by</desc>
+                                </valItem>
+                            </valList></content><constraintSpec ident="uniqueRespValues" scheme="schematron">
+                            <constraint>
+                                <s:rule context="tei:respStmt">
+                                    <s:assert test="not(tei:resp[. != 'recording' and . != 'transcription check' and . != 'contributor' and . = preceding::tei:resp])">Each value inside 'respStmt' must be unique, except for
+                                        'recording', 'transcription check' and 'contributor'</s:assert>
+                                </s:rule>
+                            </constraint>
+                        </constraintSpec><exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="gi-resp-egXML-yc">
       <respStmt>
         <resp ref="http://id.loc.gov/vocabulary/relators/com.html">compiler</resp>
@@ -10519,14 +10574,14 @@ epistemology, methodology and history of
     <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD2">2.2. The File Description</ref>
   </listRef>
 </elementSpec><elementSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" rend="change" module="header" xml:id="gi-funder" ident="funder"><gloss versionDate="2007-07-04" xml:lang="en">funding body</gloss><gloss versionDate="2009-01-05" xml:lang="fr">financeur</gloss><gloss versionDate="2007-12-20" xml:lang="ko">재정 지원 조직체</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW">資助者</gloss><gloss versionDate="2016-11-17" xml:lang="de">Geldgeber</gloss><gloss versionDate="2007-05-04" xml:lang="es">responsable de la financiación</gloss><gloss versionDate="2007-01-21" xml:lang="it">finanziatore</gloss><desc versionDate="2005-01-14" xml:lang="en">specifies the name of an individual, institution, or organization responsible for the funding of a project or text.</desc><desc versionDate="2009-01-05" xml:lang="fr">désigne le nom d’une personne ou d’un organisme responsable du financement d’un projet ou d’un texte.</desc><desc versionDate="2007-12-20" xml:lang="ko">프로젝트 또는 텍스트의 재정 지원 책임을 지는 개인, 기관, 조직의 이름을 명시한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">標明負責資助一項計畫或文件製作的個人、機構或組織名稱。</desc><desc versionDate="2008-04-05" xml:lang="ja">テキストやプロジェクトの資金提供に責任を持つ個人、団体、組織の名前を 示す。</desc><desc versionDate="2016-11-17" xml:lang="de">gibt den Namen einer Einzelperson, Institution oder Organisation an, die für die Finanzierung eines Projekts oder Textes verantwortlich ist.</desc><desc versionDate="2007-05-04" xml:lang="es">proporciona el nombre del individuo, la institución o la organización responsable de la financiación de un proyecto o de un texto.</desc><desc versionDate="2007-01-21" xml:lang="it">indica il nome di un individuo, istituzione o organizzazione responsabile del finanziamento di un progetto o testo.</desc><classes><memberOf key="att.global"/><memberOf key="att.canonical"/><memberOf key="att.datable"/><memberOf key="model.respLike"/></classes><content><sequence minOccurs="1" maxOccurs="1"><textNode/><elementRef key="orgName" minOccurs="1" maxOccurs="1"/><textNode/><elementRef key="idno" minOccurs="1" maxOccurs="1"/></sequence></content><constraintSpec ident="funderIdnoType" scheme="schematron">
-                        <desc>Restricts idno type within funder</desc>
-                        <constraint>
-                            <s:rule context="tei:funder/tei:idno">
-                                <s:assert test="@type='projectNumber'">Only the type "projectNumber"
-                                    is permitted for idno inside funder</s:assert>
-                            </s:rule>
-                        </constraint>
-                    </constraintSpec><exemplum xml:lang="en">
+                            <desc>Restricts idno type within funder</desc>
+                            <constraint>
+                                <s:rule context="tei:funder/tei:idno">
+                                    <s:assert test="@type='projectNumber'">Only the type "projectNumber"
+                                        is permitted for idno inside funder</s:assert>
+                                </s:rule>
+                            </constraint>
+                        </constraintSpec><exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="gi-funder-egXML-ch">
       <funder>The National Endowment for the Humanities, an independent federal agency</funder>
       <funder>Directorate General XIII of the Commission of the European Communities</funder>
@@ -11511,34 +11566,34 @@ elements of  <gi>profileDesc</gi> unless these are documenting multiple texts.</
     temática de un texto en términos de un esquema de clasificación estándard.</desc><desc versionDate="2007-01-21" xml:lang="it">raggruppa le informazioni che descrivono la natura o
     l'argomento di un testo secondo uno schema di classificazione standard, un dizionario i
     sinonimi, ecc.</desc><classes><memberOf key="att.global"/><memberOf key="att.declarable"/></classes><content><sequence minOccurs="1" maxOccurs="1"><elementRef key="catRef" minOccurs="1" maxOccurs="unbounded"/><elementRef key="keywords" minOccurs="0" maxOccurs="unbounded"/></sequence></content><constraintSpec ident="textclass-taxonomy-values" scheme="schematron">
-                        <desc>Checks catRef and keywords against the taxonomy referenced via @scheme.</desc>
-                        <constraint>
-                            <s:rule context="tei:textClass/*[self::tei:catRef or self::tei:keywords[tei:term]]">
-                                <s:let name="prefix" value="tokenize(@scheme, ':')[1]"/>
-                                <s:let name="prefix-regex" value="if (contains(@scheme, ':')) then'(corpus|vtc)' else ()"/>
-                                <s:let name="prefix-def" value="ancestor::tei:TEI/tei:teiHeader//tei:prefixDef[@ident = $prefix][1]"/>
-                                <s:let name="taxonomy-id" value="replace(@scheme, concat('^', $prefix-regex, ':'), '')"/>
-                                <s:let name="taxonomy-href" value="if ($prefix-def and matches(@scheme, concat('^', $prefix-regex, ':'))) then replace($taxonomy-id, string($prefix-def/@matchPattern), string($prefix-def/@replacementPattern)) else ()"/>
-                                <s:let name="taxonomy-uri" value="if ($taxonomy-href) then resolve-uri(replace($taxonomy-href, '#.*$', ''), base-uri(/)) else ()"/>
-                                <s:let name="taxonomy-doc" value="if ($taxonomy-uri and doc-available($taxonomy-uri)) then doc($taxonomy-uri) else ()"/>
-                                <s:let name="taxonomy" value="$taxonomy-doc//tei:taxonomy[@xml:id = $taxonomy-id]"/>
-                                <s:let name="taxonomy-values-id" value="for $cat in $taxonomy//tei:category[@xml:id] return string($cat/@xml:id)"/>
-                                <s:let name="taxonomy-values-n" value="for $cat in $taxonomy//tei:category[@n] return normalize-space($cat/@n)"/>
-                                <s:let name="invalid-targets" value="if (self::tei:catRef) then (for $t in tokenize(@target, '\s+') return if (matches($t, concat('^', $prefix-regex, ':')) and replace($t, concat('^', $prefix-regex, ':'), '') = $taxonomy-values-id) then () else $t) else ()"/>
-                                <s:let name="invalid-terms" value="if (self::tei:keywords) then tei:term[not(normalize-space(.) = $taxonomy-values-n)] else ()"/>
-                                <s:assert test="@scheme">Elements in textClass must provide @scheme</s:assert>
-                                <s:assert test="matches(@scheme, concat('^', $prefix-regex, ':.+$'))">@scheme must use the corpus: or vtc: prefix</s:assert>
-                                <s:assert test="exists($prefix-def)">No prefixDef with ident='corpus' or ident='vtc' is defined in the TEI header</s:assert>
-                                <s:assert test="normalize-space($taxonomy-id) != ''">@scheme must provide a taxonomy xml:id after 'corpus:' or 'vtc:'</s:assert>
-                                <s:assert test="$taxonomy-uri and doc-available($taxonomy-uri)">The taxonomy file referenced by @scheme ('<s:value-of select="@scheme"/>') cannot be loaded</s:assert>
-                                <s:assert test="exists($taxonomy)">The taxonomy referenced by @scheme ('<s:value-of select="@scheme"/>') does not exist <s:value-of select="$taxonomy-id"/><s:value-of select="$prefix-def"/></s:assert>
-                                <s:assert test="if (self::tei:catRef) then @target else true()">catRef must provide @target</s:assert>
-                                <s:assert test="if (self::tei:catRef) then every $t in tokenize(@target, '\s+') satisfies matches($t, concat('^', $prefix-regex, ':.+$')) else true()">Each catRef target must use the corpus: or vtc: prefix</s:assert>
-                                <s:assert test="if (self::tei:catRef) then empty($invalid-targets) else true()">Unknown catRef target(s): <s:value-of select="string-join($invalid-targets, ', ')"/>. Each target must match a tei:category/@xml:id in the referenced taxonomy.</s:assert>
-                                <s:assert test="if (self::tei:keywords) then empty($invalid-terms) else true()">Unknown keyword term(s): <s:value-of select="string-join($invalid-terms/normalize-space(.), ', ')"/>. Each term must match a value in the referenced taxonomy.</s:assert>
-                            </s:rule>
-                        </constraint>
-                    </constraintSpec><constraintSpec ident="textClass-is-declarable" scheme="schematron" xml:lang="en">
+                            <desc>Checks catRef and keywords against the taxonomy referenced via @scheme.</desc>
+                            <constraint>
+                                <s:rule context="tei:textClass/*[self::tei:catRef or self::tei:keywords[tei:term]]">
+                                    <s:let name="prefix" value="tokenize(@scheme, ':')[1]"/>
+                                    <s:let name="prefix-regex" value="if (contains(@scheme, ':')) then'(corpus|vtc)' else ()"/>
+                                    <s:let name="prefix-def" value="ancestor::tei:TEI/tei:teiHeader//tei:prefixDef[@ident = $prefix][1]"/>
+                                    <s:let name="taxonomy-id" value="replace(@scheme, concat('^', $prefix-regex, ':'), '')"/>
+                                    <s:let name="taxonomy-href" value="if ($prefix-def and matches(@scheme, concat('^', $prefix-regex, ':'))) then replace($taxonomy-id, string($prefix-def/@matchPattern), string($prefix-def/@replacementPattern)) else ()"/>
+                                    <s:let name="taxonomy-uri" value="if ($taxonomy-href) then resolve-uri(replace($taxonomy-href, '#.*$', ''), base-uri(/)) else ()"/>
+                                    <s:let name="taxonomy-doc" value="if ($taxonomy-uri and doc-available($taxonomy-uri)) then doc($taxonomy-uri) else ()"/>
+                                    <s:let name="taxonomy" value="$taxonomy-doc//tei:taxonomy[@xml:id = $taxonomy-id]"/>
+                                    <s:let name="taxonomy-values-id" value="for $cat in $taxonomy//tei:category[@xml:id] return string($cat/@xml:id)"/>
+                                    <s:let name="taxonomy-values-n" value="for $cat in $taxonomy//tei:category[@n] return normalize-space($cat/@n)"/>
+                                    <s:let name="invalid-targets" value="if (self::tei:catRef) then (for $t in tokenize(@target, '\s+') return if (matches($t, concat('^', $prefix-regex, ':')) and replace($t, concat('^', $prefix-regex, ':'), '') = $taxonomy-values-id) then () else $t) else ()"/>
+                                    <s:let name="invalid-terms" value="if (self::tei:keywords) then tei:term[not(normalize-space(.) = $taxonomy-values-n)] else ()"/>
+                                    <s:assert test="@scheme">Elements in textClass must provide @scheme</s:assert>
+                                    <s:assert test="matches(@scheme, concat('^', $prefix-regex, ':.+$'))">@scheme must use the corpus: or vtc: prefix</s:assert>
+                                    <s:assert test="exists($prefix-def)">No prefixDef with ident='corpus' or ident='vtc' is defined in the TEI header</s:assert>
+                                    <s:assert test="normalize-space($taxonomy-id) != ''">@scheme must provide a taxonomy xml:id after 'corpus:' or 'vtc:'</s:assert>
+                                    <s:assert test="$taxonomy-uri and doc-available($taxonomy-uri)">The taxonomy file referenced by @scheme ('<s:value-of select="@scheme"/>') cannot be loaded</s:assert>
+                                    <s:assert test="exists($taxonomy)">The taxonomy referenced by @scheme ('<s:value-of select="@scheme"/>') does not exist <s:value-of select="$taxonomy-id"/><s:value-of select="$prefix-def"/></s:assert>
+                                    <s:assert test="if (self::tei:catRef) then @target else true()">catRef must provide @target</s:assert>
+                                    <s:assert test="if (self::tei:catRef) then every $t in tokenize(@target, '\s+') satisfies matches($t, concat('^', $prefix-regex, ':.+$')) else true()">Each catRef target must use the corpus: or vtc: prefix</s:assert>
+                                    <s:assert test="if (self::tei:catRef) then empty($invalid-targets) else true()">Unknown catRef target(s): <s:value-of select="string-join($invalid-targets, ', ')"/>. Each target must match a tei:category/@xml:id in the referenced taxonomy.</s:assert>
+                                    <s:assert test="if (self::tei:keywords) then empty($invalid-terms) else true()">Unknown keyword term(s): <s:value-of select="string-join($invalid-terms/normalize-space(.), ', ')"/>. Each term must match a value in the referenced taxonomy.</s:assert>
+                                </s:rule>
+                            </constraint>
+                        </constraintSpec><constraintSpec ident="textClass-is-declarable" scheme="schematron" xml:lang="en">
     <constraint>
       <sch:pattern is-a="declarable">
         <sch:param name="tde" value="tei:textClass"/>
@@ -11822,26 +11877,26 @@ should be supplied for the <att>scheme</att> attribute.</p>
     <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD43">2.4.3. The Text Classification</ref>
   </listRef>
 </elementSpec><elementSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" rend="change" module="header" xml:id="gi-revisionDesc" ident="revisionDesc"><gloss versionDate="2005-01-14" xml:lang="en">revision description</gloss><gloss versionDate="2009-01-05" xml:lang="fr">descriptif des révisions</gloss><gloss versionDate="2007-12-20" xml:lang="ko">수정 기술</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW">修訂描述</gloss><gloss versionDate="2016-11-25" xml:lang="de">Beschreibung der Dateihistorie</gloss><gloss versionDate="2007-05-04" xml:lang="es">descripción de la revisión</gloss><gloss versionDate="2007-01-21" xml:lang="it">descirzione della revisione</gloss><desc versionDate="2005-01-14" xml:lang="en">summarizes the revision history for a file.</desc><desc versionDate="2009-01-05" xml:lang="fr">fournit un résumé de l’historique des révisions d’un fichier.</desc><desc versionDate="2007-12-20" xml:lang="ko">하나의 파일에 대한 수정 이력을 요약한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">概述檔案的修訂歷史。</desc><desc versionDate="2008-04-05" xml:lang="ja">ファイルの改訂履歴を示す。</desc><desc versionDate="2016-11-25" xml:lang="de">dokumentiert die Änderungen, die an der Datei vorgenommen wurden.</desc><desc versionDate="2007-05-04" xml:lang="es">resume el historial de la revisión de un archivo.</desc><desc versionDate="2007-01-21" xml:lang="it">sintetizza la storia delle revisioni di un file</desc><classes><memberOf key="att.global"/><memberOf key="att.docStatus"/></classes><content><alternate minOccurs="1" maxOccurs="1"><elementRef key="list" minOccurs="1" maxOccurs="unbounded"/><elementRef key="listChange" minOccurs="1" maxOccurs="unbounded"/><elementRef key="change" minOccurs="1" maxOccurs="unbounded"/></alternate></content><attList><attDef ident="status" mode="replace" usage="req">
-                            <valList type="closed">
-                                <valItem ident="generated">
-                                    <desc>status automatically generated by elan2tei conversion
-                                        workflow</desc>
-                                </valItem>
-                                <valItem ident="draft">
-                                    <desc>after changes have been made manually in the 010_manannot
-                                        folder</desc>
-                                </valItem>
-                                <valItem ident="done">
-                                    <desc>from here on validation with odd makes sense</desc>
-                                </valItem>
-                                <valItem ident="checked">
-                                    <desc>TODO description missing</desc>
-                                </valItem>
-                                <valItem ident="published">
-                                    <desc>when checked and validated</desc>
-                                </valItem>
-                            </valList>
-                        </attDef></attList><exemplum xml:lang="en">
+                                <valList type="closed">
+                                    <valItem ident="generated">
+                                        <desc>status automatically generated by elan2tei conversion
+                                            workflow</desc>
+                                    </valItem>
+                                    <valItem ident="draft">
+                                        <desc>after changes have been made manually in the 010_manannot
+                                            folder</desc>
+                                    </valItem>
+                                    <valItem ident="done">
+                                        <desc>from here on validation with odd makes sense</desc>
+                                    </valItem>
+                                    <valItem ident="checked">
+                                        <desc>TODO description missing</desc>
+                                    </valItem>
+                                    <valItem ident="published">
+                                        <desc>when checked and validated</desc>
+                                    </valItem>
+                                </valList>
+                            </attDef></attList><exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="gi-revisionDesc-egXML-yt">
       <revisionDesc status="embargoed">
         <change when="1991-11-11" who="#LB"> deleted chapter 10 </change>
@@ -13601,17 +13656,17 @@ programming language.</desc>
   </exemplum><listRef>
     <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/DS.html#DS">4. Default Text Structure</ref>
   </listRef></elementSpec><elementSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" rend="change" module="textstructure" xml:id="gi-div" ident="div"><gloss versionDate="2005-01-14" xml:lang="en">text division</gloss><gloss versionDate="2007-12-20" xml:lang="ko">텍스트 구역</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW">文本區段</gloss><gloss versionDate="2007-06-12" xml:lang="fr">division du texte</gloss><gloss versionDate="2017-06-13" xml:lang="de">Textabschnitt</gloss><gloss versionDate="2007-05-04" xml:lang="es">división de texto</gloss><gloss versionDate="2007-01-21" xml:lang="it">partizione testuale</gloss><desc versionDate="2005-01-14" xml:lang="en">contains a subdivision of the front, body, or back of a text.</desc><desc versionDate="2007-12-20" xml:lang="ko">텍스트의 전면부, 본문, 후면부의 하위 구역을 포함한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">文本的正文前資訊、正文、及正文後資訊的分段。</desc><desc versionDate="2008-04-05" xml:lang="ja">前付、本文、後付中のテキスト部分を示す。</desc><desc versionDate="2007-06-12" xml:lang="fr">contient une subdivision dans le texte préliminaire, dans le corps d’un texte ou dans le texte postliminaire.</desc><desc versionDate="2017-06-13" xml:lang="de">enthält einen Unterabschnitt in Vorspann (front), Textkörper oder Nachspann (back) eines Textes.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene una subdivisión del paratexto inicial, del cuerpo del texto o del paratexto final.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene una suddivisione del peritesto iniziale, del corpo del testo, o del peritesto finale</desc><classes><memberOf key="att.global"/><memberOf key="att.declaring"/><memberOf key="att.divLike"/><memberOf key="att.placement"/><memberOf key="att.typed"/><memberOf key="att.written"/></classes><content><sequence minOccurs="1" maxOccurs="1"><elementRef key="head" minOccurs="0" maxOccurs="1"/><elementRef key="div" minOccurs="0" maxOccurs="unbounded"/><elementRef key="u" minOccurs="0" maxOccurs="unbounded"/><elementRef key="spanGrp" minOccurs="0" maxOccurs="1"/></sequence></content><constraintSpec ident="div-distinction" scheme="schematron">
-                        <constraint>
-                            <s:rule context="tei:div[@type='Situation']">
-                                <s:assert test="tei:head">a head element is required when div is of
-                                    type Situation</s:assert>
-                            </s:rule>
-                            <s:rule context="tei:div[@corresp]">
-                                <s:assert test="tei:u and tei:spanGrp">a div without type Situation
-                                    has to have utterances and a spanGrp</s:assert>
-                            </s:rule>
-                        </constraint>
-                    </constraintSpec><constraintSpec ident="abstractModel-structure-div-in-l" scheme="schematron" xml:lang="en">
+                            <constraint>
+                                <s:rule context="tei:div[@type='Situation']">
+                                    <s:assert test="tei:head">a head element is required when div is of
+                                        type Situation</s:assert>
+                                </s:rule>
+                                <s:rule context="tei:div[@corresp]">
+                                    <s:assert test="tei:u and tei:spanGrp">a div without type Situation
+                                        has to have utterances and a spanGrp</s:assert>
+                                </s:rule>
+                            </constraint>
+                        </constraintSpec><constraintSpec ident="abstractModel-structure-div-in-l" scheme="schematron" xml:lang="en">
     <constraint>
       <sch:rule context="tei:l//tei:div">
         <sch:assert test="ancestor::tei:floatingText">
@@ -15461,15 +15516,15 @@ contexts.</p>
     <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/AI.html#AISP">18.3. Spans and Interpretations</ref>
   </listRef>
 </classSpec><elementSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" rend="change" module="analysis" xml:id="gi-w" ident="w"><gloss versionDate="2005-01-14" xml:lang="en">word</gloss><gloss versionDate="2007-12-20" xml:lang="ko">단어</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW">單字</gloss><gloss versionDate="2007-06-12" xml:lang="fr">mot</gloss><gloss versionDate="2007-05-04" xml:lang="es">palabra</gloss><gloss versionDate="2007-01-21" xml:lang="it">parola</gloss><gloss versionDate="2017-06-19" xml:lang="de">Wort</gloss><desc versionDate="2005-01-14" xml:lang="en">represents a grammatical (not necessarily orthographic) word.</desc><desc versionDate="2007-12-20" xml:lang="ko">문법적 (반드시 철자상이 아닌) 단어를 표시한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">表示文法上 (但未必是拼字法上) 定義的單字。</desc><desc versionDate="2008-04-06" xml:lang="ja">文法上の語を示す(正書形である必要はない)。</desc><desc versionDate="2007-06-12" xml:lang="fr">représente un mot grammatical (pas nécessairement orthographique).</desc><desc versionDate="2007-05-04" xml:lang="es">representa una palabra gramatical (no necesariamente ortográfica)</desc><desc versionDate="2007-01-21" xml:lang="it">rappresenta la parola grammaticale (non necessariamente in modo ortografico).</desc><desc versionDate="2017-06-19" xml:lang="de">repräsentiert ein grammatisches (nicht unbedingt orthografisches) Wort.</desc><classes><memberOf key="att.global"/><memberOf key="att.cmc"/><memberOf key="att.linguistic"/><memberOf key="att.notated"/><memberOf key="att.segLike"/><memberOf key="att.typed"/><memberOf key="model.segLike"/></classes><content><sequence minOccurs="1" maxOccurs="1"><textNode/><alternate minOccurs="0" maxOccurs="unbounded"><textNode/><elementRef key="pause"/><elementRef key="shift"/><elementRef key="corr"/></alternate></sequence></content><constraintSpec ident="rend-spec" scheme="schematron">
-                        <constraint>
-                            <s:rule context="tei:w[@rendition]">
-                                <s:let name="rendFile" value="'https://raw.githubusercontent.com/acdh-oeaw/vicav-library/main/vicav_rendition.xml'"/>
-                                <s:let name="rend_values" value="doc($rendFile)//tei:rendition/@xml:id"/>
-                                <s:assert test="every $r in tokenize(normalize-space(@rendition), '\s+') satisfies (replace(replace($r, '^rend:', ''), '^#', '') = $rend_values)">@rendition contains value(s) not found in vicav_rendition.xml:
-                                        '<s:value-of select="@rendition"/>'</s:assert>
-                            </s:rule>
-                        </constraint>
-                    </constraintSpec><attList><attDef ident="xml:id" mode="change" usage="req"/><attDef ident="xml:lang" mode="change" usage="req"/></attList><exemplum versionDate="2018-02-15" xml:lang="en">
+                            <constraint>
+                                <s:rule context="tei:w[@rendition]">
+                                    <s:let name="rendFile" value="'https://raw.githubusercontent.com/acdh-oeaw/vicav-library/main/vicav_rendition.xml'"/>
+                                    <s:let name="rend_values" value="doc($rendFile)//tei:rendition/@xml:id"/>
+                                    <s:assert test="every $r in tokenize(normalize-space(@rendition), '\s+') satisfies (replace(replace($r, '^rend:', ''), '^#', '') = $rend_values)">@rendition contains value(s) not found in vicav_rendition.xml:
+                                            '<s:value-of select="@rendition"/>'</s:assert>
+                                </s:rule>
+                            </constraint>
+                        </constraintSpec><attList><attDef ident="xml:id" mode="change" usage="req"/><attDef ident="xml:lang" mode="change" usage="req"/></attList><exemplum versionDate="2018-02-15" xml:lang="en">
     <p>This example is adapted from the Folger Library’s Early Modern
     English Drama version of <ref target="https://emed.folger.edu/wits">The Wits: a Comedy</ref> by
     William Davenant.</p>
@@ -15575,13 +15630,13 @@ contexts.</p>
     <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/AI.html#AIPC">18.1.2. Below the Word Level</ref>
     <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/AI.html#AILALW">18.4.2. Lightweight Linguistic Annotation</ref>
   </listRef></elementSpec><elementSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" rend="change" module="analysis" xml:id="gi-span" ident="span"><desc versionDate="2005-01-14" xml:lang="en">associates an interpretative annotation directly with a span of text.</desc><desc versionDate="2007-12-20" xml:lang="ko">해석적 부호를 텍스트의 일정 부분과 직접적으로 연결시킨다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">將詮釋性註釋直接和一段文字段連結。</desc><desc versionDate="2008-04-05" xml:lang="ja">テキスト部分に解釈的注釈を関連づける。</desc><desc versionDate="2009-02-13" xml:lang="fr">associe une interprétation sous forme d'annotation directement à un passage donné dans un texte.</desc><desc versionDate="2007-05-04" xml:lang="es">asocia una anotación interpretativa directamente con un periodo de texto.</desc><desc versionDate="2007-01-21" xml:lang="it">associa direttamente l'annotazione interpretativa ad una prozione di testo</desc><classes><memberOf key="att.global"/><memberOf key="att.cmc"/><memberOf key="att.interpLike"/><memberOf key="att.pointing"/><memberOf key="model.global.meta"/></classes><content><macroRef key="macro.phraseSeq.limited"/></content><constraintSpec ident="span-target-check" scheme="schematron">
-                        <constraint>
-                            <s:rule context="tei:span">
-                                <s:assert test="parent::tei:spanGrp/parent::tei:div/@xml:id = substring-after(@target, '#')">target of span should point at xml:id of parent div
-                                    element</s:assert>
-                            </s:rule>
-                        </constraint>
-                    </constraintSpec><constraintSpec ident="target-from" scheme="schematron" xml:lang="en">
+                            <constraint>
+                                <s:rule context="tei:span">
+                                    <s:assert test="parent::tei:spanGrp/parent::tei:div/@xml:id = substring-after(@target, '#')">target of span should point at xml:id of parent div
+                                        element</s:assert>
+                                </s:rule>
+                            </constraint>
+                        </constraintSpec><constraintSpec ident="target-from" scheme="schematron" xml:lang="en">
     <constraint>
       <sch:rule context="tei:span">
         <sch:report test="@from and @target">
@@ -15614,10 +15669,10 @@ contexts.</p>
       </sch:rule>
     </constraint>
   </constraintSpec><attList><attDef ident="target" mode="replace" usage="req">
-                            <datatype>
-                                <dataRef key="teidata.pointer"/>
-                            </datatype>
-                        </attDef><attDef ident="from" usage="opt">
+                                <datatype>
+                                    <dataRef key="teidata.pointer"/>
+                                </datatype>
+                            </attDef><attDef ident="from" usage="opt">
       <desc versionDate="2013-01-15" xml:lang="en">gives the identifier of the node which is the starting point of the span of text being annotated; if not accompanied by a <att>to</att> attribute, gives the identifier of the node of the entire span of text being annotated.</desc>
       <desc versionDate="2007-12-20" xml:lang="ko">현재 부호를 붙이는 단락의 처음을 명시함; <att>to</att> 속성과 같이 쓰이지 않으면 전체 문단을 명시함.</desc>
       <desc versionDate="2007-05-02" xml:lang="zh-TW">指出被註解段落的起點；若沒有使用屬性<att>to</att>，則指出全部段落。</desc>
@@ -15661,12 +15716,12 @@ contexts.</p>
   </exemplum><listRef>
     <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/AI.html#AISP">18.3. Spans and Interpretations</ref>
   </listRef></elementSpec><elementSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" rend="change" module="analysis" xml:id="gi-spanGrp" ident="spanGrp"><gloss versionDate="2005-01-14" xml:lang="en">span group</gloss><gloss versionDate="2007-12-20" xml:lang="ko">범위 집단</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW">文字段群組</gloss><gloss versionDate="2007-06-12" xml:lang="fr">groupement de fragments de texte</gloss><gloss versionDate="2007-05-04" xml:lang="es">grupo de periodo</gloss><gloss versionDate="2007-01-21" xml:lang="it">gruppo di porzioni</gloss><desc versionDate="2005-01-14" xml:lang="en">collects together span tags.</desc><desc versionDate="2007-12-20" xml:lang="ko">범위 태그를 모아놓는다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">匯集文字段標籤。</desc><desc versionDate="2008-04-05" xml:lang="ja">要素<gi>span</gi>をまとめる。</desc><desc versionDate="2007-06-12" xml:lang="fr">regroupe des éléments <gi>span</gi>.</desc><desc versionDate="2007-05-04" xml:lang="es">Agrupa las etiquetas del periodo</desc><desc versionDate="2007-01-21" xml:lang="it">raggruppa i marcatori di porzione</desc><classes><memberOf key="att.global"/><memberOf key="att.cmc"/><memberOf key="att.interpLike"/><memberOf key="model.global.meta"/></classes><content><elementRef key="span" minOccurs="1" maxOccurs="1"/></content><attList><attDef ident="type" mode="replace" usage="req">
-                            <valList type="closed">
-                                <valItem ident="Translation">
-                                    <desc>spanGrp is of type Translation</desc>
-                                </valItem>
-                            </valList>
-                        </attDef></attList><exemplum xml:lang="en">
+                                <valList type="closed">
+                                    <valItem ident="Translation">
+                                        <desc>spanGrp is of type Translation</desc>
+                                    </valItem>
+                                </valList>
+                            </attDef></attList><exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="gi-spanGrp-egXML-vs" source="#CONAAB-eg-150">
       <u xml:id="UU1">Can I have ten oranges and a kilo of bananas please?</u>
       <u xml:id="UU2">Yes, anything else?</u>
@@ -16724,15 +16779,15 @@ a public broadcast.</desc>
     <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/CC.html#CCAS2">16.3.2. Declarable Elements</ref>
   </listRef>
 </elementSpec><elementSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" rend="change" module="spoken" xml:id="gi-u" ident="u"><gloss versionDate="2005-01-14" xml:lang="en">utterance</gloss><gloss versionDate="2007-12-20" xml:lang="ko">발화</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW">話語</gloss><gloss versionDate="2007-06-12" xml:lang="fr">énonciation</gloss><gloss versionDate="2007-05-04" xml:lang="es">enunciado</gloss><gloss versionDate="2007-01-21" xml:lang="it">enunciato</gloss><desc versionDate="2012-12-27" xml:lang="en">contains a stretch of speech usually preceded and followed by silence or by a change of speaker.</desc><desc versionDate="2007-12-20" xml:lang="ko">일반적으로 침묵 또는 화자 바뀜에 의해 구분되는, 말의 연속체.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">一段言詞，通常在說話前後是一段沉默、或是另一個人的說話。</desc><desc versionDate="2008-04-05" xml:lang="ja">一般に沈黙または話者交替が前後する、発話の時間。</desc><desc versionDate="2007-06-12" xml:lang="fr">partie de discours généralement précédée et suivie d'un silence ou d'un changement de locuteur.</desc><desc versionDate="2007-05-04" xml:lang="es">fragmento de texto hablado precedido y seguido normalmente de un silencio o de un cambio de hablante</desc><desc versionDate="2007-01-21" xml:lang="it">porzione di parlato solitamente preceduta e seguita da un silenzio o da un cambio di parlante</desc><classes><memberOf key="att.global"/><memberOf key="att.ascribed.directed"/><memberOf key="att.declaring"/><memberOf key="att.notated"/><memberOf key="att.timed"/><memberOf key="model.divPart.spoken"/></classes><content><alternate minOccurs="0" maxOccurs="unbounded"><elementRef key="corr"/><elementRef key="gap"/><elementRef key="media"/><elementRef key="milestone"/><elementRef key="note"/><elementRef key="pause"/><elementRef key="pc"/><elementRef key="seg"/><elementRef key="shift"/><elementRef key="vocal"/><elementRef key="w"/></alternate></content><constraintSpec ident="u-who-check" scheme="schematron">
-                        <constraint>
-                            <s:rule context="tei:u">
-                                <s:assert test="starts-with(@who, 'corpus:')">The 'who' attribute of
-                                    u has to start with 'corpus:'</s:assert>
-                                <s:assert test="every $w in tokenize(@who, '\s+') satisfies //tei:person/@sameAs = $w">The 'who' attribute of u must point to a person defined in the
-                                    header</s:assert>
-                            </s:rule>
-                        </constraint>
-                    </constraintSpec><attList><attDef ident="xml:id" mode="change" usage="req"/><attDef ident="who" mode="change" usage="req"/><attDef ident="trans" usage="opt">
+                            <constraint>
+                                <s:rule context="tei:u">
+                                    <s:assert test="starts-with(@who, 'corpus:')">The 'who' attribute of
+                                        u has to start with 'corpus:'</s:assert>
+                                    <s:assert test="every $w in tokenize(@who, '\s+') satisfies //tei:person/@sameAs = $w">The 'who' attribute of u must point to a person defined in the
+                                        header</s:assert>
+                                </s:rule>
+                            </constraint>
+                        </constraintSpec><attList><attDef ident="xml:id" mode="change" usage="req"/><attDef ident="who" mode="change" usage="req"/><attDef ident="trans" usage="opt">
       <gloss versionDate="2007-07-04" xml:lang="en">transition</gloss>
       <gloss versionDate="2007-12-20" xml:lang="ko">전이</gloss>
       <gloss versionDate="2008-04-06" xml:lang="es">transición</gloss>
@@ -17129,6 +17184,7 @@ very loudly.</p>
     <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/TS.html#TSSASH">8.3.6. Shifts</ref>
   </listRef>
 </elementSpec><moduleSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" n="ST" xml:id="DSTTEI2" ident="tei" type="core"/><moduleSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" n="CMC" ident="cmc"/><moduleSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" n="CO" xml:id="DCO" ident="core"/><moduleSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" n="HD" xml:id="DHD" ident="header"/><moduleSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" n="TD" xml:id="DTDDTD" ident="tagdocs"/><moduleSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" n="ND" xml:id="DND" ident="namesdates"/><moduleSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" n="DS" xml:id="DDS" ident="textstructure"/><moduleSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" n="CC" xml:id="DCCHDR" ident="corpus"/><moduleSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" n="AI" xml:id="DAI" ident="analysis"/><moduleSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" n="SA" xml:id="DSA" ident="linking"/><moduleSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" n="TS" xml:id="DTS" ident="spoken"/></schemaSpec>
+            </div>
         </body>
     </text>
 </TEI>
