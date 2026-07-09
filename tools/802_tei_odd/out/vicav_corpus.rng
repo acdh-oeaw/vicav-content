@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2026-05-20T11:24:38Z. . 
+Schema generated from ODD source 2026-07-07T09:54:00Z. . 
 TEI Edition: P5 Version 4.11.0. Last updated on 18th February 2026, revision 358d2e48e 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.11.0/ 
   
@@ -3933,11 +3933,15 @@ Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:do
                     xmlns:svg="http://www.w3.org/2000/svg"
                     xmlns:xi="http://www.w3.org/2001/XInclude"
                     context="tei:textClass/*[self::tei:catRef or self::tei:keywords[tei:term]]">
+               <s:let name="prefix" value="tokenize(@scheme, ':')[1]"/>
+               <s:let name="prefix-regex"
+                      value="if (contains(@scheme, ':')) then'(corpus|vtc)' else ()"/>
                <s:let name="prefix-def"
-                      value="ancestor::tei:TEI/tei:teiHeader//tei:prefixDef[@ident = 'corpus'][1]"/>
-               <s:let name="taxonomy-id" value="replace(@scheme, '^corpus:', '')"/>
+                      value="ancestor::tei:TEI/tei:teiHeader//tei:prefixDef[@ident = $prefix][1]"/>
+               <s:let name="taxonomy-id"
+                      value="replace(@scheme, concat('^', $prefix-regex, ':'), '')"/>
                <s:let name="taxonomy-href"
-                      value="if ($prefix-def and starts-with(@scheme, 'corpus:')) then replace($taxonomy-id, string($prefix-def/@matchPattern), string($prefix-def/@replacementPattern)) else ()"/>
+                      value="if ($prefix-def and matches(@scheme, concat('^', $prefix-regex, ':'))) then replace($taxonomy-id, string($prefix-def/@matchPattern), string($prefix-def/@replacementPattern)) else ()"/>
                <s:let name="taxonomy-uri"
                       value="if ($taxonomy-href) then resolve-uri(replace($taxonomy-href, '#.*$', ''), base-uri(/)) else ()"/>
                <s:let name="taxonomy-doc"
@@ -3949,17 +3953,19 @@ Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:do
                <s:let name="taxonomy-values-n"
                       value="for $cat in $taxonomy//tei:category[@n] return normalize-space($cat/@n)"/>
                <s:let name="invalid-targets"
-                      value="if (self::tei:catRef) then (for $t in tokenize(@target, '\s+') return if (starts-with($t, 'corpus:') and replace($t, '^corpus:', '') = $taxonomy-values-id) then () else $t) else ()"/>
+                      value="if (self::tei:catRef) then (for $t in tokenize(@target, '\s+') return if (matches($t, concat('^', $prefix-regex, ':')) and replace($t, concat('^', $prefix-regex, ':'), '') = $taxonomy-values-id) then () else $t) else ()"/>
                <s:let name="invalid-terms"
                       value="if (self::tei:keywords) then tei:term[not(normalize-space(.) = $taxonomy-values-n)] else ()"/>
                <s:assert test="@scheme">Elements in textClass must provide @scheme</s:assert>
-               <s:assert test="starts-with(@scheme, 'corpus:')">@scheme must use the corpus: prefix</s:assert>
-               <s:assert test="exists($prefix-def)">No prefixDef with ident='corpus' is defined in the TEI header</s:assert>
-               <s:assert test="normalize-space($taxonomy-id) != ''">@scheme must provide a taxonomy xml:id after 'corpus:'</s:assert>
+               <s:assert test="matches(@scheme, concat('^', $prefix-regex, ':.+$'))">@scheme must use the corpus: or vtc: prefix</s:assert>
+               <s:assert test="exists($prefix-def)">No prefixDef with ident='corpus' or ident='vtc' is defined in the TEI header</s:assert>
+               <s:assert test="normalize-space($taxonomy-id) != ''">@scheme must provide a taxonomy xml:id after 'corpus:' or 'vtc:'</s:assert>
                <s:assert test="$taxonomy-uri and doc-available($taxonomy-uri)">The taxonomy file referenced by @scheme ('<s:value-of select="@scheme"/>') cannot be loaded</s:assert>
-               <s:assert test="exists($taxonomy)">The taxonomy referenced by @scheme ('<s:value-of select="@scheme"/>') does not exist</s:assert>
+               <s:assert test="exists($taxonomy)">The taxonomy referenced by @scheme ('<s:value-of select="@scheme"/>') does not exist <s:value-of select="$taxonomy-id"/>
+                  <s:value-of select="$prefix-def"/>
+               </s:assert>
                <s:assert test="if (self::tei:catRef) then @target else true()">catRef must provide @target</s:assert>
-               <s:assert test="if (self::tei:catRef) then every $t in tokenize(@target, '\s+') satisfies starts-with($t, 'corpus:') else true()">Each catRef target must use the corpus: prefix</s:assert>
+               <s:assert test="if (self::tei:catRef) then every $t in tokenize(@target, '\s+') satisfies matches($t, concat('^', $prefix-regex, ':.+$')) else true()">Each catRef target must use the corpus: or vtc: prefix</s:assert>
                <s:assert test="if (self::tei:catRef) then empty($invalid-targets) else true()">Unknown catRef target(s): <s:value-of select="string-join($invalid-targets, ', ')"/>. Each target must match a tei:category/@xml:id in the referenced taxonomy.</s:assert>
                <s:assert test="if (self::tei:keywords) then empty($invalid-terms) else true()">Unknown keyword term(s): <s:value-of select="string-join($invalid-terms/normalize-space(.), ', ')"/>. Each term must match a value in the referenced taxonomy.</s:assert>
             </s:rule>
