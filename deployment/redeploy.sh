@@ -200,7 +200,7 @@ find ./ -type f -and \( -name '*.js' -or -name '*.html' \) -not \( -path './node
 if [ "$CI"x == "truex" ]; then echo "CI: removing .git"; rm -rf .git; fi 
 popd
 sed -i "s~webapp/vicav-app/~${BUILD_DIR:-webapp/vicav-app}/~g" deploy-vicav-content.bxs
-./execute-basex-batch.sh deploy-vicav-content $1
+./execute-basex-batch.sh deploy-vicav-content $1 > /dev/null
 pushd vicav-content
 popd
 if [ "$CI"x == "truex" ]; then echo "CI: removing content repo"; rm -rf vicav-content; fi 
