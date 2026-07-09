@@ -44,6 +44,6 @@
     <create-db name="dc_arz_eng_publ__prof">../vicav-content/vicav_dicts/dc_arz_eng_publ__prof.xml</create-db>
     <create-db name="dc_ar_en_publ__prof">../vicav-content/vicav_dicts/dc_ar_en_publ__prof.xml</create-db>
     <close/>
-    <run file="webapp/vicav-app/deployment/refresh-project-config.xq"/>
-    <run file="webapp/vicav-app/deployment/resolve-biblio-geo-refs.xq"/>
+    <run file="webapp/vicav-app/scripts/refresh-project-config.xq"/>
+    <run file="webapp/vicav-app/scripts/resolve-biblio-geo-refs.xq"/>
 </commands>
