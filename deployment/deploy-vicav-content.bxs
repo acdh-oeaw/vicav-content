@@ -20,8 +20,7 @@
     <create-db name='vicav_vocabs'/>
     <add path="/">../vicav-content/vicav-library/vicav_vocabs/vocabs.xml</add>
     <optimize-all/>
-    <!-- Fix initial deploy exits before it creates all necessary db:
-         Change order so that all the data available in tagged repository is restored first. --> 
+    <set option='attrindex'>true</set>
     <create-db name="dc_tunico">../vicav-content/vicav_dicts/dc_tunico.xml</create-db>
     <set option="BINDINGS">colls=dc_tunico</set>
     <run file="webapp/vicav-app/create_autocomplete_index.xq"/>
