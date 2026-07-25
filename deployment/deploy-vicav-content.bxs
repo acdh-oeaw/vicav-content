@@ -1,17 +1,26 @@
 <commands>
-	<set option="CHOP">false</set>
+    <set option="CHOP">false</set>
     <set option="FTINDEX">true</set>
     <set option="DIACRITICS">true</set>
     <set option="CASESENS">true</set>
-	<create-db name="vicav_corpus">../vicav-content/vicav_corpus</create-db>
-	<create-db name="vicav_lingfeatures">../vicav-content/vicav_lingfeatures</create-db>
-	<create-db name="vicav_profiles">../vicav-content/vicav_profiles</create-db>
-	<create-db name="vicav_samples">../vicav-content/vicav_samples</create-db>
-	<create-db name="vicav_projects">../vicav-content/vicav_projects</create-db>
-	<create-db name="vicav_texts">../vicav-content/vicav_texts</create-db>
-    <create-db name="vicav_biblio">../vicav-content/vicav-library/vicav_biblio</create-db>
-    <!-- Fix initial deploy exits before it creates all necessary db:
-         Change order so that all the data available in tagged repository is restored first. --> 
+    <set option='attrindex'>true</set>
+    <set option='attrinclude'></set>
+    <create-db name="vicav_corpus">../vicav-content/vicav_corpus</create-db>
+    <create-db name="vicav_lingfeatures">../vicav-content/vicav_lingfeatures</create-db>
+    <create-db name="vicav_profiles">../vicav-content/vicav_profiles</create-db>
+    <create-db name="vicav_samples">../vicav-content/vicav_samples</create-db>
+    <create-db name="vicav_projects">../vicav-content/vicav_projects</create-db>
+    <create-db name="vicav_texts">../vicav-content/vicav_texts</create-db>
+    <create-db name="vicav_biblio"/>
+    <add path="/">../vicav-content/vicav-library/vicav_biblio</add>
+    <optimize-all/>
+    <create-db name='vicav_geo'/>
+    <add path="/">../vicav-content/vicav-library/vicav_geo/vicav_geodata.xml</add>
+    <optimize-all/>
+    <create-db name='vicav_vocabs'/>
+    <add path="/">../vicav-content/vicav-library/vicav_vocabs/vocabs.xml</add>
+    <optimize-all/>
+    <set option='attrindex'>true</set>
     <create-db name="dc_tunico">../vicav-content/vicav_dicts/dc_tunico.xml</create-db>
     <set option="BINDINGS">colls=dc_tunico</set>
     <run file="webapp/vicav-app/create_autocomplete_index.xq"/>
@@ -33,4 +42,7 @@
     <create-db name="dc_apc_eng_publ__prof">../vicav-content/vicav_dicts/dc_apc_eng_publ__prof.xml</create-db>
     <create-db name="dc_arz_eng_publ__prof">../vicav-content/vicav_dicts/dc_arz_eng_publ__prof.xml</create-db>
     <create-db name="dc_ar_en_publ__prof">../vicav-content/vicav_dicts/dc_ar_en_publ__prof.xml</create-db>
+    <close/>
+    <run file="webapp/vicav-app/scripts/refresh-project-config.xq"/>
+    <run file="webapp/vicav-app/scripts/resolve-biblio-geo-refs.xq"/>
 </commands>
