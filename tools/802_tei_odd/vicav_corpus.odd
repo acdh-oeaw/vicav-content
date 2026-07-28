@@ -24,54 +24,54 @@
         <body>
             <head>VICAV Corpus ODD</head>
             <div>
-                <head>Rendering Guidelines</head>
+                <head>encoding phenomena of spoken texts</head>
                 <p>Within an utterance (<gi>u</gi>) we can have several inline elements next to <gi>w</gi>, <gi>pc</gi> or <gi>seg</gi>.</p>
                 <p>Examples of transcription phenomena and their representations:</p>
                 <table>
                     <row role="label">
-                        <cell>Rendering</cell>
-                        <cell>TEI encoding</cell>
                         <cell>Phenomenon</cell>
+                        <cell>TEI encoding</cell>
+                        <cell>Rendering</cell>
                     </row>
                     <row>
-                        <cell>[…]</cell>
-                        <cell>&lt;gap rendition="rend:ellipsisInSquareBrackets"/&gt;</cell>
                         <cell>parts of speech which have not been transcribed</cell>
+                        <cell>&lt;gap rendition="rend:ellipsisInSquareBrackets"/&gt;</cell>
+                        <cell>[…]</cell>
                     </row>
                     <row>
-                        <cell>…</cell>
-                        <cell>&lt;pause rendition="rend:ellipsis"/&gt;</cell>
                         <cell>audible pause or other kind of ceasura</cell>
+                        <cell>&lt;pause rendition="rend:ellipsis"/&gt;</cell>
+                        <cell>…</cell>
                     </row>
                     <row>
-                        <cell>xul…</cell>
-                        <cell>&lt;w type="truncated" rendition="rend:ellipsisAfter"&gt;xul&lt;/w&gt;</cell>
                         <cell>word or speech that is left incomplete</cell>
+                        <cell>&lt;w type="truncated" rendition="rend:ellipsisAfter"&gt;xul&lt;/w&gt;</cell>
+                        <cell>xul…</cell>
                     </row>
                     <row>
-                        <cell>b-</cell>
+                        <cell>word is followed by a dash</cell>                        
                         <cell>&lt;w rendition="rend:dashAfter"&gt;b&lt;/w&gt;</cell>
-                        <cell>word is followed by a dash</cell>
+                        <cell>b-</cell>
                     </row>
                     <row>
-                        <cell>_?</cell>
-                        <cell>&lt;w join="right" rendition="rend:withBowBelow"&gt;kun&lt;/w&gt;&lt;w&gt;nahāṛ&lt;/w&gt;</cell>
                         <cell>assimilation should be represented with a bow below</cell>
+                        <cell>&lt;w join="right" rendition="rend:withBowBelow"&gt;kun&lt;/w&gt;&lt;w&gt;nahāṛ&lt;/w&gt;</cell>
+                        <cell>_</cell>
                     </row>
                     <row>
-                        <cell>"</cell>
-                        <cell>&lt;shift rendition="rend:quot"/&gt;</cell>
                         <cell>qualitative change in speech</cell>
+                        <cell>&lt;shift rendition="rend:quot"/&gt;</cell>
+                        <cell>"</cell>
                     </row>
                     <row>
-                        <cell>[corrected words]</cell>
-                        <cell>&lt;corr rendition="rend:withinSquareBrackets"&gt;corrected words&lt;/corr&gt;</cell>
                         <cell>editorial correction of preceding word</cell>
+                        <cell>&lt;corr rendition="rend:withinSquareBrackets"&gt;corrected words&lt;/corr&gt;</cell>
+                        <cell>[corrected words]</cell>
                     </row>
                     <row>
-                        <cell>[a hint to our readers]</cell>
-                        <cell>&lt;note rendition="rend:withinSquareBrackets"&gt;a hint to our readers.&lt;/note&gt;</cell>
                         <cell>note for the readers</cell>
+                        <cell>&lt;note rendition="rend:withinSquareBrackets"&gt;a hint to our readers.&lt;/note&gt;</cell>
+                        <cell>[a hint to our readers]</cell>
                     </row>
                 </table>
             </div>
