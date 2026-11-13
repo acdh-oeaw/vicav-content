@@ -63,9 +63,9 @@
 				<separator></separator>
 				<item xml:id="li_vicavContributeSampleText">Contribute a Sample Text</item>
 			</dropdown>
-			<dropdown xml:id="dropdown05" title="Texts">
+			<!--<dropdown xml:id="dropdown05" title="Texts">
 				<item xml:id="li_vicavExplanationCorpusTexts">Explanation and Overview</item>
-			</dropdown>
+			</dropdown>-->
 			<dropdown xml:id="dropdown06" title="Dictionaries">
 				<item xml:id="navDictGeoRegMarkers">All Dictionaries in Bibl. on Map</item>
 				<item xml:id="navVicavDictMarkers">All VICAV Dictionaries on Map</item>
