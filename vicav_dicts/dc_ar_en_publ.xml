@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" type="lex-0">
 <teiHeader xml:id="VAED.dictHeader">
       <fileDesc>
-         <titleStmt><title>A Machine-readable Dictionary of Modern Standard Arabic</title><author>Stephan Procházka</author><author>Lea Müller-Funk</author><author>Karlheinz Mörth</author><respStmt><name>Laurent Romary</name><resp>encoding consultant</resp></respStmt></titleStmt>
+         <titleStmt><title>A Machine-readable Dictionary of Modern Standard Arabic</title><author><persName>Stephan Procházka</persName></author><author><persName>Lea Müller-Funk</persName></author><author><persName>Karlheinz Mörth</persName></author><respStmt><persName>Laurent Romary</persName><resp>encoding consultant</resp></respStmt></titleStmt>
          <editionStmt><edition>1.0 (Alpha)</edition></editionStmt>
          <publicationStmt><distributor>Karlheinz Moerth</distributor><pubPlace>Vienna</pubPlace><date when="2026"/><availability status="restricted"><p>
                   <ref type="license" target="#VAED.http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
@@ -15783,7 +15783,7 @@
                   </cit>
                </sense>
 <xr type="related"><ref type="bibliography" target="#MSACourse">L23</ref></xr>
-<fs type="change"><f name="who"><symbol value="charly"/></f><f name="when"><symbol value="2018_06_23"/></f><f name="status"><symbol value="released"/></f></fs></entry>
+<fs><f name="who"><symbol value="charly"/></f><f name="when"><symbol value="2018_06_23"/></f><f name="status"><symbol value="released"/></f></fs><fs type="change"><f name="who"><symbol value="charly"/></f><f name="when"><symbol value="2018_06_23"/></f><f name="status"><symbol value="released"/></f></fs></entry>
 <entry xml:lang="ar-Latn" xml:id="VAED.daahiya_001"><form type="lemma">
                   
                   <orth xml:lang="ar-Latn">ḍāḥiya</orth>
@@ -58855,6 +58855,18 @@
                         <orth xml:lang="en">tribune</orth>
                      </form>
                   </cit>
+                  <xr type="related"><cit type="example">
+               <quote xml:lang="ar" xml:space="preserve"><seg type="exPart" corresp="#VAED.kaana_001">كان</seg> <seg type="exPart" corresp="#VAED.al_001">ال</seg><seg type="exPart" corresp="#VAED.caamil_001">عمال</seg> <seg type="exPart" corresp="#VAED.camila_001">يعملون</seg> <seg type="exPart" corresp="#VAED.fii_001">فى</seg> <seg type="exPart" corresp="#VAED.minassa_001">منصة</seg> <seg type="exPart" corresp="#VAED.bahrii_001">بحريية</seg> <seg type="exPart" corresp="#VAED.cimlaaq_001">عملاقة</seg>.</quote>
+               <cit type="translation">
+                  <quote xml:lang="en">The workers were working on a giant drilling platform.</quote>
+               </cit>
+               <cit type="translation">
+                  <quote xml:lang="de"/>
+               </cit>
+               <fs type="change"><f name="who"><symbol value="charly"/></f><f name="when"><symbol value="2014_05_10"/></f></fs>
+               <fs type="change"><f name="who"><symbol value="charly"/></f><f name="when"><symbol value="2018_09_20"/></f><f name="status"><symbol value="released"/></f></fs>
+               <fs type="change"><f name="who"><symbol value="charly"/></f><f name="when"><symbol value="2026-04-02"/></f><f name="status"><symbol value="released"/></f></fs>
+            </cit></xr>
                   <cit type="translationEquivalent">
                      <form>
                         <orth xml:lang="de">Plattform</orth>
@@ -58875,6 +58887,8 @@
                         <orth xml:lang="de">Tribüne</orth>
                      </form>
                   </cit>
+               </sense><sense xml:id="VAED.s_minassa_001_1">
+                  <usg type="domain" valueDatcat="voc:domains.IT">IT</usg>
                   <cit type="translationEquivalent">
                      <form>
                         <orth xml:lang="en">platform</orth>
@@ -58887,20 +58901,6 @@
                      </form>
                      <gloss>Internet</gloss>
                   </cit>
-                  <xr type="related"><cit type="example">
-               <quote xml:lang="ar" xml:space="preserve"><seg type="exPart" corresp="#VAED.kaana_001">كان</seg> <seg type="exPart" corresp="#VAED.al_001">ال</seg><seg type="exPart" corresp="#VAED.caamil_001">عمال</seg> <seg type="exPart" corresp="#VAED.camila_001">يعملون</seg> <seg type="exPart" corresp="#VAED.fii_001">فى</seg> <seg type="exPart" corresp="#VAED.minassa_001">منصة</seg> <seg type="exPart" corresp="#VAED.bahrii_001">بحريية</seg> <seg type="exPart" corresp="#VAED.cimlaaq_001">عملاقة</seg>.</quote>
-               <cit type="translation">
-                  <quote xml:lang="en">The workers were working on a giant drilling platform.</quote>
-               </cit>
-               <cit type="translation">
-                  <quote xml:lang="de"/>
-               </cit>
-               <fs type="change"><f name="who"><symbol value="charly"/></f><f name="when"><symbol value="2014_05_10"/></f></fs>
-               <fs type="change"><f name="who"><symbol value="charly"/></f><f name="when"><symbol value="2018_09_20"/></f><f name="status"><symbol value="released"/></f></fs>
-               <fs type="change"><f name="who"><symbol value="charly"/></f><f name="when"><symbol value="2026-04-02"/></f><f name="status"><symbol value="released"/></f></fs>
-            </cit></xr>
-               </sense><sense xml:id="VAED.s_minassa_001_1">
-                  <usg type="domain" valueDatcat="voc:domains.IT">IT</usg>
                   <xr type="related"><cit type="example">
                <quote xml:lang="ar" xml:space="preserve"><seg type="exPart" corresp="#VAED.huwa_001">هو</seg> <seg type="exPart" corresp="#VAED.xabiir_001">خبير</seg> <seg type="exPart" corresp="#VAED.fii_001">فى</seg> <seg type="exPart" corresp="#VAED.idaara_001">ادارة</seg> <seg type="exPart" corresp="#VAED.minassa_001">منصات</seg> <seg type="exPart" corresp="#VAED.al_001">ال</seg><seg type="exPart" corresp="#VAED.tacallum_001">تعلم</seg> <seg type="exPart" corresp="#VAED.al_001">ال</seg><seg type="exPart" corresp="#VAED.iliktruunii_001">الكترونى</seg> <seg type="exPart" corresp="#VAED.wa_001">و</seg><seg type="exPart" corresp="#VAED.tatwiir_001">تطوير</seg> <seg type="exPart" corresp="#VAED.al_001">ال</seg><seg type="exPart" corresp="#VAED.manhadj_001">مناهج</seg> <seg type="exPart" corresp="#VAED.li_002">ل</seg><seg type="exPart" corresp="#VAED.al_001">ل</seg><seg type="exPart" corresp="#VAED.siyaagha_001">صياغة</seg> <seg type="exPart" corresp="#VAED.al_001">ال</seg><seg type="exPart" corresp="#VAED.iliktruunii_001">الكترونية</seg> <seg type="exPart" corresp="#VAED.wa_001">و</seg><seg type="exPart" corresp="#VAED.tasmiim_001">تصميم</seg> <seg type="exPart" corresp="#VAED.al_001">ال</seg><seg type="exPart" corresp="#VAED.dawra_001">دورات</seg> <seg type="exPart" corresp="#VAED.al_001">ال</seg><seg type="exPart" corresp="#VAED.iliktruunii_001">الكترونية</seg> <seg type="exPart" corresp="#VAED.al_001">ال</seg><seg type="exPart" corresp="#VAED.tafaaculii_001">تفاعلية</seg> <seg type="exPart" corresp="#VAED.cibra_002">عبر</seg> <seg type="exPart" corresp="#VAED.al_001">ال</seg><seg type="exPart" corresp="#VAED.qintarnit_001">انترنت</seg>. </quote>
                <cit type="translation">
@@ -100230,6 +100230,16 @@
                         <orth xml:lang="en">to increase in number</orth>
                      </form>
                   </cit>
+                  <xr type="related"><cit type="example">
+               <quote xml:lang="ar" xml:space="preserve"><seg type="exPart" corresp="#VAED.tacaddada_001">تتعدد</seg> <seg type="exPart" corresp="#VAED.nawc_001">أنواع</seg> <seg type="exPart" corresp="#VAED.al_001">ال</seg><seg type="exPart" corresp="#VAED.haasuub_001">حواسيب</seg> <seg type="exPart" corresp="#VAED.min_001 #VAED.min_haythu_001">من</seg> <seg type="exPart" corresp="#VAED.haythu_001 #VAED.min_haythu_001">حيث</seg> <seg type="exPart" corresp="#VAED.tariiqa_001">طريقة</seg> <seg type="exPart" corresp="#VAED.camal_001">عمل</seg><seg type="exPart" corresp="#VAED.haa_001">ها</seg> <seg type="exPart" corresp="#VAED.wa_001">و</seg><seg type="exPart" corresp="#VAED.hagm_001">حجم</seg><seg type="exPart" corresp="#VAED.haa_001">ها</seg>.</quote>
+               <cit type="translation">
+                  <quote xml:lang="en">There are many different types of computers with respect to how they work and their size. </quote>
+               </cit>
+               <fs type="change"><f name="who"><symbol value="charly"/></f><f name="when"><symbol value="2014_05_10"/></f></fs>
+               <fs type="change"><f name="who"><symbol value="charly"/></f><f name="when"><symbol value="2018_09_22"/></f><f name="status"><symbol value="released"/></f></fs>
+               <fs type="change"><f name="who"><symbol value="charly"/></f><f name="when"><symbol value="2018_09_22"/></f><f name="status"><symbol value="released"/></f></fs>
+               <fs type="change"><f name="who"><symbol value="charly"/></f><f name="when"><symbol value="2026-04-03"/></f><f name="status"><symbol value="released"/></f></fs>
+            </cit></xr>
                   <cit type="translationEquivalent">
                      <form>
                         <orth xml:lang="de">zahlreich sein</orth>
@@ -100245,16 +100255,6 @@
                         <orth xml:lang="de">zunehmen</orth>
                      </form>
                   </cit>
-                  <xr type="related"><cit type="example">
-               <quote xml:lang="ar" xml:space="preserve"><seg type="exPart" corresp="#VAED.tacaddada_001">تتعدد</seg> <seg type="exPart" corresp="#VAED.nawc_001">أنواع</seg> <seg type="exPart" corresp="#VAED.al_001">ال</seg><seg type="exPart" corresp="#VAED.haasuub_001">حواسيب</seg> <seg type="exPart" corresp="#VAED.min_001 #VAED.min_haythu_001">من</seg> <seg type="exPart" corresp="#VAED.haythu_001 #VAED.min_haythu_001">حيث</seg> <seg type="exPart" corresp="#VAED.tariiqa_001">طريقة</seg> <seg type="exPart" corresp="#VAED.camal_001">عمل</seg><seg type="exPart" corresp="#VAED.haa_001">ها</seg> <seg type="exPart" corresp="#VAED.wa_001">و</seg><seg type="exPart" corresp="#VAED.hagm_001">حجم</seg><seg type="exPart" corresp="#VAED.haa_001">ها</seg>.</quote>
-               <cit type="translation">
-                  <quote xml:lang="en">There are many different types of computers with respect to how they work and their size. </quote>
-               </cit>
-               <fs type="change"><f name="who"><symbol value="charly"/></f><f name="when"><symbol value="2014_05_10"/></f></fs>
-               <fs type="change"><f name="who"><symbol value="charly"/></f><f name="when"><symbol value="2018_09_22"/></f><f name="status"><symbol value="released"/></f></fs>
-               <fs type="change"><f name="who"><symbol value="charly"/></f><f name="when"><symbol value="2018_09_22"/></f><f name="status"><symbol value="released"/></f></fs>
-               <fs type="change"><f name="who"><symbol value="charly"/></f><f name="when"><symbol value="2026-04-03"/></f><f name="status"><symbol value="released"/></f></fs>
-            </cit></xr>
                </sense>
 <fs type="change"><f name="who"><symbol value="charly"/></f><f name="when"><symbol value="2014_05_10"/></f></fs><fs type="change"><f name="who"><symbol value="charly"/></f><f name="when"><symbol value="2018_09_24"/></f><f name="status"><symbol value="released"/></f></fs><fs type="change"><f name="who"><symbol value="charly"/></f><f name="when"><symbol value="2026-04-03"/></f><f name="status"><symbol value="released"/></f></fs></entry>
 <entry xml:lang="ar-Latn" xml:id="VAED.tacallama_001"><form type="lemma">
@@ -109735,9 +109735,10 @@
                   <gramGrp><gram type="morphPattern">1a2āh</gram></gramGrp>
                </form>
 <form type="inflected">
-   <gramGrp><gram type="nominalState">construct</gram><gram type="morphPattern">1a2āt</gram></gramGrp>
+                  <gramGrp><gram type="nominalState">construct</gram></gramGrp>
                   <orth xml:lang="ar-Latn">wafāt</orth>
                   <orth xml:lang="ar">وفاة</orth>
+                  <gramGrp><gram type="morphPattern">1a2āt</gram></gramGrp>
                </form><form type="inflected">
                   <gramGrp><gram type="number">plural</gram><gram type="morphPattern">1a2ayāt</gram></gramGrp>
                   <orth xml:lang="ar-Latn">wafayāt</orth>
