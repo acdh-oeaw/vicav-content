@@ -69,8 +69,8 @@
 			<dropdown xml:id="dropdown06" title="Dictionaries">
 				<item xml:id="navDictGeoRegMarkers">All Dictionaries in Bibl. on Map</item>
 				<item xml:id="navVicavDictMarkers">All VICAV Dictionaries on Map</item>
-				<separator/>
-				<item xml:id="liVicavCrossDictQuery">Query the VICAV Dictionaries</item>
+				<!--<separator/>
+				<item xml:id="liVicavCrossDictQuery">Query the VICAV Dictionaries</item>-->
 				<separator/>
 				<item xml:id="liVicavDict_Tunis">TUNICO Dictionary</item>
 				<item xml:id="liVicavDict_Damascus">Damascus Dictionary</item>
