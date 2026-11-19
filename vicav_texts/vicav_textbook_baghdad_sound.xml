@@ -4,12 +4,22 @@
       <fileDesc>
          <titleStmt>
             <title>Vicav Linguistics</title>
-         </titleStmt>
+         <author>Charly Mörth</author></titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
+            
+         <publisher ref="https://ror.org/03anc3s24">Austrian Academy of Sciences</publisher>
+<publisher ref="https://ror.org/03prydq77">University of Vienna</publisher>
+<distributor ref="https://ror.org/028bsh698">Austrian Center for Digital Humanities</distributor>
+<address>
+    <addrLine>Bäckerstraße 13</addrLine>
+    <addrLine>1010 Vienna</addrLine>
+    <addrLine>Austria</addrLine>
+</address>
+<availability status="free">
+    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+</availability></publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>Born digital</p>
          </sourceDesc>
       </fileDesc>
    
